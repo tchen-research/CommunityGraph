@@ -12,10 +12,16 @@
   document.getElementById("subtitle").textContent = DATA.subtitle;
   document.title = DATA.title;
 
-  const groups = DATA.groups;
-  const groupIndex = new Map(groups.map((g, i) => [g.id, i]));
-  const seriesVar = (gid) => `var(--series-${(groupIndex.get(gid) ?? 0) + 1})`;
-  const groupLabel = (gid) => groups.find((g) => g.id === gid)?.label ?? gid;
+  // Two grouping modes: curated research areas, or detected collaboration
+  // communities (data/clusters.yaml). Colors, legend, and filters follow.
+  let groupMode = "area";
+  const areaIdx = new Map(DATA.groups.map((g, i) => [g.id, i]));
+  const commIdx = new Map((DATA.communities || []).map((c, i) => [c.id, i]));
+  const groupDefs = () => (groupMode === "area" ? DATA.groups : DATA.communities || []);
+  const nodeGroup = (n) => (groupMode === "area" ? n.group : n.community || "");
+  const seriesVar = (gid) =>
+    `var(--series-${((groupMode === "area" ? areaIdx : commIdx).get(gid) ?? 0) + 1})`;
+  const groupLabel = (gid) => groupDefs().find((g) => g.id === gid)?.label ?? gid;
 
   const papers = DATA.papers || [];
 
@@ -48,7 +54,7 @@
   let advisingView = false;
   let topicSet = null; // Set of person ids matching the topic filter, or null
   const selectedTopics = new Set();
-  const activeGroups = new Set(groups.map((g) => g.id));
+  const activeGroups = new Set(DATA.groups.map((g) => g.id));
   let selection = null; // {type: "node"|"edge", d}
 
   const topicLabels = new Map((DATA.topics || []).map((t) => [t.id, t.label]));
@@ -155,8 +161,7 @@
 
   const nodeSel = nodeLayer.selectAll("g.node").data(nodes).join("g")
     .attr("class", "node");
-  const circles = nodeSel.append("circle")
-    .style("fill", (d) => seriesVar(d.group));
+  const circles = nodeSel.append("circle"); // fill applied in refreshClasses
   const labels = nodeSel.append("text")
     .attr("dy", "0.32em")
     .text((d) => d.name);
@@ -234,7 +239,7 @@
       const np = (d.papers || []).length;
       showTip(ev, `<div class="tt-title">${esc(d.name)}</div>
         <div class="tt-sub">${esc(d.affiliation)}</div>
-        <div class="tt-sub">${esc(groupLabel(d.group))} · ${d.links.filter(l => l.visible).length} connections${np ? ` · ${np} papers` : ""}</div>`);
+        <div class="tt-sub">${esc(groupLabel(nodeGroup(d)))} · ${d.links.filter(l => l.visible).length} connections${np ? ` · ${np} papers` : ""}</div>`);
       refreshClasses();
     })
     .on("mousemove", (ev) => showTip(ev, tooltip.innerHTML))
@@ -254,7 +259,7 @@
 
   // ---------- rendering state -> classes/attrs -------------------------------
   function nodeActive(n) {
-    return activeGroups.has(n.group) && (!topicSet || topicSet.has(n.id));
+    return activeGroups.has(nodeGroup(n)) && (!topicSet || topicSet.has(n.id));
   }
 
   function neighborSetOf(n, includeHidden = false) {
@@ -282,7 +287,7 @@
         if (selEdge && d !== selEdge.source && d !== selEdge.target) return true;
         return false;
       });
-    circles.attr("r", (d) => d.r);
+    circles.attr("r", (d) => d.r).style("fill", (d) => seriesVar(nodeGroup(d)));
     labels.attr("x", (d) => d.r + 3);
 
     linkSel.style("display", (l) => (l.visible || revealed(l) ? null : "none"));
@@ -487,8 +492,8 @@
   const legendDiv = document.getElementById("legend");
   function renderLegend() {
     legendDiv.innerHTML = "";
-    groups.forEach((g) => {
-      const count = nodes.filter((n) => n.group === g.id).length;
+    groupDefs().forEach((g) => {
+      const count = nodes.filter((n) => nodeGroup(n) === g.id).length;
       const b = document.createElement("button");
       b.className = "legend-row" + (activeGroups.has(g.id) ? "" : " dimmed");
       b.innerHTML = `<span class="swatch" style="background:${seriesVar(g.id)}"></span>
@@ -503,6 +508,19 @@
     });
   }
   renderLegend();
+
+  document.querySelectorAll('#group-mode input[name="group-mode"]').forEach((r) =>
+    r.addEventListener("change", () => {
+      groupMode = r.value;
+      activeGroups.clear();
+      groupDefs().forEach((g) => activeGroups.add(g.id));
+      renderLegend();
+      renderPeopleList();
+      refreshClasses();
+      if (selection) renderDetails();
+    }));
+  if (!(DATA.communities || []).length)
+    document.getElementById("group-mode").hidden = true;
 
   // ---------- search + people list -------------------------------------------
   const searchInput = document.getElementById("search");
@@ -529,14 +547,18 @@
   });
 
   const peopleDiv = document.getElementById("people-list");
-  [...nodes].sort((a, b) => a.name.localeCompare(b.name)).forEach((n) => {
-    const b = document.createElement("button");
-    b.className = "person-row";
-    b.innerHTML = `<span class="swatch" style="background:${seriesVar(n.group)}"></span>
-      <span>${esc(n.name)}</span><span class="aff">${esc(n.affiliation)}</span>`;
-    b.addEventListener("click", () => focusNode(n));
-    peopleDiv.appendChild(b);
-  });
+  function renderPeopleList() {
+    peopleDiv.innerHTML = "";
+    [...nodes].sort((a, b) => a.name.localeCompare(b.name)).forEach((n) => {
+      const b = document.createElement("button");
+      b.className = "person-row";
+      b.innerHTML = `<span class="swatch" style="background:${seriesVar(nodeGroup(n))}"></span>
+        <span>${esc(n.name)}</span><span class="aff">${esc(n.affiliation)}</span>`;
+      b.addEventListener("click", () => focusNode(n));
+      peopleDiv.appendChild(b);
+    });
+  }
+  renderPeopleList();
 
   function focusNode(n) {
     sidebarEl.classList.remove("open"); // mobile sheet closes on selection
@@ -613,7 +635,7 @@
       .map((l) => {
         const other = l.source === n ? l.target : l.source;
         return `<button class="conn-row" data-edge="${l.i}">
-          <span class="swatch" style="background:${seriesVar(other.group)}"></span>
+          <span class="swatch" style="background:${seriesVar(nodeGroup(other))}"></span>
           <span>${esc(other.name)}</span>
           <span class="conn-bar-wrap"><span class="conn-bar" style="width:${Math.round(100 * l.rel)}%"></span></span>
         </button>`;
@@ -625,7 +647,7 @@
       <h2>${esc(n.name)}</h2>
       <div class="aff">${esc(n.affiliation)}</div>
       <div style="margin-top:6px">
-        <span class="chip" style="border-color:transparent;background:color-mix(in srgb, ${seriesVar(n.group)} 18%, transparent)">${esc(groupLabel(n.group))}</span>
+        <span class="chip" style="border-color:transparent;background:color-mix(in srgb, ${seriesVar(nodeGroup(n))} 18%, transparent)">${esc(groupLabel(nodeGroup(n)))}</span>
         ${(n.topics || []).map((t) => `<span class="chip">${esc(topicLabel(t))}</span>`).join("")}
       </div>
       ${n.notes ? `<p class="notes">${esc(n.notes)}</p>` : ""}

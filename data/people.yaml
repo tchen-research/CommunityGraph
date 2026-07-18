@@ -26,7 +26,7 @@
 - id: abraham-khan
   name: Abraham Khan
   affiliation: North Carolina State University
-  area: krylov
+  area: inverse
   topics:
   - kernels
   - tensors
@@ -324,7 +324,7 @@
 - id: david-bindel
   name: David Bindel
   affiliation: Cornell University
-  area: krylov
+  area: hpc
   topics:
   - eigenvalue
   - model-reduction
@@ -419,7 +419,7 @@
 - id: edo-liberty
   name: Edo Liberty
   affiliation: Pinecone
-  area: tcs
+  area: rand
   topics:
   - sketching
   - streaming
@@ -454,7 +454,7 @@
 - id: emeric-battaglia
   name: Emeric Battaglia
   affiliation: University of California, Irvine
-  area: krylov
+  area: opt
   topics:
   - kaczmarz
   - least-squares
@@ -629,7 +629,7 @@
 - id: israa-fakih
   name: Israa Fakih
   affiliation: EPFL / Paul Scherrer Institut
-  area: rand
+  area: hpc
   topics:
   - randomized-lowrank
   - sketching
@@ -716,7 +716,7 @@
 - id: jessie-chen
   name: Jessie Chen
   affiliation: North Carolina State University
-  area: krylov
+  area: inverse
   topics:
   - randomized-lowrank
   - kernels
@@ -848,7 +848,7 @@
 - id: leonardo-robol
   name: Leonardo Robol
   affiliation: University of Pisa
-  area: rand
+  area: krylov
   topics:
   - fast-solvers
   - matrix-equations
@@ -962,7 +962,7 @@
 - id: mariana-martinez-aguilar
   name: Mariana Martinez Aguilar
   affiliation: EPFL
-  area: rand
+  area: hpc
   topics:
   - tensors
   - randomized-lowrank
@@ -1040,7 +1040,7 @@
 - id: michael-saunders
   name: Michael Saunders
   affiliation: Stanford University
-  area: krylov
+  area: opt
   topics:
   - least-squares
   - krylov
@@ -1501,7 +1501,7 @@
 - id: stefano-massei
   name: Stefano Massei
   affiliation: University of Pisa
-  area: rand
+  area: krylov
   topics:
   - fast-solvers
   - matrix-equations
@@ -1534,7 +1534,7 @@
 - id: swati-padmanabhan
   name: Swati Padmanabhan
   affiliation: University of Minnesota Twin Cities
-  area: opt
+  area: tcs
   topics:
   - optimization
   - least-squares
@@ -1747,7 +1747,7 @@
 - id: zhipeng-xue
   name: Zhipeng Xue
   affiliation: EPFL
-  area: krylov
+  area: hpc
   topics:
   - randomized-lowrank
   - sketching

@@ -16,6 +16,8 @@
   --series-4: #5ab2d6;
   --series-5: #ffb268;
   --series-6: #9a6fb0;
+  --series-7: #8c5e2a;
+  --series-8: #6b7f99;
   --edge: #898781;
 }
 /* dark values apply from the OS setting unless the toggle forces light,
@@ -38,6 +40,8 @@
     --series-4: #5ab2d6;
     --series-5: #ffb268;
     --series-6: #a982c8;
+    --series-7: #b07a45;
+    --series-8: #8fa1bd;
   }
 }
 :root[data-theme="dark"] {
@@ -56,6 +60,8 @@
   --series-4: #5ab2d6;
   --series-5: #ffb268;
   --series-6: #a982c8;
+  --series-7: #b07a45;
+  --series-8: #8fa1bd;
 }
 
 * { box-sizing: border-box; }
@@ -530,3 +536,8 @@ input[type="range"]:not(.dual-range input)::-moz-range-thumb {
   #topic-chips { max-height: none; }
   #people-list { max-height: none; }
 }
+
+/* group-mode radio row */
+.mode-row { display: flex; flex-direction: column; gap: 3px; margin: 0 0 8px; font-size: 12.5px; color: var(--text-secondary); }
+.mode-row label { display: flex; align-items: center; gap: 6px; cursor: pointer; }
+.mode-row input { accent-color: var(--accent); }

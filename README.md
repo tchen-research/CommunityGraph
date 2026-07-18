@@ -39,8 +39,13 @@ In the app:
   threshold slider hides weak edges. The "right" metric is not settled, so it
   is tunable rather than baked in.
 - **Advising view** shows only advisor→student edges, with arrows.
-- Person search, a legend by research area (click to fade), zoom/pan, node
-  dragging (drag pins, double-click unpins).
+- **Two colorings**: curated research areas, or collaboration communities
+  detected by weighted Louvain over the closeness graph
+  (`tools/cluster_communities.py` → `data/clusters.yaml`; regenerate after
+  substantial data changes — needs `networkx`). The communities track
+  institutions and lineages as much as topics, which is part of the point.
+- Person search, a clickable legend (fade groups), zoom/pan, node dragging
+  (drag pins, double-click unpins).
 
 ## Data model — all human-readable YAML in `data/`
 
