@@ -57,6 +57,8 @@ ADVISING_VALUE = {"phd": 1.0, "postdoc": 0.7}
 def main():
     config = load("config.yaml", {})
     people = load("people.yaml", [])
+    topics = load("topics.yaml", [], required=False)
+    topic_ids = {t["id"] for t in topics}
     papers_in = load("papers.yaml", [], required=False)
     advising_in = load("advising.yaml", [], required=False)
     connections = load("connections.yaml", [])
@@ -80,6 +82,10 @@ def main():
             errors.append(f"person {pid} has no name")
         if p.get("area") and p["area"] not in group_ids:
             warnings.append(f"person {pid}: unknown area '{p['area']}'")
+        if topic_ids:
+            for t in p.get("topics") or []:
+                if t not in topic_ids:
+                    warnings.append(f"person {pid}: topic '{t}' not in topics.yaml")
         by_id[pid] = p
 
     # ---- papers ------------------------------------------------------------
@@ -251,6 +257,7 @@ def main():
                 "id": f["id"],
                 "label": f.get("label", f["id"]),
                 "kind": f.get("kind", "curated"),
+                "compute": f.get("compute", ""),
                 "max": f["max"],
                 "default_weight": f.get("default_weight", 1.0),
                 "description": (f.get("description") or "").strip(),
@@ -258,6 +265,7 @@ def main():
             for f in factors
         ],
         "groups": [{"id": g["id"], "label": g.get("label", g["id"])} for g in groups],
+        "topics": [{"id": t["id"], "label": t.get("label", t["id"])} for t in topics],
         "papers": papers,
         "advising": advising,
         "people": [

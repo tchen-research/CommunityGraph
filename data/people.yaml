@@ -20,11 +20,11 @@
 - id: abraham-khan
   name: Abraham Khan
   affiliation: North Carolina State University
-  area: nla
+  area: krylov
 - id: agnieszka-miedlar
   name: Agnieszka Miedlar
   affiliation: Virginia Tech
-  area: nla
+  area: krylov
   topics:
   - eigenvalue problems
   notes: Eigenvalue computations; co-organizer of the ICERM 2026 workshop.
@@ -42,7 +42,7 @@
 - id: akil-narayan
   name: Akil Narayan
   affiliation: University of Utah
-  area: nla
+  area: rand
   topics:
   - uncertainty quantification
   - sampling
@@ -52,7 +52,7 @@
 - id: alan-edelman
   name: Alan Edelman
   affiliation: Massachusetts Institute of Technology
-  area: nla
+  area: tcs
   topics:
   - random matrix theory
   - Julia
@@ -62,11 +62,11 @@
 - id: alberto-bucci
   name: Alberto Bucci
   affiliation: University of Edinburgh
-  area: nla
+  area: krylov
 - id: alex-townsend
   name: Alex Townsend
   affiliation: Cornell University
-  area: nla
+  area: rand
   topics:
   - low-rank theory
   - spectral methods
@@ -77,7 +77,7 @@
 - id: alice-cortinovis
   name: Alice Cortinovis
   affiliation: University of Pisa
-  area: nla
+  area: rand
   topics:
   - trace estimation
   - low-rank approximation
@@ -91,7 +91,7 @@
 - id: andrew-higgins
   name: Andrew Higgins
   affiliation: Sandia National Laboratories
-  area: nla
+  area: krylov
   website: https://sites.temple.edu/higgins/
   photo: https://sites.temple.edu/higgins/files/2023/09/Higgins_Photo_Temple_Math-1024x1024.jpg
 - id: anna-ma
@@ -106,7 +106,7 @@
 - id: anna-yesypenko
   name: Anna Yesypenko
   affiliation: University of Texas at Austin
-  area: nla
+  area: rand
   topics:
   - fast direct solvers
   notes: Randomized compression and fast direct solvers.
@@ -115,7 +115,7 @@
 - id: anne-greenbaum
   name: Anne Greenbaum
   affiliation: University of Washington
-  area: nla
+  area: krylov
   topics:
   - Krylov methods
   - finite precision
@@ -135,7 +135,7 @@
 - id: benjamin-carrel
   name: Benjamin Carrel
   affiliation: Paul Scherrer Institut
-  area: nla
+  area: rand
 - id: cameron-musco
   name: Cameron Musco
   affiliation: University of Massachusetts Amherst
@@ -150,7 +150,7 @@
 - id: chris-camano
   name: Chris Camaño
   affiliation: California Institute of Technology
-  area: nla
+  area: rand
   topics:
   - randomized tensor methods
   notes: Randomized algorithms for tensor networks and Krylov methods.
@@ -159,7 +159,7 @@
 - id: christopher-beattie
   name: Christopher Beattie
   affiliation: Virginia Tech
-  area: nla
+  area: krylov
 - id: christopher-musco
   name: Christopher Musco
   affiliation: New York University
@@ -175,7 +175,7 @@
 - id: daniel-kressner
   name: Daniel Kressner
   affiliation: EPFL
-  area: nla
+  area: rand
   topics:
   - low-rank approximation
   - tensors
@@ -187,7 +187,7 @@
 - id: daniel-szyld
   name: Daniel Szyld
   affiliation: Temple University
-  area: nla
+  area: krylov
   topics:
   - Krylov methods
   - asynchronous iterations
@@ -206,7 +206,7 @@
 - id: david-bindel
   name: David Bindel
   affiliation: Cornell University
-  area: nla
+  area: krylov
   topics:
   - eigenvalue problems
   - kernel methods
@@ -216,7 +216,7 @@
 - id: david-persson
   name: David Persson
   affiliation: New York University / Flatiron Institute
-  area: nla
+  area: rand
   topics:
   - randomized trace estimation
   - low-rank approximation
@@ -238,7 +238,7 @@
 - id: davide-palitta
   name: Davide Palitta
   affiliation: University of Bologna
-  area: nla
+  area: krylov
   topics:
   - matrix equations
   notes: Matrix equations and large-scale Sylvester/Lyapunov solvers.
@@ -258,7 +258,7 @@
 - id: diana-halikias
   name: Diana Halikias
   affiliation: New York University
-  area: nla
+  area: rand
   topics:
   - operator learning
   - low-rank recovery
@@ -268,7 +268,7 @@
 - id: edmond-chow
   name: Edmond Chow
   affiliation: Georgia Institute of Technology
-  area: nla
+  area: hpc
   topics:
   - preconditioning
   - parallel algorithms
@@ -308,11 +308,11 @@
 - id: emeric-battaglia
   name: Emeric Battaglia
   affiliation: University of California, Irvine
-  area: nla
+  area: krylov
 - id: eric-de-sturler
   name: Eric de Sturler
   affiliation: Virginia Tech
-  area: nla
+  area: krylov
   topics:
   - Krylov recycling
   notes: Krylov subspace recycling; inverse problems.
@@ -321,7 +321,7 @@
 - id: erin-carson
   name: Erin Carson
   affiliation: Charles University
-  area: nla
+  area: hpc
   topics:
   - mixed precision
   - communication-avoiding Krylov
@@ -341,7 +341,7 @@
 - id: ethan-epperly
   name: Ethan Epperly
   affiliation: California Institute of Technology
-  area: nla
+  area: rand
   topics:
   - RPCholesky
   - randomized low-rank
@@ -365,11 +365,11 @@
 - id: george-turkiyyah
   name: George Turkiyyah
   affiliation: KAUST
-  area: nla
+  area: hpc
 - id: haim-avron
   name: Haim Avron
   affiliation: Tel Aviv University
-  area: nla
+  area: rand
   topics:
   - trace estimation
   - sketching
@@ -385,7 +385,7 @@
 - id: heather-wilber
   name: Heather Wilber
   affiliation: University of Texas at Austin
-  area: nla
+  area: rand
   topics:
   - rational approximation
   - low-rank structure
@@ -395,7 +395,7 @@
 - id: ieva-dauzickaite
   name: Ieva Daužickaitė
   affiliation: CERFACS
-  area: nla
+  area: hpc
   topics:
   - mixed precision
   - randomized methods
@@ -405,7 +405,7 @@
 - id: igor-simunec
   name: Igor Simunec
   affiliation: EPFL
-  area: nla
+  area: krylov
   topics:
   - matrix functions
   - Krylov methods
@@ -415,7 +415,7 @@
 - id: ilse-ipsen
   name: Ilse Ipsen
   affiliation: North Carolina State University
-  area: nla
+  area: rand
   topics:
   - perturbation theory
   - leverage scores
@@ -426,7 +426,7 @@
 - id: ioana-dumitriu
   name: Ioana Dumitriu
   affiliation: University of California, San Diego
-  area: nla
+  area: tcs
   topics:
   - random matrix theory
   - spectral algorithms
@@ -436,7 +436,7 @@
 - id: israa-fakih
   name: Israa Fakih
   affiliation: EPFL / Paul Scherrer Institut
-  area: nla
+  area: rand
 - id: jackie-lok
   name: Jackie Lok
   affiliation: National University of Singapore
@@ -449,7 +449,7 @@
 - id: james-baglama
   name: James Baglama
   affiliation: University of Rhode Island
-  area: nla
+  area: krylov
   topics:
   - SVD algorithms
   notes: 'IRLBA: restarted Lanczos bidiagonalization for the partial SVD.'
@@ -458,7 +458,7 @@
 - id: james-demmel
   name: James Demmel
   affiliation: University of California, Berkeley
-  area: nla
+  area: hpc
   topics:
   - LAPACK
   - communication-avoiding
@@ -488,11 +488,11 @@
 - id: jessie-chen
   name: Jessie Chen
   affiliation: North Carolina State University
-  area: nla
+  area: krylov
 - id: joel-tropp
   name: Joel Tropp
   affiliation: California Institute of Technology
-  area: nla
+  area: rand
   topics:
   - matrix concentration
   - randomized algorithms
@@ -504,7 +504,7 @@
 - id: john-urschel
   name: John Urschel
   affiliation: Massachusetts Institute of Technology
-  area: nla
+  area: tcs
   topics:
   - matrix analysis
   - Lanczos theory
@@ -534,7 +534,7 @@
 - id: julien-langou
   name: Julien Langou
   affiliation: University of Colorado Denver
-  area: nla
+  area: hpc
   topics:
   - LAPACK
   - communication-avoiding QR
@@ -544,11 +544,11 @@
 - id: jung-eun-huh
   name: Jung Eun Huh
   affiliation: University of Oxford
-  area: nla
+  area: rand
 - id: jorg-liesen
   name: Jörg Liesen
   affiliation: TU Berlin
-  area: nla
+  area: krylov
   topics:
   - Krylov theory
   notes: Krylov subspace methods theory; monograph with Strakoš.
@@ -557,11 +557,11 @@
 - id: kapil-ahuja
   name: Kapil Ahuja
   affiliation: Virginia Tech
-  area: nla
+  area: krylov
 - id: katherine-pearce
   name: Katherine Pearce
   affiliation: University of Texas at Austin
-  area: nla
+  area: rand
   topics:
   - randomized low-rank
   notes: Randomized interpolative and CUR-type decompositions.
@@ -580,7 +580,7 @@
 - id: laura-grigori
   name: Laura Grigori
   affiliation: EPFL
-  area: nla
+  area: hpc
   topics:
   - communication-avoiding
   - randomized orthogonalization
@@ -591,7 +591,7 @@
 - id: linkai-ma
   name: Linkai Ma
   affiliation: Purdue University
-  area: nla
+  area: rand
 - id: lior-horesh
   name: Lior Horesh
   affiliation: IBM Research
@@ -605,7 +605,7 @@
 - id: lorenzo-piccinini
   name: Lorenzo Piccinini
   affiliation: University of Bologna
-  area: nla
+  area: krylov
 - id: lothar-reichel
   name: Lothar Reichel
   affiliation: Kent State University
@@ -646,11 +646,11 @@
 - id: mariana-martinez-aguilar
   name: Mariana Martinez Aguilar
   affiliation: EPFL
-  area: nla
+  area: rand
 - id: mark-tygert
   name: Mark Tygert
   affiliation: Meta
-  area: nla
+  area: rand
   topics:
   - randomized SVD origins
   notes: Early randomized algorithms for matrix approximation (with Rokhlin and Martinsson).
@@ -688,7 +688,7 @@
 - id: michael-mahoney
   name: Michael Mahoney
   affiliation: University of California, Berkeley
-  area: nla
+  area: rand
   topics:
   - leverage scores
   - RandNLA foundations
@@ -711,7 +711,7 @@
 - id: ming-gu
   name: Ming Gu
   affiliation: University of California, Berkeley
-  area: nla
+  area: rand
   topics:
   - rank-revealing factorizations
   - randomized QR
@@ -745,7 +745,7 @@
 - id: nicholas-higham
   name: Nicholas Higham
   affiliation: University of Manchester
-  area: nla
+  area: hpc
   topics:
   - matrix functions
   - mixed precision
@@ -756,7 +756,7 @@
 - id: nicolas-boulle
   name: Nicolas Boullé
   affiliation: Imperial College London
-  area: nla
+  area: rand
   topics:
   - operator learning
   notes: Data-efficient operator learning; learning Green's functions.
@@ -787,7 +787,7 @@
 - id: olga-holtz
   name: Olga Holtz
   affiliation: University of California, Berkeley
-  area: nla
+  area: tcs
   topics:
   - stability theory
   - fast algorithms
@@ -797,11 +797,11 @@
 - id: omar-de-la-cruz-cabrera
   name: Omar De la Cruz Cabrera
   affiliation: Kent State University
-  area: nla
+  area: krylov
 - id: paul-cazeaux
   name: Paul Cazeaux
   affiliation: Virginia Tech
-  area: nla
+  area: krylov
 - id: peng-zhang
   name: Peng Zhang
   affiliation: Rutgers University
@@ -811,7 +811,7 @@
 - id: per-gunnar-martinsson
   name: Per-Gunnar Martinsson
   affiliation: University of Texas at Austin
-  area: nla
+  area: rand
   topics:
   - randomized SVD
   - fast direct solvers
@@ -823,7 +823,7 @@
 - id: petros-drineas
   name: Petros Drineas
   affiliation: Purdue University
-  area: nla
+  area: rand
   topics:
   - sketching
   - CUR & leverage scores
@@ -895,7 +895,7 @@
 - id: riley-murray
   name: Riley Murray
   affiliation: Sandia National Laboratories
-  area: nla
+  area: hpc
   topics:
   - RandNLA software
   notes: Leads the RandLAPACK / RandBLAS standardization effort.
@@ -914,7 +914,7 @@
 - id: robert-webber
   name: Robert Webber
   affiliation: University of California, San Diego
-  area: nla
+  area: rand
   topics:
   - randomized algorithms
   - Monte Carlo
@@ -924,11 +924,11 @@
 - id: rudi-smith
   name: Rudi Smith
   affiliation: Virginia Tech
-  area: nla
+  area: krylov
 - id: ruhui-jin
   name: Ruhui Jin
   affiliation: Johns Hopkins University
-  area: nla
+  area: rand
   topics:
   - tensor sketching
   notes: Sketching for tensor problems.
@@ -937,7 +937,7 @@
 - id: ryan-schneider
   name: Ryan Schneider
   affiliation: University of California, Berkeley
-  area: nla
+  area: tcs
   topics:
   - eigenvalue problems
   - pseudospectra
@@ -958,11 +958,11 @@
 - id: sascha-portaro
   name: Sascha Portaro
   affiliation: University of Bologna
-  area: nla
+  area: krylov
 - id: shashanka-ubaru
   name: Shashanka Ubaru
   affiliation: IBM Research
-  area: nla
+  area: krylov
   topics:
   - trace estimation
   - graph ML
@@ -972,7 +972,7 @@
 - id: sivan-toledo
   name: Sivan Toledo
   affiliation: Tel Aviv University
-  area: nla
+  area: hpc
   topics:
   - sparse solvers
   - trace estimation
@@ -982,7 +982,7 @@
 - id: stefano-massei
   name: Stefano Massei
   affiliation: University of Pisa
-  area: nla
+  area: rand
   topics:
   - hierarchical matrices
   notes: Hierarchical / rank-structured matrix computations.
@@ -991,7 +991,7 @@
 - id: stefano-pozza
   name: Stefano Pozza
   affiliation: Charles University
-  area: nla
+  area: krylov
   topics:
   - Krylov methods
   - matrix functions
@@ -1015,7 +1015,7 @@
 - id: taejun-park
   name: Taejun Park
   affiliation: EPFL
-  area: nla
+  area: rand
   topics:
   - randomized low-rank
   notes: Randomized low-rank approximation algorithms.
@@ -1033,7 +1033,7 @@
 - id: thomas-trogdon
   name: Thomas Trogdon
   affiliation: University of Washington
-  area: nla
+  area: krylov
   topics:
   - random matrices
   - universality
@@ -1043,7 +1043,7 @@
 - id: theo-mary
   name: Théo Mary
   affiliation: CNRS
-  area: nla
+  area: hpc
   topics:
   - mixed precision
   - probabilistic error analysis
@@ -1053,7 +1053,7 @@
 - id: tyler-chen
   name: Tyler Chen
   affiliation: JPMorganChase
-  area: nla
+  area: krylov
   topics:
   - Lanczos
   - stochastic trace estimation
@@ -1065,7 +1065,7 @@
 - id: valeria-simoncini
   name: Valeria Simoncini
   affiliation: University of Bologna
-  area: nla
+  area: krylov
   topics:
   - matrix equations
   - Krylov methods
@@ -1075,7 +1075,7 @@
 - id: vasilije-perovic
   name: Vasilije Perovic
   affiliation: University of Rhode Island
-  area: nla
+  area: krylov
 - id: vishwas-rao
   name: Vishwas Rao
   affiliation: Argonne National Laboratory
@@ -1087,7 +1087,7 @@
 - id: vladimir-rokhlin
   name: Vladimir Rokhlin
   affiliation: Yale University
-  area: nla
+  area: rand
   topics:
   - fast multipole
   - randomized low-rank origins
@@ -1098,11 +1098,11 @@
 - id: xiaoou-cheng
   name: Xiaoou Cheng
   affiliation: New York University
-  area: nla
+  area: krylov
 - id: xiaoye-sherry-li
   name: Xiaoye Sherry Li
   affiliation: Lawrence Berkeley National Laboratory
-  area: nla
+  area: hpc
   topics:
   - sparse direct solvers
   notes: SuperLU sparse direct solvers; scalable numerical libraries.
@@ -1111,7 +1111,7 @@
 - id: yijun-dong
   name: Yijun Dong
   affiliation: New York University
-  area: nla
+  area: rand
   topics:
   - randomized low-rank
   - dimension reduction
@@ -1121,7 +1121,7 @@
 - id: yousef-saad
   name: Yousef Saad
   affiliation: University of Minnesota
-  area: nla
+  area: krylov
   topics:
   - Krylov methods
   - preconditioning
@@ -1132,7 +1132,7 @@
 - id: yuji-nakatsukasa
   name: Yuji Nakatsukasa
   affiliation: University of Oxford
-  area: nla
+  area: rand
   topics:
   - eigenvalue algorithms
   - randomized low-rank
@@ -1144,7 +1144,7 @@
 - id: zdenek-strakos
   name: Zdeněk Strakoš
   affiliation: Charles University
-  area: nla
+  area: krylov
   topics:
   - Krylov theory
   - finite precision
@@ -1154,7 +1154,7 @@
 - id: zhaojun-bai
   name: Zhaojun Bai
   affiliation: University of California, Davis
-  area: nla
+  area: hpc
   topics:
   - eigenvalue problems
   - LAPACK
@@ -1164,4 +1164,4 @@
 - id: zhipeng-xue
   name: Zhipeng Xue
   affiliation: EPFL
-  area: nla
+  area: krylov

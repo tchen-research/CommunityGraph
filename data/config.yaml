@@ -70,7 +70,9 @@ factors:
 # unknown/missing area fall into the first group.
 # -----------------------------------------------------------------------------
 node_groups:
-  - { id: nla,     label: "Numerical linear algebra" }
-  - { id: tcs,     label: "Theory & sketching" }
+  - { id: rand,    label: "Randomized low-rank & sketching" }
+  - { id: krylov,  label: "Krylov & matrix functions" }
+  - { id: hpc,     label: "HPC, software & precision" }
+  - { id: tcs,     label: "Theory & random matrices" }
   - { id: opt,     label: "Optimization & ML" }
   - { id: inverse, label: "Inverse problems & imaging" }

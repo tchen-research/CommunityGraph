@@ -47,26 +47,36 @@
   let threshold = 0;
   let advisingView = false;
   let topicSet = null; // Set of person ids matching the topic filter, or null
+  const selectedTopics = new Set();
   const activeGroups = new Set(groups.map((g) => g.id));
   let selection = null; // {type: "node"|"edge", d}
 
-  // searchable text per person for the topic filter: topics + notes + titles
-  // of their tracked papers (134 people x short strings - trivially fast)
-  nodes.forEach((n) => {
-    n.blob = [
-      ...(n.topics || []),
-      n.notes || "",
-      ...(n.papers || []).map((i) => papers[i].title),
-    ].join(" \n ").toLowerCase();
-  });
+  const topicLabels = new Map((DATA.topics || []).map((t) => [t.id, t.label]));
+  const topicLabel = (t) => topicLabels.get(t) ?? t;
+
+  // ---------- year range (filters which papers count) -------------------------
+  const paperYears = papers.map((p) => p.year).filter((y) => y);
+  const YEAR_MIN = paperYears.length ? Math.min(...paperYears) : 1990;
+  const YEAR_MAX = paperYears.length ? Math.max(...paperYears) : 2026;
+  let yearStart = YEAR_MIN, yearStop = YEAR_MAX;
+  const fullRange = () => yearStart <= YEAR_MIN && yearStop >= YEAR_MAX;
+  // undated papers count only when the range is untouched
+  const paperInRange = (idx) => {
+    const y = papers[idx].year;
+    return fullRange() ? true : (y != null && y >= yearStart && y <= yearStop);
+  };
 
   // ---------- scoring ---------------------------------------------------------
   function computeScores() {
     let maxScore = 0;
     for (const l of links) {
+      l.papersInRange = (l.paper_ids || []).filter(paperInRange);
       let s = 0;
       for (const f of DATA.factors) {
-        const v = Math.min(l.factors[f.id] || 0, f.max);
+        const raw = f.compute === "papers"
+          ? l.papersInRange.length
+          : (l.factors[f.id] || 0);
+        const v = Math.min(raw, f.max);
         s += weights[f.id] * (v / f.max);
       }
       l.score = s;
@@ -274,7 +284,12 @@
         return false;
       })
       .attr("stroke-width", (l) => 1 + 4 * l.rel)
-      .attr("stroke-opacity", (l) => 0.25 + 0.55 * l.rel);
+      .attr("stroke-opacity", (l) => {
+        // weak edges recede until a node/edge is focused
+        const related = (focus && (l.source === focus || l.target === focus)) ||
+                        l === selEdge;
+        return related ? 0.85 : 0.06 + 0.55 * Math.pow(l.rel, 1.6);
+      });
   }
 
   function refreshForces(reheat = true) {
@@ -297,10 +312,13 @@
 
   function renderStats() {
     const vis = links.filter((l) => l.visible).length;
+    const nPapers = fullRange()
+      ? papers.length
+      : papers.filter((_, i) => paperInRange(i)).length;
     document.getElementById("stats").textContent =
       `${nodes.length} people · ${vis}/${links.length} edges · ` +
-      `${papers.length} papers · ${(DATA.advising || []).length} advising ties · ` +
-      `generated ${DATA.generated}`;
+      `${nPapers}${fullRange() ? "" : `/${papers.length}`} papers · ` +
+      `${(DATA.advising || []).length} advising ties · generated ${DATA.generated}`;
   }
 
   // ---------- controls --------------------------------------------------------
@@ -338,6 +356,40 @@
     });
   });
 
+  const yearStartInput = document.getElementById("year-start");
+  const yearStopInput = document.getElementById("year-stop");
+  const yearsValue = document.getElementById("years-value");
+  [yearStartInput, yearStopInput].forEach((el) => {
+    el.min = YEAR_MIN; el.max = YEAR_MAX; el.step = 1;
+  });
+  yearStartInput.value = YEAR_MIN;
+  yearStopInput.value = YEAR_MAX;
+  const yearsFill = document.getElementById("years-fill");
+  function paintYears() {
+    yearsValue.textContent = `${yearStart} – ${yearStop}`;
+    const span = YEAR_MAX - YEAR_MIN || 1;
+    yearsFill.style.left = `${(100 * (yearStart - YEAR_MIN)) / span}%`;
+    yearsFill.style.width = `${(100 * (yearStop - yearStart)) / span}%`;
+    // keep the reachable thumb on top when both sit at one end
+    const mid = (YEAR_MIN + YEAR_MAX) / 2;
+    yearStartInput.style.zIndex = yearStart > mid ? 3 : 2;
+    yearStopInput.style.zIndex = yearStart > mid ? 2 : 3;
+  }
+  paintYears();
+  function onYearInput() {
+    let a = Number(yearStartInput.value), b = Number(yearStopInput.value);
+    if (a > b) { // keep start <= stop by dragging the other thumb along
+      if (this === yearStartInput) { b = a; yearStopInput.value = a; }
+      else { a = b; yearStartInput.value = b; }
+    }
+    yearStart = a; yearStop = b;
+    paintYears();
+    update();
+  }
+  yearStartInput.addEventListener("input", onYearInput);
+  yearStopInput.addEventListener("input", onYearInput);
+  if (!papers.length) document.getElementById("years-row").hidden = true;
+
   const thInput = document.getElementById("threshold");
   thInput.addEventListener("input", () => {
     threshold = Number(thInput.value);
@@ -352,23 +404,56 @@
     update();
   });
 
-  // ---------- topic filter ----------------------------------------------------
+  // ---------- topic filter (whitelist chips; multiple selected = OR) ----------
   const topicInput = document.getElementById("topic-search");
+  const topicChips = document.getElementById("topic-chips");
   const topicCount = document.getElementById("topic-count");
-  topicInput.addEventListener("input", () => {
-    const q = topicInput.value.trim().toLowerCase();
-    if (q.length < 2) {
+  const topicClear = document.getElementById("topic-clear");
+  const topicPeople = new Map((DATA.topics || []).map((t) => [
+    t.id, nodes.filter((n) => (n.topics || []).includes(t.id)).map((n) => n.id),
+  ]));
+
+  function applyTopics() {
+    if (selectedTopics.size === 0) {
       topicSet = null;
       topicCount.textContent = "";
     } else {
-      topicSet = new Set(nodes.filter((n) => n.blob.includes(q)).map((n) => n.id));
-      const nPapers = papers.filter((p) => p.title.toLowerCase().includes(q)).length;
-      topicCount.textContent = topicSet.size
-        ? `${topicSet.size} people · ${nPapers} matching papers`
-        : "no matches";
+      topicSet = new Set();
+      selectedTopics.forEach((t) => (topicPeople.get(t) || []).forEach((p) => topicSet.add(p)));
+      topicCount.textContent = `${topicSet.size} people match`;
     }
+    topicClear.hidden = selectedTopics.size === 0;
+    renderTopicChips();
     refreshClasses();
+  }
+
+  function renderTopicChips() {
+    const q = topicInput.value.trim().toLowerCase();
+    topicChips.innerHTML = "";
+    (DATA.topics || [])
+      .filter((t) => selectedTopics.has(t.id) ||
+                     !q || t.label.toLowerCase().includes(q))
+      .forEach((t) => {
+        const count = (topicPeople.get(t.id) || []).length;
+        if (!count && !selectedTopics.has(t.id)) return;
+        const b = document.createElement("button");
+        b.className = "topic-chip" + (selectedTopics.has(t.id) ? " on" : "");
+        b.innerHTML = `${esc(t.label)} <span class="chip-count">${count}</span>`;
+        b.addEventListener("click", () => {
+          selectedTopics.has(t.id) ? selectedTopics.delete(t.id) : selectedTopics.add(t.id);
+          applyTopics();
+        });
+        topicChips.appendChild(b);
+      });
+  }
+
+  topicInput.addEventListener("input", renderTopicChips);
+  topicClear.addEventListener("click", () => {
+    selectedTopics.clear();
+    topicInput.value = "";
+    applyTopics();
   });
+  renderTopicChips();
 
   // ---------- legend ----------------------------------------------------------
   const legendDiv = document.getElementById("legend");
@@ -489,7 +574,7 @@
     const students = (studentsOf.get(n.id) || []).map((r) =>
       `<li>${personLink(nodeById.get(r.student))} <span class="chip">${kindLabel(r.kind)}</span></li>`).join("");
 
-    const myPapers = [...(n.papers || [])]
+    const myPapers = (n.papers || []).filter(paperInRange)
       .sort((a, b) => (papers[b].year ?? 0) - (papers[a].year ?? 0));
     const omit = new Set([n.id]);
     const paperItems = myPapers.map((idx) => paperLi(idx, { omit })).join("");
@@ -512,7 +597,7 @@
       <div class="aff">${esc(n.affiliation)}</div>
       <div style="margin-top:6px">
         <span class="chip" style="border-color:transparent;background:color-mix(in srgb, ${seriesVar(n.group)} 18%, transparent)">${esc(groupLabel(n.group))}</span>
-        ${(n.topics || []).map((t) => `<span class="chip">${esc(t)}</span>`).join("")}
+        ${(n.topics || []).map((t) => `<span class="chip">${esc(topicLabel(t))}</span>`).join("")}
       </div>
       ${n.notes ? `<p class="notes">${esc(n.notes)}</p>` : ""}
       <h3>Links</h3>
@@ -527,7 +612,9 @@
 
   function edgeHtml(l) {
     const rows = DATA.factors.map((f) => {
-      const raw = l.factors[f.id] || 0;
+      const raw = f.compute === "papers"
+        ? (l.papersInRange || []).length
+        : (l.factors[f.id] || 0);
       const v = Math.min(raw, f.max);
       const contrib = weights[f.id] * (v / f.max);
       return `<tr class="${raw === 0 ? "zero" : ""}" title="${esc(f.description)}">
@@ -541,7 +628,7 @@
     const adv = (l.advising || []).map((r) =>
       `<div>${personLink(nodeById.get(r.advisor))} → ${personLink(nodeById.get(r.student))}
        <span class="chip">${kindLabel(r.kind)}</span></div>`).join("");
-    const jointPapers = [...(l.paper_ids || [])]
+    const jointPapers = [...(l.papersInRange || l.paper_ids || [])]
       .sort((a, b) => (papers[b].year ?? 0) - (papers[a].year ?? 0));
     const omit = new Set([l.source.id, l.target.id]);
     const paperItems = jointPapers.map((idx) => paperLi(idx, { omit })).join("");

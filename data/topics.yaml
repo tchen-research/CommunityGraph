@@ -1,0 +1,33 @@
+# Topic vocabulary for the topic filter. Each person's `topics` list in
+# people.yaml should use these ids. The app shows the labels as toggleable
+# filter chips (multiple selected = OR). Add new topics here first, then tag
+# people with them.
+
+- {id: sketching,          label: "Sketching & embeddings"}
+- {id: randomized-lowrank, label: "Randomized low-rank approximation"}
+- {id: trace-estimation,   label: "Trace & spectrum estimation"}
+- {id: krylov,             label: "Krylov subspace methods"}
+- {id: matrix-functions,   label: "Matrix functions"}
+- {id: eigenvalue,         label: "Eigenvalue problems"}
+- {id: finite-precision,   label: "Finite-precision analysis"}
+- {id: mixed-precision,    label: "Mixed precision"}
+- {id: least-squares,      label: "Least squares & regression"}
+- {id: kaczmarz,           label: "Kaczmarz & stochastic iterative"}
+- {id: optimization,       label: "Optimization & learning"}
+- {id: compressed-sensing, label: "Compressed sensing"}
+- {id: inverse-problems,   label: "Inverse problems & imaging"}
+- {id: regularization,     label: "Regularization"}
+- {id: tensors,            label: "Tensor methods"}
+- {id: matrix-equations,   label: "Matrix equations"}
+- {id: model-reduction,    label: "Model reduction"}
+- {id: preconditioning,    label: "Preconditioning"}
+- {id: fast-solvers,       label: "Fast & rank-structured solvers"}
+- {id: hpc,                label: "HPC & communication avoiding"}
+- {id: software,           label: "Software & libraries"}
+- {id: rmt,                label: "Random matrix theory"}
+- {id: graph-algorithms,   label: "Graphs & Laplacians"}
+- {id: streaming,          label: "Streaming & query complexity"}
+- {id: operator-learning,  label: "Operator learning & scientific ML"}
+- {id: kernels,            label: "Kernel methods"}
+- {id: uq,                 label: "Uncertainty quantification"}
+- {id: quantum,            label: "Quantum computing"}

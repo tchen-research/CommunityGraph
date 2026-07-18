@@ -27,10 +27,10 @@
     <section class="panel">
       <label class="panel-heading" for="topic-search">Filter by topic</label>
       <input id="topic-search" type="search" autocomplete="off"
-             placeholder="e.g. trace estimation, Kaczmarz…">
-      <p class="hint" style="margin:6px 0 0">Matches topics, bios, and paper
-        titles; everyone else fades.</p>
-      <div id="topic-count" class="hint" style="margin:4px 0 0"></div>
+             placeholder="Find a topic…">
+      <div id="topic-chips"></div>
+      <div id="topic-count" class="hint" style="margin:6px 0 0"></div>
+      <button id="topic-clear" class="ghost-btn" style="margin-top:8px" hidden>Clear topics</button>
     </section>
 
     <section class="panel">
@@ -38,6 +38,18 @@
       <p class="hint">Edge closeness is a weighted sum of these factors.
         Drag to tune the metric; the layout follows.</p>
       <div id="weight-sliders"></div>
+      <div class="slider-row" id="years-row">
+        <div class="slider-label">
+          <span>Papers from</span>
+          <span class="slider-value" id="years-value"></span>
+        </div>
+        <div class="dual-range">
+          <div class="track"></div>
+          <div class="track-fill" id="years-fill"></div>
+          <input id="year-start" type="range" aria-label="First year">
+          <input id="year-stop" type="range" aria-label="Last year">
+        </div>
+      </div>
       <div class="slider-row" id="threshold-row">
         <div class="slider-label">
           <span>Hide edges weaker than</span>
