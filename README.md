@@ -18,12 +18,15 @@ In the app:
   students, tracked papers, and connections ranked by closeness. **Click an
   edge** for the joint papers, advising relation, and the factor-by-factor
   breakdown of the closeness score.
+- **Filter by topic**: free-text filter over topics, bios, and paper titles
+  (e.g. "trace estimation", "Kaczmarz") — matching people stay, the rest
+  fade.
 - **Sliders** re-weight the closeness metric live (the layout follows); a
   threshold slider hides weak edges. The "right" metric is not settled, so it
   is tunable rather than baked in.
 - **Advising view** shows only advisor→student edges, with arrows.
-- Search, a legend by research area (click to fade), zoom/pan, node dragging
-  (drag pins, double-click unpins).
+- Person search, a legend by research area (click to fade), zoom/pan, node
+  dragging (drag pins, double-click unpins).
 
 ## Data model — all human-readable YAML in `data/`
 
@@ -33,8 +36,7 @@ In the app:
 | `papers.yaml` | Papers with ≥ 2 in-graph authors. Every paper generates/strengthens the coauthorship edge between each pair of its authors. |
 | `advising.yaml` | Directed records `advisor → student`, `kind: phd \| postdoc`. Drives the advising factor and the arrows. |
 | `connections.yaml` | Curated edge annotations: free-text `notes`/`links` plus the `collaboration` factor. An entry also guarantees the edge exists. |
-| `workshops.yaml` | Workshop rosters (the original provenance of the node set; feeds the shared-workshops factor). |
-| `config.yaml` | The metric (factor definitions, defaults), area groups, build options. |
+| `config.yaml` | The metric (factor definitions, defaults) and area groups. |
 
 `build.py` validates cross-references (unknown ids, duplicate edges/papers,
 bad factor values fail the build), dedupes papers by normalized title, and
@@ -45,11 +47,11 @@ compiles everything to `site/data.js`.
 Each edge's score is `sum_f weight[f] * min(value[f], max[f]) / max[f]`:
 
 - `coauthor` — number of tracked joint papers (computed from `papers.yaml`,
-  capped at 8).
+  capped at 10).
 - `advising` — 1.0 for a PhD advisor tie, 0.7 for postdoc (computed from
   `advising.yaml`).
 - `collaboration` — curated 0–2 for non-paper collaboration.
-- `shared_workshops`, `same_institution`, `co_organized` — computed.
+- `same_institution` — computed from matching affiliation strings.
 
 Default weights are starting points; the UI tunes them per-session.
 
@@ -57,8 +59,9 @@ Default weights are starting points; the UI tunes them per-session.
 
 - The node set began as the union of the BIRS 23w5108 (Banff 2023) and ICERM
   RandNLA (Feb 2026) participant lists plus a dozen hand-added core figures;
-  attendees with no discovered ties were later pruned (their names remain in
-  git history / the workshop pages).
+  attendees with no discovered ties were later pruned. The rosters live on in
+  `tools/workshops_archive.yaml` — the graph itself no longer uses workshop
+  data.
 - Papers were collected person-by-person (DBLP primarily, homepages second)
   by research agents in July 2026, with the brief "cover every coauthor pair,
   prefer representative papers" — it is a *representative* bibliography, not

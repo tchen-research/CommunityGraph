@@ -29,10 +29,10 @@ factors:
     label: Joint papers
     kind: computed
     compute: papers
-    max: 8
+    max: 10
     default_weight: 1.0
     description: >
-      Number of tracked joint papers (papers.yaml), capped at 8 - eight or
+      Number of tracked joint papers (papers.yaml), capped at 10 - ten or
       more tracked papers counts as full strength.
 
   - id: advising
@@ -54,16 +54,6 @@ factors:
       Collaboration beyond papers: joint software, co-organizing, joint
       grants/projects. 1 = some · 2 = substantial.
 
-  - id: shared_workshops
-    label: Shared workshops
-    kind: computed
-    compute: shared_workshops
-    max: 2
-    default_weight: 0.3
-    description: >
-      Number of listed workshops both people attended (computed from
-      workshops.yaml).
-
   - id: same_institution
     label: Same institution
     kind: computed
@@ -73,28 +63,6 @@ factors:
     description: >
       1 = current affiliations match (computed from people.yaml; requires the
       affiliation strings to be written consistently).
-
-  - id: co_organized
-    label: Co-organized workshops
-    kind: computed
-    compute: co_organized
-    max: 1
-    default_weight: 0.6
-    description: >
-      Number of listed workshops the two people organized together (computed
-      from workshops.yaml).
-
-# -----------------------------------------------------------------------------
-# If true, co-attending a workshop by itself creates an edge between every
-# pair of attendees (a complete graph per workshop - dense but sometimes
-# useful). If false, co-attendance only contributes as a factor on edges that
-# are explicitly curated in connections.yaml.
-# -----------------------------------------------------------------------------
-coattendance_edges: false
-
-# Co-organizing a workshop is a deliberate tie, so (unlike co-attendance)
-# it does create an edge between the organizers by default.
-coorganizer_edges: true
 
 # -----------------------------------------------------------------------------
 # Node color groups: each person's `area` field in people.yaml selects a

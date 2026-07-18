@@ -17,7 +17,6 @@
   const seriesVar = (gid) => `var(--series-${(groupIndex.get(gid) ?? 0) + 1})`;
   const groupLabel = (gid) => groups.find((g) => g.id === gid)?.label ?? gid;
 
-  const workshops = new Map(DATA.workshops.map((w) => [w.id, w]));
   const papers = DATA.papers || [];
 
   const nodes = DATA.people.map((p) => ({ ...p }));
@@ -47,8 +46,19 @@
   DATA.factors.forEach((f) => (weights[f.id] = f.default_weight));
   let threshold = 0;
   let advisingView = false;
+  let topicSet = null; // Set of person ids matching the topic filter, or null
   const activeGroups = new Set(groups.map((g) => g.id));
   let selection = null; // {type: "node"|"edge", d}
+
+  // searchable text per person for the topic filter: topics + notes + titles
+  // of their tracked papers (134 people x short strings - trivially fast)
+  nodes.forEach((n) => {
+    n.blob = [
+      ...(n.topics || []),
+      n.notes || "",
+      ...(n.papers || []).map((i) => papers[i].title),
+    ].join(" \n ").toLowerCase();
+  });
 
   // ---------- scoring ---------------------------------------------------------
   function computeScores() {
@@ -224,7 +234,9 @@
     .on("click", (ev, l) => { select({ type: "edge", d: l }); ev.stopPropagation(); });
 
   // ---------- rendering state -> classes/attrs -------------------------------
-  function nodeActive(n) { return activeGroups.has(n.group); }
+  function nodeActive(n) {
+    return activeGroups.has(n.group) && (!topicSet || topicSet.has(n.id));
+  }
 
   function neighborSetOf(n) {
     const s = new Set([n.id]);
@@ -338,6 +350,24 @@
   document.getElementById("advising-toggle").addEventListener("change", (ev) => {
     advisingView = ev.target.checked;
     update();
+  });
+
+  // ---------- topic filter ----------------------------------------------------
+  const topicInput = document.getElementById("topic-search");
+  const topicCount = document.getElementById("topic-count");
+  topicInput.addEventListener("input", () => {
+    const q = topicInput.value.trim().toLowerCase();
+    if (q.length < 2) {
+      topicSet = null;
+      topicCount.textContent = "";
+    } else {
+      topicSet = new Set(nodes.filter((n) => n.blob.includes(q)).map((n) => n.id));
+      const nPapers = papers.filter((p) => p.title.toLowerCase().includes(q)).length;
+      topicCount.textContent = topicSet.size
+        ? `${topicSet.size} people · ${nPapers} matching papers`
+        : "no matches";
+    }
+    refreshClasses();
   });
 
   // ---------- legend ----------------------------------------------------------
@@ -454,13 +484,6 @@
   }
 
   function personHtml(n) {
-    const ws = (n.workshops || []).map((wid) => {
-      const w = workshops.get(wid);
-      const org = (w.organizers || []).includes(n.id);
-      return `<li><a href="${esc(w.url)}" target="_blank" rel="noopener">${esc(w.title)}</a>
-        <span class="aff">(${esc(w.dates)}${org ? " · organizer" : ""})</span></li>`;
-    }).join("");
-
     const advisors = (advisorsOf.get(n.id) || []).map((r) =>
       `<li>${personLink(nodeById.get(r.advisor))} <span class="chip">${kindLabel(r.kind)}</span></li>`).join("");
     const students = (studentsOf.get(n.id) || []).map((r) =>
@@ -499,8 +522,7 @@
       ${students ? `<h3>Students & postdocs</h3><ul class="plain">${students}</ul>` : ""}
       <h3>Connections (${n.links.filter((l) => l.visible).length})</h3>
       ${conns || `<div class="aff">None above the current threshold.</div>`}
-      ${paperItems ? `<h3>Tracked papers (${myPapers.length})</h3><ul class="papers">${paperItems}</ul>` : ""}
-      ${ws ? `<h3>Workshops</h3><ul style="margin:4px 0;padding-left:18px">${ws}</ul>` : ""}`;
+      ${paperItems ? `<h3>Tracked papers (${myPapers.length})</h3><ul class="papers">${paperItems}</ul>` : ""}`;
   }
 
   function edgeHtml(l) {
@@ -523,10 +545,6 @@
       .sort((a, b) => (papers[b].year ?? 0) - (papers[a].year ?? 0));
     const omit = new Set([l.source.id, l.target.id]);
     const paperItems = jointPapers.map((idx) => paperLi(idx, { omit })).join("");
-    const shared = (l.shared_workshop_ids || [])
-      .map((wid) => esc(workshops.get(wid)?.title || wid)).join("; ");
-    const coorg = (l.co_organized_ids || [])
-      .map((wid) => esc(workshops.get(wid)?.title || wid)).join("; ");
 
     return `
       <h2 style="font-size:15px">${personLink(l.source)} &nbsp;·&nbsp; ${personLink(l.target)}</h2>
@@ -540,8 +558,6 @@
         <tfoot><tr><td>Total</td><td></td><td></td><td class="num">${l.score.toFixed(2)}</td></tr></tfoot>
       </table>
       ${paperItems ? `<h3>Joint papers (${jointPapers.length})</h3><ul class="papers">${paperItems}</ul>` : ""}
-      ${shared ? `<h3>Shared workshops</h3><div class="notes">${shared}</div>` : ""}
-      ${coorg ? `<h3>Co-organized</h3><div class="notes">${coorg}</div>` : ""}
       ${(l.links || []).length ? `<h3>References</h3><ul style="margin:4px 0;padding-left:18px">
         ${l.links.map((u) => `<li><a href="${esc(u)}" target="_blank" rel="noopener">${esc(u)}</a></li>`).join("")}</ul>` : ""}`;
   }

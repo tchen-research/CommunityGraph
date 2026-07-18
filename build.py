@@ -4,9 +4,8 @@
 Usage:
     python3 build.py
 
-Reads   data/config.yaml       metric factors, node groups, build options
+Reads   data/config.yaml       metric factors, node groups
         data/people.yaml       one entry per person (with area/website/photo)
-        data/workshops.yaml    workshops with attendee lists (provenance)
         data/papers.yaml       papers with >= 2 in-graph authors -> coauthor edges
         data/advising.yaml     directed advisor -> student relations
         data/connections.yaml  curated edge annotations (notes/links/collaboration)
@@ -58,7 +57,6 @@ ADVISING_VALUE = {"phd": 1.0, "postdoc": 0.7}
 def main():
     config = load("config.yaml", {})
     people = load("people.yaml", [])
-    workshops = load("workshops.yaml", [])
     papers_in = load("papers.yaml", [], required=False)
     advising_in = load("advising.yaml", [], required=False)
     connections = load("connections.yaml", [])
@@ -83,22 +81,6 @@ def main():
         if p.get("area") and p["area"] not in group_ids:
             warnings.append(f"person {pid}: unknown area '{p['area']}'")
         by_id[pid] = p
-
-    # ---- workshops → per-person attendance ---------------------------------
-    attended = {pid: [] for pid in by_id}
-    organized = {}
-    for w in workshops:
-        wid = w.get("id", "?")
-        for pid in w.get("attendees", []) or []:
-            if pid not in by_id:
-                errors.append(f"workshop {wid}: unknown attendee id '{pid}'")
-            else:
-                attended[pid].append(wid)
-        for pid in w.get("organizers", []) or []:
-            if pid not in by_id:
-                errors.append(f"workshop {wid}: unknown organizer id '{pid}'")
-            else:
-                organized.setdefault(pid, set()).add(wid)
 
     # ---- papers ------------------------------------------------------------
     papers = []          # deduped, in output order
@@ -206,29 +188,15 @@ def main():
         e["links"] = c.get("links", []) or []
         edges[key] = e
 
-    # ---- edges implied by papers / advising / co-organizing ----------------
+    # ---- edges implied by papers / advising --------------------------------
     for key in pair_papers:
         edges.setdefault(key, blank_edge(key))
     for key in pair_advising:
         edges.setdefault(key, blank_edge(key))
-    if config.get("coorganizer_edges", True):
-        for w in workshops:
-            ids = [p for p in (w.get("organizers") or []) if p in by_id]
-            for i, a in enumerate(ids):
-                for b in ids[i + 1:]:
-                    edges.setdefault(pair_key(a, b), blank_edge(pair_key(a, b)))
-    if config.get("coattendance_edges"):
-        for w in workshops:
-            ids = [p for p in (w.get("attendees") or []) if p in by_id]
-            for i, a in enumerate(ids):
-                for b in ids[i + 1:]:
-                    edges.setdefault(pair_key(a, b), blank_edge(pair_key(a, b)))
 
     # ---- computed factors --------------------------------------------------
     for key, e in edges.items():
         a, b = e["source"], e["target"]
-        shared = sorted(set(attended.get(a, [])) & set(attended.get(b, [])))
-        co_org = sorted(organized.get(a, set()) & organized.get(b, set()))
         jp = pair_papers.get(key, [])
         adv = pair_advising.get(key, [])
         for f in factors:
@@ -240,20 +208,14 @@ def main():
             elif rule == "advising":
                 e["factors"][f["id"]] = max(
                     (ADVISING_VALUE[r["kind"]] for r in adv), default=0)
-            elif rule == "shared_workshops":
-                e["factors"][f["id"]] = len(shared)
             elif rule == "same_institution":
                 aff_a = (by_id[a].get("affiliation") or "").strip().lower()
                 aff_b = (by_id[b].get("affiliation") or "").strip().lower()
                 e["factors"][f["id"]] = 1 if aff_a and aff_a == aff_b else 0
-            elif rule == "co_organized":
-                e["factors"][f["id"]] = len(co_org)
             else:
                 errors.append(f"unknown compute rule '{rule}' for factor {f['id']}")
         e["paper_ids"] = jp
         e["advising"] = adv
-        e["shared_workshop_ids"] = shared
-        e["co_organized_ids"] = co_org
 
     # ---- report ------------------------------------------------------------
     for msg in warnings:
@@ -296,17 +258,6 @@ def main():
             for f in factors
         ],
         "groups": [{"id": g["id"], "label": g.get("label", g["id"])} for g in groups],
-        "workshops": [
-            {
-                "id": w["id"],
-                "title": w.get("title", w["id"]),
-                "venue": w.get("venue", ""),
-                "dates": w.get("dates", ""),
-                "url": w.get("url", ""),
-                "organizers": w.get("organizers", []) or [],
-            }
-            for w in workshops
-        ],
         "papers": papers,
         "advising": advising,
         "people": [
@@ -318,7 +269,6 @@ def main():
                 "photo": p.get("photo", ""),
                 "topics": p.get("topics", []) or [],
                 "notes": (p.get("notes") or "").strip(),
-                "workshops": attended.get(pid, []),
                 "group": p.get("area") if p.get("area") in group_ids else default_group,
                 "papers": person_papers.get(pid, []),
             }

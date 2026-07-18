@@ -25,6 +25,15 @@
     </section>
 
     <section class="panel">
+      <label class="panel-heading" for="topic-search">Filter by topic</label>
+      <input id="topic-search" type="search" autocomplete="off"
+             placeholder="e.g. trace estimation, Kaczmarz…">
+      <p class="hint" style="margin:6px 0 0">Matches topics, bios, and paper
+        titles; everyone else fades.</p>
+      <div id="topic-count" class="hint" style="margin:4px 0 0"></div>
+    </section>
+
+    <section class="panel">
       <h2 class="panel-heading">Closeness metric</h2>
       <p class="hint">Edge closeness is a weighted sum of these factors.
         Drag to tune the metric; the layout follows.</p>

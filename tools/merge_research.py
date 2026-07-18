@@ -51,12 +51,12 @@ def main():
     stats = {"files": 0, "people": 0, "websites": 0, "photos": 0,
              "papers_seen": 0, "adv_seen": 0, "skipped": []}
 
-    for letter in "ABCD":
-        candidates = [d / f"research_{letter}.yaml" for d in SEARCH_DIRS]
-        candidates = [c for c in candidates if c.exists()]
-        if not candidates:
-            print(f"  (research_{letter}.yaml missing - skipping)")
-            continue
+    names = sorted({p.name for d in SEARCH_DIRS for p in d.glob("research_*.yaml")})
+    if not names:
+        print("  no research_*.yaml files found")
+    for name in names:
+        letter = name.removeprefix("research_").removesuffix(".yaml")
+        candidates = [d / name for d in SEARCH_DIRS if (d / name).exists()]
         # newest wins: agents keep rewriting the scratchpad copy while tools/
         # holds point-in-time snapshots
         f = max(candidates, key=lambda c: c.stat().st_mtime)

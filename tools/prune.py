@@ -25,11 +25,9 @@ Dumper.add_representer(str, str_rep)
 
 def main():
     people = yaml.safe_load((DATA / "people.yaml").read_text())
-    workshops = yaml.safe_load((DATA / "workshops.yaml").read_text())
     papers = yaml.safe_load((DATA / "papers.yaml").read_text()) or []
     advising = yaml.safe_load((DATA / "advising.yaml").read_text()) or []
     connections = yaml.safe_load((DATA / "connections.yaml").read_text()) or []
-    config = yaml.safe_load((DATA / "config.yaml").read_text())
 
     connected = set()
     for p in papers:
@@ -39,18 +37,9 @@ def main():
         connected.update((r["advisor"], r["student"]))
     for c in connections:
         connected.update(c.get("between") or [])
-    if config.get("coorganizer_edges", True):
-        for w in workshops:
-            orgs = w.get("organizers") or []
-            if len(orgs) >= 2:
-                connected.update(orgs)
 
     removed = [p for p in people if p["id"] not in connected and p["id"] not in KEEP]
     kept = [p for p in people if p["id"] in connected or p["id"] in KEEP]
-    removed_ids = {p["id"] for p in removed}
-
-    for w in workshops:
-        w["attendees"] = [a for a in (w.get("attendees") or []) if a not in removed_ids]
 
     header_p = (
         "# One entry per person. id is referenced by the other data files.\n"
@@ -61,14 +50,6 @@ def main():
     )
     (DATA / "people.yaml").write_text(
         header_p + yaml.dump(kept, Dumper=Dumper, allow_unicode=True,
-                             sort_keys=False, width=88))
-    header_w = (
-        "# Workshops with their attendee rosters (provenance for the graph).\n"
-        "# attendees/organizers reference ids from people.yaml. Attendees with\n"
-        "# no other ties were pruned from the graph (see README).\n"
-    )
-    (DATA / "workshops.yaml").write_text(
-        header_w + yaml.dump(workshops, Dumper=Dumper, allow_unicode=True,
                              sort_keys=False, width=88))
 
     print(f"kept {len(kept)}, removed {len(removed)}:")
