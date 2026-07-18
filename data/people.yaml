@@ -245,6 +245,7 @@
   - model-reduction
   - eigenvalue
   - inverse-problems
+  hidden: true
 - id: christopher-musco
   name: Christopher Musco
   affiliation: New York University
@@ -279,6 +280,7 @@
   notes: Creator of MATLAB; co-author of the LINPACK and EISPACK libraries (1939-2026).
   website: https://blogs.mathworks.com/cleve/
   photo: https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Cleve_B_Moler_in_2017_Argonne_Seminars_GPU_Computing_%28cropped%29.png/250px-Cleve_B_Moler_in_2017_Argonne_Seminars_GPU_Computing_%28cropped%29.png
+  hidden: true
 - id: daniel-kressner
   name: Daniel Kressner
   affiliation: EPFL
@@ -833,6 +835,7 @@
   notes: Krylov subspace methods theory; monograph with Strakoš.
   website: https://www.tu.berlin/nla/joerg-liesen
   photo: https://www.static.tu.berlin/fileadmin/www/_processed_/4/3/csm_Joerg_Liesen-web_253986941f.jpg
+  hidden: true
 - id: kapil-ahuja
   name: Kapil Ahuja
   affiliation: Virginia Tech
@@ -997,6 +1000,7 @@
   - inverse-problems
   - regularization
   - optimization
+  hidden: true
 - id: malena-sabate-landman
   name: Malena Sabaté Landman
   affiliation: University of Bath
@@ -1259,6 +1263,7 @@
   notes: Stability of fast matrix algorithms.
   website: https://math.berkeley.edu/~holtz/
   photo: https://scholar.googleusercontent.com/citations?view_op=view_photo&user=WJGqLh8AAAAJ&citpid=1
+  hidden: true
 - id: omar-de-la-cruz-cabrera
   name: Omar De la Cruz Cabrera
   affiliation: Kent State University
@@ -1576,6 +1581,7 @@
   notes: Lanczos-based methods and time-ordered exponentials.
   website: https://sites.google.com/site/infostepo/
   photo: https://www.mff.cuni.cz/data/users/user_56594/pozza_img.jpg
+  hidden: true
 - id: sushant-sachdeva
   name: Sushant Sachdeva
   affiliation: University of Toronto
@@ -1681,6 +1687,7 @@
   topics:
   - krylov
   - eigenvalue
+  hidden: true
 - id: vishwas-rao
   name: Vishwas Rao
   affiliation: Argonne National Laboratory
@@ -1788,6 +1795,7 @@
   notes: Krylov subspace methods theory; finite-precision Lanczos and CG.
   website: https://www.karlin.mff.cuni.cz/~strakos/
   photo: https://scholar.googleusercontent.com/citations?view_op=view_photo&user=TpKYkWoAAAAJ&citpid=2
+  hidden: true
 - id: zhaojun-bai
   name: Zhaojun Bai
   affiliation: University of California, Davis

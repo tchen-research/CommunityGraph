@@ -198,39 +198,6 @@ window.GRAPH_DATA = {
  ],
  "papers": [
   {
-   "title": "Matrix Eigensystem Routines - EISPACK Guide, Second Edition",
-   "year": 1976,
-   "venue": "Lecture Notes in Computer Science 6, Springer (book)",
-   "url": "https://doi.org/10.1007/3-540-07546-1",
-   "note": "",
-   "authors": [
-    "jack-dongarra",
-    "cleve-moler"
-   ]
-  },
-  {
-   "title": "Matrix Eigensystem Routines - EISPACK Guide Extension",
-   "year": 1977,
-   "venue": "Lecture Notes in Computer Science 51, Springer (book)",
-   "url": "https://doi.org/10.1007/3-540-08254-9",
-   "note": "",
-   "authors": [
-    "jack-dongarra",
-    "cleve-moler"
-   ]
-  },
-  {
-   "title": "LINPACK Users' Guide",
-   "year": 1979,
-   "venue": "SIAM (book)",
-   "url": "https://en.wikipedia.org/wiki/LINPACK",
-   "note": "",
-   "authors": [
-    "jack-dongarra",
-    "cleve-moler"
-   ]
-  },
-  {
    "title": "Linear Congruential Generators Do Not Produce Random Sequences",
    "year": 1984,
    "venue": "FOCS",
@@ -328,28 +295,6 @@ window.GRAPH_DATA = {
    "authors": [
     "lothar-reichel",
     "lloyd-trefethen"
-   ]
-  },
-  {
-   "title": "Open questions in the convergence analysis of the Lanczos process for the real symmetric eigenvalue problem",
-   "year": 1992,
-   "venue": "",
-   "url": "",
-   "note": "",
-   "authors": [
-    "zdenek-strakos",
-    "anne-greenbaum"
-   ]
-  },
-  {
-   "title": "Predicting the Behavior of Finite Precision Lanczos and Conjugate Gradient Computations",
-   "year": 1992,
-   "venue": "SIAM J. Matrix Anal. Appl.",
-   "url": "https://doi.org/10.1137/0613011",
-   "note": "",
-   "authors": [
-    "anne-greenbaum",
-    "zdenek-strakos"
    ]
   },
   {
@@ -474,17 +419,6 @@ window.GRAPH_DATA = {
    ]
   },
   {
-   "title": "Matrices that generate the same Krylov residual spaces",
-   "year": 1994,
-   "venue": "",
-   "url": "",
-   "note": "",
-   "authors": [
-    "anne-greenbaum",
-    "zdenek-strakos"
-   ]
-  },
-  {
    "title": "Sampling from log-concave distributions",
    "year": 1994,
    "venue": "",
@@ -515,17 +449,6 @@ window.GRAPH_DATA = {
    "authors": [
     "daniela-calvetti",
     "lothar-reichel"
-   ]
-  },
-  {
-   "title": "Numerical stability of GMRES",
-   "year": 1995,
-   "venue": "BIT",
-   "url": "",
-   "note": "",
-   "authors": [
-    "anne-greenbaum",
-    "zdenek-strakos"
    ]
   },
   {
@@ -594,17 +517,6 @@ window.GRAPH_DATA = {
    "authors": [
     "daniela-calvetti",
     "lothar-reichel"
-   ]
-  },
-  {
-   "title": "Any Nonincreasing Convergence Curve is Possible for GMRES",
-   "year": 1996,
-   "venue": "SIAM J. Matrix Anal. Appl.",
-   "url": "https://doi.org/10.1137/S0895479894275030",
-   "note": "",
-   "authors": [
-    "anne-greenbaum",
-    "zdenek-strakos"
    ]
   },
   {
@@ -705,17 +617,6 @@ window.GRAPH_DATA = {
    "authors": [
     "edmond-chow",
     "yousef-saad"
-   ]
-  },
-  {
-   "title": "Numerical behaviour of the modified Gram-Schmidt GMRES implementation",
-   "year": 1997,
-   "venue": "BIT",
-   "url": "",
-   "note": "",
-   "authors": [
-    "anne-greenbaum",
-    "zdenek-strakos"
    ]
   },
   {
@@ -1278,17 +1179,6 @@ window.GRAPH_DATA = {
    ]
   },
   {
-   "title": "Preconditioners for Indefinite Linear Systems Arising in Surface Parameterization",
-   "year": 2001,
-   "venue": "IMR",
-   "url": "http://imr.sandia.gov/papers/abstracts/Li208.html",
-   "note": "",
-   "authors": [
-    "jorg-liesen",
-    "eric-de-sturler"
-   ]
-  },
-  {
    "title": "Recursive approach in sparse matrix LU factorization",
    "year": 2001,
    "venue": "Sci. Program.",
@@ -1355,17 +1245,6 @@ window.GRAPH_DATA = {
    ]
   },
   {
-   "title": "Inclusion regions for matrix eigenvalues",
-   "year": 2002,
-   "venue": "Linear Algebra and its Applications",
-   "url": "https://doi.org/10.1016/s0024-3795(02)00279-3",
-   "note": "",
-   "authors": [
-    "christopher-beattie",
-    "ilse-ipsen"
-   ]
-  },
-  {
    "title": "Lanczos-Based Exponential Filtering for Discrete Ill-Posed Problems",
    "year": 2002,
    "venue": "Numer. Algorithms",
@@ -1374,17 +1253,6 @@ window.GRAPH_DATA = {
    "authors": [
     "daniela-calvetti",
     "lothar-reichel"
-   ]
-  },
-  {
-   "title": "Least Squares Residuals and Minimal Residual Methods",
-   "year": 2002,
-   "venue": "SIAM J. Sci. Comput.",
-   "url": "https://doi.org/10.1137/S1064827500377988",
-   "note": "",
-   "authors": [
-    "jorg-liesen",
-    "zdenek-strakos"
    ]
   },
   {
@@ -1466,17 +1334,6 @@ window.GRAPH_DATA = {
    ]
   },
   {
-   "title": "Editorial",
-   "year": 2003,
-   "venue": "BIT Numerical Mathematics",
-   "url": "https://doi.org/10.1023/b:bitn.0000014634.41070.b2",
-   "note": "",
-   "authors": [
-    "zdenek-strakos",
-    "daniel-szyld"
-   ]
-  },
-  {
    "title": "Gauss Quadrature Applied to Trust Region Computations",
    "year": 2003,
    "venue": "Numerical Algorithms",
@@ -1552,17 +1409,6 @@ window.GRAPH_DATA = {
    "authors": [
     "jack-dongarra",
     "piotr-luszczek"
-   ]
-  },
-  {
-   "title": "Slow Initial Convergence of GMRES for SUPG Discretized Convection-Diffusion Problems",
-   "year": 2003,
-   "venue": "",
-   "url": "",
-   "note": "",
-   "authors": [
-    "jorg-liesen",
-    "zdenek-strakos"
    ]
   },
   {
@@ -1642,28 +1488,6 @@ window.GRAPH_DATA = {
     "ravindran-kannan",
     "santosh-vempala",
     "alan-frieze"
-   ]
-  },
-  {
-   "title": "Convergence of GMRES for Tridiagonal Toeplitz Matrices",
-   "year": 2004,
-   "venue": "SIAM J. Matrix Anal. Appl.",
-   "url": "https://doi.org/10.1137/S0895479803424967",
-   "note": "",
-   "authors": [
-    "jorg-liesen",
-    "zdenek-strakos"
-   ]
-  },
-  {
-   "title": "Convergence of restarted Krylov subspaces to invariant subspaces",
-   "year": 2004,
-   "venue": "",
-   "url": "",
-   "note": "",
-   "authors": [
-    "christopher-beattie",
-    "mark-embree"
    ]
   },
   {
@@ -1879,17 +1703,6 @@ window.GRAPH_DATA = {
    ]
   },
   {
-   "title": "Block-Diagonal and Constraint Preconditioners for Nonsymmetric Indefinite Linear Systems. Part I: Theory",
-   "year": 2005,
-   "venue": "SIAM J. Sci. Comput.",
-   "url": "https://doi.org/10.1137/S1064827502411006",
-   "note": "",
-   "authors": [
-    "eric-de-sturler",
-    "jorg-liesen"
-   ]
-  },
-  {
    "title": "Comparison of Nonlinear Conjugate-Gradient Methods for Computing the Electronic Properties of Nanostructure Architectures",
    "year": 2005,
    "venue": "International Conference on Computational Science (3)",
@@ -1898,17 +1711,6 @@ window.GRAPH_DATA = {
    "authors": [
     "julien-langou",
     "jack-dongarra"
-   ]
-  },
-  {
-   "title": "Convergence of polynomial restart Krylov methods for eigenvalue computations",
-   "year": 2005,
-   "venue": "SIAM Review",
-   "url": "",
-   "note": "",
-   "authors": [
-    "christopher-beattie",
-    "mark-embree"
    ]
   },
   {
@@ -1934,17 +1736,6 @@ window.GRAPH_DATA = {
    ]
   },
   {
-   "title": "GMRES Convergence Analysis for a Convection-Diffusion Model Problem",
-   "year": 2005,
-   "venue": "SIAM J. Sci. Comput.",
-   "url": "https://doi.org/10.1137/S1064827503430746",
-   "note": "",
-   "authors": [
-    "jorg-liesen",
-    "zdenek-strakos"
-   ]
-  },
-  {
    "title": "Hash Functions for Datatype Signatures in MPI",
    "year": 2005,
    "venue": "PVM/MPI",
@@ -1964,17 +1755,6 @@ window.GRAPH_DATA = {
    "authors": [
     "daniela-calvetti",
     "erkki-somersalo"
-   ]
-  },
-  {
-   "title": "On numerical stability in large scale linear algebraic computations",
-   "year": 2005,
-   "venue": "",
-   "url": "",
-   "note": "",
-   "authors": [
-    "zdenek-strakos",
-    "jorg-liesen"
    ]
   },
   {
@@ -2106,8 +1886,7 @@ window.GRAPH_DATA = {
    "note": "",
    "authors": [
     "james-demmel",
-    "ioana-dumitriu",
-    "olga-holtz"
+    "ioana-dumitriu"
    ]
   },
   {
@@ -2118,8 +1897,7 @@ window.GRAPH_DATA = {
    "note": "",
    "authors": [
     "james-demmel",
-    "ioana-dumitriu",
-    "olga-holtz"
+    "ioana-dumitriu"
    ]
   },
   {
@@ -2277,8 +2055,7 @@ window.GRAPH_DATA = {
    "note": "",
    "authors": [
     "james-demmel",
-    "ioana-dumitriu",
-    "olga-holtz"
+    "ioana-dumitriu"
    ]
   },
   {
@@ -2563,17 +2340,6 @@ window.GRAPH_DATA = {
    ]
   },
   {
-   "title": "A Projection-Based Approach to General-Form Tikhonov Regularization",
-   "year": 2007,
-   "venue": "SIAM Journal on Scientific Computing",
-   "url": "https://doi.org/10.1137/050645592",
-   "note": "",
-   "authors": [
-    "misha-kilmer",
-    "malena-espanol"
-   ]
-  },
-  {
    "title": "A fast direct solver for scattering problems involving elongated structures",
    "year": 2007,
    "venue": "J. Comput. Phys.",
@@ -2603,8 +2369,7 @@ window.GRAPH_DATA = {
    "note": "",
    "authors": [
     "james-demmel",
-    "ioana-dumitriu",
-    "olga-holtz"
+    "ioana-dumitriu"
    ]
   },
   {
@@ -2725,8 +2490,7 @@ window.GRAPH_DATA = {
    "note": "",
    "authors": [
     "james-demmel",
-    "ioana-dumitriu",
-    "olga-holtz"
+    "ioana-dumitriu"
    ]
   },
   {
@@ -2737,8 +2501,7 @@ window.GRAPH_DATA = {
    "note": "",
    "authors": [
     "james-demmel",
-    "ioana-dumitriu",
-    "olga-holtz"
+    "ioana-dumitriu"
    ]
   },
   {
@@ -3158,17 +2921,6 @@ window.GRAPH_DATA = {
    ]
   },
   {
-   "title": "Netlib and NA-Net: Building a Scientific Computing Community",
-   "year": 2008,
-   "venue": "IEEE Ann. Hist. Comput.",
-   "url": "https://doi.org/10.1109/MAHC.2008.29",
-   "note": "",
-   "authors": [
-    "jack-dongarra",
-    "cleve-moler"
-   ]
-  },
-  {
    "title": "New conditions for non-stagnation of minimal residual methods",
    "year": 2008,
    "venue": "Numerische Mathematik",
@@ -3177,17 +2929,6 @@ window.GRAPH_DATA = {
    "authors": [
     "valeria-simoncini",
     "daniel-szyld"
-   ]
-  },
-  {
-   "title": "On Optimal Short Recurrences for Generating Orthogonal Krylov Subspace Bases",
-   "year": 2008,
-   "venue": "SIAM Rev.",
-   "url": "https://doi.org/10.1137/060662149",
-   "note": "",
-   "authors": [
-    "jorg-liesen",
-    "zdenek-strakos"
    ]
   },
   {
@@ -3435,17 +3176,6 @@ window.GRAPH_DATA = {
    ]
   },
   {
-   "title": "Communication-optimal parallel and sequential Cholesky decomposition: extended abstract",
-   "year": 2009,
-   "venue": "SPAA",
-   "url": "https://doi.org/10.1145/1583991.1584054",
-   "note": "",
-   "authors": [
-    "james-demmel",
-    "olga-holtz"
-   ]
-  },
-  {
    "title": "Computing the conditioning of the components of a linear least-squares solution",
    "year": 2009,
    "venue": "Numer. Linear Algebra Appl.",
@@ -3509,17 +3239,6 @@ window.GRAPH_DATA = {
    "authors": [
     "daniela-calvetti",
     "erkki-somersalo"
-   ]
-  },
-  {
-   "title": "Minimizing Communication in Linear Algebra",
-   "year": 2009,
-   "venue": "CoRR",
-   "url": "http://arxiv.org/abs/0905.2485",
-   "note": "",
-   "authors": [
-    "james-demmel",
-    "olga-holtz"
    ]
   },
   {
@@ -3699,17 +3418,6 @@ window.GRAPH_DATA = {
    ]
   },
   {
-   "title": "Communication-optimal Parallel and Sequential Cholesky Decomposition",
-   "year": 2010,
-   "venue": "SIAM J. Sci. Comput.",
-   "url": "https://doi.org/10.1137/090760969",
-   "note": "",
-   "authors": [
-    "james-demmel",
-    "olga-holtz"
-   ]
-  },
-  {
    "title": "Direction-Preserving and Schur-Monotonic Semiseparable Approximations of Symmetric Positive Definite Matrices",
    "year": 2010,
    "venue": "SIAM J. Matrix Anal. Appl.",
@@ -3839,17 +3547,6 @@ window.GRAPH_DATA = {
    "authors": [
     "piotr-luszczek",
     "jack-dongarra"
-   ]
-  },
-  {
-   "title": "Multilevel Approach For Signal Restoration Problems With Toeplitz Matrices",
-   "year": 2010,
-   "venue": "SIAM Journal on Scientific Computing",
-   "url": "https://doi.org/10.1137/080715780",
-   "note": "",
-   "authors": [
-    "malena-espanol",
-    "misha-kilmer"
    ]
   },
   {
@@ -4279,17 +3976,6 @@ window.GRAPH_DATA = {
    ]
   },
   {
-   "title": "Graph expansion and communication costs of fast matrix multiplication: regular submission",
-   "year": 2011,
-   "venue": "SPAA",
-   "url": "https://doi.org/10.1145/1989493.1989495",
-   "note": "",
-   "authors": [
-    "james-demmel",
-    "olga-holtz"
-   ]
-  },
-  {
    "title": "HPC Challenge Benchmark",
    "year": 2011,
    "venue": "Encyclopedia of Parallel Computing",
@@ -4419,17 +4105,6 @@ window.GRAPH_DATA = {
    "authors": [
     "jack-dongarra",
     "piotr-luszczek"
-   ]
-  },
-  {
-   "title": "Minimizing Communication in Numerical Linear Algebra",
-   "year": 2011,
-   "venue": "SIAM J. Matrix Anal. Appl.",
-   "url": "https://doi.org/10.1137/090769156",
-   "note": "",
-   "authors": [
-    "james-demmel",
-    "olga-holtz"
    ]
   },
   {
@@ -4733,17 +4408,6 @@ window.GRAPH_DATA = {
    ]
   },
   {
-   "title": "Brief announcement: strong scaling of matrix multiplication algorithms and memory-independent communication lower bounds",
-   "year": 2012,
-   "venue": "SPAA",
-   "url": "https://doi.org/10.1145/2312005.2312021",
-   "note": "",
-   "authors": [
-    "james-demmel",
-    "olga-holtz"
-   ]
-  },
-  {
    "title": "Chapter 1: Review of multivariate calculus and differential equations",
    "year": 2012,
    "venue": "Society for Industrial and Applied Mathematics eBooks",
@@ -4877,17 +4541,6 @@ window.GRAPH_DATA = {
    ]
   },
   {
-   "title": "Communication-optimal parallel algorithm for strassen's matrix multiplication",
-   "year": 2012,
-   "venue": "SPAA",
-   "url": "https://doi.org/10.1145/2312005.2312044",
-   "note": "",
-   "authors": [
-    "james-demmel",
-    "olga-holtz"
-   ]
-  },
-  {
    "title": "Computational Mathematical Modeling: An Integrated Approach Across Scales",
    "year": 2012,
    "venue": "Society for Industrial and Applied Mathematics eBooks",
@@ -4963,28 +4616,6 @@ window.GRAPH_DATA = {
    "authors": [
     "piotr-luszczek",
     "jack-dongarra"
-   ]
-  },
-  {
-   "title": "Graph Expansion Analysis for Communication Costs of Fast Rectangular Matrix Multiplication",
-   "year": 2012,
-   "venue": "MedAlg",
-   "url": "https://doi.org/10.1007/978-3-642-34862-4_2",
-   "note": "",
-   "authors": [
-    "james-demmel",
-    "olga-holtz"
-   ]
-  },
-  {
-   "title": "Graph expansion and communication costs of fast matrix multiplication",
-   "year": 2012,
-   "venue": "J. ACM",
-   "url": "https://doi.org/10.1145/2395116.2395121",
-   "note": "",
-   "authors": [
-    "james-demmel",
-    "olga-holtz"
    ]
   },
   {
@@ -5184,17 +4815,6 @@ window.GRAPH_DATA = {
    "authors": [
     "christos-boutsidis",
     "deanna-needell"
-   ]
-  },
-  {
-   "title": "Strong Scaling of Matrix Multiplication Algorithms and Memory-Independent Communication Lower Bounds",
-   "year": 2012,
-   "venue": "CoRR",
-   "url": "http://arxiv.org/abs/1202.3177",
-   "note": "",
-   "authors": [
-    "james-demmel",
-    "olga-holtz"
    ]
   },
   {
@@ -5498,28 +5118,6 @@ window.GRAPH_DATA = {
    "authors": [
     "daniel-spielman",
     "nikhil-srivastava"
-   ]
-  },
-  {
-   "title": "Interplay between discretization and algebraic computation in adaptive numerical solution of elliptic PDE problems",
-   "year": 2013,
-   "venue": "",
-   "url": "",
-   "note": "",
-   "authors": [
-    "jorg-liesen",
-    "zdenek-strakos"
-   ]
-  },
-  {
-   "title": "Krylov subspace methods: principles and analysis",
-   "year": 2013,
-   "venue": "Oxford UP",
-   "url": "",
-   "note": "",
-   "authors": [
-    "jorg-liesen",
-    "zdenek-strakos"
    ]
   },
   {
@@ -5858,17 +5456,6 @@ window.GRAPH_DATA = {
    ]
   },
   {
-   "title": "A Wavelet-Based Multilevel Approach for Blind Deconvolution Problems",
-   "year": 2014,
-   "venue": "SIAM Journal on Scientific Computing",
-   "url": "https://doi.org/10.1137/130928716",
-   "note": "",
-   "authors": [
-    "malena-espanol",
-    "misha-kilmer"
-   ]
-  },
-  {
    "title": "A note on sparse least-squares regression",
    "year": 2014,
    "venue": "Inf. Process. Lett.",
@@ -5982,17 +5569,6 @@ window.GRAPH_DATA = {
    ]
   },
   {
-   "title": "Communication costs of Strassen's matrix multiplication",
-   "year": 2014,
-   "venue": "Commun. ACM",
-   "url": "https://doi.org/10.1145/2556647.2556660",
-   "note": "",
-   "authors": [
-    "james-demmel",
-    "olga-holtz"
-   ]
-  },
-  {
    "title": "Communication lower bounds and optimal algorithms for numerical linear algebra",
    "year": 2014,
    "venue": "Acta Numer.",
@@ -6060,17 +5636,6 @@ window.GRAPH_DATA = {
    "authors": [
     "malik-magdon-ismail",
     "petros-drineas"
-   ]
-  },
-  {
-   "title": "Distribution of the discretization and algebraic error in numerical solution of partial differential equations",
-   "year": 2014,
-   "venue": "Linear Algebra Appl.",
-   "url": "",
-   "note": "",
-   "authors": [
-    "jorg-liesen",
-    "zdenek-strakos"
    ]
   },
   {
@@ -6291,17 +5856,6 @@ window.GRAPH_DATA = {
    "authors": [
     "piotr-luszczek",
     "jack-dongarra"
-   ]
-  },
-  {
-   "title": "Optimal Regularization Parameters for General-Form Tikhonov Regularization",
-   "year": 2014,
-   "venue": "arXiv",
-   "url": "https://doi.org/10.48550/arxiv.1407.1911",
-   "note": "",
-   "authors": [
-    "julianne-chung",
-    "malena-espanol"
    ]
   },
   {
@@ -7092,8 +6646,7 @@ window.GRAPH_DATA = {
    "note": "",
    "authors": [
     "eric-de-sturler",
-    "misha-kilmer",
-    "christopher-beattie"
+    "misha-kilmer"
    ]
   },
   {
@@ -7589,28 +7142,6 @@ window.GRAPH_DATA = {
    ]
   },
   {
-   "title": "Decay bounds for functions of banded non-Hermitian matrices",
-   "year": 2016,
-   "venue": "arXiv",
-   "url": "https://arxiv.org/abs/1605.01595v2",
-   "note": "",
-   "authors": [
-    "stefano-pozza",
-    "valeria-simoncini"
-   ]
-  },
-  {
-   "title": "Decay bounds for non-Hermitian matrix functions",
-   "year": 2016,
-   "venue": "arXiv",
-   "url": "https://www.arxiv.org/pdf/1605.01595",
-   "note": "",
-   "authors": [
-    "stefano-pozza",
-    "valeria-simoncini"
-   ]
-  },
-  {
    "title": "Domain Overlap for Iterative Sparse Triangular Solves on GPUs",
    "year": 2016,
    "venue": "Software for Exascale Computing",
@@ -7875,17 +7406,6 @@ window.GRAPH_DATA = {
    "authors": [
     "silvia-gazzola",
     "lothar-reichel"
-   ]
-  },
-  {
-   "title": "On the numerical stability analysis of pipelined Krylov subspace methods",
-   "year": 2016,
-   "venue": "",
-   "url": "",
-   "note": "",
-   "authors": [
-    "erin-carson",
-    "zdenek-strakos"
    ]
   },
   {
@@ -8556,17 +8076,6 @@ window.GRAPH_DATA = {
    ]
   },
   {
-   "title": "Gauss quadrature for quasi-definite linear functionals",
-   "year": 2017,
-   "venue": "IMA J. Numer. Anal.",
-   "url": "",
-   "note": "",
-   "authors": [
-    "stefano-pozza",
-    "zdenek-strakos"
-   ]
-  },
-  {
    "title": "Generalized Hybrid Iterative Methods for Large-Scale Bayesian Inverse Problems",
    "year": 2017,
    "venue": "SIAM Journal on Scientific Computing",
@@ -8632,17 +8141,6 @@ window.GRAPH_DATA = {
    "authors": [
     "cameron-musco",
     "david-woodruff"
-   ]
-  },
-  {
-   "title": "Learning regularization parameters for general-form Tikhonov",
-   "year": 2017,
-   "venue": "Inverse Problems",
-   "url": "https://doi.org/10.1088/1361-6420/33/7/074004",
-   "note": "",
-   "authors": [
-    "julianne-chung",
-    "malena-espanol"
    ]
   },
   {
@@ -9342,17 +8840,6 @@ window.GRAPH_DATA = {
    ]
   },
   {
-   "title": "Convergence of the multiplicative Schwarz method for singularly perturbed convection-diffusion problems discretized on a Shishkin mesh",
-   "year": 2018,
-   "venue": "ETNA - Electronic Transactions on Numerical Analysis",
-   "url": "https://doi.org/10.1553/etna_vol48s40",
-   "note": "",
-   "authors": [
-    "jorg-liesen",
-    "daniel-szyld"
-   ]
-  },
-  {
    "title": "Convergence rate of riemannian Hamiltonian Monte Carlo and faster polytope volume computation",
    "year": 2018,
    "venue": "STOC",
@@ -9878,17 +9365,6 @@ window.GRAPH_DATA = {
    ]
   },
   {
-   "title": "The Lanczos algorithm and complex Gauss quadrature",
-   "year": 2018,
-   "venue": "ETNA",
-   "url": "",
-   "note": "",
-   "authors": [
-    "stefano-pozza",
-    "zdenek-strakos"
-   ]
-  },
-  {
    "title": "The Singular Value Decomposition: Anatomy of Optimizing an Algorithm for Extreme Scale",
    "year": 2018,
    "venue": "SIAM Rev.",
@@ -9898,17 +9374,6 @@ window.GRAPH_DATA = {
     "jack-dongarra",
     "piotr-luszczek",
     "ichitaro-yamazaki"
-   ]
-  },
-  {
-   "title": "The numerical stability analysis of pipelined conjugate gradient methods: Historical context and methodology",
-   "year": 2018,
-   "venue": "SIAM J. Sci. Computing",
-   "url": "",
-   "note": "",
-   "authors": [
-    "erin-carson",
-    "zdenek-strakos"
    ]
   },
   {
@@ -10076,17 +9541,6 @@ window.GRAPH_DATA = {
    "authors": [
     "jack-dongarra",
     "nicholas-higham"
-   ]
-  },
-  {
-   "title": "Algebraic description of the finite Stieltjes moment problem",
-   "year": 2019,
-   "venue": "",
-   "url": "",
-   "note": "",
-   "authors": [
-    "stefano-pozza",
-    "zdenek-strakos"
    ]
   },
   {
@@ -10498,17 +9952,6 @@ window.GRAPH_DATA = {
     "piotr-luszczek",
     "jack-dongarra",
     "ichitaro-yamazaki"
-   ]
-  },
-  {
-   "title": "Inexact Arnoldi residual estimates and decay properties for functions of non-Hermitian matrices",
-   "year": 2019,
-   "venue": "BIT Numerical Mathematics",
-   "url": "https://doi.org/10.1007/s10543-019-00763-6",
-   "note": "",
-   "authors": [
-    "stefano-pozza",
-    "valeria-simoncini"
    ]
   },
   {
@@ -11910,17 +11353,6 @@ window.GRAPH_DATA = {
    ]
   },
   {
-   "title": "On the cost of iterative computations",
-   "year": 2020,
-   "venue": "",
-   "url": "",
-   "note": "",
-   "authors": [
-    "erin-carson",
-    "zdenek-strakos"
-   ]
-  },
-  {
    "title": "Optimal Deterministic Coresets for Ridge Regression",
    "year": 2020,
    "venue": "AISTATS",
@@ -12520,17 +11952,6 @@ window.GRAPH_DATA = {
    ]
   },
   {
-   "title": "An $\\ell_p$ Variable Projection Method for Large-Scale Separable Nonlinear Inverse Problems",
-   "year": 2021,
-   "venue": "arXiv",
-   "url": "https://doi.org/10.48550/arxiv.2105.14155",
-   "note": "",
-   "authors": [
-    "malena-espanol",
-    "mirjeta-pasha"
-   ]
-  },
-  {
    "title": "An Optimal-Storage Approach to Semidefinite Programming Using Approximate Complementarity",
    "year": 2021,
    "venue": "SIAM J. Optim.",
@@ -12551,17 +11972,6 @@ window.GRAPH_DATA = {
    "authors": [
     "nicolas-boulle",
     "alex-townsend"
-   ]
-  },
-  {
-   "title": "An 𝓁 p Variable Projection Method for Large-Scale Separable Nonlinear Inverse Problems",
-   "year": 2021,
-   "venue": "arXiv",
-   "url": "http://export.arxiv.org/pdf/2105.14155",
-   "note": "",
-   "authors": [
-    "malena-espanol",
-    "mirjeta-pasha"
    ]
   },
   {
@@ -12754,7 +12164,6 @@ window.GRAPH_DATA = {
    "authors": [
     "mirjeta-pasha",
     "arvind-saibaba",
-    "malena-espanol",
     "eric-de-sturler",
     "silvia-gazzola"
    ]
@@ -12812,17 +12221,6 @@ window.GRAPH_DATA = {
    "authors": [
     "yuji-nakatsukasa",
     "lloyd-trefethen"
-   ]
-  },
-  {
-   "title": "Functions of rational Krylov space matrices and their decay properties",
-   "year": 2021,
-   "venue": "Numerische Mathematik",
-   "url": "https://doi.org/10.1007/s00211-021-01198-4",
-   "note": "",
-   "authors": [
-    "stefano-pozza",
-    "valeria-simoncini"
    ]
   },
   {
@@ -13590,18 +12988,6 @@ window.GRAPH_DATA = {
    ]
   },
   {
-   "title": "70 years of Krylov subspace methods: The journey continues",
-   "year": 2022,
-   "venue": "CoRR",
-   "url": "https://doi.org/10.48550/arXiv.2211.00953",
-   "note": "",
-   "authors": [
-    "erin-carson",
-    "jorg-liesen",
-    "zdenek-strakos"
-   ]
-  },
-  {
    "title": "A Fast Randomized Algorithm for computing the Null Space",
    "year": 2022,
    "venue": "CoRR",
@@ -13821,17 +13207,6 @@ window.GRAPH_DATA = {
    "authors": [
     "laura-grigori",
     "grey-ballard"
-   ]
-  },
-  {
-   "title": "Communication bounds for convolutional neural networks",
-   "year": 2022,
-   "venue": "PASC",
-   "url": "https://doi.org/10.1145/3539781.3539784",
-   "note": "",
-   "authors": [
-    "james-demmel",
-    "olga-holtz"
    ]
   },
   {
@@ -14332,17 +13707,6 @@ window.GRAPH_DATA = {
    ]
   },
   {
-   "title": "Model Reduction of Linear Dynamical Systems via Balancing for Bayesian Inference",
-   "year": 2022,
-   "venue": "Journal of Scientific Computing",
-   "url": "https://doi.org/10.1007/s10915-022-01798-8",
-   "note": "",
-   "authors": [
-    "christopher-beattie",
-    "akil-narayan"
-   ]
-  },
-  {
    "title": "Monte Carlo Tree Search based Hybrid Optimization of Variational Quantum Circuits",
    "year": 2022,
    "venue": "Mathematical and Scientific Machine Learning (MSML 2022), PMLR 190",
@@ -14406,17 +13770,6 @@ window.GRAPH_DATA = {
    "authors": [
     "benjamin-erichson",
     "michael-mahoney"
-   ]
-  },
-  {
-   "title": "On Non-Hermitian Positive (Semi)Definite Linear Algebraic Systems Arising from Dissipative Hamiltonian DAEs",
-   "year": 2022,
-   "venue": "SIAM J. Sci. Comput.",
-   "url": "https://doi.org/10.1137/21m1458594",
-   "note": "",
-   "authors": [
-    "jorg-liesen",
-    "daniel-szyld"
    ]
   },
   {
@@ -14605,17 +13958,6 @@ window.GRAPH_DATA = {
    ]
   },
   {
-   "title": "Realization and model reduction of dynamical systems",
-   "year": 2022,
-   "venue": "",
-   "url": "",
-   "note": "",
-   "authors": [
-    "christopher-beattie",
-    "mark-embree"
-   ]
-  },
-  {
    "title": "Rectangular eigenvalue problems",
    "year": 2022,
    "venue": "Adv. Comput. Math.",
@@ -14727,17 +14069,6 @@ window.GRAPH_DATA = {
    ]
   },
   {
-   "title": "The Image Deblurring Problem: Matrices, Wavelets, and Multilevel Methods",
-   "year": 2022,
-   "venue": "Notices of the American Mathematical Society",
-   "url": "https://doi.org/10.1090/noti2534",
-   "note": "",
-   "authors": [
-    "malena-espanol",
-    "mirjeta-pasha"
-   ]
-  },
-  {
    "title": "The Less Is More Linear Algebra of Vector Spaces and Matrices",
    "year": 2022,
    "venue": "Society for Industrial and Applied Mathematics eBooks",
@@ -14767,7 +14098,6 @@ window.GRAPH_DATA = {
    "note": "",
    "authors": [
     "davide-palitta",
-    "stefano-pozza",
     "valeria-simoncini"
    ]
   },
@@ -14927,7 +14257,6 @@ window.GRAPH_DATA = {
    "authors": [
     "mirjeta-pasha",
     "arvind-saibaba",
-    "malena-espanol",
     "eric-de-sturler",
     "silvia-gazzola"
    ]
@@ -15454,17 +14783,6 @@ window.GRAPH_DATA = {
    ]
   },
   {
-   "title": "Hybrid iterative refined restarted Lanczos bidiagonalization methods",
-   "year": 2023,
-   "venue": "Numer. Algorithms",
-   "url": "https://doi.org/10.1007/s11075-022-01336-5",
-   "note": "",
-   "authors": [
-    "james-baglama",
-    "vasilije-perovic"
-   ]
-  },
-  {
    "title": "Image reconstructions using sparse dictionary representations and implicit, non-negative mappings",
    "year": 2023,
    "venue": "arXiv (Cornell University)",
@@ -15700,17 +15018,6 @@ window.GRAPH_DATA = {
    "authors": [
     "andrew-higgins",
     "daniel-szyld"
-   ]
-  },
-  {
-   "title": "Note on a rank-one modification of the singular value decomposition",
-   "year": 2023,
-   "venue": "Appl. Math. Comput.",
-   "url": "https://doi.org/10.1016/j.amc.2023.128170",
-   "note": "",
-   "authors": [
-    "james-baglama",
-    "vasilije-perovic"
    ]
   },
   {
@@ -16319,17 +15626,6 @@ window.GRAPH_DATA = {
    "authors": [
     "piotr-luszczek",
     "jack-dongarra"
-   ]
-  },
-  {
-   "title": "Variable projection methods for separable nonlinear inverse problems with general-form Tikhonov regularization",
-   "year": 2023,
-   "venue": "Inverse Problems",
-   "url": "https://doi.org/10.1088/1361-6420/acdd1b",
-   "note": "",
-   "authors": [
-    "malena-espanol",
-    "mirjeta-pasha"
    ]
   },
   {
@@ -17611,18 +16907,6 @@ window.GRAPH_DATA = {
    ]
   },
   {
-   "title": "Towards understanding CG and GMRES through examples",
-   "year": 2024,
-   "venue": "Linear Algebra Appl.",
-   "url": "",
-   "note": "",
-   "authors": [
-    "erin-carson",
-    "jorg-liesen",
-    "zdenek-strakos"
-   ]
-  },
-  {
    "title": "Truncated LSQR for matrix least squares problems",
    "year": 2024,
    "venue": "Computational Optimization and Applications",
@@ -17802,17 +17086,6 @@ window.GRAPH_DATA = {
    "authors": [
     "anna-yesypenko",
     "per-gunnar-martinsson"
-   ]
-  },
-  {
-   "title": "A hybrid algorithm for computing a partial singular value decomposition satisfying a given threshold",
-   "year": 2025,
-   "venue": "Numer. Algorithms",
-   "url": "https://doi.org/10.1007/s11075-024-01906-9",
-   "note": "",
-   "authors": [
-    "james-baglama",
-    "vasilije-perovic"
    ]
   },
   {
@@ -20501,17 +19774,6 @@ window.GRAPH_DATA = {
    ]
   },
   {
-   "title": "Structure-Informed Bounds on the Kronecker Rank of Block-Structured Matrices",
-   "year": 2026,
-   "venue": "CoRR",
-   "url": "https://doi.org/10.48550/arXiv.2605.30908",
-   "note": "",
-   "authors": [
-    "malena-espanol",
-    "misha-kilmer"
-   ]
-  },
-  {
    "title": "Sublinear Time Low-Rank Approximation of Hankel Matrices",
    "year": 2026,
    "venue": "SODA",
@@ -20873,11 +20135,6 @@ window.GRAPH_DATA = {
   },
   {
    "advisor": "misha-kilmer",
-   "student": "malena-espanol",
-   "kind": "phd"
-  },
-  {
-   "advisor": "misha-kilmer",
    "student": "mirjeta-pasha",
    "kind": "postdoc"
   },
@@ -20925,11 +20182,6 @@ window.GRAPH_DATA = {
    "advisor": "richard-peng",
    "student": "peng-zhang",
    "kind": "phd"
-  },
-  {
-   "advisor": "zdenek-strakos",
-   "student": "stefano-pozza",
-   "kind": "postdoc"
   },
   {
    "advisor": "peter-richtarik",
@@ -21019,50 +20271,50 @@ window.GRAPH_DATA = {
    "notes": "Optimization and fast linear system solvers.",
    "group": "tcs",
    "papers": [
-    467,
-    470,
-    483,
-    513,
-    552,
-    572,
-    599,
-    636,
-    646,
-    671,
-    672,
-    677,
-    696,
-    726,
-    783,
-    790,
-    823,
-    854,
-    856,
-    857,
-    897,
-    904,
-    911,
-    936,
-    937,
-    962,
-    980,
-    992,
-    1009,
-    1028,
-    1077,
-    1149,
-    1222,
-    1235,
-    1311,
-    1376,
-    1410,
-    1428,
-    1478,
-    1479,
-    1492,
-    1605,
-    1618,
-    1738
+    433,
+    436,
+    447,
+    476,
+    512,
+    532,
+    559,
+    596,
+    606,
+    629,
+    630,
+    635,
+    653,
+    683,
+    738,
+    745,
+    777,
+    808,
+    810,
+    811,
+    848,
+    855,
+    862,
+    886,
+    887,
+    912,
+    930,
+    942,
+    959,
+    978,
+    1026,
+    1095,
+    1166,
+    1179,
+    1251,
+    1315,
+    1348,
+    1366,
+    1415,
+    1416,
+    1429,
+    1540,
+    1553,
+    1673
    ]
   },
   {
@@ -21078,7 +20330,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "group": "inverse",
    "papers": [
-    1743
+    1678
    ]
   },
   {
@@ -21095,8 +20347,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "group": "inverse",
    "papers": [
-    1655,
-    1656
+    1590,
+    1591
    ]
   },
   {
@@ -21113,11 +20365,11 @@ window.GRAPH_DATA = {
    "notes": "Eigenvalue computations; co-organizer of the ICERM 2026 workshop.",
    "group": "krylov",
    "papers": [
-    748,
-    879,
-    880,
-    1400,
-    1674
+    705,
+    831,
+    832,
+    1338,
+    1609
    ]
   },
   {
@@ -21134,15 +20386,15 @@ window.GRAPH_DATA = {
    "notes": "Low-rank approximation and robust statistics.",
    "group": "tcs",
    "papers": [
-    862,
-    928,
-    952,
-    1068,
-    1092,
-    1140,
-    1254,
-    1429,
-    1798
+    816,
+    878,
+    902,
+    1017,
+    1041,
+    1086,
+    1198,
+    1367,
+    1733
    ]
   },
   {
@@ -21159,14 +20411,13 @@ window.GRAPH_DATA = {
    "notes": "Sampling methods for approximation and UQ.",
    "group": "rand",
    "papers": [
-    817,
-    951,
-    1151,
-    1232,
-    1264,
-    1283,
-    1548,
-    1758
+    772,
+    901,
+    1097,
+    1176,
+    1225,
+    1485,
+    1693
    ]
   },
   {
@@ -21183,17 +20434,17 @@ window.GRAPH_DATA = {
    "notes": "Random matrix theory; co-creator of Julia.",
    "group": "rmt",
    "papers": [
-    32,
-    61,
-    88,
-    107,
-    154,
-    185,
-    233,
-    1313,
-    1509,
-    1535,
-    1815
+    25,
+    52,
+    79,
+    95,
+    136,
+    165,
+    212,
+    1253,
+    1446,
+    1472,
+    1749
    ]
   },
   {
@@ -21210,22 +20461,22 @@ window.GRAPH_DATA = {
    "notes": "The F of Frieze-Kannan-Vempala low-rank sampling.",
    "group": "tcs",
    "papers": [
+    0,
     3,
     6,
-    9,
-    15,
-    26,
-    40,
-    44,
-    64,
+    10,
+    20,
+    32,
+    36,
+    55,
+    61,
     70,
-    79,
-    129,
-    133,
-    249,
-    324,
-    531,
-    1739
+    115,
+    117,
+    228,
+    298,
+    492,
+    1674
    ]
   },
   {
@@ -21242,10 +20493,10 @@ window.GRAPH_DATA = {
    "notes": "",
    "group": "krylov",
    "papers": [
-    1445,
-    1648,
-    1679,
-    1792
+    1382,
+    1583,
+    1614,
+    1727
    ]
   },
   {
@@ -21263,37 +20514,37 @@ window.GRAPH_DATA = {
    "notes": "Why-are-matrices-low-rank theory; continuous analogues; operator learning.",
    "group": "approx",
    "papers": [
-    456,
-    594,
-    662,
-    669,
-    738,
-    761,
-    796,
-    818,
-    973,
-    997,
+    422,
+    554,
+    622,
+    627,
+    695,
+    716,
+    751,
+    773,
+    923,
+    947,
+    1002,
+    1014,
     1053,
+    1056,
+    1064,
     1065,
-    1105,
-    1109,
-    1117,
-    1118,
-    1125,
-    1204,
+    1072,
+    1149,
+    1167,
+    1193,
+    1194,
+    1201,
     1223,
-    1249,
-    1250,
-    1257,
-    1281,
-    1312,
-    1347,
-    1369,
-    1457,
-    1488,
-    1511,
-    1546,
-    1818
+    1252,
+    1287,
+    1308,
+    1394,
+    1425,
+    1448,
+    1483,
+    1752
    ]
   },
   {
@@ -21311,20 +20562,20 @@ window.GRAPH_DATA = {
    "notes": "Randomized trace estimation analysis; low-rank approximation.",
    "group": "rand",
    "papers": [
-    941,
-    1030,
-    1061,
-    1146,
-    1226,
-    1244,
-    1273,
-    1337,
-    1540,
-    1541,
-    1569,
-    1733,
-    1740,
-    1746
+    891,
+    980,
+    1010,
+    1092,
+    1170,
+    1188,
+    1215,
+    1277,
+    1477,
+    1478,
+    1505,
+    1668,
+    1675,
+    1681
    ]
   },
   {
@@ -21341,13 +20592,13 @@ window.GRAPH_DATA = {
    "notes": "Sketchy decisions: sketching for convex optimization (with Tropp and Udell).",
    "group": "ml",
    "papers": [
-    700,
-    747,
-    769,
-    784,
-    967,
-    1104,
-    1175
+    657,
+    704,
+    724,
+    739,
+    917,
+    1052,
+    1121
    ]
   },
   {
@@ -21363,12 +20614,12 @@ window.GRAPH_DATA = {
    "notes": "",
    "group": "inverse",
    "papers": [
-    481,
-    517,
-    551,
-    568,
-    1693,
-    1786
+    445,
+    480,
+    511,
+    528,
+    1628,
+    1721
    ]
   },
   {
@@ -21385,14 +20636,14 @@ window.GRAPH_DATA = {
    "notes": "",
    "group": "krylov",
    "papers": [
-    1278,
-    1385,
-    1401,
-    1558,
-    1567,
-    1582,
-    1668,
-    1791
+    1220,
+    1324,
+    1339,
+    1494,
+    1503,
+    1517,
+    1603,
+    1726
    ]
   },
   {
@@ -21409,17 +20660,17 @@ window.GRAPH_DATA = {
    "notes": "Rank-revealing factorizations and randomized methods; chaired Householder XXII (2025).",
    "group": "rand",
    "papers": [
-    554,
-    650,
+    514,
+    610,
+    659,
+    678,
+    693,
     702,
-    721,
-    736,
-    745,
-    777,
-    821,
-    971,
-    1053,
-    1488
+    732,
+    775,
+    921,
+    1002,
+    1425
    ]
   },
   {
@@ -21437,37 +20688,37 @@ window.GRAPH_DATA = {
    "notes": "Randomized Kaczmarz-type methods. Co-organizer of the ICERM 2026 workshop.",
    "group": "ml",
    "papers": [
-    536,
-    595,
-    723,
-    739,
-    786,
-    801,
-    809,
-    810,
-    836,
-    886,
-    890,
-    898,
-    900,
-    907,
-    920,
-    924,
-    927,
-    963,
-    999,
-    1082,
-    1084,
-    1096,
-    1132,
-    1390,
-    1425,
-    1494,
-    1664,
-    1666,
-    1690,
-    1740,
-    1808
+    497,
+    555,
+    680,
+    696,
+    741,
+    756,
+    764,
+    765,
+    790,
+    837,
+    841,
+    849,
+    851,
+    858,
+    871,
+    874,
+    877,
+    913,
+    949,
+    1031,
+    1033,
+    1045,
+    1078,
+    1328,
+    1363,
+    1431,
+    1599,
+    1601,
+    1625,
+    1675,
+    1743
    ]
   },
   {
@@ -21483,17 +20734,17 @@ window.GRAPH_DATA = {
    "notes": "Randomized compression and fast direct solvers.",
    "group": "rand",
    "papers": [
-    1279,
-    1295,
-    1406,
-    1419,
-    1533,
-    1571,
-    1572,
-    1574,
-    1678,
-    1748,
-    1793
+    1221,
+    1236,
+    1344,
+    1357,
+    1470,
+    1507,
+    1508,
+    1509,
+    1613,
+    1683,
+    1728
    ]
   },
   {
@@ -21510,24 +20761,18 @@ window.GRAPH_DATA = {
    "notes": "Foundational analysis of Krylov methods in finite precision arithmetic.",
    "group": "krylov",
    "papers": [
-    8,
-    12,
-    13,
-    24,
-    25,
-    29,
-    36,
-    46,
-    75,
-    76,
-    1163,
-    1231,
-    1372,
-    1382,
-    1483,
-    1502,
-    1652,
-    1700
+    5,
+    19,
+    66,
+    67,
+    1109,
+    1175,
+    1311,
+    1321,
+    1420,
+    1439,
+    1587,
+    1635
    ]
   },
   {
@@ -21548,52 +20793,52 @@ window.GRAPH_DATA = {
    "notes": "Randomized methods for inverse problems and model reduction. Co-organizer of the ICERM 2026 workshop.",
    "group": "inverse",
    "papers": [
-    571,
-    602,
-    750,
+    531,
+    562,
+    706,
+    715,
+    729,
     760,
-    774,
-    805,
-    850,
-    870,
-    1004,
-    1062,
-    1123,
-    1170,
-    1221,
-    1230,
-    1280,
-    1290,
-    1296,
-    1316,
-    1344,
-    1345,
-    1363,
-    1378,
-    1400,
-    1408,
-    1444,
-    1449,
-    1459,
-    1469,
-    1575,
-    1579,
-    1600,
-    1625,
-    1636,
-    1637,
-    1653,
-    1655,
-    1656,
-    1674,
-    1677,
-    1699,
-    1703,
-    1704,
-    1724,
-    1741,
-    1785,
-    1797
+    804,
+    822,
+    954,
+    1011,
+    1070,
+    1116,
+    1165,
+    1174,
+    1222,
+    1231,
+    1237,
+    1256,
+    1284,
+    1285,
+    1303,
+    1317,
+    1338,
+    1346,
+    1381,
+    1386,
+    1396,
+    1406,
+    1510,
+    1514,
+    1535,
+    1560,
+    1571,
+    1572,
+    1588,
+    1590,
+    1591,
+    1609,
+    1612,
+    1634,
+    1638,
+    1639,
+    1659,
+    1676,
+    1720,
+    1732
    ]
   },
   {
@@ -21609,7 +20854,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "group": "rand",
    "papers": [
-    1628
+    1563
    ]
   },
   {
@@ -21628,64 +20873,64 @@ window.GRAPH_DATA = {
    "notes": "Randomized block Krylov methods, Hutch++, sublinear-time linear algebra. Brother of Christopher.",
    "group": "tcs",
    "papers": [
-    598,
-    626,
-    635,
-    636,
-    644,
-    646,
-    672,
-    696,
-    697,
-    754,
-    755,
-    771,
-    776,
-    783,
-    789,
-    824,
-    834,
-    837,
-    840,
-    856,
-    857,
-    881,
-    912,
-    930,
+    558,
+    586,
+    595,
+    596,
+    604,
+    606,
+    630,
+    653,
+    654,
+    710,
+    711,
+    726,
+    731,
+    738,
+    744,
+    778,
+    788,
+    791,
+    794,
+    810,
+    811,
+    833,
+    863,
+    880,
+    959,
+    965,
+    981,
+    988,
     1009,
-    1015,
-    1031,
-    1038,
-    1060,
-    1069,
-    1099,
-    1100,
-    1134,
-    1178,
-    1207,
-    1231,
-    1233,
-    1372,
-    1380,
-    1382,
-    1394,
-    1437,
-    1442,
-    1501,
-    1502,
-    1510,
-    1528,
-    1547,
-    1560,
-    1597,
-    1626,
-    1644,
-    1667,
-    1694,
-    1763,
-    1790,
-    1805,
-    1811
+    1018,
+    1048,
+    1049,
+    1080,
+    1124,
+    1152,
+    1175,
+    1177,
+    1311,
+    1319,
+    1321,
+    1332,
+    1375,
+    1379,
+    1438,
+    1439,
+    1447,
+    1465,
+    1484,
+    1496,
+    1532,
+    1561,
+    1579,
+    1602,
+    1629,
+    1698,
+    1725,
+    1740,
+    1745
    ]
   },
   {
@@ -21702,32 +20947,10 @@ window.GRAPH_DATA = {
    "notes": "Randomized algorithms for tensor networks and Krylov methods.",
    "group": "rand",
    "papers": [
-    1612,
-    1750,
-    1777,
-    1814
-   ]
-  },
-  {
-   "id": "christopher-beattie",
-   "name": "Christopher Beattie",
-   "affiliation": "Virginia Tech",
-   "website": "",
-   "photo": "",
-   "topics": [
-    "model-reduction",
-    "eigenvalue",
-    "inverse-problems"
-   ],
-   "notes": "",
-   "group": "krylov",
-   "papers": [
-    104,
-    131,
-    153,
-    618,
-    1264,
-    1288
+    1547,
+    1685,
+    1712,
+    1748
    ]
   },
   {
@@ -21746,66 +20969,66 @@ window.GRAPH_DATA = {
    "notes": "Randomized block Krylov methods, Hutch++, matrix-vector query complexity. Brother of Cameron.",
    "group": "tcs",
    "papers": [
-    598,
-    626,
-    635,
-    644,
-    646,
-    696,
-    697,
-    754,
-    771,
-    776,
-    783,
-    824,
-    834,
-    837,
-    840,
-    857,
-    881,
-    912,
-    930,
+    558,
+    586,
+    595,
+    604,
+    606,
+    653,
+    654,
+    710,
+    726,
+    731,
+    738,
+    778,
+    788,
+    791,
+    794,
+    811,
+    833,
+    863,
+    880,
+    959,
+    965,
+    981,
+    988,
     1009,
-    1015,
-    1031,
+    1018,
+    1037,
     1038,
-    1060,
-    1069,
-    1088,
-    1089,
-    1099,
-    1100,
-    1134,
-    1178,
-    1207,
-    1231,
-    1233,
-    1372,
-    1376,
-    1380,
-    1382,
-    1428,
-    1442,
-    1478,
-    1479,
-    1490,
-    1501,
-    1502,
-    1510,
-    1528,
-    1580,
-    1597,
-    1613,
-    1626,
-    1644,
-    1667,
-    1682,
-    1694,
-    1717,
-    1755,
-    1763,
-    1790,
-    1805
+    1048,
+    1049,
+    1080,
+    1124,
+    1152,
+    1175,
+    1177,
+    1311,
+    1315,
+    1319,
+    1321,
+    1366,
+    1379,
+    1415,
+    1416,
+    1427,
+    1438,
+    1439,
+    1447,
+    1465,
+    1515,
+    1532,
+    1548,
+    1561,
+    1579,
+    1602,
+    1617,
+    1629,
+    1652,
+    1690,
+    1698,
+    1725,
+    1740
    ]
   },
   {
@@ -21821,47 +21044,29 @@ window.GRAPH_DATA = {
    "notes": "Column-subset selection and CUR; core early-RandNLA contributor.",
    "group": "rand",
    "papers": [
-    270,
-    334,
-    387,
-    444,
-    447,
-    465,
-    469,
-    485,
+    247,
+    307,
+    358,
+    411,
+    414,
+    431,
+    435,
+    449,
+    458,
+    472,
+    493,
     494,
-    509,
-    532,
-    533,
-    545,
-    559,
-    575,
-    590,
-    606,
-    619,
-    620,
-    627,
-    691,
-    692,
-    763
-   ]
-  },
-  {
-   "id": "cleve-moler",
-   "name": "Cleve Moler",
-   "affiliation": "MathWorks",
-   "website": "https://blogs.mathworks.com/cleve/",
-   "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Cleve_B_Moler_in_2017_Argonne_Seminars_GPU_Computing_%28cropped%29.png/250px-Cleve_B_Moler_in_2017_Argonne_Seminars_GPU_Computing_%28cropped%29.png",
-   "topics": [
-    "software"
-   ],
-   "notes": "Creator of MATLAB; co-author of the LINPACK and EISPACK libraries (1939-2026).",
-   "group": "hpc",
-   "papers": [
-    0,
-    1,
-    2,
-    265
+    506,
+    519,
+    535,
+    550,
+    566,
+    579,
+    580,
+    587,
+    648,
+    649,
+    718
    ]
   },
   {
@@ -21881,36 +21086,36 @@ window.GRAPH_DATA = {
    "notes": "Low-rank and tensor methods; randomized trace estimation and low-rank approximation analysis with his EPFL group.",
    "group": "rand",
    "papers": [
-    197,
-    625,
-    798,
-    932,
-    941,
-    994,
-    1030,
-    1033,
-    1061,
-    1093,
-    1115,
-    1133,
-    1146,
-    1226,
-    1241,
-    1244,
-    1245,
-    1273,
-    1366,
-    1403,
-    1462,
-    1540,
-    1541,
-    1592,
-    1628,
-    1650,
-    1661,
-    1676,
-    1733,
-    1796
+    177,
+    585,
+    753,
+    882,
+    891,
+    944,
+    980,
+    983,
+    1010,
+    1042,
+    1062,
+    1079,
+    1092,
+    1170,
+    1185,
+    1188,
+    1189,
+    1215,
+    1305,
+    1341,
+    1399,
+    1477,
+    1478,
+    1527,
+    1563,
+    1585,
+    1596,
+    1611,
+    1668,
+    1731
    ]
   },
   {
@@ -21927,19 +21132,19 @@ window.GRAPH_DATA = {
    "notes": "Laplacian paradigm and smoothed analysis; spectral sparsification.",
    "group": "tcs",
    "papers": [
-    365,
-    475,
-    499,
-    515,
-    565,
-    581,
-    638,
-    705,
-    835,
-    893,
-    1240,
-    1414,
-    1729
+    338,
+    441,
+    463,
+    478,
+    525,
+    541,
+    598,
+    662,
+    789,
+    844,
+    1184,
+    1352,
+    1664
    ]
   },
   {
@@ -21958,38 +21163,35 @@ window.GRAPH_DATA = {
    "notes": "Krylov convergence theory (long line with Simoncini); asynchronous methods.",
    "group": "krylov",
    "papers": [
-    78,
-    90,
-    103,
-    114,
-    126,
-    162,
-    165,
-    169,
-    198,
-    209,
-    210,
-    266,
-    323,
-    331,
-    392,
-    446,
-    600,
-    665,
-    760,
-    819,
-    987,
-    1070,
-    1110,
-    1214,
-    1271,
-    1278,
-    1385,
-    1401,
-    1558,
-    1582,
-    1668,
-    1791
+    69,
+    81,
+    93,
+    112,
+    142,
+    145,
+    149,
+    178,
+    189,
+    190,
+    244,
+    297,
+    304,
+    363,
+    413,
+    560,
+    623,
+    715,
+    937,
+    1019,
+    1057,
+    1159,
+    1220,
+    1324,
+    1339,
+    1494,
+    1517,
+    1603,
+    1726
    ]
   },
   {
@@ -22007,186 +21209,186 @@ window.GRAPH_DATA = {
    "notes": "Bayesian scientific computing (books with Somersalo).",
    "group": "inverse",
    "papers": [
-    16,
+    11,
+    17,
     22,
+    26,
+    27,
     28,
+    29,
+    31,
     33,
-    34,
-    35,
-    37,
-    39,
-    41,
-    54,
-    56,
+    45,
+    47,
+    51,
+    57,
+    59,
     60,
-    66,
+    64,
+    65,
     68,
-    69,
-    73,
+    72,
     74,
     77,
-    81,
-    83,
+    80,
+    84,
+    85,
     86,
-    89,
-    93,
+    87,
+    90,
     94,
-    95,
-    96,
+    97,
+    99,
     100,
-    105,
-    109,
-    111,
-    112,
-    115,
-    116,
-    117,
+    102,
+    103,
+    104,
+    110,
+    113,
+    118,
     124,
     127,
-    134,
-    140,
+    133,
+    139,
     143,
-    149,
-    158,
-    163,
-    164,
+    144,
+    147,
+    150,
+    155,
     167,
+    169,
     170,
-    175,
-    187,
-    189,
-    190,
+    171,
     191,
-    211,
-    214,
-    217,
-    219,
-    220,
+    193,
+    196,
+    198,
+    199,
+    200,
+    201,
+    202,
+    203,
+    209,
+    210,
+    213,
+    215,
     221,
     222,
     223,
-    224,
-    230,
-    231,
-    234,
-    236,
-    242,
+    225,
+    232,
+    233,
+    238,
     243,
-    244,
-    246,
-    253,
-    254,
-    259,
-    264,
-    274,
-    284,
+    251,
+    261,
+    268,
+    271,
+    272,
+    290,
     292,
     295,
-    296,
-    316,
-    318,
-    321,
-    342,
-    347,
-    356,
+    315,
+    320,
+    329,
+    340,
+    344,
     368,
-    372,
-    397,
-    398,
+    369,
+    370,
+    375,
+    378,
+    379,
+    380,
+    381,
+    382,
+    383,
+    384,
+    385,
+    386,
+    390,
+    395,
     399,
-    404,
-    408,
+    401,
     409,
-    410,
-    411,
-    412,
-    413,
-    414,
-    415,
-    416,
-    421,
-    426,
-    432,
-    434,
-    442,
-    459,
-    463,
-    481,
-    493,
-    517,
+    425,
+    429,
+    445,
+    457,
+    480,
+    489,
+    491,
+    499,
+    505,
+    511,
+    527,
     528,
-    530,
-    538,
-    544,
-    551,
-    567,
-    568,
-    577,
+    537,
+    543,
+    546,
+    547,
+    571,
     583,
-    586,
-    587,
+    600,
+    603,
     611,
-    623,
-    640,
-    643,
-    651,
-    660,
-    661,
-    683,
-    715,
-    732,
+    620,
+    621,
+    641,
+    672,
+    689,
+    725,
     770,
-    815,
-    816,
-    832,
-    964,
-    989,
-    990,
-    996,
-    1018,
-    1035,
-    1036,
-    1078,
-    1150,
-    1152,
-    1165,
-    1217,
-    1298,
-    1300,
-    1318,
-    1319,
-    1325,
-    1326,
-    1327,
-    1328,
+    771,
+    786,
+    914,
+    939,
+    940,
+    946,
+    968,
+    985,
+    986,
+    1027,
+    1096,
+    1098,
+    1111,
+    1162,
+    1239,
+    1240,
+    1258,
+    1259,
+    1265,
+    1266,
+    1267,
+    1268,
+    1275,
+    1279,
+    1281,
+    1283,
+    1288,
+    1301,
+    1306,
+    1307,
+    1310,
+    1329,
     1335,
-    1339,
-    1341,
-    1343,
-    1348,
-    1361,
-    1367,
-    1368,
-    1371,
-    1391,
-    1397,
-    1417,
-    1434,
-    1455,
-    1465,
-    1471,
+    1355,
+    1372,
+    1392,
+    1402,
+    1408,
+    1437,
+    1476,
+    1490,
     1500,
-    1539,
-    1553,
-    1564,
-    1584,
-    1693,
-    1698,
-    1752,
-    1753,
-    1803,
-    1806,
-    1812
+    1519,
+    1628,
+    1633,
+    1687,
+    1688,
+    1738,
+    1741,
+    1746
    ]
   },
   {
@@ -22203,13 +21405,13 @@ window.GRAPH_DATA = {
    "notes": "Eigenvalue computations, kernels, and network analysis.",
    "group": "hpc",
    "papers": [
-    108,
-    136,
-    150,
-    195,
-    238,
-    260,
-    1236
+    96,
+    120,
+    134,
+    175,
+    217,
+    239,
+    1180
    ]
   },
   {
@@ -22225,15 +21427,15 @@ window.GRAPH_DATA = {
    "notes": "Randomized and spectral methods for network analysis.",
    "group": "rand",
    "papers": [
-    466,
-    516,
-    647,
-    649,
-    686,
-    727,
-    802,
-    1353,
-    1379
+    432,
+    479,
+    607,
+    609,
+    644,
+    684,
+    757,
+    1293,
+    1318
    ]
   },
   {
@@ -22251,16 +21453,16 @@ window.GRAPH_DATA = {
    "notes": "funNyström; randomized trace estimation and low-rank approximation.",
    "group": "rand",
    "papers": [
-    1244,
-    1403,
-    1580,
-    1644,
-    1650,
-    1667,
-    1676,
-    1682,
-    1717,
-    1790
+    1188,
+    1341,
+    1515,
+    1579,
+    1585,
+    1602,
+    1611,
+    1617,
+    1652,
+    1725
    ]
   },
   {
@@ -22279,129 +21481,129 @@ window.GRAPH_DATA = {
    "notes": "Sketching-as-a-tool; Clarkson–Woodruff input-sparsity-time regression and low-rank approximation.",
    "group": "tcs",
    "papers": [
-    272,
-    281,
-    298,
-    309,
-    319,
-    330,
-    361,
-    424,
-    436,
-    449,
-    450,
-    482,
-    496,
-    557,
-    561,
-    562,
-    590,
-    608,
-    637,
-    675,
+    249,
+    258,
+    273,
+    284,
+    293,
+    303,
+    334,
+    393,
+    403,
+    415,
+    416,
+    446,
+    460,
+    517,
+    521,
+    522,
+    550,
+    568,
+    597,
+    633,
+    639,
+    647,
+    649,
+    658,
+    661,
+    671,
     681,
-    690,
-    692,
-    701,
-    704,
+    688,
+    703,
+    711,
     714,
-    724,
-    731,
-    746,
-    755,
-    759,
-    763,
-    765,
-    782,
-    789,
-    841,
-    856,
-    862,
-    901,
-    928,
-    930,
-    952,
-    968,
-    970,
-    986,
-    1023,
-    1038,
-    1042,
-    1045,
-    1050,
-    1068,
-    1087,
-    1092,
-    1099,
-    1100,
-    1120,
-    1134,
-    1140,
-    1158,
-    1172,
+    718,
+    720,
+    737,
+    744,
+    795,
+    810,
+    816,
+    852,
+    878,
+    880,
+    902,
+    918,
+    920,
+    936,
+    973,
+    988,
+    992,
+    995,
+    999,
+    1017,
+    1036,
+    1041,
+    1048,
+    1049,
+    1067,
+    1080,
+    1086,
+    1104,
+    1118,
+    1123,
+    1124,
+    1137,
+    1143,
+    1145,
+    1152,
+    1154,
     1177,
-    1178,
-    1191,
-    1197,
-    1200,
-    1207,
+    1196,
+    1198,
+    1202,
     1209,
-    1233,
-    1252,
-    1254,
-    1258,
-    1266,
-    1268,
-    1285,
-    1294,
-    1297,
-    1303,
-    1307,
+    1211,
+    1227,
+    1235,
+    1238,
+    1243,
+    1247,
+    1276,
+    1290,
+    1298,
+    1312,
+    1319,
+    1320,
+    1326,
+    1327,
+    1330,
+    1332,
     1336,
-    1350,
-    1358,
-    1373,
-    1380,
-    1381,
-    1388,
-    1389,
-    1392,
-    1394,
-    1398,
-    1413,
-    1421,
-    1426,
-    1427,
-    1448,
-    1453,
-    1456,
-    1477,
-    1487,
-    1491,
-    1508,
-    1512,
-    1513,
-    1545,
-    1560,
-    1611,
+    1351,
+    1359,
+    1364,
+    1365,
+    1385,
+    1390,
+    1393,
+    1414,
+    1424,
+    1428,
+    1445,
+    1449,
+    1450,
+    1482,
+    1496,
+    1546,
+    1567,
+    1568,
+    1580,
+    1584,
+    1592,
+    1593,
     1632,
-    1633,
-    1645,
-    1649,
-    1657,
     1658,
-    1697,
-    1723,
-    1730,
-    1731,
-    1734,
-    1742,
-    1747,
-    1754,
-    1776,
-    1778,
-    1784,
-    1800
+    1665,
+    1666,
+    1669,
+    1677,
+    1682,
+    1689,
+    1711,
+    1713,
+    1719,
+    1735
    ]
   },
   {
@@ -22420,30 +21622,30 @@ window.GRAPH_DATA = {
    "notes": "Matrix equations and large-scale Sylvester/Lyapunov solvers.",
    "group": "krylov",
    "papers": [
-    614,
-    735,
-    843,
-    855,
-    1051,
-    1115,
-    1148,
-    1196,
-    1212,
-    1302,
-    1412,
-    1420,
-    1531,
-    1532,
-    1570,
-    1594,
-    1679,
-    1688,
-    1711,
-    1726,
-    1727,
-    1728,
-    1799,
-    1801
+    574,
+    692,
+    797,
+    809,
+    1000,
+    1062,
+    1094,
+    1142,
+    1157,
+    1242,
+    1350,
+    1358,
+    1468,
+    1469,
+    1506,
+    1529,
+    1614,
+    1623,
+    1646,
+    1661,
+    1662,
+    1663,
+    1734,
+    1736
    ]
   },
   {
@@ -22461,95 +21663,95 @@ window.GRAPH_DATA = {
    "notes": "Randomized Kaczmarz and stochastic iterative methods.",
    "group": "ml",
    "papers": [
-    263,
-    312,
-    313,
-    447,
-    451,
-    452,
-    484,
-    486,
-    491,
-    500,
-    502,
-    536,
-    592,
-    595,
-    642,
-    657,
-    722,
-    723,
-    739,
-    786,
-    800,
-    801,
-    809,
-    810,
-    836,
-    844,
+    242,
+    287,
+    288,
+    414,
+    417,
+    418,
+    448,
+    450,
+    455,
+    464,
+    466,
+    497,
+    552,
+    555,
+    602,
+    617,
+    679,
+    680,
+    696,
+    741,
+    755,
+    756,
+    764,
+    765,
+    790,
+    798,
+    805,
+    835,
+    837,
+    841,
+    845,
+    849,
+    850,
     851,
-    883,
-    886,
+    858,
+    874,
+    877,
+    889,
     890,
-    894,
-    898,
     899,
-    900,
-    907,
-    924,
-    927,
-    939,
-    940,
+    910,
+    913,
+    935,
+    943,
     949,
-    960,
+    962,
     963,
-    985,
-    993,
-    999,
-    1012,
-    1013,
-    1046,
-    1047,
-    1048,
-    1074,
-    1081,
-    1082,
-    1084,
-    1096,
+    996,
+    997,
+    998,
+    1023,
+    1030,
+    1031,
+    1033,
+    1045,
+    1054,
+    1066,
+    1093,
+    1099,
+    1106,
     1107,
-    1119,
-    1147,
-    1153,
+    1108,
+    1122,
+    1131,
+    1146,
     1160,
-    1161,
-    1162,
-    1176,
-    1185,
-    1201,
-    1215,
-    1274,
-    1284,
-    1291,
-    1297,
-    1375,
-    1383,
-    1384,
-    1425,
-    1494,
-    1538,
-    1544,
-    1586,
-    1587,
-    1610,
-    1615,
-    1665,
-    1670,
-    1671,
-    1672,
-    1701,
-    1740,
-    1781,
-    1808
+    1216,
+    1226,
+    1232,
+    1238,
+    1314,
+    1322,
+    1323,
+    1363,
+    1431,
+    1475,
+    1481,
+    1521,
+    1522,
+    1545,
+    1550,
+    1600,
+    1605,
+    1606,
+    1607,
+    1636,
+    1675,
+    1716,
+    1743
    ]
   },
   {
@@ -22566,16 +21768,16 @@ window.GRAPH_DATA = {
    "notes": "Matrix recovery from matvec queries; operator learning.",
    "group": "approx",
    "papers": [
-    1109,
-    1257,
-    1347,
-    1511,
-    1546,
-    1644,
-    1740,
-    1763,
-    1790,
-    1818
+    1056,
+    1201,
+    1287,
+    1448,
+    1483,
+    1579,
+    1675,
+    1698,
+    1725,
+    1752
    ]
   },
   {
@@ -22593,32 +21795,32 @@ window.GRAPH_DATA = {
    "notes": "Parallel preconditioning and approximate inverse methods.",
    "group": "hpc",
    "papers": [
-    45,
-    47,
-    55,
-    58,
-    113,
-    555,
-    584,
-    609,
-    656,
-    665,
-    716,
-    811,
-    848,
-    853,
-    871,
-    943,
-    944,
-    987,
-    988,
-    1022,
-    1070,
-    1110,
-    1214,
-    1766,
-    1804,
-    1820
+    37,
+    38,
+    46,
+    49,
+    101,
+    515,
+    544,
+    569,
+    616,
+    623,
+    673,
+    766,
+    802,
+    807,
+    823,
+    893,
+    894,
+    937,
+    938,
+    972,
+    1019,
+    1057,
+    1159,
+    1701,
+    1739,
+    1754
    ]
   },
   {
@@ -22635,12 +21837,12 @@ window.GRAPH_DATA = {
    "notes": "Frequent Directions sketching; early randomized SVD work at Yale.",
    "group": "rand",
    "papers": [
-    239,
-    248,
-    335,
-    606,
-    619,
-    675
+    218,
+    227,
+    308,
+    566,
+    579,
+    633
    ]
   },
   {
@@ -22657,17 +21859,17 @@ window.GRAPH_DATA = {
    "notes": "t-product tensor frameworks for deep learning and imaging.",
    "group": "inverse",
    "papers": [
-    751,
-    858,
-    1044,
-    1086,
-    1098,
-    1190,
-    1309,
-    1365,
-    1443,
-    1542,
-    1743
+    707,
+    812,
+    994,
+    1035,
+    1047,
+    1136,
+    1249,
+    1304,
+    1380,
+    1479,
+    1678
    ]
   },
   {
@@ -22686,40 +21888,40 @@ window.GRAPH_DATA = {
    "notes": "Random matrix theory and randomized iterative methods.",
    "group": "ml",
    "papers": [
-    803,
-    874,
-    940,
-    960,
-    978,
-    993,
-    1047,
-    1048,
-    1072,
-    1081,
-    1107,
-    1119,
-    1147,
-    1162,
-    1274,
-    1284,
-    1375,
-    1390,
-    1450,
+    758,
+    826,
+    890,
+    910,
+    928,
+    943,
+    997,
+    998,
+    1021,
+    1030,
+    1054,
+    1066,
+    1093,
+    1108,
+    1216,
+    1226,
+    1314,
+    1328,
+    1387,
+    1401,
+    1407,
+    1444,
     1464,
-    1470,
-    1507,
-    1527,
-    1538,
-    1544,
-    1585,
-    1610,
-    1615,
-    1671,
-    1692,
-    1701,
-    1706,
-    1740,
-    1817
+    1475,
+    1481,
+    1520,
+    1545,
+    1550,
+    1606,
+    1627,
+    1636,
+    1641,
+    1675,
+    1751
    ]
   },
   {
@@ -22735,9 +21937,9 @@ window.GRAPH_DATA = {
    "notes": "",
    "group": "ml",
    "papers": [
-    1664,
-    1666,
-    1690
+    1599,
+    1601,
+    1625
    ]
   },
   {
@@ -22755,29 +21957,27 @@ window.GRAPH_DATA = {
    "notes": "Krylov subspace recycling; inverse problems.",
    "group": "krylov",
    "papers": [
-    97,
-    151,
-    199,
+    179,
+    316,
     343,
-    371,
-    443,
-    618,
-    632,
-    633,
-    634,
-    737,
-    948,
-    979,
-    1123,
-    1135,
-    1170,
-    1213,
-    1280,
-    1316,
-    1411,
-    1430,
-    1780,
-    1795
+    410,
+    578,
+    592,
+    593,
+    594,
+    694,
+    898,
+    929,
+    1070,
+    1081,
+    1116,
+    1158,
+    1222,
+    1256,
+    1349,
+    1368,
+    1715,
+    1730
    ]
   },
   {
@@ -22794,22 +21994,22 @@ window.GRAPH_DATA = {
    "notes": "Parallel preconditioning and combinatorial scientific computing (Zoltan, Trilinos).",
    "group": "hpc",
    "papers": [
-    135,
-    322,
-    527,
-    811,
-    977,
-    1034,
-    1070,
-    1097,
-    1126,
-    1255,
-    1278,
-    1558,
-    1567,
-    1582,
-    1720,
-    1791
+    119,
+    296,
+    488,
+    766,
+    927,
+    984,
+    1019,
+    1046,
+    1073,
+    1199,
+    1220,
+    1494,
+    1503,
+    1517,
+    1655,
+    1726
    ]
   },
   {
@@ -22828,31 +22028,26 @@ window.GRAPH_DATA = {
    "notes": "Mixed-precision iterative refinement; s-step Krylov stability. Co-organizer of the Banff 2023 workshop.",
    "group": "hpc",
    "papers": [
-    458,
-    468,
-    507,
-    520,
-    563,
-    570,
-    580,
-    689,
-    717,
-    720,
-    807,
-    869,
-    977,
-    1049,
-    1058,
-    1090,
-    1097,
-    1198,
-    1259,
-    1262,
-    1436,
-    1529,
-    1556,
-    1565,
-    1642
+    424,
+    434,
+    471,
+    482,
+    523,
+    530,
+    540,
+    674,
+    677,
+    762,
+    927,
+    1007,
+    1039,
+    1046,
+    1203,
+    1206,
+    1374,
+    1466,
+    1501,
+    1577
    ]
   },
   {
@@ -22869,143 +22064,143 @@ window.GRAPH_DATA = {
    "notes": "Bayesian scientific computing (books with Calvetti).",
    "group": "inverse",
    "papers": [
-    149,
-    158,
-    163,
+    133,
+    139,
+    143,
+    147,
+    155,
     167,
-    175,
-    187,
-    189,
-    190,
+    169,
+    170,
+    171,
     191,
-    211,
-    214,
-    217,
-    219,
-    220,
+    193,
+    196,
+    198,
+    199,
+    200,
+    201,
+    203,
+    209,
+    210,
+    213,
+    215,
     221,
     222,
-    224,
-    230,
-    231,
-    234,
-    236,
-    242,
+    223,
+    225,
+    232,
+    233,
+    238,
     243,
-    244,
-    246,
-    253,
-    254,
-    259,
-    264,
-    274,
-    284,
+    251,
+    261,
+    268,
+    271,
+    272,
+    290,
     292,
     295,
-    296,
-    316,
-    318,
-    321,
-    342,
-    347,
-    356,
+    315,
+    320,
+    329,
+    340,
+    344,
     368,
-    372,
-    397,
+    370,
+    375,
+    378,
+    379,
+    380,
+    381,
+    382,
+    383,
+    384,
+    385,
+    386,
+    390,
+    395,
     399,
-    404,
-    408,
+    401,
     409,
-    410,
-    411,
-    412,
-    413,
-    414,
-    415,
-    416,
-    421,
-    426,
-    432,
-    434,
-    442,
-    459,
-    463,
-    481,
-    493,
-    517,
+    425,
+    429,
+    445,
+    457,
+    480,
+    489,
+    491,
+    499,
+    505,
+    511,
+    527,
     528,
-    530,
-    538,
-    544,
-    551,
-    567,
-    568,
-    577,
+    537,
+    543,
+    546,
+    547,
+    571,
     583,
-    586,
-    587,
+    600,
+    603,
     611,
-    623,
-    640,
-    643,
-    651,
-    660,
-    661,
-    683,
-    715,
-    732,
+    620,
+    621,
+    641,
+    672,
+    689,
+    725,
     770,
-    815,
-    816,
-    832,
-    964,
-    989,
-    990,
-    996,
-    1018,
-    1035,
-    1036,
-    1078,
-    1150,
-    1152,
-    1165,
-    1217,
-    1298,
-    1300,
-    1318,
-    1319,
-    1325,
-    1326,
-    1327,
-    1328,
+    771,
+    786,
+    914,
+    939,
+    940,
+    946,
+    968,
+    985,
+    986,
+    1027,
+    1096,
+    1098,
+    1111,
+    1162,
+    1239,
+    1240,
+    1258,
+    1259,
+    1265,
+    1266,
+    1267,
+    1268,
+    1275,
+    1279,
+    1281,
+    1283,
+    1288,
+    1301,
+    1306,
+    1307,
+    1310,
+    1329,
     1335,
-    1339,
-    1341,
-    1343,
-    1348,
-    1361,
-    1367,
-    1368,
-    1371,
-    1391,
-    1397,
-    1417,
-    1434,
-    1455,
-    1465,
-    1471,
+    1355,
+    1372,
+    1392,
+    1402,
+    1408,
+    1437,
+    1476,
+    1490,
     1500,
-    1539,
-    1553,
-    1564,
-    1584,
-    1693,
-    1698,
-    1752,
-    1753,
-    1803,
-    1806,
-    1812
+    1519,
+    1628,
+    1633,
+    1687,
+    1688,
+    1738,
+    1741,
+    1746
    ]
   },
   {
@@ -23024,27 +22219,27 @@ window.GRAPH_DATA = {
    "notes": "Randomly pivoted Cholesky; XTrace; numerical analysis of randomized methods.",
    "group": "rand",
    "papers": [
-    1203,
-    1247,
-    1287,
-    1415,
-    1451,
-    1468,
-    1476,
-    1520,
-    1552,
-    1562,
-    1602,
-    1612,
-    1700,
-    1708,
-    1755,
-    1760,
-    1777,
-    1781,
-    1802,
-    1814,
-    1816
+    1148,
+    1191,
+    1229,
+    1353,
+    1388,
+    1405,
+    1413,
+    1457,
+    1489,
+    1498,
+    1537,
+    1547,
+    1635,
+    1643,
+    1690,
+    1695,
+    1712,
+    1716,
+    1737,
+    1748,
+    1750
    ]
   },
   {
@@ -23060,10 +22255,10 @@ window.GRAPH_DATA = {
    "notes": "",
    "group": "inverse",
    "papers": [
-    1431,
-    1550,
-    1575,
-    1714
+    1369,
+    1487,
+    1510,
+    1649
    ]
   },
   {
@@ -23081,40 +22276,40 @@ window.GRAPH_DATA = {
    "notes": "Sub-sampled and sketched second-order optimization.",
    "group": "ml",
    "papers": [
+    625,
+    626,
+    651,
     667,
     668,
-    694,
-    710,
-    711,
-    712,
-    793,
-    795,
-    822,
-    827,
-    828,
-    829,
-    830,
-    842,
-    847,
-    861,
-    918,
-    972,
-    1039,
-    1040,
-    1073,
+    669,
+    748,
+    750,
+    776,
+    781,
+    782,
+    783,
+    784,
+    796,
+    801,
+    815,
+    869,
+    922,
+    989,
+    990,
+    1022,
+    1032,
     1083,
-    1137,
-    1142,
-    1158,
-    1187,
-    1246,
-    1248,
-    1267,
-    1314,
-    1377,
-    1433,
-    1525,
-    1596
+    1088,
+    1104,
+    1133,
+    1190,
+    1192,
+    1210,
+    1254,
+    1316,
+    1371,
+    1462,
+    1531
    ]
   },
   {
@@ -23130,9 +22325,9 @@ window.GRAPH_DATA = {
    "notes": "",
    "group": "hpc",
    "papers": [
-    1634,
-    1766,
-    1820
+    1569,
+    1701,
+    1754
    ]
   },
   {
@@ -23148,27 +22343,27 @@ window.GRAPH_DATA = {
    "notes": "Communication-avoiding algorithms; randomized methods for tensor decompositions.",
    "group": "hpc",
    "papers": [
-    346,
-    349,
-    351,
-    352,
-    417,
-    418,
-    473,
-    521,
-    585,
-    718,
-    1218,
-    1305,
-    1396,
-    1460,
-    1579,
-    1588,
-    1590,
-    1625,
-    1640,
-    1745,
-    1768
+    319,
+    322,
+    324,
+    325,
+    387,
+    388,
+    439,
+    483,
+    545,
+    675,
+    1163,
+    1245,
+    1334,
+    1397,
+    1514,
+    1523,
+    1525,
+    1560,
+    1575,
+    1680,
+    1703
    ]
   },
   {
@@ -23188,48 +22383,48 @@ window.GRAPH_DATA = {
    "notes": "Avron–Toledo trace estimation analysis; sketching for kernel methods. Co-organizer of the ICERM 2026 workshop.",
    "group": "rand",
    "papers": [
-    269,
-    289,
-    299,
-    306,
-    310,
-    355,
-    382,
-    469,
-    495,
-    496,
-    498,
-    529,
-    558,
-    562,
-    576,
-    591,
-    698,
-    704,
-    746,
-    771,
-    782,
-    826,
-    858,
-    878,
-    881,
-    965,
-    969,
-    1011,
-    1080,
-    1086,
-    1121,
-    1180,
-    1190,
-    1234,
-    1275,
-    1497,
-    1499,
-    1542,
-    1643,
-    1765,
-    1769,
-    1787
+    246,
+    266,
+    274,
+    281,
+    285,
+    328,
+    353,
+    435,
+    459,
+    460,
+    462,
+    490,
+    518,
+    522,
+    536,
+    551,
+    655,
+    661,
+    703,
+    726,
+    737,
+    780,
+    812,
+    830,
+    833,
+    915,
+    919,
+    961,
+    1029,
+    1035,
+    1068,
+    1126,
+    1136,
+    1178,
+    1217,
+    1434,
+    1436,
+    1479,
+    1578,
+    1700,
+    1704,
+    1722
    ]
   },
   {
@@ -23246,12 +22441,12 @@ window.GRAPH_DATA = {
    "notes": "",
    "group": "inverse",
    "papers": [
-    817,
-    951,
-    1151,
-    1344,
-    1345,
-    1408
+    772,
+    901,
+    1097,
+    1284,
+    1285,
+    1346
    ]
   },
   {
@@ -23268,19 +22463,19 @@ window.GRAPH_DATA = {
    "notes": "Rational approximation and structured low-rank computations.",
    "group": "approx",
    "papers": [
-    662,
-    738,
-    818,
-    1117,
-    1223,
-    1451,
-    1551,
-    1576,
-    1592,
-    1593,
-    1708,
-    1715,
-    1716
+    622,
+    695,
+    773,
+    1064,
+    1167,
+    1388,
+    1488,
+    1511,
+    1527,
+    1528,
+    1643,
+    1650,
+    1651
    ]
   },
   {
@@ -23297,75 +22492,75 @@ window.GRAPH_DATA = {
    "notes": "HPC dense/sparse linear algebra; mixed-precision and randomized kernels (UTK/LBNL lineage).",
    "group": "hpc",
    "papers": [
-    203,
-    257,
-    307,
-    329,
-    337,
-    400,
-    435,
-    454,
+    183,
+    236,
+    282,
+    302,
+    310,
+    371,
+    402,
+    420,
+    439,
+    453,
+    468,
+    469,
     473,
-    489,
-    504,
-    505,
-    510,
-    511,
-    521,
-    522,
-    523,
-    527,
-    537,
-    542,
-    549,
+    474,
+    483,
+    484,
+    485,
+    488,
+    498,
+    503,
+    509,
+    513,
+    524,
+    538,
     553,
-    564,
-    578,
-    593,
-    597,
-    615,
-    616,
-    622,
-    624,
-    629,
-    679,
-    682,
-    706,
-    734,
+    557,
+    575,
+    576,
+    582,
+    584,
+    589,
+    637,
+    640,
+    663,
+    691,
+    697,
+    708,
+    717,
+    733,
+    735,
     740,
+    743,
+    749,
     752,
-    762,
-    778,
-    780,
-    785,
-    788,
-    794,
-    797,
-    813,
-    849,
-    863,
-    868,
-    903,
-    906,
-    922,
-    929,
-    933,
-    942,
-    944,
-    977,
-    1034,
-    1066,
-    1126,
-    1127,
-    1242,
-    1255,
-    1259,
-    1262,
-    1558,
-    1567,
-    1582,
-    1720,
-    1791
+    768,
+    803,
+    817,
+    821,
+    854,
+    857,
+    873,
+    879,
+    883,
+    892,
+    894,
+    927,
+    984,
+    1015,
+    1073,
+    1074,
+    1186,
+    1199,
+    1203,
+    1206,
+    1494,
+    1503,
+    1517,
+    1655,
+    1726
    ]
   },
   {
@@ -23383,10 +22578,10 @@ window.GRAPH_DATA = {
    "notes": "Randomized and mixed-precision methods for large linear systems.",
    "group": "hpc",
    "papers": [
-    1436,
-    1529,
-    1565,
-    1642
+    1374,
+    1466,
+    1501,
+    1577
    ]
   },
   {
@@ -23403,13 +22598,13 @@ window.GRAPH_DATA = {
    "notes": "Krylov methods for matrix functions and network analysis.",
    "group": "krylov",
    "papers": [
-    1043,
-    1064,
-    1334,
-    1681,
-    1685,
-    1757,
-    1796
+    993,
+    1013,
+    1274,
+    1616,
+    1620,
+    1692,
+    1731
    ]
   },
   {
@@ -23428,23 +22623,22 @@ window.GRAPH_DATA = {
    "notes": "Numerical analysis of randomized algorithms; leverage scores and probabilistic bounds.",
    "group": "rand",
    "papers": [
-    4,
-    5,
-    104,
-    708,
-    774,
-    860,
-    931,
-    1290,
-    1378,
-    1534,
-    1543,
-    1636,
+    1,
+    2,
+    665,
+    729,
+    814,
+    881,
+    1231,
+    1317,
+    1471,
+    1480,
+    1571,
+    1572,
+    1634,
     1637,
-    1699,
-    1702,
-    1703,
-    1797
+    1638,
+    1732
    ]
   },
   {
@@ -23462,24 +22656,24 @@ window.GRAPH_DATA = {
    "notes": "Matrix models for beta-ensembles; randomized spectral algorithms.",
    "group": "rmt",
    "papers": [
-    107,
-    154,
-    171,
-    172,
-    185,
-    186,
-    215,
-    226,
-    227,
-    233,
+    95,
+    136,
+    151,
+    152,
+    165,
+    166,
+    194,
+    205,
+    206,
+    212,
+    299,
+    319,
     325,
-    346,
-    352,
-    873,
-    1549,
-    1705,
-    1759,
-    1764
+    825,
+    1486,
+    1640,
+    1694,
+    1699
    ]
   },
   {
@@ -23495,7 +22689,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "group": "hpc",
    "papers": [
-    1599
+    1534
    ]
   },
   {
@@ -23512,216 +22706,212 @@ window.GRAPH_DATA = {
    "notes": "LINPACK/LAPACK/MAGMA lineage; 2021 Turing Award; coauthor of the RandLAPACK monograph.",
    "group": "hpc",
    "papers": [
-    0,
-    1,
-    2,
-    20,
-    27,
-    42,
-    43,
-    48,
+    15,
+    21,
+    34,
+    35,
+    39,
+    41,
     50,
-    59,
-    75,
-    98,
-    120,
-    121,
+    66,
+    88,
+    107,
+    108,
+    111,
+    116,
     125,
-    132,
-    141,
-    152,
-    155,
-    157,
-    176,
-    180,
-    194,
-    201,
+    135,
+    137,
+    138,
+    156,
+    160,
+    174,
+    181,
+    184,
+    187,
+    188,
     204,
-    207,
     208,
-    225,
-    229,
-    235,
+    214,
+    219,
+    230,
     240,
-    251,
-    261,
-    265,
-    268,
-    277,
-    280,
-    283,
-    285,
-    286,
-    291,
-    304,
-    326,
-    333,
-    336,
+    245,
+    254,
+    257,
+    260,
+    262,
+    263,
+    267,
+    279,
+    300,
+    306,
+    309,
+    312,
+    321,
+    330,
+    331,
+    332,
+    337,
     339,
+    341,
+    342,
+    345,
+    346,
+    347,
     348,
+    349,
+    350,
+    351,
+    352,
+    354,
+    355,
     357,
-    358,
-    359,
+    362,
     364,
+    366,
     367,
-    369,
-    370,
-    373,
+    371,
     374,
-    375,
-    376,
     377,
-    378,
-    380,
-    381,
-    383,
-    384,
-    386,
     391,
-    393,
-    395,
+    392,
+    394,
     396,
+    397,
+    398,
     400,
-    403,
     406,
-    422,
-    423,
-    425,
-    427,
-    430,
-    431,
-    433,
+    407,
+    408,
+    412,
+    426,
+    437,
+    438,
     439,
     440,
-    441,
-    445,
-    460,
-    471,
-    472,
+    443,
+    444,
+    454,
+    456,
+    461,
+    468,
+    469,
     473,
     474,
-    479,
-    480,
-    490,
-    492,
-    497,
+    475,
+    481,
+    483,
+    484,
+    485,
+    486,
+    496,
+    498,
+    501,
+    502,
+    503,
     504,
-    505,
+    507,
+    509,
     510,
-    511,
-    512,
-    518,
-    521,
-    522,
-    523,
+    513,
     524,
-    535,
-    537,
-    540,
-    541,
-    542,
-    543,
-    546,
-    549,
-    550,
+    526,
+    529,
+    533,
+    538,
+    539,
+    544,
     553,
-    564,
-    566,
+    557,
+    561,
+    565,
+    567,
     569,
     573,
-    578,
-    579,
+    575,
+    576,
+    577,
+    581,
+    582,
     584,
-    593,
-    597,
-    601,
+    589,
     605,
-    607,
-    609,
-    613,
-    615,
+    608,
     616,
-    617,
-    621,
-    622,
-    624,
-    629,
-    645,
-    648,
-    656,
-    659,
-    678,
-    679,
-    680,
-    682,
-    695,
-    703,
-    706,
-    713,
-    716,
-    730,
+    619,
+    636,
+    637,
+    638,
+    640,
+    652,
+    660,
+    663,
+    670,
+    673,
+    687,
+    690,
+    691,
+    697,
+    708,
+    717,
+    722,
+    723,
     733,
-    734,
+    735,
+    736,
     740,
+    743,
+    746,
+    749,
     752,
-    762,
     767,
     768,
-    778,
-    780,
-    781,
     785,
-    788,
-    791,
-    794,
-    797,
-    812,
-    813,
-    831,
-    848,
-    849,
-    863,
-    864,
-    868,
-    871,
-    884,
-    903,
-    906,
-    922,
-    929,
-    933,
-    942,
-    943,
-    944,
-    961,
-    977,
-    988,
-    995,
-    1021,
-    1022,
-    1066,
-    1067,
-    1071,
-    1095,
-    1097,
-    1127,
-    1192,
-    1206,
-    1210,
-    1225,
-    1242,
-    1263,
-    1282,
-    1304,
+    802,
+    803,
+    817,
+    818,
+    821,
+    823,
+    836,
+    854,
+    857,
+    873,
+    879,
+    883,
+    892,
+    893,
+    894,
+    911,
+    927,
+    938,
+    945,
+    971,
+    972,
+    1015,
+    1016,
+    1020,
+    1044,
+    1046,
+    1074,
+    1138,
+    1151,
+    1155,
+    1169,
+    1186,
+    1207,
+    1224,
+    1244,
+    1273,
+    1294,
     1333,
-    1354,
-    1395,
-    1404,
-    1440,
-    1484,
-    1505,
-    1718,
-    1767
+    1342,
+    1378,
+    1421,
+    1442,
+    1653,
+    1702
    ]
   },
   {
@@ -23738,12 +22928,12 @@ window.GRAPH_DATA = {
    "notes": "Randomized Kaczmarz-type and iterative methods.",
    "group": "ml",
    "papers": [
-    1450,
-    1464,
-    1470,
-    1507,
-    1585,
-    1706
+    1387,
+    1401,
+    1407,
+    1444,
+    1520,
+    1641
    ]
   },
   {
@@ -23760,22 +22950,19 @@ window.GRAPH_DATA = {
    "notes": "IRLBA: restarted Lanczos bidiagonalization for the partial SVD.",
    "group": "krylov",
    "papers": [
-    34,
-    39,
-    54,
-    56,
-    112,
-    116,
-    148,
-    177,
-    200,
-    218,
-    394,
-    402,
-    457,
-    1364,
-    1386,
-    1573
+    27,
+    31,
+    45,
+    47,
+    100,
+    103,
+    132,
+    157,
+    180,
+    197,
+    365,
+    373,
+    423
    ]
   },
   {
@@ -23795,132 +22982,120 @@ window.GRAPH_DATA = {
    "notes": "LAPACK lead; communication-avoiding algorithms; 'fast linear algebra is stable'.",
    "group": "hpc",
    "papers": [
-    7,
-    8,
+    4,
+    5,
+    9,
+    12,
+    13,
     14,
-    17,
+    15,
+    16,
     18,
-    19,
-    20,
     21,
     23,
-    27,
-    30,
-    31,
-    32,
-    42,
+    24,
+    25,
+    34,
+    35,
+    39,
+    41,
     43,
     48,
     50,
-    52,
-    57,
-    59,
-    62,
-    63,
-    65,
+    53,
+    54,
+    56,
+    58,
+    66,
     67,
-    75,
-    76,
-    82,
-    87,
-    102,
-    108,
-    123,
-    136,
-    150,
-    171,
-    172,
-    179,
-    186,
-    195,
-    215,
-    226,
-    227,
-    237,
-    238,
-    255,
-    256,
-    260,
-    262,
-    290,
-    293,
-    297,
-    311,
-    314,
+    73,
+    78,
+    92,
+    96,
+    109,
+    120,
+    134,
+    151,
+    152,
+    159,
+    166,
+    175,
+    194,
+    205,
+    206,
+    216,
+    217,
+    234,
+    235,
+    239,
+    241,
+    269,
+    286,
+    299,
+    319,
+    322,
+    323,
+    324,
     325,
-    346,
-    349,
-    350,
-    351,
-    352,
-    366,
-    379,
-    390,
-    407,
-    417,
-    418,
-    419,
-    420,
+    361,
+    387,
+    388,
+    389,
+    424,
+    427,
     428,
-    429,
-    448,
-    458,
-    461,
-    462,
-    466,
-    468,
-    473,
-    478,
-    507,
-    519,
-    520,
-    521,
-    563,
-    570,
-    580,
-    585,
-    589,
-    630,
-    666,
-    684,
-    685,
-    687,
-    717,
-    718,
-    799,
-    814,
+    432,
+    434,
+    439,
+    442,
+    471,
+    482,
+    483,
+    523,
+    530,
+    540,
+    545,
+    549,
+    590,
+    624,
+    642,
+    643,
+    645,
+    674,
+    675,
+    754,
+    769,
+    792,
+    825,
     838,
-    873,
-    887,
-    892,
-    935,
-    1124,
-    1130,
-    1159,
-    1166,
-    1219,
-    1243,
-    1282,
-    1323,
-    1351,
-    1352,
-    1359,
-    1404,
-    1466,
-    1475,
-    1489,
-    1493,
-    1504,
-    1549,
-    1583,
+    843,
+    885,
+    1071,
+    1076,
+    1105,
+    1112,
+    1187,
+    1224,
+    1263,
+    1291,
+    1292,
+    1299,
+    1342,
+    1403,
+    1412,
+    1426,
+    1430,
+    1441,
+    1486,
+    1518,
+    1524,
+    1541,
+    1576,
     1589,
-    1606,
-    1641,
-    1654,
-    1705,
-    1709,
-    1759,
-    1764
+    1640,
+    1644,
+    1694,
+    1699
    ]
   },
   {
@@ -23936,25 +23111,25 @@ window.GRAPH_DATA = {
    "notes": "Structured and iterative methods for large-scale imaging inverse problems.",
    "group": "inverse",
    "papers": [
-    188,
-    192,
-    232,
-    250,
-    308,
-    328,
-    534,
-    610,
-    921,
-    984,
-    1025,
-    1139,
-    1486,
-    1622,
-    1627,
-    1663,
-    1680,
-    1779,
-    1780
+    168,
+    172,
+    211,
+    229,
+    283,
+    301,
+    495,
+    570,
+    872,
+    934,
+    975,
+    1085,
+    1423,
+    1557,
+    1562,
+    1598,
+    1615,
+    1714,
+    1715
    ]
   },
   {
@@ -23972,39 +23147,39 @@ window.GRAPH_DATA = {
    "notes": "Randomized Kaczmarz and iterative projection methods.",
    "group": "ml",
    "papers": [
-    722,
-    800,
-    844,
+    679,
+    755,
+    798,
+    805,
+    850,
     851,
+    871,
+    889,
     899,
-    900,
-    920,
-    939,
+    935,
     949,
-    985,
-    999,
-    1012,
-    1013,
-    1046,
-    1074,
-    1081,
-    1132,
-    1153,
-    1161,
-    1162,
-    1176,
-    1185,
-    1201,
-    1215,
-    1284,
-    1384,
-    1390,
-    1585,
-    1586,
-    1587,
-    1665,
-    1670,
-    1672
+    962,
+    963,
+    996,
+    1023,
+    1030,
+    1078,
+    1099,
+    1107,
+    1108,
+    1122,
+    1131,
+    1146,
+    1160,
+    1226,
+    1323,
+    1328,
+    1520,
+    1521,
+    1522,
+    1600,
+    1605,
+    1607
    ]
   },
   {
@@ -24021,29 +23196,29 @@ window.GRAPH_DATA = {
    "notes": "OSNAP sparse subspace embeddings; streaming algorithms.",
    "group": "tcs",
    "papers": [
-    272,
-    281,
-    309,
-    319,
-    330,
-    361,
-    436,
-    690,
-    731,
-    765,
-    1169,
-    1197,
-    1276,
-    1310,
-    1342,
-    1355,
-    1362,
-    1393,
-    1438,
-    1498,
-    1518,
-    1697,
-    1783
+    249,
+    258,
+    284,
+    293,
+    303,
+    334,
+    403,
+    647,
+    688,
+    720,
+    1115,
+    1143,
+    1218,
+    1250,
+    1282,
+    1295,
+    1302,
+    1331,
+    1376,
+    1435,
+    1455,
+    1632,
+    1718
    ]
   },
   {
@@ -24060,8 +23235,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "group": "inverse",
    "papers": [
-    1006,
-    1785
+    956,
+    1720
    ]
   },
   {
@@ -24081,35 +23256,35 @@ window.GRAPH_DATA = {
    "notes": "Matrix concentration inequalities; HMT randomized SVD survey; Acta Numerica 2020 survey with Martinsson.",
    "group": "rand",
    "papers": [
-    263,
-    312,
-    313,
-    363,
-    491,
-    700,
-    747,
-    769,
-    784,
-    967,
-    1032,
-    1063,
-    1104,
-    1175,
-    1189,
-    1247,
-    1256,
-    1287,
-    1370,
+    242,
+    287,
+    288,
+    336,
+    455,
+    657,
+    704,
+    724,
+    739,
+    917,
+    982,
+    1012,
+    1052,
+    1121,
+    1135,
+    1191,
+    1200,
+    1229,
+    1309,
+    1343,
+    1345,
+    1353,
     1405,
-    1407,
-    1415,
-    1468,
-    1474,
-    1562,
-    1602,
-    1612,
-    1777,
-    1814
+    1411,
+    1498,
+    1537,
+    1547,
+    1712,
+    1748
    ]
   },
   {
@@ -24126,12 +23301,12 @@ window.GRAPH_DATA = {
    "notes": "Matrix analysis and spectral graph theory; former NFL lineman.",
    "group": "rmt",
    "papers": [
-    1313,
-    1509,
-    1535,
-    1782,
-    1805,
-    1815
+    1253,
+    1446,
+    1472,
+    1717,
+    1740,
+    1749
    ]
   },
   {
@@ -24148,13 +23323,13 @@ window.GRAPH_DATA = {
    "notes": "Pseudospectral shattering; global convergence of shifted QR.",
    "group": "rmt",
    "papers": [
-    1054,
-    1131,
-    1238,
-    1399,
-    1619,
-    1620,
-    1621
+    1003,
+    1077,
+    1182,
+    1337,
+    1554,
+    1555,
+    1556
    ]
   },
   {
@@ -24173,57 +23348,55 @@ window.GRAPH_DATA = {
    "notes": "Hybrid iterative regularization; randomized methods for inverse problems.",
    "group": "inverse",
    "papers": [
-    192,
-    250,
-    308,
-    328,
-    354,
-    437,
-    464,
-    506,
-    514,
-    547,
-    548,
-    574,
-    610,
-    750,
-    756,
-    764,
-    766,
-    787,
-    846,
-    850,
-    870,
-    915,
-    916,
-    926,
-    956,
-    957,
-    1004,
-    1098,
-    1135,
-    1141,
-    1221,
-    1229,
-    1309,
-    1356,
-    1363,
-    1444,
-    1449,
-    1461,
-    1469,
-    1481,
-    1515,
-    1516,
-    1559,
-    1600,
-    1627,
-    1630,
-    1673,
-    1680,
-    1724,
-    1725,
-    1774
+    172,
+    229,
+    283,
+    301,
+    327,
+    404,
+    430,
+    470,
+    477,
+    508,
+    534,
+    570,
+    706,
+    719,
+    721,
+    742,
+    800,
+    804,
+    822,
+    866,
+    867,
+    876,
+    906,
+    907,
+    954,
+    1047,
+    1081,
+    1087,
+    1165,
+    1173,
+    1249,
+    1296,
+    1303,
+    1381,
+    1386,
+    1398,
+    1406,
+    1418,
+    1452,
+    1453,
+    1495,
+    1535,
+    1562,
+    1565,
+    1608,
+    1615,
+    1659,
+    1660,
+    1709
    ]
   },
   {
@@ -24240,49 +23413,49 @@ window.GRAPH_DATA = {
    "notes": "Dense linear algebra libraries; CAQR.",
    "group": "hpc",
    "papers": [
-    152,
-    155,
-    157,
-    176,
-    180,
-    194,
-    195,
-    197,
-    204,
-    207,
-    208,
+    135,
+    137,
+    138,
+    156,
+    160,
+    174,
+    175,
+    177,
+    184,
+    187,
+    188,
+    214,
+    217,
+    219,
+    230,
     235,
-    238,
-    240,
-    251,
-    256,
-    268,
-    283,
-    285,
-    286,
-    291,
-    304,
-    333,
-    336,
-    339,
-    364,
-    375,
-    381,
-    400,
-    419,
-    430,
-    439,
-    471,
-    480,
-    503,
-    524,
-    617,
-    659,
-    733,
-    744,
-    1255,
-    1282,
-    1563
+    245,
+    260,
+    262,
+    263,
+    267,
+    279,
+    306,
+    309,
+    312,
+    337,
+    347,
+    352,
+    371,
+    389,
+    397,
+    406,
+    437,
+    444,
+    467,
+    486,
+    577,
+    619,
+    690,
+    701,
+    1199,
+    1224,
+    1499
    ]
   },
   {
@@ -24299,38 +23472,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "group": "rand",
    "papers": [
-    1732
-   ]
-  },
-  {
-   "id": "jorg-liesen",
-   "name": "Jörg Liesen",
-   "affiliation": "TU Berlin",
-   "website": "https://www.tu.berlin/nla/joerg-liesen",
-   "photo": "https://www.static.tu.berlin/fileadmin/www/_processed_/4/3/csm_Joerg_Liesen-web_253986941f.jpg",
-   "topics": [
-    "krylov",
-    "preconditioning",
-    "least-squares"
-   ],
-   "notes": "Krylov subspace methods theory; monograph with Strakoš.",
-   "group": "krylov",
-   "papers": [
-    97,
-    106,
-    122,
-    130,
-    151,
-    156,
-    159,
-    267,
-    476,
-    477,
-    526,
-    819,
-    1198,
-    1271,
-    1556
+    1667
    ]
   },
   {
@@ -24346,12 +23488,12 @@ window.GRAPH_DATA = {
    "notes": "",
    "group": "krylov",
    "papers": [
-    371,
-    443,
-    632,
-    633,
-    634,
-    1795
+    343,
+    410,
+    592,
+    593,
+    594,
+    1730
    ]
   },
   {
@@ -24368,12 +23510,12 @@ window.GRAPH_DATA = {
    "notes": "Randomized interpolative and CUR-type decompositions.",
    "group": "rand",
    "papers": [
-    1290,
-    1578,
-    1669,
-    1678,
-    1691,
-    1740
+    1231,
+    1513,
+    1604,
+    1613,
+    1626,
+    1675
    ]
   },
   {
@@ -24392,34 +23534,34 @@ window.GRAPH_DATA = {
    "notes": "Clarkson–Woodruff sketching; foundational sketching algorithms.",
    "group": "tcs",
    "papers": [
-    298,
-    449,
-    450,
-    482,
-    608,
-    637,
-    704,
+    273,
+    415,
+    416,
+    446,
+    568,
+    597,
+    661,
+    671,
+    703,
     714,
-    746,
-    759,
-    782,
-    901,
-    934,
-    1059,
-    1138,
-    1167,
-    1168,
-    1181,
-    1216,
-    1254,
-    1266,
-    1285,
-    1306,
-    1330,
-    1555,
-    1614,
-    1719,
-    1765
+    737,
+    852,
+    884,
+    1008,
+    1084,
+    1113,
+    1114,
+    1127,
+    1161,
+    1198,
+    1209,
+    1227,
+    1246,
+    1270,
+    1492,
+    1549,
+    1654,
+    1700
    ]
   },
   {
@@ -24438,47 +23580,47 @@ window.GRAPH_DATA = {
    "notes": "Communication-avoiding LU/QR; randomized Gram–Schmidt and sketched Krylov.",
    "group": "hpc",
    "papers": [
-    101,
-    138,
-    237,
-    245,
-    255,
-    256,
-    311,
-    322,
-    350,
-    390,
-    395,
-    419,
-    462,
-    478,
-    503,
-    589,
-    630,
-    666,
-    717,
-    799,
+    91,
+    122,
+    216,
+    224,
+    234,
+    235,
+    286,
+    296,
+    323,
+    361,
+    366,
+    389,
+    428,
+    442,
+    467,
+    549,
+    590,
+    624,
+    674,
+    754,
+    792,
     838,
-    887,
-    1166,
-    1218,
-    1305,
-    1323,
-    1351,
-    1396,
-    1404,
-    1460,
-    1579,
-    1588,
-    1590,
-    1599,
-    1640,
-    1681,
-    1685,
-    1686,
-    1740,
-    1745,
-    1796
+    1112,
+    1163,
+    1245,
+    1263,
+    1291,
+    1334,
+    1342,
+    1397,
+    1514,
+    1523,
+    1525,
+    1534,
+    1575,
+    1616,
+    1620,
+    1621,
+    1675,
+    1680,
+    1731
    ]
   },
   {
@@ -24495,20 +23637,20 @@ window.GRAPH_DATA = {
    "notes": "Rank-structured matrix computations; hm-toolbox with Massei and Kressner.",
    "group": "krylov",
    "papers": [
-    845,
-    908,
-    946,
-    950,
-    975,
-    1093,
-    1260,
-    1317,
-    1445,
-    1462,
-    1523,
-    1604,
-    1661,
-    1792
+    799,
+    859,
+    896,
+    900,
+    925,
+    1042,
+    1204,
+    1257,
+    1382,
+    1399,
+    1460,
+    1539,
+    1596,
+    1727
    ]
   },
   {
@@ -24525,29 +23667,29 @@ window.GRAPH_DATA = {
    "notes": "Fast algorithms: butterfly factorizations, sparsifying preconditioners, low-rank structure.",
    "group": "rand",
    "papers": [
-    340,
-    360,
-    385,
-    401,
-    438,
-    554,
-    650,
+    313,
+    333,
+    356,
+    372,
+    405,
+    514,
+    610,
+    659,
+    678,
+    682,
+    693,
     702,
-    721,
-    725,
-    736,
-    745,
-    777,
-    875,
-    938,
-    1075,
-    1265,
-    1337,
-    1346,
-    1519,
-    1569,
-    1629,
-    1773
+    732,
+    827,
+    888,
+    1024,
+    1208,
+    1277,
+    1286,
+    1456,
+    1505,
+    1564,
+    1708
    ]
   },
   {
@@ -24564,28 +23706,28 @@ window.GRAPH_DATA = {
    "notes": "Electronic-structure numerics (PEXSI, SCDM) and quantum algorithms for linear algebra; moved to Caltech in 2026 (previously UC Berkeley).",
    "group": "krylov",
    "papers": [
-    340,
-    360,
-    385,
-    401,
-    438,
-    554,
-    654,
-    725,
-    736,
-    777,
-    821,
-    875,
-    938,
-    971,
-    1075,
-    1203,
-    1265,
-    1346,
-    1519,
-    1552,
-    1629,
-    1773
+    313,
+    333,
+    356,
+    372,
+    405,
+    514,
+    614,
+    682,
+    693,
+    732,
+    775,
+    827,
+    888,
+    921,
+    1024,
+    1148,
+    1208,
+    1286,
+    1456,
+    1489,
+    1564,
+    1708
    ]
   },
   {
@@ -24601,9 +23743,9 @@ window.GRAPH_DATA = {
    "notes": "",
    "group": "rand",
    "papers": [
-    1568,
-    1702,
-    1809
+    1504,
+    1637,
+    1744
    ]
   },
   {
@@ -24622,53 +23764,53 @@ window.GRAPH_DATA = {
    "notes": "Scientific machine learning and quantum algorithms at IBM.",
    "group": "inverse",
    "papers": [
-    488,
-    591,
-    751,
-    826,
-    858,
-    969,
-    1003,
-    1059,
-    1086,
-    1121,
-    1122,
-    1138,
-    1167,
-    1168,
-    1180,
-    1181,
-    1190,
-    1216,
-    1228,
-    1272,
-    1285,
-    1306,
-    1422,
-    1424,
+    452,
+    551,
+    707,
+    780,
+    812,
+    919,
+    953,
+    1008,
+    1035,
+    1068,
+    1069,
+    1084,
+    1113,
+    1114,
+    1126,
+    1127,
+    1136,
+    1161,
+    1172,
+    1214,
+    1227,
+    1246,
+    1360,
+    1362,
+    1395,
+    1400,
+    1436,
     1458,
-    1463,
-    1499,
-    1521,
-    1530,
-    1542,
-    1555,
-    1566,
-    1591,
-    1603,
-    1608,
-    1614,
-    1643,
-    1651,
-    1659,
-    1687,
-    1710,
-    1736,
-    1749,
-    1765,
-    1771,
-    1787,
-    1807
+    1467,
+    1479,
+    1492,
+    1502,
+    1526,
+    1538,
+    1543,
+    1549,
+    1578,
+    1586,
+    1594,
+    1622,
+    1645,
+    1671,
+    1684,
+    1700,
+    1706,
+    1722,
+    1742
    ]
   },
   {
@@ -24685,27 +23827,27 @@ window.GRAPH_DATA = {
    "notes": "Pseudospectra, approximation theory, and numerical linear algebra exposition.",
    "group": "approx",
    "papers": [
-    11,
-    24,
-    71,
-    72,
-    92,
-    99,
-    110,
-    166,
-    258,
-    456,
-    852,
-    865,
-    983,
-    1128,
-    1171,
-    1194,
-    1289,
-    1435,
-    1452,
-    1593,
-    1737
+    8,
+    19,
+    62,
+    63,
+    83,
+    89,
+    98,
+    146,
+    237,
+    422,
+    806,
+    819,
+    933,
+    1075,
+    1117,
+    1140,
+    1230,
+    1373,
+    1389,
+    1528,
+    1672
    ]
   },
   {
@@ -24722,10 +23864,10 @@ window.GRAPH_DATA = {
    "notes": "",
    "group": "krylov",
    "papers": [
-    1557,
-    1681,
-    1713,
-    1813
+    1493,
+    1616,
+    1648,
+    1747
    ]
   },
   {
@@ -24744,84 +23886,84 @@ window.GRAPH_DATA = {
    "notes": "Tikhonov regularization, Gauss quadrature, and IRLBA.",
    "group": "inverse",
    "papers": [
-    10,
+    7,
+    8,
     11,
-    16,
+    17,
     22,
+    26,
+    27,
     28,
+    29,
+    31,
     33,
-    34,
-    35,
-    37,
-    39,
-    41,
-    54,
-    56,
+    45,
+    47,
+    51,
+    57,
+    59,
     60,
-    66,
+    64,
+    65,
     68,
-    69,
-    73,
+    72,
     74,
     77,
-    81,
-    83,
+    80,
+    84,
+    85,
     86,
-    89,
-    93,
+    87,
+    90,
     94,
-    95,
-    96,
+    97,
+    99,
     100,
-    105,
-    109,
-    111,
-    112,
-    115,
-    116,
-    117,
+    102,
+    103,
+    104,
+    110,
+    113,
+    118,
     124,
     127,
-    134,
-    140,
-    143,
-    148,
-    164,
-    170,
-    177,
-    200,
-    218,
-    223,
-    275,
-    394,
-    398,
-    402,
-    457,
-    652,
-    688,
-    889,
-    891,
-    905,
-    919,
-    1016,
-    1027,
-    1029,
-    1052,
-    1112,
-    1113,
-    1114,
-    1154,
-    1164,
-    1195,
-    1211,
-    1387,
-    1409,
-    1473,
-    1495,
-    1537,
-    1616,
-    1662,
-    1695
+    132,
+    144,
+    150,
+    157,
+    180,
+    197,
+    202,
+    252,
+    365,
+    369,
+    373,
+    423,
+    612,
+    646,
+    840,
+    842,
+    856,
+    870,
+    966,
+    977,
+    979,
+    1001,
+    1059,
+    1060,
+    1061,
+    1100,
+    1110,
+    1141,
+    1156,
+    1325,
+    1347,
+    1410,
+    1432,
+    1474,
+    1551,
+    1597,
+    1630
    ]
   },
   {
@@ -24838,16 +23980,16 @@ window.GRAPH_DATA = {
    "notes": "",
    "group": "inverse",
    "papers": [
-    1211,
-    1387,
-    1409,
-    1616,
+    1156,
+    1325,
+    1347,
+    1551,
+    1565,
+    1566,
+    1597,
+    1598,
     1630,
-    1631,
-    1662,
-    1663,
-    1695,
-    1779
+    1714
    ]
   },
   {
@@ -24865,48 +24007,20 @@ window.GRAPH_DATA = {
    "notes": "Generalized low-rank models; practical sketching for optimization.",
    "group": "ml",
    "papers": [
-    700,
-    747,
-    761,
-    769,
-    784,
-    967,
-    973,
-    1032,
-    1104,
-    1175,
-    1189,
-    1281,
-    1405,
-    1722
-   ]
-  },
-  {
-   "id": "malena-espanol",
-   "name": "Malena Español",
-   "affiliation": "Arizona State University",
-   "website": "https://search.asu.edu/profile/3488212",
-   "photo": "https://webapp4.asu.edu/photo-ws/directory_photo/mespanol?size=medium",
-   "topics": [
-    "inverse-problems",
-    "regularization",
-    "optimization"
-   ],
-   "notes": "",
-   "group": "inverse",
-   "papers": [
-    212,
-    327,
-    508,
-    547,
-    756,
-    1103,
-    1106,
-    1123,
-    1299,
-    1316,
-    1441,
-    1810
+    657,
+    704,
+    716,
+    724,
+    739,
+    917,
+    923,
+    982,
+    1052,
+    1121,
+    1135,
+    1223,
+    1343,
+    1657
    ]
   },
   {
@@ -24923,24 +24037,24 @@ window.GRAPH_DATA = {
    "notes": "",
    "group": "inverse",
    "papers": [
-    882,
-    914,
-    1026,
-    1139,
-    1174,
-    1444,
-    1449,
-    1481,
-    1486,
-    1600,
-    1622,
-    1627,
-    1631,
-    1647,
-    1680,
-    1683,
-    1684,
-    1770
+    834,
+    865,
+    976,
+    1085,
+    1120,
+    1381,
+    1386,
+    1418,
+    1423,
+    1535,
+    1557,
+    1562,
+    1566,
+    1582,
+    1615,
+    1618,
+    1619,
+    1705
    ]
   },
   {
@@ -24956,28 +24070,28 @@ window.GRAPH_DATA = {
    "notes": "Long-time Drineas collaborator on sparse/fast low-rank approximation.",
    "group": "rand",
    "papers": [
-    178,
-    387,
-    444,
-    465,
-    485,
+    158,
+    358,
+    411,
+    431,
+    449,
+    458,
+    472,
+    487,
+    493,
     494,
-    509,
-    525,
-    532,
-    533,
-    559,
-    582,
-    588,
-    620,
+    519,
+    542,
+    548,
+    580,
+    591,
     631,
-    673,
-    691,
-    708,
-    714,
-    775,
-    860,
-    1603
+    648,
+    665,
+    671,
+    730,
+    814,
+    1538
    ]
   },
   {
@@ -24993,7 +24107,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "group": "hpc",
    "papers": [
-    1579
+    1514
    ]
   },
   {
@@ -25009,18 +24123,15 @@ window.GRAPH_DATA = {
    "notes": "Krylov convergence theory; 'Spectra and Pseudospectra' with Trefethen.",
    "group": "approx",
    "papers": [
-    71,
-    72,
-    92,
-    99,
-    110,
-    131,
-    153,
-    166,
-    392,
-    446,
-    1213,
-    1288
+    62,
+    63,
+    83,
+    89,
+    98,
+    146,
+    363,
+    413,
+    1158
    ]
   },
   {
@@ -25037,18 +24148,18 @@ window.GRAPH_DATA = {
    "notes": "Early randomized algorithms for matrix approximation (with Rokhlin and Martinsson).",
    "group": "rand",
    "papers": [
-    144,
-    174,
-    181,
-    239,
-    247,
-    248,
-    282,
-    341,
-    344,
-    345,
-    353,
-    1220
+    128,
+    154,
+    161,
+    218,
+    226,
+    227,
+    259,
+    314,
+    317,
+    318,
+    326,
+    1164
    ]
   },
   {
@@ -25066,33 +24177,33 @@ window.GRAPH_DATA = {
    "notes": "Computational inverse problems and learning-based regularization.",
    "group": "inverse",
    "papers": [
-    354,
-    437,
-    464,
-    506,
-    514,
-    548,
-    764,
-    766,
-    787,
-    846,
-    926,
-    956,
-    957,
-    1098,
-    1141,
-    1229,
-    1309,
-    1356,
-    1365,
-    1443,
-    1515,
-    1516,
-    1559,
-    1725,
-    1774,
-    1775,
-    1786
+    327,
+    404,
+    430,
+    470,
+    477,
+    508,
+    719,
+    721,
+    742,
+    800,
+    876,
+    906,
+    907,
+    1047,
+    1087,
+    1173,
+    1249,
+    1296,
+    1304,
+    1380,
+    1452,
+    1453,
+    1495,
+    1660,
+    1709,
+    1710,
+    1721
    ]
   },
   {
@@ -25108,8 +24219,8 @@ window.GRAPH_DATA = {
    "notes": "Sketching for convex optimization; Newton sketch.",
    "group": "ml",
    "papers": [
-    1000,
-    1155
+    950,
+    1101
    ]
   },
   {
@@ -25127,21 +24238,21 @@ window.GRAPH_DATA = {
    "notes": "Streaming and sketching algorithms; spectral sparsification.",
    "group": "tcs",
    "papers": [
-    561,
-    681,
-    765,
-    771,
-    783,
-    881,
-    904,
-    912,
-    1002,
-    1009,
-    1045,
-    1268,
-    1437,
-    1618,
-    1811
+    521,
+    639,
+    720,
+    726,
+    738,
+    833,
+    855,
+    863,
+    952,
+    959,
+    995,
+    1211,
+    1375,
+    1553,
+    1745
    ]
   },
   {
@@ -25162,155 +24273,155 @@ window.GRAPH_DATA = {
    "notes": "One of the founders of RandNLA; leverage-score sampling, implicit regularization, and the RandLAPACK effort.",
    "group": "rand",
    "papers": [
-    119,
-    147,
-    161,
+    106,
+    131,
+    141,
+    162,
+    163,
+    164,
+    176,
     182,
-    183,
-    184,
-    196,
-    202,
-    205,
-    206,
-    209,
-    210,
-    228,
-    241,
-    271,
-    273,
+    185,
+    186,
+    189,
+    190,
+    207,
+    220,
+    248,
+    250,
+    253,
+    256,
+    264,
+    265,
+    275,
     276,
-    279,
-    287,
-    288,
-    300,
-    301,
-    305,
-    317,
-    362,
-    389,
-    424,
-    450,
-    516,
-    539,
-    558,
-    627,
-    639,
-    647,
-    649,
+    280,
+    291,
+    335,
+    360,
+    393,
+    416,
+    479,
+    500,
+    518,
+    587,
+    599,
+    607,
+    609,
+    615,
+    625,
+    626,
+    632,
+    642,
+    643,
+    644,
+    651,
     655,
+    656,
+    658,
+    666,
     667,
     668,
-    674,
+    669,
+    671,
     684,
-    685,
-    686,
-    694,
-    698,
-    699,
-    701,
-    709,
-    710,
-    711,
     712,
-    714,
-    727,
+    748,
+    750,
     757,
-    793,
-    795,
-    802,
-    814,
-    822,
-    825,
-    827,
-    828,
-    829,
-    830,
-    842,
-    847,
-    861,
-    872,
-    892,
+    769,
+    776,
+    779,
+    781,
+    782,
+    783,
+    784,
+    796,
+    801,
+    815,
+    824,
+    843,
+    846,
+    853,
+    869,
+    884,
     895,
-    902,
-    918,
-    934,
-    945,
-    959,
-    972,
-    981,
+    909,
+    922,
+    931,
+    941,
+    948,
+    950,
+    951,
+    955,
+    957,
+    964,
+    969,
+    970,
+    974,
+    989,
+    990,
     991,
-    998,
-    1000,
-    1001,
-    1005,
-    1007,
-    1014,
-    1019,
-    1020,
-    1024,
-    1039,
-    1040,
-    1041,
-    1057,
-    1073,
+    1006,
+    1022,
+    1032,
+    1043,
+    1050,
+    1063,
+    1082,
     1083,
-    1094,
+    1088,
+    1089,
+    1090,
+    1091,
     1101,
-    1116,
-    1136,
-    1137,
-    1142,
-    1143,
-    1144,
-    1145,
-    1155,
-    1156,
-    1157,
-    1166,
-    1183,
-    1184,
-    1187,
-    1227,
-    1246,
-    1248,
-    1251,
-    1253,
-    1267,
-    1269,
-    1270,
-    1314,
-    1353,
-    1360,
-    1377,
-    1379,
-    1404,
+    1102,
+    1103,
+    1112,
+    1129,
+    1130,
+    1133,
+    1171,
+    1190,
+    1192,
+    1195,
+    1197,
+    1210,
+    1212,
+    1213,
+    1254,
+    1293,
+    1300,
+    1316,
+    1318,
+    1342,
+    1371,
+    1419,
+    1422,
     1433,
-    1482,
-    1485,
-    1496,
-    1503,
-    1522,
+    1440,
+    1459,
+    1461,
+    1462,
+    1491,
+    1497,
+    1518,
     1524,
-    1525,
-    1554,
-    1561,
-    1583,
-    1589,
-    1596,
-    1601,
-    1607,
-    1617,
-    1623,
+    1531,
+    1536,
+    1542,
+    1552,
+    1558,
+    1559,
+    1573,
+    1595,
     1624,
-    1638,
-    1660,
-    1689,
+    1642,
+    1644,
+    1656,
     1707,
-    1709,
-    1721,
-    1772,
-    1788,
-    1819
+    1723,
+    1753
    ]
   },
   {
@@ -25327,8 +24438,8 @@ window.GRAPH_DATA = {
    "notes": "LSQR and MINRES; the iterative solvers inside many sketch-and-solve pipelines.",
    "group": "krylov",
    "papers": [
-    539,
-    674
+    500,
+    632
    ]
   },
   {
@@ -25348,33 +24459,33 @@ window.GRAPH_DATA = {
    "notes": "DPPs in RandNLA; sketched second-order optimization.",
    "group": "ml",
    "papers": [
-    902,
-    934,
-    991,
-    1000,
-    1001,
-    1007,
-    1019,
-    1020,
-    1057,
-    1136,
-    1144,
-    1145,
-    1155,
-    1183,
-    1360,
-    1404,
-    1522,
-    1527,
-    1613,
-    1615,
-    1671,
-    1709,
-    1722,
-    1738,
-    1781,
-    1816,
-    1817
+    853,
+    884,
+    941,
+    950,
+    951,
+    957,
+    969,
+    970,
+    1006,
+    1082,
+    1090,
+    1091,
+    1101,
+    1129,
+    1300,
+    1342,
+    1459,
+    1464,
+    1548,
+    1550,
+    1606,
+    1644,
+    1657,
+    1673,
+    1716,
+    1750,
+    1751
    ]
   },
   {
@@ -25391,18 +24502,18 @@ window.GRAPH_DATA = {
    "notes": "Matrix functions and network science; preconditioning.",
    "group": "krylov",
    "papers": [
-    78,
-    90,
-    139,
-    193,
-    338,
-    388,
-    596,
-    729,
-    1043,
-    1064,
-    1334,
-    1757
+    69,
+    81,
+    123,
+    173,
+    311,
+    359,
+    556,
+    686,
+    993,
+    1013,
+    1274,
+    1692
    ]
   },
   {
@@ -25419,14 +24530,14 @@ window.GRAPH_DATA = {
    "notes": "Bootstrap error estimation for randomized matrix algorithms.",
    "group": "ml",
    "papers": [
-    825,
-    872,
-    895,
-    1005,
-    1006,
-    1169,
-    1349,
-    1404
+    779,
+    824,
+    846,
+    955,
+    956,
+    1115,
+    1289,
+    1342
    ]
   },
   {
@@ -25444,21 +24555,21 @@ window.GRAPH_DATA = {
    "notes": "Rank-revealing and randomized pivoted factorizations; subspace iteration analysis.",
    "group": "rand",
    "papers": [
-    31,
-    38,
-    84,
-    85,
-    87,
-    195,
-    238,
-    262,
-    303,
-    315,
-    320,
-    478,
-    589,
-    639,
-    744
+    24,
+    30,
+    75,
+    76,
+    78,
+    175,
+    217,
+    241,
+    278,
+    289,
+    294,
+    442,
+    549,
+    599,
+    701
    ]
   },
   {
@@ -25476,28 +24587,24 @@ window.GRAPH_DATA = {
    "notes": "Computational inverse problems and Bayesian regularization.",
    "group": "inverse",
    "papers": [
-    919,
-    1029,
-    1103,
-    1106,
-    1123,
-    1229,
-    1299,
-    1316,
-    1400,
-    1411,
-    1441,
-    1495,
-    1550,
-    1598,
+    870,
+    979,
+    1070,
+    1173,
+    1256,
+    1338,
+    1349,
+    1432,
+    1487,
+    1533,
+    1597,
+    1647,
     1662,
-    1712,
-    1727,
-    1735,
-    1744,
-    1756,
-    1770,
-    1780
+    1670,
+    1679,
+    1691,
+    1705,
+    1715
    ]
   },
   {
@@ -25515,49 +24622,45 @@ window.GRAPH_DATA = {
    "notes": "t-product tensor framework; randomized methods for inverse problems.",
    "group": "inverse",
    "papers": [
-    188,
-    199,
-    212,
-    232,
-    327,
-    343,
-    388,
-    488,
-    508,
-    571,
-    574,
-    602,
-    618,
-    737,
-    751,
-    805,
-    858,
-    948,
-    969,
-    979,
-    984,
-    1044,
-    1062,
-    1086,
-    1121,
-    1170,
-    1190,
-    1230,
-    1280,
-    1296,
-    1411,
-    1430,
-    1431,
-    1542,
-    1550,
-    1575,
-    1581,
-    1598,
-    1714,
-    1735,
-    1765,
-    1780,
-    1810
+    168,
+    179,
+    211,
+    316,
+    359,
+    452,
+    531,
+    534,
+    562,
+    578,
+    694,
+    707,
+    760,
+    812,
+    898,
+    919,
+    929,
+    934,
+    994,
+    1011,
+    1035,
+    1068,
+    1116,
+    1136,
+    1174,
+    1222,
+    1237,
+    1349,
+    1368,
+    1369,
+    1479,
+    1487,
+    1510,
+    1516,
+    1533,
+    1649,
+    1670,
+    1700,
+    1715
    ]
   },
   {
@@ -25573,8 +24676,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "group": "krylov",
    "papers": [
-    1595,
-    1751
+    1530,
+    1686
    ]
   },
   {
@@ -25591,44 +24694,44 @@ window.GRAPH_DATA = {
    "notes": "Randomized matrix decompositions in practice; RandLAPACK monograph coauthor.",
    "group": "ml",
    "papers": [
-    945,
-    959,
-    981,
-    998,
-    1014,
-    1024,
-    1041,
-    1094,
-    1101,
-    1116,
-    1143,
-    1156,
-    1157,
-    1184,
-    1251,
-    1253,
-    1269,
-    1270,
-    1349,
-    1404,
-    1485,
-    1503,
-    1524,
-    1554,
-    1561,
-    1607,
-    1617,
-    1623,
+    895,
+    909,
+    931,
+    948,
+    964,
+    974,
+    991,
+    1043,
+    1050,
+    1063,
+    1089,
+    1102,
+    1103,
+    1130,
+    1195,
+    1197,
+    1212,
+    1213,
+    1289,
+    1342,
+    1422,
+    1440,
+    1461,
+    1491,
+    1497,
+    1542,
+    1552,
+    1558,
+    1559,
+    1573,
+    1595,
     1624,
-    1638,
-    1660,
-    1689,
+    1642,
+    1656,
     1707,
-    1721,
-    1772,
-    1788,
-    1789,
-    1819
+    1723,
+    1724,
+    1753
    ]
   },
   {
@@ -25643,9 +24746,9 @@ window.GRAPH_DATA = {
    "notes": "The H of Halko-Martinsson-Tropp: 'Finding structure with randomness'.",
    "group": "rand",
    "papers": [
-    335,
-    345,
-    363
+    308,
+    318,
+    336
    ]
   },
   {
@@ -25664,32 +24767,32 @@ window.GRAPH_DATA = {
    "notes": "Authority on matrix functions and rounding-error analysis (1961–2024).",
    "group": "hpc",
    "papers": [
+    9,
     14,
-    19,
-    30,
-    258,
-    405,
-    501,
-    720,
-    767,
-    791,
-    807,
-    831,
-    876,
-    877,
-    884,
-    974,
-    977,
-    1037,
-    1076,
-    1090,
-    1095,
-    1097,
-    1186,
-    1261,
-    1332,
-    1374,
-    1480
+    23,
+    237,
+    376,
+    465,
+    677,
+    722,
+    746,
+    762,
+    785,
+    828,
+    829,
+    836,
+    924,
+    927,
+    987,
+    1025,
+    1039,
+    1044,
+    1046,
+    1132,
+    1205,
+    1272,
+    1313,
+    1417
    ]
   },
   {
@@ -25705,19 +24808,19 @@ window.GRAPH_DATA = {
    "notes": "Data-efficient operator learning; learning Green's functions.",
    "group": "approx",
    "papers": [
-    896,
-    997,
+    847,
+    947,
+    1014,
+    1053,
     1065,
-    1105,
-    1118,
-    1204,
-    1249,
-    1250,
-    1312,
-    1347,
-    1369,
-    1511,
-    1676
+    1149,
+    1193,
+    1194,
+    1252,
+    1287,
+    1308,
+    1448,
+    1611
    ]
   },
   {
@@ -25734,27 +24837,27 @@ window.GRAPH_DATA = {
    "notes": "Kadison–Singer / interlacing families; pseudospectral shattering and shifted QR convergence. Co-organizer of the Banff 2023 workshop.",
    "group": "rmt",
    "papers": [
-    365,
-    453,
-    455,
-    475,
-    499,
-    565,
-    804,
-    835,
-    1054,
-    1111,
-    1131,
-    1238,
-    1329,
-    1399,
-    1447,
-    1536,
-    1619,
-    1620,
-    1621,
-    1761,
-    1762
+    338,
+    419,
+    421,
+    441,
+    463,
+    525,
+    759,
+    789,
+    1003,
+    1058,
+    1077,
+    1182,
+    1269,
+    1337,
+    1384,
+    1473,
+    1554,
+    1555,
+    1556,
+    1696,
+    1697
    ]
   },
   {
@@ -25771,45 +24874,12 @@ window.GRAPH_DATA = {
    "notes": "Near-optimal approximation of matrix functions; Krylov methods.",
    "group": "tcs",
    "papers": [
-    1382,
-    1502,
-    1667,
-    1717,
-    1763,
-    1790
-   ]
-  },
-  {
-   "id": "olga-holtz",
-   "name": "Olga Holtz",
-   "affiliation": "University of California, Berkeley",
-   "website": "https://math.berkeley.edu/~holtz/",
-   "photo": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=WJGqLh8AAAAJ&citpid=1",
-   "topics": [
-    "hpc",
-    "finite-precision"
-   ],
-   "notes": "Stability of fast matrix algorithms.",
-   "group": "rmt",
-   "papers": [
-    171,
-    172,
-    186,
-    215,
-    226,
-    227,
-    290,
-    297,
-    314,
-    366,
-    379,
-    407,
-    420,
-    428,
-    429,
-    448,
-    519,
-    1219
+    1321,
+    1439,
+    1602,
+    1652,
+    1698,
+    1725
    ]
   },
   {
@@ -25826,18 +24896,18 @@ window.GRAPH_DATA = {
    "notes": "",
    "group": "krylov",
    "papers": [
-    889,
-    905,
-    1016,
-    1027,
-    1052,
-    1112,
-    1113,
-    1114,
-    1154,
-    1195,
-    1473,
-    1537
+    840,
+    856,
+    966,
+    977,
+    1001,
+    1059,
+    1060,
+    1061,
+    1100,
+    1141,
+    1410,
+    1474
    ]
   },
   {
@@ -25854,18 +24924,18 @@ window.GRAPH_DATA = {
    "notes": "Sketching for tensor decompositions and structured problems.",
    "group": "rand",
    "papers": [
-    969,
-    1121,
-    1232,
-    1283,
-    1293,
-    1340,
-    1351,
-    1404,
-    1466,
-    1496,
-    1548,
-    1758
+    919,
+    1068,
+    1176,
+    1225,
+    1234,
+    1280,
+    1291,
+    1342,
+    1403,
+    1433,
+    1485,
+    1693
    ]
   },
   {
@@ -25881,7 +24951,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "group": "krylov",
    "papers": [
-    1400
+    1338
    ]
   },
   {
@@ -25898,14 +24968,14 @@ window.GRAPH_DATA = {
    "notes": "",
    "group": "tcs",
    "papers": [
-    655,
-    833,
-    893,
-    1017,
-    1055,
-    1239,
-    1240,
-    1308
+    615,
+    787,
+    844,
+    967,
+    1004,
+    1183,
+    1184,
+    1248
    ]
   },
   {
@@ -25922,37 +24992,37 @@ window.GRAPH_DATA = {
    "notes": "Co-author of the Halko–Martinsson–Tropp randomized SVD survey (SIREV 2011) and the Acta Numerica 2020 RandNLA survey.",
    "group": "rand",
    "papers": [
-    144,
-    145,
-    160,
-    213,
-    216,
-    239,
-    294,
-    344,
-    345,
-    363,
-    1063,
-    1169,
-    1179,
-    1279,
-    1295,
-    1406,
-    1418,
-    1419,
-    1467,
-    1533,
-    1571,
-    1572,
-    1574,
-    1576,
-    1578,
-    1609,
-    1669,
-    1678,
-    1691,
-    1748,
-    1793
+    128,
+    129,
+    140,
+    192,
+    195,
+    218,
+    270,
+    317,
+    318,
+    336,
+    1012,
+    1115,
+    1125,
+    1221,
+    1236,
+    1344,
+    1356,
+    1357,
+    1404,
+    1470,
+    1507,
+    1508,
+    1509,
+    1511,
+    1513,
+    1544,
+    1604,
+    1613,
+    1626,
+    1683,
+    1728
    ]
   },
   {
@@ -25968,19 +25038,19 @@ window.GRAPH_DATA = {
    "notes": "Sketch-and-project framework and stochastic methods; Gower's PhD advisor.",
    "group": "ml",
    "papers": [
-    628,
-    641,
-    707,
-    772,
-    806,
-    947,
-    954,
-    955,
-    1008,
-    1091,
-    1188,
-    1227,
-    1439
+    588,
+    601,
+    664,
+    727,
+    761,
+    897,
+    904,
+    905,
+    958,
+    1040,
+    1134,
+    1171,
+    1377
    ]
   },
   {
@@ -26000,76 +25070,76 @@ window.GRAPH_DATA = {
    "notes": "One of the founders of RandNLA: early Monte Carlo algorithms for matrix multiplication and CUR, and the 2016 CACM survey with Mahoney. Co-organizer of the ICERM 2026 workshop.",
    "group": "rand",
    "papers": [
-    70,
-    91,
-    118,
-    129,
-    147,
-    161,
-    178,
+    61,
+    82,
+    105,
+    115,
+    131,
+    141,
+    158,
+    162,
+    163,
+    164,
+    176,
     182,
-    183,
-    184,
-    196,
-    202,
-    205,
-    206,
-    228,
-    241,
-    270,
-    271,
-    273,
+    185,
+    186,
+    207,
+    220,
+    247,
+    248,
+    250,
+    253,
+    256,
+    264,
+    265,
+    275,
     276,
-    279,
-    287,
-    288,
-    300,
-    301,
-    305,
-    317,
-    334,
-    362,
-    387,
-    389,
-    424,
-    444,
-    450,
-    485,
-    494,
-    525,
-    545,
-    559,
-    575,
-    576,
-    582,
-    588,
-    627,
+    280,
+    291,
+    307,
+    335,
+    358,
+    360,
+    393,
+    411,
+    416,
+    449,
+    458,
+    487,
+    506,
+    519,
+    535,
+    536,
+    542,
+    548,
+    587,
+    591,
     631,
-    673,
-    699,
-    708,
-    709,
-    714,
-    757,
-    775,
-    860,
-    878,
-    931,
-    986,
-    1011,
-    1038,
-    1080,
-    1200,
-    1234,
-    1275,
-    1421,
-    1497,
-    1534,
-    1543,
-    1547,
-    1568,
-    1702,
-    1809
+    656,
+    665,
+    666,
+    671,
+    712,
+    730,
+    814,
+    830,
+    881,
+    936,
+    961,
+    988,
+    1029,
+    1145,
+    1178,
+    1217,
+    1359,
+    1434,
+    1471,
+    1480,
+    1484,
+    1504,
+    1637,
+    1744
    ]
   },
   {
@@ -26086,139 +25156,139 @@ window.GRAPH_DATA = {
    "notes": "HPC dense linear algebra (PLASMA/MAGMA); CQRRPT and the RandLAPACK effort.",
    "group": "hpc",
    "papers": [
-    98,
-    120,
-    121,
+    88,
+    107,
+    108,
+    111,
+    116,
     125,
-    132,
-    141,
-    180,
-    201,
-    204,
-    207,
+    160,
+    181,
+    184,
+    187,
+    188,
     208,
-    229,
-    235,
-    261,
-    277,
-    280,
-    285,
-    326,
+    214,
+    240,
+    254,
+    257,
+    262,
+    300,
+    321,
+    330,
+    331,
+    332,
+    337,
+    339,
+    341,
+    342,
+    345,
+    346,
     348,
+    349,
+    350,
+    351,
+    354,
+    355,
     357,
-    358,
-    359,
+    362,
     364,
     367,
-    369,
-    370,
-    373,
     374,
-    376,
     377,
-    378,
-    380,
-    383,
-    384,
-    386,
     391,
-    393,
+    392,
+    394,
     396,
-    403,
-    406,
-    422,
-    423,
-    425,
-    427,
-    431,
-    433,
+    398,
+    400,
+    407,
+    408,
+    412,
+    426,
+    438,
     440,
-    441,
-    445,
-    460,
-    472,
-    474,
-    479,
-    490,
-    492,
-    497,
-    505,
+    443,
+    454,
+    456,
+    461,
+    469,
+    473,
+    475,
+    481,
+    485,
+    496,
+    501,
+    502,
+    504,
+    507,
+    509,
     510,
-    512,
-    518,
-    523,
-    535,
-    540,
-    541,
-    543,
-    546,
-    549,
-    550,
-    553,
-    566,
-    569,
+    513,
+    526,
+    529,
+    533,
+    538,
+    539,
+    561,
+    565,
+    567,
     573,
-    578,
-    579,
-    601,
+    581,
+    582,
+    584,
+    589,
     605,
-    607,
-    613,
-    621,
-    622,
-    624,
-    629,
-    645,
-    648,
-    678,
-    679,
-    680,
-    682,
-    695,
-    703,
-    713,
-    730,
-    734,
-    740,
+    608,
+    636,
+    637,
+    638,
+    640,
+    652,
+    660,
+    670,
+    687,
+    691,
+    697,
+    708,
+    723,
+    735,
+    736,
+    749,
     752,
+    767,
     768,
-    780,
-    781,
-    794,
-    797,
-    812,
-    813,
-    864,
-    868,
-    922,
-    942,
-    961,
-    977,
-    995,
-    1021,
-    1067,
-    1071,
-    1095,
-    1097,
-    1192,
-    1206,
-    1225,
-    1242,
-    1263,
-    1282,
-    1304,
+    818,
+    821,
+    873,
+    892,
+    911,
+    927,
+    945,
+    971,
+    1016,
+    1020,
+    1044,
+    1046,
+    1138,
+    1151,
+    1169,
+    1186,
+    1207,
+    1224,
+    1244,
+    1273,
+    1294,
     1333,
-    1354,
-    1395,
-    1404,
-    1440,
-    1484,
-    1493,
-    1505,
-    1583,
-    1589,
-    1718,
-    1767
+    1342,
+    1378,
+    1421,
+    1430,
+    1442,
+    1518,
+    1524,
+    1653,
+    1702
    ]
   },
   {
@@ -26234,20 +25304,20 @@ window.GRAPH_DATA = {
    "notes": "Sketching and low-rank approximation; PhD with Woodruff at CMU.",
    "group": "tcs",
    "papers": [
-    968,
-    1050,
-    1120,
-    1172,
-    1294,
-    1373,
-    1398,
-    1429,
-    1456,
-    1477,
-    1487,
-    1512,
-    1513,
-    1632
+    918,
+    999,
+    1067,
+    1118,
+    1235,
+    1312,
+    1336,
+    1367,
+    1393,
+    1414,
+    1424,
+    1449,
+    1450,
+    1567
    ]
   },
   {
@@ -26265,31 +25335,31 @@ window.GRAPH_DATA = {
    "notes": "Stochastic gradient and sampling methods; importance sampling for regression.",
    "group": "ml",
    "papers": [
-    353,
-    451,
-    452,
-    484,
-    486,
-    500,
-    502,
-    592,
-    642,
-    657,
-    894,
-    910,
-    1208,
-    1220,
-    1256,
-    1277,
-    1320,
-    1331,
-    1370,
-    1383,
-    1416,
-    1517,
-    1526,
-    1761,
-    1762
+    326,
+    417,
+    418,
+    448,
+    450,
+    464,
+    466,
+    552,
+    602,
+    617,
+    845,
+    861,
+    1153,
+    1164,
+    1200,
+    1219,
+    1260,
+    1271,
+    1309,
+    1322,
+    1354,
+    1454,
+    1463,
+    1696,
+    1697
    ]
   },
   {
@@ -26306,21 +25376,21 @@ window.GRAPH_DATA = {
    "notes": "Hutch++ and optimal trace estimation query complexity.",
    "group": "tcs",
    "papers": [
-    1088,
-    1089,
-    1134,
-    1233,
-    1380,
-    1510,
-    1580,
-    1612,
-    1723,
-    1750,
-    1755,
-    1769,
-    1777,
-    1789,
-    1816
+    1037,
+    1038,
+    1080,
+    1177,
+    1319,
+    1447,
+    1515,
+    1547,
+    1658,
+    1685,
+    1690,
+    1704,
+    1712,
+    1724,
+    1750
    ]
   },
   {
@@ -26338,34 +25408,34 @@ window.GRAPH_DATA = {
    "notes": "Approximate Gaussian elimination for Laplacians; hardness for structured systems.",
    "group": "tcs",
    "papers": [
-    556,
-    560,
-    581,
-    603,
-    604,
-    653,
-    705,
-    719,
-    779,
-    833,
-    854,
-    917,
-    925,
-    1017,
-    1055,
-    1102,
-    1239,
-    1308,
-    1311,
-    1315,
-    1321,
-    1414,
-    1454,
-    1472,
-    1492,
-    1514,
-    1639,
-    1729
+    516,
+    520,
+    541,
+    563,
+    564,
+    613,
+    662,
+    676,
+    734,
+    787,
+    808,
+    868,
+    875,
+    967,
+    1004,
+    1051,
+    1183,
+    1248,
+    1251,
+    1255,
+    1261,
+    1352,
+    1391,
+    1409,
+    1429,
+    1451,
+    1574,
+    1664
    ]
   },
   {
@@ -26383,49 +25453,49 @@ window.GRAPH_DATA = {
    "notes": "Frieze–Kannan–Vempala sampling; foundational randomized matrix algorithms.",
    "group": "tcs",
    "papers": [
+    0,
     3,
     6,
-    9,
-    15,
-    26,
+    10,
+    20,
+    32,
+    36,
     40,
+    42,
     44,
-    49,
-    51,
-    53,
-    64,
+    55,
+    61,
     70,
-    79,
-    80,
-    91,
-    118,
-    119,
-    129,
-    133,
-    137,
-    142,
-    168,
-    173,
-    182,
-    183,
-    184,
-    249,
-    273,
-    278,
-    302,
-    453,
-    487,
-    557,
+    71,
+    82,
+    105,
+    106,
+    115,
+    117,
+    121,
+    126,
+    148,
+    153,
+    162,
+    163,
+    164,
+    228,
+    250,
+    255,
+    277,
+    419,
+    451,
+    517,
+    618,
     658,
-    701,
-    773,
-    792,
-    1111,
-    1140,
-    1329,
-    1632,
-    1739,
-    1800
+    728,
+    747,
+    1058,
+    1086,
+    1269,
+    1567,
+    1674,
+    1735
    ]
   },
   {
@@ -26443,34 +25513,34 @@ window.GRAPH_DATA = {
    "notes": "Fast Laplacian and structured linear system solvers. Co-organizer of the Banff 2023 workshop.",
    "group": "tcs",
    "papers": [
-    515,
-    556,
-    560,
-    638,
-    646,
-    671,
-    705,
-    719,
-    726,
-    833,
-    854,
-    909,
-    917,
-    925,
-    992,
-    1010,
-    1182,
-    1235,
-    1311,
-    1321,
-    1322,
-    1357,
-    1432,
-    1472,
-    1492,
-    1639,
-    1646,
-    1696
+    478,
+    516,
+    520,
+    598,
+    606,
+    629,
+    662,
+    676,
+    683,
+    787,
+    808,
+    860,
+    868,
+    875,
+    942,
+    960,
+    1128,
+    1179,
+    1251,
+    1261,
+    1262,
+    1297,
+    1370,
+    1409,
+    1429,
+    1574,
+    1581,
+    1631
    ]
   },
   {
@@ -26487,10 +25557,10 @@ window.GRAPH_DATA = {
    "notes": "Smoothed analysis and randomized eigenvalue computation.",
    "group": "rmt",
    "papers": [
-    1447,
-    1536,
-    1782,
-    1805
+    1384,
+    1473,
+    1717,
+    1740
    ]
   },
   {
@@ -26509,16 +25579,16 @@ window.GRAPH_DATA = {
    "notes": "Leads the RandLAPACK / RandBLAS standardization effort.",
    "group": "hpc",
    "papers": [
-    1293,
-    1351,
-    1352,
-    1404,
-    1466,
-    1475,
-    1493,
-    1583,
-    1589,
-    1709
+    1234,
+    1291,
+    1292,
+    1342,
+    1403,
+    1412,
+    1430,
+    1518,
+    1524,
+    1644
    ]
   },
   {
@@ -26535,22 +25605,22 @@ window.GRAPH_DATA = {
    "notes": "Sketch-and-project framework; stochastic optimization.",
    "group": "ml",
    "papers": [
-    628,
-    641,
-    707,
-    772,
-    806,
-    883,
-    947,
-    954,
-    955,
-    1008,
-    1091,
-    1160,
-    1188,
-    1291,
-    1439,
-    1717
+    588,
+    601,
+    664,
+    727,
+    761,
+    835,
+    897,
+    904,
+    905,
+    958,
+    1040,
+    1106,
+    1134,
+    1232,
+    1377,
+    1652
    ]
   },
   {
@@ -26568,13 +25638,13 @@ window.GRAPH_DATA = {
    "notes": "Randomized low-rank approximation (RPCholesky, XTrace) and Monte Carlo methods.",
    "group": "rand",
    "papers": [
-    1287,
-    1407,
-    1415,
-    1520,
-    1562,
-    1602,
-    1802
+    1229,
+    1345,
+    1353,
+    1457,
+    1498,
+    1537,
+    1737
    ]
   },
   {
@@ -26590,9 +25660,9 @@ window.GRAPH_DATA = {
    "notes": "",
    "group": "rand",
    "papers": [
-    1740,
-    1744,
-    1756
+    1675,
+    1679,
+    1691
    ]
   },
   {
@@ -26608,8 +25678,8 @@ window.GRAPH_DATA = {
    "notes": "Sketching for tensor problems.",
    "group": "rand",
    "papers": [
-    910,
-    1526
+    861,
+    1463
    ]
   },
   {
@@ -26626,11 +25696,11 @@ window.GRAPH_DATA = {
    "notes": "Randomized diagonalization; pseudospectral divide-and-conquer.",
    "group": "rmt",
    "papers": [
-    1549,
-    1641,
-    1705,
-    1759,
-    1764
+    1486,
+    1576,
+    1640,
+    1694,
+    1699
    ]
   },
   {
@@ -26646,45 +25716,45 @@ window.GRAPH_DATA = {
    "notes": "Streaming and sketching algorithms; frequent Woodruff collaborator.",
    "group": "tcs",
    "papers": [
-    841,
-    1042,
-    1177,
-    1191,
-    1209,
-    1252,
-    1258,
-    1303,
-    1307,
-    1342,
-    1350,
-    1381,
-    1388,
-    1389,
-    1392,
-    1413,
-    1426,
-    1427,
-    1429,
-    1448,
-    1453,
-    1508,
-    1518,
-    1545,
-    1611,
-    1633,
-    1645,
-    1649,
-    1657,
-    1658,
-    1730,
-    1731,
-    1734,
-    1742,
-    1747,
-    1754,
-    1776,
-    1778,
-    1784
+    795,
+    992,
+    1123,
+    1137,
+    1154,
+    1196,
+    1202,
+    1243,
+    1247,
+    1282,
+    1290,
+    1320,
+    1326,
+    1327,
+    1330,
+    1351,
+    1364,
+    1365,
+    1367,
+    1385,
+    1390,
+    1445,
+    1455,
+    1482,
+    1546,
+    1568,
+    1580,
+    1584,
+    1592,
+    1593,
+    1665,
+    1666,
+    1669,
+    1677,
+    1682,
+    1689,
+    1711,
+    1713,
+    1719
    ]
   },
   {
@@ -26702,48 +25772,48 @@ window.GRAPH_DATA = {
    "notes": "Randomized and spectral algorithms; solving sparse systems faster than matrix multiplication (with Peng).",
    "group": "tcs",
    "papers": [
-    49,
-    51,
-    53,
-    70,
-    80,
-    129,
-    133,
-    137,
-    142,
-    168,
-    173,
-    278,
-    302,
-    324,
-    487,
-    531,
-    557,
-    658,
-    676,
-    724,
-    741,
-    773,
-    792,
-    808,
+    40,
+    42,
+    44,
+    61,
+    71,
+    115,
+    117,
+    121,
+    126,
+    148,
+    153,
+    255,
+    277,
+    298,
+    451,
+    492,
+    517,
+    618,
+    634,
+    681,
+    698,
+    728,
+    747,
+    763,
+    774,
+    777,
+    813,
     820,
-    823,
-    859,
-    866,
-    1085,
-    1087,
-    1173,
-    1182,
-    1193,
-    1202,
-    1237,
-    1292,
-    1301,
-    1338,
-    1432,
-    1696,
-    1794,
-    1798
+    1034,
+    1036,
+    1119,
+    1128,
+    1139,
+    1147,
+    1181,
+    1233,
+    1241,
+    1278,
+    1370,
+    1631,
+    1729,
+    1733
    ]
   },
   {
@@ -26759,8 +25829,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "group": "krylov",
    "papers": [
-    1726,
-    1799
+    1661,
+    1734
    ]
   },
   {
@@ -26779,53 +25849,53 @@ window.GRAPH_DATA = {
    "notes": "Stochastic Lanczos quadrature for spectrum and trace estimation.",
    "group": "krylov",
    "papers": [
-    612,
-    670,
-    728,
-    742,
-    743,
-    748,
-    753,
-    758,
-    795,
-    856,
-    913,
-    958,
-    966,
-    969,
-    1003,
-    1059,
-    1079,
-    1108,
-    1121,
-    1122,
-    1167,
-    1168,
-    1181,
+    572,
+    628,
+    685,
+    699,
+    700,
+    705,
+    709,
+    713,
+    750,
+    810,
+    864,
+    908,
+    916,
+    919,
+    953,
+    1008,
+    1028,
+    1055,
+    1068,
+    1069,
+    1113,
+    1114,
+    1127,
+    1172,
+    1214,
     1228,
-    1272,
-    1286,
-    1306,
-    1330,
-    1422,
-    1458,
-    1463,
-    1499,
-    1506,
-    1530,
-    1555,
-    1566,
-    1591,
-    1608,
-    1643,
-    1659,
-    1675,
-    1710,
-    1719,
-    1736,
-    1749,
-    1765,
-    1787
+    1246,
+    1270,
+    1360,
+    1395,
+    1400,
+    1436,
+    1443,
+    1467,
+    1492,
+    1502,
+    1526,
+    1543,
+    1578,
+    1594,
+    1610,
+    1645,
+    1654,
+    1671,
+    1684,
+    1700,
+    1722
    ]
   },
   {
@@ -26842,31 +25912,31 @@ window.GRAPH_DATA = {
    "notes": "Krylov-based regularization; IR Tools.",
    "group": "inverse",
    "papers": [
-    534,
-    652,
-    688,
-    882,
-    891,
-    914,
-    915,
-    916,
-    921,
-    984,
-    1025,
-    1026,
-    1123,
-    1139,
-    1164,
-    1174,
-    1229,
-    1316,
-    1461,
-    1581,
+    495,
+    612,
+    646,
+    834,
+    842,
+    865,
+    866,
+    867,
+    872,
+    934,
+    975,
+    976,
+    1070,
+    1085,
+    1110,
+    1120,
+    1173,
+    1256,
+    1398,
+    1516,
+    1582,
+    1597,
+    1608,
     1647,
-    1662,
-    1673,
-    1712,
-    1792
+    1727
    ]
   },
   {
@@ -26885,26 +25955,26 @@ window.GRAPH_DATA = {
    "notes": "Sparse direct methods; Avron–Toledo randomized trace estimation.",
    "group": "hpc",
    "papers": [
-    61,
-    135,
-    225,
-    269,
-    289,
-    299,
-    306,
-    310,
-    355,
-    382,
-    461,
+    52,
+    119,
+    204,
+    246,
+    266,
+    274,
+    281,
+    285,
+    328,
+    353,
+    427,
+    428,
+    439,
+    459,
     462,
-    473,
-    495,
-    498,
-    521,
-    529,
-    666,
-    687,
-    965
+    483,
+    490,
+    624,
+    645,
+    915
    ]
   },
   {
@@ -26922,52 +25992,29 @@ window.GRAPH_DATA = {
    "notes": "Hierarchical / rank-structured matrix computations.",
    "group": "krylov",
    "papers": [
-    845,
-    855,
-    908,
-    932,
-    941,
-    946,
-    950,
-    975,
-    994,
-    1033,
-    1061,
-    1093,
-    1115,
-    1133,
-    1226,
-    1241,
-    1245,
-    1260,
-    1317,
-    1366,
-    1523,
-    1604,
-    1746
-   ]
-  },
-  {
-   "id": "stefano-pozza",
-   "name": "Stefano Pozza",
-   "affiliation": "Charles University",
-   "website": "https://sites.google.com/site/infostepo/",
-   "photo": "https://www.mff.cuni.cz/data/users/user_56594/pozza_img.jpg",
-   "topics": [
-    "matrix-functions",
-    "krylov"
-   ],
-   "notes": "Lanczos-based methods and time-ordered exponentials.",
-   "group": "krylov",
-   "papers": [
-    663,
-    664,
-    749,
-    867,
-    885,
-    923,
-    1129,
-    1302
+    799,
+    809,
+    859,
+    882,
+    891,
+    896,
+    900,
+    925,
+    944,
+    983,
+    1010,
+    1042,
+    1062,
+    1079,
+    1170,
+    1185,
+    1189,
+    1204,
+    1257,
+    1305,
+    1460,
+    1539,
+    1681
    ]
   },
   {
@@ -26984,30 +26031,30 @@ window.GRAPH_DATA = {
    "notes": "Laplacian solvers and fast graph algorithms.",
    "group": "tcs",
    "papers": [
-    581,
-    603,
-    604,
-    653,
-    705,
-    719,
-    779,
-    909,
-    917,
-    925,
-    1010,
-    1102,
-    1311,
-    1315,
-    1321,
-    1357,
-    1454,
-    1472,
-    1492,
-    1514,
-    1560,
-    1605,
-    1639,
-    1646
+    541,
+    563,
+    564,
+    613,
+    662,
+    676,
+    734,
+    860,
+    868,
+    875,
+    960,
+    1051,
+    1251,
+    1255,
+    1261,
+    1297,
+    1391,
+    1409,
+    1429,
+    1451,
+    1496,
+    1540,
+    1574,
+    1581
    ]
   },
   {
@@ -27024,15 +26071,15 @@ window.GRAPH_DATA = {
    "notes": "",
    "group": "ml",
    "papers": [
-    888,
-    976,
-    982,
-    1056,
-    1205,
-    1222,
-    1224,
-    1336,
-    1491
+    839,
+    926,
+    932,
+    1005,
+    1150,
+    1166,
+    1168,
+    1276,
+    1428
    ]
   },
   {
@@ -27049,14 +26096,14 @@ window.GRAPH_DATA = {
    "notes": "Randomized low-rank approximation algorithms.",
    "group": "rand",
    "papers": [
-    1199,
-    1324,
-    1402,
-    1577,
-    1609,
-    1635,
-    1648,
-    1760
+    1144,
+    1264,
+    1340,
+    1512,
+    1544,
+    1570,
+    1583,
+    1695
    ]
   },
   {
@@ -27073,17 +26120,17 @@ window.GRAPH_DATA = {
    "notes": "The 2006 subspace-embedding paper that unlocked fast randomized regression.",
    "group": "tcs",
    "papers": [
-    362,
-    970,
-    1276,
-    1310,
-    1355,
-    1358,
-    1362,
-    1393,
-    1438,
-    1498,
-    1783
+    335,
+    920,
+    1218,
+    1250,
+    1295,
+    1298,
+    1302,
+    1331,
+    1376,
+    1435,
+    1718
    ]
   },
   {
@@ -27100,15 +26147,15 @@ window.GRAPH_DATA = {
    "notes": "Random matrix theory and universality in the runtime of numerical algorithms.",
    "group": "rmt",
    "papers": [
-    669,
-    1108,
-    1286,
-    1423,
-    1483,
-    1551,
-    1675,
-    1715,
-    1716
+    627,
+    1055,
+    1228,
+    1361,
+    1420,
+    1488,
+    1610,
+    1650,
+    1651
    ]
   },
   {
@@ -27126,20 +26173,20 @@ window.GRAPH_DATA = {
    "notes": "Probabilistic rounding-error analysis; block low-rank solvers.",
    "group": "hpc",
    "papers": [
-    511,
-    624,
-    839,
-    876,
-    877,
-    953,
-    974,
-    1037,
-    1076,
-    1186,
-    1261,
-    1332,
-    1374,
-    1480
+    474,
+    584,
+    793,
+    828,
+    829,
+    903,
+    924,
+    987,
+    1025,
+    1132,
+    1205,
+    1272,
+    1313,
+    1417
    ]
   },
   {
@@ -27157,25 +26204,25 @@ window.GRAPH_DATA = {
    "notes": "Lanczos-based methods for matrix functions and trace estimation; finite precision behavior of Krylov methods.",
    "group": "krylov",
    "papers": [
-    1058,
-    1108,
-    1163,
-    1231,
-    1277,
-    1286,
-    1372,
-    1382,
-    1423,
-    1483,
-    1502,
-    1644,
-    1652,
-    1667,
-    1675,
-    1682,
-    1755,
-    1763,
-    1790
+    1007,
+    1055,
+    1109,
+    1175,
+    1219,
+    1228,
+    1311,
+    1321,
+    1361,
+    1420,
+    1439,
+    1579,
+    1587,
+    1602,
+    1610,
+    1617,
+    1690,
+    1698,
+    1725
    ]
   },
   {
@@ -27193,49 +26240,45 @@ window.GRAPH_DATA = {
    "notes": "Matrix equations and Krylov convergence theory. Co-organizer of the ICERM 2026 workshop.",
    "group": "krylov",
    "papers": [
-    103,
-    126,
-    139,
-    162,
-    165,
-    169,
-    193,
-    198,
-    266,
-    323,
-    331,
-    338,
-    596,
-    600,
-    614,
-    625,
-    663,
-    664,
-    729,
-    735,
-    798,
-    843,
-    923,
-    1051,
-    1129,
-    1148,
-    1196,
-    1212,
-    1302,
-    1412,
-    1420,
-    1531,
-    1532,
-    1557,
-    1570,
-    1594,
-    1688,
-    1711,
-    1713,
-    1728,
-    1801,
-    1804,
-    1813
+    93,
+    112,
+    123,
+    142,
+    145,
+    149,
+    173,
+    178,
+    244,
+    297,
+    304,
+    311,
+    556,
+    560,
+    574,
+    585,
+    686,
+    692,
+    753,
+    797,
+    1000,
+    1094,
+    1142,
+    1157,
+    1242,
+    1350,
+    1358,
+    1468,
+    1469,
+    1493,
+    1506,
+    1529,
+    1623,
+    1646,
+    1648,
+    1663,
+    1736,
+    1739,
+    1747
    ]
   },
   {
@@ -27252,38 +26295,20 @@ window.GRAPH_DATA = {
    "notes": "Spectrum slicing and randomized eigensolvers; IBM cluster with Horesh/Ubaru.",
    "group": "rand",
    "papers": [
-    693,
-    1424,
-    1446,
-    1506,
-    1566,
-    1651,
-    1659,
-    1687,
-    1736,
-    1749,
-    1765,
-    1771,
-    1787,
-    1807
-   ]
-  },
-  {
-   "id": "vasilije-perovic",
-   "name": "Vasilije Perovic",
-   "affiliation": "University of Rhode Island",
-   "website": "",
-   "photo": "",
-   "topics": [
-    "krylov",
-    "eigenvalue"
-   ],
-   "notes": "",
-   "group": "krylov",
-   "papers": [
-    1364,
-    1386,
-    1573
+    650,
+    1362,
+    1383,
+    1443,
+    1502,
+    1586,
+    1594,
+    1622,
+    1671,
+    1684,
+    1700,
+    1706,
+    1722,
+    1742
    ]
   },
   {
@@ -27300,15 +26325,15 @@ window.GRAPH_DATA = {
    "notes": "",
    "group": "inverse",
    "papers": [
-    1459,
-    1653,
-    1655,
-    1677,
-    1692,
-    1704,
-    1741,
-    1768,
-    1775
+    1396,
+    1588,
+    1590,
+    1612,
+    1627,
+    1639,
+    1676,
+    1703,
+    1710
    ]
   },
   {
@@ -27324,8 +26349,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "group": "ml",
    "papers": [
-    1563,
-    1692
+    1499,
+    1627
    ]
   },
   {
@@ -27342,22 +26367,22 @@ window.GRAPH_DATA = {
    "notes": "Fast multipole method; the original randomized low-rank approximation papers with Martinsson, Tygert, and Liberty.",
    "group": "rand",
    "papers": [
-    38,
-    144,
-    145,
-    160,
-    174,
-    181,
-    213,
-    216,
-    239,
-    247,
-    248,
-    282,
-    294,
-    335,
-    341,
-    344
+    30,
+    128,
+    129,
+    140,
+    154,
+    161,
+    192,
+    195,
+    218,
+    226,
+    227,
+    259,
+    270,
+    308,
+    314,
+    317
    ]
   },
   {
@@ -27373,7 +26398,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "group": "ml",
    "papers": [
-    1490
+    1427
    ]
   },
   {
@@ -27392,58 +26417,58 @@ window.GRAPH_DATA = {
    "notes": "SuperLU sparse direct solvers; scalable numerical libraries.",
    "group": "hpc",
    "papers": [
-    23,
-    57,
-    63,
-    65,
-    67,
-    82,
-    101,
-    102,
-    123,
-    128,
-    138,
-    146,
-    179,
-    195,
-    237,
-    238,
-    245,
-    252,
-    293,
-    303,
-    315,
-    320,
-    329,
-    390,
-    435,
-    489,
-    803,
-    839,
-    874,
-    935,
-    953,
-    977,
-    978,
-    1072,
-    1097,
-    1124,
-    1130,
-    1159,
-    1210,
-    1236,
-    1243,
-    1282,
-    1340,
-    1359,
-    1482,
-    1489,
-    1493,
-    1504,
-    1601,
-    1606,
-    1634,
-    1654
+    18,
+    48,
+    54,
+    56,
+    58,
+    73,
+    91,
+    92,
+    109,
+    114,
+    122,
+    130,
+    159,
+    175,
+    216,
+    217,
+    224,
+    231,
+    269,
+    278,
+    289,
+    294,
+    302,
+    361,
+    402,
+    453,
+    758,
+    793,
+    826,
+    885,
+    903,
+    927,
+    928,
+    1021,
+    1046,
+    1071,
+    1076,
+    1105,
+    1155,
+    1180,
+    1187,
+    1224,
+    1280,
+    1299,
+    1419,
+    1426,
+    1430,
+    1441,
+    1536,
+    1541,
+    1569,
+    1589
    ]
   },
   {
@@ -27460,16 +26485,16 @@ window.GRAPH_DATA = {
    "notes": "Randomized dimension reduction and low-rank approximation.",
    "group": "rand",
    "papers": [
-    1179,
-    1208,
-    1320,
-    1331,
-    1416,
-    1418,
-    1467,
-    1578,
-    1691,
-    1740
+    1125,
+    1153,
+    1260,
+    1271,
+    1354,
+    1356,
+    1404,
+    1513,
+    1626,
+    1675
    ]
   },
   {
@@ -27486,57 +26511,57 @@ window.GRAPH_DATA = {
    "notes": "Faster solvers via interior point and sparsification; single-pass spectral sparsification.",
    "group": "tcs",
    "papers": [
-    455,
-    467,
-    470,
-    483,
-    513,
-    552,
-    572,
-    599,
-    638,
-    676,
-    677,
-    741,
-    790,
-    804,
-    808,
+    421,
+    433,
+    436,
+    447,
+    476,
+    512,
+    532,
+    559,
+    598,
+    634,
+    635,
+    698,
+    745,
+    759,
+    763,
+    774,
+    813,
     820,
-    859,
-    866,
-    888,
-    897,
-    911,
-    936,
-    937,
-    962,
-    976,
-    980,
-    982,
-    1002,
-    1023,
-    1028,
-    1056,
-    1077,
-    1085,
-    1149,
-    1173,
-    1193,
-    1202,
-    1205,
-    1222,
-    1224,
-    1235,
-    1237,
-    1292,
-    1301,
-    1322,
-    1338,
-    1410,
-    1491,
-    1517,
-    1646,
-    1794
+    839,
+    848,
+    862,
+    886,
+    887,
+    912,
+    926,
+    930,
+    932,
+    952,
+    973,
+    978,
+    1005,
+    1026,
+    1034,
+    1095,
+    1119,
+    1139,
+    1147,
+    1150,
+    1166,
+    1168,
+    1179,
+    1181,
+    1233,
+    1241,
+    1262,
+    1278,
+    1348,
+    1428,
+    1454,
+    1581,
+    1729
    ]
   },
   {
@@ -27554,37 +26579,37 @@ window.GRAPH_DATA = {
    "notes": "Krylov subspace methods; stochastic spectrum estimation line with Ubaru.",
    "group": "krylov",
    "papers": [
-    4,
-    5,
-    45,
-    47,
-    55,
-    58,
-    87,
-    113,
-    275,
-    555,
-    612,
-    654,
-    670,
-    693,
-    728,
-    742,
-    743,
-    748,
-    753,
-    758,
-    853,
-    879,
-    880,
-    913,
-    958,
-    966,
-    1079,
-    1446,
-    1521,
-    1595,
-    1751
+    1,
+    2,
+    37,
+    38,
+    46,
+    49,
+    78,
+    101,
+    252,
+    515,
+    572,
+    614,
+    628,
+    650,
+    685,
+    699,
+    700,
+    705,
+    709,
+    713,
+    807,
+    831,
+    832,
+    864,
+    908,
+    916,
+    1028,
+    1383,
+    1458,
+    1530,
+    1686
    ]
   },
   {
@@ -27603,85 +26628,45 @@ window.GRAPH_DATA = {
    "notes": "Eigenvalue algorithms; fast randomized methods for linear systems, eigenproblems, and low-rank approximation.",
    "group": "rand",
    "papers": [
-    332,
-    405,
-    454,
-    501,
-    594,
-    796,
-    852,
-    865,
-    896,
-    983,
-    1065,
-    1125,
-    1128,
-    1171,
-    1194,
-    1199,
-    1203,
-    1289,
-    1324,
-    1402,
-    1435,
-    1452,
-    1457,
-    1467,
-    1474,
-    1476,
-    1540,
-    1541,
-    1577,
-    1609,
+    305,
+    376,
+    420,
+    465,
+    554,
+    751,
+    806,
+    819,
+    847,
+    933,
+    1014,
+    1072,
+    1075,
+    1117,
+    1140,
+    1144,
+    1148,
+    1230,
+    1264,
+    1340,
+    1373,
+    1389,
+    1394,
+    1404,
+    1411,
+    1413,
+    1477,
+    1478,
+    1512,
+    1544,
+    1570,
+    1583,
+    1618,
+    1619,
     1635,
-    1648,
-    1683,
-    1684,
-    1700,
-    1732,
-    1737,
-    1760,
-    1817
-   ]
-  },
-  {
-   "id": "zdenek-strakos",
-   "name": "Zdeněk Strakoš",
-   "affiliation": "Charles University",
-   "website": "https://www.karlin.mff.cuni.cz/~strakos/",
-   "photo": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=TpKYkWoAAAAJ&citpid=2",
-   "topics": [
-    "krylov",
-    "finite-precision",
-    "least-squares"
-   ],
-   "notes": "Krylov subspace methods theory; finite-precision Lanczos and CG.",
-   "group": "krylov",
-   "papers": [
-    12,
-    13,
-    25,
-    29,
-    36,
-    46,
-    106,
-    114,
-    122,
-    130,
-    156,
-    159,
-    267,
-    476,
-    477,
-    526,
-    689,
-    749,
-    867,
-    869,
-    885,
-    1049,
-    1198,
-    1556
+    1667,
+    1672,
+    1695,
+    1751
    ]
   },
   {
@@ -27699,31 +26684,31 @@ window.GRAPH_DATA = {
    "notes": "Large-scale eigenvalue computations; LAPACK and Templates.",
    "group": "hpc",
    "papers": [
+    4,
+    5,
     7,
-    8,
-    10,
-    17,
-    18,
-    21,
-    31,
-    52,
-    62,
+    12,
+    13,
+    16,
+    24,
+    43,
+    53,
+    66,
+    67,
     75,
     76,
-    84,
-    85,
-    87,
-    88,
-    128,
-    136,
-    146,
-    203,
-    252,
-    257,
-    307,
-    332,
-    337,
-    933
+    78,
+    79,
+    114,
+    120,
+    130,
+    183,
+    231,
+    236,
+    282,
+    305,
+    310,
+    883
    ]
   },
   {
@@ -27739,7 +26724,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "group": "hpc",
    "papers": [
-    1686
+    1621
    ]
   }
  ],
@@ -27755,14 +26740,14 @@ window.GRAPH_DATA = {
    "notes": "Single-pass spectral sparsification; accelerated PCA methods.",
    "links": [],
    "paper_ids": [
-    636,
-    646,
-    672,
-    696,
-    783,
-    856,
-    857,
-    1009
+    596,
+    606,
+    630,
+    653,
+    738,
+    810,
+    811,
+    959
    ],
    "advising": []
   },
@@ -27777,15 +26762,15 @@ window.GRAPH_DATA = {
    "notes": "Single-pass spectral sparsification in dynamic streams.",
    "links": [],
    "paper_ids": [
-    646,
-    696,
-    783,
-    857,
-    1009,
-    1376,
-    1428,
-    1478,
-    1479
+    606,
+    653,
+    738,
+    811,
+    959,
+    1315,
+    1366,
+    1415,
+    1416
    ],
    "advising": []
   },
@@ -27800,7 +26785,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    856
+    810
    ],
    "advising": []
   },
@@ -27815,10 +26800,10 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    783,
-    904,
-    1009,
-    1618
+    738,
+    855,
+    959,
+    1553
    ],
    "advising": []
   },
@@ -27833,7 +26818,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1738
+    1673
    ],
    "advising": []
   },
@@ -27848,9 +26833,9 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    854,
-    1311,
-    1492
+    808,
+    1251,
+    1429
    ],
    "advising": []
   },
@@ -27865,14 +26850,14 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    646,
-    671,
-    726,
-    854,
-    992,
-    1235,
-    1311,
-    1492
+    606,
+    629,
+    683,
+    808,
+    942,
+    1179,
+    1251,
+    1429
    ],
    "advising": []
   },
@@ -27887,7 +26872,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    823
+    777
    ],
    "advising": []
   },
@@ -27902,7 +26887,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    856
+    810
    ],
    "advising": []
   },
@@ -27917,9 +26902,9 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1311,
-    1492,
-    1605
+    1251,
+    1429,
+    1540
    ],
    "advising": []
   },
@@ -27934,7 +26919,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1222
+    1166
    ],
    "advising": []
   },
@@ -27949,27 +26934,27 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    467,
-    470,
-    483,
-    513,
-    552,
-    572,
-    599,
-    677,
-    790,
-    897,
-    911,
-    936,
-    937,
-    962,
-    980,
-    1028,
-    1077,
-    1149,
-    1222,
-    1235,
-    1410
+    433,
+    436,
+    447,
+    476,
+    512,
+    532,
+    559,
+    635,
+    745,
+    848,
+    862,
+    886,
+    887,
+    912,
+    930,
+    978,
+    1026,
+    1095,
+    1166,
+    1179,
+    1348
    ],
    "advising": []
   },
@@ -27984,7 +26969,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1743
+    1678
    ],
    "advising": []
   },
@@ -27999,8 +26984,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1655,
-    1656
+    1590,
+    1591
    ],
    "advising": []
   },
@@ -28015,7 +27000,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1655
+    1590
    ],
    "advising": []
   },
@@ -28030,8 +27015,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1400,
-    1674
+    1338,
+    1609
    ],
    "advising": []
   },
@@ -28046,7 +27031,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1400
+    1338
    ],
    "advising": []
   },
@@ -28061,7 +27046,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1400
+    1338
    ],
    "advising": []
   },
@@ -28076,7 +27061,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    748
+    705
    ],
    "advising": []
   },
@@ -28091,9 +27076,9 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    748,
-    879,
-    880
+    705,
+    831,
+    832
    ],
    "advising": []
   },
@@ -28108,13 +27093,13 @@ window.GRAPH_DATA = {
    "notes": "PhD at CMU (2022) co-advised by Pravesh Kothari and Woodruff; joint papers on low-rank approximation.",
    "links": [],
    "paper_ids": [
-    862,
-    928,
-    952,
-    1068,
-    1092,
-    1140,
-    1254
+    816,
+    878,
+    902,
+    1017,
+    1041,
+    1086,
+    1198
    ],
    "advising": [
     {
@@ -28135,7 +27120,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1254
+    1198
    ],
    "advising": []
   },
@@ -28150,7 +27135,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1429
+    1367
    ],
    "advising": []
   },
@@ -28165,7 +27150,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1140
+    1086
    ],
    "advising": []
   },
@@ -28180,7 +27165,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1429
+    1367
    ],
    "advising": []
   },
@@ -28195,22 +27180,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1798
-   ],
-   "advising": []
-  },
-  {
-   "source": "akil-narayan",
-   "target": "christopher-beattie",
-   "factors": {
-    "genetic": 0,
-    "coauthor": 1,
-    "advising": 0
-   },
-   "notes": "",
-   "links": [],
-   "paper_ids": [
-    1264
+    1733
    ],
    "advising": []
   },
@@ -28225,9 +27195,9 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    817,
-    951,
-    1151
+    772,
+    901,
+    1097
    ],
    "advising": []
   },
@@ -28242,10 +27212,10 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1232,
-    1283,
-    1548,
-    1758
+    1176,
+    1225,
+    1485,
+    1693
    ],
    "advising": []
   },
@@ -28260,10 +27230,10 @@ window.GRAPH_DATA = {
    "notes": "PhD at MIT with Edelman; matrix models for beta-ensembles.",
    "links": [],
    "paper_ids": [
-    107,
-    154,
-    185,
-    233
+    95,
+    136,
+    165,
+    212
    ],
    "advising": [
     {
@@ -28284,7 +27254,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    32
+    25
    ],
    "advising": []
   },
@@ -28299,10 +27269,10 @@ window.GRAPH_DATA = {
    "notes": "Several joint papers on growth factors of random matrices.",
    "links": [],
    "paper_ids": [
-    1313,
-    1509,
-    1535,
-    1815
+    1253,
+    1446,
+    1472,
+    1749
    ],
    "advising": []
   },
@@ -28317,7 +27287,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    61
+    52
    ],
    "advising": []
   },
@@ -28332,7 +27302,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    88
+    79
    ],
    "advising": []
   },
@@ -28347,8 +27317,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    70,
-    129
+    61,
+    115
    ],
    "advising": []
   },
@@ -28363,20 +27333,20 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
+    0,
     3,
     6,
-    9,
-    15,
-    26,
-    40,
-    44,
-    64,
+    10,
+    20,
+    32,
+    36,
+    55,
+    61,
     70,
-    79,
-    129,
-    133,
-    249,
-    1739
+    115,
+    117,
+    228,
+    1674
    ],
    "advising": []
   },
@@ -28391,11 +27361,11 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    70,
-    129,
-    133,
-    324,
-    531
+    61,
+    115,
+    117,
+    298,
+    492
    ],
    "advising": []
   },
@@ -28410,7 +27380,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1679
+    1614
    ],
    "advising": []
   },
@@ -28425,8 +27395,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1445,
-    1792
+    1382,
+    1727
    ],
    "advising": []
   },
@@ -28441,7 +27411,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1792
+    1727
    ],
    "advising": []
   },
@@ -28456,7 +27426,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1648
+    1583
    ],
    "advising": []
   },
@@ -28471,7 +27441,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1648
+    1583
    ],
    "advising": []
   },
@@ -28486,8 +27456,8 @@ window.GRAPH_DATA = {
    "notes": "Co-organized the Householder Symposium XXII (2025).",
    "links": [],
    "paper_ids": [
-    1053,
-    1488
+    1002,
+    1425
    ],
    "advising": []
   },
@@ -28502,12 +27472,12 @@ window.GRAPH_DATA = {
    "notes": "PhD at Cornell with Townsend; operator learning and matrix recovery.",
    "links": [],
    "paper_ids": [
-    1109,
-    1257,
-    1347,
-    1511,
-    1546,
-    1818
+    1056,
+    1201,
+    1287,
+    1448,
+    1483,
+    1752
    ],
    "advising": [
     {
@@ -28528,11 +27498,11 @@ window.GRAPH_DATA = {
    "notes": "PhD at Cornell with Townsend; rational approximation and low-rank structure.",
    "links": [],
    "paper_ids": [
-    662,
-    738,
-    818,
-    1117,
-    1223
+    622,
+    695,
+    773,
+    1064,
+    1167
    ],
    "advising": [
     {
@@ -28553,7 +27523,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    456
+    422
    ],
    "advising": []
   },
@@ -28568,9 +27538,9 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    761,
-    973,
-    1281
+    716,
+    923,
+    1223
    ],
    "advising": []
   },
@@ -28585,17 +27555,17 @@ window.GRAPH_DATA = {
    "notes": "Learning Green's functions; rational neural networks; operator learning theory.",
    "links": [],
    "paper_ids": [
-    997,
+    947,
+    1014,
+    1053,
     1065,
-    1105,
-    1118,
-    1204,
-    1249,
-    1250,
-    1312,
-    1347,
-    1369,
-    1511
+    1149,
+    1193,
+    1194,
+    1252,
+    1287,
+    1308,
+    1448
    ],
    "advising": [
     {
@@ -28616,7 +27586,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    669
+    627
    ],
    "advising": []
   },
@@ -28631,11 +27601,11 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    594,
-    796,
-    1065,
-    1125,
-    1457
+    554,
+    751,
+    1014,
+    1072,
+    1394
    ],
    "advising": []
   },
@@ -28650,7 +27620,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1740
+    1675
    ],
    "advising": []
   },
@@ -28665,16 +27635,16 @@ window.GRAPH_DATA = {
    "notes": "PhD at EPFL with Kressner; randomized trace estimation and low-rank approximation error analysis.",
    "links": [],
    "paper_ids": [
-    941,
-    1030,
-    1061,
-    1146,
-    1226,
-    1244,
-    1273,
-    1540,
-    1541,
-    1733
+    891,
+    980,
+    1010,
+    1092,
+    1170,
+    1188,
+    1215,
+    1477,
+    1478,
+    1668
    ],
    "advising": [
     {
@@ -28695,7 +27665,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1244
+    1188
    ],
    "advising": []
   },
@@ -28710,7 +27680,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1740
+    1675
    ],
    "advising": []
   },
@@ -28725,7 +27695,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1740
+    1675
    ],
    "advising": []
   },
@@ -28740,7 +27710,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1740
+    1675
    ],
    "advising": []
   },
@@ -28755,7 +27725,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1740
+    1675
    ],
    "advising": []
   },
@@ -28770,7 +27740,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1740
+    1675
    ],
    "advising": []
   },
@@ -28785,8 +27755,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1337,
-    1569
+    1277,
+    1505
    ],
    "advising": [
     {
@@ -28807,7 +27777,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1740
+    1675
    ],
    "advising": []
   },
@@ -28822,10 +27792,10 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    941,
-    1061,
-    1226,
-    1746
+    891,
+    1010,
+    1170,
+    1681
    ],
    "advising": []
   },
@@ -28840,7 +27810,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1740
+    1675
    ],
    "advising": []
   },
@@ -28855,8 +27825,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1540,
-    1541
+    1477,
+    1478
    ],
    "advising": []
   },
@@ -28871,13 +27841,13 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    700,
-    747,
-    769,
-    784,
-    967,
-    1104,
-    1175
+    657,
+    704,
+    724,
+    739,
+    917,
+    1052,
+    1121
    ],
    "advising": []
   },
@@ -28892,13 +27862,13 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    700,
-    747,
-    769,
-    784,
-    967,
-    1104,
-    1175
+    657,
+    704,
+    724,
+    739,
+    917,
+    1052,
+    1121
    ],
    "advising": []
   },
@@ -28913,11 +27883,11 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    481,
-    517,
-    551,
-    568,
-    1693
+    445,
+    480,
+    511,
+    528,
+    1628
    ],
    "advising": []
   },
@@ -28932,11 +27902,11 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    481,
-    517,
-    551,
-    568,
-    1693
+    445,
+    480,
+    511,
+    528,
+    1628
    ],
    "advising": []
   },
@@ -28951,7 +27921,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1786
+    1721
    ],
    "advising": []
   },
@@ -28966,13 +27936,13 @@ window.GRAPH_DATA = {
    "notes": "PhD at Temple (2024) with Szyld; now a postdoc at Sandia.",
    "links": [],
    "paper_ids": [
-    1278,
-    1385,
-    1401,
-    1558,
-    1582,
-    1668,
-    1791
+    1220,
+    1324,
+    1339,
+    1494,
+    1517,
+    1603,
+    1726
    ],
    "advising": [
     {
@@ -28993,11 +27963,11 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1278,
-    1558,
-    1567,
-    1582,
-    1791
+    1220,
+    1494,
+    1503,
+    1517,
+    1726
    ],
    "advising": []
   },
@@ -29012,10 +27982,10 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1558,
-    1567,
-    1582,
-    1791
+    1494,
+    1503,
+    1517,
+    1726
    ],
    "advising": []
   },
@@ -29043,13 +28013,13 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    554,
-    650,
+    514,
+    610,
+    659,
+    678,
+    693,
     702,
-    721,
-    736,
-    745,
-    777
+    732
    ],
    "advising": [
     {
@@ -29070,11 +28040,11 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    554,
-    736,
-    777,
-    821,
-    971
+    514,
+    693,
+    732,
+    775,
+    921
    ],
    "advising": [
     {
@@ -29095,31 +28065,31 @@ window.GRAPH_DATA = {
    "notes": "PhD (Claremont Graduate University) with Needell; randomized Kaczmarz methods.",
    "links": [],
    "paper_ids": [
-    536,
-    595,
-    723,
-    739,
-    786,
-    801,
-    809,
-    810,
-    836,
-    886,
-    890,
-    898,
-    900,
-    907,
-    924,
-    927,
-    963,
-    999,
-    1082,
-    1084,
-    1096,
-    1425,
-    1494,
-    1740,
-    1808
+    497,
+    555,
+    680,
+    696,
+    741,
+    756,
+    764,
+    765,
+    790,
+    837,
+    841,
+    849,
+    851,
+    858,
+    874,
+    877,
+    913,
+    949,
+    1031,
+    1033,
+    1045,
+    1363,
+    1431,
+    1675,
+    1743
    ],
    "advising": [
     {
@@ -29140,7 +28110,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1740
+    1675
    ],
    "advising": []
   },
@@ -29155,8 +28125,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1390,
-    1740
+    1328,
+    1675
    ],
    "advising": []
   },
@@ -29171,9 +28141,9 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1664,
-    1666,
-    1690
+    1599,
+    1601,
+    1625
    ],
    "advising": []
   },
@@ -29188,11 +28158,11 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    900,
-    920,
-    999,
-    1132,
-    1390
+    851,
+    871,
+    949,
+    1078,
+    1328
    ],
    "advising": []
   },
@@ -29207,7 +28177,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1740
+    1675
    ],
    "advising": []
   },
@@ -29222,7 +28192,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1740
+    1675
    ],
    "advising": []
   },
@@ -29237,7 +28207,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1740
+    1675
    ],
    "advising": []
   },
@@ -29252,7 +28222,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1740
+    1675
    ],
    "advising": []
   },
@@ -29267,7 +28237,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1678
+    1613
    ],
    "advising": []
   },
@@ -29282,17 +28252,17 @@ window.GRAPH_DATA = {
    "notes": "PhD at UT Austin with Martinsson; randomized compression and fast direct solvers.",
    "links": [],
    "paper_ids": [
-    1279,
-    1295,
-    1406,
-    1419,
-    1533,
-    1571,
-    1572,
-    1574,
-    1678,
-    1748,
-    1793
+    1221,
+    1236,
+    1344,
+    1357,
+    1470,
+    1507,
+    1508,
+    1509,
+    1613,
+    1683,
+    1728
    ],
    "advising": [
     {
@@ -29313,10 +28283,10 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1231,
-    1372,
-    1382,
-    1502
+    1175,
+    1311,
+    1321,
+    1439
    ],
    "advising": []
   },
@@ -29331,10 +28301,10 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1231,
-    1372,
-    1382,
-    1502
+    1175,
+    1311,
+    1321,
+    1439
    ],
    "advising": []
   },
@@ -29349,7 +28319,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1700
+    1635
    ],
    "advising": []
   },
@@ -29364,7 +28334,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    75
+    66
    ],
    "advising": []
   },
@@ -29379,9 +28349,9 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    8,
-    75,
-    76
+    5,
+    66,
+    67
    ],
    "advising": []
   },
@@ -29396,7 +28366,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    24
+    19
    ],
    "advising": []
   },
@@ -29411,8 +28381,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1382,
-    1502
+    1321,
+    1439
    ],
    "advising": []
   },
@@ -29427,7 +28397,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1483
+    1420
    ],
    "advising": []
   },
@@ -29442,13 +28412,13 @@ window.GRAPH_DATA = {
    "notes": "PhD co-advisor at the University of Washington; Lanczos error bounds and finite-precision behavior of Krylov methods.",
    "links": [],
    "paper_ids": [
-    1163,
-    1231,
-    1372,
-    1382,
-    1483,
-    1502,
-    1652
+    1109,
+    1175,
+    1311,
+    1321,
+    1420,
+    1439,
+    1587
    ],
    "advising": [
     {
@@ -29469,27 +28439,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1700
-   ],
-   "advising": []
-  },
-  {
-   "source": "anne-greenbaum",
-   "target": "zdenek-strakos",
-   "factors": {
-    "genetic": 0,
-    "coauthor": 6,
-    "advising": 0
-   },
-   "notes": "Classic finite-precision Krylov analysis: Greenbaum-Strakoš (1992), and \"any nonincreasing GMRES curve is possible\" (with Pták, 1996).",
-   "links": [],
-   "paper_ids": [
-    12,
-    13,
-    25,
-    29,
-    36,
-    46
+    1635
    ],
    "advising": []
   },
@@ -29504,9 +28454,9 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    8,
-    75,
-    76
+    5,
+    66,
+    67
    ],
    "advising": []
   },
@@ -29521,7 +28471,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    760
+    715
    ],
    "advising": []
   },
@@ -29536,10 +28486,10 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1123,
-    1170,
-    1280,
-    1316
+    1070,
+    1116,
+    1222,
+    1256
    ],
    "advising": []
   },
@@ -29554,7 +28504,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1575
+    1510
    ],
    "advising": []
   },
@@ -29569,8 +28519,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1579,
-    1625
+    1514,
+    1560
    ],
    "advising": []
   },
@@ -29585,9 +28535,9 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1344,
-    1345,
-    1408
+    1284,
+    1285,
+    1346
    ],
    "advising": []
   },
@@ -29602,14 +28552,14 @@ window.GRAPH_DATA = {
    "notes": "Randomized methods with a numerical-analysis lens (NC State colleagues).",
    "links": [],
    "paper_ids": [
-    774,
-    1290,
-    1378,
-    1636,
-    1637,
-    1699,
-    1703,
-    1797
+    729,
+    1231,
+    1317,
+    1571,
+    1572,
+    1634,
+    1638,
+    1732
    ],
    "advising": []
   },
@@ -29624,7 +28574,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1785
+    1720
    ],
    "advising": []
   },
@@ -29639,17 +28589,17 @@ window.GRAPH_DATA = {
    "notes": "Generalized hybrid iterative methods for Bayesian inverse problems (SISC 2017).",
    "links": [],
    "paper_ids": [
-    750,
-    850,
-    870,
-    1004,
-    1221,
-    1363,
-    1444,
-    1449,
-    1469,
-    1600,
-    1724
+    706,
+    804,
+    822,
+    954,
+    1165,
+    1303,
+    1381,
+    1386,
+    1406,
+    1535,
+    1659
    ],
    "advising": []
   },
@@ -29664,7 +28614,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1290
+    1231
    ],
    "advising": []
   },
@@ -29679,23 +28629,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1579
-   ],
-   "advising": []
-  },
-  {
-   "source": "arvind-saibaba",
-   "target": "malena-espanol",
-   "factors": {
-    "genetic": 0,
-    "coauthor": 2,
-    "advising": 0
-   },
-   "notes": "",
-   "links": [],
-   "paper_ids": [
-    1123,
-    1316
+    1514
    ],
    "advising": []
   },
@@ -29710,9 +28644,9 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1444,
-    1449,
-    1600
+    1381,
+    1386,
+    1535
    ],
    "advising": []
   },
@@ -29727,7 +28661,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1579
+    1514
    ],
    "advising": []
   },
@@ -29742,9 +28676,9 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1123,
-    1316,
-    1400
+    1070,
+    1256,
+    1338
    ],
    "advising": []
   },
@@ -29759,15 +28693,15 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    571,
-    602,
-    805,
-    1062,
-    1170,
-    1230,
-    1280,
-    1296,
-    1575
+    531,
+    562,
+    760,
+    1011,
+    1116,
+    1174,
+    1222,
+    1237,
+    1510
    ],
    "advising": []
   },
@@ -29782,7 +28716,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1400
+    1338
    ],
    "advising": []
   },
@@ -29797,8 +28731,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1123,
-    1316
+    1070,
+    1256
    ],
    "advising": []
   },
@@ -29813,12 +28747,12 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1459,
-    1653,
-    1655,
-    1677,
-    1704,
-    1741
+    1396,
+    1588,
+    1590,
+    1612,
+    1639,
+    1676
    ],
    "advising": []
   },
@@ -29833,7 +28767,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1628
+    1563
    ],
    "advising": []
   },
@@ -29848,7 +28782,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1404
+    1342
    ],
    "advising": []
   },
@@ -29863,7 +28797,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1404
+    1342
    ],
    "advising": []
   },
@@ -29878,7 +28812,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1404
+    1342
    ],
    "advising": []
   },
@@ -29893,42 +28827,42 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    945,
-    959,
-    981,
-    998,
-    1014,
-    1024,
-    1041,
-    1094,
-    1101,
-    1116,
-    1143,
-    1156,
-    1157,
-    1184,
-    1251,
-    1253,
-    1269,
-    1270,
-    1404,
-    1485,
-    1503,
-    1524,
-    1554,
-    1561,
-    1607,
-    1617,
-    1623,
+    895,
+    909,
+    931,
+    948,
+    964,
+    974,
+    991,
+    1043,
+    1050,
+    1063,
+    1089,
+    1102,
+    1103,
+    1130,
+    1195,
+    1197,
+    1212,
+    1213,
+    1342,
+    1422,
+    1440,
+    1461,
+    1491,
+    1497,
+    1542,
+    1552,
+    1558,
+    1559,
+    1573,
+    1595,
     1624,
-    1638,
-    1660,
-    1689,
+    1642,
+    1656,
     1707,
-    1721,
-    1772,
-    1788,
-    1819
+    1723,
+    1753
    ],
    "advising": []
   },
@@ -29943,7 +28877,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1404
+    1342
    ],
    "advising": []
   },
@@ -29958,8 +28892,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1349,
-    1404
+    1289,
+    1342
    ],
    "advising": []
   },
@@ -29974,7 +28908,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1404
+    1342
    ],
    "advising": []
   },
@@ -29989,7 +28923,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1404
+    1342
    ],
    "advising": []
   },
@@ -30004,7 +28938,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1789
+    1724
    ],
    "advising": []
   },
@@ -30019,7 +28953,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1404
+    1342
    ],
    "advising": []
   },
@@ -30034,54 +28968,54 @@ window.GRAPH_DATA = {
    "notes": "Brothers and frequent coauthors: randomized block Krylov methods (NeurIPS 2015), Hutch++, and much more.",
    "links": [],
    "paper_ids": [
-    598,
-    626,
-    635,
-    644,
-    646,
-    696,
-    697,
-    754,
-    771,
-    776,
-    783,
-    824,
-    834,
-    837,
-    840,
-    857,
-    881,
-    912,
-    930,
+    558,
+    586,
+    595,
+    604,
+    606,
+    653,
+    654,
+    710,
+    726,
+    731,
+    738,
+    778,
+    788,
+    791,
+    794,
+    811,
+    833,
+    863,
+    880,
+    959,
+    965,
+    981,
+    988,
     1009,
-    1015,
-    1031,
-    1038,
-    1060,
-    1069,
-    1099,
-    1100,
-    1134,
-    1178,
-    1207,
-    1231,
-    1233,
-    1372,
-    1380,
-    1382,
-    1442,
-    1501,
-    1502,
-    1510,
-    1528,
-    1597,
-    1626,
-    1644,
-    1667,
-    1694,
-    1763,
-    1790,
-    1805
+    1018,
+    1048,
+    1049,
+    1080,
+    1124,
+    1152,
+    1175,
+    1177,
+    1311,
+    1319,
+    1321,
+    1379,
+    1438,
+    1439,
+    1447,
+    1465,
+    1532,
+    1561,
+    1579,
+    1602,
+    1629,
+    1698,
+    1725,
+    1740
    ],
    "advising": []
   },
@@ -30096,9 +29030,9 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1644,
-    1667,
-    1790
+    1579,
+    1602,
+    1725
    ],
    "advising": []
   },
@@ -30113,20 +29047,20 @@ window.GRAPH_DATA = {
    "notes": "Sublinear-time low-rank approximation of PSD matrices (FOCS 2017); Hutch++ (with C. Musco and Meyer).",
    "links": [],
    "paper_ids": [
-    755,
-    789,
-    856,
-    930,
-    1038,
-    1099,
-    1100,
-    1134,
-    1178,
-    1207,
-    1233,
-    1380,
-    1394,
-    1560
+    711,
+    744,
+    810,
+    880,
+    988,
+    1048,
+    1049,
+    1080,
+    1124,
+    1152,
+    1177,
+    1319,
+    1332,
+    1496
    ],
    "advising": []
   },
@@ -30141,9 +29075,9 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1644,
-    1763,
-    1790
+    1579,
+    1698,
+    1725
    ],
    "advising": []
   },
@@ -30158,8 +29092,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    771,
-    881
+    726,
+    833
    ],
    "advising": []
   },
@@ -30174,7 +29108,7 @@ window.GRAPH_DATA = {
    "notes": "Spectral density estimation for normal matrices (with Shah and C. Musco).",
    "links": [],
    "paper_ids": [
-    1805
+    1740
    ],
    "advising": []
   },
@@ -30189,13 +29123,13 @@ window.GRAPH_DATA = {
    "notes": "Single-pass spectral sparsification in dynamic streams.",
    "links": [],
    "paper_ids": [
-    771,
-    783,
-    881,
-    912,
-    1009,
-    1437,
-    1811
+    726,
+    738,
+    833,
+    863,
+    959,
+    1375,
+    1745
    ],
    "advising": []
   },
@@ -30210,11 +29144,11 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1382,
-    1502,
-    1667,
-    1763,
-    1790
+    1321,
+    1439,
+    1602,
+    1698,
+    1725
    ],
    "advising": []
   },
@@ -30229,8 +29163,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1038,
-    1547
+    988,
+    1484
    ],
    "advising": []
   },
@@ -30245,10 +29179,10 @@ window.GRAPH_DATA = {
    "notes": "Hutch++ and optimal trace estimation lower bounds.",
    "links": [],
    "paper_ids": [
-    1134,
-    1233,
-    1380,
-    1510
+    1080,
+    1177,
+    1319,
+    1447
    ],
    "advising": []
   },
@@ -30263,7 +29197,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    646
+    606
    ],
    "advising": []
   },
@@ -30278,7 +29212,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1805
+    1740
    ],
    "advising": []
   },
@@ -30293,7 +29227,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    856
+    810
    ],
    "advising": []
   },
@@ -30308,7 +29242,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1560
+    1496
    ],
    "advising": []
   },
@@ -30323,14 +29257,14 @@ window.GRAPH_DATA = {
    "notes": "Error bounds for Lanczos-based matrix function approximation; low-memory Krylov.",
    "links": [],
    "paper_ids": [
-    1231,
-    1372,
-    1382,
-    1502,
-    1644,
-    1667,
-    1763,
-    1790
+    1175,
+    1311,
+    1321,
+    1439,
+    1579,
+    1602,
+    1698,
+    1725
    ],
    "advising": []
   },
@@ -30345,9 +29279,9 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1612,
-    1777,
-    1814
+    1547,
+    1712,
+    1748
    ],
    "advising": []
   },
@@ -30362,9 +29296,9 @@ window.GRAPH_DATA = {
    "notes": "PhD student at Caltech; randomized tensor-network and Krylov methods.",
    "links": [],
    "paper_ids": [
-    1612,
-    1777,
-    1814
+    1547,
+    1712,
+    1748
    ],
    "advising": [
     {
@@ -30385,71 +29319,9 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1612,
-    1750,
-    1777
-   ],
-   "advising": []
-  },
-  {
-   "source": "christopher-beattie",
-   "target": "eric-de-sturler",
-   "factors": {
-    "genetic": 0,
-    "coauthor": 1,
-    "advising": 0
-   },
-   "notes": "",
-   "links": [],
-   "paper_ids": [
-    618
-   ],
-   "advising": []
-  },
-  {
-   "source": "christopher-beattie",
-   "target": "ilse-ipsen",
-   "factors": {
-    "genetic": 0,
-    "coauthor": 1,
-    "advising": 0
-   },
-   "notes": "",
-   "links": [],
-   "paper_ids": [
-    104
-   ],
-   "advising": []
-  },
-  {
-   "source": "christopher-beattie",
-   "target": "mark-embree",
-   "factors": {
-    "genetic": 0,
-    "coauthor": 3,
-    "advising": 0
-   },
-   "notes": "",
-   "links": [],
-   "paper_ids": [
-    131,
-    153,
-    1288
-   ],
-   "advising": []
-  },
-  {
-   "source": "christopher-beattie",
-   "target": "misha-kilmer",
-   "factors": {
-    "genetic": 0,
-    "coauthor": 1,
-    "advising": 0
-   },
-   "notes": "",
-   "links": [],
-   "paper_ids": [
-    618
+    1547,
+    1685,
+    1712
    ],
    "advising": []
   },
@@ -30464,12 +29336,12 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1580,
-    1644,
-    1667,
-    1682,
-    1717,
-    1790
+    1515,
+    1579,
+    1602,
+    1617,
+    1652,
+    1725
    ],
    "advising": []
   },
@@ -30484,15 +29356,15 @@ window.GRAPH_DATA = {
    "notes": "Hutch++ optimal stochastic trace estimation (with Meyer and Cameron Musco).",
    "links": [],
    "paper_ids": [
-    930,
-    1038,
-    1099,
-    1100,
-    1134,
-    1178,
-    1207,
-    1233,
-    1380
+    880,
+    988,
+    1048,
+    1049,
+    1080,
+    1124,
+    1152,
+    1177,
+    1319
    ],
    "advising": []
   },
@@ -30507,9 +29379,9 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1644,
-    1763,
-    1790
+    1579,
+    1698,
+    1725
    ],
    "advising": []
   },
@@ -30524,7 +29396,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1755
+    1690
    ],
    "advising": []
   },
@@ -30539,8 +29411,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    771,
-    881
+    726,
+    833
    ],
    "advising": []
   },
@@ -30555,7 +29427,7 @@ window.GRAPH_DATA = {
    "notes": "Spectral density estimation for normal matrices (with Shah and Cameron Musco).",
    "links": [],
    "paper_ids": [
-    1805
+    1740
    ],
    "advising": []
   },
@@ -30570,11 +29442,11 @@ window.GRAPH_DATA = {
    "notes": "Single-pass spectral sparsification in dynamic streams.",
    "links": [],
    "paper_ids": [
-    771,
-    783,
-    881,
-    912,
-    1009
+    726,
+    738,
+    833,
+    863,
+    959
    ],
    "advising": []
   },
@@ -30589,7 +29461,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1613
+    1548
    ],
    "advising": []
   },
@@ -30604,12 +29476,12 @@ window.GRAPH_DATA = {
    "notes": "PhD student at NYU co-advised by C. Musco and Joan Bruna; near-optimal matrix function approximation.",
    "links": [],
    "paper_ids": [
-    1382,
-    1502,
-    1667,
-    1717,
-    1763,
-    1790
+    1321,
+    1439,
+    1602,
+    1652,
+    1698,
+    1725
    ],
    "advising": [
     {
@@ -30630,7 +29502,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1038
+    988
    ],
    "advising": []
   },
@@ -30645,14 +29517,14 @@ window.GRAPH_DATA = {
    "notes": "PhD at NYU Tandon with C. Musco; Hutch++ and matvec query complexity.",
    "links": [],
    "paper_ids": [
-    1088,
-    1089,
-    1134,
-    1233,
-    1380,
-    1510,
-    1580,
-    1755
+    1037,
+    1038,
+    1080,
+    1177,
+    1319,
+    1447,
+    1515,
+    1690
    ],
    "advising": [
     {
@@ -30673,7 +29545,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    646
+    606
    ],
    "advising": []
   },
@@ -30688,7 +29560,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1805
+    1740
    ],
    "advising": []
   },
@@ -30703,7 +29575,7 @@ window.GRAPH_DATA = {
    "notes": "\"The Polar Express\": optimal matrix sign methods.",
    "links": [],
    "paper_ids": [
-    1717
+    1652
    ],
    "advising": []
   },
@@ -30718,16 +29590,16 @@ window.GRAPH_DATA = {
    "notes": "Postdoc at NYU hosted by C. Musco; Lanczos-based matrix function approximation and Krylov-aware trace estimation.",
    "links": [],
    "paper_ids": [
-    1231,
-    1372,
-    1382,
-    1502,
-    1644,
-    1667,
-    1682,
-    1755,
-    1763,
-    1790
+    1175,
+    1311,
+    1321,
+    1439,
+    1579,
+    1602,
+    1617,
+    1690,
+    1698,
+    1725
    ],
    "advising": [
     {
@@ -30748,7 +29620,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1490
+    1427
    ],
    "advising": []
   },
@@ -30763,9 +29635,9 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    590,
-    692,
-    763
+    550,
+    649,
+    718
    ],
    "advising": []
   },
@@ -30780,7 +29652,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    447
+    414
    ],
    "advising": []
   },
@@ -30795,8 +29667,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    606,
-    619
+    566,
+    579
    ],
    "advising": []
   },
@@ -30811,7 +29683,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    469
+    435
    ],
    "advising": []
   },
@@ -30826,17 +29698,17 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    387,
-    444,
-    465,
-    485,
+    358,
+    411,
+    431,
+    449,
+    458,
+    472,
+    493,
     494,
-    509,
-    532,
-    533,
-    559,
-    620,
-    691
+    519,
+    580,
+    648
    ],
    "advising": []
   },
@@ -30851,7 +29723,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    627
+    587
    ],
    "advising": []
   },
@@ -30866,16 +29738,16 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    270,
-    334,
-    387,
-    444,
-    485,
-    494,
-    545,
-    559,
-    575,
-    627
+    247,
+    307,
+    358,
+    411,
+    449,
+    458,
+    506,
+    519,
+    535,
+    587
    ],
    "advising": [
     {
@@ -30884,24 +29756,6 @@ window.GRAPH_DATA = {
      "kind": "phd"
     }
    ]
-  },
-  {
-   "source": "cleve-moler",
-   "target": "jack-dongarra",
-   "factors": {
-    "genetic": 0,
-    "coauthor": 4,
-    "advising": 0
-   },
-   "notes": "",
-   "links": [],
-   "paper_ids": [
-    0,
-    1,
-    2,
-    265
-   ],
-   "advising": []
   },
   {
    "source": "daniel-kressner",
@@ -30914,10 +29768,10 @@ window.GRAPH_DATA = {
    "notes": "PhD at EPFL with Kressner; funNyström and randomized trace estimation.",
    "links": [],
    "paper_ids": [
-    1244,
-    1403,
-    1650,
-    1676
+    1188,
+    1341,
+    1585,
+    1611
    ],
    "advising": [
     {
@@ -30938,7 +29792,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1115
+    1062
    ],
    "advising": []
   },
@@ -30953,7 +29807,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1592
+    1527
    ],
    "advising": []
   },
@@ -30968,7 +29822,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1796
+    1731
    ],
    "advising": [
     {
@@ -30989,7 +29843,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    197
+    177
    ],
    "advising": []
   },
@@ -31004,7 +29858,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1796
+    1731
    ],
    "advising": []
   },
@@ -31019,9 +29873,9 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1093,
-    1462,
-    1661
+    1042,
+    1399,
+    1596
    ],
    "advising": []
   },
@@ -31036,7 +29890,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1676
+    1611
    ],
    "advising": []
   },
@@ -31051,18 +29905,18 @@ window.GRAPH_DATA = {
    "notes": "Postdoc at EPFL with Kressner; hierarchical matrices and the hm-toolbox.",
    "links": [],
    "paper_ids": [
-    932,
-    941,
-    994,
-    1033,
-    1061,
-    1093,
-    1115,
-    1133,
-    1226,
-    1241,
-    1245,
-    1366
+    882,
+    891,
+    944,
+    983,
+    1010,
+    1042,
+    1062,
+    1079,
+    1170,
+    1185,
+    1189,
+    1305
    ],
    "advising": [
     {
@@ -31102,8 +29956,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    625,
-    798
+    585,
+    753
    ],
    "advising": []
   },
@@ -31118,8 +29972,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1540,
-    1541
+    1477,
+    1478
    ],
    "advising": []
   },
@@ -31134,11 +29988,11 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    365,
-    475,
-    499,
-    565,
-    835
+    338,
+    441,
+    463,
+    525,
+    789
    ],
    "advising": []
   },
@@ -31153,8 +30007,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    893,
-    1240
+    844,
+    1184
    ],
    "advising": []
   },
@@ -31169,10 +30023,10 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    581,
-    705,
-    1414,
-    1729
+    541,
+    662,
+    1352,
+    1664
    ],
    "advising": [
     {
@@ -31193,9 +30047,9 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    515,
-    638,
-    705
+    478,
+    598,
+    662
    ],
    "advising": []
   },
@@ -31210,8 +30064,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    581,
-    705
+    541,
+    662
    ],
    "advising": []
   },
@@ -31226,7 +30080,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    638
+    598
    ],
    "advising": []
   },
@@ -31241,11 +30095,11 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    665,
-    987,
-    1070,
-    1110,
-    1214
+    623,
+    937,
+    1019,
+    1057,
+    1159
    ],
    "advising": []
   },
@@ -31260,11 +30114,11 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1070,
-    1278,
-    1558,
-    1582,
-    1791
+    1019,
+    1220,
+    1494,
+    1517,
+    1726
    ],
    "advising": []
   },
@@ -31279,25 +30133,9 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1558,
-    1582,
-    1791
-   ],
-   "advising": []
-  },
-  {
-   "source": "daniel-szyld",
-   "target": "jorg-liesen",
-   "factors": {
-    "genetic": 0,
-    "coauthor": 2,
-    "advising": 0
-   },
-   "notes": "",
-   "links": [],
-   "paper_ids": [
-    819,
-    1271
+    1494,
+    1517,
+    1726
    ],
    "advising": []
   },
@@ -31312,8 +30150,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    392,
-    446
+    363,
+    413
    ],
    "advising": []
   },
@@ -31328,8 +30166,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    209,
-    210
+    189,
+    190
    ],
    "advising": []
   },
@@ -31344,8 +30182,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    78,
-    90
+    69,
+    81
    ],
    "advising": []
   },
@@ -31360,31 +30198,16 @@ window.GRAPH_DATA = {
    "notes": "Long-running collaboration on Krylov convergence theory and inexact Krylov.",
    "links": [],
    "paper_ids": [
-    103,
-    126,
-    162,
-    165,
-    169,
-    198,
-    266,
-    323,
-    331,
-    600
-   ],
-   "advising": []
-  },
-  {
-   "source": "daniel-szyld",
-   "target": "zdenek-strakos",
-   "factors": {
-    "genetic": 0,
-    "coauthor": 1,
-    "advising": 0
-   },
-   "notes": "",
-   "links": [],
-   "paper_ids": [
-    114
+    93,
+    112,
+    142,
+    145,
+    149,
+    178,
+    244,
+    297,
+    304,
+    560
    ],
    "advising": []
   },
@@ -31399,143 +30222,143 @@ window.GRAPH_DATA = {
    "notes": "Long-term collaborators at Case Western; books on Bayesian scientific computing.",
    "links": [],
    "paper_ids": [
-    149,
-    158,
-    163,
+    133,
+    139,
+    143,
+    147,
+    155,
     167,
-    175,
-    187,
-    189,
-    190,
+    169,
+    170,
+    171,
     191,
-    211,
-    214,
-    217,
-    219,
-    220,
+    193,
+    196,
+    198,
+    199,
+    200,
+    201,
+    203,
+    209,
+    210,
+    213,
+    215,
     221,
     222,
-    224,
-    230,
-    231,
-    234,
-    236,
-    242,
+    223,
+    225,
+    232,
+    233,
+    238,
     243,
-    244,
-    246,
-    253,
-    254,
-    259,
-    264,
-    274,
-    284,
+    251,
+    261,
+    268,
+    271,
+    272,
+    290,
     292,
     295,
-    296,
-    316,
-    318,
-    321,
-    342,
-    347,
-    356,
+    315,
+    320,
+    329,
+    340,
+    344,
     368,
-    372,
-    397,
+    370,
+    375,
+    378,
+    379,
+    380,
+    381,
+    382,
+    383,
+    384,
+    385,
+    386,
+    390,
+    395,
     399,
-    404,
-    408,
+    401,
     409,
-    410,
-    411,
-    412,
-    413,
-    414,
-    415,
-    416,
-    421,
-    426,
-    432,
-    434,
-    442,
-    459,
-    463,
-    481,
-    493,
-    517,
+    425,
+    429,
+    445,
+    457,
+    480,
+    489,
+    491,
+    499,
+    505,
+    511,
+    527,
     528,
-    530,
-    538,
-    544,
-    551,
-    567,
-    568,
-    577,
+    537,
+    543,
+    546,
+    547,
+    571,
     583,
-    586,
-    587,
+    600,
+    603,
     611,
-    623,
-    640,
-    643,
-    651,
-    660,
-    661,
-    683,
-    715,
-    732,
+    620,
+    621,
+    641,
+    672,
+    689,
+    725,
     770,
-    815,
-    816,
-    832,
-    964,
-    989,
-    990,
-    996,
-    1018,
-    1035,
-    1036,
-    1078,
-    1150,
-    1152,
-    1165,
-    1217,
-    1298,
-    1300,
-    1318,
-    1319,
-    1325,
-    1326,
-    1327,
-    1328,
+    771,
+    786,
+    914,
+    939,
+    940,
+    946,
+    968,
+    985,
+    986,
+    1027,
+    1096,
+    1098,
+    1111,
+    1162,
+    1239,
+    1240,
+    1258,
+    1259,
+    1265,
+    1266,
+    1267,
+    1268,
+    1275,
+    1279,
+    1281,
+    1283,
+    1288,
+    1301,
+    1306,
+    1307,
+    1310,
+    1329,
     1335,
-    1339,
-    1341,
-    1343,
-    1348,
-    1361,
-    1367,
-    1368,
-    1371,
-    1391,
-    1397,
-    1417,
-    1434,
-    1455,
-    1465,
-    1471,
+    1355,
+    1372,
+    1392,
+    1402,
+    1408,
+    1437,
+    1476,
+    1490,
     1500,
-    1539,
-    1553,
-    1564,
-    1584,
-    1693,
-    1698,
-    1752,
-    1753,
-    1803,
-    1806,
-    1812
+    1519,
+    1628,
+    1633,
+    1687,
+    1688,
+    1738,
+    1741,
+    1746
    ],
    "advising": []
   },
@@ -31550,12 +30373,12 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    34,
-    39,
-    54,
-    56,
-    112,
-    116
+    27,
+    31,
+    45,
+    47,
+    100,
+    103
    ],
    "advising": []
   },
@@ -31570,49 +30393,49 @@ window.GRAPH_DATA = {
    "notes": "Decades of joint work on regularization and quadrature-based bounds.",
    "links": [],
    "paper_ids": [
-    16,
+    11,
+    17,
     22,
+    26,
+    27,
     28,
+    29,
+    31,
     33,
-    34,
-    35,
-    37,
-    39,
-    41,
-    54,
-    56,
+    45,
+    47,
+    51,
+    57,
+    59,
     60,
-    66,
+    64,
+    65,
     68,
-    69,
-    73,
+    72,
     74,
     77,
-    81,
-    83,
+    80,
+    84,
+    85,
     86,
-    89,
-    93,
+    87,
+    90,
     94,
-    95,
-    96,
+    97,
+    99,
     100,
-    105,
-    109,
-    111,
-    112,
-    115,
-    116,
-    117,
+    102,
+    103,
+    104,
+    110,
+    113,
+    118,
     124,
     127,
-    134,
-    140,
-    143,
-    164,
-    170,
-    223,
-    398
+    144,
+    150,
+    202,
+    369
    ],
    "advising": []
   },
@@ -31627,12 +30450,12 @@ window.GRAPH_DATA = {
    "notes": "PhD at Berkeley with Demmel.",
    "links": [],
    "paper_ids": [
-    108,
-    136,
-    150,
-    195,
-    238,
-    260
+    96,
+    120,
+    134,
+    175,
+    217,
+    239
    ],
    "advising": [
     {
@@ -31653,8 +30476,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    195,
-    238
+    175,
+    217
    ],
    "advising": []
   },
@@ -31669,8 +30492,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    195,
-    238
+    175,
+    217
    ],
    "advising": []
   },
@@ -31685,9 +30508,9 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    195,
-    238,
-    1236
+    175,
+    217,
+    1180
    ],
    "advising": []
   },
@@ -31702,7 +30525,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    136
+    120
    ],
    "advising": []
   },
@@ -31717,7 +30540,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    466
+    432
    ],
    "advising": []
   },
@@ -31732,14 +30555,14 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    516,
-    647,
-    649,
-    686,
-    727,
-    802,
-    1353,
-    1379
+    479,
+    607,
+    609,
+    644,
+    684,
+    757,
+    1293,
+    1318
    ],
    "advising": []
   },
@@ -31754,8 +30577,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1644,
-    1790
+    1579,
+    1725
    ],
    "advising": []
   },
@@ -31770,7 +30593,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1676
+    1611
    ],
    "advising": []
   },
@@ -31785,9 +30608,9 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1667,
-    1717,
-    1790
+    1602,
+    1652,
+    1725
    ],
    "advising": []
   },
@@ -31802,7 +30625,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1580
+    1515
    ],
    "advising": []
   },
@@ -31817,7 +30640,7 @@ window.GRAPH_DATA = {
    "notes": "\"The Polar Express\": optimal matrix sign methods.",
    "links": [],
    "paper_ids": [
-    1717
+    1652
    ],
    "advising": []
   },
@@ -31832,10 +30655,10 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1644,
-    1667,
-    1682,
-    1790
+    1579,
+    1602,
+    1617,
+    1725
    ],
    "advising": []
   },
@@ -31850,7 +30673,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1297
+    1238
    ],
    "advising": []
   },
@@ -31865,7 +30688,7 @@ window.GRAPH_DATA = {
    "notes": "\"Frequent Directions: simple and deterministic matrix sketching\" (SICOMP 2016).",
    "links": [],
    "paper_ids": [
-    675
+    633
    ],
    "advising": []
   },
@@ -31880,7 +30703,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1158
+    1104
    ],
    "advising": []
   },
@@ -31895,11 +30718,11 @@ window.GRAPH_DATA = {
    "notes": "Sketching for kernel methods: subspace embeddings for the polynomial kernel, faster kernel ridge regression (with Clarkson).",
    "links": [],
    "paper_ids": [
-    496,
-    562,
-    704,
-    746,
-    782
+    460,
+    522,
+    661,
+    703,
+    737
    ],
    "advising": []
   },
@@ -31914,18 +30737,18 @@ window.GRAPH_DATA = {
    "notes": "Joint papers in streaming and sketching, e.g. Kane-Nelson-Woodruff on distinct elements; lower bounds for sketching.",
    "links": [],
    "paper_ids": [
-    272,
-    281,
-    309,
-    319,
-    330,
-    361,
-    436,
-    690,
-    731,
-    765,
-    1197,
-    1697
+    249,
+    258,
+    284,
+    293,
+    303,
+    334,
+    403,
+    647,
+    688,
+    720,
+    1143,
+    1632
    ],
    "advising": []
   },
@@ -31940,21 +30763,21 @@ window.GRAPH_DATA = {
    "notes": "The Clarkson-Woodruff line: input-sparsity-time sketching for regression and low-rank approximation (STOC 2013) and many follow-ups.",
    "links": [],
    "paper_ids": [
-    298,
-    449,
-    450,
-    482,
-    608,
-    637,
-    704,
+    273,
+    415,
+    416,
+    446,
+    568,
+    597,
+    661,
+    671,
+    703,
     714,
-    746,
-    759,
-    782,
-    901,
-    1254,
-    1266,
-    1285
+    737,
+    852,
+    1198,
+    1209,
+    1227
    ],
    "advising": []
   },
@@ -31969,7 +30792,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1285
+    1227
    ],
    "advising": []
   },
@@ -31984,7 +30807,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    714
+    671
    ],
    "advising": []
   },
@@ -31999,11 +30822,11 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    561,
-    681,
-    765,
-    1045,
-    1268
+    521,
+    639,
+    720,
+    995,
+    1211
    ],
    "advising": []
   },
@@ -32018,10 +30841,10 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    424,
-    450,
-    701,
-    714
+    393,
+    416,
+    658,
+    671
    ],
    "advising": []
   },
@@ -32036,13 +30859,13 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    424,
-    450,
-    714,
-    986,
-    1038,
-    1200,
-    1421
+    393,
+    416,
+    671,
+    936,
+    988,
+    1145,
+    1359
    ],
    "advising": []
   },
@@ -32057,19 +30880,19 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    968,
-    1050,
-    1120,
-    1172,
-    1294,
-    1373,
-    1398,
-    1456,
-    1477,
-    1487,
-    1512,
-    1513,
-    1632
+    918,
+    999,
+    1067,
+    1118,
+    1235,
+    1312,
+    1336,
+    1393,
+    1414,
+    1424,
+    1449,
+    1450,
+    1567
    ],
    "advising": [
     {
@@ -32090,10 +30913,10 @@ window.GRAPH_DATA = {
    "notes": "Hutch++ optimal stochastic trace estimation.",
    "links": [],
    "paper_ids": [
-    1134,
-    1233,
-    1380,
-    1723
+    1080,
+    1177,
+    1319,
+    1658
    ],
    "advising": []
   },
@@ -32108,11 +30931,11 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    557,
-    701,
-    1140,
-    1632,
-    1800
+    517,
+    658,
+    1086,
+    1567,
+    1735
    ],
    "advising": []
   },
@@ -32127,42 +30950,42 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    841,
-    1042,
-    1177,
-    1191,
-    1209,
-    1252,
-    1258,
-    1303,
-    1307,
-    1350,
-    1381,
-    1388,
-    1389,
-    1392,
-    1413,
-    1426,
-    1427,
-    1448,
-    1453,
-    1508,
-    1545,
-    1611,
-    1633,
-    1645,
-    1649,
-    1657,
-    1658,
-    1730,
-    1731,
-    1734,
-    1742,
-    1747,
-    1754,
-    1776,
-    1778,
-    1784
+    795,
+    992,
+    1123,
+    1137,
+    1154,
+    1196,
+    1202,
+    1243,
+    1247,
+    1290,
+    1320,
+    1326,
+    1327,
+    1330,
+    1351,
+    1364,
+    1365,
+    1385,
+    1390,
+    1445,
+    1482,
+    1546,
+    1568,
+    1580,
+    1584,
+    1592,
+    1593,
+    1665,
+    1666,
+    1669,
+    1677,
+    1682,
+    1689,
+    1711,
+    1713,
+    1719
    ],
    "advising": [
     {
@@ -32183,9 +31006,9 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    557,
-    724,
-    1087
+    517,
+    681,
+    1036
    ],
    "advising": []
   },
@@ -32200,7 +31023,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    856
+    810
    ],
    "advising": []
   },
@@ -32215,7 +31038,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1560
+    1496
    ],
    "advising": []
   },
@@ -32230,8 +31053,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1336,
-    1491
+    1276,
+    1428
    ],
    "advising": []
   },
@@ -32246,8 +31069,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    970,
-    1358
+    920,
+    1298
    ],
    "advising": []
   },
@@ -32262,8 +31085,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1023,
-    1491
+    973,
+    1428
    ],
    "advising": []
   },
@@ -32278,7 +31101,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1727
+    1662
    ],
    "advising": []
   },
@@ -32293,8 +31116,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1726,
-    1799
+    1661,
+    1734
    ],
    "advising": []
   },
@@ -32309,23 +31132,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    855,
-    1115
-   ],
-   "advising": []
-  },
-  {
-   "source": "davide-palitta",
-   "target": "stefano-pozza",
-   "factors": {
-    "genetic": 0,
-    "coauthor": 1,
-    "advising": 0
-   },
-   "notes": "",
-   "links": [],
-   "paper_ids": [
-    1302
+    809,
+    1062
    ],
    "advising": []
   },
@@ -32340,24 +31148,24 @@ window.GRAPH_DATA = {
    "notes": "PhD at Bologna with Simoncini; matrix equations.",
    "links": [],
    "paper_ids": [
-    614,
-    735,
-    843,
-    1051,
-    1148,
-    1196,
-    1212,
-    1302,
-    1412,
-    1420,
-    1531,
-    1532,
-    1570,
-    1594,
-    1688,
-    1711,
-    1728,
-    1801
+    574,
+    692,
+    797,
+    1000,
+    1094,
+    1142,
+    1157,
+    1242,
+    1350,
+    1358,
+    1468,
+    1469,
+    1506,
+    1529,
+    1623,
+    1646,
+    1663,
+    1736
    ],
    "advising": [
     {
@@ -32378,7 +31186,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1740
+    1675
    ],
    "advising": []
   },
@@ -32393,26 +31201,26 @@ window.GRAPH_DATA = {
    "notes": "Postdoc at UCLA with Needell; sketching and iterative methods.",
    "links": [],
    "paper_ids": [
-    940,
-    960,
-    993,
-    1047,
-    1048,
-    1081,
-    1107,
-    1119,
-    1147,
-    1162,
-    1274,
-    1284,
-    1375,
-    1538,
-    1544,
-    1610,
-    1615,
-    1671,
-    1701,
-    1740
+    890,
+    910,
+    943,
+    997,
+    998,
+    1030,
+    1054,
+    1066,
+    1093,
+    1108,
+    1216,
+    1226,
+    1314,
+    1475,
+    1481,
+    1545,
+    1550,
+    1606,
+    1636,
+    1675
    ],
    "advising": [
     {
@@ -32433,7 +31241,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1781
+    1716
    ],
    "advising": []
   },
@@ -32448,35 +31256,35 @@ window.GRAPH_DATA = {
    "notes": "Postdoc at UCLA with Needell; Kaczmarz-type methods.",
    "links": [],
    "paper_ids": [
-    722,
-    800,
-    844,
+    679,
+    755,
+    798,
+    805,
+    850,
     851,
+    889,
     899,
-    900,
-    939,
+    935,
     949,
-    985,
-    999,
-    1012,
-    1013,
-    1046,
-    1074,
-    1081,
-    1153,
-    1161,
-    1162,
-    1176,
-    1185,
-    1201,
-    1215,
-    1284,
-    1384,
-    1586,
-    1587,
-    1665,
-    1670,
-    1672
+    962,
+    963,
+    996,
+    1023,
+    1030,
+    1099,
+    1107,
+    1108,
+    1122,
+    1131,
+    1146,
+    1160,
+    1226,
+    1323,
+    1521,
+    1522,
+    1600,
+    1605,
+    1607
    ],
    "advising": [
     {
@@ -32497,10 +31305,10 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    263,
-    312,
-    313,
-    491
+    242,
+    287,
+    288,
+    455
    ],
    "advising": []
   },
@@ -32515,7 +31323,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1740
+    1675
    ],
    "advising": []
   },
@@ -32530,7 +31338,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1740
+    1675
    ],
    "advising": []
   },
@@ -32545,9 +31353,9 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1615,
-    1671,
-    1781
+    1550,
+    1606,
+    1716
    ],
    "advising": []
   },
@@ -32562,17 +31370,17 @@ window.GRAPH_DATA = {
    "notes": "SGD meets Kaczmarz: \"Stochastic gradient descent, weighted sampling, and the randomized Kaczmarz algorithm\" (Needell-Srebro-Ward) and follow-ups.",
    "links": [],
    "paper_ids": [
-    451,
-    452,
-    484,
-    486,
-    500,
-    502,
-    592,
-    642,
-    657,
-    894,
-    1383
+    417,
+    418,
+    448,
+    450,
+    464,
+    466,
+    552,
+    602,
+    617,
+    845,
+    1322
    ],
    "advising": []
   },
@@ -32587,9 +31395,9 @@ window.GRAPH_DATA = {
    "notes": "Adaptive sketch-and-project for linear systems; SP2.",
    "links": [],
    "paper_ids": [
-    883,
-    1160,
-    1291
+    835,
+    1106,
+    1232
    ],
    "advising": []
   },
@@ -32604,7 +31412,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1740
+    1675
    ],
    "advising": []
   },
@@ -32619,7 +31427,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1740
+    1675
    ],
    "advising": []
   },
@@ -32634,7 +31442,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1740
+    1675
    ],
    "advising": []
   },
@@ -32649,7 +31457,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1740
+    1675
    ],
    "advising": []
   },
@@ -32664,7 +31472,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1740
+    1675
    ],
    "advising": []
   },
@@ -32679,8 +31487,8 @@ window.GRAPH_DATA = {
    "notes": "Elliptic PDE learning is provably data-efficient (PNAS 2023, with Townsend).",
    "links": [],
    "paper_ids": [
-    1347,
-    1511
+    1287,
+    1448
    ],
    "advising": []
   },
@@ -32695,8 +31503,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1763,
-    1790
+    1698,
+    1725
    ],
    "advising": []
   },
@@ -32711,7 +31519,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1740
+    1675
    ],
    "advising": []
   },
@@ -32726,9 +31534,9 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1644,
-    1763,
-    1790
+    1579,
+    1698,
+    1725
    ],
    "advising": []
   },
@@ -32743,7 +31551,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1740
+    1675
    ],
    "advising": []
   },
@@ -32758,8 +31566,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    811,
-    1070
+    766,
+    1019
    ],
    "advising": []
   },
@@ -32774,8 +31582,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1766,
-    1820
+    1701,
+    1754
    ],
    "advising": []
   },
@@ -32790,7 +31598,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    944
+    894
    ],
    "advising": []
   },
@@ -32805,16 +31613,16 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    584,
-    609,
-    656,
-    716,
-    848,
-    871,
-    943,
-    944,
-    988,
-    1022
+    544,
+    569,
+    616,
+    673,
+    802,
+    823,
+    893,
+    894,
+    938,
+    972
    ],
    "advising": []
   },
@@ -32829,7 +31637,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1804
+    1739
    ],
    "advising": []
   },
@@ -32844,13 +31652,13 @@ window.GRAPH_DATA = {
    "notes": "PhD at Minnesota with Saad; approximate inverse preconditioning.",
    "links": [],
    "paper_ids": [
-    45,
-    47,
-    55,
-    58,
-    113,
-    555,
-    853
+    37,
+    38,
+    46,
+    49,
+    101,
+    515,
+    807
    ],
    "advising": [
     {
@@ -32871,8 +31679,8 @@ window.GRAPH_DATA = {
    "notes": "\"Randomized algorithms for the low-rank approximation of matrices\" (PNAS 2007).",
    "links": [],
    "paper_ids": [
-    239,
-    248
+    218,
+    227
    ],
    "advising": []
   },
@@ -32887,7 +31695,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    335
+    308
    ],
    "advising": []
   },
@@ -32902,7 +31710,7 @@ window.GRAPH_DATA = {
    "notes": "\"Randomized algorithms for the low-rank approximation of matrices\" (PNAS 2007).",
    "links": [],
    "paper_ids": [
-    239
+    218
    ],
    "advising": []
   },
@@ -32917,9 +31725,9 @@ window.GRAPH_DATA = {
    "notes": "\"Randomized algorithms for the low-rank approximation of matrices\" (PNAS 2007).",
    "links": [],
    "paper_ids": [
-    239,
-    248,
-    335
+    218,
+    227,
+    308
    ],
    "advising": []
   },
@@ -32934,10 +31742,10 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    858,
-    1086,
-    1190,
-    1542
+    812,
+    1035,
+    1136,
+    1479
    ],
    "advising": []
   },
@@ -32952,8 +31760,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1098,
-    1309
+    1047,
+    1249
    ],
    "advising": []
   },
@@ -32968,11 +31776,11 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    751,
-    858,
-    1086,
-    1190,
-    1542
+    707,
+    812,
+    1035,
+    1136,
+    1479
    ],
    "advising": []
   },
@@ -32987,10 +31795,10 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1098,
-    1309,
-    1365,
-    1443
+    1047,
+    1249,
+    1304,
+    1380
    ],
    "advising": []
   },
@@ -33005,12 +31813,12 @@ window.GRAPH_DATA = {
    "notes": "PhD at Tufts with Kilmer; t-product tensor frameworks.",
    "links": [],
    "paper_ids": [
-    751,
-    858,
-    1044,
-    1086,
-    1190,
-    1542
+    707,
+    812,
+    994,
+    1035,
+    1136,
+    1479
    ],
    "advising": [
     {
@@ -33031,12 +31839,12 @@ window.GRAPH_DATA = {
    "notes": "PhD at Princeton with Rebrova; randomized iterative methods.",
    "links": [],
    "paper_ids": [
-    1450,
-    1464,
-    1470,
-    1507,
-    1585,
-    1706
+    1387,
+    1401,
+    1407,
+    1444,
+    1520,
+    1641
    ],
    "advising": [
     {
@@ -33057,11 +31865,11 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1081,
-    1162,
-    1284,
-    1390,
-    1585
+    1030,
+    1108,
+    1226,
+    1328,
+    1520
    ],
    "advising": []
   },
@@ -33076,7 +31884,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1740
+    1675
    ],
    "advising": []
   },
@@ -33091,7 +31899,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1740
+    1675
    ],
    "advising": []
   },
@@ -33106,10 +31914,10 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1527,
-    1615,
-    1671,
-    1817
+    1464,
+    1550,
+    1606,
+    1751
    ],
    "advising": []
   },
@@ -33124,7 +31932,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1740
+    1675
    ],
    "advising": []
   },
@@ -33139,7 +31947,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1692
+    1627
    ],
    "advising": []
   },
@@ -33154,7 +31962,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1692
+    1627
    ],
    "advising": []
   },
@@ -33169,10 +31977,10 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    803,
-    874,
-    978,
-    1072
+    758,
+    826,
+    928,
+    1021
    ],
    "advising": []
   },
@@ -33187,7 +31995,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1740
+    1675
    ],
    "advising": []
   },
@@ -33202,7 +32010,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1817
+    1751
    ],
    "advising": []
   },
@@ -33217,23 +32025,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1780
-   ],
-   "advising": []
-  },
-  {
-   "source": "eric-de-sturler",
-   "target": "jorg-liesen",
-   "factors": {
-    "genetic": 0,
-    "coauthor": 2,
-    "advising": 0
-   },
-   "notes": "",
-   "links": [],
-   "paper_ids": [
-    97,
-    151
+    1715
    ],
    "advising": []
   },
@@ -33248,7 +32040,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1135
+    1081
    ],
    "advising": []
   },
@@ -33263,28 +32055,12 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    371,
-    443,
-    632,
-    633,
-    634,
-    1795
-   ],
-   "advising": []
-  },
-  {
-   "source": "eric-de-sturler",
-   "target": "malena-espanol",
-   "factors": {
-    "genetic": 0,
-    "coauthor": 2,
-    "advising": 0
-   },
-   "notes": "",
-   "links": [],
-   "paper_ids": [
-    1123,
-    1316
+    343,
+    410,
+    592,
+    593,
+    594,
+    1730
    ],
    "advising": []
   },
@@ -33299,7 +32075,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1213
+    1158
    ],
    "advising": []
   },
@@ -33314,10 +32090,10 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1123,
-    1316,
-    1411,
-    1780
+    1070,
+    1256,
+    1349,
+    1715
    ],
    "advising": []
   },
@@ -33332,17 +32108,17 @@ window.GRAPH_DATA = {
    "notes": "Krylov recycling for tomography and parametrized inverse problems.",
    "links": [],
    "paper_ids": [
-    199,
-    343,
-    618,
-    737,
-    948,
-    979,
-    1170,
-    1280,
-    1411,
-    1430,
-    1780
+    179,
+    316,
+    578,
+    694,
+    898,
+    929,
+    1116,
+    1222,
+    1349,
+    1368,
+    1715
    ],
    "advising": []
   },
@@ -33357,8 +32133,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1123,
-    1316
+    1070,
+    1256
    ],
    "advising": []
   },
@@ -33373,8 +32149,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    977,
-    1097
+    927,
+    1046
    ],
    "advising": []
   },
@@ -33389,16 +32165,16 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    527,
-    977,
-    1034,
-    1126,
-    1255,
-    1558,
-    1567,
-    1582,
-    1720,
-    1791
+    488,
+    927,
+    984,
+    1073,
+    1199,
+    1494,
+    1503,
+    1517,
+    1655,
+    1726
    ],
    "advising": []
   },
@@ -33413,8 +32189,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    977,
-    1097
+    927,
+    1046
    ],
    "advising": []
   },
@@ -33429,7 +32205,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1255
+    1199
    ],
    "advising": []
   },
@@ -33444,7 +32220,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    322
+    296
    ],
    "advising": []
   },
@@ -33459,8 +32235,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    977,
-    1097
+    927,
+    1046
    ],
    "advising": []
   },
@@ -33475,8 +32251,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    977,
-    1097
+    927,
+    1046
    ],
    "advising": []
   },
@@ -33491,7 +32267,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    135
+    119
    ],
    "advising": []
   },
@@ -33506,8 +32282,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    977,
-    1097
+    927,
+    1046
    ],
    "advising": []
   },
@@ -33522,9 +32298,9 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    977,
-    1259,
-    1262
+    927,
+    1203,
+    1206
    ],
    "advising": []
   },
@@ -33539,10 +32315,10 @@ window.GRAPH_DATA = {
    "notes": "Postdoc at Charles University with Carson; randomized and mixed-precision methods.",
    "links": [],
    "paper_ids": [
-    1436,
-    1529,
-    1565,
-    1642
+    1374,
+    1466,
+    1501,
+    1577
    ],
    "advising": [
     {
@@ -33563,8 +32339,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    977,
-    1097
+    927,
+    1046
    ],
    "advising": []
   },
@@ -33579,14 +32355,14 @@ window.GRAPH_DATA = {
    "notes": "PhD at Berkeley with Demmel; communication-avoiding and s-step Krylov methods.",
    "links": [],
    "paper_ids": [
-    458,
-    468,
-    507,
-    520,
-    563,
-    570,
-    580,
-    717
+    424,
+    434,
+    471,
+    482,
+    523,
+    530,
+    540,
+    674
    ],
    "advising": [
     {
@@ -33595,22 +32371,6 @@ window.GRAPH_DATA = {
      "kind": "phd"
     }
    ]
-  },
-  {
-   "source": "erin-carson",
-   "target": "jorg-liesen",
-   "factors": {
-    "genetic": 0,
-    "coauthor": 2,
-    "advising": 0
-   },
-   "notes": "",
-   "links": [],
-   "paper_ids": [
-    1198,
-    1556
-   ],
-   "advising": []
   },
   {
    "source": "erin-carson",
@@ -33623,7 +32383,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    717
+    674
    ],
    "advising": []
   },
@@ -33638,11 +32398,11 @@ window.GRAPH_DATA = {
    "notes": "Mixed-precision iterative refinement (SISC 2017/2018).",
    "links": [],
    "paper_ids": [
-    720,
-    807,
-    977,
-    1090,
-    1097
+    677,
+    762,
+    927,
+    1039,
+    1046
    ],
    "advising": []
   },
@@ -33657,8 +32417,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    977,
-    1097
+    927,
+    1046
    ],
    "advising": []
   },
@@ -33673,7 +32433,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1058
+    1007
    ],
    "advising": []
   },
@@ -33688,27 +32448,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    977,
-    1097
-   ],
-   "advising": []
-  },
-  {
-   "source": "erin-carson",
-   "target": "zdenek-strakos",
-   "factors": {
-    "genetic": 0,
-    "coauthor": 5,
-    "advising": 0
-   },
-   "notes": "",
-   "links": [],
-   "paper_ids": [
-    689,
-    869,
-    1049,
-    1198,
-    1556
+    927,
+    1046
    ],
    "advising": []
   },
@@ -33723,8 +32464,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1451,
-    1708
+    1388,
+    1643
    ],
    "advising": []
   },
@@ -33739,15 +32480,15 @@ window.GRAPH_DATA = {
    "notes": "PhD advisor at Caltech; RPCholesky, XTrace, and a sustained line of joint work.",
    "links": [],
    "paper_ids": [
-    1247,
-    1287,
-    1415,
-    1468,
-    1562,
-    1602,
-    1612,
-    1777,
-    1814
+    1191,
+    1229,
+    1353,
+    1405,
+    1498,
+    1537,
+    1547,
+    1712,
+    1748
    ],
    "advising": [
     {
@@ -33768,8 +32509,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1203,
-    1552
+    1148,
+    1489
    ],
    "advising": [
     {
@@ -33790,8 +32531,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1781,
-    1816
+    1716,
+    1750
    ],
    "advising": []
   },
@@ -33806,10 +32547,10 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1612,
-    1755,
-    1777,
-    1816
+    1547,
+    1690,
+    1712,
+    1750
    ],
    "advising": []
   },
@@ -33824,12 +32565,12 @@ window.GRAPH_DATA = {
    "notes": "RPCholesky, XTrace, and leave-one-out variance-reduced trace estimation.",
    "links": [],
    "paper_ids": [
-    1287,
-    1415,
-    1520,
-    1562,
-    1602,
-    1802
+    1229,
+    1353,
+    1457,
+    1498,
+    1537,
+    1737
    ],
    "advising": []
   },
@@ -33844,7 +32585,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1760
+    1695
    ],
    "advising": []
   },
@@ -33859,7 +32600,7 @@ window.GRAPH_DATA = {
    "notes": "\"Does block size matter in randomized block Krylov low-rank approximation?\"",
    "links": [],
    "paper_ids": [
-    1755
+    1690
    ],
    "advising": []
   },
@@ -33874,10 +32615,10 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1203,
-    1476,
-    1700,
-    1760
+    1148,
+    1413,
+    1635,
+    1695
    ],
    "advising": []
   },
@@ -33892,7 +32633,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1550
+    1487
    ],
    "advising": []
   },
@@ -33907,10 +32648,10 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1431,
-    1550,
-    1575,
-    1714
+    1369,
+    1487,
+    1510,
+    1649
    ],
    "advising": []
   },
@@ -33925,39 +32666,39 @@ window.GRAPH_DATA = {
    "notes": "Sub-sampled Newton methods for machine learning.",
    "links": [],
    "paper_ids": [
+    625,
+    626,
+    651,
     667,
     668,
-    694,
-    710,
-    711,
-    712,
-    793,
-    795,
-    822,
-    827,
-    828,
-    829,
-    830,
-    842,
-    847,
-    861,
-    918,
-    972,
-    1039,
-    1040,
-    1073,
+    669,
+    748,
+    750,
+    776,
+    781,
+    782,
+    783,
+    784,
+    796,
+    801,
+    815,
+    869,
+    922,
+    989,
+    990,
+    1022,
+    1032,
     1083,
-    1137,
-    1142,
-    1187,
-    1246,
-    1248,
-    1267,
-    1314,
-    1377,
-    1433,
-    1525,
-    1596
+    1088,
+    1133,
+    1190,
+    1192,
+    1210,
+    1254,
+    1316,
+    1371,
+    1462,
+    1531
    ],
    "advising": [
     {
@@ -33978,7 +32719,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    795
+    750
    ],
    "advising": []
   },
@@ -33993,7 +32734,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1634
+    1569
    ],
    "advising": []
   },
@@ -34008,8 +32749,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    473,
-    521
+    439,
+    483
    ],
    "advising": []
   },
@@ -34024,8 +32765,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    346,
-    352
+    319,
+    325
    ],
    "advising": []
   },
@@ -34040,8 +32781,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    473,
-    521
+    439,
+    483
    ],
    "advising": []
   },
@@ -34056,16 +32797,16 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    346,
-    349,
-    351,
-    352,
-    417,
-    418,
-    473,
-    521,
-    585,
-    718
+    319,
+    322,
+    324,
+    325,
+    387,
+    388,
+    439,
+    483,
+    545,
+    675
    ],
    "advising": []
   },
@@ -34080,15 +32821,15 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1218,
-    1305,
-    1396,
-    1460,
-    1579,
-    1588,
-    1590,
-    1640,
-    1745
+    1163,
+    1245,
+    1334,
+    1397,
+    1514,
+    1523,
+    1525,
+    1575,
+    1680
    ],
    "advising": []
   },
@@ -34103,7 +32844,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1579
+    1514
    ],
    "advising": []
   },
@@ -34118,8 +32859,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    473,
-    521
+    439,
+    483
    ],
    "advising": []
   },
@@ -34134,7 +32875,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1768
+    1703
    ],
    "advising": []
   },
@@ -34149,10 +32890,10 @@ window.GRAPH_DATA = {
    "notes": "\"Faster kernel ridge regression using sketching and preconditioning\" (SIMAX 2017).",
    "links": [],
    "paper_ids": [
-    704,
-    746,
-    782,
-    1765
+    661,
+    703,
+    737,
+    1700
    ],
    "advising": []
   },
@@ -34167,19 +32908,19 @@ window.GRAPH_DATA = {
    "notes": "Joint work from Avron's IBM Research years.",
    "links": [],
    "paper_ids": [
-    591,
-    826,
-    858,
-    969,
-    1086,
-    1121,
-    1180,
-    1190,
-    1499,
-    1542,
-    1643,
-    1765,
-    1787
+    551,
+    780,
+    812,
+    919,
+    1035,
+    1068,
+    1126,
+    1136,
+    1436,
+    1479,
+    1578,
+    1700,
+    1722
    ],
    "advising": []
   },
@@ -34194,8 +32935,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    771,
-    881
+    726,
+    833
    ],
    "advising": []
   },
@@ -34210,8 +32951,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    558,
-    698
+    518,
+    655
    ],
    "advising": []
   },
@@ -34226,13 +32967,13 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    858,
-    969,
-    1086,
-    1121,
-    1190,
-    1542,
-    1765
+    812,
+    919,
+    1035,
+    1068,
+    1136,
+    1479,
+    1700
    ],
    "advising": []
   },
@@ -34247,8 +32988,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    969,
-    1121
+    919,
+    1068
    ],
    "advising": []
   },
@@ -34263,13 +33004,13 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    576,
-    878,
-    1011,
-    1080,
-    1234,
-    1275,
-    1497
+    536,
+    830,
+    961,
+    1029,
+    1178,
+    1217,
+    1434
    ],
    "advising": []
   },
@@ -34284,7 +33025,7 @@ window.GRAPH_DATA = {
    "notes": "\"Hutchinson's estimator is bad at Kronecker-trace-estimation\".",
    "links": [],
    "paper_ids": [
-    1769
+    1704
    ],
    "advising": []
   },
@@ -34299,12 +33040,12 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    969,
-    1121,
-    1499,
-    1643,
-    1765,
-    1787
+    919,
+    1068,
+    1436,
+    1578,
+    1700,
+    1722
    ],
    "advising": []
   },
@@ -34319,17 +33060,17 @@ window.GRAPH_DATA = {
    "notes": "PhD at Tel Aviv with Toledo; Avron-Toledo (JACM 2011) began the modern analysis of randomized trace estimation.",
    "links": [],
    "paper_ids": [
-    269,
-    289,
-    299,
-    306,
-    310,
-    355,
-    382,
-    495,
-    498,
-    529,
-    965
+    246,
+    266,
+    274,
+    281,
+    285,
+    328,
+    353,
+    459,
+    462,
+    490,
+    915
    ],
    "advising": [
     {
@@ -34350,8 +33091,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1765,
-    1787
+    1700,
+    1722
    ],
    "advising": []
   },
@@ -34366,7 +33107,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1593
+    1528
    ],
    "advising": []
   },
@@ -34381,7 +33122,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1576
+    1511
    ],
    "advising": [
     {
@@ -34402,9 +33143,9 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1551,
-    1715,
-    1716
+    1488,
+    1650,
+    1651
    ],
    "advising": []
   },
@@ -34419,56 +33160,56 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    400,
+    371,
+    439,
+    468,
+    469,
     473,
-    504,
-    505,
-    510,
-    511,
-    521,
-    522,
-    523,
-    537,
-    542,
-    549,
+    474,
+    483,
+    484,
+    485,
+    498,
+    503,
+    509,
+    513,
+    524,
+    538,
     553,
-    564,
-    578,
-    593,
-    597,
-    615,
-    616,
-    622,
-    624,
-    629,
-    679,
-    682,
-    706,
-    734,
+    557,
+    575,
+    576,
+    582,
+    584,
+    589,
+    637,
+    640,
+    663,
+    691,
+    697,
+    708,
+    717,
+    733,
+    735,
     740,
+    743,
+    749,
     752,
-    762,
-    778,
-    780,
-    785,
-    788,
-    794,
-    797,
-    813,
-    849,
-    863,
-    868,
-    903,
-    906,
-    922,
-    929,
-    933,
-    942,
-    944,
-    977,
-    1066,
-    1127,
-    1242
+    768,
+    803,
+    817,
+    821,
+    854,
+    857,
+    873,
+    879,
+    883,
+    892,
+    894,
+    927,
+    1015,
+    1074,
+    1186
    ],
    "advising": []
   },
@@ -34483,8 +33224,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    473,
-    521
+    439,
+    483
    ],
    "advising": []
   },
@@ -34499,8 +33240,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    400,
-    1255
+    371,
+    1199
    ],
    "advising": []
   },
@@ -34515,7 +33256,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    977
+    927
    ],
    "advising": []
   },
@@ -34530,29 +33271,29 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    505,
-    510,
-    523,
-    549,
-    553,
-    578,
-    622,
-    624,
-    629,
-    679,
-    682,
-    734,
-    740,
+    469,
+    473,
+    485,
+    509,
+    513,
+    538,
+    582,
+    584,
+    589,
+    637,
+    640,
+    691,
+    697,
+    708,
+    735,
+    749,
     752,
-    780,
-    794,
-    797,
-    813,
-    868,
-    922,
-    942,
-    977,
-    1242
+    768,
+    821,
+    873,
+    892,
+    927,
+    1186
    ],
    "advising": []
   },
@@ -34567,8 +33308,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    473,
-    521
+    439,
+    483
    ],
    "advising": []
   },
@@ -34583,8 +33324,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    511,
-    624
+    474,
+    584
    ],
    "advising": []
   },
@@ -34599,10 +33340,10 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    329,
-    435,
-    489,
-    977
+    302,
+    402,
+    453,
+    927
    ],
    "advising": []
   },
@@ -34617,7 +33358,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    454
+    420
    ],
    "advising": []
   },
@@ -34632,11 +33373,11 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    203,
-    257,
-    307,
-    337,
-    933
+    183,
+    236,
+    282,
+    310,
+    883
    ],
    "advising": [
     {
@@ -34657,9 +33398,9 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1681,
-    1685,
-    1796
+    1616,
+    1620,
+    1731
    ],
    "advising": []
   },
@@ -34674,7 +33415,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1681
+    1616
    ],
    "advising": []
   },
@@ -34689,10 +33430,10 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1043,
-    1064,
-    1334,
-    1757
+    993,
+    1013,
+    1274,
+    1692
    ],
    "advising": [
     {
@@ -34713,7 +33454,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1290
+    1231
    ],
    "advising": []
   },
@@ -34728,7 +33469,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1702
+    1637
    ],
    "advising": []
   },
@@ -34743,8 +33484,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    708,
-    860
+    665,
+    814
    ],
    "advising": []
   },
@@ -34759,12 +33500,12 @@ window.GRAPH_DATA = {
    "notes": "Joint work on the numerical analysis side of RandNLA, e.g. \"Low-rank matrix approximations do not need a singular value gap\" (SIMAX 2019).",
    "links": [],
    "paper_ids": [
-    708,
-    860,
-    931,
-    1534,
-    1543,
-    1702
+    665,
+    814,
+    881,
+    1471,
+    1480,
+    1637
    ],
    "advising": []
   },
@@ -34779,8 +33520,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    4,
-    5
+    1,
+    2
    ],
    "advising": []
   },
@@ -34795,40 +33536,20 @@ window.GRAPH_DATA = {
    "notes": "\"Fast linear algebra is stable\" (Numer. Math. 2007, with Holtz).",
    "links": [],
    "paper_ids": [
-    171,
-    172,
-    186,
-    215,
-    226,
-    227,
+    151,
+    152,
+    166,
+    194,
+    205,
+    206,
+    299,
+    319,
     325,
-    346,
-    352,
-    873,
-    1549,
-    1705,
-    1759,
-    1764
-   ],
-   "advising": []
-  },
-  {
-   "source": "ioana-dumitriu",
-   "target": "olga-holtz",
-   "factors": {
-    "genetic": 0,
-    "coauthor": 6,
-    "advising": 0
-   },
-   "notes": "\"Fast linear algebra is stable\" (Numer. Math. 2007, with Demmel).",
-   "links": [],
-   "paper_ids": [
-    171,
-    172,
-    186,
-    215,
-    226,
-    227
+    825,
+    1486,
+    1640,
+    1694,
+    1699
    ],
    "advising": []
   },
@@ -34843,10 +33564,10 @@ window.GRAPH_DATA = {
    "notes": "PhD at UC San Diego with Dumitriu; randomized diagonalization.",
    "links": [],
    "paper_ids": [
-    1549,
-    1705,
-    1759,
-    1764
+    1486,
+    1640,
+    1694,
+    1699
    ],
    "advising": [
     {
@@ -34867,7 +33588,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1599
+    1534
    ],
    "advising": []
   },
@@ -34882,18 +33603,18 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    20,
-    27,
-    42,
-    43,
-    48,
+    15,
+    21,
+    34,
+    35,
+    39,
+    41,
     50,
-    59,
-    75,
-    473,
-    521,
-    1282,
-    1404
+    66,
+    439,
+    483,
+    1224,
+    1342
    ],
    "advising": []
   },
@@ -34908,40 +33629,40 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    152,
-    155,
-    157,
-    176,
-    180,
-    194,
-    204,
-    207,
-    208,
-    235,
-    240,
-    251,
-    268,
-    283,
-    285,
-    286,
-    291,
-    304,
-    333,
-    336,
-    339,
-    364,
-    375,
-    381,
-    400,
-    430,
-    439,
-    471,
-    480,
-    524,
-    617,
-    659,
-    733,
-    1282
+    135,
+    137,
+    138,
+    156,
+    160,
+    174,
+    184,
+    187,
+    188,
+    214,
+    219,
+    230,
+    245,
+    260,
+    262,
+    263,
+    267,
+    279,
+    306,
+    309,
+    312,
+    337,
+    347,
+    352,
+    371,
+    397,
+    406,
+    437,
+    444,
+    486,
+    577,
+    619,
+    690,
+    1224
    ],
    "advising": []
   },
@@ -34956,8 +33677,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    395,
-    1404
+    366,
+    1342
    ],
    "advising": []
   },
@@ -34972,7 +33693,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1404
+    1342
    ],
    "advising": []
   },
@@ -34987,7 +33708,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1404
+    1342
    ],
    "advising": []
   },
@@ -35002,7 +33723,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1404
+    1342
    ],
    "advising": []
   },
@@ -35017,13 +33738,13 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    767,
-    791,
-    831,
-    884,
-    977,
-    1095,
-    1097
+    722,
+    746,
+    785,
+    836,
+    927,
+    1044,
+    1046
    ],
    "advising": []
   },
@@ -35038,7 +33759,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1404
+    1342
    ],
    "advising": []
   },
@@ -35053,136 +33774,136 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    98,
-    120,
-    121,
+    88,
+    107,
+    108,
+    111,
+    116,
     125,
-    132,
-    141,
-    180,
-    201,
-    204,
-    207,
+    160,
+    181,
+    184,
+    187,
+    188,
     208,
-    229,
-    235,
-    261,
-    277,
-    280,
-    285,
-    326,
+    214,
+    240,
+    254,
+    257,
+    262,
+    300,
+    321,
+    330,
+    331,
+    332,
+    337,
+    339,
+    341,
+    342,
+    345,
+    346,
     348,
+    349,
+    350,
+    351,
+    354,
+    355,
     357,
-    358,
-    359,
+    362,
     364,
     367,
-    369,
-    370,
-    373,
     374,
-    376,
     377,
-    378,
-    380,
-    383,
-    384,
-    386,
     391,
-    393,
+    392,
+    394,
     396,
-    403,
-    406,
-    422,
-    423,
-    425,
-    427,
-    431,
-    433,
+    398,
+    400,
+    407,
+    408,
+    412,
+    426,
+    438,
     440,
-    441,
-    445,
-    460,
-    472,
-    474,
-    479,
-    490,
-    492,
-    497,
-    505,
+    443,
+    454,
+    456,
+    461,
+    469,
+    473,
+    475,
+    481,
+    485,
+    496,
+    501,
+    502,
+    504,
+    507,
+    509,
     510,
-    512,
-    518,
-    523,
-    535,
-    540,
-    541,
-    543,
-    546,
-    549,
-    550,
-    553,
-    566,
-    569,
+    513,
+    526,
+    529,
+    533,
+    538,
+    539,
+    561,
+    565,
+    567,
     573,
-    578,
-    579,
-    601,
+    581,
+    582,
+    584,
+    589,
     605,
-    607,
-    613,
-    621,
-    622,
-    624,
-    629,
-    645,
-    648,
-    678,
-    679,
-    680,
-    682,
-    695,
-    703,
-    713,
-    730,
-    734,
-    740,
+    608,
+    636,
+    637,
+    638,
+    640,
+    652,
+    660,
+    670,
+    687,
+    691,
+    697,
+    708,
+    723,
+    735,
+    736,
+    749,
     752,
+    767,
     768,
-    780,
-    781,
-    794,
-    797,
-    812,
-    813,
-    864,
-    868,
-    922,
-    942,
-    961,
-    977,
-    995,
-    1021,
-    1067,
-    1071,
-    1095,
-    1097,
-    1192,
-    1206,
-    1225,
-    1242,
-    1263,
-    1282,
-    1304,
+    818,
+    821,
+    873,
+    892,
+    911,
+    927,
+    945,
+    971,
+    1016,
+    1020,
+    1044,
+    1046,
+    1138,
+    1151,
+    1169,
+    1186,
+    1207,
+    1224,
+    1244,
+    1273,
+    1294,
     1333,
-    1354,
-    1395,
-    1404,
-    1440,
-    1484,
-    1505,
-    1718,
-    1767
+    1342,
+    1378,
+    1421,
+    1442,
+    1653,
+    1702
    ],
    "advising": []
   },
@@ -35197,7 +33918,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1404
+    1342
    ],
    "advising": []
   },
@@ -35212,9 +33933,9 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    225,
-    473,
-    521
+    204,
+    439,
+    483
    ],
    "advising": []
   },
@@ -35229,8 +33950,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    511,
-    624
+    474,
+    584
    ],
    "advising": []
   },
@@ -35245,10 +33966,10 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    977,
-    1097,
-    1210,
-    1282
+    927,
+    1046,
+    1155,
+    1224
    ],
    "advising": []
   },
@@ -35263,8 +33984,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    75,
-    933
+    66,
+    883
    ],
    "advising": []
   },
@@ -35279,7 +34000,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1585
+    1520
    ],
    "advising": []
   },
@@ -35294,36 +34015,19 @@ window.GRAPH_DATA = {
    "notes": "IRLBA - augmented implicitly restarted Lanczos bidiagonalization - and more.",
    "links": [],
    "paper_ids": [
-    34,
-    39,
-    54,
-    56,
-    112,
-    116,
-    148,
-    177,
-    200,
-    218,
-    394,
-    402,
-    457
-   ],
-   "advising": []
-  },
-  {
-   "source": "james-baglama",
-   "target": "vasilije-perovic",
-   "factors": {
-    "genetic": 0,
-    "coauthor": 3,
-    "advising": 0
-   },
-   "notes": "",
-   "links": [],
-   "paper_ids": [
-    1364,
-    1386,
-    1573
+    27,
+    31,
+    45,
+    47,
+    100,
+    103,
+    132,
+    157,
+    180,
+    197,
+    365,
+    373,
+    423
    ],
    "advising": []
   },
@@ -35338,11 +34042,11 @@ window.GRAPH_DATA = {
    "notes": "Communication-avoiding QR (CAQR); LAPACK development.",
    "links": [],
    "paper_ids": [
-    195,
-    238,
-    256,
-    419,
-    1282
+    175,
+    217,
+    235,
+    389,
+    1224
    ],
    "advising": []
   },
@@ -35357,26 +34061,26 @@ window.GRAPH_DATA = {
    "notes": "Communication-avoiding LU and QR (CALU, CAQR) and a long HPC collaboration.",
    "links": [],
    "paper_ids": [
-    237,
-    255,
-    256,
-    311,
-    350,
-    390,
-    419,
-    462,
-    478,
-    589,
-    630,
-    666,
-    717,
-    799,
+    216,
+    234,
+    235,
+    286,
+    323,
+    361,
+    389,
+    428,
+    442,
+    549,
+    590,
+    624,
+    674,
+    754,
+    792,
     838,
-    887,
-    1166,
-    1323,
-    1351,
-    1404
+    1112,
+    1263,
+    1291,
+    1342
    ],
    "advising": []
   },
@@ -35391,15 +34095,15 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    684,
-    685,
-    814,
-    892,
-    1166,
-    1404,
-    1583,
-    1589,
-    1709
+    642,
+    643,
+    769,
+    843,
+    1112,
+    1342,
+    1518,
+    1524,
+    1644
    ],
    "advising": []
   },
@@ -35414,8 +34118,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1404,
-    1709
+    1342,
+    1644
    ],
    "advising": []
   },
@@ -35430,7 +34134,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1404
+    1342
    ],
    "advising": []
   },
@@ -35445,13 +34149,13 @@ window.GRAPH_DATA = {
    "notes": "Communication-avoiding rank-revealing QR (with Grigori and Xiang).",
    "links": [],
    "paper_ids": [
-    31,
-    87,
-    195,
-    238,
-    262,
-    478,
-    589
+    24,
+    78,
+    175,
+    217,
+    241,
+    442,
+    549
    ],
    "advising": []
   },
@@ -35466,41 +34170,9 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
+    9,
     14,
-    19,
-    30
-   ],
-   "advising": []
-  },
-  {
-   "source": "james-demmel",
-   "target": "olga-holtz",
-   "factors": {
-    "genetic": 0,
-    "coauthor": 18,
-    "advising": 0
-   },
-   "notes": "\"Fast linear algebra is stable\" and fast matrix multiplication stability (with Dumitriu).",
-   "links": [],
-   "paper_ids": [
-    171,
-    172,
-    186,
-    215,
-    226,
-    227,
-    290,
-    297,
-    314,
-    366,
-    379,
-    407,
-    420,
-    428,
-    429,
-    448,
-    519,
-    1219
+    23
    ],
    "advising": []
   },
@@ -35515,9 +34187,9 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1351,
-    1404,
-    1466
+    1291,
+    1342,
+    1403
    ],
    "advising": []
   },
@@ -35532,11 +34204,11 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1282,
-    1404,
-    1493,
-    1583,
-    1589
+    1224,
+    1342,
+    1430,
+    1518,
+    1524
    ],
    "advising": []
   },
@@ -35551,15 +34223,15 @@ window.GRAPH_DATA = {
    "notes": "The RandLAPACK monograph (\"Randomized Numerical Linear Algebra - A Perspective...\").",
    "links": [],
    "paper_ids": [
-    1351,
-    1352,
-    1404,
-    1466,
-    1475,
-    1493,
-    1583,
-    1589,
-    1709
+    1291,
+    1292,
+    1342,
+    1403,
+    1412,
+    1430,
+    1518,
+    1524,
+    1644
    ],
    "advising": [
     {
@@ -35580,11 +34252,11 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1549,
-    1641,
-    1705,
-    1759,
-    1764
+    1486,
+    1576,
+    1640,
+    1694,
+    1699
    ],
    "advising": [
     {
@@ -35605,12 +34277,12 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    461,
-    462,
-    473,
-    521,
-    666,
-    687
+    427,
+    428,
+    439,
+    483,
+    624,
+    645
    ],
    "advising": []
   },
@@ -35625,32 +34297,32 @@ window.GRAPH_DATA = {
    "notes": "PhD at Berkeley with Demmel; SuperLU and sparse direct methods.",
    "links": [],
    "paper_ids": [
-    23,
-    57,
-    63,
-    65,
-    67,
-    82,
-    102,
-    123,
-    179,
-    195,
-    237,
-    238,
-    293,
-    390,
-    935,
-    1124,
-    1130,
-    1159,
-    1243,
-    1282,
-    1359,
-    1489,
-    1493,
-    1504,
-    1606,
-    1654
+    18,
+    48,
+    54,
+    56,
+    58,
+    73,
+    92,
+    109,
+    159,
+    175,
+    216,
+    217,
+    269,
+    361,
+    885,
+    1071,
+    1076,
+    1105,
+    1187,
+    1224,
+    1299,
+    1426,
+    1430,
+    1441,
+    1541,
+    1589
    ],
    "advising": [
     {
@@ -35671,7 +34343,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    87
+    78
    ],
    "advising": []
   },
@@ -35686,18 +34358,18 @@ window.GRAPH_DATA = {
    "notes": "LAPACK and the eigenvalue Templates books.",
    "links": [],
    "paper_ids": [
-    7,
-    8,
-    17,
-    18,
-    21,
-    31,
-    52,
-    62,
-    75,
-    76,
-    87,
-    136
+    4,
+    5,
+    12,
+    13,
+    16,
+    24,
+    43,
+    53,
+    66,
+    67,
+    78,
+    120
    ],
    "advising": []
   },
@@ -35712,13 +34384,13 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    192,
-    250,
-    308,
-    328,
-    610,
-    1627,
-    1680
+    172,
+    229,
+    283,
+    301,
+    570,
+    1562,
+    1615
    ],
    "advising": []
   },
@@ -35733,8 +34405,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1663,
-    1779
+    1598,
+    1714
    ],
    "advising": []
   },
@@ -35749,11 +34421,11 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1139,
-    1486,
-    1622,
-    1627,
-    1680
+    1085,
+    1423,
+    1557,
+    1562,
+    1615
    ],
    "advising": []
   },
@@ -35768,7 +34440,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1780
+    1715
    ],
    "advising": []
   },
@@ -35783,10 +34455,10 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    188,
-    232,
-    984,
-    1780
+    168,
+    211,
+    934,
+    1715
    ],
    "advising": []
   },
@@ -35801,11 +34473,11 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    534,
-    921,
-    984,
-    1025,
-    1139
+    495,
+    872,
+    934,
+    975,
+    1085
    ],
    "advising": []
   },
@@ -35820,7 +34492,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    765
+    720
    ],
    "advising": []
   },
@@ -35835,7 +34507,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1169
+    1115
    ],
    "advising": []
   },
@@ -35850,7 +34522,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1169
+    1115
    ],
    "advising": []
   },
@@ -35884,8 +34556,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1342,
-    1518
+    1282,
+    1455
    ],
    "advising": []
   },
@@ -35900,14 +34572,14 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1276,
-    1310,
-    1355,
-    1362,
-    1393,
-    1438,
-    1498,
-    1783
+    1218,
+    1250,
+    1295,
+    1302,
+    1331,
+    1376,
+    1435,
+    1718
    ],
    "advising": []
   },
@@ -35922,7 +34594,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1006
+    956
    ],
    "advising": []
   },
@@ -35956,16 +34628,16 @@ window.GRAPH_DATA = {
    "notes": "Practical sketching algorithms for low-rank matrix approximation (SIMAX 2017, 2019).",
    "links": [],
    "paper_ids": [
-    700,
-    747,
-    769,
-    784,
-    967,
-    1032,
-    1104,
-    1175,
-    1189,
-    1405
+    657,
+    704,
+    724,
+    739,
+    917,
+    982,
+    1052,
+    1121,
+    1135,
+    1343
    ],
    "advising": []
   },
@@ -35980,7 +34652,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    363
+    336
    ],
    "advising": []
   },
@@ -35995,8 +34667,8 @@ window.GRAPH_DATA = {
    "notes": "\"Randomized numerical linear algebra: foundations and algorithms\" (Acta Numerica 2020); the HMT randomized SVD survey lineage.",
    "links": [],
    "paper_ids": [
-    363,
-    1063
+    336,
+    1012
    ],
    "advising": []
   },
@@ -36011,8 +34683,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1256,
-    1370
+    1200,
+    1309
    ],
    "advising": []
   },
@@ -36027,8 +34699,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1612,
-    1777
+    1547,
+    1712
    ],
    "advising": [
     {
@@ -36049,11 +34721,11 @@ window.GRAPH_DATA = {
    "notes": "Webber was a postdoc at Caltech with Tropp; RPCholesky, XTrace, randomized Krylov.",
    "links": [],
    "paper_ids": [
-    1287,
-    1407,
-    1415,
-    1562,
-    1602
+    1229,
+    1345,
+    1353,
+    1498,
+    1537
    ],
    "advising": [
     {
@@ -36074,7 +34746,7 @@ window.GRAPH_DATA = {
    "notes": "\"Fast and accurate randomized algorithms for linear systems and eigenvalue problems\" (SIMAX 2024).",
    "links": [],
    "paper_ids": [
-    1474
+    1411
    ],
    "advising": []
   },
@@ -36089,33 +34761,8 @@ window.GRAPH_DATA = {
    "notes": "Spectral density estimation for normal matrices (with the Muscos); condition numbers of Fourier/Vandermonde submatrices.",
    "links": [],
    "paper_ids": [
-    1782,
-    1805
-   ],
-   "advising": []
-  },
-  {
-   "source": "jorg-liesen",
-   "target": "zdenek-strakos",
-   "factors": {
-    "genetic": 0,
-    "coauthor": 11,
-    "advising": 0
-   },
-   "notes": "\"Krylov Subspace Methods: Principles and Analysis\" (Oxford UP, 2013) and more.",
-   "links": [],
-   "paper_ids": [
-    106,
-    122,
-    130,
-    156,
-    159,
-    267,
-    476,
-    477,
-    526,
-    1198,
-    1556
+    1717,
+    1740
    ],
    "advising": []
   },
@@ -36130,13 +34777,13 @@ window.GRAPH_DATA = {
    "notes": "PhD at Berkeley with Srivastava; pseudospectral shattering and global convergence of shifted QR.",
    "links": [],
    "paper_ids": [
-    1054,
-    1131,
-    1238,
-    1399,
-    1619,
-    1620,
-    1621
+    1003,
+    1077,
+    1182,
+    1337,
+    1554,
+    1555,
+    1556
    ],
    "advising": [
     {
@@ -36157,23 +34804,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1630
-   ],
-   "advising": []
-  },
-  {
-   "source": "julianne-chung",
-   "target": "malena-espanol",
-   "factors": {
-    "genetic": 0,
-    "coauthor": 2,
-    "advising": 0
-   },
-   "notes": "",
-   "links": [],
-   "paper_ids": [
-    547,
-    756
+    1565
    ],
    "advising": []
   },
@@ -36188,12 +34819,12 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1444,
-    1449,
-    1481,
-    1600,
-    1627,
-    1680
+    1381,
+    1386,
+    1418,
+    1535,
+    1562,
+    1615
    ],
    "advising": []
   },
@@ -36208,29 +34839,29 @@ window.GRAPH_DATA = {
    "notes": "Married collaborators; hybrid regularization and learning-based inverse problems.",
    "links": [],
    "paper_ids": [
-    354,
-    437,
-    464,
-    506,
-    514,
-    548,
-    764,
-    766,
-    787,
-    846,
-    926,
-    956,
-    957,
-    1098,
-    1141,
-    1229,
-    1309,
-    1356,
-    1515,
-    1516,
-    1559,
-    1725,
-    1774
+    327,
+    404,
+    430,
+    470,
+    477,
+    508,
+    719,
+    721,
+    742,
+    800,
+    876,
+    906,
+    907,
+    1047,
+    1087,
+    1173,
+    1249,
+    1296,
+    1452,
+    1453,
+    1495,
+    1660,
+    1709
    ],
    "advising": []
   },
@@ -36245,7 +34876,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1229
+    1173
    ],
    "advising": []
   },
@@ -36260,7 +34891,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    574
+    534
    ],
    "advising": []
   },
@@ -36275,11 +34906,11 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    915,
-    916,
-    1229,
-    1461,
-    1673
+    866,
+    867,
+    1173,
+    1398,
+    1608
    ],
    "advising": []
   },
@@ -36294,9 +34925,9 @@ window.GRAPH_DATA = {
    "notes": "Communication-avoiding QR (CAQR).",
    "links": [],
    "paper_ids": [
-    256,
-    419,
-    503
+    235,
+    389,
+    467
    ],
    "advising": []
   },
@@ -36311,9 +34942,9 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    195,
-    238,
-    744
+    175,
+    217,
+    701
    ],
    "advising": []
   },
@@ -36328,14 +34959,14 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    180,
-    204,
-    207,
-    208,
-    235,
-    285,
-    364,
-    1282
+    160,
+    184,
+    187,
+    188,
+    214,
+    262,
+    337,
+    1224
    ],
    "advising": []
   },
@@ -36350,7 +34981,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1563
+    1499
    ],
    "advising": []
   },
@@ -36365,9 +34996,9 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    195,
-    238,
-    1282
+    175,
+    217,
+    1224
    ],
    "advising": []
   },
@@ -36382,7 +35013,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1732
+    1667
    ],
    "advising": []
   },
@@ -36397,7 +35028,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1740
+    1675
    ],
    "advising": []
   },
@@ -36412,10 +35043,10 @@ window.GRAPH_DATA = {
    "notes": "Postdoc at UT Austin (Oden Institute) working with Martinsson.",
    "links": [],
    "paper_ids": [
-    1578,
-    1669,
-    1678,
-    1691
+    1513,
+    1604,
+    1613,
+    1626
    ],
    "advising": [
     {
@@ -36436,7 +35067,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1740
+    1675
    ],
    "advising": []
   },
@@ -36451,9 +35082,9 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1578,
-    1691,
-    1740
+    1513,
+    1626,
+    1675
    ],
    "advising": []
   },
@@ -36468,17 +35099,17 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1059,
-    1138,
-    1167,
-    1168,
-    1181,
-    1216,
-    1285,
-    1306,
-    1555,
-    1614,
-    1765
+    1008,
+    1084,
+    1113,
+    1114,
+    1127,
+    1161,
+    1227,
+    1246,
+    1492,
+    1549,
+    1700
    ],
    "advising": []
   },
@@ -36493,7 +35124,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    714
+    671
    ],
    "advising": []
   },
@@ -36508,9 +35139,9 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    450,
-    714,
-    934
+    416,
+    671,
+    884
    ],
    "advising": []
   },
@@ -36525,7 +35156,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    934
+    884
    ],
    "advising": []
   },
@@ -36540,7 +35171,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1765
+    1700
    ],
    "advising": []
   },
@@ -36555,8 +35186,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    450,
-    714
+    416,
+    671
    ],
    "advising": []
   },
@@ -36571,15 +35202,15 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1059,
-    1167,
-    1168,
-    1181,
-    1306,
-    1330,
-    1555,
-    1719,
-    1765
+    1008,
+    1113,
+    1114,
+    1127,
+    1246,
+    1270,
+    1492,
+    1654,
+    1700
    ],
    "advising": []
   },
@@ -36594,7 +35225,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1765
+    1700
    ],
    "advising": []
   },
@@ -36609,7 +35240,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1681
+    1616
    ],
    "advising": []
   },
@@ -36624,7 +35255,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1579
+    1514
    ],
    "advising": []
   },
@@ -36639,8 +35270,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1166,
-    1404
+    1112,
+    1342
    ],
    "advising": []
   },
@@ -36655,7 +35286,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1404
+    1342
    ],
    "advising": []
   },
@@ -36670,7 +35301,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1404
+    1342
    ],
    "advising": []
   },
@@ -36685,8 +35316,8 @@ window.GRAPH_DATA = {
    "notes": "Communication-avoiding rank-revealing QR (SIMAX 2015).",
    "links": [],
    "paper_ids": [
-    478,
-    589
+    442,
+    549
    ],
    "advising": []
   },
@@ -36701,8 +35332,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1351,
-    1404
+    1291,
+    1342
    ],
    "advising": []
   },
@@ -36717,7 +35348,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1404
+    1342
    ],
    "advising": []
   },
@@ -36732,8 +35363,8 @@ window.GRAPH_DATA = {
    "notes": "The RandLAPACK monograph.",
    "links": [],
    "paper_ids": [
-    1351,
-    1404
+    1291,
+    1342
    ],
    "advising": []
   },
@@ -36748,7 +35379,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1740
+    1675
    ],
    "advising": []
   },
@@ -36763,8 +35394,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    462,
-    666
+    428,
+    624
    ],
    "advising": []
   },
@@ -36779,11 +35410,11 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    101,
-    138,
-    237,
-    245,
-    390
+    91,
+    122,
+    216,
+    224,
+    361
    ],
    "advising": []
   },
@@ -36798,7 +35429,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1740
+    1675
    ],
    "advising": []
   },
@@ -36813,7 +35444,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1686
+    1621
    ],
    "advising": []
   },
@@ -36828,7 +35459,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1792
+    1727
    ],
    "advising": []
   },
@@ -36843,16 +35474,16 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    845,
-    908,
-    946,
-    950,
-    975,
-    1093,
-    1260,
-    1317,
-    1523,
-    1604
+    799,
+    859,
+    896,
+    900,
+    925,
+    1042,
+    1204,
+    1257,
+    1460,
+    1539
    ],
    "advising": []
   },
@@ -36867,23 +35498,23 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    340,
-    360,
-    385,
-    401,
-    438,
-    554,
-    725,
-    736,
-    777,
-    875,
-    938,
-    1075,
-    1265,
-    1346,
-    1519,
-    1629,
-    1773
+    313,
+    333,
+    356,
+    372,
+    405,
+    514,
+    682,
+    693,
+    732,
+    827,
+    888,
+    1024,
+    1208,
+    1286,
+    1456,
+    1564,
+    1708
    ],
    "advising": []
   },
@@ -36898,7 +35529,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    654
+    614
    ],
    "advising": []
   },
@@ -36913,7 +35544,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1203
+    1148
    ],
    "advising": []
   },
@@ -36928,9 +35559,9 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1568,
-    1702,
-    1809
+    1504,
+    1637,
+    1744
    ],
    "advising": []
   },
@@ -36945,7 +35576,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1603
+    1538
    ],
    "advising": []
   },
@@ -36960,15 +35591,15 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    488,
-    751,
-    858,
-    969,
-    1086,
-    1121,
-    1190,
-    1542,
-    1765
+    452,
+    707,
+    812,
+    919,
+    1035,
+    1068,
+    1136,
+    1479,
+    1700
    ],
    "advising": []
   },
@@ -36983,8 +35614,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    969,
-    1121
+    919,
+    1068
    ],
    "advising": []
   },
@@ -36999,33 +35630,33 @@ window.GRAPH_DATA = {
    "notes": "IBM Research colleagues; joint work on graph/quantum applications.",
    "links": [],
    "paper_ids": [
-    969,
-    1003,
-    1059,
-    1121,
-    1122,
-    1167,
-    1168,
-    1181,
-    1228,
-    1272,
-    1306,
-    1422,
-    1458,
-    1463,
-    1499,
-    1530,
-    1555,
-    1566,
-    1591,
-    1608,
-    1643,
-    1659,
-    1710,
-    1736,
-    1749,
-    1765,
-    1787
+    919,
+    953,
+    1008,
+    1068,
+    1069,
+    1113,
+    1114,
+    1127,
+    1172,
+    1214,
+    1246,
+    1360,
+    1395,
+    1400,
+    1436,
+    1467,
+    1492,
+    1502,
+    1526,
+    1543,
+    1578,
+    1594,
+    1645,
+    1671,
+    1684,
+    1700,
+    1722
    ],
    "advising": []
   },
@@ -37040,17 +35671,17 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1424,
-    1566,
-    1651,
-    1659,
-    1687,
-    1736,
-    1749,
-    1765,
-    1771,
-    1787,
-    1807
+    1362,
+    1502,
+    1586,
+    1594,
+    1622,
+    1671,
+    1684,
+    1700,
+    1706,
+    1722,
+    1742
    ],
    "advising": []
   },
@@ -37065,7 +35696,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1521
+    1458
    ],
    "advising": []
   },
@@ -37080,7 +35711,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    11
+    8
    ],
    "advising": []
   },
@@ -37095,12 +35726,12 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    71,
-    72,
-    92,
-    99,
-    110,
-    166
+    62,
+    63,
+    83,
+    89,
+    98,
+    146
    ],
    "advising": [
     {
@@ -37121,7 +35752,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    258
+    237
    ],
    "advising": []
   },
@@ -37136,16 +35767,16 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    852,
-    865,
-    983,
-    1128,
-    1171,
-    1194,
-    1289,
-    1435,
-    1452,
-    1737
+    806,
+    819,
+    933,
+    1075,
+    1117,
+    1140,
+    1230,
+    1373,
+    1389,
+    1672
    ],
    "advising": []
   },
@@ -37160,9 +35791,9 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1557,
-    1713,
-    1813
+    1493,
+    1648,
+    1747
    ],
    "advising": []
   },
@@ -37177,12 +35808,12 @@ window.GRAPH_DATA = {
    "notes": "PhD at Kent State co-advised by Reichel and Buccini; now a postdoc at Emory.",
    "links": [],
    "paper_ids": [
-    1211,
-    1387,
-    1409,
-    1616,
-    1662,
-    1695
+    1156,
+    1325,
+    1347,
+    1551,
+    1597,
+    1630
    ],
    "advising": [
     {
@@ -37203,10 +35834,10 @@ window.GRAPH_DATA = {
    "notes": "PhD at Kent State (2020) co-advised by Reichel and Alessandro Buccini; regularization for large-scale inverse problems.",
    "links": [],
    "paper_ids": [
-    919,
-    1029,
-    1495,
-    1662
+    870,
+    979,
+    1432,
+    1597
    ],
    "advising": [
     {
@@ -37227,18 +35858,18 @@ window.GRAPH_DATA = {
    "notes": "Network analysis via matrix functions (Kent State colleagues).",
    "links": [],
    "paper_ids": [
-    889,
-    905,
-    1016,
-    1027,
-    1052,
-    1112,
-    1113,
-    1114,
-    1154,
-    1195,
-    1473,
-    1537
+    840,
+    856,
+    966,
+    977,
+    1001,
+    1059,
+    1060,
+    1061,
+    1100,
+    1141,
+    1410,
+    1474
    ],
    "advising": []
   },
@@ -37253,11 +35884,11 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    652,
-    688,
-    891,
-    1164,
-    1662
+    612,
+    646,
+    842,
+    1110,
+    1597
    ],
    "advising": []
   },
@@ -37272,7 +35903,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    275
+    252
    ],
    "advising": []
   },
@@ -37287,7 +35918,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    10
+    7
    ],
    "advising": []
   },
@@ -37302,7 +35933,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1631
+    1566
    ],
    "advising": []
   },
@@ -37317,7 +35948,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1662
+    1597
    ],
    "advising": []
   },
@@ -37332,7 +35963,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1662
+    1597
    ],
    "advising": []
   },
@@ -37347,67 +35978,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1722
-   ],
-   "advising": []
-  },
-  {
-   "source": "malena-espanol",
-   "target": "mirjeta-pasha",
-   "factors": {
-    "genetic": 0,
-    "coauthor": 6,
-    "advising": 0
-   },
-   "notes": "Variable projection and edge-preserving methods for inverse problems.",
-   "links": [],
-   "paper_ids": [
-    1103,
-    1106,
-    1123,
-    1299,
-    1316,
-    1441
-   ],
-   "advising": []
-  },
-  {
-   "source": "malena-espanol",
-   "target": "misha-kilmer",
-   "factors": {
-    "genetic": 0,
-    "coauthor": 4,
-    "advising": 1.0
-   },
-   "notes": "",
-   "links": [],
-   "paper_ids": [
-    212,
-    327,
-    508,
-    1810
-   ],
-   "advising": [
-    {
-     "advisor": "misha-kilmer",
-     "student": "malena-espanol",
-     "kind": "phd"
-    }
-   ]
-  },
-  {
-   "source": "malena-espanol",
-   "target": "silvia-gazzola",
-   "factors": {
-    "genetic": 0,
-    "coauthor": 2,
-    "advising": 0
-   },
-   "notes": "",
-   "links": [],
-   "paper_ids": [
-    1123,
-    1316
+    1657
    ],
    "advising": []
   },
@@ -37422,7 +35993,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1770
+    1705
    ],
    "advising": []
   },
@@ -37437,12 +36008,12 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    882,
-    914,
-    1026,
-    1139,
-    1174,
-    1647
+    834,
+    865,
+    976,
+    1085,
+    1120,
+    1582
    ],
    "advising": []
   },
@@ -37457,8 +36028,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1683,
-    1684
+    1618,
+    1619
    ],
    "advising": []
   },
@@ -37473,7 +36044,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    714
+    671
    ],
    "advising": []
   },
@@ -37488,21 +36059,21 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    178,
-    387,
-    444,
-    485,
-    494,
-    525,
-    559,
-    582,
-    588,
+    158,
+    358,
+    411,
+    449,
+    458,
+    487,
+    519,
+    542,
+    548,
+    591,
     631,
-    673,
-    708,
-    714,
-    775,
-    860
+    665,
+    671,
+    730,
+    814
    ],
    "advising": []
   },
@@ -37517,7 +36088,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    345
+    318
    ],
    "advising": []
   },
@@ -37532,10 +36103,10 @@ window.GRAPH_DATA = {
    "notes": "Early randomized low-rank approximation and randomized SVD papers.",
    "links": [],
    "paper_ids": [
-    144,
-    239,
-    344,
-    345
+    128,
+    218,
+    317,
+    318
    ],
    "advising": []
   },
@@ -37550,8 +36121,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    353,
-    1220
+    326,
+    1164
    ],
    "advising": []
   },
@@ -37566,15 +36137,15 @@ window.GRAPH_DATA = {
    "notes": "Tygert's PhD at Yale was advised by Rokhlin; randomized least squares and SVD.",
    "links": [],
    "paper_ids": [
-    144,
-    174,
-    181,
-    239,
-    247,
-    248,
-    282,
-    341,
-    344
+    128,
+    154,
+    161,
+    218,
+    226,
+    227,
+    259,
+    314,
+    317
    ],
    "advising": [
     {
@@ -37595,7 +36166,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1229
+    1173
    ],
    "advising": []
   },
@@ -37610,7 +36181,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1229
+    1173
    ],
    "advising": []
   },
@@ -37625,7 +36196,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1775
+    1710
    ],
    "advising": []
   },
@@ -37640,8 +36211,8 @@ window.GRAPH_DATA = {
    "notes": "Newton-LESS and related sketched optimization work.",
    "links": [],
    "paper_ids": [
-    1000,
-    1155
+    950,
+    1101
    ],
    "advising": []
   },
@@ -37656,8 +36227,8 @@ window.GRAPH_DATA = {
    "notes": "Newton-LESS sketched second-order optimization (with Mahoney).",
    "links": [],
    "paper_ids": [
-    1000,
-    1155
+    950,
+    1101
    ],
    "advising": []
   },
@@ -37672,7 +36243,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1002
+    952
    ],
    "advising": []
   },
@@ -37687,8 +36258,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    539,
-    674
+    500,
+    632
    ],
    "advising": []
   },
@@ -37703,24 +36274,24 @@ window.GRAPH_DATA = {
    "notes": "Postdoc at UC Berkeley with Mahoney; \"Determinantal point processes in RandNLA\" (survey) and sketched second-order methods.",
    "links": [],
    "paper_ids": [
-    902,
-    934,
-    991,
-    1000,
-    1001,
-    1007,
-    1019,
-    1020,
-    1057,
-    1136,
-    1144,
-    1145,
-    1155,
-    1183,
-    1360,
-    1404,
-    1522,
-    1709
+    853,
+    884,
+    941,
+    950,
+    951,
+    957,
+    969,
+    970,
+    1006,
+    1082,
+    1090,
+    1091,
+    1101,
+    1129,
+    1300,
+    1342,
+    1459,
+    1644
    ],
    "advising": [
     {
@@ -37741,11 +36312,11 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    825,
-    872,
-    895,
-    1005,
-    1404
+    779,
+    824,
+    846,
+    955,
+    1342
    ],
    "advising": []
   },
@@ -37760,7 +36331,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    639
+    599
    ],
    "advising": []
   },
@@ -37775,8 +36346,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1404,
-    1496
+    1342,
+    1433
    ],
    "advising": []
   },
@@ -37791,7 +36362,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    655
+    615
    ],
    "advising": []
   },
@@ -37806,7 +36377,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1227
+    1171
    ],
    "advising": []
   },
@@ -37821,36 +36392,36 @@ window.GRAPH_DATA = {
    "notes": "Long-term collaborators and co-founders of RandNLA as a field: the fast Monte Carlo matrix algorithms trilogy (SICOMP 2006), CUR decompositions, and the CACM 2016 survey \"RandNLA: Randomized Numerical Linear Algebra\".",
    "links": [],
    "paper_ids": [
-    147,
-    161,
+    131,
+    141,
+    162,
+    163,
+    164,
+    176,
     182,
-    183,
-    184,
-    196,
-    202,
-    205,
-    206,
-    228,
-    241,
-    271,
-    273,
+    185,
+    186,
+    207,
+    220,
+    248,
+    250,
+    253,
+    256,
+    264,
+    265,
+    275,
     276,
-    279,
-    287,
-    288,
-    300,
-    301,
-    305,
-    317,
-    362,
-    389,
-    424,
-    450,
-    627,
-    699,
-    709,
-    714,
-    757
+    280,
+    291,
+    335,
+    360,
+    393,
+    416,
+    587,
+    656,
+    666,
+    671,
+    712
    ],
    "advising": []
   },
@@ -37865,9 +36436,9 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1404,
-    1583,
-    1589
+    1342,
+    1518,
+    1524
    ],
    "advising": []
   },
@@ -37901,12 +36472,12 @@ window.GRAPH_DATA = {
    "notes": "Coauthors of the fast Monte Carlo matrix algorithms trilogy (SICOMP 2006).",
    "links": [],
    "paper_ids": [
-    119,
-    182,
-    183,
-    184,
-    273,
-    701
+    106,
+    162,
+    163,
+    164,
+    250,
+    658
    ],
    "advising": []
   },
@@ -37921,10 +36492,10 @@ window.GRAPH_DATA = {
    "notes": "Postdoc at Berkeley (ICSI) with Mahoney; leads the RandBLAS/RandLAPACK standardization effort.",
    "links": [],
    "paper_ids": [
-    1404,
-    1583,
-    1589,
-    1709
+    1342,
+    1518,
+    1524,
+    1644
    ],
    "advising": [
     {
@@ -37945,7 +36516,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    795
+    750
    ],
    "advising": []
   },
@@ -37960,7 +36531,7 @@ window.GRAPH_DATA = {
    "notes": "\"Faster least squares approximation\" (Drineas, Mahoney, Muthukrishnan, Sarlós).",
    "links": [],
    "paper_ids": [
-    362
+    335
    ],
    "advising": []
   },
@@ -37975,8 +36546,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1482,
-    1601
+    1419,
+    1536
    ],
    "advising": []
   },
@@ -37991,7 +36562,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1404
+    1342
    ],
    "advising": []
   },
@@ -38006,7 +36577,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1404
+    1342
    ],
    "advising": []
   },
@@ -38021,7 +36592,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1404
+    1342
    ],
    "advising": []
   },
@@ -38036,7 +36607,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1816
+    1750
    ],
    "advising": []
   },
@@ -38051,8 +36622,8 @@ window.GRAPH_DATA = {
    "notes": "The RandLAPACK monograph.",
    "links": [],
    "paper_ids": [
-    1404,
-    1709
+    1342,
+    1644
    ],
    "advising": []
   },
@@ -38067,7 +36638,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1817
+    1751
    ],
    "advising": []
   },
@@ -38082,7 +36653,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    388
+    359
    ],
    "advising": []
   },
@@ -38097,11 +36668,11 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    139,
-    193,
-    338,
-    596,
-    729
+    123,
+    173,
+    311,
+    556,
+    686
    ],
    "advising": []
   },
@@ -38116,7 +36687,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1404
+    1342
    ],
    "advising": []
   },
@@ -38131,7 +36702,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1169
+    1115
    ],
    "advising": []
   },
@@ -38146,7 +36717,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1404
+    1342
    ],
    "advising": []
   },
@@ -38161,7 +36732,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1404
+    1342
    ],
    "advising": []
   },
@@ -38176,7 +36747,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    38
+    30
    ],
    "advising": []
   },
@@ -38191,11 +36762,11 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    195,
-    238,
-    303,
-    315,
-    320
+    175,
+    217,
+    278,
+    289,
+    294
    ],
    "advising": []
   },
@@ -38210,7 +36781,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    87
+    78
    ],
    "advising": []
   },
@@ -38225,10 +36796,10 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    31,
-    84,
-    85,
-    87
+    24,
+    75,
+    76,
+    78
    ],
    "advising": []
   },
@@ -38243,11 +36814,11 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1411,
-    1550,
-    1598,
-    1735,
-    1780
+    1349,
+    1487,
+    1533,
+    1670,
+    1715
    ],
    "advising": [
     {
@@ -38268,7 +36839,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1400
+    1338
    ],
    "advising": []
   },
@@ -38283,8 +36854,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1744,
-    1756
+    1679,
+    1691
    ],
    "advising": []
   },
@@ -38299,11 +36870,11 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1123,
-    1229,
-    1316,
-    1662,
-    1712
+    1070,
+    1173,
+    1256,
+    1597,
+    1647
    ],
    "advising": []
   },
@@ -38318,8 +36889,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    969,
-    1121
+    919,
+    1068
    ],
    "advising": []
   },
@@ -38334,9 +36905,9 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    969,
-    1121,
-    1765
+    919,
+    1068,
+    1700
    ],
    "advising": []
   },
@@ -38351,8 +36922,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    984,
-    1581
+    934,
+    1516
    ],
    "advising": []
   },
@@ -38367,7 +36938,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1765
+    1700
    ],
    "advising": []
   },
@@ -38382,8 +36953,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1595,
-    1751
+    1530,
+    1686
    ],
    "advising": []
   },
@@ -38398,8 +36969,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    345,
-    363
+    318,
+    336
    ],
    "advising": [
     {
@@ -38420,7 +36991,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    335
+    308
    ],
    "advising": []
   },
@@ -38435,9 +37006,9 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    977,
-    1095,
-    1097
+    927,
+    1044,
+    1046
    ],
    "advising": []
   },
@@ -38452,16 +37023,16 @@ window.GRAPH_DATA = {
    "notes": "Postdoc at Manchester with Higham; probabilistic rounding-error analysis and mixed-precision algorithms.",
    "links": [],
    "paper_ids": [
-    876,
-    877,
-    974,
-    1037,
-    1076,
-    1186,
-    1261,
-    1332,
-    1374,
-    1480
+    828,
+    829,
+    924,
+    987,
+    1025,
+    1132,
+    1205,
+    1272,
+    1313,
+    1417
    ],
    "advising": [
     {
@@ -38482,8 +37053,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    977,
-    1097
+    927,
+    1046
    ],
    "advising": []
   },
@@ -38498,8 +37069,8 @@ window.GRAPH_DATA = {
    "notes": "Postdoc years at Manchester: spectral divide-and-conquer and polar decomposition algorithms.",
    "links": [],
    "paper_ids": [
-    405,
-    501
+    376,
+    465
    ],
    "advising": []
   },
@@ -38514,8 +37085,8 @@ window.GRAPH_DATA = {
    "notes": "Rational neural networks (NeurIPS 2020, with Townsend).",
    "links": [],
    "paper_ids": [
-    896,
-    1065
+    847,
+    1014
    ],
    "advising": []
   },
@@ -38530,8 +37101,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1761,
-    1762
+    1696,
+    1697
    ],
    "advising": []
   },
@@ -38546,9 +37117,9 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    453,
-    1111,
-    1329
+    419,
+    1058,
+    1269
    ],
    "advising": []
   },
@@ -38563,8 +37134,8 @@ window.GRAPH_DATA = {
    "notes": "PhD at Berkeley with Srivastava.",
    "links": [],
    "paper_ids": [
-    1447,
-    1536
+    1384,
+    1473
    ],
    "advising": [
     {
@@ -38585,8 +37156,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    455,
-    804
+    421,
+    759
    ],
    "advising": []
   },
@@ -38601,7 +37172,7 @@ window.GRAPH_DATA = {
    "notes": "\"The Polar Express\": optimal matrix sign methods (with Persson and C. Musco).",
    "links": [],
    "paper_ids": [
-    1717
+    1652
    ],
    "advising": []
   },
@@ -38616,11 +37187,11 @@ window.GRAPH_DATA = {
    "notes": "Joint work on polynomial/Krylov approximation of matrix functions.",
    "links": [],
    "paper_ids": [
-    1382,
-    1502,
-    1667,
-    1763,
-    1790
+    1321,
+    1439,
+    1602,
+    1698,
+    1725
    ],
    "advising": []
   },
@@ -38635,7 +37206,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1404
+    1342
    ],
    "advising": []
   },
@@ -38650,10 +37221,10 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1293,
-    1351,
-    1404,
-    1466
+    1234,
+    1291,
+    1342,
+    1403
    ],
    "advising": []
   },
@@ -38668,8 +37239,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    969,
-    1121
+    919,
+    1068
    ],
    "advising": []
   },
@@ -38684,7 +37255,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1340
+    1280
    ],
    "advising": []
   },
@@ -38699,11 +37270,11 @@ window.GRAPH_DATA = {
    "notes": "Hardness results for structured linear systems (FOCS 2017).",
    "links": [],
    "paper_ids": [
-    833,
-    1017,
-    1055,
-    1239,
-    1308
+    787,
+    967,
+    1004,
+    1183,
+    1248
    ],
    "advising": []
   },
@@ -38718,7 +37289,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    833
+    787
    ],
    "advising": [
     {
@@ -38739,7 +37310,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1609
+    1544
    ],
    "advising": []
   },
@@ -38754,14 +37325,14 @@ window.GRAPH_DATA = {
    "notes": "Martinsson was a postdoc at Yale with Rokhlin; the original randomized low-rank approximation papers (with Tygert), PNAS 2007.",
    "links": [],
    "paper_ids": [
-    144,
-    145,
-    160,
-    213,
-    216,
-    239,
-    294,
-    344
+    128,
+    129,
+    140,
+    192,
+    195,
+    218,
+    270,
+    317
    ],
    "advising": [
     {
@@ -38782,11 +37353,11 @@ window.GRAPH_DATA = {
    "notes": "PhD at UT Austin co-advised by Martinsson and Ward; randomized dimension reduction.",
    "links": [],
    "paper_ids": [
-    1179,
-    1418,
-    1467,
-    1578,
-    1691
+    1125,
+    1356,
+    1404,
+    1513,
+    1626
    ],
    "advising": [
     {
@@ -38807,8 +37378,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1467,
-    1609
+    1404,
+    1544
    ],
    "advising": []
   },
@@ -38823,18 +37394,18 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    628,
-    641,
-    707,
-    772,
-    806,
-    947,
-    954,
-    955,
-    1008,
-    1091,
-    1188,
-    1439
+    588,
+    601,
+    664,
+    727,
+    761,
+    897,
+    904,
+    905,
+    958,
+    1040,
+    1134,
+    1377
    ],
    "advising": [
     {
@@ -38855,14 +37426,14 @@ window.GRAPH_DATA = {
    "notes": "Kannan was Drineas's PhD advisor at Yale; coauthors of the fast Monte Carlo matrix multiplication line that seeded RandNLA.",
    "links": [],
    "paper_ids": [
-    70,
-    91,
-    118,
-    129,
-    182,
-    183,
-    184,
-    273
+    61,
+    82,
+    105,
+    115,
+    162,
+    163,
+    164,
+    250
    ],
    "advising": [
     {
@@ -38883,8 +37454,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    70,
-    129
+    61,
+    115
    ],
    "advising": []
   },
@@ -38899,7 +37470,7 @@ window.GRAPH_DATA = {
    "notes": "\"Faster least squares approximation\" (Drineas, Mahoney, Muthukrishnan, Sarlós).",
    "links": [],
    "paper_ids": [
-    362
+    335
    ],
    "advising": []
   },
@@ -38914,10 +37485,10 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1404,
-    1493,
-    1583,
-    1589
+    1342,
+    1430,
+    1518,
+    1524
    ],
    "advising": []
   },
@@ -38932,7 +37503,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    624
+    584
    ],
    "advising": []
   },
@@ -38947,10 +37518,10 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    977,
-    1097,
-    1282,
-    1493
+    927,
+    1046,
+    1224,
+    1430
    ],
    "advising": []
   },
@@ -38965,7 +37536,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1632
+    1567
    ],
    "advising": []
   },
@@ -38980,7 +37551,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1429
+    1367
    ],
    "advising": []
   },
@@ -38995,8 +37566,8 @@ window.GRAPH_DATA = {
    "notes": "PhD at UT Austin with Ward; tensor sketching.",
    "links": [],
    "paper_ids": [
-    910,
-    1526
+    861,
+    1463
    ],
    "advising": [
     {
@@ -39017,7 +37588,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1277
+    1219
    ],
    "advising": []
   },
@@ -39032,10 +37603,10 @@ window.GRAPH_DATA = {
    "notes": "PhD at UT Austin co-advised by Martinsson and Ward.",
    "links": [],
    "paper_ids": [
-    1208,
-    1320,
-    1331,
-    1416
+    1153,
+    1260,
+    1271,
+    1354
    ],
    "advising": [
     {
@@ -39056,7 +37627,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1517
+    1454
    ],
    "advising": []
   },
@@ -39071,7 +37642,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1755
+    1690
    ],
    "advising": []
   },
@@ -39086,19 +37657,19 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    556,
-    560,
-    705,
-    719,
-    833,
-    854,
-    917,
-    925,
-    1311,
-    1321,
-    1472,
-    1492,
-    1639
+    516,
+    520,
+    662,
+    676,
+    787,
+    808,
+    868,
+    875,
+    1251,
+    1261,
+    1409,
+    1429,
+    1574
    ],
    "advising": []
   },
@@ -39113,24 +37684,24 @@ window.GRAPH_DATA = {
    "notes": "Approximate Gaussian elimination for Laplacians (FOCS 2016).",
    "links": [],
    "paper_ids": [
-    581,
-    603,
-    604,
-    653,
-    705,
-    719,
-    779,
-    917,
-    925,
-    1102,
-    1311,
-    1315,
-    1321,
-    1454,
-    1472,
-    1492,
-    1514,
-    1639
+    541,
+    563,
+    564,
+    613,
+    662,
+    676,
+    734,
+    868,
+    875,
+    1051,
+    1251,
+    1255,
+    1261,
+    1391,
+    1409,
+    1429,
+    1451,
+    1574
    ],
    "advising": []
   },
@@ -39145,24 +37716,24 @@ window.GRAPH_DATA = {
    "notes": "Long-term collaborators: Frieze-Kannan-Vempala sampling, adaptive sampling, and the \"Spectral Algorithms\" monograph.",
    "links": [],
    "paper_ids": [
-    49,
-    51,
-    53,
-    70,
-    80,
-    129,
-    133,
-    137,
-    142,
-    168,
-    173,
-    278,
-    302,
-    487,
-    557,
-    658,
-    773,
-    792
+    40,
+    42,
+    44,
+    61,
+    71,
+    115,
+    117,
+    121,
+    126,
+    148,
+    153,
+    255,
+    277,
+    451,
+    517,
+    618,
+    728,
+    747
    ],
    "advising": []
   },
@@ -39177,9 +37748,9 @@ window.GRAPH_DATA = {
    "notes": "Solving sparse linear systems faster than matrix multiplication (SODA 2021 best paper).",
    "links": [],
    "paper_ids": [
-    1182,
-    1432,
-    1696
+    1128,
+    1370,
+    1631
    ],
    "advising": []
   },
@@ -39194,19 +37765,19 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    705,
-    719,
-    909,
-    917,
-    925,
-    1010,
-    1311,
-    1321,
-    1357,
-    1472,
-    1492,
-    1639,
-    1646
+    662,
+    676,
+    860,
+    868,
+    875,
+    960,
+    1251,
+    1261,
+    1297,
+    1409,
+    1429,
+    1574,
+    1581
    ],
    "advising": []
   },
@@ -39221,10 +37792,10 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    638,
-    1235,
-    1322,
-    1646
+    598,
+    1179,
+    1262,
+    1581
    ],
    "advising": []
   },
@@ -39239,7 +37810,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1493
+    1430
    ],
    "advising": []
   },
@@ -39254,7 +37825,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1740
+    1675
    ],
    "advising": []
   },
@@ -39269,21 +37840,21 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    676,
-    741,
-    808,
+    634,
+    698,
+    763,
+    774,
+    813,
     820,
-    859,
-    866,
-    1085,
-    1173,
-    1193,
-    1202,
-    1237,
-    1292,
-    1301,
-    1338,
-    1794
+    1034,
+    1119,
+    1139,
+    1147,
+    1181,
+    1233,
+    1241,
+    1278,
+    1729
    ],
    "advising": []
   },
@@ -39298,9 +37869,9 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1108,
-    1286,
-    1675
+    1055,
+    1228,
+    1610
    ],
    "advising": []
   },
@@ -39315,9 +37886,9 @@ window.GRAPH_DATA = {
    "notes": "\"Analysis of stochastic Lanczos quadrature for spectrum approximation\" (with Trogdon).",
    "links": [],
    "paper_ids": [
-    1108,
-    1286,
-    1675
+    1055,
+    1228,
+    1610
    ],
    "advising": []
   },
@@ -39332,13 +37903,13 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1506,
-    1566,
-    1659,
-    1736,
-    1749,
-    1765,
-    1787
+    1443,
+    1502,
+    1594,
+    1671,
+    1684,
+    1700,
+    1722
    ],
    "advising": []
   },
@@ -39353,66 +37924,24 @@ window.GRAPH_DATA = {
    "notes": "PhD at Minnesota with Saad; stochastic Lanczos quadrature for tr(f(A)).",
    "links": [],
    "paper_ids": [
-    612,
-    670,
-    728,
-    742,
-    743,
-    748,
-    753,
-    758,
-    913,
-    958,
-    966,
-    1079
+    572,
+    628,
+    685,
+    699,
+    700,
+    705,
+    709,
+    713,
+    864,
+    908,
+    916,
+    1028
    ],
    "advising": [
     {
      "advisor": "yousef-saad",
      "student": "shashanka-ubaru",
      "kind": "phd"
-    }
-   ]
-  },
-  {
-   "source": "stefano-pozza",
-   "target": "valeria-simoncini",
-   "factors": {
-    "genetic": 0,
-    "coauthor": 5,
-    "advising": 0
-   },
-   "notes": "",
-   "links": [],
-   "paper_ids": [
-    663,
-    664,
-    923,
-    1129,
-    1302
-   ],
-   "advising": []
-  },
-  {
-   "source": "stefano-pozza",
-   "target": "zdenek-strakos",
-   "factors": {
-    "genetic": 0,
-    "coauthor": 3,
-    "advising": 0.7
-   },
-   "notes": "",
-   "links": [],
-   "paper_ids": [
-    749,
-    867,
-    885
-   ],
-   "advising": [
-    {
-     "advisor": "zdenek-strakos",
-     "student": "stefano-pozza",
-     "kind": "postdoc"
     }
    ]
   },
@@ -39427,7 +37956,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1646
+    1581
    ],
    "advising": []
   },
@@ -39442,14 +37971,14 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    888,
-    976,
-    982,
-    1056,
-    1205,
-    1222,
-    1224,
-    1491
+    839,
+    926,
+    932,
+    1005,
+    1150,
+    1166,
+    1168,
+    1428
    ],
    "advising": []
   },
@@ -39464,14 +37993,14 @@ window.GRAPH_DATA = {
    "notes": "PhD at Oxford with Nakatsukasa; randomized low-rank approximation.",
    "links": [],
    "paper_ids": [
-    1199,
-    1324,
-    1402,
-    1577,
-    1609,
-    1635,
-    1648,
-    1760
+    1144,
+    1264,
+    1340,
+    1512,
+    1544,
+    1570,
+    1583,
+    1695
    ],
    "advising": [
     {
@@ -39492,8 +38021,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    839,
-    953
+    793,
+    903
    ],
    "advising": []
   },
@@ -39508,11 +38037,11 @@ window.GRAPH_DATA = {
    "notes": "PhD co-advisor at the University of Washington; stochastic Lanczos quadrature analysis and universality in numerical computation.",
    "links": [],
    "paper_ids": [
-    1108,
-    1286,
-    1423,
-    1483,
-    1675
+    1055,
+    1228,
+    1361,
+    1420,
+    1610
    ],
    "advising": [
     {
@@ -39533,8 +38062,8 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    693,
-    1446
+    650,
+    1383
    ],
    "advising": [
     {
@@ -39555,7 +38084,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1692
+    1627
    ],
    "advising": []
   },
@@ -39570,9 +38099,9 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    128,
-    146,
-    252
+    114,
+    130,
+    231
    ],
    "advising": []
   },
@@ -39587,7 +38116,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    1467
+    1404
    ],
    "advising": []
   },
@@ -39602,7 +38131,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    87
+    78
    ],
    "advising": []
   },
@@ -39617,7 +38146,7 @@ window.GRAPH_DATA = {
    "notes": "",
    "links": [],
    "paper_ids": [
-    332
+    305
    ],
    "advising": []
   }
