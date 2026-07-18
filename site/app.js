@@ -253,16 +253,21 @@
     return activeGroups.has(n.group) && (!topicSet || topicSet.has(n.id));
   }
 
-  function neighborSetOf(n) {
+  function neighborSetOf(n, includeHidden = false) {
     const s = new Set([n.id]);
-    n.links.forEach((l) => { if (l.visible) { s.add(l.source.id); s.add(l.target.id); } });
+    n.links.forEach((l) => {
+      if (l.visible || includeHidden) { s.add(l.source.id); s.add(l.target.id); }
+    });
     return s;
   }
 
   function refreshClasses() {
-    const focus = hovered || (selection?.type === "node" ? selection.d : null);
-    const focusSet = focus ? neighborSetOf(focus) : null;
+    const selNode = selection?.type === "node" ? selection.d : null;
+    const focus = hovered || selNode;
+    // a selected person reveals all their edges, threshold or not
+    const focusSet = focus ? neighborSetOf(focus, focus === selNode) : null;
     const selEdge = selection?.type === "edge" ? selection.d : null;
+    const revealed = (l) => selNode && (l.source === selNode || l.target === selNode);
 
     nodeSel
       .classed("selected", (d) => selection?.type === "node" && selection.d === d)
@@ -276,9 +281,10 @@
     circles.attr("r", (d) => d.r);
     labels.attr("x", (d) => d.r + 3);
 
-    linkSel.style("display", (l) => (l.visible ? null : "none"));
+    linkSel.style("display", (l) => (l.visible || revealed(l) ? null : "none"));
     linkLine
       .classed("selected", (l) => l === selEdge)
+      .classed("subthreshold", (l) => !l.visible && revealed(l))
       .classed("advising", (l) => advisingView && (l.advising || []).length > 0)
       .attr("marker-end", (l) =>
         advisingView && (l.advising || []).length ? "url(#arrow)" : null)
@@ -293,7 +299,8 @@
         // weak edges recede until a node/edge is focused
         const related = (focus && (l.source === focus || l.target === focus)) ||
                         l === selEdge;
-        return related ? 0.85 : 0.06 + 0.55 * Math.pow(l.rel, 1.6);
+        if (related) return l.visible ? 0.85 : 0.55;
+        return 0.06 + 0.55 * Math.pow(l.rel, 1.6);
       });
   }
 
@@ -585,7 +592,7 @@
     const omit = new Set([n.id]);
     const paperItems = myPapers.map((idx) => paperLi(idx, { omit })).join("");
 
-    const conns = n.links.filter((l) => l.visible)
+    const conns = [...n.links]
       .sort((a, b) => b.score - a.score)
       .map((l) => {
         const other = l.source === n ? l.target : l.source;
@@ -611,8 +618,8 @@
         <a href="${webSearchLink(n)}" target="_blank" rel="noopener">Search the web</a></div>
       ${advisors ? `<h3>Advisors</h3><ul class="plain">${advisors}</ul>` : ""}
       ${students ? `<h3>Students & postdocs</h3><ul class="plain">${students}</ul>` : ""}
-      <h3>Connections (${n.links.filter((l) => l.visible).length})</h3>
-      ${conns || `<div class="aff">None above the current threshold.</div>`}
+      <h3>Connections (${n.links.length})</h3>
+      ${conns || `<div class="aff">None.</div>`}
       ${paperItems ? `<h3>Tracked papers (${myPapers.length})</h3><ul class="papers">${paperItems}</ul>` : ""}`;
   }
 

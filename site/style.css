@@ -393,6 +393,7 @@ input[type="range"] { width: 100%; accent-color: var(--accent); margin: 2px 0 0;
 .hint-inline { color: var(--muted); font-size: 11.5px; }
 
 .link.advising { stroke: var(--accent); }
+.link.subthreshold { stroke-dasharray: 4 3; }
 
 /* factor table in edge details */
 .factor-table { width: 100%; border-collapse: collapse; font-size: 12.5px; }
