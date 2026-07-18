@@ -30,4 +30,5 @@
 - {id: operator-learning,  label: "Operator learning & scientific ML"}
 - {id: kernels,            label: "Kernel methods"}
 - {id: uq,                 label: "Uncertainty quantification"}
+- {id: experimental-design, label: "Optimal experimental design"}
 - {id: quantum,            label: "Quantum computing"}
