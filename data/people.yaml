@@ -11,6 +11,8 @@
   - optimization
   - spectral methods
   notes: Optimization and fast linear system solvers.
+  website: https://www.aaronsidford.com/
+  photo: https://lh7-us.googleusercontent.com/sitesv-images-rt/ACHe0d1fvoVHsVDVr3L6-55GgYSjA2CIBA5k4RPQUT8ZIj3hJmhV4zaVMdHi_6qODQs4m4jBdBdD1aQV1hBf10xqm1Zy2aVStmvSALprvAfVFUVo7XDRxKeHYiQWlTcMRiXB2TcCYNviGBzWSEIadDoBrXYs6gIYnVRBRBxMXsqK5Op6WrpMi2RwylkkCJd5F3CmmqOHU0ig--aGSZ62ZrPSBAI80KRQ-Zu2QCPGpijC=w1280
 - id: abhijit-chowdhary
   name: Abhijit Chowdhary
   affiliation: Tufts University
@@ -39,6 +41,8 @@
   - sketching
   - robust statistics
   notes: Low-rank approximation and robust statistics.
+  website: http://www.aineshbakshi.com/
+  photo: http://www.aineshbakshi.com/pic.png
 - id: akil-narayan
   name: Akil Narayan
   affiliation: University of Utah
@@ -82,6 +86,8 @@
   - trace estimation
   - low-rank approximation
   notes: Randomized trace estimation analysis; low-rank approximation.
+  website: https://sites.google.com/view/alicecortinovis/home
+  photo: https://sites.google.com/sitesv-images-rt/ACHe0d3Z8AYjEWmP7CyYQT6Jp0FprAZ0AOh5WO3XBR8DT9wcZmrLIAKcjE70XDXSpla8vkPg6cOOq9M7tULQBtrippYmjxx3Vgrq7k5VVnyUmk511x_0zNKXOqM1ivk-ZGYoNa8hg2FhgtxDFoPLhPtwXF791dQPEE7DccPJ-6bbV10jTLvj46CTBK1kreNXa0TvL8DYkpIty6SnIYfSnvxEiM70LClNdV0VP8eTfJ0WePk=w1280
 - id: allison-fuller
   name: Allison Fuller
   affiliation: Arizona State University
@@ -204,6 +210,8 @@
   - eigenvalue problems
   notes: Low-rank and tensor methods; randomized trace estimation and low-rank approximation
     analysis with his EPFL group.
+  website: https://people.epfl.ch/daniel.kressner
+  photo: https://scholar.googleusercontent.com/citations?view_op=view_photo&user=WM-bQukAAAAJ&citpid=2
 - id: daniel-szyld
   name: Daniel Szyld
   affiliation: Temple University
@@ -239,6 +247,8 @@
   - randomized trace estimation
   - low-rank approximation
   notes: funNyström; randomized trace estimation and low-rank approximation.
+  website: https://davpersson.github.io/
+  photo: https://davpersson.github.io/photo.jpg
 - id: david-woodruff
   name: David Woodruff
   affiliation: Carnegie Mellon University
@@ -279,6 +289,8 @@
   - operator learning
   - low-rank recovery
   notes: Matrix recovery from matvec queries; operator learning.
+  website: https://dihalikias.github.io/
+  photo: https://dihalikias.github.io/diana.JPG
 - id: edmond-chow
   name: Edmond Chow
   affiliation: Georgia Institute of Technology
@@ -355,6 +367,8 @@
   - randomized low-rank
   - trace estimation
   notes: Randomly pivoted Cholesky; XTrace; numerical analysis of randomized methods.
+  website: https://www.ethanepperly.com/
+  photo: https://www.ethanepperly.com/wp-content/uploads/2025/08/1W2A0577-min-2-277x300.jpeg
 - id: fan-tian
   name: Fan Tian
   affiliation: Tufts University
@@ -394,6 +408,8 @@
   - kernel methods
   notes: Avron–Toledo trace estimation analysis; sketching for kernel methods. Co-organizer
     of the ICERM 2026 workshop.
+  website: http://www.math.tau.ac.il/~haimav/
+  photo: https://scholar.googleusercontent.com/citations?view_op=view_photo&user=KVPQoQgAAAAJ&citpid=2
 - id: haojun-qin
   name: Haojun Qin
   affiliation: Brown University
@@ -414,6 +430,8 @@
   - rational approximation
   - low-rank structure
   notes: Rational approximation and structured low-rank computations.
+  website: https://heatherw3521.github.io/
+  photo: https://heatherw3521.github.io/me.jpg
 - id: ieva-dauzickaite
   name: Ieva Daužickaitė
   affiliation: CERFACS
@@ -480,6 +498,8 @@
   - communication-avoiding
   - error analysis
   notes: LAPACK lead; communication-avoiding algorithms; 'fast linear algebra is stable'.
+  website: https://people.eecs.berkeley.edu/~demmel/
+  photo: https://people.eecs.berkeley.edu/~demmel/Jim_Demmel_Oct2022.jpg
 - id: jamie-haddock
   name: Jamie Haddock
   affiliation: Harvey Mudd College
@@ -533,6 +553,8 @@
   - free probability
   - spectral algorithms
   notes: Pseudospectral shattering; global convergence of shifted QR.
+  website: https://web.math.princeton.edu/~jg8853/
+  photo: https://web.math.princeton.edu/~jg8853/Photo_personalwebpage.jpg
 - id: josh-alman
   name: Josh Alman
   affiliation: Columbia University
@@ -540,6 +562,8 @@
   topics:
   - matrix multiplication
   notes: Fast matrix multiplication algorithms.
+  website: https://joshalman.com/
+  photo: https://joshalman.com/wp-content/uploads/2015/03/JoshAlman.jpg
 - id: julianne-chung
   name: Julianne Chung
   affiliation: Emory University
@@ -611,6 +635,8 @@
   - randomized orthogonalization
   - HPC
   notes: Communication-avoiding LU/QR; randomized Gram–Schmidt and sketched Krylov.
+  website: https://people.epfl.ch/laura.grigori
+  photo: https://scholar.googleusercontent.com/citations?view_op=view_photo&user=BST6b8AAAAAJ&citpid=5
 - id: linkai-ma
   name: Linkai Ma
   affiliation: Purdue University
@@ -623,6 +649,8 @@
   - scientific ML
   - quantum computing
   notes: Scientific machine learning and quantum algorithms at IBM.
+  website: https://research.ibm.com/people/lior-horesh
+  photo: https://scholar.googleusercontent.com/citations?view_op=view_photo&user=qbqwCbEAAAAJ&citpid=6
 - id: logan-reed
   name: Logan Reed
   affiliation: Temple University
@@ -660,6 +688,8 @@
   - low-rank models
   - optimization
   notes: Generalized low-rank models; practical sketching for optimization.
+  website: https://web.stanford.edu/~udell/
+  photo: https://web.stanford.edu/~udell/img/2023-Madeleine-Udell-1.jpg
 - id: malena-espanol
   name: Malena Español
   affiliation: Arizona State University
@@ -681,6 +711,8 @@
   topics:
   - randomized SVD origins
   notes: Early randomized algorithms for matrix approximation (with Rokhlin and Martinsson).
+  website: https://tygert.com/
+  photo: https://tygert.com/standing.jpg
 - id: matteo-raviola
   name: Matteo Raviola
   affiliation: EPFL
@@ -749,6 +781,8 @@
   - rank-revealing factorizations
   - randomized QR
   notes: Rank-revealing and randomized pivoted factorizations; subspace iteration analysis.
+  website: https://math.berkeley.edu/~mgu/
+  photo: https://math.berkeley.edu/sites/default/files/styles/openberkeley_brand_widgets_rectangle/public/ming_gu_1.jpg
 - id: mirjeta-pasha
   name: Mirjeta Pasha
   affiliation: Virginia Tech
@@ -782,6 +816,8 @@
   - mixed precision
   - rounding error analysis
   notes: Authority on matrix functions and rounding-error analysis (1961–2024).
+  website: https://nhigham.com/
+  photo: https://nhigham.com/wp-content/uploads/2020/12/cropped-200302-1351-14_9943_2979_rot_square_1600px.jpg
 - id: nick-polydorides
   name: Nick Polydorides
   affiliation: University of Edinburgh
@@ -793,6 +829,8 @@
   topics:
   - operator learning
   notes: Data-efficient operator learning; learning Green's functions.
+  website: https://nboulle.github.io/
+  photo: https://nboulle.github.io/images/profile.jpg
 - id: nikhil-srivastava
   name: Nikhil Srivastava
   affiliation: University of California, Berkeley
@@ -827,6 +865,8 @@
   - stability theory
   - fast algorithms
   notes: Stability of fast matrix algorithms.
+  website: https://math.berkeley.edu/~holtz/
+  photo: https://scholar.googleusercontent.com/citations?view_op=view_photo&user=WJGqLh8AAAAJ&citpid=1
 - id: omar-de-la-cruz-cabrera
   name: Omar De la Cruz Cabrera
   affiliation: Kent State University
@@ -839,6 +879,8 @@
   name: Peng Zhang
   affiliation: Rutgers University
   area: tcs
+  website: https://sites.google.com/site/pengzhang27182/
+  photo: https://scholar.googleusercontent.com/citations?view_op=view_photo&user=OeJee_QAAAAJ&citpid=1
 - id: per-gunnar-martinsson
   name: Per-Gunnar Martinsson
   affiliation: University of Texas at Austin
@@ -880,6 +922,8 @@
   - sampling
   - sketching
   notes: Stochastic gradient and sampling methods; importance sampling for regression.
+  website: https://sites.google.com/view/rward
+  photo: https://scholar.googleusercontent.com/citations?view_op=view_photo&user=UnuEcZEAAAAJ&citpid=13
 - id: raphael-meyer
   name: Raphael Meyer
   affiliation: California Institute of Technology
@@ -897,6 +941,8 @@
   topics:
   - Laplacian solvers
   notes: Approximate Gaussian elimination for Laplacians; hardness for structured systems.
+  website: https://rasmuskyng.com/
+  photo: https://rasmuskyng.com/bw-portrait.jpg
 - id: ravindran-kannan
   name: Ravindran Kannan
   affiliation: Simons Institute / Indian Institute of Science
@@ -916,6 +962,8 @@
   - graph algorithms
   notes: Fast Laplacian and structured linear system solvers. Co-organizer of the Banff 2023
     workshop.
+  website: https://www.cs.cmu.edu/~yangp/
+  photo: https://www.cs.cmu.edu/~yangp/photo.jpg
 - id: rikhav-shah
   name: Rikhav Shah
   affiliation: Massachusetts Institute of Technology
@@ -924,6 +972,7 @@
   - random matrices
   - eigenvalue algorithms
   notes: Smoothed analysis and randomized eigenvalue computation.
+  website: https://math.berkeley.edu/~rdshah/
 - id: riley-murray
   name: Riley Murray
   affiliation: Sandia National Laboratories
@@ -951,6 +1000,8 @@
   - randomized algorithms
   - Monte Carlo
   notes: Randomized low-rank approximation (RPCholesky, XTrace) and Monte Carlo methods.
+  website: https://sites.google.com/ucsd.edu/rwebber/
+  photo: https://sites.google.com/sitesv-images-rt/ACHe0d0fw_aTDdppgQ-o31INz63XziAFyYm6kaLW8kEfmlWU4iIL0C-VH6CXaDTMpQHu_EYN9E7e4l1b4VjfXbSypUC5ZfTluyrrvhvUbo1oAt03r5u37McnniqZ-skhl8eX2Kjc_-gD_KqGdQffTtKYhrzGG5Lqs47IKVYyrVYLSZVqJTNknDR5oh5s_TixTvq600RWuI9MInBE5REnD4D64tpt_W7Vvb9bclL9D1QiTkA=w1280
 - id: rodrigo-figueroa-justiniano
   name: Rodrigo Figueroa Justiniano
   affiliation: Virginia Tech
@@ -978,6 +1029,8 @@
   - eigenvalue problems
   - pseudospectra
   notes: Randomized diagonalization; pseudospectral divide-and-conquer.
+  website: https://sites.google.com/view/ryan-schneider-math
+  photo: https://sites.google.com/sitesv-images-rt/ACHe0d2FCVV5245hde9sMxEs5a9W1LoFQZbz9zuwixRVFqeWqX4o38_PeUu9Pm410-PF1-wHSshbQq1IplWujMdSE5dYnPm8AZivsJfVg5gNtjLEXa6bDVucCr6vStW8nvzlpcNB_bYjCnq4l4qffHeCM6afaz9IAV7AVLxXimoXzuxyOuVjjfw3l-3zWLFaP6yY4yGrX3FgJyyEdaBURqXfL6FGpVOBu2O7i133LjAyX24=w1280
 - id: samuel-talkington
   name: Samuel Talkington
   affiliation: Georgia Institute of Technology
@@ -1009,6 +1062,8 @@
   - trace estimation
   - graph ML
   notes: Stochastic Lanczos quadrature for spectrum and trace estimation.
+  website: https://shashankaubaru.github.io/
+  photo: https://shashankaubaru.github.io/images/Ubaru.jpg
 - id: sivan-toledo
   name: Sivan Toledo
   affiliation: Tel Aviv University
@@ -1017,6 +1072,8 @@
   - sparse solvers
   - trace estimation
   notes: Sparse direct methods; Avron–Toledo randomized trace estimation.
+  website: https://www.cs.tau.ac.il/~stoledo/
+  photo: https://english.tau.ac.il/sites/default/files/styles/research_teaser_image_180_x_180/public/co_sivan_toledo_180X180_3.jpg?itok=OJC_tS6s
 - id: stefano-massei
   name: Stefano Massei
   affiliation: University of Pisa
@@ -1024,6 +1081,8 @@
   topics:
   - hierarchical matrices
   notes: Hierarchical / rank-structured matrix computations.
+  website: https://sites.google.com/view/stefanomassei/home
+  photo: https://sites.google.com/sitesv-images-rt/ACHe0d2f-J14UrT37WMutFRjSsfbrLbSeAuJS4QqGHExUdCrC84Dd6oYUrF3Gdt3vc20wczf6Yj7agF75vFsfZpRjsM9sKOVmroovojtP2ObfNdr8N53jUokwoc7AsVWIIPHtsW9SpNpyxw91JK6SwL8hOyxCSJObviGUhgxtCfYmjvJpHhNamZQCPQ3we32Nn4sSGuQW7B99VZYvrV71Yw=w1280
 - id: stefano-pozza
   name: Stefano Pozza
   affiliation: Charles University
@@ -1044,6 +1103,8 @@
   - Laplacian solvers
   - optimization
   notes: Laplacian solvers and fast graph algorithms.
+  website: https://sachdevasushant.github.io/
+  photo: https://sachdevasushant.github.io/new_me.jpg
 - id: swati-padmanabhan
   name: Swati Padmanabhan
   affiliation: University of Minnesota Twin Cities
@@ -1087,6 +1148,8 @@
   - mixed precision
   - probabilistic error analysis
   notes: Probabilistic rounding-error analysis; block low-rank solvers.
+  website: https://perso.lip6.fr/Theo.Mary/
+  photo: https://perso.lip6.fr/Theo.Mary/images/photo.jpg
 - id: tong-ding
   name: Tong Ding
   affiliation: Purdue University
@@ -1134,6 +1197,8 @@
   - randomized low-rank origins
   notes: Fast multipole method; the original randomized low-rank approximation papers with
     Martinsson, Tygert, and Liberty.
+  website: https://math.yale.edu/people/vladimir-rokhlin
+  photo: https://engineering.yale.edu/application/files/thumbnails/custom_720x720_exact/7317/3099/4088/Vladimir_Rokhlin_computer_science.webp
 - id: wael-hajj-ali
   name: Wael Hajj Ali
   affiliation: Mitsubishi Electric Research Laboratories

@@ -52,11 +52,14 @@ def main():
              "papers_seen": 0, "adv_seen": 0, "skipped": []}
 
     for letter in "ABCD":
-        f = next((d / f"research_{letter}.yaml" for d in SEARCH_DIRS
-                  if (d / f"research_{letter}.yaml").exists()), None)
-        if f is None:
+        candidates = [d / f"research_{letter}.yaml" for d in SEARCH_DIRS]
+        candidates = [c for c in candidates if c.exists()]
+        if not candidates:
             print(f"  (research_{letter}.yaml missing - skipping)")
             continue
+        # newest wins: agents keep rewriting the scratchpad copy while tools/
+        # holds point-in-time snapshots
+        f = max(candidates, key=lambda c: c.stat().st_mtime)
         try:
             doc = yaml.safe_load(f.read_text()) or {}
         except yaml.YAMLError as e:

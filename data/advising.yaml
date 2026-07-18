@@ -57,3 +57,14 @@
 - {advisor: michael-mahoney, student: raphael-meyer, kind: postdoc}
 - {advisor: misha-kilmer, student: malena-espanol, kind: phd}
 - {advisor: misha-kilmer, student: mirjeta-pasha, kind: postdoc}
+
+# --- added from the research agents (July 2026) ---
+- {advisor: alex-townsend, student: diana-halikias, kind: phd}
+- {advisor: alex-townsend, student: heather-wilber, kind: phd}
+- {advisor: alex-townsend, student: nicolas-boulle, kind: phd}
+- {advisor: daniel-kressner, student: igor-simunec, kind: postdoc}
+- {advisor: daniel-kressner, student: taejun-park, kind: postdoc}
+- {advisor: james-demmel, student: ryan-schneider, kind: postdoc}
+- {advisor: joel-tropp, student: jorge-garza-vargas, kind: postdoc}
+- {advisor: per-gunnar-martinsson, student: heather-wilber, kind: postdoc}
+- {advisor: richard-peng, student: peng-zhang, kind: phd}
