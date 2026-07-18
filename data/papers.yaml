@@ -2324,6 +2324,16 @@
   authors:
   - jack-dongarra
   - julien-langou
+- title: A Fast Parallel Algorithm for Selected Inversion of Structured Sparse Matrices with
+    Application to 2D Electronic Structure Calculations
+  year: 2011
+  venue: SIAM J. Sci. Comput.
+  url: https://doi.org/10.1137/09077432X
+  authors:
+  - lin-lin
+  - lexing-ying
+  note: Co-author Chao Yang (LBNL) excluded - not a roster member (roster has no chao-yang
+    id).
 - title: A Fast Randomized Algorithm for Orthogonal Projection
   year: 2011
   venue: SIAM J. Sci. Comput.
@@ -2459,6 +2469,13 @@
   authors:
   - jack-dongarra
   - piotr-luszczek
+- title: Fast construction of hierarchical matrix representation from matrix-vector multiplication
+  year: 2011
+  venue: J. Comput. Phys.
+  url: https://doi.org/10.1016/j.jcp.2011.02.033
+  authors:
+  - lin-lin
+  - lexing-ying
 - title: Fast moment estimation in data streams in optimal space
   year: 2011
   venue: STOC
@@ -2636,6 +2653,13 @@
   authors:
   - jack-dongarra
   - piotr-luszczek
+- title: SelInv - An Algorithm for Selected Inversion of a Sparse Symmetric Matrix
+  year: 2011
+  venue: ACM Trans. Math. Softw.
+  url: https://doi.org/10.1145/1916461.1916464
+  authors:
+  - lin-lin
+  - lexing-ying
 - title: Solving the Generalized Symmetric Eigenvalue Problem using Tile Algorithms on Multicore
     Architectures
   year: 2011
@@ -2745,6 +2769,15 @@
   authors:
   - jack-dongarra
   - julien-langou
+- title: 'Adaptive local basis set for Kohn-Sham density functional theory in a discontinuous
+    Galerkin framework I: Total energy calculation'
+  year: 2012
+  venue: J. Comput. Phys.
+  url: https://doi.org/10.1016/j.jcp.2011.11.032
+  authors:
+  - lin-lin
+  - lexing-ying
+  note: Co-author Weinan E (Lin Lin's PhD advisor) is not a roster member.
 - title: An implicitly restarted block Lanczos bidiagonalization method using Leja shifts
   year: 2012
   venue: BIT Numerical Mathematics
@@ -2996,6 +3029,13 @@
   authors:
   - julianne-chung
   - matthias-chung
+- title: Optimized local basis set for Kohn-Sham density functional theory
+  year: 2012
+  venue: J. Comput. Phys.
+  url: https://doi.org/10.1016/j.jcp.2012.03.009
+  authors:
+  - lin-lin
+  - lexing-ying
 - title: 'Poster: Matrices over Runtime Systems at Exascale'
   year: 2012
   venue: SC Companion
@@ -3777,6 +3817,15 @@
   authors:
   - piotr-luszczek
   - jack-dongarra
+- title: Pole Expansion for Solving a Type of Parametrized Linear Systems in Electronic Structure
+    Calculations
+  year: 2014
+  venue: SIAM J. Sci. Comput.
+  url: https://doi.org/10.1137/130944825
+  authors:
+  - lin-lin
+  - anil-damle
+  - lexing-ying
 - title: Preconditioned Krylov Subspace Methods for Sampling Multivariate Gaussian Distributions
   year: 2014
   venue: SIAM J. Sci. Comput.
@@ -4430,6 +4479,15 @@
   authors:
   - david-gleich
   - michael-mahoney
+- title: A Technique for Updating Hierarchical Skeletonization-Based Factorizations of Integral
+    Operators
+  year: 2016
+  venue: Multiscale Model. Simul.
+  url: https://doi.org/10.1137/15M1024500
+  authors:
+  - lexing-ying
+  - anil-damle
+  note: Co-authors Victor Minden and Kenneth L. Ho are not roster members.
 - title: A measure of similarity between optimal and suboptimal muscle force production in
     gait
   year: 2016
@@ -4451,6 +4509,15 @@
   authors:
   - rasmus-kyng
   - sushant-sachdeva
+- title: Approximating Spectral Densities of Large Matrices
+  year: 2016
+  venue: SIAM Rev.
+  url: https://doi.org/10.1137/130934283
+  authors:
+  - lin-lin
+  - yousef-saad
+  note: Third author Chao Yang (LBNL) is NOT the same person as any roster member; excluded
+    from authors list per task instructions.
 - title: Approximating the Solution to Mixed Packing and Covering LPs in Parallel O˜(epsilon^{-3})
     Time
   year: 2016
@@ -4787,6 +4854,15 @@
   - ravindran-kannan
   - michael-mahoney
   - david-woodruff
+- title: Robust and efficient multi-way spectral clustering
+  year: 2016
+  venue: arXiv (CoRR, abs/1609.08251) - preprint, no journal version found as of research
+    date
+  url: http://arxiv.org/abs/1609.08251
+  authors:
+  - lexing-ying
+  - anil-damle
+  note: Co-author Victor Minden is not a roster member.
 - title: Search Space Generation and Pruning System for Autotuners
   year: 2016
   venue: IPDPS Workshops
@@ -4918,6 +4994,14 @@
   authors:
   - erin-carson
   - nicholas-higham
+- title: A Recursive Skeletonization Factorization Based on Strong Admissibility
+  year: 2017
+  venue: Multiscale Model. Simul.
+  url: https://doi.org/10.1137/16M1095949
+  authors:
+  - lexing-ying
+  - anil-damle
+  note: Co-authors Victor Minden and Kenneth L. Ho are not roster members.
 - title: A Sampling Kaczmarz-Motzkin Algorithm for Linear Feasibility
   year: 2017
   venue: SIAM Journal on Scientific Computing
@@ -4939,6 +5023,14 @@
   authors:
   - santosh-vempala
   - david-woodruff
+- title: Adaptively Compressed Polarizability Operator for Accelerating Large Scale Ab Initio
+    Phonon Calculations
+  year: 2017
+  venue: Multiscale Model. Simul.
+  url: https://doi.org/10.1137/16M1077325
+  authors:
+  - lin-lin
+  - lexing-ying
 - title: Almost-linear-time algorithms for Markov chains and new spectral primitives for directed
     graphs
   year: 2017
@@ -5012,6 +5104,15 @@
   authors:
   - davide-palitta
   - valeria-simoncini
+- title: Computing Localized Representations of the Kohn-Sham Subspace Via Randomization and
+    Refinement
+  year: 2017
+  venue: SIAM J. Sci. Comput.
+  url: https://doi.org/10.1137/16M1098589
+  authors:
+  - lin-lin
+  - anil-damle
+  - lexing-ying
 - title: Computing Reduced Order Models via Inner-Outer Krylov Recycling in Diffuse Optical
     Tomography
   year: 2017
@@ -5070,6 +5171,14 @@
   authors:
   - ming-gu
   - julien-langou
+- title: Fast Spatial Gaussian Process Maximum Likelihood Estimation via Skeletonization Factorizations
+  year: 2017
+  venue: Multiscale Model. Simul.
+  url: https://doi.org/10.1137/17M1116477
+  authors:
+  - lexing-ying
+  - anil-damle
+  note: Co-authors Victor Minden and Kenneth L. Ho are not roster members.
 - title: Faster Kernel Ridge Regression Using Sketching and Preconditioning
   year: 2017
   venue: SIAM J. Matrix Anal. Appl.
@@ -5292,6 +5401,14 @@
   authors:
   - cameron-musco
   - christopher-musco
+- title: 'SCDM-k: Localized orbitals for solids via selected columns of the density matrix'
+  year: 2017
+  venue: J. Comput. Phys.
+  url: https://doi.org/10.1016/j.jcp.2016.12.053
+  authors:
+  - lin-lin
+  - anil-damle
+  - lexing-ying
 - title: Sampling random spanning trees faster than matrix multiplication
   year: 2017
   venue: STOC
@@ -5572,6 +5689,13 @@
   authors:
   - yin-tat-lee
   - santosh-vempala
+- title: 'Disentanglement via Entanglement: A Unified Method for Wannier Localization'
+  year: 2018
+  venue: Multiscale Model. Simul.
+  url: https://doi.org/10.1137/17M1129696
+  authors:
+  - lin-lin
+  - anil-damle
 - title: Distributed Second-order Convex Optimization
   year: 2018
   venue: arXiv
@@ -5945,6 +6069,13 @@
   authors:
   - elizaveta-rebrova
   - xiaoye-sherry-li
+- title: A Multiscale Neural Network Based on Hierarchical Matrices
+  year: 2019
+  venue: Multiscale Model. Simul.
+  url: https://doi.org/10.1137/18M1203602
+  authors:
+  - lin-lin
+  - lexing-ying
 - title: A New Approach to Probabilistic Rounding Error Analysis
   year: 2019
   venue: SIAM J. Sci. Comput.
@@ -6367,6 +6498,14 @@
   authors:
   - yin-tat-lee
   - aaron-sidford
+- title: Numerical methods for Kohn-Sham density functional theory
+  year: 2019
+  venue: Acta Numerica
+  url: https://doi.org/10.1017/S0962492919000047
+  authors:
+  - lin-lin
+  - lexing-ying
+  note: Co-author Jianfeng Lu (Duke) is not a roster member.
 - title: On Inferences from Completed Data
   year: 2019
   venue: arXiv
@@ -6600,6 +6739,14 @@
   authors:
   - tamas-sarlos
   - david-woodruff
+- title: Variational Formulation for Wannier Functions with Entangled Band Structure
+  year: 2019
+  venue: Multiscale Model. Simul.
+  url: https://doi.org/10.1137/18M1167164
+  authors:
+  - lin-lin
+  - anil-damle
+  note: Third author Antoine Levitt is not a roster member.
 - title: Variational perspective on local graph clustering
   year: 2019
   venue: Math. Program.
@@ -7329,6 +7476,14 @@
   authors:
   - jamie-haddock
   - deanna-needell
+- title: Semidefinite Relaxation of Multimarginal Optimal Transport for Strictly Correlated
+    Electrons in Second Quantization
+  year: 2020
+  venue: SIAM J. Sci. Comput.
+  url: https://doi.org/10.1137/20M1310977
+  authors:
+  - lin-lin
+  - lexing-ying
 - title: Sharper Probabilistic Backward Error Analysis for Basic Linear Algebra Kernels with
     Random Data
   year: 2020
@@ -8257,6 +8412,7 @@
   authors:
   - ethan-epperly
   - yuji-nakatsukasa
+  - lin-lin
 - title: A generalization of the randomized singular value decomposition
   year: 2022
   venue: ICLR
@@ -8688,6 +8844,13 @@
   authors:
   - christopher-beattie
   - akil-narayan
+- title: Monte Carlo Tree Search based Hybrid Optimization of Variational Quantum Circuits
+  year: 2022
+  venue: Mathematical and Scientific Machine Learning (MSML 2022), PMLR 190
+  url: https://proceedings.mlr.press/v190/yao22a.html
+  authors:
+  - lin-lin
+  - lexing-ying
 - title: Near-Optimal Algorithms for Linear Algebra in the Current Matrix Multiplication Time
   year: 2022
   venue: SODA
@@ -9215,6 +9378,13 @@
   authors:
   - swati-padmanabhan
   - david-woodruff
+- title: Computing Free Convolutions via Contour Integrals
+  year: 2023
+  venue: arXiv (CoRR abs/2305.01819) - preprint, no journal version found as of research date
+  url: https://doi.org/10.48550/arXiv.2305.01819
+  authors:
+  - lexing-ying
+  - alice-cortinovis
 - title: Condition-number-independent Convergence Rate of Riemannian Hamiltonian Monte Carlo
     with Numerical Integrators
   year: 2023
@@ -9273,6 +9443,13 @@
   authors:
   - harbir-antil
   - arvind-saibaba
+- title: Efficient long-range convolutions for point clouds
+  year: 2023
+  venue: J. Comput. Phys.
+  url: https://doi.org/10.1016/j.jcp.2022.111692
+  authors:
+  - lin-lin
+  - lexing-ying
 - title: Elliptic PDE learning is provably data-efficient
   year: 2023
   venue: CoRR
@@ -10552,6 +10729,14 @@
   authors:
   - jelani-nelson
   - samson-zhou
+- title: 'Quantum Multiple Eigenvalue Gaussian filtered Search: an efficient and versatile
+    quantum phase estimation method'
+  year: 2024
+  venue: Quantum
+  url: https://doi.org/10.22331/q-2024-10-02-1487
+  authors:
+  - lin-lin
+  - lexing-ying
 - title: Randomized Kaczmarz with tail averaging
   year: 2024
   venue: CoRR
@@ -10787,6 +10972,14 @@
   authors:
   - thomas-trogdon
   - heather-wilber
+- title: 'The ESPRIT Algorithm Under High Noise: Optimal Error Scaling and Noisy Super-Resolution'
+  year: 2024
+  venue: FOCS 2024 (IEEE 65th Annual Symposium on Foundations of Computer Science)
+  url: https://doi.org/10.1109/FOCS61266.2024.00137
+  authors:
+  - lin-lin
+  - ethan-epperly
+  note: Co-authors Zhiyan Ding and Ruizhe Zhang are not roster members.
 - title: Theoretical Foundations of Good Simulation Practice
   year: 2024
   venue: Synthesis lectures on biomedical engineering
@@ -10899,6 +11092,14 @@
   authors:
   - linkai-ma
   - petros-drineas
+- title: A Sublinear-Time Randomized Algorithm for Column and Row Subset Selection Based on
+    Strong Rank-Revealing QR Factorizations
+  year: 2025
+  venue: SIAM J. Matrix Anal. Appl.
+  url: https://doi.org/10.1137/24m164063x
+  authors:
+  - lexing-ying
+  - alice-cortinovis
 - title: A Subspace-Conjugate Gradient Method for Linear Matrix Equations
   year: 2025
   venue: SIAM Journal on Matrix Analysis and Applications
@@ -11343,6 +11544,14 @@
   authors:
   - benjamin-carrel
   - daniel-kressner
+- title: Inverse nonlinear fast Fourier transform on SU(2) with applications to quantum signal
+    processing
+  year: 2025
+  venue: arXiv (CoRR abs/2505.12615) - preprint, no journal version found as of research date
+  url: https://doi.org/10.48550/arXiv.2505.12615
+  authors:
+  - lin-lin
+  - lexing-ying
 - title: Iterative Reconstruction Methods for Cosmological X-Ray Tomography
   year: 2025
   venue: SIAM Journal on Imaging Sciences
@@ -12408,6 +12617,14 @@
   authors:
   - michael-mahoney
   - benjamin-erichson
+- title: Laplace Transform-Based Quantum Eigenvalue Transformation via Linear Combination
+    of Hamiltonian Simulation
+  year: 2026
+  venue: SIAM J. Comput.
+  url: https://doi.org/10.1137/24m1720160
+  authors:
+  - lin-lin
+  - lexing-ying
 - title: Latent Space Inference via Paired Autoencoders
   year: 2026
   venue: arXiv

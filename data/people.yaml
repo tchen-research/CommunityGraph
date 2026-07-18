@@ -866,15 +866,20 @@
   - operator-learning
   notes: 'Fast algorithms: butterfly factorizations, sparsifying preconditioners, low-rank
     structure.'
+  website: https://web.stanford.edu/~lexing/
+  photo: https://web.stanford.edu/~lexing/hi.jpg
 - id: lin-lin
   name: Lin Lin
-  affiliation: University of California, Berkeley
+  affiliation: California Institute of Technology
   area: krylov
   topics:
   - eigenvalue
   - quantum
   - fast-solvers
-  notes: Electronic-structure numerics (PEXSI, SCDM); quantum algorithms for linear algebra.
+  notes: Electronic-structure numerics (PEXSI, SCDM) and quantum algorithms for linear algebra;
+    moved to Caltech in 2026 (previously UC Berkeley).
+  website: https://lin.caltech.edu/
+  photo: https://lin.caltech.edu/images/Lin.jpg
 - id: linkai-ma
   name: Linkai Ma
   affiliation: Purdue University

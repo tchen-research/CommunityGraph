@@ -1,0 +1,265 @@
+people:
+  - id: lin-lin
+    website: "https://lin.caltech.edu/"
+    photo: "https://lin.caltech.edu/images/Lin.jpg"
+    notes: "DBLP pid 00/3361-1 (disambiguated as 'Lin Lin 0001' via SCDM/PEXSI/Damle-Lin-Ying papers). As of 2026 she holds the Judge Shirley Hufstedler Professorship at Caltech (Computing and Mathematical Sciences) while also listed as Professor of Mathematics, UC Berkeley (2025-present) / Senior Faculty Scientist, LBNL; her Berkeley homepage (math.berkeley.edu/~linlin/) now redirects to lin.caltech.edu, which she says she is 'actively maintaining' during the leave. Roster affiliation (UC Berkeley) left unchanged per task scope."
+    advising:
+      - person: anil-damle
+        relation: postdoc-advisor
+        note: "Anil Damle was an NSF postdoctoral scholar under Lin Lin, 2016-2017 (immediately after his PhD with Lexing Ying)."
+        source: "https://lin.caltech.edu/people.html"
+      - person: ethan-epperly
+        relation: postdoc-advisor
+        note: "Ethan Epperly is a current Miller Postdoctoral Fellow mentored by Lin Lin (Miller Fellowship is administered via UC Berkeley Mathematics)."
+        source: "https://lin.caltech.edu/people.html"
+    papers:
+      - title: "Pole Expansion for Solving a Type of Parametrized Linear Systems in Electronic Structure Calculations"
+        year: 2014
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/130944825"
+        authors: [lin-lin, anil-damle, lexing-ying]
+      - title: "SCDM-k: Localized orbitals for solids via selected columns of the density matrix"
+        year: 2017
+        venue: "J. Comput. Phys."
+        url: "https://doi.org/10.1016/j.jcp.2016.12.053"
+        authors: [lin-lin, anil-damle, lexing-ying]
+      - title: "Computing Localized Representations of the Kohn-Sham Subspace Via Randomization and Refinement"
+        year: 2017
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/16M1098589"
+        authors: [lin-lin, anil-damle, lexing-ying]
+      - title: "Disentanglement via Entanglement: A Unified Method for Wannier Localization"
+        year: 2018
+        venue: "Multiscale Model. Simul."
+        url: "https://doi.org/10.1137/17M1129696"
+        authors: [lin-lin, anil-damle]
+      - title: "Variational Formulation for Wannier Functions with Entangled Band Structure"
+        year: 2019
+        venue: "Multiscale Model. Simul."
+        url: "https://doi.org/10.1137/18M1167164"
+        authors: [lin-lin, anil-damle]
+        note: "Third author Antoine Levitt is not a roster member."
+      - title: "Approximating Spectral Densities of Large Matrices"
+        year: 2016
+        venue: "SIAM Rev."
+        url: "https://doi.org/10.1137/130934283"
+        authors: [lin-lin, yousef-saad]
+        note: "Third author Chao Yang (LBNL) is NOT the same person as any roster member; excluded from authors list per task instructions."
+      - title: "A Theory of Quantum Subspace Diagonalization"
+        year: 2022
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/21m145954x"
+        authors: [lin-lin, ethan-epperly, yuji-nakatsukasa]
+      - title: "The ESPRIT Algorithm Under High Noise: Optimal Error Scaling and Noisy Super-Resolution"
+        year: 2024
+        venue: "FOCS 2024 (IEEE 65th Annual Symposium on Foundations of Computer Science)"
+        url: "https://doi.org/10.1109/FOCS61266.2024.00137"
+        authors: [lin-lin, ethan-epperly]
+        note: "Co-authors Zhiyan Ding and Ruizhe Zhang are not roster members."
+      - title: "Numerical methods for Kohn-Sham density functional theory"
+        year: 2019
+        venue: "Acta Numerica"
+        url: "https://doi.org/10.1017/S0962492919000047"
+        authors: [lin-lin, lexing-ying]
+        note: "Co-author Jianfeng Lu (Duke) is not a roster member."
+      - title: "A Multiscale Neural Network Based on Hierarchical Matrices"
+        year: 2019
+        venue: "Multiscale Model. Simul."
+        url: "https://doi.org/10.1137/18M1203602"
+        authors: [lin-lin, lexing-ying]
+      - title: "Adaptively Compressed Polarizability Operator for Accelerating Large Scale Ab Initio Phonon Calculations"
+        year: 2017
+        venue: "Multiscale Model. Simul."
+        url: "https://doi.org/10.1137/16M1077325"
+        authors: [lin-lin, lexing-ying]
+      - title: "Semidefinite Relaxation of Multimarginal Optimal Transport for Strictly Correlated Electrons in Second Quantization"
+        year: 2020
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/20M1310977"
+        authors: [lin-lin, lexing-ying]
+      - title: "Efficient long-range convolutions for point clouds"
+        year: 2023
+        venue: "J. Comput. Phys."
+        url: "https://doi.org/10.1016/j.jcp.2022.111692"
+        authors: [lin-lin, lexing-ying]
+      - title: "Monte Carlo Tree Search based Hybrid Optimization of Variational Quantum Circuits"
+        year: 2022
+        venue: "Mathematical and Scientific Machine Learning (MSML 2022), PMLR 190"
+        url: "https://proceedings.mlr.press/v190/yao22a.html"
+        authors: [lin-lin, lexing-ying]
+      - title: "Quantum Multiple Eigenvalue Gaussian filtered Search: an efficient and versatile quantum phase estimation method"
+        year: 2024
+        venue: "Quantum"
+        url: "https://doi.org/10.22331/q-2024-10-02-1487"
+        authors: [lin-lin, lexing-ying]
+      - title: "Laplace Transform-Based Quantum Eigenvalue Transformation via Linear Combination of Hamiltonian Simulation"
+        year: 2026
+        venue: "SIAM J. Comput."
+        url: "https://doi.org/10.1137/24m1720160"
+        authors: [lin-lin, lexing-ying]
+      - title: "Inverse nonlinear fast Fourier transform on SU(2) with applications to quantum signal processing"
+        year: 2025
+        venue: "arXiv (CoRR abs/2505.12615) - preprint, no journal version found as of research date"
+        url: "https://doi.org/10.48550/arXiv.2505.12615"
+        authors: [lin-lin, lexing-ying]
+      - title: "Adaptive local basis set for Kohn-Sham density functional theory in a discontinuous Galerkin framework I: Total energy calculation"
+        year: 2012
+        venue: "J. Comput. Phys."
+        url: "https://doi.org/10.1016/j.jcp.2011.11.032"
+        authors: [lin-lin, lexing-ying]
+        note: "Co-author Weinan E (Lin Lin's PhD advisor) is not a roster member."
+      - title: "Optimized local basis set for Kohn-Sham density functional theory"
+        year: 2012
+        venue: "J. Comput. Phys."
+        url: "https://doi.org/10.1016/j.jcp.2012.03.009"
+        authors: [lin-lin, lexing-ying]
+      - title: "Fast construction of hierarchical matrix representation from matrix-vector multiplication"
+        year: 2011
+        venue: "J. Comput. Phys."
+        url: "https://doi.org/10.1016/j.jcp.2011.02.033"
+        authors: [lin-lin, lexing-ying]
+      - title: "A Fast Parallel Algorithm for Selected Inversion of Structured Sparse Matrices with Application to 2D Electronic Structure Calculations"
+        year: 2011
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/09077432X"
+        authors: [lin-lin, lexing-ying]
+        note: "Co-author Chao Yang (LBNL) excluded - not a roster member (roster has no chao-yang id)."
+      - title: "SelInv - An Algorithm for Selected Inversion of a Sparse Symmetric Matrix"
+        year: 2011
+        venue: "ACM Trans. Math. Softw."
+        url: "https://doi.org/10.1145/1916461.1916464"
+        authors: [lin-lin, lexing-ying]
+
+  - id: lexing-ying
+    website: "https://web.stanford.edu/~lexing/"
+    photo: "https://web.stanford.edu/~lexing/hi.jpg"
+    notes: "DBLP pid 68/3945 (unambiguous single-cluster record). Advisor/postdoc list below scraped from his Stanford homepage 'Students and postdocs' section, cross-checked against the roster."
+    advising:
+      - person: anil-damle
+        relation: phd-advisor
+        note: "Anil Damle was Lexing Ying's PhD student, graduated 2016 (Stanford), immediately followed by an NSF postdoc under Lin Lin 2016-2017."
+        source: "https://web.stanford.edu/~lexing/"
+      - person: alice-cortinovis
+        relation: postdoc-advisor
+        note: "Alice Cortinovis was a postdoc under Lexing Ying, 2024 (co-advised with Emmanuel Candes, not a roster member)."
+        source: "https://web.stanford.edu/~lexing/"
+    papers:
+      - title: "Laplace Transform-Based Quantum Eigenvalue Transformation via Linear Combination of Hamiltonian Simulation"
+        year: 2026
+        venue: "SIAM J. Comput."
+        url: "https://doi.org/10.1137/24m1720160"
+        authors: [lexing-ying, lin-lin]
+      - title: "A Sublinear-Time Randomized Algorithm for Column and Row Subset Selection Based on Strong Rank-Revealing QR Factorizations"
+        year: 2025
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/24m164063x"
+        authors: [lexing-ying, alice-cortinovis]
+      - title: "Inverse nonlinear fast Fourier transform on SU(2) with applications to quantum signal processing"
+        year: 2025
+        venue: "arXiv (CoRR abs/2505.12615) - preprint, no journal version found as of research date"
+        url: "https://doi.org/10.48550/arXiv.2505.12615"
+        authors: [lexing-ying, lin-lin]
+      - title: "Quantum Multiple Eigenvalue Gaussian filtered Search: an efficient and versatile quantum phase estimation method"
+        year: 2024
+        venue: "Quantum"
+        url: "https://doi.org/10.22331/q-2024-10-02-1487"
+        authors: [lexing-ying, lin-lin]
+      - title: "Efficient long-range convolutions for point clouds"
+        year: 2023
+        venue: "J. Comput. Phys."
+        url: "https://doi.org/10.1016/j.jcp.2022.111692"
+        authors: [lexing-ying, lin-lin]
+      - title: "Computing Free Convolutions via Contour Integrals"
+        year: 2023
+        venue: "arXiv (CoRR abs/2305.01819) - preprint, no journal version found as of research date"
+        url: "https://doi.org/10.48550/arXiv.2305.01819"
+        authors: [lexing-ying, alice-cortinovis]
+      - title: "Monte Carlo Tree Search based Hybrid Optimization of Variational Quantum Circuits"
+        year: 2022
+        venue: "Mathematical and Scientific Machine Learning (MSML 2022), PMLR 190"
+        url: "https://proceedings.mlr.press/v190/yao22a.html"
+        authors: [lexing-ying, lin-lin]
+      - title: "Semidefinite Relaxation of Multimarginal Optimal Transport for Strictly Correlated Electrons in Second Quantization"
+        year: 2020
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/20M1310977"
+        authors: [lexing-ying, lin-lin]
+      - title: "Numerical methods for Kohn-Sham density functional theory"
+        year: 2019
+        venue: "Acta Numerica"
+        url: "https://doi.org/10.1017/S0962492919000047"
+        authors: [lexing-ying, lin-lin]
+      - title: "A Multiscale Neural Network Based on Hierarchical Matrices"
+        year: 2019
+        venue: "Multiscale Model. Simul."
+        url: "https://doi.org/10.1137/18M1203602"
+        authors: [lexing-ying, lin-lin]
+      - title: "SCDM-k: Localized orbitals for solids via selected columns of the density matrix"
+        year: 2017
+        venue: "J. Comput. Phys."
+        url: "https://doi.org/10.1016/j.jcp.2016.12.053"
+        authors: [lexing-ying, anil-damle, lin-lin]
+      - title: "Adaptively Compressed Polarizability Operator for Accelerating Large Scale Ab Initio Phonon Calculations"
+        year: 2017
+        venue: "Multiscale Model. Simul."
+        url: "https://doi.org/10.1137/16M1077325"
+        authors: [lexing-ying, lin-lin]
+      - title: "A Recursive Skeletonization Factorization Based on Strong Admissibility"
+        year: 2017
+        venue: "Multiscale Model. Simul."
+        url: "https://doi.org/10.1137/16M1095949"
+        authors: [lexing-ying, anil-damle]
+        note: "Co-authors Victor Minden and Kenneth L. Ho are not roster members."
+      - title: "Fast Spatial Gaussian Process Maximum Likelihood Estimation via Skeletonization Factorizations"
+        year: 2017
+        venue: "Multiscale Model. Simul."
+        url: "https://doi.org/10.1137/17M1116477"
+        authors: [lexing-ying, anil-damle]
+        note: "Co-authors Victor Minden and Kenneth L. Ho are not roster members."
+      - title: "Computing Localized Representations of the Kohn-Sham Subspace Via Randomization and Refinement"
+        year: 2017
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/16M1098589"
+        authors: [lexing-ying, anil-damle, lin-lin]
+      - title: "A Technique for Updating Hierarchical Skeletonization-Based Factorizations of Integral Operators"
+        year: 2016
+        venue: "Multiscale Model. Simul."
+        url: "https://doi.org/10.1137/15M1024500"
+        authors: [lexing-ying, anil-damle]
+        note: "Co-authors Victor Minden and Kenneth L. Ho are not roster members."
+      - title: "Robust and efficient multi-way spectral clustering"
+        year: 2016
+        venue: "arXiv (CoRR, abs/1609.08251) - preprint, no journal version found as of research date"
+        url: "http://arxiv.org/abs/1609.08251"
+        authors: [lexing-ying, anil-damle]
+        note: "Co-author Victor Minden is not a roster member."
+      - title: "Pole Expansion for Solving a Type of Parametrized Linear Systems in Electronic Structure Calculations"
+        year: 2014
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/130944825"
+        authors: [lexing-ying, anil-damle, lin-lin]
+      - title: "Adaptive local basis set for Kohn-Sham density functional theory in a discontinuous Galerkin framework I: Total energy calculation"
+        year: 2012
+        venue: "J. Comput. Phys."
+        url: "https://doi.org/10.1016/j.jcp.2011.11.032"
+        authors: [lexing-ying, lin-lin]
+      - title: "Optimized local basis set for Kohn-Sham density functional theory"
+        year: 2012
+        venue: "J. Comput. Phys."
+        url: "https://doi.org/10.1016/j.jcp.2012.03.009"
+        authors: [lexing-ying, lin-lin]
+      - title: "Fast construction of hierarchical matrix representation from matrix-vector multiplication"
+        year: 2011
+        venue: "J. Comput. Phys."
+        url: "https://doi.org/10.1016/j.jcp.2011.02.033"
+        authors: [lexing-ying, lin-lin]
+      - title: "A Fast Parallel Algorithm for Selected Inversion of Structured Sparse Matrices with Application to 2D Electronic Structure Calculations"
+        year: 2011
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/09077432X"
+        authors: [lexing-ying, lin-lin]
+      - title: "SelInv - An Algorithm for Selected Inversion of a Sparse Symmetric Matrix"
+        year: 2011
+        venue: "ACM Trans. Math. Softw."
+        url: "https://doi.org/10.1145/1916461.1916464"
+        authors: [lexing-ying, lin-lin]

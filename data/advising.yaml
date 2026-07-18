@@ -82,3 +82,9 @@
 - {advisor: petros-drineas, student: christos-boutsidis, kind: phd}
 - {advisor: yousef-saad, student: vasileios-kalantzis, kind: phd}
 - {advisor: michele-benzi, student: igor-simunec, kind: phd}
+
+# --- Lin Lin / Lexing Ying additions (July 2026) ---
+- {advisor: lexing-ying, student: anil-damle, kind: phd}
+- {advisor: lin-lin, student: anil-damle, kind: postdoc}
+- {advisor: lin-lin, student: ethan-epperly, kind: postdoc}
+- {advisor: lexing-ying, student: alice-cortinovis, kind: postdoc}
