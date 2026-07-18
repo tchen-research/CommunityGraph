@@ -1,0 +1,2815 @@
+people:
+- id: per-gunnar-martinsson
+  papers:
+  - title: On the Compression of Low Rank Matrices
+    year: 2005
+    venue: SIAM J. Sci. Comput.
+    url: https://doi.org/10.1137/030602678
+    authors:
+    - per-gunnar-martinsson
+    - vladimir-rokhlin
+  - title: A fast direct solver for scattering problems involving elongated structures
+    year: 2007
+    venue: J. Comput. Phys.
+    url: https://doi.org/10.1016/j.jcp.2006.06.037
+    authors:
+    - per-gunnar-martinsson
+    - vladimir-rokhlin
+  - title: An Accelerated Kernel-Independent Fast Multipole Method in One Dimension
+    year: 2007
+    venue: SIAM J. Sci. Comput.
+    url: https://doi.org/10.1137/060662253
+    authors:
+    - per-gunnar-martinsson
+    - vladimir-rokhlin
+  - title: An Algorithm for the Principal Component Analysis of Large Data Sets
+    year: 2011
+    venue: SIAM J. Sci. Comput.
+    url: https://doi.org/10.1137/100804139
+    authors:
+    - per-gunnar-martinsson
+    - mark-tygert
+  - title: 'Finding Structure with Randomness: Probabilistic Algorithms for Constructing Approximate Matrix
+      Decompositions'
+    year: 2011
+    venue: SIAM Rev.
+    url: https://doi.org/10.1137/090771806
+    authors:
+    - per-gunnar-martinsson
+    - joel-tropp
+  - title: 'Randomized numerical linear algebra: Foundations and algorithms'
+    year: 2020
+    venue: Acta Numer.
+    url: https://doi.org/10.1017/S0962492920000021
+    authors:
+    - per-gunnar-martinsson
+    - joel-tropp
+  - title: Randomized Algorithms for Scientific Computing (RASC)
+    year: 2021
+    venue: CoRR
+    url: https://arxiv.org/abs/2104.11079
+    authors:
+    - per-gunnar-martinsson
+    - jelani-nelson
+  - title: 'Simpler is better: A comparative study of randomized algorithms for computing the CUR decomposition'
+    year: 2021
+    venue: CoRR
+    url: https://arxiv.org/abs/2104.05877
+    authors:
+    - yijun-dong
+    - per-gunnar-martinsson
+  - title: Parallel Optimizations for the Hierarchical Poincaré-Steklov Scheme (HPS)
+    year: 2022
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2211.14969
+    authors:
+    - anna-yesypenko
+    - per-gunnar-martinsson
+  - title: 'SlabLU: A Sparse Direct Solver for Elliptic PDEs on Rectangular Domains'
+    year: 2022
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2211.07572
+    authors:
+    - anna-yesypenko
+    - per-gunnar-martinsson
+  - title: 'Randomized Strong Recursive Skeletonization: Simultaneous compression and factorization of
+      H-matrices in the Black-Box Setting'
+    year: 2023
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2311.01451
+    authors:
+    - anna-yesypenko
+    - per-gunnar-martinsson
+  - title: 'Simpler is better: a comparative study of randomized pivoting algorithms for CUR and interpolative
+      decompositions'
+    year: 2023
+    venue: Adv. Comput. Math.
+    url: https://doi.org/10.1007/s10444-023-10061-z
+    authors:
+    - yijun-dong
+    - per-gunnar-martinsson
+  - title: 'SkelFMM: A Simplified Fast Multipole Method Based on Recursive Skeletonization'
+    year: 2023
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2310.16668
+    authors:
+    - anna-yesypenko
+    - per-gunnar-martinsson
+  - title: Efficient Bounds and Estimates for Canonical Angles in Randomized Subspace Approximations
+    year: 2024
+    venue: SIAM J. Matrix Anal. Appl.
+    url: https://doi.org/10.1137/23m1584733
+    authors:
+    - yijun-dong
+    - per-gunnar-martinsson
+    - yuji-nakatsukasa
+  - title: 'SlabLU: a two-level sparse direct solver for elliptic PDEs'
+    year: 2024
+    venue: Adv. Comput. Math.
+    url: https://doi.org/10.1007/s10444-024-10176-x
+    authors:
+    - anna-yesypenko
+    - per-gunnar-martinsson
+  - title: A Two-Level Direct Solver for the Hierarchical Poincaré-Steklov Method
+    year: 2025
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2503.04033
+    authors:
+    - anna-yesypenko
+    - per-gunnar-martinsson
+  - title: A fast spectral overlapping domain decomposition method with discretization-independent conditioning
+      bounds
+    year: 2025
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2510.25991
+    authors:
+    - anna-yesypenko
+    - per-gunnar-martinsson
+  - title: A simplified fast multipole method based on strong recursive skeletonization
+    year: 2025
+    venue: J. Comput. Phys.
+    url: https://doi.org/10.1016/j.jcp.2024.113707
+    authors:
+    - anna-yesypenko
+    - per-gunnar-martinsson
+  - title: A time-frequency method for acoustic scattering with trapping
+    year: 2025
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2506.15165
+    authors:
+    - heather-wilber
+    - per-gunnar-martinsson
+  - title: Adaptive Parallelizable Algorithms for Interpolative Decompositions via Partially Pivoted LU
+    year: 2025
+    venue: Numer. Linear Algebra Appl.
+    url: https://doi.org/10.1002/nla.70002
+    authors:
+    - katherine-pearce
+    - yijun-dong
+    - per-gunnar-martinsson
+  - title: Fast Rank Adaptive CUR via a Recycled Small Sketch
+    year: 2025
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2509.21963
+    authors:
+    - taejun-park
+    - yuji-nakatsukasa
+    - per-gunnar-martinsson
+  - title: Randomized Algorithms for Low-Rank Matrix and Tensor Decompositions
+    year: 2025
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2512.05286
+    authors:
+    - katherine-pearce
+    - per-gunnar-martinsson
+  - title: Randomized Rank-Structured Matrix Compression by Tagging
+    year: 2025
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2501.05528
+    authors:
+    - katherine-pearce
+    - anna-yesypenko
+    - per-gunnar-martinsson
+  - title: 'Robust Blockwise Random Pivoting: Fast and Accurate Adaptive Interpolative Decomposition'
+    year: 2025
+    venue: SIAM J. Matrix Anal. Appl.
+    url: https://doi.org/10.1137/24m1678027
+    authors:
+    - yijun-dong
+    - per-gunnar-martinsson
+    - katherine-pearce
+  - title: 'Randomized Strong Recursive Skeletonization: Simultaneous Compression and LU Factorization
+      of Hierarchical Matrices using Matrix-Vector Products'
+    year: 2026
+    venue: J. Sci. Comput.
+    url: https://doi.org/10.1007/s10915-025-03157-9
+    authors:
+    - anna-yesypenko
+    - per-gunnar-martinsson
+- id: joel-tropp
+  papers:
+  - title: Greedy signal recovery review
+    year: 2008
+    venue: ACSCC
+    url: https://doi.org/10.1109/ACSSC.2008.5074572
+    authors:
+    - deanna-needell
+    - joel-tropp
+  - title: 'CoSaMP: iterative signal recovery from incomplete and inaccurate samples'
+    year: 2010
+    venue: Commun. ACM
+    url: https://doi.org/10.1145/1859204.1859229
+    authors:
+    - deanna-needell
+    - joel-tropp
+  - title: 'Finding Structure with Randomness: Probabilistic Algorithms for Constructing Approximate Matrix
+      Decompositions'
+    year: 2011
+    venue: SIAM Rev.
+    url: https://doi.org/10.1137/090771806
+    authors:
+    - per-gunnar-martinsson
+    - joel-tropp
+  - title: 'Paved with Good Intentions: Analysis of a Randomized Block Kaczmarz Method'
+    year: 2012
+    venue: CoRR
+    url: http://arxiv.org/abs/1208.3805
+    authors:
+    - deanna-needell
+    - joel-tropp
+  - title: Randomized single-view algorithms for low-rank matrix approximation
+    year: 2016
+    venue: CoRR
+    url: http://arxiv.org/abs/1609.00048
+    authors:
+    - joel-tropp
+    - madeleine-udell
+  - title: Fixed-Rank Approximation of a Positive-Semidefinite Matrix from Streaming Data
+    year: 2017
+    venue: NIPS
+    url: https://proceedings.neurips.cc/paper/2017/hash/4558dbb6f6f8bb2e16d03b85bde76e2c-Abstract.html
+    authors:
+    - joel-tropp
+    - madeleine-udell
+  - title: Practical Sketching Algorithms for Low-Rank Matrix Approximation
+    year: 2017
+    venue: SIAM J. Matrix Anal. Appl.
+    url: https://doi.org/10.1137/17M1111590
+    authors:
+    - joel-tropp
+    - madeleine-udell
+  - title: 'Sketchy Decisions: Convex Low-Rank Matrix Optimization with Optimal Storage'
+    year: 2017
+    venue: AISTATS
+    url: http://proceedings.mlr.press/v54/yurtsever17a.html
+    authors:
+    - madeleine-udell
+    - joel-tropp
+  - title: Streaming Low-Rank Matrix Approximation with an Application to Scientific Simulation
+    year: 2019
+    venue: SIAM J. Sci. Comput.
+    url: https://doi.org/10.1137/18M1201068
+    authors:
+    - joel-tropp
+    - madeleine-udell
+  - title: Low-Rank Tucker Approximation of a Tensor from Streaming Data
+    year: 2020
+    venue: SIAM J. Math. Data Sci.
+    url: https://doi.org/10.1137/19M1257718
+    authors:
+    - joel-tropp
+    - madeleine-udell
+  - title: 'Randomized numerical linear algebra: Foundations and algorithms'
+    year: 2020
+    venue: Acta Numer.
+    url: https://doi.org/10.1017/S0962492920000021
+    authors:
+    - per-gunnar-martinsson
+    - joel-tropp
+  - title: An Optimal-Storage Approach to Semidefinite Programming Using Approximate Complementarity
+    year: 2021
+    venue: SIAM J. Optim.
+    url: https://doi.org/10.1137/19M1244603
+    authors:
+    - joel-tropp
+    - madeleine-udell
+  - title: Scalable Semidefinite Programming
+    year: 2021
+    venue: SIAM J. Math. Data Sci.
+    url: https://doi.org/10.1137/19M1305045
+    authors:
+    - joel-tropp
+    - madeleine-udell
+  - title: Tensor Random Projection for Low Memory Dimension Reduction
+    year: 2021
+    venue: CoRR
+    url: https://arxiv.org/abs/2105.00105
+    authors:
+    - joel-tropp
+    - madeleine-udell
+  - title: Jackknife Variability Estimation For Randomized Matrix Computations
+    year: 2022
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2207.06342
+    authors:
+    - ethan-epperly
+    - joel-tropp
+  - title: Matrix Concentration for Products
+    year: 2022
+    venue: Found. Comput. Math.
+    url: https://doi.org/10.1007/s10208-021-09533-9
+    authors:
+    - joel-tropp
+    - rachel-ward
+  - title: 'Randomly pivoted Cholesky: Practical approximation of a kernel matrix with few entry evaluations'
+    year: 2022
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2207.06503
+    authors:
+    - ethan-epperly
+    - joel-tropp
+    - robert-webber
+  - title: Learning to Forecast Dynamical Systems from Streaming Data
+    year: 2023
+    venue: SIAM J. Appl. Dyn. Syst.
+    url: https://doi.org/10.1137/21m144983x
+    authors:
+    - joel-tropp
+    - rachel-ward
+  - title: Randomized Nyström Preconditioning
+    year: 2023
+    venue: SIAM J. Matrix Anal. Appl.
+    url: https://doi.org/10.1137/21m1466244
+    authors:
+    - joel-tropp
+    - madeleine-udell
+  - title: 'Randomized algorithms for low-rank matrix approximation: Design, analysis, and applications'
+    year: 2023
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2306.12418
+    authors:
+    - joel-tropp
+    - robert-webber
+  - title: Robust, randomized preconditioning for kernel ridge regression
+    year: 2023
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2304.12465
+    authors:
+    - ethan-epperly
+    - joel-tropp
+    - robert-webber
+  - title: Efficient Error and Variance Estimation for Randomized Matrix Computations
+    year: 2024
+    venue: SIAM J. Sci. Comput.
+    url: https://doi.org/10.1137/23m1558537
+    authors:
+    - ethan-epperly
+    - joel-tropp
+  - title: Fast and Accurate Randomized Algorithms for Linear Systems and Eigenvalue Problems
+    year: 2024
+    venue: SIAM J. Matrix Anal. Appl.
+    url: https://doi.org/10.1137/23m1565413
+    authors:
+    - yuji-nakatsukasa
+    - joel-tropp
+  - title: 'XTrace: Making the Most of Every Sample in Stochastic Trace Estimation'
+    year: 2024
+    venue: SIAM J. Matrix Anal. Appl.
+    url: https://doi.org/10.1137/23m1548323
+    authors:
+    - ethan-epperly
+    - joel-tropp
+    - robert-webber
+  - title: 'Embrace Rejection: Kernel Matrix Approximation by Accelerated Randomly Pivoted Cholesky'
+    year: 2025
+    venue: SIAM J. Matrix Anal. Appl.
+    url: https://doi.org/10.1137/24m1699048
+    authors:
+    - ethan-epperly
+    - joel-tropp
+    - robert-webber
+  - title: Faster Linear Algebra Algorithms with Structured Random Matrices
+    year: 2025
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2508.21189
+    authors:
+    - ethan-epperly
+    - raphael-meyer
+    - joel-tropp
+    - chris-camano
+  - title: Linear algebra at exponential scale via tensor network dimension reduction
+    year: 2026
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2606.15350
+    authors:
+    - ethan-epperly
+    - raphael-meyer
+    - joel-tropp
+    - chris-camano
+  - title: 'Successive randomized compression: A randomized algorithm for the compressed MPO-MPS product'
+    year: 2026
+    venue: Quantum
+    url: https://doi.org/10.22331/q-2026-03-10-2022
+    authors:
+    - ethan-epperly
+    - joel-tropp
+    - chris-camano
+- id: yuji-nakatsukasa
+  papers:
+  - title: Optimizing Halley's Iteration for Computing the Matrix Polar Decomposition
+    year: 2010
+    venue: SIAM J. Matrix Anal. Appl.
+    url: https://doi.org/10.1137/090774999
+    authors:
+    - yuji-nakatsukasa
+    - zhaojun-bai
+  - title: Backward Stability of Iterations for Computing the Polar Decomposition
+    year: 2012
+    venue: SIAM J. Matrix Anal. Appl.
+    url: https://doi.org/10.1137/110857544
+    authors:
+    - yuji-nakatsukasa
+    - nicholas-higham
+  - title: Stable and Efficient Spectral Divide and Conquer Algorithms for the Symmetric Eigenvalue Decomposition
+      and the SVD
+    year: 2013
+    venue: SIAM J. Sci. Comput.
+    url: https://doi.org/10.1137/120876605
+    authors:
+    - yuji-nakatsukasa
+    - nicholas-higham
+  - title: Computing the common zeros of two bivariate functions via Bézout resultants
+    year: 2015
+    venue: Numerische Mathematik
+    url: https://doi.org/10.1007/s00211-014-0635-z
+    authors:
+    - yuji-nakatsukasa
+    - alex-townsend
+  - title: 'Vector Spaces of Linearizations for Matrix Polynomials: A Bivariate Polynomial Approach'
+    year: 2017
+    venue: SIAM J. Matrix Anal. Appl.
+    url: https://doi.org/10.1137/15M1013286
+    authors:
+    - yuji-nakatsukasa
+    - alex-townsend
+  - title: Classification of chaotic time series with deep learning
+    year: 2019
+    venue: CoRR
+    url: http://arxiv.org/abs/1908.06848
+    authors:
+    - nicolas-boulle
+    - yuji-nakatsukasa
+  - title: Rational neural networks
+    year: 2020
+    venue: NeurIPS
+    url: https://proceedings.neurips.cc/paper/2020/hash/a3f390d88e4c41f2747bfa2f1b5f87db-Abstract.html
+    authors:
+    - nicolas-boulle
+    - yuji-nakatsukasa
+    - alex-townsend
+  - title: Error Localization of Best L1 Polynomial Approximants
+    year: 2021
+    venue: SIAM J. Numer. Anal.
+    url: https://doi.org/10.1137/19M1242860
+    authors:
+    - yuji-nakatsukasa
+    - alex-townsend
+  - title: A Fast Randomized Algorithm for computing the Null Space
+    year: 2022
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2206.00975
+    authors:
+    - yuji-nakatsukasa
+    - taejun-park
+  - title: A Theory of Quantum Subspace Diagonalization
+    year: 2022
+    venue: SIAM J. Matrix Anal. Appl.
+    url: https://doi.org/10.1137/21m145954x
+    authors:
+    - ethan-epperly
+    - yuji-nakatsukasa
+  - title: Speeding up Krylov subspace methods for computing f(A)b via randomization
+    year: 2022
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2212.12758
+    authors:
+    - alice-cortinovis
+    - daniel-kressner
+    - yuji-nakatsukasa
+  - title: Approximating Sparse Matrices and their Functions using Matrix-vector products
+    year: 2023
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2310.05625
+    authors:
+    - taejun-park
+    - yuji-nakatsukasa
+  - title: Randomized Low-Rank Approximation for Symmetric Indefinite Matrices
+    year: 2023
+    venue: SIAM J. Matrix Anal. Appl.
+    url: https://doi.org/10.1137/22m1538648
+    authors:
+    - yuji-nakatsukasa
+    - taejun-park
+  - title: Are Sketch-and-Precondition Least Squares Solvers Numerically Stable?
+    year: 2024
+    venue: SIAM J. Matrix Anal. Appl.
+    url: https://doi.org/10.1137/23m1551973
+    authors:
+    - yuji-nakatsukasa
+    - alex-townsend
+  - title: Efficient Bounds and Estimates for Canonical Angles in Randomized Subspace Approximations
+    year: 2024
+    venue: SIAM J. Matrix Anal. Appl.
+    url: https://doi.org/10.1137/23m1584733
+    authors:
+    - yijun-dong
+    - per-gunnar-martinsson
+    - yuji-nakatsukasa
+  - title: Fast and Accurate Randomized Algorithms for Linear Systems and Eigenvalue Problems
+    year: 2024
+    venue: SIAM J. Matrix Anal. Appl.
+    url: https://doi.org/10.1137/23m1565413
+    authors:
+    - yuji-nakatsukasa
+    - joel-tropp
+  - title: Fast randomized least-squares solvers can be just as accurate and stable as classical direct
+      solvers
+    year: 2024
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2406.03468
+    authors:
+    - ethan-epperly
+    - yuji-nakatsukasa
+  - title: Speeding Up Krylov Subspace Methods for Computing f(A)b via Randomization
+    year: 2024
+    venue: SIAM J. Matrix Anal. Appl.
+    url: https://doi.org/10.1137/22m1543458
+    authors:
+    - alice-cortinovis
+    - daniel-kressner
+    - yuji-nakatsukasa
+  - title: Accuracy and Stability of CUR Decompositions with Oversampling
+    year: 2025
+    venue: SIAM J. Matrix Anal. Appl.
+    url: https://doi.org/10.1137/24m1660346
+    authors:
+    - taejun-park
+    - yuji-nakatsukasa
+  - title: Fast Rank Adaptive CUR via a Recycled Small Sketch
+    year: 2025
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2509.21963
+    authors:
+    - taejun-park
+    - yuji-nakatsukasa
+    - per-gunnar-martinsson
+  - title: Low-Rank Approximation of Parameter-Dependent Matrices via CUR Decomposition
+    year: 2025
+    venue: SIAM J. Sci. Comput.
+    url: https://doi.org/10.1137/24m1683998
+    authors:
+    - taejun-park
+    - yuji-nakatsukasa
+  - title: Numerical Stability of the Nyström Method
+    year: 2025
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2511.15583
+    authors:
+    - alberto-bucci
+    - yuji-nakatsukasa
+    - taejun-park
+  - title: Randomized flexible Krylov methods for ℓp regularization
+    year: 2025
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2510.11237
+    authors:
+    - malena-sabate-landman
+    - yuji-nakatsukasa
+  - title: Stable algorithms for general linear systems by preconditioning the normal equations
+    year: 2025
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2502.17767
+    authors:
+    - ethan-epperly
+    - anne-greenbaum
+    - yuji-nakatsukasa
+  - title: Adaptive LSQR Preconditioning from One Small Sketch
+    year: 2026
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2604.05065
+    authors:
+    - jung-eun-huh
+    - yuji-nakatsukasa
+  - title: Fast, High-Accuracy, Randomized Nullspace Computations for Tall Matrices
+    year: 2026
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2602.16797
+    authors:
+    - ethan-epperly
+    - taejun-park
+    - yuji-nakatsukasa
+  - title: Towards Universal Convergence of Backward Error in Linear System Solvers
+    year: 2026
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2604.16075
+    authors:
+    - michal-derezinski
+    - yuji-nakatsukasa
+    - elizaveta-rebrova
+- id: alex-townsend
+  papers:
+  - title: Computing the common zeros of two bivariate functions via Bézout resultants
+    year: 2015
+    venue: Numerische Mathematik
+    url: https://doi.org/10.1007/s00211-014-0635-z
+    authors:
+    - yuji-nakatsukasa
+    - alex-townsend
+  - title: Computing with Functions in Spherical and Polar Geometries I. The Sphere
+    year: 2016
+    venue: SIAM J. Sci. Comput.
+    url: https://doi.org/10.1137/15M1045855
+    authors:
+    - alex-townsend
+    - heather-wilber
+  - title: Computing with Functions in Spherical and Polar Geometries II. The Disk
+    year: 2017
+    venue: SIAM J. Sci. Comput.
+    url: https://doi.org/10.1137/16M1070207
+    authors:
+    - heather-wilber
+    - alex-townsend
+  - title: Nice latent variable models have log-rank
+    year: 2017
+    venue: CoRR
+    url: http://arxiv.org/abs/1705.07474
+    authors:
+    - madeleine-udell
+    - alex-townsend
+  - title: 'Vector Spaces of Linearizations for Matrix Polynomials: A Bivariate Polynomial Approach'
+    year: 2017
+    venue: SIAM J. Matrix Anal. Appl.
+    url: https://doi.org/10.1137/15M1013286
+    authors:
+    - yuji-nakatsukasa
+    - alex-townsend
+  - title: Chebyshev approximation and the global geometry of sloppy models
+    year: 2018
+    venue: CoRR
+    url: http://arxiv.org/abs/1809.08280
+    authors:
+    - heather-wilber
+    - alex-townsend
+  - title: Why Are Big Data Matrices Approximately Low Rank?
+    year: 2019
+    venue: SIAM J. Math. Data Sci.
+    url: https://doi.org/10.1137/18M1183480
+    authors:
+    - madeleine-udell
+    - alex-townsend
+  - title: Computing with Functions in the Ball
+    year: 2020
+    venue: SIAM J. Sci. Comput.
+    url: https://doi.org/10.1137/19M1297063
+    authors:
+    - nicolas-boulle
+    - alex-townsend
+  - title: Rational neural networks
+    year: 2020
+    venue: NeurIPS
+    url: https://proceedings.neurips.cc/paper/2020/hash/a3f390d88e4c41f2747bfa2f1b5f87db-Abstract.html
+    authors:
+    - nicolas-boulle
+    - yuji-nakatsukasa
+    - alex-townsend
+  - title: An optimal complexity spectral method for Navier-Stokes simulations in the ball
+    year: 2021
+    venue: CoRR
+    url: https://arxiv.org/abs/2103.16638
+    authors:
+    - nicolas-boulle
+    - alex-townsend
+  - title: Arbitrary-Depth Universal Approximation Theorems for Operator Neural Networks
+    year: 2021
+    venue: CoRR
+    url: https://arxiv.org/abs/2109.11354
+    authors:
+    - diana-halikias
+    - alex-townsend
+  - title: Data-driven Algorithms for signal processing with rational functions
+    year: 2021
+    venue: CoRR
+    url: https://arxiv.org/abs/2105.07324
+    authors:
+    - heather-wilber
+    - alex-townsend
+  - title: Data-driven discovery of physical laws with human-understandable deep learning
+    year: 2021
+    venue: CoRR
+    url: https://arxiv.org/abs/2105.00266
+    authors:
+    - nicolas-boulle
+    - alex-townsend
+  - title: Error Localization of Best L1 Polynomial Approximants
+    year: 2021
+    venue: SIAM J. Numer. Anal.
+    url: https://doi.org/10.1137/19M1242860
+    authors:
+    - yuji-nakatsukasa
+    - alex-townsend
+  - title: A generalization of the randomized singular value decomposition
+    year: 2022
+    venue: ICLR
+    url: https://openreview.net/forum?id=hgKtwSb4S2
+    authors:
+    - nicolas-boulle
+    - alex-townsend
+  - title: Data-Driven Algorithms for Signal Processing with Trigonometric Rational Functions
+    year: 2022
+    venue: SIAM J. Sci. Comput.
+    url: https://doi.org/10.1137/21m1420277
+    authors:
+    - heather-wilber
+    - alex-townsend
+  - title: Learning Green's functions associated with parabolic partial differential equations
+    year: 2022
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2204.12789
+    authors:
+    - nicolas-boulle
+    - alex-townsend
+  - title: Learning Green's functions associated with time-dependent partial differential equations
+    year: 2022
+    venue: J. Mach. Learn. Res.
+    url: https://jmlr.org/papers/v23/22-0433.html
+    authors:
+    - nicolas-boulle
+    - alex-townsend
+  - title: Matrix recovery from matrix-vector products
+    year: 2022
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2212.09841
+    authors:
+    - diana-halikias
+    - alex-townsend
+  - title: Probabilistic Missing Value Imputation for Mixed Categorical and Ordered Data
+    year: 2022
+    venue: NeurIPS
+    url: http://papers.nips.cc/paper_files/paper/2022/hash/8a7e7f5ed2aee24e98d65b5efdde8e1f-Abstract-Conference.html
+    authors:
+    - alex-townsend
+    - madeleine-udell
+  - title: A Mathematical Guide to Operator Learning
+    year: 2023
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2312.14688
+    authors:
+    - nicolas-boulle
+    - alex-townsend
+  - title: Elliptic PDE learning is provably data-efficient
+    year: 2023
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2302.12888
+    authors:
+    - nicolas-boulle
+    - diana-halikias
+    - alex-townsend
+  - title: Learning Elliptic Partial Differential Equations with Randomized Linear Algebra
+    year: 2023
+    venue: Found. Comput. Math.
+    url: https://doi.org/10.1007/s10208-022-09556-w
+    authors:
+    - nicolas-boulle
+    - alex-townsend
+  - title: Are Sketch-and-Precondition Least Squares Solvers Numerically Stable?
+    year: 2024
+    venue: SIAM J. Matrix Anal. Appl.
+    url: https://doi.org/10.1137/23m1551973
+    authors:
+    - yuji-nakatsukasa
+    - alex-townsend
+  - title: Operator learning without the adjoint
+    year: 2024
+    venue: J. Mach. Learn. Res.
+    url: https://jmlr.org/papers/v25/24-0162.html
+    authors:
+    - nicolas-boulle
+    - diana-halikias
+    - alex-townsend
+  - title: Structured matrix recovery from matrix-vector products
+    year: 2024
+    venue: Numer. Linear Algebra Appl.
+    url: https://doi.org/10.1002/nla.2531
+    authors:
+    - diana-halikias
+    - alex-townsend
+  - title: Transpose-free linear algebra
+    year: 2026
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2606.01335
+    authors:
+    - diana-halikias
+    - alex-townsend
+- id: daniel-kressner
+  papers:
+  - title: 'Recent Advances in Dense Linear Algebra: Minisymposium Abstract'
+    year: 2006
+    venue: PARA
+    url: https://doi.org/10.1007/978-3-540-75755-9_14
+    authors:
+    - daniel-kressner
+    - julien-langou
+  - title: Projection methods for large-scale T-Sylvester equations
+    year: 2016
+    venue: Math. Comput.
+    url: https://doi.org/10.1090/mcom/3081
+    authors:
+    - daniel-kressner
+    - valeria-simoncini
+  - title: 7th Workshop on Matrix Equations and Tensor Techniques
+    year: 2018
+    venue: Numer. Linear Algebra Appl.
+    url: https://doi.org/10.1002/nla.2223
+    authors:
+    - daniel-kressner
+    - valeria-simoncini
+  - title: Low-Rank Updates and a Divide-And-Conquer Method for Linear Matrix Equations
+    year: 2019
+    venue: SIAM J. Sci. Comput.
+    url: https://doi.org/10.1137/17M1161038
+    authors:
+    - daniel-kressner
+    - stefano-massei
+  - title: On maximum volume submatrices and cross approximation for symmetric semidefinite and diagonally
+      dominant matrices
+    year: 2019
+    venue: CoRR
+    url: http://arxiv.org/abs/1902.02283
+    authors:
+    - alice-cortinovis
+    - daniel-kressner
+    - stefano-massei
+  - title: Certified and fast computations with shallow covariance kernels
+    year: 2020
+    venue: CoRR
+    url: https://arxiv.org/abs/2001.09187
+    authors:
+    - daniel-kressner
+    - stefano-massei
+  - title: Low-Rank Approximation in the Frobenius Norm by Column and Row Subset Selection
+    year: 2020
+    venue: SIAM J. Matrix Anal. Appl.
+    url: https://doi.org/10.1137/19M1281848
+    authors:
+    - alice-cortinovis
+    - daniel-kressner
+  - title: Low-rank updates and divide-and-conquer methods for quadratic matrix equations
+    year: 2020
+    venue: Numer. Algorithms
+    url: https://doi.org/10.1007/s11075-019-00776-w
+    authors:
+    - daniel-kressner
+    - stefano-massei
+  - title: Quasi-Optimal Sampling to Learn Basis Updates for Online Adaptive Model Reduction with Adaptive
+      Empirical Interpolation
+    year: 2020
+    venue: ACC
+    url: https://doi.org/10.23919/ACC45564.2020.9147832
+    authors:
+    - alice-cortinovis
+    - daniel-kressner
+    - stefano-massei
+  - title: 'hm-toolbox: MATLAB Software for HODLR and HSS Matrices'
+    year: 2020
+    venue: SIAM J. Sci. Comput.
+    url: https://doi.org/10.1137/19M1288048
+    authors:
+    - stefano-massei
+    - daniel-kressner
+  - title: Compress-and-restart block Krylov subspace methods for Sylvester matrix equations
+    year: 2021
+    venue: Numer. Linear Algebra Appl.
+    url: https://doi.org/10.1002/nla.2339
+    authors:
+    - daniel-kressner
+    - stefano-massei
+    - davide-palitta
+  - title: Hierarchical adaptive low-rank format with applications to discretized PDEs
+    year: 2021
+    venue: CoRR
+    url: https://arxiv.org/abs/2104.11456
+    authors:
+    - stefano-massei
+    - daniel-kressner
+  - title: 'Low-Rank Updates of Matrix Functions II: Rational Krylov Methods'
+    year: 2021
+    venue: SIAM J. Numer. Anal.
+    url: https://doi.org/10.1137/20M1362553
+    authors:
+    - alice-cortinovis
+    - daniel-kressner
+  - title: Divide-and-Conquer Methods for Functions of Matrices with Banded or Hierarchical Low-Rank Structure
+    year: 2022
+    venue: SIAM J. Matrix Anal. Appl.
+    url: https://doi.org/10.1137/21m1432594
+    authors:
+    - alice-cortinovis
+    - daniel-kressner
+    - stefano-massei
+  - title: Hierarchical adaptive low-rank format with applications to discretized partial differential
+      equations
+    year: 2022
+    venue: Numer. Linear Algebra Appl.
+    url: https://doi.org/10.1002/nla.2448
+    authors:
+    - stefano-massei
+    - daniel-kressner
+  - title: Improved Variants of the Hutch++ Algorithm for Trace Estimation
+    year: 2022
+    venue: SIAM J. Matrix Anal. Appl.
+    url: https://doi.org/10.1137/21m1447623
+    authors:
+    - david-persson
+    - alice-cortinovis
+    - daniel-kressner
+  - title: Improved parallel-in-time integration via low-rank updates and interpolation
+    year: 2022
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2204.03073
+    authors:
+    - daniel-kressner
+    - stefano-massei
+  - title: On Randomized Trace Estimates for Indefinite Matrices with an Application to Determinants
+    year: 2022
+    venue: Found. Comput. Math.
+    url: https://doi.org/10.1007/s10208-021-09525-9
+    authors:
+    - alice-cortinovis
+    - daniel-kressner
+  - title: Speeding up Krylov subspace methods for computing f(A)b via randomization
+    year: 2022
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2212.12758
+    authors:
+    - alice-cortinovis
+    - daniel-kressner
+    - yuji-nakatsukasa
+  - title: Improved ParaDiag via low-rank updates and interpolation
+    year: 2023
+    venue: Numerische Mathematik
+    url: https://doi.org/10.1007/s00211-023-01372-w
+    authors:
+    - daniel-kressner
+    - stefano-massei
+  - title: Randomized Low-Rank Approximation of Monotone Matrix Functions
+    year: 2023
+    venue: SIAM J. Matrix Anal. Appl.
+    url: https://doi.org/10.1137/22m1523923
+    authors:
+    - david-persson
+    - daniel-kressner
+  - title: Speeding Up Krylov Subspace Methods for Computing f(A)b via Randomization
+    year: 2024
+    venue: SIAM J. Matrix Anal. Appl.
+    url: https://doi.org/10.1137/22m1543458
+    authors:
+    - alice-cortinovis
+    - daniel-kressner
+    - yuji-nakatsukasa
+  - title: Compression properties for large Toeplitz-like matrices
+    year: 2025
+    venue: Numer. Algorithms
+    url: https://doi.org/10.1007/s11075-025-02185-8
+    authors:
+    - daniel-kressner
+    - heather-wilber
+  - title: 'Interpolatory Dynamical Low-Rank Approximation: Theoretical Foundations and Algorithms'
+    year: 2025
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2510.19518
+    authors:
+    - benjamin-carrel
+    - daniel-kressner
+  - title: On the randomized SVD in infinite dimensions
+    year: 2025
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2506.06882
+    authors:
+    - daniel-kressner
+    - david-persson
+  - title: Randomized Nyström Approximation of Non-negative Self-Adjoint Operators
+    year: 2025
+    venue: SIAM J. Math. Data Sci.
+    url: https://doi.org/10.1137/24m165082x
+    authors:
+    - david-persson
+    - nicolas-boulle
+    - daniel-kressner
+  - title: Adaptive Randomized Pivoting for Column Subset Selection, DEIM, and Low-Rank Approximation
+    year: 2026
+    venue: SIAM J. Matrix Anal. Appl.
+    url: https://doi.org/10.1137/24m1719189
+    authors:
+    - alice-cortinovis
+    - daniel-kressner
+  - title: Restoring similarity in randomized Krylov methods with applications to eigenvalue problems
+      and matrix functions
+    year: 2026
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2601.10248
+    authors:
+    - laura-grigori
+    - daniel-kressner
+    - igor-simunec
+- id: nicholas-higham
+  papers:
+  - title: Stability of block algorithms with fast level-3 BLAS
+    year: 1992
+    venue: ACM Trans. Math. Softw.
+    url: https://doi.org/10.1145/131766.131769
+    authors:
+    - james-demmel
+    - nicholas-higham
+  - title: Backward Stability of Iterations for Computing the Polar Decomposition
+    year: 2012
+    venue: SIAM J. Matrix Anal. Appl.
+    url: https://doi.org/10.1137/110857544
+    authors:
+    - yuji-nakatsukasa
+    - nicholas-higham
+  - title: Stable and Efficient Spectral Divide and Conquer Algorithms for the Symmetric Eigenvalue Decomposition
+      and the SVD
+    year: 2013
+    venue: SIAM J. Sci. Comput.
+    url: https://doi.org/10.1137/120876605
+    authors:
+    - yuji-nakatsukasa
+    - nicholas-higham
+  - title: A New Analysis of Iterative Refinement and Its Application to Accurate Solution of Ill-Conditioned
+      Sparse Linear Systems
+    year: 2017
+    venue: SIAM J. Sci. Comput.
+    url: https://doi.org/10.1137/17M1122918
+    authors:
+    - erin-carson
+    - nicholas-higham
+  - title: Accelerating the Solution of Linear Systems by Iterative Refinement in Three Precisions
+    year: 2018
+    venue: SIAM J. Sci. Comput.
+    url: https://doi.org/10.1137/17M1140819
+    authors:
+    - erin-carson
+    - nicholas-higham
+  - title: A New Approach to Probabilistic Rounding Error Analysis
+    year: 2019
+    venue: SIAM J. Sci. Comput.
+    url: https://doi.org/10.1137/18M1226312
+    authors:
+    - nicholas-higham
+    - theo-mary
+  - title: A New Preconditioner that Exploits Low-Rank Approximations to Factorization Error
+    year: 2019
+    venue: SIAM J. Sci. Comput.
+    url: https://doi.org/10.1137/18M1182802
+    authors:
+    - nicholas-higham
+    - theo-mary
+  - title: A Class of Fast and Accurate Summation Algorithms
+    year: 2020
+    venue: SIAM J. Sci. Comput.
+    url: https://doi.org/10.1137/19M1257780
+    authors:
+    - nicholas-higham
+    - theo-mary
+  - title: A Survey of Numerical Methods Utilizing Mixed Precision Arithmetic
+    year: 2020
+    venue: CoRR
+    url: https://arxiv.org/abs/2007.06674
+    authors:
+    - erin-carson
+    - nicholas-higham
+    - xiaoye-sherry-li
+  - title: 'Mixed Precision Block Fused Multiply-Add: Error Analysis and Application to GPU Tensor Cores'
+    year: 2020
+    venue: SIAM J. Sci. Comput.
+    url: https://doi.org/10.1137/19M1289546
+    authors:
+    - nicholas-higham
+    - theo-mary
+  - title: Sharper Probabilistic Backward Error Analysis for Basic Linear Algebra Kernels with Random
+      Data
+    year: 2020
+    venue: SIAM J. Sci. Comput.
+    url: https://doi.org/10.1137/20M1314355
+    authors:
+    - nicholas-higham
+    - theo-mary
+  - title: Three-Precision GMRES-Based Iterative Refinement for Least Squares Problems
+    year: 2020
+    venue: SIAM J. Sci. Comput.
+    url: https://doi.org/10.1137/20M1316822
+    authors:
+    - erin-carson
+    - nicholas-higham
+  - title: A survey of numerical linear algebra methods utilizing mixed-precision arithmetic
+    year: 2021
+    venue: Int. J. High Perform. Comput. Appl.
+    url: https://doi.org/10.1177/10943420211003313
+    authors:
+    - erin-carson
+    - nicholas-higham
+    - xiaoye-sherry-li
+  - title: Stochastic Rounding and Its Probabilistic Backward Error Analysis
+    year: 2021
+    venue: SIAM J. Sci. Comput.
+    url: https://doi.org/10.1137/20M1334796
+    authors:
+    - nicholas-higham
+    - theo-mary
+  - title: Mixed precision algorithms in numerical linear algebra
+    year: 2022
+    venue: Acta Numer.
+    url: https://doi.org/10.1017/S0962492922000022
+    authors:
+    - nicholas-higham
+    - theo-mary
+  - title: Combining Sparse Approximate Factorizations with Mixed-precision Iterative Refinement
+    year: 2023
+    venue: ACM Trans. Math. Softw.
+    url: https://doi.org/10.1145/3582493
+    authors:
+    - nicholas-higham
+    - theo-mary
+  - title: 'Matrix Multiplication in Multiword Arithmetic: Error Analysis and Application to GPU Tensor
+      Cores'
+    year: 2023
+    venue: SIAM J. Sci. Comput.
+    url: https://doi.org/10.1137/21m1465032
+    authors:
+    - nicholas-higham
+    - theo-mary
+  - title: Five-Precision GMRES-Based Iterative Refinement
+    year: 2024
+    venue: SIAM J. Matrix Anal. Appl.
+    url: https://doi.org/10.1137/23m1549079
+    authors:
+    - nicholas-higham
+    - theo-mary
+- id: rachel-ward
+  papers:
+  - title: Computing the confidence levels for a root-mean-square test of goodness-of-fit
+    year: 2011
+    venue: Appl. Math. Comput.
+    url: https://doi.org/10.1016/j.amc.2011.03.124
+    authors:
+    - mark-tygert
+    - rachel-ward
+  - title: Total variation minimization for stable multidimensional signal recovery
+    year: 2012
+    venue: CoRR
+    url: http://arxiv.org/abs/1210.3098
+    authors:
+    - deanna-needell
+    - rachel-ward
+  - title: Near-Optimal Compressed Sensing Guarantees for Total Variation Minimization
+    year: 2013
+    venue: IEEE Trans. Image Process.
+    url: https://doi.org/10.1109/TIP.2013.2264681
+    authors:
+    - deanna-needell
+    - rachel-ward
+  - title: Stable Image Reconstruction Using Total Variation Minimization
+    year: 2013
+    venue: SIAM J. Imaging Sci.
+    url: https://doi.org/10.1137/120868281
+    authors:
+    - deanna-needell
+    - rachel-ward
+  - title: Stochastic gradient descent and the randomized Kaczmarz algorithm
+    year: 2013
+    venue: CoRR
+    url: http://arxiv.org/abs/1310.5715
+    authors:
+    - deanna-needell
+    - rachel-ward
+  - title: Compressive Sensing with Redundant Dictionaries and Structured Measurements
+    year: 2015
+    venue: SIAM J. Math. Anal.
+    url: https://doi.org/10.1137/151005245
+    authors:
+    - deanna-needell
+    - rachel-ward
+  - title: Batched Stochastic Gradient Descent with Weighted Sampling
+    year: 2016
+    venue: CoRR
+    url: http://arxiv.org/abs/1608.07641
+    authors:
+    - deanna-needell
+    - rachel-ward
+  - title: Stochastic gradient descent, weighted sampling, and the randomized Kaczmarz algorithm
+    year: 2016
+    venue: Math. Program.
+    url: https://doi.org/10.1007/s10107-015-0864-7
+    authors:
+    - deanna-needell
+    - rachel-ward
+  - title: Bias of Homotopic Gradient Descent for the Hinge Loss
+    year: 2019
+    venue: CoRR
+    url: http://arxiv.org/abs/1907.11746
+    authors:
+    - deanna-needell
+    - rachel-ward
+  - title: Faster Johnson-Lindenstrauss Transforms via Kronecker Products
+    year: 2019
+    venue: CoRR
+    url: http://arxiv.org/abs/1909.04801
+    authors:
+    - ruhui-jin
+    - rachel-ward
+  - title: 'AdaWAC: Adaptively Weighted Augmentation Consistency Regularization for Volumetric Medical
+      Image Segmentation'
+    year: 2022
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2210.01891
+    authors:
+    - yijun-dong
+    - rachel-ward
+  - title: Compressed sensing with a jackknife and a bootstrap
+    year: 2022
+    venue: J. Data Sci. Stat. Vis.
+    url: https://doi.org/10.52933/jdssv.v2i4.43
+    authors:
+    - mark-tygert
+    - rachel-ward
+  - title: Matrix Concentration for Products
+    year: 2022
+    venue: Found. Comput. Math.
+    url: https://doi.org/10.1007/s10208-021-09533-9
+    authors:
+    - joel-tropp
+    - rachel-ward
+  - title: On the fast convergence of minibatch heavy ball momentum
+    year: 2022
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2206.07553
+    authors:
+    - tyler-chen
+    - rachel-ward
+  - title: Adaptively Weighted Data Augmentation Consistency Regularization for Robust Optimization under
+      Concept Shift
+    year: 2023
+    venue: ICML
+    url: https://proceedings.mlr.press/v202/dong23f.html
+    authors:
+    - yijun-dong
+    - rachel-ward
+  - title: 'Cluster-aware Semi-supervised Learning: Relational Knowledge Distillation Provably Learns
+      Clustering'
+    year: 2023
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2307.11030
+    authors:
+    - yijun-dong
+    - rachel-ward
+  - title: Learning to Forecast Dynamical Systems from Streaming Data
+    year: 2023
+    venue: SIAM J. Appl. Dyn. Syst.
+    url: https://doi.org/10.1137/21m144983x
+    authors:
+    - joel-tropp
+    - rachel-ward
+  - title: Nearly Optimal Bounds for Cyclic Forgetting
+    year: 2023
+    venue: NeurIPS
+    url: http://papers.nips.cc/paper_files/paper/2023/hash/d72ae75abaa70a3b19c5d4f436c680d1-Abstract-Conference.html
+    authors:
+    - deanna-needell
+    - rachel-ward
+  - title: Sample Efficiency of Data Augmentation Consistency Regularization
+    year: 2023
+    venue: AISTATS
+    url: https://proceedings.mlr.press/v206/yang23c.html
+    authors:
+    - yijun-dong
+    - rachel-ward
+  - title: Scalable Symmetric Tucker Tensor Decomposition
+    year: 2024
+    venue: SIAM J. Matrix Anal. Appl.
+    url: https://doi.org/10.1137/23m1582928
+    authors:
+    - ruhui-jin
+    - rachel-ward
+  - title: First Proof
+    year: 2026
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2602.05192
+    authors:
+    - nikhil-srivastava
+    - rachel-ward
+  - title: First Proof Second Batch
+    year: 2026
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2606.18119
+    authors:
+    - nikhil-srivastava
+    - rachel-ward
+- id: madeleine-udell
+  papers:
+  - title: Randomized single-view algorithms for low-rank matrix approximation
+    year: 2016
+    venue: CoRR
+    url: http://arxiv.org/abs/1609.00048
+    authors:
+    - joel-tropp
+    - madeleine-udell
+  - title: Fixed-Rank Approximation of a Positive-Semidefinite Matrix from Streaming Data
+    year: 2017
+    venue: NIPS
+    url: https://proceedings.neurips.cc/paper/2017/hash/4558dbb6f6f8bb2e16d03b85bde76e2c-Abstract.html
+    authors:
+    - joel-tropp
+    - madeleine-udell
+  - title: Nice latent variable models have log-rank
+    year: 2017
+    venue: CoRR
+    url: http://arxiv.org/abs/1705.07474
+    authors:
+    - madeleine-udell
+    - alex-townsend
+  - title: Practical Sketching Algorithms for Low-Rank Matrix Approximation
+    year: 2017
+    venue: SIAM J. Matrix Anal. Appl.
+    url: https://doi.org/10.1137/17M1111590
+    authors:
+    - joel-tropp
+    - madeleine-udell
+  - title: 'Sketchy Decisions: Convex Low-Rank Matrix Optimization with Optimal Storage'
+    year: 2017
+    venue: AISTATS
+    url: http://proceedings.mlr.press/v54/yurtsever17a.html
+    authors:
+    - madeleine-udell
+    - joel-tropp
+  - title: Streaming Low-Rank Matrix Approximation with an Application to Scientific Simulation
+    year: 2019
+    venue: SIAM J. Sci. Comput.
+    url: https://doi.org/10.1137/18M1201068
+    authors:
+    - joel-tropp
+    - madeleine-udell
+  - title: Why Are Big Data Matrices Approximately Low Rank?
+    year: 2019
+    venue: SIAM J. Math. Data Sci.
+    url: https://doi.org/10.1137/18M1183480
+    authors:
+    - madeleine-udell
+    - alex-townsend
+  - title: Low-Rank Tucker Approximation of a Tensor from Streaming Data
+    year: 2020
+    venue: SIAM J. Math. Data Sci.
+    url: https://doi.org/10.1137/19M1257718
+    authors:
+    - joel-tropp
+    - madeleine-udell
+  - title: An Optimal-Storage Approach to Semidefinite Programming Using Approximate Complementarity
+    year: 2021
+    venue: SIAM J. Optim.
+    url: https://doi.org/10.1137/19M1244603
+    authors:
+    - joel-tropp
+    - madeleine-udell
+  - title: Scalable Semidefinite Programming
+    year: 2021
+    venue: SIAM J. Math. Data Sci.
+    url: https://doi.org/10.1137/19M1305045
+    authors:
+    - joel-tropp
+    - madeleine-udell
+  - title: Tensor Random Projection for Low Memory Dimension Reduction
+    year: 2021
+    venue: CoRR
+    url: https://arxiv.org/abs/2105.00105
+    authors:
+    - joel-tropp
+    - madeleine-udell
+  - title: Probabilistic Missing Value Imputation for Mixed Categorical and Ordered Data
+    year: 2022
+    venue: NeurIPS
+    url: http://papers.nips.cc/paper_files/paper/2022/hash/8a7e7f5ed2aee24e98d65b5efdde8e1f-Abstract-Conference.html
+    authors:
+    - alex-townsend
+    - madeleine-udell
+  - title: Randomized Nyström Preconditioning
+    year: 2023
+    venue: SIAM J. Matrix Anal. Appl.
+    url: https://doi.org/10.1137/21m1466244
+    authors:
+    - joel-tropp
+    - madeleine-udell
+  - title: Turbocharging Gaussian Process Inference with Approximate Sketch-and-Project
+    year: 2025
+    venue: NeurIPS
+    url: http://papers.nips.cc/paper_files/paper/2025/hash/cf8b2205e39f81726a8d828ecbe00ad0-Abstract-Conference.html
+    authors:
+    - michal-derezinski
+    - madeleine-udell
+- id: vladimir-rokhlin
+  papers:
+  - title: On the Compression of Low Rank Matrices
+    year: 2005
+    venue: SIAM J. Sci. Comput.
+    url: https://doi.org/10.1137/030602678
+    authors:
+    - per-gunnar-martinsson
+    - vladimir-rokhlin
+  - title: Fast Algorithms for Spherical Harmonic Expansions
+    year: 2006
+    venue: SIAM J. Sci. Comput.
+    url: https://doi.org/10.1137/050623073
+    authors:
+    - vladimir-rokhlin
+    - mark-tygert
+  - title: A fast direct solver for scattering problems involving elongated structures
+    year: 2007
+    venue: J. Comput. Phys.
+    url: https://doi.org/10.1016/j.jcp.2006.06.037
+    authors:
+    - per-gunnar-martinsson
+    - vladimir-rokhlin
+  - title: An Accelerated Kernel-Independent Fast Multipole Method in One Dimension
+    year: 2007
+    venue: SIAM J. Sci. Comput.
+    url: https://doi.org/10.1137/060662253
+    authors:
+    - per-gunnar-martinsson
+    - vladimir-rokhlin
+  - title: A Randomized Algorithm for Principal Component Analysis
+    year: 2009
+    venue: SIAM J. Matrix Anal. Appl.
+    url: https://doi.org/10.1137/080736417
+    authors:
+    - vladimir-rokhlin
+    - mark-tygert
+  - title: A Fast Randomized Algorithm for Orthogonal Projection
+    year: 2011
+    venue: SIAM J. Sci. Comput.
+    url: https://doi.org/10.1137/090779656
+    authors:
+    - vladimir-rokhlin
+    - mark-tygert
+- id: mark-tygert
+  papers:
+  - title: Fast Algorithms for Spherical Harmonic Expansions
+    year: 2006
+    venue: SIAM J. Sci. Comput.
+    url: https://doi.org/10.1137/050623073
+    authors:
+    - vladimir-rokhlin
+    - mark-tygert
+  - title: A Randomized Algorithm for Principal Component Analysis
+    year: 2009
+    venue: SIAM J. Matrix Anal. Appl.
+    url: https://doi.org/10.1137/080736417
+    authors:
+    - vladimir-rokhlin
+    - mark-tygert
+  - title: A Fast Randomized Algorithm for Orthogonal Projection
+    year: 2011
+    venue: SIAM J. Sci. Comput.
+    url: https://doi.org/10.1137/090779656
+    authors:
+    - vladimir-rokhlin
+    - mark-tygert
+  - title: An Algorithm for the Principal Component Analysis of Large Data Sets
+    year: 2011
+    venue: SIAM J. Sci. Comput.
+    url: https://doi.org/10.1137/100804139
+    authors:
+    - per-gunnar-martinsson
+    - mark-tygert
+  - title: Computing the confidence levels for a root-mean-square test of goodness-of-fit
+    year: 2011
+    venue: Appl. Math. Comput.
+    url: https://doi.org/10.1016/j.amc.2011.03.124
+    authors:
+    - mark-tygert
+    - rachel-ward
+  - title: Compressed sensing with a jackknife and a bootstrap
+    year: 2022
+    venue: J. Data Sci. Stat. Vis.
+    url: https://doi.org/10.52933/jdssv.v2i4.43
+    authors:
+    - mark-tygert
+    - rachel-ward
+- id: ming-gu
+  papers:
+  - title: Templates for Linear Algebra Problems
+    year: 1995
+    venue: Computer Science Today
+    url: https://doi.org/10.1007/BFb0015240
+    authors:
+    - zhaojun-bai
+    - james-demmel
+    - ming-gu
+  - title: Generalized Hermitian Eigenvalue Problems
+    year: 2000
+    venue: Templates for the Solution of Algebraic Eigenvalue Problems
+    url: https://doi.org/10.1137/1.9780898719581.ch5
+    authors:
+    - ming-gu
+    - zhaojun-bai
+  - title: Hermitian Eigenvalue Problems
+    year: 2000
+    venue: Templates for the Solution of Algebraic Eigenvalue Problems
+    url: https://doi.org/10.1137/1.9780898719581.ch4
+    authors:
+    - ming-gu
+    - zhaojun-bai
+  - title: Non-Hermitian Eigenvalue Problems
+    year: 2000
+    venue: Templates for the Solution of Algebraic Eigenvalue Problems
+    url: https://doi.org/10.1137/1.9780898719581.ch7
+    authors:
+    - james-demmel
+    - ming-gu
+    - yousef-saad
+    - zhaojun-bai
+  - title: Prospectus for the Next LAPACK and ScaLAPACK Libraries
+    year: 2006
+    venue: PARA
+    url: https://doi.org/10.1007/978-3-540-75755-9_2
+    authors:
+    - james-demmel
+    - ming-gu
+    - david-bindel
+    - xiaoye-sherry-li
+    - julien-langou
+  - title: Prospectus for a Dense Linear Algebra Software Library
+    year: 2007
+    venue: Handbook of Parallel Computing
+    url: https://doi.org/10.1201/9781420011296.ch29
+    authors:
+    - james-demmel
+    - julien-langou
+    - ming-gu
+    - xiaoye-sherry-li
+    - david-bindel
+  - title: Global minimization of rational functions and the nearest GCDs
+    year: 2008
+    venue: J. Glob. Optim.
+    url: https://doi.org/10.1007/s10898-006-9119-8
+    authors:
+    - james-demmel
+    - ming-gu
+  - title: Superfast Multifrontal Method for Large Structured Linear Systems of Equations
+    year: 2009
+    venue: SIAM J. Matrix Anal. Appl.
+    url: https://doi.org/10.1137/09074543X
+    authors:
+    - ming-gu
+    - xiaoye-sherry-li
+  - title: Direction-Preserving and Schur-Monotonic Semiseparable Approximations of Symmetric Positive
+      Definite Matrices
+    year: 2010
+    venue: SIAM J. Matrix Anal. Appl.
+    url: https://doi.org/10.1137/090774331
+    authors:
+    - ming-gu
+    - xiaoye-sherry-li
+  - title: Fast algorithms for hierarchically semiseparable matrices
+    year: 2010
+    venue: Numer. Linear Algebra Appl.
+    url: https://doi.org/10.1002/nla.691
+    authors:
+    - ming-gu
+    - xiaoye-sherry-li
+  - title: LU Factorization with Panel Rank Revealing Pivoting and Its Communication Avoiding Version
+    year: 2013
+    venue: SIAM J. Matrix Anal. Appl.
+    url: https://doi.org/10.1137/120863691
+    authors:
+    - james-demmel
+    - laura-grigori
+    - ming-gu
+  - title: Communication Avoiding Rank Revealing QR Factorization with Column Pivoting
+    year: 2015
+    venue: SIAM J. Matrix Anal. Appl.
+    url: https://doi.org/10.1137/13092157X
+    authors:
+    - james-demmel
+    - laura-grigori
+    - ming-gu
+  - title: Spectral Gap Error Bounds for Improving CUR Matrix Decomposition and the Nyström Method
+    year: 2015
+    venue: AISTATS
+    url: http://proceedings.mlr.press/v38/anderson15.html
+    authors:
+    - michael-mahoney
+    - ming-gu
+  - title: Fast Parallel Randomized QR with Column Pivoting Algorithms for Reliable Low-Rank Matrix Approximations
+    year: 2017
+    venue: HiPC
+    url: https://doi.org/10.1109/HiPC.2017.00035
+    authors:
+    - ming-gu
+    - julien-langou
+- id: ethan-epperly
+  papers:
+  - title: A Theory of Quantum Subspace Diagonalization
+    year: 2022
+    venue: SIAM J. Matrix Anal. Appl.
+    url: https://doi.org/10.1137/21m145954x
+    authors:
+    - ethan-epperly
+    - yuji-nakatsukasa
+  - title: Jackknife Variability Estimation For Randomized Matrix Computations
+    year: 2022
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2207.06342
+    authors:
+    - ethan-epperly
+    - joel-tropp
+  - title: 'Randomly pivoted Cholesky: Practical approximation of a kernel matrix with few entry evaluations'
+    year: 2022
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2207.06503
+    authors:
+    - ethan-epperly
+    - joel-tropp
+    - robert-webber
+  - title: Robust, randomized preconditioning for kernel ridge regression
+    year: 2023
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2304.12465
+    authors:
+    - ethan-epperly
+    - joel-tropp
+    - robert-webber
+  - title: A superfast direct inversion method for the nonuniform discrete Fourier transform
+    year: 2024
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2404.13223
+    authors:
+    - heather-wilber
+    - ethan-epperly
+  - title: Efficient Error and Variance Estimation for Randomized Matrix Computations
+    year: 2024
+    venue: SIAM J. Sci. Comput.
+    url: https://doi.org/10.1137/23m1558537
+    authors:
+    - ethan-epperly
+    - joel-tropp
+  - title: Fast randomized least-squares solvers can be just as accurate and stable as classical direct
+      solvers
+    year: 2024
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2406.03468
+    authors:
+    - ethan-epperly
+    - yuji-nakatsukasa
+  - title: Randomized Kaczmarz with tail averaging
+    year: 2024
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2411.19877
+    authors:
+    - ethan-epperly
+    - robert-webber
+  - title: 'XTrace: Making the Most of Every Sample in Stochastic Trace Estimation'
+    year: 2024
+    venue: SIAM J. Matrix Anal. Appl.
+    url: https://doi.org/10.1137/23m1548323
+    authors:
+    - ethan-epperly
+    - joel-tropp
+    - robert-webber
+  - title: 'Embrace Rejection: Kernel Matrix Approximation by Accelerated Randomly Pivoted Cholesky'
+    year: 2025
+    venue: SIAM J. Matrix Anal. Appl.
+    url: https://doi.org/10.1137/24m1699048
+    authors:
+    - ethan-epperly
+    - joel-tropp
+    - robert-webber
+  - title: Faster Linear Algebra Algorithms with Structured Random Matrices
+    year: 2025
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2508.21189
+    authors:
+    - ethan-epperly
+    - raphael-meyer
+    - joel-tropp
+    - chris-camano
+  - title: Stable algorithms for general linear systems by preconditioning the normal equations
+    year: 2025
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2502.17767
+    authors:
+    - ethan-epperly
+    - anne-greenbaum
+    - yuji-nakatsukasa
+  - title: Superfast Direct Inversion of the Nonuniform Discrete Fourier Transform via Hierarchically
+      Semiseparable Least Squares
+    year: 2025
+    venue: SIAM J. Sci. Comput.
+    url: https://doi.org/10.1137/24m1656694
+    authors:
+    - heather-wilber
+    - ethan-epperly
+  - title: Does block size matter in randomized block Krylov low-rank approximation?
+    year: 2026
+    venue: SODA
+    url: https://doi.org/10.1137/1.9781611978971.42
+    authors:
+    - tyler-chen
+    - ethan-epperly
+    - raphael-meyer
+    - christopher-musco
+  - title: Fast, High-Accuracy, Randomized Nullspace Computations for Tall Matrices
+    year: 2026
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2602.16797
+    authors:
+    - ethan-epperly
+    - taejun-park
+    - yuji-nakatsukasa
+  - title: Linear algebra at exponential scale via tensor network dimension reduction
+    year: 2026
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2606.15350
+    authors:
+    - ethan-epperly
+    - raphael-meyer
+    - joel-tropp
+    - chris-camano
+  - title: Numerical Instabilities in the Kaczmarz Method and Stabilization by Iterative Refinement
+    year: 2026
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2605.17185
+    authors:
+    - michal-derezinski
+    - ethan-epperly
+    - deanna-needell
+  - title: Sharp analysis of sketched least squares and randomized low-rank approximation
+    year: 2026
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2605.19096
+    authors:
+    - ethan-epperly
+    - robert-webber
+  - title: 'Successive randomized compression: A randomized algorithm for the compressed MPO-MPS product'
+    year: 2026
+    venue: Quantum
+    url: https://doi.org/10.22331/q-2026-03-10-2022
+    authors:
+    - ethan-epperly
+    - joel-tropp
+    - chris-camano
+  - title: The matrix-vector complexity of Ax=b
+    year: 2026
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2602.04842
+    authors:
+    - michal-derezinski
+    - ethan-epperly
+    - raphael-meyer
+- id: robert-webber
+  papers:
+  - title: 'Randomly pivoted Cholesky: Practical approximation of a kernel matrix with few entry evaluations'
+    year: 2022
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2207.06503
+    authors:
+    - ethan-epperly
+    - joel-tropp
+    - robert-webber
+  - title: 'Randomized algorithms for low-rank matrix approximation: Design, analysis, and applications'
+    year: 2023
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2306.12418
+    authors:
+    - joel-tropp
+    - robert-webber
+  - title: Robust, randomized preconditioning for kernel ridge regression
+    year: 2023
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2304.12465
+    authors:
+    - ethan-epperly
+    - joel-tropp
+    - robert-webber
+  - title: Randomized Kaczmarz with tail averaging
+    year: 2024
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2411.19877
+    authors:
+    - ethan-epperly
+    - robert-webber
+  - title: 'XTrace: Making the Most of Every Sample in Stochastic Trace Estimation'
+    year: 2024
+    venue: SIAM J. Matrix Anal. Appl.
+    url: https://doi.org/10.1137/23m1548323
+    authors:
+    - ethan-epperly
+    - joel-tropp
+    - robert-webber
+  - title: 'Embrace Rejection: Kernel Matrix Approximation by Accelerated Randomly Pivoted Cholesky'
+    year: 2025
+    venue: SIAM J. Matrix Anal. Appl.
+    url: https://doi.org/10.1137/24m1699048
+    authors:
+    - ethan-epperly
+    - joel-tropp
+    - robert-webber
+  - title: Sharp analysis of sketched least squares and randomized low-rank approximation
+    year: 2026
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2605.19096
+    authors:
+    - ethan-epperly
+    - robert-webber
+- id: alice-cortinovis
+  papers:
+  - title: On maximum volume submatrices and cross approximation for symmetric semidefinite and diagonally
+      dominant matrices
+    year: 2019
+    venue: CoRR
+    url: http://arxiv.org/abs/1902.02283
+    authors:
+    - alice-cortinovis
+    - daniel-kressner
+    - stefano-massei
+  - title: Low-Rank Approximation in the Frobenius Norm by Column and Row Subset Selection
+    year: 2020
+    venue: SIAM J. Matrix Anal. Appl.
+    url: https://doi.org/10.1137/19M1281848
+    authors:
+    - alice-cortinovis
+    - daniel-kressner
+  - title: Quasi-Optimal Sampling to Learn Basis Updates for Online Adaptive Model Reduction with Adaptive
+      Empirical Interpolation
+    year: 2020
+    venue: ACC
+    url: https://doi.org/10.23919/ACC45564.2020.9147832
+    authors:
+    - alice-cortinovis
+    - daniel-kressner
+    - stefano-massei
+  - title: 'Low-Rank Updates of Matrix Functions II: Rational Krylov Methods'
+    year: 2021
+    venue: SIAM J. Numer. Anal.
+    url: https://doi.org/10.1137/20M1362553
+    authors:
+    - alice-cortinovis
+    - daniel-kressner
+  - title: Divide-and-Conquer Methods for Functions of Matrices with Banded or Hierarchical Low-Rank Structure
+    year: 2022
+    venue: SIAM J. Matrix Anal. Appl.
+    url: https://doi.org/10.1137/21m1432594
+    authors:
+    - alice-cortinovis
+    - daniel-kressner
+    - stefano-massei
+  - title: Improved Variants of the Hutch++ Algorithm for Trace Estimation
+    year: 2022
+    venue: SIAM J. Matrix Anal. Appl.
+    url: https://doi.org/10.1137/21m1447623
+    authors:
+    - david-persson
+    - alice-cortinovis
+    - daniel-kressner
+  - title: On Randomized Trace Estimates for Indefinite Matrices with an Application to Determinants
+    year: 2022
+    venue: Found. Comput. Math.
+    url: https://doi.org/10.1007/s10208-021-09525-9
+    authors:
+    - alice-cortinovis
+    - daniel-kressner
+  - title: Speeding up Krylov subspace methods for computing f(A)b via randomization
+    year: 2022
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2212.12758
+    authors:
+    - alice-cortinovis
+    - daniel-kressner
+    - yuji-nakatsukasa
+  - title: Speeding Up Krylov Subspace Methods for Computing f(A)b via Randomization
+    year: 2024
+    venue: SIAM J. Matrix Anal. Appl.
+    url: https://doi.org/10.1137/22m1543458
+    authors:
+    - alice-cortinovis
+    - daniel-kressner
+    - yuji-nakatsukasa
+  - title: Adaptive Randomized Pivoting for Column Subset Selection, DEIM, and Low-Rank Approximation
+    year: 2026
+    venue: SIAM J. Matrix Anal. Appl.
+    url: https://doi.org/10.1137/24m1719189
+    authors:
+    - alice-cortinovis
+    - daniel-kressner
+  - title: 'Attention Mechanisms Through the Lens of Numerical Methods: Approximation Methods and Alternative
+      Formulations'
+    year: 2026
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2604.01757
+    authors:
+    - alice-cortinovis
+    - yijun-dong
+    - diana-halikias
+    - anna-ma
+    - deanna-needell
+    - katherine-pearce
+    - elizaveta-rebrova
+    - rudi-smith
+    - laura-grigori
+  - title: Computing the density of the Kesten-Stigum limit in supercritical Galton-Watson processes
+    year: 2026
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2601.19633
+    authors:
+    - alice-cortinovis
+    - stefano-massei
+- id: david-persson
+  papers:
+  - title: Improved Variants of the Hutch++ Algorithm for Trace Estimation
+    year: 2022
+    venue: SIAM J. Matrix Anal. Appl.
+    url: https://doi.org/10.1137/21m1447623
+    authors:
+    - david-persson
+    - alice-cortinovis
+    - daniel-kressner
+  - title: Randomized Low-Rank Approximation of Monotone Matrix Functions
+    year: 2023
+    venue: SIAM J. Matrix Anal. Appl.
+    url: https://doi.org/10.1137/22m1523923
+    authors:
+    - david-persson
+    - daniel-kressner
+  - title: Algorithm-Agnostic Low-Rank Approximation of Operator Monotone Matrix Functions
+    year: 2025
+    venue: SIAM J. Matrix Anal. Appl.
+    url: https://doi.org/10.1137/23m1619435
+    authors:
+    - david-persson
+    - raphael-meyer
+    - christopher-musco
+  - title: Near-optimal hierarchical matrix approximation from matrix-vector products
+    year: 2025
+    venue: SODA
+    url: https://doi.org/10.1137/1.9781611978322.87
+    authors:
+    - tyler-chen
+    - diana-halikias
+    - cameron-musco
+    - christopher-musco
+    - david-persson
+  - title: On the randomized SVD in infinite dimensions
+    year: 2025
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2506.06882
+    authors:
+    - daniel-kressner
+    - david-persson
+  - title: Query Efficient Structured Matrix Learning
+    year: 2025
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2507.19290
+    authors:
+    - noah-amsel
+    - tyler-chen
+    - cameron-musco
+    - christopher-musco
+    - david-persson
+  - title: Randomized Nyström Approximation of Non-negative Self-Adjoint Operators
+    year: 2025
+    venue: SIAM J. Math. Data Sci.
+    url: https://doi.org/10.1137/24m165082x
+    authors:
+    - david-persson
+    - nicolas-boulle
+    - daniel-kressner
+  - title: Randomized block-Krylov subspace methods for low-rank approximation of matrix functions
+    year: 2025
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2502.01888
+    authors:
+    - david-persson
+    - tyler-chen
+    - christopher-musco
+  - title: 'The Polar Express: Optimal Matrix Sign Methods and Their Application to the Muon Algorithm'
+    year: 2025
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2505.16932
+    authors:
+    - noah-amsel
+    - david-persson
+    - christopher-musco
+    - robert-gower
+  - title: Quasi-optimal Hierarchically Semi-separable Matrix Approximation
+    year: 2026
+    venue: SIAM J. Matrix Anal. Appl.
+    url: https://doi.org/10.1137/25m176622x
+    authors:
+    - noah-amsel
+    - tyler-chen
+    - diana-halikias
+    - cameron-musco
+    - christopher-musco
+    - david-persson
+- id: stefano-massei
+  papers:
+  - title: Solving Rank-Structured Sylvester and Lyapunov Equations
+    year: 2018
+    venue: SIAM J. Matrix Anal. Appl.
+    url: https://doi.org/10.1137/17M1157155
+    authors:
+    - stefano-massei
+    - davide-palitta
+  - title: Low-Rank Updates and a Divide-And-Conquer Method for Linear Matrix Equations
+    year: 2019
+    venue: SIAM J. Sci. Comput.
+    url: https://doi.org/10.1137/17M1161038
+    authors:
+    - daniel-kressner
+    - stefano-massei
+  - title: On maximum volume submatrices and cross approximation for symmetric semidefinite and diagonally
+      dominant matrices
+    year: 2019
+    venue: CoRR
+    url: http://arxiv.org/abs/1902.02283
+    authors:
+    - alice-cortinovis
+    - daniel-kressner
+    - stefano-massei
+  - title: Certified and fast computations with shallow covariance kernels
+    year: 2020
+    venue: CoRR
+    url: https://arxiv.org/abs/2001.09187
+    authors:
+    - daniel-kressner
+    - stefano-massei
+  - title: Low-rank updates and divide-and-conquer methods for quadratic matrix equations
+    year: 2020
+    venue: Numer. Algorithms
+    url: https://doi.org/10.1007/s11075-019-00776-w
+    authors:
+    - daniel-kressner
+    - stefano-massei
+  - title: Quasi-Optimal Sampling to Learn Basis Updates for Online Adaptive Model Reduction with Adaptive
+      Empirical Interpolation
+    year: 2020
+    venue: ACC
+    url: https://doi.org/10.23919/ACC45564.2020.9147832
+    authors:
+    - alice-cortinovis
+    - daniel-kressner
+    - stefano-massei
+  - title: 'hm-toolbox: MATLAB Software for HODLR and HSS Matrices'
+    year: 2020
+    venue: SIAM J. Sci. Comput.
+    url: https://doi.org/10.1137/19M1288048
+    authors:
+    - stefano-massei
+    - daniel-kressner
+  - title: Compress-and-restart block Krylov subspace methods for Sylvester matrix equations
+    year: 2021
+    venue: Numer. Linear Algebra Appl.
+    url: https://doi.org/10.1002/nla.2339
+    authors:
+    - daniel-kressner
+    - stefano-massei
+    - davide-palitta
+  - title: Hierarchical adaptive low-rank format with applications to discretized PDEs
+    year: 2021
+    venue: CoRR
+    url: https://arxiv.org/abs/2104.11456
+    authors:
+    - stefano-massei
+    - daniel-kressner
+  - title: Divide-and-Conquer Methods for Functions of Matrices with Banded or Hierarchical Low-Rank Structure
+    year: 2022
+    venue: SIAM J. Matrix Anal. Appl.
+    url: https://doi.org/10.1137/21m1432594
+    authors:
+    - alice-cortinovis
+    - daniel-kressner
+    - stefano-massei
+  - title: Hierarchical adaptive low-rank format with applications to discretized partial differential
+      equations
+    year: 2022
+    venue: Numer. Linear Algebra Appl.
+    url: https://doi.org/10.1002/nla.2448
+    authors:
+    - stefano-massei
+    - daniel-kressner
+  - title: Improved parallel-in-time integration via low-rank updates and interpolation
+    year: 2022
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2204.03073
+    authors:
+    - daniel-kressner
+    - stefano-massei
+  - title: Improved ParaDiag via low-rank updates and interpolation
+    year: 2023
+    venue: Numerische Mathematik
+    url: https://doi.org/10.1007/s00211-023-01372-w
+    authors:
+    - daniel-kressner
+    - stefano-massei
+  - title: Computing the density of the Kesten-Stigum limit in supercritical Galton-Watson processes
+    year: 2026
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2601.19633
+    authors:
+    - alice-cortinovis
+    - stefano-massei
+- id: theo-mary
+  papers:
+  - title: Matrix-free construction of HSS representation using adaptive randomized sampling
+    year: 2018
+    venue: CoRR
+    url: http://arxiv.org/abs/1810.04125
+    authors:
+    - theo-mary
+    - xiaoye-sherry-li
+  - title: A New Approach to Probabilistic Rounding Error Analysis
+    year: 2019
+    venue: SIAM J. Sci. Comput.
+    url: https://doi.org/10.1137/18M1226312
+    authors:
+    - nicholas-higham
+    - theo-mary
+  - title: A New Preconditioner that Exploits Low-Rank Approximations to Factorization Error
+    year: 2019
+    venue: SIAM J. Sci. Comput.
+    url: https://doi.org/10.1137/18M1182802
+    authors:
+    - nicholas-higham
+    - theo-mary
+  - title: Robust and Accurate Stopping Criteria for Adaptive Randomized Sampling in Matrix-Free Hierarchically
+      Semiseparable Construction
+    year: 2019
+    venue: SIAM J. Sci. Comput.
+    url: https://doi.org/10.1137/18M1194961
+    authors:
+    - theo-mary
+    - xiaoye-sherry-li
+  - title: A Class of Fast and Accurate Summation Algorithms
+    year: 2020
+    venue: SIAM J. Sci. Comput.
+    url: https://doi.org/10.1137/19M1257780
+    authors:
+    - nicholas-higham
+    - theo-mary
+  - title: 'Mixed Precision Block Fused Multiply-Add: Error Analysis and Application to GPU Tensor Cores'
+    year: 2020
+    venue: SIAM J. Sci. Comput.
+    url: https://doi.org/10.1137/19M1289546
+    authors:
+    - nicholas-higham
+    - theo-mary
+  - title: Sharper Probabilistic Backward Error Analysis for Basic Linear Algebra Kernels with Random
+      Data
+    year: 2020
+    venue: SIAM J. Sci. Comput.
+    url: https://doi.org/10.1137/20M1314355
+    authors:
+    - nicholas-higham
+    - theo-mary
+  - title: Stochastic Rounding and Its Probabilistic Backward Error Analysis
+    year: 2021
+    venue: SIAM J. Sci. Comput.
+    url: https://doi.org/10.1137/20M1334796
+    authors:
+    - nicholas-higham
+    - theo-mary
+  - title: Mixed precision algorithms in numerical linear algebra
+    year: 2022
+    venue: Acta Numer.
+    url: https://doi.org/10.1017/S0962492922000022
+    authors:
+    - nicholas-higham
+    - theo-mary
+  - title: Combining Sparse Approximate Factorizations with Mixed-precision Iterative Refinement
+    year: 2023
+    venue: ACM Trans. Math. Softw.
+    url: https://doi.org/10.1145/3582493
+    authors:
+    - nicholas-higham
+    - theo-mary
+  - title: 'Matrix Multiplication in Multiword Arithmetic: Error Analysis and Application to GPU Tensor
+      Cores'
+    year: 2023
+    venue: SIAM J. Sci. Comput.
+    url: https://doi.org/10.1137/21m1465032
+    authors:
+    - nicholas-higham
+    - theo-mary
+  - title: Five-Precision GMRES-Based Iterative Refinement
+    year: 2024
+    venue: SIAM J. Matrix Anal. Appl.
+    url: https://doi.org/10.1137/23m1549079
+    authors:
+    - nicholas-higham
+    - theo-mary
+- id: heather-wilber
+  papers:
+  - title: Computing with Functions in Spherical and Polar Geometries I. The Sphere
+    year: 2016
+    venue: SIAM J. Sci. Comput.
+    url: https://doi.org/10.1137/15M1045855
+    authors:
+    - alex-townsend
+    - heather-wilber
+  - title: Computing with Functions in Spherical and Polar Geometries II. The Disk
+    year: 2017
+    venue: SIAM J. Sci. Comput.
+    url: https://doi.org/10.1137/16M1070207
+    authors:
+    - heather-wilber
+    - alex-townsend
+  - title: Chebyshev approximation and the global geometry of sloppy models
+    year: 2018
+    venue: CoRR
+    url: http://arxiv.org/abs/1809.08280
+    authors:
+    - heather-wilber
+    - alex-townsend
+  - title: Data-driven Algorithms for signal processing with rational functions
+    year: 2021
+    venue: CoRR
+    url: https://arxiv.org/abs/2105.07324
+    authors:
+    - heather-wilber
+    - alex-townsend
+  - title: Data-Driven Algorithms for Signal Processing with Trigonometric Rational Functions
+    year: 2022
+    venue: SIAM J. Sci. Comput.
+    url: https://doi.org/10.1137/21m1420277
+    authors:
+    - heather-wilber
+    - alex-townsend
+  - title: A superfast direct inversion method for the nonuniform discrete Fourier transform
+    year: 2024
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2404.13223
+    authors:
+    - heather-wilber
+    - ethan-epperly
+  - title: A time-frequency method for acoustic scattering with trapping
+    year: 2025
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2506.15165
+    authors:
+    - heather-wilber
+    - per-gunnar-martinsson
+  - title: Compression properties for large Toeplitz-like matrices
+    year: 2025
+    venue: Numer. Algorithms
+    url: https://doi.org/10.1007/s11075-025-02185-8
+    authors:
+    - daniel-kressner
+    - heather-wilber
+  - title: Superfast Direct Inversion of the Nonuniform Discrete Fourier Transform via Hierarchically
+      Semiseparable Least Squares
+    year: 2025
+    venue: SIAM J. Sci. Comput.
+    url: https://doi.org/10.1137/24m1656694
+    authors:
+    - heather-wilber
+    - ethan-epperly
+  - title: The Akhiezer iteration and an inverse-free solver for Sylvester matrix equations
+    year: 2025
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2503.17496
+    authors:
+    - thomas-trogdon
+    - heather-wilber
+- id: diana-halikias
+  papers:
+  - title: Arbitrary-Depth Universal Approximation Theorems for Operator Neural Networks
+    year: 2021
+    venue: CoRR
+    url: https://arxiv.org/abs/2109.11354
+    authors:
+    - diana-halikias
+    - alex-townsend
+  - title: Matrix recovery from matrix-vector products
+    year: 2022
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2212.09841
+    authors:
+    - diana-halikias
+    - alex-townsend
+  - title: Elliptic PDE learning is provably data-efficient
+    year: 2023
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2302.12888
+    authors:
+    - nicolas-boulle
+    - diana-halikias
+    - alex-townsend
+  - title: Operator learning without the adjoint
+    year: 2024
+    venue: J. Mach. Learn. Res.
+    url: https://jmlr.org/papers/v25/24-0162.html
+    authors:
+    - nicolas-boulle
+    - diana-halikias
+    - alex-townsend
+  - title: Structured matrix recovery from matrix-vector products
+    year: 2024
+    venue: Numer. Linear Algebra Appl.
+    url: https://doi.org/10.1002/nla.2531
+    authors:
+    - diana-halikias
+    - alex-townsend
+  - title: Near-optimal hierarchical matrix approximation from matrix-vector products
+    year: 2025
+    venue: SODA
+    url: https://doi.org/10.1137/1.9781611978322.87
+    authors:
+    - tyler-chen
+    - diana-halikias
+    - cameron-musco
+    - christopher-musco
+    - david-persson
+  - title: 'Attention Mechanisms Through the Lens of Numerical Methods: Approximation Methods and Alternative
+      Formulations'
+    year: 2026
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2604.01757
+    authors:
+    - alice-cortinovis
+    - yijun-dong
+    - diana-halikias
+    - anna-ma
+    - deanna-needell
+    - katherine-pearce
+    - elizaveta-rebrova
+    - rudi-smith
+    - laura-grigori
+  - title: Fixed-Sparsity Matrix Approximation from Matrix-Vector Products
+    year: 2026
+    venue: SIAM J. Matrix Anal. Appl.
+    url: https://doi.org/10.1137/25m1742710
+    authors:
+    - noah-amsel
+    - tyler-chen
+    - diana-halikias
+    - cameron-musco
+    - christopher-musco
+  - title: Quasi-optimal Hierarchically Semi-separable Matrix Approximation
+    year: 2026
+    venue: SIAM J. Matrix Anal. Appl.
+    url: https://doi.org/10.1137/25m176622x
+    authors:
+    - noah-amsel
+    - tyler-chen
+    - diana-halikias
+    - cameron-musco
+    - christopher-musco
+    - david-persson
+  - title: Transpose-free linear algebra
+    year: 2026
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2606.01335
+    authors:
+    - diana-halikias
+    - alex-townsend
+- id: nicolas-boulle
+  papers:
+  - title: Classification of chaotic time series with deep learning
+    year: 2019
+    venue: CoRR
+    url: http://arxiv.org/abs/1908.06848
+    authors:
+    - nicolas-boulle
+    - yuji-nakatsukasa
+  - title: Computing with Functions in the Ball
+    year: 2020
+    venue: SIAM J. Sci. Comput.
+    url: https://doi.org/10.1137/19M1297063
+    authors:
+    - nicolas-boulle
+    - alex-townsend
+  - title: Rational neural networks
+    year: 2020
+    venue: NeurIPS
+    url: https://proceedings.neurips.cc/paper/2020/hash/a3f390d88e4c41f2747bfa2f1b5f87db-Abstract.html
+    authors:
+    - nicolas-boulle
+    - yuji-nakatsukasa
+    - alex-townsend
+  - title: An optimal complexity spectral method for Navier-Stokes simulations in the ball
+    year: 2021
+    venue: CoRR
+    url: https://arxiv.org/abs/2103.16638
+    authors:
+    - nicolas-boulle
+    - alex-townsend
+  - title: Data-driven discovery of physical laws with human-understandable deep learning
+    year: 2021
+    venue: CoRR
+    url: https://arxiv.org/abs/2105.00266
+    authors:
+    - nicolas-boulle
+    - alex-townsend
+  - title: A generalization of the randomized singular value decomposition
+    year: 2022
+    venue: ICLR
+    url: https://openreview.net/forum?id=hgKtwSb4S2
+    authors:
+    - nicolas-boulle
+    - alex-townsend
+  - title: Learning Green's functions associated with parabolic partial differential equations
+    year: 2022
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2204.12789
+    authors:
+    - nicolas-boulle
+    - alex-townsend
+  - title: Learning Green's functions associated with time-dependent partial differential equations
+    year: 2022
+    venue: J. Mach. Learn. Res.
+    url: https://jmlr.org/papers/v23/22-0433.html
+    authors:
+    - nicolas-boulle
+    - alex-townsend
+  - title: A Mathematical Guide to Operator Learning
+    year: 2023
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2312.14688
+    authors:
+    - nicolas-boulle
+    - alex-townsend
+  - title: Elliptic PDE learning is provably data-efficient
+    year: 2023
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2302.12888
+    authors:
+    - nicolas-boulle
+    - diana-halikias
+    - alex-townsend
+  - title: Learning Elliptic Partial Differential Equations with Randomized Linear Algebra
+    year: 2023
+    venue: Found. Comput. Math.
+    url: https://doi.org/10.1007/s10208-022-09556-w
+    authors:
+    - nicolas-boulle
+    - alex-townsend
+  - title: Operator learning without the adjoint
+    year: 2024
+    venue: J. Mach. Learn. Res.
+    url: https://jmlr.org/papers/v25/24-0162.html
+    authors:
+    - nicolas-boulle
+    - diana-halikias
+    - alex-townsend
+  - title: Randomized Nyström Approximation of Non-negative Self-Adjoint Operators
+    year: 2025
+    venue: SIAM J. Math. Data Sci.
+    url: https://doi.org/10.1137/24m165082x
+    authors:
+    - david-persson
+    - nicolas-boulle
+    - daniel-kressner
+- id: taejun-park
+  papers:
+  - title: A Fast Randomized Algorithm for computing the Null Space
+    year: 2022
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2206.00975
+    authors:
+    - yuji-nakatsukasa
+    - taejun-park
+  - title: Approximating Sparse Matrices and their Functions using Matrix-vector products
+    year: 2023
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2310.05625
+    authors:
+    - taejun-park
+    - yuji-nakatsukasa
+  - title: Randomized Low-Rank Approximation for Symmetric Indefinite Matrices
+    year: 2023
+    venue: SIAM J. Matrix Anal. Appl.
+    url: https://doi.org/10.1137/22m1538648
+    authors:
+    - yuji-nakatsukasa
+    - taejun-park
+  - title: Accuracy and Stability of CUR Decompositions with Oversampling
+    year: 2025
+    venue: SIAM J. Matrix Anal. Appl.
+    url: https://doi.org/10.1137/24m1660346
+    authors:
+    - taejun-park
+    - yuji-nakatsukasa
+  - title: Fast Rank Adaptive CUR via a Recycled Small Sketch
+    year: 2025
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2509.21963
+    authors:
+    - taejun-park
+    - yuji-nakatsukasa
+    - per-gunnar-martinsson
+  - title: Low-Rank Approximation of Parameter-Dependent Matrices via CUR Decomposition
+    year: 2025
+    venue: SIAM J. Sci. Comput.
+    url: https://doi.org/10.1137/24m1683998
+    authors:
+    - taejun-park
+    - yuji-nakatsukasa
+  - title: Numerical Stability of the Nyström Method
+    year: 2025
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2511.15583
+    authors:
+    - alberto-bucci
+    - yuji-nakatsukasa
+    - taejun-park
+  - title: Fast, High-Accuracy, Randomized Nullspace Computations for Tall Matrices
+    year: 2026
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2602.16797
+    authors:
+    - ethan-epperly
+    - taejun-park
+    - yuji-nakatsukasa
+- id: chris-camano
+  papers:
+  - title: Faster Linear Algebra Algorithms with Structured Random Matrices
+    year: 2025
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2508.21189
+    authors:
+    - chris-camano
+    - ethan-epperly
+    - raphael-meyer
+    - joel-tropp
+  - title: Debiasing Polynomial and Fourier Regression
+    year: 2026
+    venue: SOSA
+    url: https://doi.org/10.1137/1.9781611978964.26
+    authors:
+    - chris-camano
+    - raphael-meyer
+  - title: Linear algebra at exponential scale via tensor network dimension reduction
+    year: 2026
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2606.15350
+    authors:
+    - chris-camano
+    - ethan-epperly
+    - raphael-meyer
+    - joel-tropp
+  - title: 'Successive randomized compression: A randomized algorithm for the compressed MPO-MPS product'
+    year: 2026
+    venue: Quantum
+    url: https://doi.org/10.22331/q-2026-03-10-2022
+    authors:
+    - chris-camano
+    - ethan-epperly
+    - joel-tropp
+- id: yijun-dong
+  papers:
+  - title: 'Simpler is better: A comparative study of randomized algorithms for computing the CUR decomposition'
+    year: 2021
+    venue: CoRR
+    url: https://arxiv.org/abs/2104.05877
+    authors:
+    - yijun-dong
+    - per-gunnar-martinsson
+  - title: 'AdaWAC: Adaptively Weighted Augmentation Consistency Regularization for Volumetric Medical
+      Image Segmentation'
+    year: 2022
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2210.01891
+    authors:
+    - yijun-dong
+    - rachel-ward
+  - title: Adaptively Weighted Data Augmentation Consistency Regularization for Robust Optimization under
+      Concept Shift
+    year: 2023
+    venue: ICML
+    url: https://proceedings.mlr.press/v202/dong23f.html
+    authors:
+    - yijun-dong
+    - rachel-ward
+  - title: 'Cluster-aware Semi-supervised Learning: Relational Knowledge Distillation Provably Learns
+      Clustering'
+    year: 2023
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2307.11030
+    authors:
+    - yijun-dong
+    - rachel-ward
+  - title: Sample Efficiency of Data Augmentation Consistency Regularization
+    year: 2023
+    venue: AISTATS
+    url: https://proceedings.mlr.press/v206/yang23c.html
+    authors:
+    - yijun-dong
+    - rachel-ward
+  - title: 'Simpler is better: a comparative study of randomized pivoting algorithms for CUR and interpolative
+      decompositions'
+    year: 2023
+    venue: Adv. Comput. Math.
+    url: https://doi.org/10.1007/s10444-023-10061-z
+    authors:
+    - yijun-dong
+    - per-gunnar-martinsson
+  - title: Efficient Bounds and Estimates for Canonical Angles in Randomized Subspace Approximations
+    year: 2024
+    venue: SIAM J. Matrix Anal. Appl.
+    url: https://doi.org/10.1137/23m1584733
+    authors:
+    - yijun-dong
+    - per-gunnar-martinsson
+    - yuji-nakatsukasa
+  - title: Adaptive Parallelizable Algorithms for Interpolative Decompositions via Partially Pivoted LU
+    year: 2025
+    venue: Numer. Linear Algebra Appl.
+    url: https://doi.org/10.1002/nla.70002
+    authors:
+    - katherine-pearce
+    - yijun-dong
+    - per-gunnar-martinsson
+  - title: 'Robust Blockwise Random Pivoting: Fast and Accurate Adaptive Interpolative Decomposition'
+    year: 2025
+    venue: SIAM J. Matrix Anal. Appl.
+    url: https://doi.org/10.1137/24m1678027
+    authors:
+    - yijun-dong
+    - per-gunnar-martinsson
+    - katherine-pearce
+  - title: 'Attention Mechanisms Through the Lens of Numerical Methods: Approximation Methods and Alternative
+      Formulations'
+    year: 2026
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2604.01757
+    authors:
+    - alice-cortinovis
+    - yijun-dong
+    - diana-halikias
+    - anna-ma
+    - deanna-needell
+    - katherine-pearce
+    - elizaveta-rebrova
+    - rudi-smith
+    - laura-grigori
+- id: anna-yesypenko
+  papers:
+  - title: Parallel Optimizations for the Hierarchical Poincaré-Steklov Scheme (HPS)
+    year: 2022
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2211.14969
+    authors:
+    - anna-yesypenko
+    - per-gunnar-martinsson
+  - title: 'SlabLU: A Sparse Direct Solver for Elliptic PDEs on Rectangular Domains'
+    year: 2022
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2211.07572
+    authors:
+    - anna-yesypenko
+    - per-gunnar-martinsson
+  - title: 'Randomized Strong Recursive Skeletonization: Simultaneous compression and factorization of
+      H-matrices in the Black-Box Setting'
+    year: 2023
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2311.01451
+    authors:
+    - anna-yesypenko
+    - per-gunnar-martinsson
+  - title: 'SkelFMM: A Simplified Fast Multipole Method Based on Recursive Skeletonization'
+    year: 2023
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2310.16668
+    authors:
+    - anna-yesypenko
+    - per-gunnar-martinsson
+  - title: 'SlabLU: a two-level sparse direct solver for elliptic PDEs'
+    year: 2024
+    venue: Adv. Comput. Math.
+    url: https://doi.org/10.1007/s10444-024-10176-x
+    authors:
+    - anna-yesypenko
+    - per-gunnar-martinsson
+  - title: A Two-Level Direct Solver for the Hierarchical Poincaré-Steklov Method
+    year: 2025
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2503.04033
+    authors:
+    - anna-yesypenko
+    - per-gunnar-martinsson
+  - title: A fast spectral overlapping domain decomposition method with discretization-independent conditioning
+      bounds
+    year: 2025
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2510.25991
+    authors:
+    - anna-yesypenko
+    - per-gunnar-martinsson
+  - title: A simplified fast multipole method based on strong recursive skeletonization
+    year: 2025
+    venue: J. Comput. Phys.
+    url: https://doi.org/10.1016/j.jcp.2024.113707
+    authors:
+    - anna-yesypenko
+    - per-gunnar-martinsson
+  - title: Randomized Rank-Structured Matrix Compression by Tagging
+    year: 2025
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2501.05528
+    authors:
+    - katherine-pearce
+    - anna-yesypenko
+    - per-gunnar-martinsson
+  - title: 'Randomized Strong Recursive Skeletonization: Simultaneous Compression and LU Factorization
+      of Hierarchical Matrices using Matrix-Vector Products'
+    year: 2026
+    venue: J. Sci. Comput.
+    url: https://doi.org/10.1007/s10915-025-03157-9
+    authors:
+    - anna-yesypenko
+    - per-gunnar-martinsson
+- id: katherine-pearce
+  papers:
+  - title: Robust Parameter Identifiability Analysis via Column Subset Selection
+    year: 2022
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2205.04203
+    authors:
+    - katherine-pearce
+    - ilse-ipsen
+    - arvind-saibaba
+  - title: Adaptive Parallelizable Algorithms for Interpolative Decompositions via Partially Pivoted LU
+    year: 2025
+    venue: Numer. Linear Algebra Appl.
+    url: https://doi.org/10.1002/nla.70002
+    authors:
+    - katherine-pearce
+    - yijun-dong
+    - per-gunnar-martinsson
+  - title: Randomized Algorithms for Low-Rank Matrix and Tensor Decompositions
+    year: 2025
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2512.05286
+    authors:
+    - katherine-pearce
+    - per-gunnar-martinsson
+  - title: Randomized Rank-Structured Matrix Compression by Tagging
+    year: 2025
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2501.05528
+    authors:
+    - katherine-pearce
+    - anna-yesypenko
+    - per-gunnar-martinsson
+  - title: 'Robust Blockwise Random Pivoting: Fast and Accurate Adaptive Interpolative Decomposition'
+    year: 2025
+    venue: SIAM J. Matrix Anal. Appl.
+    url: https://doi.org/10.1137/24m1678027
+    authors:
+    - yijun-dong
+    - per-gunnar-martinsson
+    - katherine-pearce
+  - title: 'Attention Mechanisms Through the Lens of Numerical Methods: Approximation Methods and Alternative
+      Formulations'
+    year: 2026
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2604.01757
+    authors:
+    - alice-cortinovis
+    - yijun-dong
+    - diana-halikias
+    - anna-ma
+    - deanna-needell
+    - katherine-pearce
+    - elizaveta-rebrova
+    - rudi-smith
+    - laura-grigori
+- id: ruhui-jin
+  papers:
+  - title: Faster Johnson-Lindenstrauss Transforms via Kronecker Products
+    year: 2019
+    venue: CoRR
+    url: http://arxiv.org/abs/1909.04801
+    authors:
+    - ruhui-jin
+    - rachel-ward
+  - title: Scalable Symmetric Tucker Tensor Decomposition
+    year: 2024
+    venue: SIAM J. Matrix Anal. Appl.
+    url: https://doi.org/10.1137/23m1582928
+    authors:
+    - ruhui-jin
+    - rachel-ward
+- id: igor-simunec
+  papers:
+  - title: Randomized biorthogonalization through a two-sided Gram-Schmidt process
+    year: 2025
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2509.04386
+    authors:
+    - laura-grigori
+    - lorenzo-piccinini
+    - igor-simunec
+  - title: 'Randomized orthogonalization and Krylov subspace methods: principles and algorithms'
+    year: 2025
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2512.15455
+    authors:
+    - laura-grigori
+    - igor-simunec
+  - title: Restoring similarity in randomized Krylov methods with applications to eigenvalue problems
+      and matrix functions
+    year: 2026
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2601.10248
+    authors:
+    - laura-grigori
+    - daniel-kressner
+    - igor-simunec
