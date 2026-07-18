@@ -55,15 +55,20 @@
   const topicLabel = (t) => topicLabels.get(t) ?? t;
 
   // ---------- year range (filters which papers count) -------------------------
+  // The slider starts at 2006; its leftmost position is an open "<2006"
+  // bucket that includes all older papers.
   const paperYears = papers.map((p) => p.year).filter((y) => y);
-  const YEAR_MIN = paperYears.length ? Math.min(...paperYears) : 1990;
+  const dataMin = paperYears.length ? Math.min(...paperYears) : 2006;
+  const YEAR_MIN = Math.max(2006, dataMin);
   const YEAR_MAX = paperYears.length ? Math.max(...paperYears) : 2026;
   let yearStart = YEAR_MIN, yearStop = YEAR_MAX;
   const fullRange = () => yearStart <= YEAR_MIN && yearStop >= YEAR_MAX;
-  // undated papers count only when the range is untouched
   const paperInRange = (idx) => {
     const y = papers[idx].year;
-    return fullRange() ? true : (y != null && y >= yearStart && y <= yearStop);
+    if (fullRange()) return true; // includes undated papers
+    if (y == null) return false;
+    const lower = yearStart <= YEAR_MIN ? -Infinity : yearStart;
+    return y >= lower && y <= yearStop;
   };
 
   // ---------- scoring ---------------------------------------------------------
@@ -366,7 +371,8 @@
   yearStopInput.value = YEAR_MAX;
   const yearsFill = document.getElementById("years-fill");
   function paintYears() {
-    yearsValue.textContent = `${yearStart} – ${yearStop}`;
+    const startLabel = yearStart <= YEAR_MIN ? `<${YEAR_MIN}` : yearStart;
+    yearsValue.textContent = `${startLabel} – ${yearStop}`;
     const span = YEAR_MAX - YEAR_MIN || 1;
     yearsFill.style.left = `${(100 * (yearStart - YEAR_MIN)) / span}%`;
     yearsFill.style.width = `${(100 * (yearStop - yearStart)) / span}%`;

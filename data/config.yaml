@@ -40,7 +40,7 @@ factors:
     kind: computed
     compute: advising
     max: 1
-    default_weight: 0.8
+    default_weight: 0.2
     description: >
       Advisor relationship (advising.yaml): PhD advisor/advisee = 1.0,
       postdoc host/postdoc = 0.7.
@@ -49,20 +49,10 @@ factors:
     label: Other collaboration
     kind: curated
     max: 2
-    default_weight: 0.5
+    default_weight: 0.2
     description: >
       Collaboration beyond papers: joint software, co-organizing, joint
       grants/projects. 1 = some · 2 = substantial.
-
-  - id: same_institution
-    label: Same institution
-    kind: computed
-    compute: same_institution
-    max: 1
-    default_weight: 0.3
-    description: >
-      1 = current affiliations match (computed from people.yaml; requires the
-      affiliation strings to be written consistently).
 
 # -----------------------------------------------------------------------------
 # Node color groups: each person's `area` field in people.yaml selects a

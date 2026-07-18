@@ -96,7 +96,7 @@ details[open] > summary.panel-heading { margin-bottom: 8px; }
 .hint { margin: 0 0 10px; font-size: 12px; color: var(--muted); }
 
 /* search */
-#search {
+#search, #topic-search {
   width: 100%;
   padding: 7px 9px;
   border: 1px solid var(--hairline);
@@ -105,7 +105,7 @@ details[open] > summary.panel-heading { margin-bottom: 8px; }
   color: var(--text-primary);
   font: inherit;
 }
-#search:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
+#search:focus, #topic-search:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
 #search-results { margin-top: 4px; }
 .search-hit {
   display: block;
