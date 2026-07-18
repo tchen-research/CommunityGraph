@@ -44,7 +44,7 @@
   // ---------- state -----------------------------------------------------------
   const weights = {};
   DATA.factors.forEach((f) => (weights[f.id] = f.default_weight));
-  let threshold = 0;
+  let threshold = 0.1;
   let advisingView = false;
   let topicSet = null; // Set of person ids matching the topic filter, or null
   const selectedTopics = new Set();
@@ -131,11 +131,11 @@
   let [W, H] = size();
 
   const sim = d3.forceSimulation(nodes)
-    .force("charge", d3.forceManyBody().strength(-130).distanceMax(420))
+    .force("charge", d3.forceManyBody().strength(-280).distanceMax(650))
     .force("center", d3.forceCenter(W / 2, H / 2))
-    .force("x", d3.forceX(W / 2).strength(0.04))
-    .force("y", d3.forceY(H / 2).strength(0.04))
-    .force("collide", d3.forceCollide().radius((d) => d.r + 5))
+    .force("x", d3.forceX(W / 2).strength(0.025))
+    .force("y", d3.forceY(H / 2).strength(0.025))
+    .force("collide", d3.forceCollide().radius((d) => d.r + 9))
     .force("link", d3.forceLink().id((d) => d.id));
 
   new ResizeObserver(() => {
@@ -301,9 +301,9 @@
     const visible = links.filter((l) => l.visible);
     sim.force("link")
       .links(visible)
-      .distance((l) => 36 + 130 * (1 - l.rel))
-      .strength((l) => 0.08 + 0.5 * l.rel);
-    sim.force("collide").radius((d) => d.r + 5);
+      .distance((l) => 60 + 190 * (1 - l.rel))
+      .strength((l) => 0.06 + 0.4 * l.rel);
+    sim.force("collide").radius((d) => d.r + 9);
     if (reheat) sim.alpha(0.5).restart();
   }
 
@@ -656,6 +656,7 @@
   }
 
   // ---------- go --------------------------------------------------------------
-  document.getElementById("threshold-value").textContent = "0%";
+  document.getElementById("threshold-value").textContent =
+    `${Math.round(100 * threshold)}%`;
   update(true);
 })();
