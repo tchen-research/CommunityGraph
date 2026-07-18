@@ -13,12 +13,18 @@ combination of factors.
 > reflect *tracked* papers only. Treat it as a map, not a record: verify
 > against primary sources before relying on anything here.
 
+**Live site:** https://research.chen.pw/CommunityGraph
+
 ## Quick start
 
 ```bash
-python3 build.py           # compile data/*.yaml -> site/data.js
-xdg-open site/index.html   # or just open it in a browser; no server needed
+python3 build.py           # compile data/*.yaml -> docs/data.js
+xdg-open docs/index.html   # or just open it in a browser; no server needed
 ```
+
+The site is served by GitHub Pages from the `docs/` folder on `main`
+(`docs/data.js` is generated but committed, so Pages needs no build step —
+re-run `build.py` and commit after editing the data).
 
 In the app:
 
@@ -90,10 +96,10 @@ are declared in `config.yaml`; a new computed rule needs a few lines in
 ## Layout
 
 ```
-build.py           YAML -> site/data.js compiler + validator
+build.py           YAML -> docs/data.js compiler + validator
 data/*.yaml        the data (source of truth, hand-editable)
-site/index.html    the app (open directly; D3 is vendored in site/lib/)
-site/app.js
-site/style.css
-site/data.js       generated - do not edit
+docs/index.html    the app (open directly; D3 is vendored in docs/lib/)
+docs/app.js
+docs/style.css
+docs/data.js       generated - do not edit by hand (but committed for Pages)
 ```

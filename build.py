@@ -10,7 +10,7 @@ Reads   data/config.yaml       metric factors, node groups
         data/advising.yaml     directed advisor -> student relations
         data/connections.yaml  curated edge annotations (notes/links/collaboration)
 
-Writes  site/data.js           window.GRAPH_DATA = {...} consumed by the app
+Writes  docs/data.js           window.GRAPH_DATA = {...} consumed by the app
 
 The build validates cross-references (unknown ids, duplicate edges/papers,
 out-of-range values fail the build) and computes the derived factors declared
@@ -27,7 +27,7 @@ import yaml
 
 ROOT = Path(__file__).resolve().parent
 DATA = ROOT / "data"
-OUT = ROOT / "site" / "data.js"
+OUT = ROOT / "docs" / "data.js"
 
 errors: list[str] = []
 warnings: list[str] = []
