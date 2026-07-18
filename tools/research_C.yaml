@@ -250,3 +250,177 @@ people:
         venue: "SIAM J. Matrix Anal. Appl."
         url: "https://doi.org/10.1137/16M1104974"
         authors: [shashanka-ubaru, yousef-saad]
+
+  - id: shashanka-ubaru
+    website: "https://shashankaubaru.github.io/"
+    photo: "https://shashankaubaru.github.io/images/Ubaru.jpg"
+    advising:
+      - {advisor: yousef-saad, student: shashanka-ubaru, kind: phd}
+    papers:
+      - title: "Union of Intersections (UoI) for Interpretable Data Driven Discovery and Prediction"
+        year: 2017
+        venue: "NIPS"
+        url: "https://proceedings.neurips.cc/paper/2017/hash/788d986905533aba051261497ecffcbb-Abstract.html"
+        authors: [fred-roosta, shashanka-ubaru, michael-mahoney]
+      - title: "Dynamic Graph Convolutional Networks Using the Tensor M-Product"
+        year: 2021
+        venue: "SDM"
+        url: "https://doi.org/10.1137/1.9781611976700.82"
+        authors: [shashanka-ubaru, lior-horesh, misha-kilmer, haim-avron]
+      - title: "Sparse Graph Based Sketching for Fast Numerical Linear Algebra"
+        year: 2021
+        venue: "ICASSP"
+        url: "https://doi.org/10.1109/ICASSP39728.2021.9414030"
+        authors: [shashanka-ubaru, kenneth-clarkson, lior-horesh]
+
+  - id: haim-avron
+    website: "http://www.math.tau.ac.il/~haimav/"
+    photo: "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=KVPQoQgAAAAJ&citpid=2"
+    advising:
+      - {advisor: sivan-toledo, student: haim-avron, kind: phd}
+    papers:
+      - title: "Stable tensor neural networks for efficient deep learning"
+        year: 2024
+        venue: "Frontiers Big Data"
+        url: "https://doi.org/10.3389/fdata.2024.1363978"
+        authors: [elizabeth-newman, lior-horesh, haim-avron, misha-kilmer]
+      - title: "Quasi-Monte Carlo Feature Maps for Shift-Invariant Kernels"
+        year: 2016
+        venue: "J. Mach. Learn. Res."
+        url: "https://jmlr.org/papers/v17/14-538.html"
+        authors: [haim-avron, michael-mahoney]
+      - title: "Faster Randomized Interior Point Methods for Tall/Wide Linear Programs"
+        year: 2022
+        venue: "J. Mach. Learn. Res."
+        url: "https://jmlr.org/papers/v23/21-0709.html"
+        authors: [haim-avron, petros-drineas]
+      - title: "Blendenpik: Supercharging LAPACK's Least-Squares Solver"
+        year: 2010
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/090767911"
+        authors: [haim-avron, sivan-toledo]
+      - title: "Randomized algorithms for estimating the trace of an implicit symmetric positive semi-definite matrix"
+        year: 2011
+        venue: "J. ACM"
+        url: "https://doi.org/10.1145/1944345.1944349"
+        authors: [haim-avron, sivan-toledo]
+
+  - id: sivan-toledo
+    website: "https://www.cs.tau.ac.il/~stoledo/"
+    photo: "https://english.tau.ac.il/sites/default/files/styles/research_teaser_image_180_x_180/public/co_sivan_toledo_180X180_3.jpg?itok=OJC_tS6s"
+    advising:
+      - {advisor: sivan-toledo, student: haim-avron, kind: phd}
+    papers:
+      - title: "The Future Fast Fourier Transform?"
+        year: 1998
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/S1064827597316266"
+        authors: [alan-edelman, sivan-toledo]
+      - title: "Exploiting Multiple Levels of Parallelism in Sparse Matrix-Matrix Multiplication"
+        year: 2016
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/15M104253X"
+        authors: [james-demmel, laura-grigori, sivan-toledo]
+
+  - id: lior-horesh
+    website: "https://research.ibm.com/people/lior-horesh"
+    photo: "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=qbqwCbEAAAAJ&citpid=6"
+    advising: []
+    papers:
+      - title: "Quantum-Inspired Algorithms from Randomized Numerical Linear Algebra"
+        year: 2022
+        venue: "ICML"
+        url: "https://proceedings.mlr.press/v162/chepurko22a.html"
+        authors: [kenneth-clarkson, lior-horesh, david-woodruff]
+
+  - id: james-demmel
+    website: "https://people.eecs.berkeley.edu/~demmel/"
+    photo: "https://people.eecs.berkeley.edu/~demmel/Jim_Demmel_Oct2022.jpg"
+    advising: []
+    papers:
+      - title: "Generalized Pseudospectral Shattering and Inverse-Free Matrix Pencil Diagonalization"
+        year: 2026
+        venue: "Found. Comput. Math."
+        url: "https://doi.org/10.1007/s10208-024-09682-7"
+        authors: [james-demmel, ioana-dumitriu, ryan-schneider]
+      - title: "Surrogate-Based Autotuning for Randomized Sketching Algorithms in Regression Problems"
+        year: 2025
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/23m1597526"
+        authors: [james-demmel, michal-derezinski, michael-mahoney, riley-murray]
+      - title: "Communication lower bounds and optimal algorithms for numerical linear algebra"
+        year: 2014
+        venue: "Acta Numer."
+        url: "https://doi.org/10.1017/S0962492914000038"
+        authors: [erin-carson, james-demmel]
+      - title: "Stability of block LU factorization"
+        year: 1995
+        venue: "Numer. Linear Algebra Appl."
+        url: "https://doi.org/10.1002/nla.1680020208"
+        authors: [james-demmel, nicholas-higham]
+      - title: "Communication costs of Strassen's matrix multiplication"
+        year: 2014
+        venue: "Commun. ACM"
+        url: "https://doi.org/10.1145/2556647.2556660"
+        authors: [james-demmel, olga-holtz]
+      - title: "Continuation of Invariant Subspaces in Large Bifurcation Problems"
+        year: 2008
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/060654219"
+        authors: [david-bindel, james-demmel]
+      - title: "Communication-optimal Parallel and Sequential QR and LU Factorizations"
+        year: 2012
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/080731992"
+        authors: [james-demmel, laura-grigori, julien-langou]
+      - title: "Non-Hermitian Eigenvalue Problems"
+        year: 2000
+        venue: "Templates for the Solution of Algebraic Eigenvalue Problems"
+        url: "https://doi.org/10.1137/1.9780898719581.ch7"
+        authors: [james-demmel, ming-gu, yousef-saad, zhaojun-bai]
+
+  - id: laura-grigori
+    website: "https://people.epfl.ch/laura.grigori"
+    photo: "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=BST6b8AAAAAJ&citpid=5"
+    advising: []
+    papers:
+      - title: "Attention Mechanisms Through the Lens of Numerical Methods: Approximation Methods and Alternative Formulations"
+        year: 2026
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2604.01757"
+        authors: [alice-cortinovis, yijun-dong, diana-halikias, anna-ma, deanna-needell, katherine-pearce, elizaveta-rebrova, laura-grigori]
+      - title: "Randomized Numerical Linear Algebra: A Perspective on the Field With an Eye to Software"
+        year: 2023
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2302.11474"
+        authors: [riley-murray, james-demmel, michael-mahoney, laura-grigori, michal-derezinski]
+      - title: "LU Factorization with Panel Rank Revealing Pivoting and Its Communication Avoiding Version"
+        year: 2013
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/120863691"
+        authors: [james-demmel, laura-grigori, ming-gu]
+      - title: "Restoring similarity in randomized Krylov methods with applications to eigenvalue problems and matrix functions"
+        year: 2026
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2601.10248"
+        authors: [laura-grigori, daniel-kressner, igor-simunec]
+      - title: "Randomized biorthogonalization through a two-sided Gram-Schmidt process"
+        year: 2025
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2509.04386"
+        authors: [laura-grigori, lorenzo-piccinini, igor-simunec]
+      - title: "Adaptive Randomized Tensor Train Rounding using Khatri-Rao Products"
+        year: 2025
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2511.03598"
+        authors: [laura-grigori, mariana-martinez-aguilar, arvind-saibaba]
+      - title: "Efficient QR-based Column Subset Selection through Randomized Sparse Embeddings"
+        year: 2025
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2509.03198"
+        authors: [israa-fakih, laura-grigori]
+      - title: "Randomized strong rank-revealing QR for column subset selection and low-rank matrix approximation"
+        year: 2025
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2503.18496"
+        authors: [laura-grigori, zhipeng-xue]

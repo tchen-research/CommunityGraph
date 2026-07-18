@@ -186,3 +186,305 @@ people:
         venue: "SIAM J. Sci. Comput."
         url: "https://doi.org/10.1137/19M1297063"
         authors: [nicolas-boulle, alex-townsend]
+
+  - id: daniel-kressner
+    website: "https://people.epfl.ch/daniel.kressner"
+    photo: "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=WM-bQukAAAAJ&citpid=2"
+    advising:
+      - {advisor: daniel-kressner, student: alice-cortinovis, kind: phd}
+      - {advisor: daniel-kressner, student: david-persson, kind: phd}
+      - {advisor: daniel-kressner, student: igor-simunec, kind: postdoc}
+      - {advisor: daniel-kressner, student: taejun-park, kind: postdoc}
+    papers:
+      - title: "Recent Advances in Dense Linear Algebra: Minisymposium Abstract"
+        year: 2006
+        venue: "PARA"
+        url: "https://doi.org/10.1007/978-3-540-75755-9_14"
+        authors: [daniel-kressner, julien-langou]
+      - title: "7th Workshop on Matrix Equations and Tensor Techniques"
+        year: 2018
+        venue: "Numer. Linear Algebra Appl."
+        url: "https://doi.org/10.1002/nla.2223"
+        authors: [daniel-kressner, valeria-simoncini]
+      - title: "Compress-and-restart block Krylov subspace methods for Sylvester matrix equations"
+        year: 2021
+        venue: "Numer. Linear Algebra Appl."
+        url: "https://doi.org/10.1002/nla.2339"
+        authors: [daniel-kressner, stefano-massei, davide-palitta]
+      - title: "Divide-and-Conquer Methods for Functions of Matrices with Banded or Hierarchical Low-Rank Structure"
+        year: 2022
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/21m1432594"
+        authors: [alice-cortinovis, daniel-kressner, stefano-massei]
+      - title: "Compression properties for large Toeplitz-like matrices"
+        year: 2025
+        venue: "Numer. Algorithms"
+        url: "https://doi.org/10.1007/s11075-025-02185-8"
+        authors: [daniel-kressner, heather-wilber]
+        note: "with Bernhard Beckermann (not in roster)"
+      - title: "Interpolatory Dynamical Low-Rank Approximation: Theoretical Foundations and Algorithms"
+        year: 2025
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2510.19518"
+        authors: [benjamin-carrel, daniel-kressner]
+      - title: "Randomized Nyström Approximation of Non-negative Self-Adjoint Operators"
+        year: 2025
+        venue: "SIAM J. Math. Data Sci."
+        url: "https://doi.org/10.1137/24m165082x"
+        authors: [david-persson, nicolas-boulle, daniel-kressner]
+      - title: "Restoring similarity in randomized Krylov methods with applications to eigenvalue problems and matrix functions"
+        year: 2026
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2601.10248"
+        authors: [laura-grigori, daniel-kressner, igor-simunec]
+
+  - id: nicholas-higham
+    website: "https://nhigham.com/"
+    photo: "https://nhigham.com/wp-content/uploads/2020/12/cropped-200302-1351-14_9943_2979_rot_square_1600px.jpg"
+    advising:
+      - {advisor: nicholas-higham, student: theo-mary, kind: postdoc}
+    papers:
+      - title: "Stability of block algorithms with fast level-3 BLAS"
+        year: 1992
+        venue: "ACM Trans. Math. Softw."
+        url: "https://doi.org/10.1145/131766.131769"
+        authors: [james-demmel, nicholas-higham]
+      - title: "A survey of numerical linear algebra methods utilizing mixed-precision arithmetic"
+        year: 2021
+        venue: "Int. J. High Perform. Comput. Appl."
+        url: "https://doi.org/10.1177/10943420211003313"
+        authors: [erin-carson, nicholas-higham, xiaoye-sherry-li]
+      - title: "Five-Precision GMRES-Based Iterative Refinement"
+        year: 2024
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/23m1549079"
+        authors: [nicholas-higham, theo-mary]
+
+  - id: rachel-ward
+    website: "https://sites.google.com/view/rward"
+    photo: "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=UnuEcZEAAAAJ&citpid=13"
+    advising:
+      - {advisor: rachel-ward, student: ruhui-jin, kind: phd}
+      - {advisor: rachel-ward, student: yijun-dong, kind: phd}
+    papers:
+      - title: "Compressed sensing with a jackknife and a bootstrap"
+        year: 2022
+        venue: "J. Data Sci. Stat. Vis."
+        url: "https://doi.org/10.52933/jdssv.v2i4.43"
+        authors: [mark-tygert, rachel-ward]
+      - title: "On the fast convergence of minibatch heavy ball momentum"
+        year: 2022
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2206.07553"
+        authors: [tyler-chen, rachel-ward]
+      - title: "Nearly Optimal Bounds for Cyclic Forgetting"
+        year: 2023
+        venue: "NeurIPS"
+        url: "http://papers.nips.cc/paper_files/paper/2023/hash/d72ae75abaa70a3b19c5d4f436c680d1-Abstract-Conference.html"
+        authors: [deanna-needell, rachel-ward]
+      - title: "Sample Efficiency of Data Augmentation Consistency Regularization"
+        year: 2023
+        venue: "AISTATS"
+        url: "https://proceedings.mlr.press/v206/yang23c.html"
+        authors: [yijun-dong, rachel-ward]
+      - title: "Scalable Symmetric Tucker Tensor Decomposition"
+        year: 2024
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/23m1582928"
+        authors: [ruhui-jin, rachel-ward]
+      - title: "First Proof"
+        year: 2026
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2602.05192"
+        authors: [nikhil-srivastava, rachel-ward]
+        note: "with M. Abouzaid, S. Weinberger, L. Williams (not in roster)"
+
+  - id: madeleine-udell
+    website: "https://web.stanford.edu/~udell/"
+    photo: "https://web.stanford.edu/~udell/img/2023-Madeleine-Udell-1.jpg"
+    advising: []
+    papers:
+      - title: "Turbocharging Gaussian Process Inference with Approximate Sketch-and-Project"
+        year: 2025
+        venue: "NeurIPS"
+        url: "http://papers.nips.cc/paper_files/paper/2025/hash/cf8b2205e39f81726a8d828ecbe00ad0-Abstract-Conference.html"
+        authors: [michal-derezinski, madeleine-udell]
+
+  - id: vladimir-rokhlin
+    website: "https://math.yale.edu/people/vladimir-rokhlin"
+    photo: "https://engineering.yale.edu/application/files/thumbnails/custom_720x720_exact/7317/3099/4088/Vladimir_Rokhlin_computer_science.webp"
+    advising:
+      - {advisor: vladimir-rokhlin, student: per-gunnar-martinsson, kind: postdoc}
+      - {advisor: vladimir-rokhlin, student: mark-tygert, kind: phd}
+    papers:
+      - title: "A Fast Randomized Algorithm for Orthogonal Projection"
+        year: 2011
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/090779656"
+        authors: [vladimir-rokhlin, mark-tygert]
+
+  - id: mark-tygert
+    website: "https://tygert.com/"
+    photo: "https://tygert.com/standing.jpg"
+    advising: []
+    papers:
+      - title: "A Randomized Algorithm for Principal Component Analysis"
+        year: 2009
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/080736417"
+        authors: [vladimir-rokhlin, mark-tygert]
+
+  - id: ming-gu
+    website: "https://math.berkeley.edu/~mgu/"
+    photo: "https://math.berkeley.edu/sites/default/files/styles/openberkeley_brand_widgets_rectangle/public/ming_gu_1.jpg"
+    advising: []
+    papers:
+      - title: "Non-Hermitian Eigenvalue Problems"
+        year: 2000
+        venue: "Templates for the Solution of Algebraic Eigenvalue Problems"
+        url: "https://doi.org/10.1137/1.9780898719581.ch7"
+        authors: [james-demmel, ming-gu, yousef-saad, zhaojun-bai]
+      - title: "Prospectus for a Dense Linear Algebra Software Library"
+        year: 2007
+        venue: "Handbook of Parallel Computing"
+        url: "https://doi.org/10.1201/9781420011296.ch29"
+        authors: [james-demmel, julien-langou, ming-gu, xiaoye-sherry-li, david-bindel]
+      - title: "Communication Avoiding Rank Revealing QR Factorization with Column Pivoting"
+        year: 2015
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/13092157X"
+        authors: [james-demmel, laura-grigori, ming-gu]
+      - title: "Spectral Gap Error Bounds for Improving CUR Matrix Decomposition and the Nyström Method"
+        year: 2015
+        venue: "AISTATS"
+        url: "http://proceedings.mlr.press/v38/anderson15.html"
+        authors: [michael-mahoney, ming-gu]
+        note: "with David Anderson (not in roster)"
+
+  - id: ethan-epperly
+    website: "https://www.ethanepperly.com/"
+    photo: "https://www.ethanepperly.com/wp-content/uploads/2025/08/1W2A0577-min-2-277x300.jpeg"
+    advising:
+      - {advisor: joel-tropp, student: ethan-epperly, kind: phd}
+    papers:
+      - title: "Superfast Direct Inversion of the Nonuniform Discrete Fourier Transform via Hierarchically Semiseparable Least Squares"
+        year: 2025
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/24m1656694"
+        authors: [heather-wilber, ethan-epperly]
+        note: "with Alex H. Barnett (not in roster)"
+      - title: "Does block size matter in randomized block Krylov low-rank approximation?"
+        year: 2026
+        venue: "SODA"
+        url: "https://doi.org/10.1137/1.9781611978971.42"
+        authors: [tyler-chen, ethan-epperly, raphael-meyer, christopher-musco]
+      - title: "Numerical Instabilities in the Kaczmarz Method and Stabilization by Iterative Refinement"
+        year: 2026
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2605.17185"
+        authors: [michal-derezinski, ethan-epperly, deanna-needell]
+
+  - id: robert-webber
+    website: "https://sites.google.com/ucsd.edu/rwebber/"
+    photo: "https://sites.google.com/sitesv-images-rt/ACHe0d0fw_aTDdppgQ-o31INz63XziAFyYm6kaLW8kEfmlWU4iIL0C-VH6CXaDTMpQHu_EYN9E7e4l1b4VjfXbSypUC5ZfTluyrrvhvUbo1oAt03r5u37McnniqZ-skhl8eX2Kjc_-gD_KqGdQffTtKYhrzGG5Lqs47IKVYyrVYLSZVqJTNknDR5oh5s_TixTvq600RWuI9MInBE5REnD4D64tpt_W7Vvb9bclL9D1QiTkA=w1280"
+    advising:
+      - {advisor: joel-tropp, student: robert-webber, kind: postdoc}
+    papers:
+      - title: "Randomized algorithms for low-rank matrix approximation: Design, analysis, and applications"
+        year: 2023
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2306.12418"
+        authors: [joel-tropp, robert-webber]
+
+  - id: alice-cortinovis
+    website: "https://sites.google.com/view/alicecortinovis/home"
+    photo: "https://sites.google.com/sitesv-images-rt/ACHe0d3Z8AYjEWmP7CyYQT6Jp0FprAZ0AOh5WO3XBR8DT9wcZmrLIAKcjE70XDXSpla8vkPg6cOOq9M7tULQBtrippYmjxx3Vgrq7k5VVnyUmk511x_0zNKXOqM1ivk-ZGYoNa8hg2FhgtxDFoPLhPtwXF791dQPEE7DccPJ-6bbV10jTLvj46CTBK1kreNXa0TvL8DYkpIty6SnIYfSnvxEiM70LClNdV0VP8eTfJ0WePk=w1280"
+    advising:
+      - {advisor: daniel-kressner, student: alice-cortinovis, kind: phd}
+    papers:
+      - title: "Improved Variants of the Hutch++ Algorithm for Trace Estimation"
+        year: 2022
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/21m1447623"
+        authors: [david-persson, alice-cortinovis, daniel-kressner]
+      - title: "Attention Mechanisms Through the Lens of Numerical Methods: Approximation Methods and Alternative Formulations"
+        year: 2026
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2604.01757"
+        authors: [alice-cortinovis, yijun-dong, diana-halikias, anna-ma, deanna-needell, katherine-pearce, elizaveta-rebrova, rudi-smith, laura-grigori]
+
+  - id: david-persson
+    website: "https://davpersson.github.io/"
+    photo: "https://davpersson.github.io/photo.jpg"
+    advising:
+      - {advisor: daniel-kressner, student: david-persson, kind: phd}
+    papers:
+      - title: "Algorithm-Agnostic Low-Rank Approximation of Operator Monotone Matrix Functions"
+        year: 2025
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/23m1619435"
+        authors: [david-persson, raphael-meyer, christopher-musco]
+      - title: "The Polar Express: Optimal Matrix Sign Methods and Their Application to the Muon Algorithm"
+        year: 2025
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2505.16932"
+        authors: [noah-amsel, david-persson, christopher-musco, robert-gower]
+      - title: "Quasi-optimal Hierarchically Semi-separable Matrix Approximation"
+        year: 2026
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/25m176622x"
+        authors: [noah-amsel, tyler-chen, diana-halikias, cameron-musco, christopher-musco, david-persson]
+
+  - id: stefano-massei
+    website: "https://sites.google.com/view/stefanomassei/home"
+    photo: "https://sites.google.com/sitesv-images-rt/ACHe0d2f-J14UrT37WMutFRjSsfbrLbSeAuJS4QqGHExUdCrC84Dd6oYUrF3Gdt3vc20wczf6Yj7agF75vFsfZpRjsM9sKOVmroovojtP2ObfNdr8N53jUokwoc7AsVWIIPHtsW9SpNpyxw91JK6SwL8hOyxCSJObviGUhgxtCfYmjvJpHhNamZQCPQ3we32Nn4sSGuQW7B99VZYvrV71Yw=w1280"
+    advising: []
+    papers:
+      - title: "hm-toolbox: MATLAB Software for HODLR and HSS Matrices"
+        year: 2020
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/19M1288048"
+        authors: [stefano-massei, daniel-kressner]
+
+  - id: theo-mary
+    website: "https://perso.lip6.fr/Theo.Mary/"
+    photo: "https://perso.lip6.fr/Theo.Mary/images/photo.jpg"
+    advising: []
+    papers:
+      - title: "Robust and Accurate Stopping Criteria for Adaptive Randomized Sampling in Matrix-Free Hierarchically Semiseparable Construction"
+        year: 2019
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/18M1194961"
+        authors: [theo-mary, xiaoye-sherry-li]
+
+  - id: heather-wilber
+    website: "https://heatherw3521.github.io/"
+    photo: "https://heatherw3521.github.io/me.jpg"
+    advising:
+      - {advisor: alex-townsend, student: heather-wilber, kind: phd}
+      - {advisor: per-gunnar-martinsson, student: heather-wilber, kind: postdoc}
+    papers:
+      - title: "The Akhiezer iteration and an inverse-free solver for Sylvester matrix equations"
+        year: 2025
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2503.17496"
+        authors: [thomas-trogdon, heather-wilber]
+
+  - id: diana-halikias
+    website: "https://dihalikias.github.io/"
+    photo: "https://dihalikias.github.io/diana.JPG"
+    advising:
+      - {advisor: alex-townsend, student: diana-halikias, kind: phd}
+    papers:
+      - title: "Fixed-Sparsity Matrix Approximation from Matrix-Vector Products"
+        year: 2026
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/25m1742710"
+        authors: [noah-amsel, tyler-chen, diana-halikias, cameron-musco, christopher-musco]
+
+  - id: nicolas-boulle
+    website: "https://nboulle.github.io/"
+    photo: "https://nboulle.github.io/images/profile.jpg"
+    advising:
+      - {advisor: alex-townsend, student: nicolas-boulle, kind: phd}
+    papers: []

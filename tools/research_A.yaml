@@ -824,3 +824,421 @@ people:
         venue: "PODC"
         url: "https://doi.org/10.1145/2611462.2611497"
         authors: [michael-kapralov, david-woodruff]
+  - id: aaron-sidford
+    website: "https://www.aaronsidford.com/"
+    photo: "https://lh7-us.googleusercontent.com/sitesv-images-rt/ACHe0d1fvoVHsVDVr3L6-55GgYSjA2CIBA5k4RPQUT8ZIj3hJmhV4zaVMdHi_6qODQs4m4jBdBdD1aQV1hBf10xqm1Zy2aVStmvSALprvAfVFUVo7XDRxKeHYiQWlTcMRiXB2TcCYNviGBzWSEIadDoBrXYs6gIYnVRBRBxMXsqK5Op6WrpMi2RwylkkCJd5F3CmmqOHU0ig--aGSZ62ZrPSBAI80KRQ-Zu2QCPGpijC=w1280"
+    papers:
+      - title: "Approaching Optimality for Solving Dense Linear Systems with Low-Rank Structure"
+        year: 2026
+        venue: "SODA"
+        url: "https://doi.org/10.1137/1.9781611978971.37"
+        authors: [michal-derezinski, aaron-sidford]
+      - title: "Eulerian Graph Sparsification by Effective Resistance Decomposition"
+        year: 2025
+        venue: "SODA"
+        url: "https://doi.org/10.1137/1.9781611978322.50"
+        authors: [sushant-sachdeva, aaron-sidford]
+      - title: "Incremental Approximate Maximum Flow on Undirected Graphs in Subpolynomial Update Time"
+        year: 2024
+        venue: "SODA"
+        url: "https://doi.org/10.1137/1.9781611977912.106"
+        authors: [rasmus-kyng, richard-peng, sushant-sachdeva, aaron-sidford]
+      - title: "A Deterministic Almost-Linear Time Algorithm for Minimum-Cost Flow"
+        year: 2023
+        venue: "FOCS"
+        url: "https://doi.org/10.1109/FOCS57990.2023.00037"
+        authors: [richard-peng, rasmus-kyng, sushant-sachdeva, aaron-sidford]
+      - title: "Computing Lewis Weights to High Precision"
+        year: 2022
+        venue: "SODA"
+        url: "https://doi.org/10.1137/1.9781611977073.107"
+        authors: [swati-padmanabhan, aaron-sidford]
+      - title: "Dynamic Streaming Spectral Sparsification in Nearly Linear Time and Space"
+        year: 2019
+        venue: "CoRR"
+        url: "http://arxiv.org/abs/1903.12150"
+        authors: [michael-kapralov, aaron-sidford]
+      - title: "Spectrum Approximation Beyond Fast Matrix Multiplication: Algorithms and Hardness"
+        year: 2018
+        venue: "ITCS"
+        url: "https://doi.org/10.4230/LIPIcs.ITCS.2018.8"
+        authors: [cameron-musco, aaron-sidford, shashanka-ubaru, david-woodruff]
+      - title: "Efficient Convex Optimization with Membership Oracles"
+        year: 2018
+        venue: "COLT"
+        url: "http://proceedings.mlr.press/v75/lee18a.html"
+        authors: [aaron-sidford, santosh-vempala]
+      - title: "Solving Directed Laplacian Systems in Nearly-Linear Time through Sparse LU Factorizations"
+        year: 2018
+        venue: "FOCS"
+        url: "https://doi.org/10.1109/FOCS.2018.00089"
+        authors: [rasmus-kyng, richard-peng, aaron-sidford]
+      - title: "Stability of the Lanczos Method for Matrix Function Approximation"
+        year: 2018
+        venue: "SODA"
+        url: "https://doi.org/10.1137/1.9781611975031.105"
+        authors: [cameron-musco, christopher-musco, aaron-sidford]
+      - title: "Principal Component Projection Without Principal Component Analysis"
+        year: 2016
+        venue: "ICML"
+        url: "http://proceedings.mlr.press/v48/frostig16.html"
+        authors: [cameron-musco, christopher-musco, aaron-sidford]
+      - title: "Uniform Sampling for Matrix Approximation"
+        year: 2015
+        venue: "ITCS"
+        url: "https://doi.org/10.1145/2688073.2688113"
+        authors: [cameron-musco, christopher-musco, richard-peng, aaron-sidford]
+  - id: richard-peng
+    website: "https://www.cs.cmu.edu/~yangp/"
+    photo: "https://www.cs.cmu.edu/~yangp/photo.jpg"
+    advising:
+      - {advisor: richard-peng, student: peng-zhang, kind: phd}
+    papers:
+      - title: "Maximum Flow and Minimum-Cost Flow in Almost-Linear Time"
+        year: 2025
+        venue: "J. ACM"
+        url: "https://doi.org/10.1145/3728631"
+        authors: [rasmus-kyng, richard-peng, sushant-sachdeva]
+      - title: "Nested Dissection Meets IPMs: Planar Min-Cost Flow in Nearly-Linear Time"
+        year: 2025
+        venue: "J. ACM"
+        url: "https://doi.org/10.1145/3744639"
+        authors: [sushant-sachdeva, richard-peng]
+      - title: "Fast Algorithms for ℓp-Regression"
+        year: 2024
+        venue: "J. ACM"
+        url: "https://doi.org/10.1145/3686794"
+        authors: [rasmus-kyng, richard-peng, sushant-sachdeva]
+      - title: "Almost-Linear-Time Algorithms for Maximum Flow and Minimum-Cost Flow"
+        year: 2023
+        venue: "Commun. ACM"
+        url: "https://doi.org/10.1145/3610940"
+        authors: [rasmus-kyng, richard-peng, sushant-sachdeva]
+      - title: "Faster maxflow via improved dynamic spectral vertex sparsifiers"
+        year: 2022
+        venue: "STOC"
+        url: "https://doi.org/10.1145/3519935.3520068"
+        authors: [richard-peng, aaron-sidford]
+      - title: "Sparse Regression Faster than dω"
+        year: 2021
+        venue: "CoRR"
+        url: "https://arxiv.org/abs/2109.11537"
+        authors: [richard-peng, santosh-vempala]
+      - title: "Iterative Refinement for ℓp-norm Regression"
+        year: 2019
+        venue: "SODA"
+        url: "https://doi.org/10.1137/1.9781611975482.86"
+        authors: [rasmus-kyng, richard-peng, sushant-sachdeva]
+      - title: "Flows in almost linear time via adaptive preconditioning"
+        year: 2019
+        venue: "STOC"
+        url: "https://doi.org/10.1145/3313276.3316410"
+        authors: [rasmus-kyng, richard-peng, sushant-sachdeva]
+      - title: "Incomplete nested dissection"
+        year: 2018
+        venue: "STOC"
+        url: "https://doi.org/10.1145/3188745.3188960"
+        authors: [rasmus-kyng, richard-peng, peng-zhang]
+      - title: "A Framework for Analyzing Resparsification Algorithms"
+        year: 2017
+        venue: "SODA"
+        url: "https://doi.org/10.1137/1.9781611974782.132"
+        authors: [rasmus-kyng, richard-peng, sushant-sachdeva]
+      - title: "Sparsified Cholesky and multigrid solvers for connection laplacians"
+        year: 2016
+        venue: "STOC"
+        url: "https://doi.org/10.1145/2897518.2897640"
+        authors: [rasmus-kyng, richard-peng, sushant-sachdeva]
+      - title: "Uniform Sampling for Matrix Approximation"
+        year: 2015
+        venue: "ITCS"
+        url: "https://doi.org/10.1145/2688073.2688113"
+        authors: [cameron-musco, christopher-musco, richard-peng, aaron-sidford]
+  - id: rasmus-kyng
+    website: "https://rasmuskyng.com/"
+    photo: "https://rasmuskyng.com/bw-portrait.jpg"
+    advising:
+      - {advisor: jelani-nelson, student: rasmus-kyng, kind: postdoc}
+    papers:
+      - title: "Incremental Approximate Maximum Flow on Undirected Graphs in Subpolynomial Update Time"
+        year: 2024
+        venue: "SODA"
+        url: "https://doi.org/10.1137/1.9781611977912.106"
+        authors: [rasmus-kyng, richard-peng, sushant-sachdeva, aaron-sidford]
+      - title: "Almost-Linear Time Algorithms for Decremental Graphs: Min-Cost Flow and More via Duality"
+        year: 2024
+        venue: "FOCS"
+        url: "https://doi.org/10.1109/FOCS61266.2024.00120"
+        authors: [rasmus-kyng, sushant-sachdeva]
+      - title: "Optimal Electrical Oblivious Routing on Expanders"
+        year: 2024
+        venue: "ICALP"
+        url: "https://doi.org/10.4230/LIPIcs.ICALP.2024.65"
+        authors: [rasmus-kyng, sushant-sachdeva]
+      - title: "A Simple Framework for Finding Balanced Sparse Cuts via APSP"
+        year: 2023
+        venue: "SOSA"
+        url: "https://doi.org/10.1137/1.9781611977585.ch5"
+        authors: [rasmus-kyng, sushant-sachdeva]
+      - title: "Hardness Results for Laplacians of Simplicial Complexes via Sparse-Linear Equation Complete Gadgets"
+        year: 2022
+        venue: "ICALP"
+        url: "https://doi.org/10.4230/LIPIcs.ICALP.2022.53"
+        authors: [rasmus-kyng, peng-zhang]
+      - title: "Two-Commodity Flow Is Equivalent to Linear Programming Under Nearly-Linear Time Reductions"
+        year: 2022
+        venue: "ICALP"
+        url: "https://doi.org/10.4230/LIPIcs.ICALP.2022.54"
+        authors: [rasmus-kyng, peng-zhang]
+      - title: "Almost-Linear-Time Weighted 𝓁p-Norm Solvers in Slightly Dense Graphs via Sparsification"
+        year: 2021
+        venue: "ICALP"
+        url: "https://doi.org/10.4230/LIPIcs.ICALP.2021.9"
+        authors: [rasmus-kyng, sushant-sachdeva]
+      - title: "Hardness Results for Structured Linear Systems"
+        year: 2020
+        venue: "SIAM J. Comput."
+        url: "https://doi.org/10.1137/17M1161774"
+        authors: [rasmus-kyng, peng-zhang]
+      - title: "Packing LPs are Hard to Solve Accurately, Assuming Linear Equations are Hard"
+        year: 2020
+        venue: "SODA"
+        url: "https://doi.org/10.1137/1.9781611975994.17"
+        authors: [rasmus-kyng, peng-zhang]
+      - title: "Sampling random spanning trees faster than matrix multiplication"
+        year: 2017
+        venue: "STOC"
+        url: "https://doi.org/10.1145/3055399.3055499"
+        authors: [rasmus-kyng, sushant-sachdeva]
+      - title: "Approximate Gaussian Elimination for Laplacians - Fast, Sparse, and Simple"
+        year: 2016
+        venue: "FOCS"
+        url: "https://doi.org/10.1109/FOCS.2016.68"
+        authors: [rasmus-kyng, sushant-sachdeva]
+      - title: "Algorithms for Lipschitz Learning on Graphs"
+        year: 2015
+        venue: "COLT"
+        url: "http://proceedings.mlr.press/v40/Kyng15.html"
+        authors: [rasmus-kyng, sushant-sachdeva]
+  - id: sushant-sachdeva
+    website: "https://sachdevasushant.github.io/"
+    photo: "https://sachdevasushant.github.io/new_me.jpg"
+    papers:
+      - title: "Incremental Approximate Maximum Flow on Undirected Graphs in Subpolynomial Update Time"
+        year: 2024
+        venue: "SODA"
+        url: "https://doi.org/10.1137/1.9781611977912.106"
+        authors: [rasmus-kyng, richard-peng, sushant-sachdeva, aaron-sidford]
+      - title: "Universal Matrix Sparsifiers and Fast Deterministic Algorithms for Linear Algebra"
+        year: 2024
+        venue: "ITCS"
+        url: "https://doi.org/10.4230/LIPIcs.ITCS.2024.13"
+        authors: [cameron-musco, sushant-sachdeva, david-woodruff]
+      - title: "Graph Sparsification, Spectral Sketches, and Faster Resistance Computation via Short Cycle Decompositions"
+        year: 2023
+        venue: "SIAM J. Comput."
+        url: "https://doi.org/10.1137/19m1247632"
+        authors: [richard-peng, sushant-sachdeva]
+      - title: "Fast Algorithms for 𝓁p-Regression"
+        year: 2022
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2211.03963"
+        authors: [rasmus-kyng, richard-peng, sushant-sachdeva]
+      - title: "Faster Graph Embeddings via Coarsening"
+        year: 2020
+        venue: "ICML"
+        url: "http://proceedings.mlr.press/v119/fahrbach20a.html"
+        authors: [richard-peng, sushant-sachdeva]
+      - title: "Fast, Provably convergent IRLS Algorithm for p-norm Linear Regression"
+        year: 2019
+        venue: "NeurIPS"
+        url: "https://proceedings.neurips.cc/paper/2019/hash/46c7cb50b373877fb2f8d5c4517bb969-Abstract.html"
+        authors: [richard-peng, sushant-sachdeva]
+      - title: "Iterative Refinement for 𝓁p-norm Regression"
+        year: 2019
+        venue: "CoRR"
+        url: "http://arxiv.org/abs/1901.06764"
+        authors: [rasmus-kyng, richard-peng, sushant-sachdeva]
+      - title: "Fast, Provable Algorithms for Isotonic Regression in all L_p-norms"
+        year: 2015
+        venue: "NIPS"
+        url: "https://proceedings.neurips.cc/paper/2015/hash/be53ee61104935234b174e62a07e53cf-Abstract.html"
+        authors: [rasmus-kyng, sushant-sachdeva]
+      - title: "Fast, Provable Algorithms for Isotonic Regression in all ℓp-norms"
+        year: 2015
+        venue: "CoRR"
+        url: "http://arxiv.org/abs/1507.00710"
+        authors: [rasmus-kyng, sushant-sachdeva]
+  - id: jorge-garza-vargas
+    website: "https://web.math.princeton.edu/~jg8853/"
+    photo: "https://web.math.princeton.edu/~jg8853/Photo_personalwebpage.jpg"
+    advising:
+      - {advisor: nikhil-srivastava, student: jorge-garza-vargas, kind: phd}
+      - {advisor: joel-tropp, student: jorge-garza-vargas, kind: postdoc}
+    papers:
+      - title: "Global Convergence of Hessenberg Shifted QR I: Exact Arithmetic"
+        year: 2025
+        venue: "Found. Comput. Math."
+        url: "https://doi.org/10.1007/s10208-024-09658-7"
+        authors: [jorge-garza-vargas, nikhil-srivastava]
+  - id: rikhav-shah
+    website: "https://math.berkeley.edu/~rdshah/"
+    advising:
+      - {advisor: nikhil-srivastava, student: rikhav-shah, kind: phd}
+    papers:
+      - title: "Spectral density estimation for normal matrices"
+        year: 2026
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2605.31430"
+        authors: [cameron-musco, christopher-musco, rikhav-shah, john-urschel]
+      - title: "A Spectral Approach to Polytope Diameter"
+        year: 2024
+        venue: "Discret. Comput. Geom."
+        url: "https://doi.org/10.1007/s00454-024-00636-y"
+        authors: [rikhav-shah, nikhil-srivastava]
+  - id: ryan-schneider
+    website: "https://sites.google.com/view/ryan-schneider-math"
+    photo: "https://sites.google.com/sitesv-images-rt/ACHe0d2FCVV5245hde9sMxEs5a9W1LoFQZbz9zuwixRVFqeWqX4o38_PeUu9Pm410-PF1-wHSshbQq1IplWujMdSE5dYnPm8AZivsJfVg5gNtjLEXa6bDVucCr6vStW8nvzlpcNB_bYjCnq4l4qffHeCM6afaz9IAV7AVLxXimoXzuxyOuVjjfw3l-3zWLFaP6yY4yGrX3FgJyyEdaBURqXfL6FGpVOBu2O7i133LjAyX24=w1280"
+    advising:
+      - {advisor: ioana-dumitriu, student: ryan-schneider, kind: phd}
+      - {advisor: james-demmel, student: ryan-schneider, kind: postdoc}
+    papers:
+      - title: "Generalized Pseudospectral Shattering and Inverse-Free Matrix Pencil Diagonalization"
+        year: 2026
+        venue: "Found. Comput. Math."
+        url: "https://doi.org/10.1007/s10208-024-09682-7"
+        authors: [james-demmel, ioana-dumitriu, ryan-schneider]
+      - title: "Minimizing the Arithmetic and Communication Complexity of Jacobi's Method for Eigenvalues and Singular Values"
+        year: 2025
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2506.03466"
+        authors: [james-demmel, ryan-schneider]
+  - id: ainesh-bakshi
+    website: "http://www.aineshbakshi.com/"
+    photo: "http://www.aineshbakshi.com/pic.png"
+    advising:
+      - {advisor: david-woodruff, student: ainesh-bakshi, kind: phd}
+    papers:
+      - title: "Robustly Learning Mixtures of k Arbitrary Gaussians"
+        year: 2026
+        venue: "J. ACM"
+        url: "https://doi.org/10.1145/3804445"
+        authors: [ainesh-bakshi, santosh-vempala]
+      - title: "Low-rank approximation with 1/ε1/3 matrix-vector products"
+        year: 2022
+        venue: "STOC"
+        url: "https://doi.org/10.1145/3519935.3519988"
+        authors: [ainesh-bakshi, kenneth-clarkson, david-woodruff]
+      - title: "Learning a Latent Simplex in Input Sparsity Time"
+        year: 2021
+        venue: "ICLR"
+        url: "https://openreview.net/forum?id=04LZCAxMSco"
+        authors: [ainesh-bakshi, ravindran-kannan, david-woodruff]
+      - title: "Weighted Maximum Independent Set of Geometric Objects in Turnstile Streams"
+        year: 2020
+        venue: "APPROX-RANDOM"
+        url: "https://doi.org/10.4230/LIPIcs.APPROX/RANDOM.2020.64"
+        authors: [ainesh-bakshi, david-woodruff]
+      - title: "Robust and Sample Optimal Algorithms for PSD Low Rank Approximation"
+        year: 2020
+        venue: "FOCS"
+        url: "https://doi.org/10.1109/FOCS46700.2020.00054"
+        authors: [ainesh-bakshi, david-woodruff]
+      - title: "Learning Two Layer Rectified Neural Networks in Polynomial Time"
+        year: 2019
+        venue: "COLT"
+        url: "http://proceedings.mlr.press/v99/bakshi19a.html"
+        authors: [ainesh-bakshi, david-woodruff]
+      - title: "Robust Communication-Optimal Distributed Clustering Algorithms"
+        year: 2019
+        venue: "ICALP"
+        url: "https://doi.org/10.4230/LIPIcs.ICALP.2019.18"
+        authors: [ainesh-bakshi, david-woodruff]
+      - title: "Sublinear Time Low-Rank Approximation of Distance Matrices"
+        year: 2018
+        venue: "NeurIPS"
+        url: "https://proceedings.neurips.cc/paper/2018/hash/c45008212f7bdf6eab6050c2a564435a-Abstract.html"
+        authors: [ainesh-bakshi, david-woodruff]
+  - id: josh-alman
+    website: "https://joshalman.com/"
+    photo: "https://joshalman.com/wp-content/uploads/2015/03/JoshAlman.jpg"
+  - id: olga-holtz
+    website: "https://math.berkeley.edu/~holtz/"
+    photo: "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=WJGqLh8AAAAJ&citpid=1"
+    papers:
+      - title: "Communication bounds for convolutional neural networks"
+        year: 2022
+        venue: "PASC"
+        url: "https://doi.org/10.1145/3539781.3539784"
+        authors: [james-demmel, olga-holtz]
+      - title: "Communication costs of Strassen's matrix multiplication"
+        year: 2014
+        venue: "Commun. ACM"
+        url: "https://doi.org/10.1145/2556647.2556660"
+        authors: [james-demmel, olga-holtz]
+      - title: "Graph expansion and communication costs of fast matrix multiplication"
+        year: 2012
+        venue: "J. ACM"
+        url: "https://doi.org/10.1145/2395116.2395121"
+        authors: [james-demmel, olga-holtz]
+      - title: "Graph Expansion Analysis for Communication Costs of Fast Rectangular Matrix Multiplication"
+        year: 2012
+        venue: "MedAlg"
+        url: "https://doi.org/10.1007/978-3-642-34862-4_2"
+        authors: [james-demmel, olga-holtz]
+      - title: "Brief announcement: strong scaling of matrix multiplication algorithms and memory-independent communication lower bounds"
+        year: 2012
+        venue: "SPAA"
+        url: "https://doi.org/10.1145/2312005.2312021"
+        authors: [james-demmel, olga-holtz]
+      - title: "Communication-optimal parallel algorithm for strassen's matrix multiplication"
+        year: 2012
+        venue: "SPAA"
+        url: "https://doi.org/10.1145/2312005.2312044"
+        authors: [james-demmel, olga-holtz]
+      - title: "Strong Scaling of Matrix Multiplication Algorithms and Memory-Independent Communication Lower Bounds"
+        year: 2012
+        venue: "CoRR"
+        url: "http://arxiv.org/abs/1202.3177"
+        authors: [james-demmel, olga-holtz]
+      - title: "Minimizing Communication in Numerical Linear Algebra"
+        year: 2011
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/090769156"
+        authors: [james-demmel, olga-holtz]
+      - title: "Graph expansion and communication costs of fast matrix multiplication: regular submission"
+        year: 2011
+        venue: "SPAA"
+        url: "https://doi.org/10.1145/1989493.1989495"
+        authors: [james-demmel, olga-holtz]
+      - title: "Communication-optimal Parallel and Sequential Cholesky Decomposition"
+        year: 2010
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/090760969"
+        authors: [james-demmel, olga-holtz]
+      - title: "Communication-optimal parallel and sequential Cholesky decomposition: extended abstract"
+        year: 2009
+        venue: "SPAA"
+        url: "https://doi.org/10.1145/1583991.1584054"
+        authors: [james-demmel, olga-holtz]
+      - title: "Fast matrix multiplication is stable"
+        year: 2007
+        venue: "Numerische Mathematik"
+        url: "https://doi.org/10.1007/s00211-007-0061-6"
+        authors: [james-demmel, ioana-dumitriu, olga-holtz]
+  - id: peng-zhang
+    website: "https://sites.google.com/site/pengzhang27182/"
+    photo: "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=OeJee_QAAAAJ&citpid=1"
+    advising:
+      - {advisor: richard-peng, student: peng-zhang, kind: phd}
+    papers:
+      - title: "Incomplete nested dissection"
+        year: 2018
+        venue: "STOC"
+        url: "https://doi.org/10.1145/3188745.3188960"
+        authors: [rasmus-kyng, richard-peng, peng-zhang]
+      - title: "Approximating the Solution to Mixed Packing and Covering LPs in Parallel O˜(epsilon^{-3}) Time"
+        year: 2016
+        venue: "ICALP"
+        url: "https://doi.org/10.4230/LIPIcs.ICALP.2016.52"
+        authors: [michael-mahoney, peng-zhang]
