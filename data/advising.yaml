@@ -71,3 +71,14 @@
 
 # --- added from the research agents (July 2026) ---
 - {advisor: zdenek-strakos, student: stefano-pozza, kind: postdoc}
+
+# --- added with the missing-people pass (July 2026) ---
+- {advisor: peter-richtarik, student: robert-gower, kind: phd}
+- {advisor: daniel-spielman, student: rasmus-kyng, kind: phd}
+- {advisor: lloyd-trefethen, student: mark-embree, kind: phd}
+- {advisor: david-woodruff, student: praneeth-kacham, kind: phd}
+- {advisor: david-woodruff, student: samson-zhou, kind: postdoc}
+- {advisor: per-gunnar-martinsson, student: nathan-halko, kind: phd}
+- {advisor: petros-drineas, student: christos-boutsidis, kind: phd}
+- {advisor: yousef-saad, student: vasileios-kalantzis, kind: phd}
+- {advisor: michele-benzi, student: igor-simunec, kind: phd}
