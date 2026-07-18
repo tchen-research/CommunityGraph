@@ -152,19 +152,31 @@
   const size = () => [wrap.clientWidth, wrap.clientHeight];
   let [W, H] = size();
 
+  // Anisotropic positioning: the confinement per axis matches the viewport's
+  // aspect ratio, so a wide window spreads the graph horizontally and a
+  // portrait phone spreads it vertically (spread_x/spread_y tracks W/H).
+  function applyPositioning() {
+    const r = Math.max(0.5, Math.min(2.2, W / H || 1));
+    sim.force("center", d3.forceCenter(W / 2, H / 2));
+    sim.force("x", d3.forceX(W / 2).strength(0.045 / (r * r)));
+    sim.force("y", d3.forceY(H / 2).strength(0.045 * Math.pow(r, 1.5)));
+  }
+
   const sim = d3.forceSimulation(nodes)
     .force("charge", d3.forceManyBody().strength(-310).distanceMax(700))
-    .force("center", d3.forceCenter(W / 2, H / 2))
-    .force("x", d3.forceX(W / 2).strength(0.025))
-    .force("y", d3.forceY(H / 2).strength(0.025))
     .force("collide", d3.forceCollide().radius((d) => d.r + 10))
     .force("link", d3.forceLink().id((d) => d.id));
+  // seed the default phyllotaxis positions stretched to the window's aspect,
+  // so the layout starts (and settles) elongated the right way
+  {
+    const r = Math.max(0.5, Math.min(2.2, W / H || 1));
+    nodes.forEach((n) => { n.x *= r; });
+  }
+  applyPositioning();
 
   new ResizeObserver(() => {
     [W, H] = size();
-    sim.force("center", d3.forceCenter(W / 2, H / 2));
-    sim.force("x", d3.forceX(W / 2).strength(0.04));
-    sim.force("y", d3.forceY(H / 2).strength(0.04));
+    applyPositioning();
     sim.alpha(0.2).restart();
   }).observe(wrap);
 
