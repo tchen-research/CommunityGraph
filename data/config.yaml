@@ -60,9 +60,11 @@ factors:
 # unknown/missing area fall into the first group.
 # -----------------------------------------------------------------------------
 node_groups:
-  - { id: rand,    label: "Randomized low-rank & sketching" }
+  - { id: rand,    label: "Randomized matrix algorithms" }
   - { id: krylov,  label: "Krylov & matrix functions" }
   - { id: hpc,     label: "HPC, software & precision" }
-  - { id: tcs,     label: "Theory & random matrices" }
-  - { id: opt,     label: "Optimization & ML" }
+  - { id: tcs,     label: "Sketching & algorithm theory" }
+  - { id: ml,      label: "Data science, ML & optimization" }
   - { id: inverse, label: "Inverse problems & imaging" }
+  - { id: approx,  label: "Approximation theory & operator learning" }
+  - { id: rmt,     label: "Random matrices & spectral theory" }

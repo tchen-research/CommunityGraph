@@ -66,7 +66,7 @@
 - id: alan-edelman
   name: Alan Edelman
   affiliation: Massachusetts Institute of Technology
-  area: tcs
+  area: rmt
   topics:
   - rmt
   - eigenvalue
@@ -96,7 +96,7 @@
 - id: alex-townsend
   name: Alex Townsend
   affiliation: Cornell University
-  area: rand
+  area: approx
   topics:
   - operator-learning
   - randomized-lowrank
@@ -120,7 +120,7 @@
 - id: alp-yurtsever
   name: Alp Yurtsever
   affiliation: Umeå University
-  area: opt
+  area: ml
   topics:
   - optimization
   - sketching
@@ -159,7 +159,7 @@
 - id: anna-ma
   name: Anna Ma
   affiliation: University of California Irvine
-  area: opt
+  area: ml
   topics:
   - kaczmarz
   - compressed-sensing
@@ -384,7 +384,7 @@
 - id: deanna-needell
   name: Deanna Needell
   affiliation: University of California, Los Angeles
-  area: opt
+  area: ml
   topics:
   - kaczmarz
   - compressed-sensing
@@ -396,7 +396,7 @@
 - id: diana-halikias
   name: Diana Halikias
   affiliation: New York University
-  area: rand
+  area: approx
   topics:
   - operator-learning
   - randomized-lowrank
@@ -441,7 +441,7 @@
 - id: elizaveta-rebrova
   name: Elizaveta Rebrova
   affiliation: Princeton University
-  area: opt
+  area: ml
   topics:
   - kaczmarz
   - sketching
@@ -454,7 +454,7 @@
 - id: emeric-battaglia
   name: Emeric Battaglia
   affiliation: University of California, Irvine
-  area: opt
+  area: ml
   topics:
   - kaczmarz
   - least-squares
@@ -518,7 +518,7 @@
 - id: fred-roosta
   name: Fred Roosta
   affiliation: University of Queensland
-  area: opt
+  area: ml
   topics:
   - optimization
   - sketching
@@ -570,7 +570,7 @@
 - id: heather-wilber
   name: Heather Wilber
   affiliation: University of Texas at Austin
-  area: rand
+  area: approx
   topics:
   - fast-solvers
   - least-squares
@@ -617,7 +617,7 @@
 - id: ioana-dumitriu
   name: Ioana Dumitriu
   affiliation: University of California, San Diego
-  area: tcs
+  area: rmt
   topics:
   - rmt
   - eigenvalue
@@ -647,7 +647,7 @@
 - id: jackie-lok
   name: Jackie Lok
   affiliation: National University of Singapore
-  area: opt
+  area: ml
   topics:
   - kaczmarz
   - least-squares
@@ -693,7 +693,7 @@
 - id: jamie-haddock
   name: Jamie Haddock
   affiliation: Harvey Mudd College
-  area: opt
+  area: ml
   topics:
   - kaczmarz
   - tensors
@@ -739,7 +739,7 @@
 - id: john-urschel
   name: John Urschel
   affiliation: Massachusetts Institute of Technology
-  area: tcs
+  area: rmt
   topics:
   - finite-precision
   - trace-estimation
@@ -750,7 +750,7 @@
 - id: jorge-garza-vargas
   name: Jorge Garza-Vargas
   affiliation: University of California, Berkeley
-  area: tcs
+  area: rmt
   topics:
   - eigenvalue
   - rmt
@@ -880,7 +880,7 @@
   name: Lloyd N. Trefethen
   affiliation: Harvard University (Professor of Applied Mathematics in Residence, SEAS) -
     moved from Oxford in Sept 2023
-  area: krylov
+  area: approx
   topics:
   - eigenvalue
   - krylov
@@ -922,7 +922,7 @@
 - id: madeleine-udell
   name: Madeleine Udell
   affiliation: Stanford University
-  area: opt
+  area: ml
   topics:
   - randomized-lowrank
   - optimization
@@ -969,7 +969,7 @@
 - id: mark-embree
   name: Mark Embree
   affiliation: Virginia Tech
-  area: krylov
+  area: approx
   topics:
   - krylov
   - eigenvalue
@@ -1002,7 +1002,7 @@
 - id: mert-pilanci
   name: Mert Pilanci
   affiliation: Stanford University
-  area: opt
+  area: ml
   topics:
   - sketching
   - optimization
@@ -1040,7 +1040,7 @@
 - id: michael-saunders
   name: Michael Saunders
   affiliation: Stanford University
-  area: opt
+  area: krylov
   topics:
   - least-squares
   - krylov
@@ -1051,7 +1051,7 @@
 - id: michal-derezinski
   name: Michał Dereziński
   affiliation: University of Michigan
-  area: tcs
+  area: ml
   topics:
   - sketching
   - optimization
@@ -1076,7 +1076,7 @@
 - id: miles-lopes
   name: Miles Lopes
   affiliation: University of California, Davis
-  area: rand
+  area: ml
   topics:
   - uq
   - randomized-lowrank
@@ -1130,7 +1130,7 @@
 - id: benjamin-erichson
   name: N. Benjamin Erichson
   affiliation: LBNL / ICSI
-  area: rand
+  area: ml
   topics:
   - randomized-lowrank
   - software
@@ -1163,7 +1163,7 @@
 - id: nicolas-boulle
   name: Nicolas Boullé
   affiliation: Imperial College London
-  area: rand
+  area: approx
   topics:
   - operator-learning
   - randomized-lowrank
@@ -1173,7 +1173,7 @@
 - id: nikhil-srivastava
   name: Nikhil Srivastava
   affiliation: University of California, Berkeley
-  area: tcs
+  area: rmt
   topics:
   - eigenvalue
   - rmt
@@ -1196,7 +1196,7 @@
 - id: olga-holtz
   name: Olga Holtz
   affiliation: University of California, Berkeley
-  area: tcs
+  area: rmt
   topics:
   - hpc
   - finite-precision
@@ -1254,7 +1254,7 @@
 - id: peter-richtarik
   name: Peter Richtárik
   affiliation: KAUST
-  area: opt
+  area: ml
   topics:
   - kaczmarz
   - optimization
@@ -1299,7 +1299,7 @@
 - id: rachel-ward
   name: Rachel Ward
   affiliation: University of Texas at Austin
-  area: opt
+  area: ml
   topics:
   - kaczmarz
   - compressed-sensing
@@ -1359,7 +1359,7 @@
 - id: rikhav-shah
   name: Rikhav Shah
   affiliation: Massachusetts Institute of Technology
-  area: tcs
+  area: rmt
   topics:
   - eigenvalue
   - rmt
@@ -1382,7 +1382,7 @@
 - id: robert-gower
   name: Robert Gower
   affiliation: Flatiron Institute
-  area: opt
+  area: ml
   topics:
   - optimization
   - sketching
@@ -1422,7 +1422,7 @@
 - id: ryan-schneider
   name: Ryan Schneider
   affiliation: University of California, Berkeley
-  area: tcs
+  area: rmt
   topics:
   - eigenvalue
   - hpc
@@ -1534,7 +1534,7 @@
 - id: swati-padmanabhan
   name: Swati Padmanabhan
   affiliation: University of Minnesota Twin Cities
-  area: tcs
+  area: ml
   topics:
   - optimization
   - least-squares
@@ -1563,7 +1563,7 @@
 - id: thomas-trogdon
   name: Thomas Trogdon
   affiliation: University of Washington
-  area: krylov
+  area: rmt
   topics:
   - rmt
   - krylov
@@ -1636,7 +1636,7 @@
 - id: vivak-patel
   name: Vivak Patel
   affiliation: University of Wisconsin–Madison
-  area: opt
+  area: ml
   topics:
   - optimization
   - least-squares

@@ -35,7 +35,7 @@ window.GRAPH_DATA = {
  "groups": [
   {
    "id": "rand",
-   "label": "Randomized low-rank & sketching"
+   "label": "Randomized matrix algorithms"
   },
   {
    "id": "krylov",
@@ -47,49 +47,23 @@ window.GRAPH_DATA = {
   },
   {
    "id": "tcs",
-   "label": "Theory & random matrices"
+   "label": "Sketching & algorithm theory"
   },
   {
-   "id": "opt",
-   "label": "Optimization & ML"
+   "id": "ml",
+   "label": "Data science, ML & optimization"
   },
   {
    "id": "inverse",
    "label": "Inverse problems & imaging"
-  }
- ],
- "communities": [
-  {
-   "id": "c0",
-   "label": "Berkeley, HPC & software"
   },
   {
-   "id": "c1",
-   "label": "Inverse problems & regularization"
+   "id": "approx",
+   "label": "Approximation theory & operator learning"
   },
   {
-   "id": "c2",
-   "label": "Stochastic iterative & UT Austin"
-  },
-  {
-   "id": "c3",
-   "label": "TCS foundations & sketching"
-  },
-  {
-   "id": "c4",
-   "label": "Low-rank & approximation theory"
-  },
-  {
-   "id": "c5",
-   "label": "Trace estimation & matvec queries"
-  },
-  {
-   "id": "c6",
-   "label": "Matrix equations & Krylov theory"
-  },
-  {
-   "id": "c7",
-   "label": "IBM & Minnesota orbit"
+   "id": "rmt",
+   "label": "Random matrices & spectral theory"
   }
  ],
  "topics": [
@@ -20166,7 +20140,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "Optimization and fast linear system solvers.",
    "group": "tcs",
-   "community": "c5",
    "papers": [
     449,
     452,
@@ -20226,7 +20199,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "",
    "group": "inverse",
-   "community": "c1",
    "papers": [
     1672
    ]
@@ -20244,7 +20216,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "",
    "group": "inverse",
-   "community": "c1",
    "papers": [
     1585,
     1586
@@ -20263,7 +20234,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "Eigenvalue computations; co-organizer of the ICERM 2026 workshop.",
    "group": "krylov",
-   "community": "c1",
    "papers": [
     710,
     830,
@@ -20285,7 +20255,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "Low-rank approximation and robust statistics.",
    "group": "tcs",
-   "community": "c5",
    "papers": [
     815,
     877,
@@ -20311,7 +20280,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "Sampling methods for approximation and UQ.",
    "group": "rand",
-   "community": "c1",
    "papers": [
     772,
     898,
@@ -20335,8 +20303,7 @@ window.GRAPH_DATA = {
     "finite-precision"
    ],
    "notes": "Random matrix theory; co-creator of Julia.",
-   "group": "tcs",
-   "community": "c0",
+   "group": "rmt",
    "papers": [
     29,
     58,
@@ -20364,7 +20331,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "The F of Frieze-Kannan-Vempala low-rank sampling.",
    "group": "tcs",
-   "community": "c3",
    "papers": [
     0,
     3,
@@ -20397,7 +20363,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "",
    "group": "krylov",
-   "community": "c4",
    "papers": [
     1380,
     1578,
@@ -20418,8 +20383,7 @@ window.GRAPH_DATA = {
     "finite-precision"
    ],
    "notes": "Why-are-matrices-low-rank theory; continuous analogues; operator learning.",
-   "group": "rand",
-   "community": "c4",
+   "group": "approx",
    "papers": [
     438,
     567,
@@ -20468,7 +20432,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "Randomized trace estimation analysis; low-rank approximation.",
    "group": "rand",
-   "community": "c6",
    "papers": [
     888,
     976,
@@ -20496,8 +20459,7 @@ window.GRAPH_DATA = {
     "randomized-lowrank"
    ],
    "notes": "Sketchy decisions: sketching for convex optimization (with Tropp and Udell).",
-   "group": "opt",
-   "community": "c4",
+   "group": "ml",
    "papers": [
     668,
     709,
@@ -20520,7 +20482,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "",
    "group": "inverse",
-   "community": "c1",
    "papers": [
     463,
     497,
@@ -20543,7 +20504,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "",
    "group": "krylov",
-   "community": "c6",
    "papers": [
     1215,
     1320,
@@ -20567,7 +20527,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "Rank-revealing factorizations and randomized methods; chaired Householder XXII (2025).",
    "group": "rand",
-   "community": "c4",
    "papers": [
     998,
     1423
@@ -20586,8 +20545,7 @@ window.GRAPH_DATA = {
     "optimization"
    ],
    "notes": "Randomized Kaczmarz-type methods. Co-organizer of the ICERM 2026 workshop.",
-   "group": "opt",
-   "community": "c2",
+   "group": "ml",
    "papers": [
     514,
     568,
@@ -20634,7 +20592,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "Randomized compression and fast direct solvers.",
    "group": "rand",
-   "community": "c2",
    "papers": [
     1216,
     1232,
@@ -20662,7 +20619,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "Foundational analysis of Krylov methods in finite precision arithmetic.",
    "group": "krylov",
-   "community": "c5",
    "papers": [
     5,
     9,
@@ -20701,7 +20657,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "Randomized methods for inverse problems and model reduction. Co-organizer of the ICERM 2026 workshop.",
    "group": "inverse",
-   "community": "c1",
    "papers": [
     545,
     574,
@@ -20763,7 +20718,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "",
    "group": "rand",
-   "community": "c6",
    "papers": [
     1559
    ]
@@ -20783,7 +20737,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "Randomized block Krylov methods, Hutch++, sublinear-time linear algebra. Brother of Christopher.",
    "group": "tcs",
-   "community": "c5",
    "papers": [
     570,
     596,
@@ -20858,7 +20811,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "Randomized algorithms for tensor networks and Krylov methods.",
    "group": "rand",
-   "community": "c4",
    "papers": [
     1543,
     1679,
@@ -20879,7 +20831,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "",
    "group": "krylov",
-   "community": "c4",
    "papers": [
     101,
     128,
@@ -20904,7 +20855,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "Randomized block Krylov methods, Hutch++, matrix-vector query complexity. Brother of Cameron.",
    "group": "tcs",
-   "community": "c5",
    "papers": [
     570,
     596,
@@ -20980,7 +20930,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "Column-subset selection and CUR; core early-RandNLA contributor.",
    "group": "rand",
-   "community": "c3",
    "papers": [
     263,
     324,
@@ -21023,7 +20972,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "Low-rank and tensor methods; randomized trace estimation and low-rank approximation analysis with his EPFL group.",
    "group": "rand",
-   "community": "c6",
    "papers": [
     193,
     595,
@@ -21070,7 +21018,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "Laplacian paradigm and smoothed analysis; spectral sparsification.",
    "group": "tcs",
-   "community": "c3",
    "papers": [
     352,
     457,
@@ -21102,7 +21049,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "Krylov convergence theory (long line with Simoncini); asynchronous methods.",
    "group": "krylov",
-   "community": "c6",
    "papers": [
     75,
     87,
@@ -21152,7 +21098,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "Bayesian scientific computing (books with Somersalo).",
    "group": "inverse",
-   "community": "c1",
    "papers": [
     13,
     19,
@@ -21349,7 +21294,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "Eigenvalue computations, kernels, and network analysis.",
    "group": "hpc",
-   "community": "c0",
    "papers": [
     105,
     132,
@@ -21372,7 +21316,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "Randomized and spectral methods for network analysis.",
    "group": "rand",
-   "community": "c0",
    "papers": [
     448,
     496,
@@ -21399,7 +21342,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "funNyström; randomized trace estimation and low-rank approximation.",
    "group": "rand",
-   "community": "c5",
    "papers": [
     1185,
     1338,
@@ -21428,7 +21370,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "Sketching-as-a-tool; Clarkson–Woodruff input-sparsity-time regression and low-rank approximation.",
    "group": "tcs",
-   "community": "c5",
    "papers": [
     265,
     274,
@@ -21570,7 +21511,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "Matrix equations and large-scale Sylvester/Lyapunov solvers.",
    "group": "krylov",
-   "community": "c6",
    "papers": [
     586,
     699,
@@ -21611,8 +21551,7 @@ window.GRAPH_DATA = {
     "optimization"
    ],
    "notes": "Randomized Kaczmarz and stochastic iterative methods.",
-   "group": "opt",
-   "community": "c2",
+   "group": "ml",
    "papers": [
     257,
     304,
@@ -21717,8 +21656,7 @@ window.GRAPH_DATA = {
     "fast-solvers"
    ],
    "notes": "Matrix recovery from matvec queries; operator learning.",
-   "group": "rand",
-   "community": "c4",
+   "group": "approx",
    "papers": [
     1052,
     1197,
@@ -21746,7 +21684,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "Parallel preconditioning and approximate inverse methods.",
    "group": "hpc",
-   "community": "c0",
    "papers": [
     42,
     44,
@@ -21788,7 +21725,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "Frequent Directions sketching; early randomized SVD work at Yale.",
    "group": "rand",
-   "community": "c2",
    "papers": [
     234,
     243,
@@ -21811,7 +21747,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "t-product tensor frameworks for deep learning and imaging.",
    "group": "inverse",
-   "community": "c1",
    "papers": [
     713,
     811,
@@ -21840,8 +21775,7 @@ window.GRAPH_DATA = {
     "rmt"
    ],
    "notes": "Random matrix theory and randomized iterative methods.",
-   "group": "opt",
-   "community": "c2",
+   "group": "ml",
    "papers": [
     759,
     826,
@@ -21890,8 +21824,7 @@ window.GRAPH_DATA = {
     "least-squares"
    ],
    "notes": "",
-   "group": "opt",
-   "community": "c2",
+   "group": "ml",
    "papers": [
     1594,
     1596,
@@ -21912,7 +21845,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "Krylov subspace recycling; inverse problems.",
    "group": "krylov",
-   "community": "c1",
    "papers": [
     94,
     147,
@@ -21954,7 +21886,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "Mixed-precision iterative refinement; s-step Krylov stability. Co-organizer of the Banff 2023 workshop.",
    "group": "hpc",
-   "community": "c0",
    "papers": [
     440,
     450,
@@ -21994,7 +21925,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "Bayesian scientific computing (books with Calvetti).",
    "group": "inverse",
-   "community": "c1",
    "papers": [
     145,
     154,
@@ -22150,7 +22080,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "Randomly pivoted Cholesky; XTrace; numerical analysis of randomized methods.",
    "group": "rand",
-   "community": "c4",
    "papers": [
     1144,
     1188,
@@ -22186,7 +22115,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "",
    "group": "inverse",
-   "community": "c1",
    "papers": [
     1366,
     1484,
@@ -22207,8 +22135,7 @@ window.GRAPH_DATA = {
     "trace-estimation"
    ],
    "notes": "Sub-sampled and sketched second-order optimization.",
-   "group": "opt",
-   "community": "c0",
+   "group": "ml",
    "papers": [
     635,
     636,
@@ -22258,7 +22185,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "",
    "group": "hpc",
-   "community": "c0",
    "papers": [
     1564,
     1695,
@@ -22277,7 +22203,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "Communication-avoiding algorithms; randomized methods for tensor decompositions.",
    "group": "hpc",
-   "community": "c0",
    "papers": [
     334,
     337,
@@ -22316,7 +22241,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "Avron–Toledo trace estimation analysis; sketching for kernel methods. Co-organizer of the ICERM 2026 workshop.",
    "group": "rand",
-   "community": "c7",
    "papers": [
     262,
     282,
@@ -22375,7 +22299,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "",
    "group": "inverse",
-   "community": "c1",
    "papers": [
     772,
     898,
@@ -22397,8 +22320,7 @@ window.GRAPH_DATA = {
     "matrix-equations"
    ],
    "notes": "Rational approximation and structured low-rank computations.",
-   "group": "rand",
-   "community": "c4",
+   "group": "approx",
    "papers": [
     630,
     701,
@@ -22429,7 +22351,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "Randomized and mixed-precision methods for large linear systems.",
    "group": "hpc",
-   "community": "c0",
    "papers": [
     1371,
     1463,
@@ -22450,7 +22371,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "Krylov methods for matrix functions and network analysis.",
    "group": "krylov",
-   "community": "c6",
    "papers": [
     988,
     1009,
@@ -22476,7 +22396,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "Numerical analysis of randomized algorithms; leverage scores and probabilistic bounds.",
    "group": "rand",
-   "community": "c3",
    "papers": [
     1,
     2,
@@ -22510,8 +22429,7 @@ window.GRAPH_DATA = {
     "randomized-lowrank"
    ],
    "notes": "Matrix models for beta-ensembles; randomized spectral algorithms.",
-   "group": "tcs",
-   "community": "c0",
+   "group": "rmt",
    "papers": [
     104,
     150,
@@ -22545,7 +22463,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "",
    "group": "hpc",
-   "community": "c0",
    "papers": [
     1530
    ]
@@ -22563,7 +22480,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "LINPACK/LAPACK/MAGMA lineage; 2021 Turing Award; coauthor of the RandLAPACK monograph.",
    "group": "hpc",
-   "community": "c0",
    "papers": [
     17,
     24,
@@ -22761,8 +22677,7 @@ window.GRAPH_DATA = {
     "optimization"
    ],
    "notes": "Randomized Kaczmarz-type and iterative methods.",
-   "group": "opt",
-   "community": "c2",
+   "group": "ml",
    "papers": [
     1385,
     1399,
@@ -22785,7 +22700,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "IRLBA: restarted Lanczos bidiagonalization for the partial SVD.",
    "group": "krylov",
-   "community": "c1",
    "papers": [
     31,
     36,
@@ -22821,7 +22735,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "LAPACK lead; communication-avoiding algorithms; 'fast linear algebra is stable'.",
    "group": "hpc",
-   "community": "c0",
    "papers": [
     4,
     5,
@@ -22963,7 +22876,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "Structured and iterative methods for large-scale imaging inverse problems.",
    "group": "inverse",
-   "community": "c1",
    "papers": [
     184,
     188,
@@ -22999,8 +22911,7 @@ window.GRAPH_DATA = {
     "optimization"
    ],
    "notes": "Randomized Kaczmarz and iterative projection methods.",
-   "group": "opt",
-   "community": "c2",
+   "group": "ml",
    "papers": [
     687,
     756,
@@ -23050,7 +22961,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "OSNAP sparse subspace embeddings; streaming algorithms.",
    "group": "tcs",
-   "community": "c5",
    "papers": [
     265,
     274,
@@ -23090,7 +23000,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "",
    "group": "inverse",
-   "community": "c0",
    "papers": [
     952,
     1713
@@ -23112,7 +23021,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "Matrix concentration inequalities; HMT randomized SVD survey; Acta Numerica 2020 survey with Martinsson.",
    "group": "rand",
-   "community": "c4",
    "papers": [
     257,
     304,
@@ -23157,8 +23065,7 @@ window.GRAPH_DATA = {
     "krylov"
    ],
    "notes": "Matrix analysis and spectral graph theory; former NFL lineman.",
-   "group": "tcs",
-   "community": "c0",
+   "group": "rmt",
    "papers": [
     1250,
     1444,
@@ -23180,8 +23087,7 @@ window.GRAPH_DATA = {
     "finite-precision"
    ],
    "notes": "Pseudospectral shattering; global convergence of shifted QR.",
-   "group": "tcs",
-   "community": "c3",
+   "group": "rmt",
    "papers": [
     999,
     1072,
@@ -23207,7 +23113,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "Hybrid iterative regularization; randomized methods for inverse problems.",
    "group": "inverse",
-   "community": "c1",
    "papers": [
     188,
     245,
@@ -23275,7 +23180,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "Dense linear algebra libraries; CAQR.",
    "group": "hpc",
-   "community": "c0",
    "papers": [
     148,
     151,
@@ -23334,7 +23238,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "",
    "group": "rand",
-   "community": "c4",
    "papers": [
     1661
    ]
@@ -23352,7 +23255,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "Krylov subspace methods theory; monograph with Strakoš.",
    "group": "krylov",
-   "community": "c6",
    "papers": [
     94,
     103,
@@ -23383,7 +23285,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "",
    "group": "krylov",
-   "community": "c1",
    "papers": [
     358,
     426,
@@ -23406,7 +23307,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "Randomized interpolative and CUR-type decompositions.",
    "group": "rand",
-   "community": "c2",
    "papers": [
     1227,
     1509,
@@ -23431,7 +23331,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "Clarkson–Woodruff sketching; foundational sketching algorithms.",
    "group": "tcs",
-   "community": "c7",
    "papers": [
     291,
     432,
@@ -23478,7 +23377,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "Communication-avoiding LU/QR; randomized Gram–Schmidt and sketched Krylov.",
    "group": "hpc",
-   "community": "c0",
    "papers": [
     98,
     134,
@@ -23535,7 +23433,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "Rank-structured matrix computations; hm-toolbox with Massei and Kressner.",
    "group": "krylov",
-   "community": "c6",
    "papers": [
     799,
     857,
@@ -23565,7 +23462,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "",
    "group": "rand",
-   "community": "c3",
    "papers": [
     1500,
     1632,
@@ -23587,7 +23483,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "Scientific machine learning and quantum algorithms at IBM.",
    "group": "inverse",
-   "community": "c7",
    "papers": [
     470,
     565,
@@ -23650,8 +23545,7 @@ window.GRAPH_DATA = {
     "matrix-functions"
    ],
    "notes": "Pseudospectra, approximation theory, and numerical linear algebra exposition.",
-   "group": "krylov",
-   "community": "c4",
+   "group": "approx",
    "papers": [
     8,
     21,
@@ -23689,7 +23583,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "",
    "group": "krylov",
-   "community": "c6",
    "papers": [
     1490,
     1611,
@@ -23712,7 +23605,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "Tikhonov regularization, Gauss quadrature, and IRLBA.",
    "group": "inverse",
-   "community": "c1",
    "papers": [
     7,
     8,
@@ -23807,7 +23699,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "",
    "group": "inverse",
-   "community": "c1",
    "papers": [
     1152,
     1322,
@@ -23834,8 +23725,7 @@ window.GRAPH_DATA = {
     "tensors"
    ],
    "notes": "Generalized low-rank models; practical sketching for optimization.",
-   "group": "opt",
-   "community": "c4",
+   "group": "ml",
    "papers": [
     668,
     709,
@@ -23866,7 +23756,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "",
    "group": "inverse",
-   "community": "c1",
    "papers": [
     207,
     318,
@@ -23895,7 +23784,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "",
    "group": "inverse",
-   "community": "c1",
    "papers": [
     833,
     863,
@@ -23929,7 +23817,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "Long-time Drineas collaborator on sparse/fast low-rank approximation.",
    "group": "rand",
-   "community": "c3",
    "papers": [
     174,
     373,
@@ -23967,7 +23854,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "",
    "group": "hpc",
-   "community": "c0",
    "papers": [
     1510
    ]
@@ -23983,8 +23869,7 @@ window.GRAPH_DATA = {
     "eigenvalue"
    ],
    "notes": "Krylov convergence theory; 'Spectra and Pseudospectra' with Trefethen.",
-   "group": "krylov",
-   "community": "c4",
+   "group": "approx",
    "papers": [
     68,
     69,
@@ -24013,7 +23898,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "Early randomized algorithms for matrix approximation (with Rokhlin and Martinsson).",
    "group": "rand",
-   "community": "c2",
    "papers": [
     140,
     170,
@@ -24043,7 +23927,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "Computational inverse problems and learning-based regularization.",
    "group": "inverse",
-   "community": "c1",
    "papers": [
     342,
     421,
@@ -24085,8 +23968,7 @@ window.GRAPH_DATA = {
     "optimization"
    ],
    "notes": "Sketching for convex optimization; Newton sketch.",
-   "group": "opt",
-   "community": "c0",
+   "group": "ml",
    "papers": [
     946,
     1096
@@ -24106,7 +23988,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "Streaming and sketching algorithms; spectral sparsification.",
    "group": "tcs",
-   "community": "c5",
    "papers": [
     536,
     649,
@@ -24142,7 +24023,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "One of the founders of RandNLA; leverage-score sampling, implicit regularization, and the RandLAPACK effort.",
    "group": "rand",
-   "community": "c0",
    "papers": [
     116,
     143,
@@ -24307,8 +24187,7 @@ window.GRAPH_DATA = {
     "software"
    ],
    "notes": "LSQR and MINRES; the iterative solvers inside many sketch-and-solve pipelines.",
-   "group": "opt",
-   "community": "c0",
+   "group": "krylov",
    "papers": [
     516,
     642
@@ -24329,8 +24208,7 @@ window.GRAPH_DATA = {
     "experimental-design"
    ],
    "notes": "DPPs in RandNLA; sketched second-order optimization.",
-   "group": "tcs",
-   "community": "c0",
+   "group": "ml",
    "papers": [
     853,
     882,
@@ -24374,7 +24252,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "Matrix functions and network science; preconditioning.",
    "group": "krylov",
-   "community": "c6",
    "papers": [
     75,
     87,
@@ -24402,8 +24279,7 @@ window.GRAPH_DATA = {
     "sketching"
    ],
    "notes": "Bootstrap error estimation for randomized matrix algorithms.",
-   "group": "rand",
-   "community": "c0",
+   "group": "ml",
    "papers": [
     779,
     824,
@@ -24429,7 +24305,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "Rank-revealing and randomized pivoted factorizations; subspace iteration analysis.",
    "group": "rand",
-   "community": "c0",
    "papers": [
     28,
     35,
@@ -24462,7 +24337,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "Computational inverse problems and Bayesian regularization.",
    "group": "inverse",
-   "community": "c1",
    "papers": [
     868,
     975,
@@ -24502,7 +24376,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "t-product tensor framework; randomized methods for inverse problems.",
    "group": "inverse",
-   "community": "c1",
    "papers": [
     184,
     195,
@@ -24561,7 +24434,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "",
    "group": "inverse",
-   "community": "c7",
    "papers": [
     1526,
     1680
@@ -24579,8 +24451,7 @@ window.GRAPH_DATA = {
     "optimization"
    ],
    "notes": "Randomized matrix decompositions in practice; RandLAPACK monograph coauthor.",
-   "group": "rand",
-   "community": "c0",
+   "group": "ml",
    "papers": [
     892,
     906,
@@ -24633,7 +24504,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "The H of Halko-Martinsson-Tropp: 'Finding structure with randomness'.",
    "group": "rand",
-   "community": "c2",
    "papers": [
     325,
     333,
@@ -24655,7 +24525,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "Authority on matrix functions and rounding-error analysis (1961–2024).",
    "group": "hpc",
-   "community": "c0",
    "papers": [
     11,
     16,
@@ -24696,8 +24565,7 @@ window.GRAPH_DATA = {
     "randomized-lowrank"
    ],
    "notes": "Data-efficient operator learning; learning Green's functions.",
-   "group": "rand",
-   "community": "c4",
+   "group": "approx",
    "papers": [
     847,
     943,
@@ -24726,8 +24594,7 @@ window.GRAPH_DATA = {
     "finite-precision"
    ],
    "notes": "Kadison–Singer / interlacing families; pseudospectral shattering and shifted QR convergence. Co-organizer of the Banff 2023 workshop.",
-   "group": "tcs",
-   "community": "c3",
+   "group": "rmt",
    "papers": [
     352,
     436,
@@ -24765,7 +24632,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "Near-optimal approximation of matrix functions; Krylov methods.",
    "group": "tcs",
-   "community": "c5",
    "papers": [
     1317,
     1437,
@@ -24786,8 +24652,7 @@ window.GRAPH_DATA = {
     "finite-precision"
    ],
    "notes": "Stability of fast matrix algorithms.",
-   "group": "tcs",
-   "community": "c0",
+   "group": "rmt",
    "papers": [
     167,
     168,
@@ -24822,7 +24687,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "",
    "group": "krylov",
-   "community": "c1",
    "papers": [
     840,
     855,
@@ -24851,7 +24715,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "Sketching for tensor decompositions and structured problems.",
    "group": "rand",
-   "community": "c0",
    "papers": [
     916,
     1064,
@@ -24879,7 +24742,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "",
    "group": "krylov",
-   "community": "c1",
    "papers": [
     1335
    ]
@@ -24897,7 +24759,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "",
    "group": "tcs",
-   "community": "c3",
    "papers": [
     623,
     787,
@@ -24922,7 +24783,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "Co-author of the Halko–Martinsson–Tropp randomized SVD survey (SIREV 2011) and the Acta Numerica 2020 RandNLA survey.",
    "group": "rand",
-   "community": "c2",
    "papers": [
     140,
     141,
@@ -24968,8 +24828,7 @@ window.GRAPH_DATA = {
     "optimization"
    ],
    "notes": "Sketch-and-project framework and stochastic methods; Gower's PhD advisor.",
-   "group": "opt",
-   "community": "c2",
+   "group": "ml",
    "papers": [
     598,
     611,
@@ -25002,7 +24861,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "One of the founders of RandNLA: early Monte Carlo algorithms for matrix multiplication and CUR, and the 2016 CACM survey with Mahoney. Co-organizer of the ICERM 2026 workshop.",
    "group": "rand",
-   "community": "c3",
    "papers": [
     67,
     88,
@@ -25089,7 +24947,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "HPC dense linear algebra (PLASMA/MAGMA); CQRRPT and the RandLAPACK effort.",
    "group": "hpc",
-   "community": "c0",
    "papers": [
     95,
     117,
@@ -25237,7 +25094,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "Sketching and low-rank approximation; PhD with Woodruff at CMU.",
    "group": "tcs",
-   "community": "c5",
    "papers": [
     915,
     995,
@@ -25268,8 +25124,7 @@ window.GRAPH_DATA = {
     "sketching"
    ],
    "notes": "Stochastic gradient and sampling methods; importance sampling for regression.",
-   "group": "opt",
-   "community": "c2",
+   "group": "ml",
    "papers": [
     341,
     434,
@@ -25311,7 +25166,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "Hutch++ and optimal trace estimation query complexity.",
    "group": "tcs",
-   "community": "c5",
    "papers": [
     1031,
     1032,
@@ -25344,7 +25198,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "Approximate Gaussian elimination for Laplacians; hardness for structured systems.",
    "group": "tcs",
-   "community": "c3",
    "papers": [
     531,
     535,
@@ -25390,7 +25243,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "Frieze–Kannan–Vempala sampling; foundational randomized matrix algorithms.",
    "group": "tcs",
-   "community": "c3",
    "papers": [
     0,
     3,
@@ -25451,7 +25303,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "Fast Laplacian and structured linear system solvers. Co-organizer of the Banff 2023 workshop.",
    "group": "tcs",
-   "community": "c3",
    "papers": [
     495,
     531,
@@ -25495,8 +25346,7 @@ window.GRAPH_DATA = {
     "trace-estimation"
    ],
    "notes": "Smoothed analysis and randomized eigenvalue computation.",
-   "group": "tcs",
-   "community": "c3",
+   "group": "rmt",
    "papers": [
     1382,
     1470,
@@ -25519,7 +25369,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "Leads the RandLAPACK / RandBLAS standardization effort.",
    "group": "hpc",
-   "community": "c0",
    "papers": [
     1230,
     1286,
@@ -25545,8 +25394,7 @@ window.GRAPH_DATA = {
     "kaczmarz"
    ],
    "notes": "Sketch-and-project framework; stochastic optimization.",
-   "group": "opt",
-   "community": "c2",
+   "group": "ml",
    "papers": [
     598,
     611,
@@ -25580,7 +25428,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "Randomized low-rank approximation (RPCholesky, XTrace) and Monte Carlo methods.",
    "group": "rand",
-   "community": "c4",
    "papers": [
     1224,
     1342,
@@ -25603,7 +25450,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "",
    "group": "krylov",
-   "community": "c2",
    "papers": [
     1669,
     1673,
@@ -25622,7 +25468,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "Sketching for tensor problems.",
    "group": "rand",
-   "community": "c2",
    "papers": [
     859,
     1460
@@ -25640,8 +25485,7 @@ window.GRAPH_DATA = {
     "rmt"
    ],
    "notes": "Randomized diagonalization; pseudospectral divide-and-conquer.",
-   "group": "tcs",
-   "community": "c0",
+   "group": "rmt",
    "papers": [
     1483,
     1571,
@@ -25662,7 +25506,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "Streaming and sketching algorithms; frequent Woodruff collaborator.",
    "group": "tcs",
-   "community": "c5",
    "papers": [
     795,
     987,
@@ -25719,7 +25562,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "Randomized and spectral algorithms; solving sparse systems faster than matrix multiplication (with Peng).",
    "group": "tcs",
-   "community": "c3",
    "papers": [
     46,
     48,
@@ -25777,7 +25619,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "",
    "group": "krylov",
-   "community": "c6",
    "papers": [
     1655,
     1727
@@ -25798,7 +25639,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "Stochastic Lanczos quadrature for spectrum and trace estimation.",
    "group": "krylov",
-   "community": "c7",
    "papers": [
     584,
     638,
@@ -25862,7 +25702,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "Krylov-based regularization; IR Tools.",
    "group": "inverse",
-   "community": "c1",
    "papers": [
     512,
     621,
@@ -25906,7 +25745,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "Sparse direct methods; Avron–Toledo randomized trace estimation.",
    "group": "hpc",
-   "community": "c7",
    "papers": [
     58,
     220,
@@ -25943,7 +25781,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "Hierarchical / rank-structured matrix computations.",
    "group": "krylov",
-   "community": "c6",
    "papers": [
     799,
     808,
@@ -25982,7 +25819,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "Lanczos-based methods and time-ordered exponentials.",
    "group": "krylov",
-   "community": "c6",
    "papers": [
     631,
     632,
@@ -26007,7 +25843,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "Laplacian solvers and fast graph algorithms.",
    "group": "tcs",
-   "community": "c3",
    "papers": [
     555,
     575,
@@ -26047,8 +25882,7 @@ window.GRAPH_DATA = {
     "sketching"
    ],
    "notes": "",
-   "group": "tcs",
-   "community": "c3",
+   "group": "ml",
    "papers": [
     839,
     922,
@@ -26074,7 +25908,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "Randomized low-rank approximation algorithms.",
    "group": "rand",
-   "community": "c4",
    "papers": [
     1140,
     1261,
@@ -26099,7 +25932,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "The 2006 subspace-embedding paper that unlocked fast randomized regression.",
    "group": "tcs",
-   "community": "c5",
    "papers": [
     349,
     917,
@@ -26126,8 +25958,7 @@ window.GRAPH_DATA = {
     "trace-estimation"
    ],
    "notes": "Random matrix theory and universality in the runtime of numerical algorithms.",
-   "group": "krylov",
-   "community": "c5",
+   "group": "rmt",
    "papers": [
     637,
     1051,
@@ -26154,7 +25985,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "Probabilistic rounding-error analysis; block low-rank solvers.",
    "group": "hpc",
-   "community": "c0",
    "papers": [
     491,
     594,
@@ -26186,7 +26016,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "Lanczos-based methods for matrix functions and trace estimation; finite precision behavior of Krylov methods.",
    "group": "krylov",
-   "community": "c5",
    "papers": [
     1003,
     1051,
@@ -26223,7 +26052,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "Matrix equations and Krylov convergence theory. Co-organizer of the ICERM 2026 workshop.",
    "group": "krylov",
-   "community": "c6",
    "papers": [
     100,
     123,
@@ -26283,7 +26111,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "Spectrum slicing and randomized eigensolvers; IBM cluster with Horesh/Ubaru.",
    "group": "rand",
-   "community": "c7",
    "papers": [
     661,
     1359,
@@ -26313,7 +26140,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "",
    "group": "krylov",
-   "community": "c1",
    "papers": [
     1299,
     1321,
@@ -26333,7 +26159,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "",
    "group": "inverse",
-   "community": "c1",
    "papers": [
     1394,
     1583,
@@ -26357,8 +26182,7 @@ window.GRAPH_DATA = {
     "least-squares"
    ],
    "notes": "",
-   "group": "opt",
-   "community": "c0",
+   "group": "ml",
    "papers": [
     1496,
     1622
@@ -26377,7 +26201,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "Fast multipole method; the original randomized low-rank approximation papers with Martinsson, Tygert, and Liberty.",
    "group": "rand",
-   "community": "c2",
    "papers": [
     35,
     140,
@@ -26409,7 +26232,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "",
    "group": "krylov",
-   "community": "c5",
    "papers": [
     1425
    ]
@@ -26429,7 +26251,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "SuperLU sparse direct solvers; scalable numerical libraries.",
    "group": "hpc",
-   "community": "c0",
    "papers": [
     20,
     54,
@@ -26495,7 +26316,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "Randomized dimension reduction and low-rank approximation.",
    "group": "rand",
-   "community": "c2",
    "papers": [
     1120,
     1149,
@@ -26522,7 +26342,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "Faster solvers via interior point and sparsification; single-pass spectral sparsification.",
    "group": "tcs",
-   "community": "c3",
    "papers": [
     437,
     449,
@@ -26591,7 +26410,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "Krylov subspace methods; stochastic spectrum estimation line with Ubaru.",
    "group": "krylov",
-   "community": "c7",
    "papers": [
     1,
     2,
@@ -26640,7 +26458,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "Eigenvalue algorithms; fast randomized methods for linear systems, eigenproblems, and low-rank approximation.",
    "group": "rand",
-   "community": "c4",
    "papers": [
     322,
     390,
@@ -26695,7 +26512,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "Krylov subspace methods theory; finite-precision Lanczos and CG.",
    "group": "krylov",
-   "community": "c6",
    "papers": [
     9,
     10,
@@ -26737,7 +26553,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "Large-scale eigenvalue computations; LAPACK and Templates.",
    "group": "hpc",
-   "community": "c0",
    "papers": [
     4,
     5,
@@ -26774,7 +26589,6 @@ window.GRAPH_DATA = {
    ],
    "notes": "",
    "group": "hpc",
-   "community": "c0",
    "papers": [
     1616
    ]

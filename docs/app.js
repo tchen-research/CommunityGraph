@@ -12,16 +12,11 @@
   document.getElementById("subtitle").textContent = DATA.subtitle;
   document.title = DATA.title;
 
-  // Two grouping modes: curated research areas, or detected collaboration
-  // communities (data/clusters.yaml). Colors, legend, and filters follow.
-  let groupMode = "area";
-  const areaIdx = new Map(DATA.groups.map((g, i) => [g.id, i]));
-  const commIdx = new Map((DATA.communities || []).map((c, i) => [c.id, i]));
-  const groupDefs = () => (groupMode === "area" ? DATA.groups : DATA.communities || []);
-  const nodeGroup = (n) => (groupMode === "area" ? n.group : n.community || "");
-  const seriesVar = (gid) =>
-    `var(--series-${((groupMode === "area" ? areaIdx : commIdx).get(gid) ?? 0) + 1})`;
-  const groupLabel = (gid) => groupDefs().find((g) => g.id === gid)?.label ?? gid;
+  const groups = DATA.groups;
+  const groupIndex = new Map(groups.map((g, i) => [g.id, i]));
+  const nodeGroup = (n) => n.group;
+  const seriesVar = (gid) => `var(--series-${(groupIndex.get(gid) ?? 0) + 1})`;
+  const groupLabel = (gid) => groups.find((g) => g.id === gid)?.label ?? gid;
 
   const papers = DATA.papers || [];
 
@@ -492,7 +487,7 @@
   const legendDiv = document.getElementById("legend");
   function renderLegend() {
     legendDiv.innerHTML = "";
-    groupDefs().forEach((g) => {
+    groups.forEach((g) => {
       const count = nodes.filter((n) => nodeGroup(n) === g.id).length;
       const b = document.createElement("button");
       b.className = "legend-row" + (activeGroups.has(g.id) ? "" : " dimmed");
@@ -508,19 +503,6 @@
     });
   }
   renderLegend();
-
-  document.querySelectorAll('#group-mode input[name="group-mode"]').forEach((r) =>
-    r.addEventListener("change", () => {
-      groupMode = r.value;
-      activeGroups.clear();
-      groupDefs().forEach((g) => activeGroups.add(g.id));
-      renderLegend();
-      renderPeopleList();
-      refreshClasses();
-      if (selection) renderDetails();
-    }));
-  if (!(DATA.communities || []).length)
-    document.getElementById("group-mode").hidden = true;
 
   // ---------- search + people list -------------------------------------------
   const searchInput = document.getElementById("search");

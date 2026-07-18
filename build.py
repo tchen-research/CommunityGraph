@@ -59,9 +59,6 @@ def main():
     people = load("people.yaml", [])
     topics = load("topics.yaml", [], required=False)
     topic_ids = {t["id"] for t in topics}
-    clusters = load("clusters.yaml", {}, required=False)
-    communities = clusters.get("communities", []) if clusters else []
-    community_of = clusters.get("assignments", {}) if clusters else {}
     papers_in = load("papers.yaml", [], required=False)
     advising_in = load("advising.yaml", [], required=False)
     connections = load("connections.yaml", [])
@@ -268,8 +265,6 @@ def main():
             for f in factors
         ],
         "groups": [{"id": g["id"], "label": g.get("label", g["id"])} for g in groups],
-        "communities": [{"id": c["id"], "label": c.get("label", c["id"])}
-                        for c in communities],
         "topics": [{"id": t["id"], "label": t.get("label", t["id"])} for t in topics],
         "papers": papers,
         "advising": advising,
@@ -283,8 +278,6 @@ def main():
                 "topics": p.get("topics", []) or [],
                 "notes": (p.get("notes") or "").strip(),
                 "group": p.get("area") if p.get("area") in group_ids else default_group,
-                "community": community_of.get(pid,
-                    communities[0]["id"] if communities else ""),
                 "papers": person_papers.get(pid, []),
             }
             for pid, p in sorted(by_id.items(), key=lambda kv: kv[1].get("name", ""))
