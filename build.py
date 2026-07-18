@@ -187,8 +187,9 @@ def main():
             if f.get("kind") != "curated":
                 continue
             v = c.get(f["id"], 0) or 0
-            if not (0 <= v <= f["max"]):
-                errors.append(f"connection {a} - {b}: {f['id']}={v} outside 0..{f['max']}")
+            fmax = f.get("max", 1)
+            if not (0 <= v <= fmax):
+                errors.append(f"connection {a} - {b}: {f['id']}={v} outside 0..{fmax}")
             e["factors"][f["id"]] = v
         e["notes"] = (c.get("notes") or "").strip()
         e["links"] = c.get("links", []) or []
@@ -258,7 +259,8 @@ def main():
                 "label": f.get("label", f["id"]),
                 "kind": f.get("kind", "curated"),
                 "compute": f.get("compute", ""),
-                "max": f["max"],
+                "max": f.get("max"),
+                "saturation": f.get("saturation"),
                 "default_weight": f.get("default_weight", 1.0),
                 "description": (f.get("description") or "").strip(),
             }

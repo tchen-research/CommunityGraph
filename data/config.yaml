@@ -29,11 +29,12 @@ factors:
     label: Joint papers
     kind: computed
     compute: papers
-    max: 10
+    saturation: 4
     default_weight: 1.0
     description: >
-      Number of tracked joint papers (papers.yaml), capped at 10 - ten or
-      more tracked papers counts as full strength.
+      Number of tracked joint papers, with diminishing returns: n papers
+      contribute n/(n+4) of the weight - so more papers always means a
+      stronger edge (4 papers = half strength), but the curve flattens.
 
   - id: advising
     label: Advising
@@ -44,15 +45,6 @@ factors:
     description: >
       Advisor relationship (advising.yaml): PhD advisor/advisee = 1.0,
       postdoc host/postdoc = 0.7.
-
-  - id: collaboration
-    label: Other collaboration
-    kind: curated
-    max: 2
-    default_weight: 0.2
-    description: >
-      Collaboration beyond papers: joint software, co-organizing, joint
-      grants/projects. 1 = some · 2 = substantial.
 
 # -----------------------------------------------------------------------------
 # Node color groups: each person's `area` field in people.yaml selects a

@@ -1,7 +1,7 @@
 # Curated relationship annotations. Each entry connects two people (ids from
 # people.yaml) with free-text `notes` / `links` and the one remaining curated
-# factor:
-#   collaboration: 0-2   (non-paper collaboration: software, organizing, ...)
+# notes/links and guarantee the edge exists)
+# (the former curated collaboration factor was removed; entries now carry
 # Coauthorship is now computed from papers.yaml and advising from
 # advising.yaml - do not enter those here. An entry in this file also
 # guarantees the edge exists even with no tracked papers.
@@ -12,7 +12,6 @@
 
 # --- RandNLA founders / sketching theory ------------------------------------
 - between: [petros-drineas, michael-mahoney]
-  collaboration: 1
   notes: >
     Long-term collaborators and co-founders of RandNLA as a field: the fast
     Monte Carlo matrix algorithms trilogy (SICOMP 2006), CUR decompositions,
@@ -375,7 +374,6 @@
   notes: Decades of joint work on regularization and quadrature-based bounds.
 
 - between: [daniela-calvetti, erkki-somersalo]
-  collaboration: 1
   notes: >
     Long-term collaborators at Case Western; books on Bayesian scientific
     computing.
@@ -460,9 +458,7 @@
 
 # --- missing-people pass -----------------------------------------------------
 - between: [anil-damle, david-bindel]
-  collaboration: 1
   notes: Cornell colleagues; co-organized the Householder Symposium XXII (2025).
 
 - between: [anil-damle, alex-townsend]
-  collaboration: 1
   notes: Co-organized the Householder Symposium XXII (2025).

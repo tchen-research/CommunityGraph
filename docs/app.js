@@ -82,8 +82,12 @@
         const raw = f.compute === "papers"
           ? l.papersInRange.length
           : (l.factors[f.id] || 0);
-        const v = Math.min(raw, f.max);
-        s += weights[f.id] * (v / f.max);
+        // saturating factors grow monotonically with diminishing returns;
+        // capped factors normalize against their max
+        const norm = f.saturation
+          ? raw / (raw + f.saturation)
+          : Math.min(raw, f.max) / f.max;
+        s += weights[f.id] * norm;
       }
       l.score = s;
       if (s > maxScore) maxScore = s;
@@ -648,11 +652,14 @@
       const raw = f.compute === "papers"
         ? (l.papersInRange || []).length
         : (l.factors[f.id] || 0);
-      const v = Math.min(raw, f.max);
-      const contrib = weights[f.id] * (v / f.max);
+      const norm = f.saturation
+        ? raw / (raw + f.saturation)
+        : Math.min(raw, f.max) / f.max;
+      const contrib = weights[f.id] * norm;
+      const valCell = f.saturation ? `${raw}` : `${raw}&thinsp;/&thinsp;${f.max}`;
       return `<tr class="${raw === 0 ? "zero" : ""}" title="${esc(f.description)}">
         <td>${esc(f.label)}</td>
-        <td class="num">${raw}&thinsp;/&thinsp;${f.max}</td>
+        <td class="num">${valCell}</td>
         <td class="num">×&thinsp;${weights[f.id].toFixed(2)}</td>
         <td class="num">${contrib.toFixed(2)}</td>
       </tr>`;

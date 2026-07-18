@@ -856,6 +856,25 @@
   notes: Rank-structured matrix computations; hm-toolbox with Massei and Kressner.
   website: https://web.dm.unipi.it/robol
   photo: https://web.dm.unipi.it/robol/assets/img/prof_pic.jpg
+- id: lexing-ying
+  name: Lexing Ying
+  affiliation: Stanford University
+  area: rand
+  topics:
+  - fast-solvers
+  - randomized-lowrank
+  - operator-learning
+  notes: 'Fast algorithms: butterfly factorizations, sparsifying preconditioners, low-rank
+    structure.'
+- id: lin-lin
+  name: Lin Lin
+  affiliation: University of California, Berkeley
+  area: krylov
+  topics:
+  - eigenvalue
+  - quantum
+  - fast-solvers
+  notes: Electronic-structure numerics (PEXSI, SCDM); quantum algorithms for linear algebra.
 - id: linkai-ma
   name: Linkai Ma
   affiliation: Purdue University
