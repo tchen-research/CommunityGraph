@@ -88,3 +88,6 @@
 - {advisor: lin-lin, student: anil-damle, kind: postdoc}
 - {advisor: lin-lin, student: ethan-epperly, kind: postdoc}
 - {advisor: lexing-ying, student: alice-cortinovis, kind: postdoc}
+
+# --- added from the research agents (July 2026) ---
+- {advisor: zhaojun-bai, student: ichitaro-yamazaki, kind: phd}

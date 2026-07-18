@@ -270,6 +270,15 @@
   notes: Column-subset selection and CUR; core early-RandNLA contributor.
   website: https://scholar.google.com/citations?user=9vAv0c4AAAAJ&hl=en
   photo: https://scholar.googleusercontent.com/citations?view_op=view_photo&user=9vAv0c4AAAAJ&citpid=16
+- id: cleve-moler
+  name: Cleve Moler
+  affiliation: MathWorks
+  area: hpc
+  topics:
+  - software
+  notes: Creator of MATLAB; co-author of the LINPACK and EISPACK libraries (1939-2026).
+  website: https://blogs.mathworks.com/cleve/
+  photo: https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Cleve_B_Moler_in_2017_Argonne_Seminars_GPU_Computing_%28cropped%29.png/250px-Cleve_B_Moler_in_2017_Argonne_Seminars_GPU_Computing_%28cropped%29.png
 - id: daniel-kressner
   name: Daniel Kressner
   affiliation: EPFL
@@ -470,6 +479,17 @@
   notes: Krylov subspace recycling; inverse problems.
   website: https://math.vt.edu/people/faculty/desturler-eric.html
   photo: https://math.vt.edu/content/math_vt_edu/en/people/faculty/desturler-eric/_jcr_content/bio-image.img.jpg
+- id: erik-boman
+  name: Erik Boman
+  affiliation: Sandia National Laboratories
+  area: hpc
+  topics:
+  - preconditioning
+  - graph-algorithms
+  - hpc
+  notes: Parallel preconditioning and combinatorial scientific computing (Zoltan, Trilinos).
+  website: https://egboman.github.io/
+  photo: https://scholar.googleusercontent.com/citations?view_op=view_photo&user=MAeMisMAAAAJ&citpid=2
 - id: erin-carson
   name: Erin Carson
   affiliation: Charles University
@@ -578,6 +598,18 @@
   notes: Rational approximation and structured low-rank computations.
   website: https://heatherw3521.github.io/
   photo: https://heatherw3521.github.io/me.jpg
+- id: ichitaro-yamazaki
+  name: Ichitaro Yamazaki
+  affiliation: Sandia National Laboratories
+  area: hpc
+  topics:
+  - hpc
+  - mixed-precision
+  - software
+  notes: HPC dense/sparse linear algebra; mixed-precision and randomized kernels (UTK/LBNL
+    lineage).
+  website: https://icl.utk.edu/~iyamazak/
+  photo: https://icl.utk.edu/~iyamazak/ichi.jpg
 - id: ieva-dauzickaite
   name: Ieva Daužickaitė
   affiliation: CERFACS

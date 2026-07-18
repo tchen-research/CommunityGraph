@@ -1,0 +1,722 @@
+people:
+- id: ichitaro-yamazaki
+  website: https://icl.utk.edu/~iyamazak/
+  photo: https://icl.utk.edu/~iyamazak/ichi.jpg
+  advising:
+  - advisor: zhaojun-bai
+    student: ichitaro-yamazaki
+    kind: phd
+  papers:
+  - title: Random sketching to enhance the numerical stability of block orthogonalization algorithms for
+      s-step GMRES
+    year: 2026
+    venue: Parallel Comput.
+    url: https://doi.org/10.1016/j.parco.2026.103197
+    authors:
+    - andrew-higgins
+    - erik-boman
+    - daniel-szyld
+    - ichitaro-yamazaki
+  - title: Analysis of Randomized Householder-Cholesky QR factorization with multisketching
+    year: 2025
+    venue: Numerische Mathematik
+    url: https://doi.org/10.1007/s00211-025-01492-5
+    authors:
+    - andrew-higgins
+    - daniel-szyld
+    - erik-boman
+    - ichitaro-yamazaki
+  - title: A High Performance GPU CountSketch Implementation and Its Application to Multisketching and
+      Least Squares Problems
+    year: 2025
+    venue: SC Workshops
+    url: https://doi.org/10.1145/3731599.3767544
+    authors:
+    - andrew-higgins
+    - erik-boman
+    - ichitaro-yamazaki
+  - title: 'Trilinos: Enabling Scientific Computing Across Diverse Hardware Architectures at Scale'
+    year: 2025
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2503.08126
+    authors:
+    - erik-boman
+    - ichitaro-yamazaki
+  - title: Two-Stage Block Orthogonalization to Improve Performance of s-step GMRES
+    year: 2024
+    venue: IPDPS
+    url: https://doi.org/10.1109/IPDPS57955.2024.00012
+    authors:
+    - andrew-higgins
+    - erik-boman
+    - daniel-szyld
+    - ichitaro-yamazaki
+  - title: 'High-Performance GMRES Multi-Precision Benchmark: Design, Performance, and Challenges'
+    year: 2022
+    venue: PMBS@SC
+    url: https://doi.org/10.1109/PMBS56514.2022.00015
+    authors:
+    - piotr-luszczek
+    - jack-dongarra
+    - ichitaro-yamazaki
+  - title: Mixed precision s-step Lanczos and conjugate gradient algorithms
+    year: 2022
+    venue: Numer. Linear Algebra Appl.
+    url: https://doi.org/10.1002/nla.2425
+    authors:
+    - erin-carson
+    - ichitaro-yamazaki
+  - title: Low-synch Gram-Schmidt with delayed reorthogonalization for Krylov solvers
+    year: 2022
+    venue: Parallel Comput.
+    url: https://doi.org/10.1016/j.parco.2022.102940
+    authors:
+    - julien-langou
+    - erik-boman
+    - ichitaro-yamazaki
+  - title: Mixed Precision $s$-step Conjugate Gradient with Residual Replacement on GPUs
+    year: 2022
+    venue: IPDPS
+    url: https://doi.org/10.1109/IPDPS53621.2022.00091
+    authors:
+    - erin-carson
+    - ichitaro-yamazaki
+  - title: Exploiting Block Structures of KKT Matrices for Efficient Solution of Convex Optimization Problems
+    year: 2021
+    venue: IEEE Access
+    url: https://doi.org/10.1109/ACCESS.2021.3106054
+    authors:
+    - jack-dongarra
+    - ichitaro-yamazaki
+  - title: Experimental Evaluation of Multiprecision Strategies for GMRES on GPUs
+    year: 2021
+    venue: IPDPS Workshops
+    url: https://doi.org/10.1109/IPDPSW52791.2021.00078
+    authors:
+    - erik-boman
+    - ichitaro-yamazaki
+  - title: A Survey of Numerical Methods Utilizing Mixed Precision Arithmetic
+    year: 2020
+    venue: CoRR
+    url: https://arxiv.org/abs/2007.06674
+    authors:
+    - erik-boman
+    - erin-carson
+    - jack-dongarra
+    - nicholas-higham
+    - piotr-luszczek
+    - xiaoye-sherry-li
+    - ichitaro-yamazaki
+  - title: Low-synchronization orthogonalization schemes for s-step and pipelined Krylov solvers in Trilinos
+    year: 2020
+    venue: Proceedings of the 2020 SIAM Workshop on Combinatorial Scientific Computing (PP)
+    url: https://doi.org/10.1137/1.9781611976137.11
+    authors:
+    - erik-boman
+    - ichitaro-yamazaki
+  - title: Reducing the amount of out-of-core data access for GPU-accelerated randomized SVD
+    year: 2020
+    venue: Concurr. Comput. Pract. Exp.
+    url: https://doi.org/10.1002/cpe.5754
+    authors:
+    - jack-dongarra
+    - ichitaro-yamazaki
+  - title: Distributed-memory lattice H-matrix factorization
+    year: 2019
+    venue: Int. J. High Perform. Comput. Appl.
+    url: https://doi.org/10.1177/1094342019861139
+    authors:
+    - jack-dongarra
+    - ichitaro-yamazaki
+  - title: Performance of asynchronous optimized Schwarz with one-sided communication
+    year: 2019
+    venue: Parallel Comput.
+    url: https://doi.org/10.1016/j.parco.2019.05.004
+    authors:
+    - edmond-chow
+    - jack-dongarra
+    - ichitaro-yamazaki
+  - title: 'PLASMA: Parallel Linear Algebra Software for Multicore Using OpenMP'
+    year: 2019
+    venue: ACM Trans. Math. Softw.
+    url: https://doi.org/10.1145/3264491
+    authors:
+    - jack-dongarra
+    - piotr-luszczek
+    - ichitaro-yamazaki
+  - title: Linear Systems Solvers for Distributed-Memory Machines with GPU Accelerators
+    year: 2019
+    venue: Euro-Par
+    url: https://doi.org/10.1007/978-3-030-29400-7_35
+    authors:
+    - jack-dongarra
+    - ichitaro-yamazaki
+  - title: Increasing Accuracy of Iterative Refinement in Limited Floating-Point Arithmetic on Half-Precision
+      Accelerators
+    year: 2019
+    venue: HPEC
+    url: https://doi.org/10.1109/HPEC.2019.8916392
+    authors:
+    - piotr-luszczek
+    - jack-dongarra
+    - ichitaro-yamazaki
+  - title: Matrix Powers Kernels for Thick-Restart Lanczos with Explicit External Deflation
+    year: 2019
+    venue: IPDPS
+    url: https://doi.org/10.1109/IPDPS.2019.00057
+    authors:
+    - zhaojun-bai
+    - jack-dongarra
+    - ichitaro-yamazaki
+  - title: 'Evaluation of Programming Models to Address Load Imbalance on Distributed Multi-Core CPUs:
+      A Case Study with Block Low-Rank Factorization'
+    year: 2019
+    venue: PAW-ATM@SC
+    url: https://doi.org/10.1109/PAW-ATM49560.2019.00008
+    authors:
+    - jack-dongarra
+    - ichitaro-yamazaki
+  - title: 'The Singular Value Decomposition: Anatomy of Optimizing an Algorithm for Extreme Scale'
+    year: 2018
+    venue: SIAM Rev.
+    url: https://doi.org/10.1137/17M1117732
+    authors:
+    - jack-dongarra
+    - piotr-luszczek
+    - ichitaro-yamazaki
+  - title: Autotuning Techniques for Performance-Portable Point Set Registration in 3D
+    year: 2018
+    venue: Supercomput. Front. Innov.
+    url: https://doi.org/10.14529/jsfi180404
+    authors:
+    - piotr-luszczek
+    - jack-dongarra
+    - ichitaro-yamazaki
+  - title: Symmetric Indefinite Linear Solver Using OpenMP Task on Multicore Architectures
+    year: 2018
+    venue: IEEE Trans. Parallel Distributed Syst.
+    url: https://doi.org/10.1109/TPDS.2018.2808964
+    authors:
+    - jack-dongarra
+    - ichitaro-yamazaki
+  - title: Performance of Hierarchical-matrix BiCGStab Solver on GPU Clusters
+    year: 2018
+    venue: IPDPS
+    url: https://doi.org/10.1109/IPDPS.2018.00102
+    authors:
+    - jack-dongarra
+    - ichitaro-yamazaki
+  - title: Non-GPU-resident symmetric indefinite factorization
+    year: 2017
+    venue: Concurr. Comput. Pract. Exp.
+    url: https://doi.org/10.1002/cpe.4012
+    authors:
+    - jack-dongarra
+    - ichitaro-yamazaki
+  - title: Solving dense symmetric indefinite systems using GPUs
+    year: 2017
+    venue: Concurr. Comput. Pract. Exp.
+    url: https://doi.org/10.1002/cpe.4055
+    authors:
+    - jack-dongarra
+    - ichitaro-yamazaki
+  - title: With Extreme Computing, the Rules Have Changed
+    year: 2017
+    venue: Comput. Sci. Eng.
+    url: https://doi.org/10.1109/MCSE.2017.48
+    authors:
+    - jack-dongarra
+    - piotr-luszczek
+    - ichitaro-yamazaki
+  - title: Structure-Aware Linear Solver for Realtime Convex Optimization for Embedded Systems
+    year: 2017
+    venue: IEEE Embed. Syst. Lett.
+    url: https://doi.org/10.1109/LES.2017.2700401
+    authors:
+    - jack-dongarra
+    - ichitaro-yamazaki
+  - title: Design and Implementation of the PULSAR Programming System for Large Scale Computing
+    year: 2017
+    venue: Supercomput. Front. Innov.
+    url: https://doi.org/10.14529/jsfi170101
+    authors:
+    - piotr-luszczek
+    - jack-dongarra
+    - ichitaro-yamazaki
+  - title: Sampling algorithms to update truncated SVD
+    year: 2017
+    venue: IEEE BigData
+    url: https://doi.org/10.1109/BigData.2017.8257997
+    authors:
+    - jack-dongarra
+    - ichitaro-yamazaki
+  - title: Scaling point set registration in 3D across thread counts on multicore and hardware accelerator
+      platforms through autotuning
+    year: 2017
+    venue: IEEE BigData
+    url: https://doi.org/10.1109/BigData.2017.8258258
+    authors:
+    - piotr-luszczek
+    - jack-dongarra
+    - ichitaro-yamazaki
+  - title: Towards numerical benchmark for half-precision floating point arithmetic
+    year: 2017
+    venue: HPEC
+    url: https://doi.org/10.1109/HPEC.2017.8091031
+    authors:
+    - piotr-luszczek
+    - jack-dongarra
+    - ichitaro-yamazaki
+  - title: Improving Performance of GMRES by Reducing Communication and Pipelining Global Collectives
+    year: 2017
+    venue: IPDPS Workshops
+    url: https://doi.org/10.1109/IPDPSW.2017.65
+    authors:
+    - piotr-luszczek
+    - jack-dongarra
+    - ichitaro-yamazaki
+  - title: Bringing High Performance Computing to Big Data Algorithms
+    year: 2017
+    venue: Handbook of Big Data Technologies
+    url: https://doi.org/10.1007/978-3-319-49340-4_23
+    authors:
+    - jack-dongarra
+    - piotr-luszczek
+    - ichitaro-yamazaki
+  - title: Linear algebra software for large-scale accelerated multicore computing
+    year: 2016
+    venue: Acta Numer.
+    url: https://doi.org/10.1017/S0962492916000015
+    authors:
+    - jack-dongarra
+    - piotr-luszczek
+    - ichitaro-yamazaki
+  - title: Stability and Performance of Various Singular Value QR Implementations on Multicore CPU with
+      a GPU
+    year: 2016
+    venue: ACM Trans. Math. Softw.
+    url: https://doi.org/10.1145/2898347
+    authors:
+    - jack-dongarra
+    - ichitaro-yamazaki
+  - title: Heterogeneous Streaming
+    year: 2016
+    venue: IPDPS Workshops
+    url: https://doi.org/10.1109/IPDPSW.2016.217
+    authors:
+    - piotr-luszczek
+    - jack-dongarra
+    - ichitaro-yamazaki
+  - title: A survey of recent developments in parallel implementations of Gaussian elimination
+    year: 2015
+    venue: Concurr. Comput. Pract. Exp.
+    url: https://doi.org/10.1002/cpe.3306
+    authors:
+    - jack-dongarra
+    - piotr-luszczek
+    - ichitaro-yamazaki
+  - title: Mixed-Precision Cholesky QR Factorization and Its Case Studies on Multicore CPU with Multiple
+      GPUs
+    year: 2015
+    venue: SIAM J. Sci. Comput.
+    url: https://doi.org/10.1137/14M0973773
+    authors:
+    - jack-dongarra
+    - ichitaro-yamazaki
+  - title: Computing Low-Rank Approximation of a Dense Matrix on Multicore CPUs with a GPU and Its Application
+      to Solving a Hierarchically Semiseparable Linear System of Equations
+    year: 2015
+    venue: Sci. Program.
+    url: https://doi.org/10.1155/2015/246019
+    authors:
+    - jack-dongarra
+    - ichitaro-yamazaki
+  - title: Parallel Programming Models for Dense Linear Algebra on Heterogeneous Systems
+    year: 2015
+    venue: Supercomput. Front. Innov.
+    url: https://doi.org/10.14529/jsfi150405
+    authors:
+    - jack-dongarra
+    - piotr-luszczek
+    - ichitaro-yamazaki
+  - title: Dense Symmetric Indefinite Factorization on GPU Accelerated Architectures
+    year: 2015
+    venue: PPAM (1)
+    url: https://doi.org/10.1007/978-3-319-32149-3_9
+    authors:
+    - jack-dongarra
+    - ichitaro-yamazaki
+  - title: Mixed-precision block gram Schmidt orthogonalization
+    year: 2015
+    venue: ScalA@SC
+    url: https://doi.org/10.1145/2832080.2832082
+    authors:
+    - jack-dongarra
+    - ichitaro-yamazaki
+  - title: Randomized algorithms to update partial singular value decomposition on a hybrid CPU/GPU cluster
+    year: 2015
+    venue: SC
+    url: https://doi.org/10.1145/2807591.2807608
+    authors:
+    - piotr-luszczek
+    - jack-dongarra
+    - ichitaro-yamazaki
+  - title: Performance of random sampling for computing low-rank approximations of a dense matrix on GPUs
+    year: 2015
+    venue: SC
+    url: https://doi.org/10.1145/2807591.2807613
+    authors:
+    - theo-mary
+    - piotr-luszczek
+    - jack-dongarra
+    - ichitaro-yamazaki
+  - title: Tridiagonalization of a dense symmetric matrix on multiple GPUs and its application to symmetric
+      eigenvalue problems
+    year: 2014
+    venue: Concurr. Comput. Pract. Exp.
+    url: https://doi.org/10.1002/cpe.3152
+    authors:
+    - jack-dongarra
+    - ichitaro-yamazaki
+  - title: Communication-Avoiding Symmetric-Indefinite Factorization
+    year: 2014
+    venue: SIAM J. Matrix Anal. Appl.
+    url: https://doi.org/10.1137/130929060
+    authors:
+    - grey-ballard
+    - james-demmel
+    - jack-dongarra
+    - sivan-toledo
+    - ichitaro-yamazaki
+  - title: Design and Implementation of a Large Scale Tree-Based QR Decomposition Using a 3D Virtual Systolic
+      Array and a Lightweight Runtime
+    year: 2014
+    venue: Parallel Process. Lett.
+    url: https://doi.org/10.1142/S0129626414420043
+    authors:
+    - piotr-luszczek
+    - jack-dongarra
+    - ichitaro-yamazaki
+  - title: Access-averse framework for computing low-rank matrix approximations
+    year: 2014
+    venue: IEEE BigData
+    url: https://doi.org/10.1109/BigData.2014.7004374
+    authors:
+    - theo-mary
+    - jack-dongarra
+    - ichitaro-yamazaki
+  - title: Improving the Performance of CA-GMRES on Multicores with Multiple GPUs
+    year: 2014
+    venue: IPDPS
+    url: https://doi.org/10.1109/IPDPS.2014.48
+    authors:
+    - jack-dongarra
+    - ichitaro-yamazaki
+  - title: Optimizing Krylov Subspace Solvers on Graphics Processing Units
+    year: 2014
+    venue: IPDPS Workshops
+    url: https://doi.org/10.1109/IPDPSW.2014.107
+    authors:
+    - piotr-luszczek
+    - jack-dongarra
+    - ichitaro-yamazaki
+  - title: Deflation strategies to improve the convergence of communication-avoiding GMRES
+    year: 2014
+    venue: ScalA@SC
+    url: https://doi.org/10.1109/ScalA.2014.6
+    authors:
+    - jack-dongarra
+    - ichitaro-yamazaki
+  - title: Performance and portability with OpenCL for throughput-oriented HPC workloads across accelerators,
+      coprocessors, and multicore processors
+    year: 2014
+    venue: ScalA@SC
+    url: https://doi.org/10.1109/ScalA.2014.8
+    authors:
+    - piotr-luszczek
+    - jack-dongarra
+    - ichitaro-yamazaki
+  - title: Domain Decomposition Preconditioners for Communication-Avoiding Krylov Methods on a Hybrid
+      CPU/GPU Cluster
+    year: 2014
+    venue: SC
+    url: https://doi.org/10.1109/SC.2014.81
+    authors:
+    - erik-boman
+    - ichitaro-yamazaki
+  - title: Mixed-Precision Orthogonalization Scheme and Adaptive Step Size for Improving the Stability
+      and Performance of CA-GMRES on GPUs
+    year: 2014
+    venue: VECPAR
+    url: https://doi.org/10.1007/978-3-319-17353-5_2
+    authors:
+    - jack-dongarra
+    - ichitaro-yamazaki
+  - title: Accelerating Numerical Dense Linear Algebra Calculations with GPUs
+    year: 2014
+    venue: Numerical Computations with GPUs (book chapter)
+    url: https://doi.org/10.1007/978-3-319-06548-9_1
+    authors:
+    - jack-dongarra
+    - piotr-luszczek
+    - ichitaro-yamazaki
+  - title: Virtual Systolic Array for QR Decomposition
+    year: 2013
+    venue: IPDPS
+    url: https://doi.org/10.1109/IPDPS.2013.119
+    authors:
+    - piotr-luszczek
+    - jack-dongarra
+    - ichitaro-yamazaki
+  - title: Implementing a Blocked Aasen's Algorithm with a Dynamic Scheduler on Multicore Architectures
+    year: 2013
+    venue: IPDPS
+    url: https://doi.org/10.1109/IPDPS.2013.98
+    authors:
+    - grey-ballard
+    - james-demmel
+    - jack-dongarra
+    - sivan-toledo
+    - ichitaro-yamazaki
+  - title: Tridiagonalization of a Symmetric Dense Matrix on a GPU Cluster
+    year: 2013
+    venue: IPDPS Workshops
+    url: https://doi.org/10.1109/IPDPSW.2013.265
+    authors:
+    - jack-dongarra
+    - ichitaro-yamazaki
+  - title: On Partitioning and Reordering Problems in a Hierarchically Parallel Hybrid Linear Solver
+    year: 2013
+    venue: IPDPS Workshops
+    url: https://doi.org/10.1109/IPDPSW.2013.170
+    authors:
+    - xiaoye-sherry-li
+    - ichitaro-yamazaki
+  - title: dqds with Aggressive Early Deflation
+    year: 2012
+    venue: SIAM J. Matrix Anal. Appl.
+    url: https://doi.org/10.1137/110821330
+    authors:
+    - yuji-nakatsukasa
+    - ichitaro-yamazaki
+  - title: New Scheduling Strategies and Hybrid Programming for a Parallel Right-looking Sparse LU Factorization
+      Algorithm on Multicore Cluster Systems
+    year: 2012
+    venue: IPDPS
+    url: https://doi.org/10.1109/IPDPS.2012.63
+    authors:
+    - xiaoye-sherry-li
+    - ichitaro-yamazaki
+  - title: 'Abstract: Matrices Over Runtime Systems at Exascale'
+    year: 2012
+    venue: SC Companion
+    url: https://doi.org/10.1109/SC.Companion.2012.167
+    authors:
+    - jack-dongarra
+    - julien-langou
+    - ichitaro-yamazaki
+  - title: Adaptive Projection Subspace Dimension for the Thick-Restart Lanczos Method
+    year: 2010
+    venue: ACM Trans. Math. Softw.
+    url: https://doi.org/10.1145/1824801.1824805
+    authors:
+    - zhaojun-bai
+    - ichitaro-yamazaki
+  - title: Segmenting point-sampled surfaces
+    year: 2010
+    venue: Vis. Comput.
+    url: https://doi.org/10.1007/s00371-010-0428-z
+    authors:
+    - zhaojun-bai
+    - ichitaro-yamazaki
+  - title: On Techniques to Improve Robustness and Scalability of a Parallel Hybrid Linear Solver
+    year: 2010
+    venue: VECPAR
+    url: https://doi.org/10.1007/978-3-642-19328-6_38
+    authors:
+    - xiaoye-sherry-li
+    - ichitaro-yamazaki
+  - title: 'CompostBin: A DNA Composition-Based Algorithm for Binning Environmental Shotgun Reads'
+    year: 2008
+    venue: RECOMB
+    url: https://doi.org/10.1007/978-3-540-78839-3_3
+    authors:
+    - zhaojun-bai
+    - ichitaro-yamazaki
+  - title: Segmenting Point Sets
+    year: 2006
+    venue: SMI
+    url: https://doi.org/10.1109/SMI.2006.33
+    authors:
+    - zhaojun-bai
+    - ichitaro-yamazaki
+- id: erik-boman
+  website: https://egboman.github.io/
+  photo: https://scholar.googleusercontent.com/citations?view_op=view_photo&user=MAeMisMAAAAJ&citpid=2
+  papers:
+  - title: Random sketching to enhance the numerical stability of block orthogonalization algorithms for
+      s-step GMRES
+    year: 2026
+    venue: Parallel Comput.
+    url: https://doi.org/10.1016/j.parco.2026.103197
+    authors:
+    - andrew-higgins
+    - erik-boman
+    - daniel-szyld
+    - ichitaro-yamazaki
+  - title: Analysis of Randomized Householder-Cholesky QR factorization with multisketching
+    year: 2025
+    venue: Numerische Mathematik
+    url: https://doi.org/10.1007/s00211-025-01492-5
+    authors:
+    - andrew-higgins
+    - daniel-szyld
+    - erik-boman
+    - ichitaro-yamazaki
+  - title: A High Performance GPU CountSketch Implementation and Its Application to Multisketching and
+      Least Squares Problems
+    year: 2025
+    venue: SC Workshops
+    url: https://doi.org/10.1145/3731599.3767544
+    authors:
+    - andrew-higgins
+    - erik-boman
+    - ichitaro-yamazaki
+  - title: 'Trilinos: Enabling Scientific Computing Across Diverse Hardware Architectures at Scale'
+    year: 2025
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2503.08126
+    authors:
+    - erik-boman
+    - ichitaro-yamazaki
+  - title: Two-Stage Block Orthogonalization to Improve Performance of s-step GMRES
+    year: 2024
+    venue: IPDPS
+    url: https://doi.org/10.1109/IPDPS57955.2024.00012
+    authors:
+    - andrew-higgins
+    - erik-boman
+    - daniel-szyld
+    - ichitaro-yamazaki
+  - title: 'Optimal size of the block in block GMRES on GPUs: computational model and experiments'
+    year: 2023
+    venue: Numerical Algorithms
+    url: https://doi.org/10.1007/s11075-022-01439-z
+    authors:
+    - andrew-higgins
+    - daniel-szyld
+    - erik-boman
+  - title: Low-synch Gram-Schmidt with delayed reorthogonalization for Krylov solvers
+    year: 2022
+    venue: Parallel Comput.
+    url: https://doi.org/10.1016/j.parco.2022.102940
+    authors:
+    - julien-langou
+    - erik-boman
+    - ichitaro-yamazaki
+  - title: Experimental Evaluation of Multiprecision Strategies for GMRES on GPUs
+    year: 2021
+    venue: IPDPS Workshops
+    url: https://doi.org/10.1109/IPDPSW52791.2021.00078
+    authors:
+    - erik-boman
+    - ichitaro-yamazaki
+  - title: A survey of numerical linear algebra methods utilizing mixed-precision arithmetic
+    year: 2021
+    venue: Int. J. High Perform. Comput. Appl.
+    url: https://doi.org/10.1177/10943420211003313
+    authors:
+    - erin-carson
+    - jack-dongarra
+    - nicholas-higham
+    - piotr-luszczek
+    - xiaoye-sherry-li
+    - erik-boman
+  - title: A Survey of Numerical Methods Utilizing Mixed Precision Arithmetic
+    year: 2020
+    venue: CoRR
+    url: https://arxiv.org/abs/2007.06674
+    authors:
+    - erik-boman
+    - erin-carson
+    - jack-dongarra
+    - nicholas-higham
+    - piotr-luszczek
+    - xiaoye-sherry-li
+    - ichitaro-yamazaki
+  - title: Low-synchronization orthogonalization schemes for s-step and pipelined Krylov solvers in Trilinos
+    year: 2020
+    venue: Proceedings of the 2020 SIAM Workshop on Combinatorial Scientific Computing (PP)
+    url: https://doi.org/10.1137/1.9781611976137.11
+    authors:
+    - erik-boman
+    - ichitaro-yamazaki
+  - title: Scalable Asynchronous Domain Decomposition Solvers
+    year: 2020
+    venue: SIAM J. Sci. Comput.
+    url: https://doi.org/10.1137/19M1291303
+    authors:
+    - daniel-szyld
+    - edmond-chow
+    - erik-boman
+  - title: Asynchronous One-Level and Two-Level Domain Decomposition Solvers
+    year: 2018
+    venue: CoRR
+    url: http://arxiv.org/abs/1808.08172
+    authors:
+    - edmond-chow
+    - erik-boman
+  - title: Domain Decomposition Preconditioners for Communication-Avoiding Krylov Methods on a Hybrid
+      CPU/GPU Cluster
+    year: 2014
+    venue: SC
+    url: https://doi.org/10.1109/SC.2014.81
+    authors:
+    - erik-boman
+    - ichitaro-yamazaki
+  - title: Hypergraph-Based Unsymmetric Nested Dissection Ordering for Sparse LU Factorization
+    year: 2010
+    venue: SIAM J. Sci. Comput.
+    url: https://doi.org/10.1137/080720395
+    authors:
+    - laura-grigori
+    - erik-boman
+  - title: Maximum-weight-basis preconditioners
+    year: 2004
+    venue: Numer. Linear Algebra Appl.
+    url: https://doi.org/10.1002/nla.343
+    authors:
+    - sivan-toledo
+    - erik-boman
+- id: cleve-moler
+  website: https://blogs.mathworks.com/cleve/
+  photo: https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Cleve_B_Moler_in_2017_Argonne_Seminars_GPU_Computing_%28cropped%29.png/250px-Cleve_B_Moler_in_2017_Argonne_Seminars_GPU_Computing_%28cropped%29.png
+  papers:
+  - title: 'Netlib and NA-Net: Building a Scientific Computing Community'
+    year: 2008
+    venue: IEEE Ann. Hist. Comput.
+    url: https://doi.org/10.1109/MAHC.2008.29
+    authors:
+    - jack-dongarra
+    - cleve-moler
+  - title: LINPACK Users' Guide
+    year: 1979
+    venue: SIAM (book)
+    url: https://en.wikipedia.org/wiki/LINPACK
+    authors:
+    - jack-dongarra
+    - cleve-moler
+  - title: Matrix Eigensystem Routines - EISPACK Guide Extension
+    year: 1977
+    venue: Lecture Notes in Computer Science 51, Springer (book)
+    url: https://doi.org/10.1007/3-540-08254-9
+    authors:
+    - jack-dongarra
+    - cleve-moler
+  - title: Matrix Eigensystem Routines - EISPACK Guide, Second Edition
+    year: 1976
+    venue: Lecture Notes in Computer Science 6, Springer (book)
+    url: https://doi.org/10.1007/3-540-07546-1
+    authors:
+    - jack-dongarra
+    - cleve-moler
