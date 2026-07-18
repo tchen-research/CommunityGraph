@@ -1123,7 +1123,7 @@
 - id: mitchell-scott
   name: Mitchell Scott
   affiliation: Emory University
-  area: inverse
+  area: krylov
   topics:
   - preconditioning
   - optimization
@@ -1405,7 +1405,7 @@
 - id: rudi-smith
   name: Rudi Smith
   affiliation: Virginia Tech
-  area: krylov
+  area: rand
   topics:
   - tensors
   - sketching
@@ -1655,7 +1655,7 @@
 - id: xiaoou-cheng
   name: Xiaoou Cheng
   affiliation: New York University
-  area: krylov
+  area: ml
   topics:
   - sketching
   - optimization

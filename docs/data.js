@@ -24433,7 +24433,7 @@ window.GRAPH_DATA = {
     "optimization"
    ],
    "notes": "",
-   "group": "inverse",
+   "group": "krylov",
    "papers": [
     1526,
     1680
@@ -25449,7 +25449,7 @@ window.GRAPH_DATA = {
     "sketching"
    ],
    "notes": "",
-   "group": "krylov",
+   "group": "rand",
    "papers": [
     1669,
     1673,
@@ -26231,7 +26231,7 @@ window.GRAPH_DATA = {
     "optimization"
    ],
    "notes": "",
-   "group": "krylov",
+   "group": "ml",
    "papers": [
     1425
    ]
