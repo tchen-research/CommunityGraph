@@ -1,0 +1,124 @@
+# Papers found via Google Scholar profiles (July 2026 browser pass) that DBLP
+# missed - mostly math/inverse-problems venues and older work. Curated from
+# ~120 matched rows; junk rows (prefaces, web gateways, false-positive name
+# matches) dropped.
+people:
+- id: thomas-trogdon
+  papers:
+  - {title: "Fast computation of Gauss quadrature nodes and weights on the whole real line", year: 2016, venue: "IMA J. Numer. Anal.", authors: [alex-townsend, thomas-trogdon]}
+  - {title: "Stability of the Lanczos algorithm on matrices with regular spectral distributions", year: 2024, authors: [tyler-chen, thomas-trogdon]}
+  - {title: "GMRES, pseudospectra, and Crouzeix's conjecture for shifted and scaled Ginibre matrices", year: 2025, authors: [tyler-chen, anne-greenbaum, thomas-trogdon]}
+  - {title: "Randomized matrix-free quadrature: Unified and uniform bounds for stochastic Lanczos quadrature and the kernel polynomial method", year: 2025, authors: [tyler-chen, thomas-trogdon, shashanka-ubaru]}
+  - {title: "The Akhiezer iteration", year: 2024, authors: [thomas-trogdon, heather-wilber]}
+  - {title: "The Akhiezer iteration and inverse-free solvers for Sylvester matrix equations", year: 2025, authors: [thomas-trogdon, heather-wilber]}
+- id: anne-greenbaum
+  papers:
+  - {title: "LAPACK Users' Guide", year: 1999, venue: "SIAM", authors: [anne-greenbaum, zhaojun-bai, james-demmel, jack-dongarra], note: "with E. Anderson, C. Bischof, S. Blackford, J. Du Croz, S. Hammarling, A. McKenney, D. Sorensen"}
+  - {title: "GMRES/CR and Arnoldi/Lanczos as matrix approximation problems", year: 1994, venue: "SIAM J. Sci. Computing", authors: [anne-greenbaum, lloyd-trefethen]}
+- id: mark-embree
+  papers:
+  - {title: "Spectra and Pseudospectra: The Behavior of Nonnormal Matrices and Operators", year: 2005, venue: "Princeton UP", authors: [lloyd-trefethen, mark-embree]}
+  - {title: "Generalizing eigenvalue theorems to pseudospectra theorems", year: 2001, authors: [mark-embree, lloyd-trefethen]}
+  - {title: "Growth and decay of random Fibonacci sequences", year: 1999, authors: [mark-embree, lloyd-trefethen]}
+  - {title: "Green's functions for multiply connected domains via conformal mapping", year: 1999, authors: [mark-embree, lloyd-trefethen]}
+  - {title: "Spectra, pseudospectra, and localization for random bidiagonal matrices", year: 2001, authors: [lloyd-trefethen, mark-embree]}
+  - {title: "Piecewise continuous Toeplitz matrices and operators: Slow approach to infinity", year: 2002, authors: [mark-embree, lloyd-trefethen]}
+  - {title: "Convergence of polynomial restart Krylov methods for eigenvalue computations", year: 2005, venue: "SIAM Review", authors: [christopher-beattie, mark-embree]}
+  - {title: "Convergence of restarted Krylov subspaces to invariant subspaces", year: 2004, authors: [christopher-beattie, mark-embree]}
+  - {title: "Realization and model reduction of dynamical systems", year: 2022, authors: [christopher-beattie, mark-embree]}
+  - {title: "Short-term recurrence Krylov subspace methods for nearly hermitian matrices", year: 2012, authors: [mark-embree, daniel-szyld]}
+  - {title: "The Schur Complement Method for Nearly-Hermitian Linear Systems: An Effective Solver and Preconditioner", year: 2011, authors: [mark-embree, daniel-szyld]}
+- id: zdenek-strakos
+  papers:
+  - {title: "Krylov subspace methods: principles and analysis", year: 2013, venue: "Oxford UP", authors: [jorg-liesen, zdenek-strakos]}
+  - {title: "Numerical stability of GMRES", year: 1995, venue: "BIT", authors: [anne-greenbaum, zdenek-strakos]}
+  - {title: "Matrices that generate the same Krylov residual spaces", year: 1994, authors: [anne-greenbaum, zdenek-strakos]}
+  - {title: "Numerical behaviour of the modified Gram-Schmidt GMRES implementation", year: 1997, venue: "BIT", authors: [anne-greenbaum, zdenek-strakos]}
+  - {title: "Open questions in the convergence analysis of the Lanczos process for the real symmetric eigenvalue problem", year: 1992, authors: [zdenek-strakos, anne-greenbaum]}
+  - {title: "Towards understanding CG and GMRES through examples", year: 2024, venue: "Linear Algebra Appl.", authors: [erin-carson, jorg-liesen, zdenek-strakos]}
+  - {title: "The numerical stability analysis of pipelined conjugate gradient methods: Historical context and methodology", year: 2018, venue: "SIAM J. Sci. Computing", authors: [erin-carson, zdenek-strakos]}
+  - {title: "On the cost of iterative computations", year: 2020, authors: [erin-carson, zdenek-strakos]}
+  - {title: "On the numerical stability analysis of pipelined Krylov subspace methods", year: 2016, authors: [erin-carson, zdenek-strakos]}
+  - {title: "Interplay between discretization and algebraic computation in adaptive numerical solution of elliptic PDE problems", year: 2013, authors: [jorg-liesen, zdenek-strakos]}
+  - {title: "Distribution of the discretization and algebraic error in numerical solution of partial differential equations", year: 2014, venue: "Linear Algebra Appl.", authors: [jorg-liesen, zdenek-strakos]}
+  - {title: "On numerical stability in large scale linear algebraic computations", year: 2005, authors: [zdenek-strakos, jorg-liesen]}
+  - {title: "Slow Initial Convergence of GMRES for SUPG Discretized Convection-Diffusion Problems", year: 2003, authors: [jorg-liesen, zdenek-strakos]}
+  - {title: "The Lanczos algorithm and complex Gauss quadrature", year: 2018, venue: "ETNA", authors: [stefano-pozza, zdenek-strakos]}
+  - {title: "Gauss quadrature for quasi-definite linear functionals", year: 2017, venue: "IMA J. Numer. Anal.", authors: [stefano-pozza, zdenek-strakos]}
+  - {title: "Algebraic description of the finite Stieltjes moment problem", year: 2019, authors: [stefano-pozza, zdenek-strakos]}
+- id: ioana-dumitriu
+  papers:
+  - {title: "Matrix models for beta ensembles", year: 2002, venue: "J. Math. Phys.", authors: [ioana-dumitriu, alan-edelman]}
+  - {title: "Global spectrum fluctuations for the beta-Hermite and beta-Laguerre ensembles via matrix models", year: 2006, authors: [ioana-dumitriu, alan-edelman]}
+  - {title: "Eigenvalues of Hermite and Laguerre ensembles: large beta asymptotics", year: 2005, authors: [ioana-dumitriu, alan-edelman]}
+  - {title: "Communication-optimal parallel and sequential eigenvalue and singular value algorithms", year: 2011, authors: [grey-ballard, james-demmel, ioana-dumitriu]}
+  - {title: "Avoiding Communication using Successive Band Reduction", year: 2011, authors: [grey-ballard, james-demmel, ioana-dumitriu]}
+  - {title: "Group-theoretic algorithms for fast matrix multiplication are stable", year: 2006, authors: [james-demmel, ioana-dumitriu, olga-holtz]}
+  - {title: "Fast and inverse-free algorithms for deflating subspaces", year: 2026, authors: [james-demmel, ioana-dumitriu, ryan-schneider]}
+  - {title: "Symmetric Pseudospectral Shattering and Fast Divide-and-Conquer for the Definite Generalized Eigenvalue Problem", year: 2024, authors: [james-demmel, ioana-dumitriu, ryan-schneider]}
+- id: miles-lopes
+  papers:
+  - {title: "Error estimation for random Fourier features", year: 2023, authors: [benjamin-erichson, miles-lopes]}
+- id: james-nagy
+  papers:
+  - {title: "IR Tools: a MATLAB package of iterative regularization methods and large-scale test problems", year: 2019, venue: "Numer. Algorithms", authors: [silvia-gazzola, james-nagy], note: "with P.C. Hansen"}
+  - {title: "A weighted GCV method for Lanczos hybrid regularization", year: 2008, venue: "ETNA", authors: [julianne-chung, james-nagy]}
+  - {title: "Numerical methods for coupled super-resolution", year: 2006, authors: [julianne-chung, james-nagy]}
+  - {title: "An efficient iterative approach for large-scale separable nonlinear inverse problems", year: 2010, authors: [julianne-chung, james-nagy]}
+  - {title: "Inner-product free Krylov methods for large-scale inverse problems", year: 2025, authors: [julianne-chung, james-nagy, malena-sabate-landman]}
+  - {title: "Randomized and inner-product free Krylov methods for large-scale inverse problems", year: 2025, authors: [malena-sabate-landman, julianne-chung, james-nagy]}
+  - {title: "Kronecker product approximation for preconditioning in three-dimensional imaging applications", year: 2006, authors: [james-nagy, misha-kilmer]}
+  - {title: "Kronecker product approximations for dense block Toeplitz-plus-Hankel matrices", year: 2007, authors: [misha-kilmer, james-nagy]}
+  - {title: "Generalized Arnoldi-Tikhonov method for sparse reconstruction", year: 2014, venue: "SIAM J. Sci. Computing", authors: [silvia-gazzola, james-nagy]}
+  - {title: "Iteratively reweighted FGMRES and FLSQR for sparse reconstruction", year: 2021, authors: [silvia-gazzola, james-nagy, malena-sabate-landman]}
+  - {title: "H-CMRH: An inner product free hybrid Krylov method for large-scale inverse problems", year: 2025, authors: [malena-sabate-landman, james-nagy]}
+  - {title: "Krylov Methods for Low-Rank Regularization", year: 2020, authors: [silvia-gazzola, james-nagy]}
+- id: silvia-gazzola
+  papers:
+  - {title: "Computational methods for large-scale inverse problems: a survey on hybrid projection methods", year: 2024, venue: "SIAM Review", authors: [julianne-chung, silvia-gazzola]}
+  - {title: "Flexible Krylov Methods for lp Regularization", year: 2019, venue: "SIAM J. Sci. Computing", authors: [julianne-chung, silvia-gazzola]}
+  - {title: "Krylov methods for inverse problems: Surveying classical, and introducing new, algorithmic approaches", year: 2020, authors: [silvia-gazzola, malena-sabate-landman]}
+  - {title: "Flexible GMRES for total variation regularization", year: 2019, venue: "BIT", authors: [silvia-gazzola, malena-sabate-landman]}
+  - {title: "Regularization by inexact Krylov methods with applications to blind deblurring", year: 2021, authors: [silvia-gazzola, malena-sabate-landman]}
+  - {title: "On the Lanczos and Golub-Kahan reduction methods applied to discrete ill-posed problems", year: 2016, authors: [silvia-gazzola, lothar-reichel]}
+  - {title: "Arnoldi decomposition, GMRES, and preconditioning for linear discrete ill-posed problems", year: 2019, authors: [silvia-gazzola, lothar-reichel]}
+  - {title: "A new framework for multi-parameter regularization", year: 2016, venue: "BIT", authors: [silvia-gazzola, lothar-reichel]}
+  - {title: "On the block Lanczos and block Golub-Kahan reduction methods applied to discrete ill-posed problems", year: 2021, authors: [silvia-gazzola, lothar-reichel]}
+  - {title: "A computational framework for edge-preserving regularization in dynamic inverse problems", year: 2023, venue: "ETNA", authors: [mirjeta-pasha, arvind-saibaba, silvia-gazzola, malena-espanol, eric-de-sturler]}
+  - {title: "An inner-outer iterative method for edge preservation in image restoration and reconstruction", year: 2020, venue: "Inverse Problems", authors: [silvia-gazzola, misha-kilmer, james-nagy]}
+  - {title: "TRIPs-Py: Techniques for regularization of inverse problems in python", year: 2025, authors: [mirjeta-pasha, silvia-gazzola]}
+  - {title: "Efficient learning methods for large-scale optimal inversion design", year: 2021, authors: [julianne-chung, silvia-gazzola, mirjeta-pasha]}
+  - {title: "Projected iterated Tikhonov in general form with adaptive choice of the regularization parameter", year: 2025, authors: [silvia-gazzola, lucas-onisk, mirjeta-pasha, lothar-reichel]}
+  - {title: "Randomized Krylov methods for inverse problems", year: 2025, authors: [julianne-chung, silvia-gazzola]}
+  - {title: "Alternating steepest descent methods for tensor completion with applications to spectromicroscopy", year: 2025, authors: [silvia-gazzola, misha-kilmer]}
+- id: vladimir-rokhlin
+  papers:
+  - {title: "Randomized algorithms for the low-rank approximation of matrices", year: 2007, venue: "PNAS", authors: [edo-liberty, per-gunnar-martinsson, vladimir-rokhlin, mark-tygert], note: "with F. Woolfe"}
+  - {title: "A randomized algorithm for the decomposition of matrices", year: 2011, venue: "Appl. Comput. Harmon. Anal.", authors: [per-gunnar-martinsson, vladimir-rokhlin, mark-tygert]}
+  - {title: "A fast randomized algorithm for the approximation of matrices", year: 2008, venue: "Appl. Comput. Harmon. Anal.", authors: [edo-liberty, vladimir-rokhlin, mark-tygert], note: "with F. Woolfe"}
+  - {title: "A fast randomized algorithm for overdetermined linear least-squares regression", year: 2008, venue: "PNAS", authors: [vladimir-rokhlin, mark-tygert]}
+  - {title: "A fast direct solver for boundary integral equations in two dimensions", year: 2005, venue: "J. Comput. Phys.", authors: [per-gunnar-martinsson, vladimir-rokhlin]}
+  - {title: "Fast direct solvers for integral equations in complex three-dimensional domains", year: 2009, venue: "Acta Numerica", authors: [per-gunnar-martinsson, vladimir-rokhlin]}
+  - {title: "A fast algorithm for the inversion of general Toeplitz matrices", year: 2005, authors: [per-gunnar-martinsson, vladimir-rokhlin, mark-tygert]}
+  - {title: "Approximation of bandlimited functions", year: 2006, authors: [mark-tygert, vladimir-rokhlin]}
+  - {title: "Fast algorithms for polynomial interpolation, integration, and differentiation", year: 1996, venue: "SIAM J. Numer. Anal.", authors: [ming-gu, vladimir-rokhlin]}
+  - {title: "Randomized methods for computing the Singular Value Decomposition (SVD) of very large matrices", year: 2010, authors: [edo-liberty, nathan-halko, vladimir-rokhlin], note: "with M. Tygert, P.-G. Martinsson"}
+- id: alan-edelman
+  papers:
+  - {title: "The dimension of matrices (matrix pencils) with given Jordan (Kronecker) canonical forms", year: 1995, authors: [james-demmel, alan-edelman]}
+- id: alan-frieze
+  papers:
+  - {title: "A random polynomial-time algorithm for approximating the volume of convex bodies", year: 1991, venue: "J. ACM", authors: [alan-frieze, ravindran-kannan], note: "with M. Dyer"}
+  - {title: "The regularity lemma and approximation schemes for dense problems", year: 1996, venue: "FOCS", authors: [alan-frieze, ravindran-kannan]}
+  - {title: "Sampling from log-concave distributions", year: 1994, authors: [alan-frieze, ravindran-kannan]}
+  - {title: "Learning linear transformations", year: 1996, venue: "FOCS", authors: [alan-frieze, ravindran-kannan]}
+- id: james-baglama
+  papers:
+  - {title: "Adaptively preconditioned GMRES algorithms", year: 1998, venue: "SIAM J. Sci. Computing", authors: [james-baglama, daniela-calvetti, lothar-reichel]}
+  - {title: "Fast Leja points", year: 1998, venue: "ETNA", authors: [james-baglama, daniela-calvetti, lothar-reichel]}
+  - {title: "IRBL: An implicitly restarted block-Lanczos method for large-scale Hermitian eigenproblems", year: 2003, venue: "SIAM J. Sci. Computing", authors: [james-baglama, daniela-calvetti, lothar-reichel]}
+  - {title: "Algorithm 827: irbleigs: A MATLAB program for computing a few eigenpairs of a large sparse Hermitian matrix", year: 2003, venue: "ACM Trans. Math. Softw.", authors: [james-baglama, daniela-calvetti, lothar-reichel]}
+  - {title: "Iterative methods for the computation of a few eigenvalues of a large symmetric matrix", year: 1996, venue: "BIT", authors: [james-baglama, daniela-calvetti, lothar-reichel]}
+  - {title: "irlba: Fast truncated singular value decomposition and principal components analysis for large dense and sparse matrices", year: 2011, authors: [james-baglama, lothar-reichel]}
+  - {title: "Restarted block Lanczos bidiagonalization methods", year: 2006, venue: "Numer. Algorithms", authors: [james-baglama, lothar-reichel]}
+  - {title: "Augmented GMRES-type methods", year: 2007, venue: "Numer. Linear Algebra Appl.", authors: [james-baglama, lothar-reichel]}

@@ -31,6 +31,13 @@
   - zhaojun-bai
   - anne-greenbaum
   - james-demmel
+- title: A random polynomial-time algorithm for approximating the volume of convex bodies
+  year: 1991
+  venue: J. ACM
+  authors:
+  - alan-frieze
+  - ravindran-kannan
+  note: with M. Dyer
 - title: An Implementation of the GMRES Method Using QR Factorization
   year: 1991
   venue: PP
@@ -38,6 +45,12 @@
   - zhaojun-bai
   - lothar-reichel
   url: http://dblp.uni-trier.de/db/conf/ppsc/ppsc1991.html#BaiHR91
+- title: Open questions in the convergence analysis of the Lanczos process for the real symmetric
+    eigenvalue problem
+  year: 1992
+  authors:
+  - zdenek-strakos
+  - anne-greenbaum
 - title: Predicting the Behavior of Finite Precision Lanczos and Conjugate Gradient Computations
   year: 1992
   venue: SIAM J. Matrix Anal. Appl.
@@ -99,6 +112,22 @@
   authors:
   - james-demmel
   - xiaoye-sherry-li
+- title: GMRES/CR and Arnoldi/Lanczos as matrix approximation problems
+  year: 1994
+  venue: SIAM J. Sci. Computing
+  authors:
+  - anne-greenbaum
+  - lloyd-trefethen
+- title: Matrices that generate the same Krylov residual spaces
+  year: 1994
+  authors:
+  - anne-greenbaum
+  - zdenek-strakos
+- title: Sampling from log-concave distributions
+  year: 1994
+  authors:
+  - alan-frieze
+  - ravindran-kannan
 - title: Iterative solution methods for ill-posed problems
   year: 1995
   venue: Proceedings of SPIE, the International Society for Optical Engineering/Proceedings
@@ -107,6 +136,12 @@
   authors:
   - daniela-calvetti
   - lothar-reichel
+- title: Numerical stability of GMRES
+  year: 1995
+  venue: BIT
+  authors:
+  - anne-greenbaum
+  - zdenek-strakos
 - title: Stability of block LU factorization
   year: 1995
   venue: Numer. Linear Algebra Appl.
@@ -122,6 +157,12 @@
   - zhaojun-bai
   - james-demmel
   - ming-gu
+- title: The dimension of matrices (matrix pencils) with given Jordan (Kronecker) canonical
+    forms
+  year: 1995
+  authors:
+  - james-demmel
+  - alan-edelman
 - title: A numerical method for eigenvalue problems in modeling liquid crystals
   year: 1996
   venue: OSTI OAI (U.S. Department of Energy Office of Scientific and Technical Information)
@@ -137,12 +178,37 @@
   authors:
   - anne-greenbaum
   - zdenek-strakos
+- title: Fast algorithms for polynomial interpolation, integration, and differentiation
+  year: 1996
+  venue: SIAM J. Numer. Anal.
+  authors:
+  - ming-gu
+  - vladimir-rokhlin
+- title: Iterative methods for the computation of a few eigenvalues of a large symmetric matrix
+  year: 1996
+  venue: BIT
+  authors:
+  - james-baglama
+  - daniela-calvetti
+  - lothar-reichel
+- title: Learning linear transformations
+  year: 1996
+  venue: FOCS
+  authors:
+  - alan-frieze
+  - ravindran-kannan
 - title: ON THE SOLUTION OF CAUCHY SYSTEMS OF EQUATIONS
   year: 1996
   url: http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.38.5726
   authors:
   - daniela-calvetti
   - lothar-reichel
+- title: The regularity lemma and approximation schemes for dense problems
+  year: 1996
+  venue: FOCS
+  authors:
+  - alan-frieze
+  - ravindran-kannan
 - title: Approximate Inverse Techniques for Block-Partitioned Matrices
   year: 1997
   venue: SIAM J. Sci. Comput.
@@ -150,6 +216,12 @@
   authors:
   - edmond-chow
   - yousef-saad
+- title: Numerical behaviour of the modified Gram-Schmidt GMRES implementation
+  year: 1997
+  venue: BIT
+  authors:
+  - anne-greenbaum
+  - zdenek-strakos
 - title: Parallel Approximate Inverse Preconditioners
   year: 1997
   venue: PP
@@ -294,6 +366,16 @@
   - ravindran-kannan
   - santosh-vempala
   - alan-frieze
+- title: Green's functions for multiply connected domains via conformal mapping
+  year: 1999
+  authors:
+  - mark-embree
+  - lloyd-trefethen
+- title: Growth and decay of random Fibonacci sequences
+  year: 1999
+  authors:
+  - mark-embree
+  - lloyd-trefethen
 - title: Iterative Solution Methods for Large Linear Discrete Ill-Posed Problems
   year: 1999
   venue: Birkhäuser Boston eBooks
@@ -301,6 +383,16 @@
   authors:
   - daniela-calvetti
   - lothar-reichel
+- title: LAPACK Users' Guide
+  year: 1999
+  venue: SIAM
+  authors:
+  - anne-greenbaum
+  - zhaojun-bai
+  - james-demmel
+  - jack-dongarra
+  note: with E. Anderson, C. Bischof, S. Blackford, J. Du Croz, S. Hammarling, A. McKenney,
+    D. Sorensen
 - title: LAPACK Users' Guide, Third Edition
   year: 1999
   url: https://doi.org/10.1137/1.9780898719604
@@ -382,6 +474,11 @@
   authors:
   - petros-drineas
   - ravindran-kannan
+- title: Generalizing eigenvalue theorems to pseudospectra theorems
+  year: 2001
+  authors:
+  - mark-embree
+  - lloyd-trefethen
 - title: Krylov subspace iterative methods for nonsymmetric discrete ill-posed problems in
     image restoration
   year: 2001
@@ -411,6 +508,11 @@
   authors:
   - jorg-liesen
   - eric-de-sturler
+- title: Spectra, pseudospectra, and localization for random bidiagonal matrices
+  year: 2001
+  authors:
+  - lloyd-trefethen
+  - mark-embree
 - title: A hybrid GMRES and TV-norm-based method for image restoration
   year: 2002
   venue: Proceedings of SPIE, the International Society for Optical Engineering/Proceedings
@@ -454,6 +556,12 @@
   authors:
   - jorg-liesen
   - zdenek-strakos
+- title: Matrix models for beta ensembles
+  year: 2002
+  venue: J. Math. Phys.
+  authors:
+  - ioana-dumitriu
+  - alan-edelman
 - title: On computing givens rotations reliably and efficiently
   year: 2002
   venue: ACM Trans. Math. Softw.
@@ -461,6 +569,11 @@
   authors:
   - david-bindel
   - james-demmel
+- title: 'Piecewise continuous Toeplitz matrices and operators: Slow approach to infinity'
+  year: 2002
+  authors:
+  - mark-embree
+  - lloyd-trefethen
 - title: The restarted QR-algorithm for eigenvalue computation of structured matrices
   year: 2002
   venue: Journal of Computational and Applied Mathematics
@@ -527,6 +640,11 @@
   authors:
   - ravindran-kannan
   - michael-mahoney
+- title: Slow Initial Convergence of GMRES for SUPG Discretized Convection-Diffusion Problems
+  year: 2003
+  authors:
+  - jorg-liesen
+  - zdenek-strakos
 - title: 'SuperLU_DIST: A scalable distributed-memory sparse direct solver for unsymmetric
     linear systems'
   year: 2003
@@ -579,6 +697,11 @@
   authors:
   - jorg-liesen
   - zdenek-strakos
+- title: Convergence of restarted Krylov subspaces to invariant subspaces
+  year: 2004
+  authors:
+  - christopher-beattie
+  - mark-embree
 - title: Fast monte-carlo algorithms for finding low-rank approximations
   year: 2004
   venue: J. ACM
@@ -630,6 +753,18 @@
   authors:
   - daniela-calvetti
   - lothar-reichel
+- title: A fast algorithm for the inversion of general Toeplitz matrices
+  year: 2005
+  authors:
+  - per-gunnar-martinsson
+  - vladimir-rokhlin
+  - mark-tygert
+- title: A fast direct solver for boundary integral equations in two dimensions
+  year: 2005
+  venue: J. Comput. Phys.
+  authors:
+  - per-gunnar-martinsson
+  - vladimir-rokhlin
 - title: An Algebraic Substructuring Method for Large-Scale Eigenvalue Calculation
   year: 2005
   venue: SIAM J. Sci. Comput.
@@ -674,6 +809,17 @@
   authors:
   - eric-de-sturler
   - jorg-liesen
+- title: Convergence of polynomial restart Krylov methods for eigenvalue computations
+  year: 2005
+  venue: SIAM Review
+  authors:
+  - christopher-beattie
+  - mark-embree
+- title: 'Eigenvalues of Hermite and Laguerre ensembles: large beta asymptotics'
+  year: 2005
+  authors:
+  - ioana-dumitriu
+  - alan-edelman
 - title: GMRES Convergence Analysis for a Convection-Diffusion Model Problem
   year: 2005
   venue: SIAM J. Sci. Comput.
@@ -689,6 +835,11 @@
   authors:
   - daniela-calvetti
   - erkki-somersalo
+- title: On numerical stability in large scale linear algebraic computations
+  year: 2005
+  authors:
+  - zdenek-strakos
+  - jorg-liesen
 - title: On the Compression of Low Rank Matrices
   year: 2005
   venue: SIAM J. Sci. Comput.
@@ -732,6 +883,12 @@
   authors:
   - valeria-simoncini
   - daniel-szyld
+- title: 'Spectra and Pseudospectra: The Behavior of Nonnormal Matrices and Operators'
+  year: 2005
+  venue: Princeton UP
+  authors:
+  - lloyd-trefethen
+  - mark-embree
 - title: Statistical elimination of boundary artefacts in image deblurring
   year: 2005
   venue: Inverse Problems
@@ -776,6 +933,11 @@
   authors:
   - ravindran-kannan
   - santosh-vempala
+- title: Approximation of bandlimited functions
+  year: 2006
+  authors:
+  - mark-tygert
+  - vladimir-rokhlin
 - title: Aristotelian prior boundary conditions
   year: 2006
   venue: International journal of mathematics and computer science
@@ -830,6 +992,18 @@
   - petros-drineas
   - ravindran-kannan
   - michael-mahoney
+- title: Global spectrum fluctuations for the beta-Hermite and beta-Laguerre ensembles via
+    matrix models
+  year: 2006
+  authors:
+  - ioana-dumitriu
+  - alan-edelman
+- title: Group-theoretic algorithms for fast matrix multiplication are stable
+  year: 2006
+  authors:
+  - james-demmel
+  - ioana-dumitriu
+  - olga-holtz
 - title: Image inpainting with structural bootstrap priors
   year: 2006
   venue: Image and Vision Computing
@@ -837,6 +1011,12 @@
   authors:
   - daniela-calvetti
   - erkki-somersalo
+- title: Kronecker product approximation for preconditioning in three-dimensional imaging
+    applications
+  year: 2006
+  authors:
+  - james-nagy
+  - misha-kilmer
 - title: Large-scale Bayesian parameter estimation for a three-compartment cardiac metabolism
     model during ischemia
   year: 2006
@@ -861,6 +1041,11 @@
   authors:
   - daniela-calvetti
   - erkki-somersalo
+- title: Numerical methods for coupled super-resolution
+  year: 2006
+  authors:
+  - julianne-chung
+  - james-nagy
 - title: Prospectus for the Next LAPACK and ScaLAPACK Libraries
   year: 2006
   venue: PARA
@@ -1076,6 +1261,11 @@
   authors:
   - daniela-calvetti
   - erkki-somersalo
+- title: Kronecker product approximations for dense block Toeplitz-plus-Hankel matrices
+  year: 2007
+  authors:
+  - misha-kilmer
+  - james-nagy
 - title: 'MOPS: Multivariate orthogonal polynomials (symbolically)'
   year: 2007
   venue: J. Symb. Comput.
@@ -1114,6 +1304,15 @@
   - ming-gu
   - xiaoye-sherry-li
   - david-bindel
+- title: Randomized algorithms for the low-rank approximation of matrices
+  year: 2007
+  venue: PNAS
+  authors:
+  - edo-liberty
+  - per-gunnar-martinsson
+  - vladimir-rokhlin
+  - mark-tygert
+  note: with F. Woolfe
 - title: 'Sampling: first encounter'
   year: 2007
   url: https://doi.org/10.1007/978-0-387-73394-4_5
@@ -1145,6 +1344,20 @@
   authors:
   - daniela-calvetti
   - erkki-somersalo
+- title: A fast randomized algorithm for overdetermined linear least-squares regression
+  year: 2008
+  venue: PNAS
+  authors:
+  - vladimir-rokhlin
+  - mark-tygert
+- title: A fast randomized algorithm for the approximation of matrices
+  year: 2008
+  venue: Appl. Comput. Harmon. Anal.
+  authors:
+  - edo-liberty
+  - vladimir-rokhlin
+  - mark-tygert
+  note: with F. Woolfe
 - title: A new approach to the planted clique problem
   year: 2008
   venue: FSTTCS
@@ -1152,6 +1365,12 @@
   authors:
   - ravindran-kannan
   - alan-frieze
+- title: A weighted GCV method for Lanczos hybrid regularization
+  year: 2008
+  venue: ETNA
+  authors:
+  - julianne-chung
+  - james-nagy
 - title: An Implementation and Evaluation of the AMLS Method for Sparse Eigenvalue Problems
   year: 2008
   venue: ACM Trans. Math. Softw.
@@ -1359,6 +1578,12 @@
   authors:
   - james-demmel
   - xiaoye-sherry-li
+- title: Fast direct solvers for integral equations in complex three-dimensional domains
+  year: 2009
+  venue: Acta Numerica
+  authors:
+  - per-gunnar-martinsson
+  - vladimir-rokhlin
 - title: In silico study of lactate metabolism in brain during visual stimulation
   year: 2009
   venue: The FASEB Journal
@@ -1429,6 +1654,11 @@
   authors:
   - haim-avron
   - sivan-toledo
+- title: An efficient iterative approach for large-scale separable nonlinear inverse problems
+  year: 2010
+  authors:
+  - julianne-chung
+  - james-nagy
 - title: An optimal algorithm for the distinct elements problem
   year: 2010
   venue: PODS
@@ -1573,6 +1803,14 @@
   authors:
   - yuji-nakatsukasa
   - zhaojun-bai
+- title: Randomized methods for computing the Singular Value Decomposition (SVD) of very large
+    matrices
+  year: 2010
+  authors:
+  - edo-liberty
+  - nathan-halko
+  - vladimir-rokhlin
+  note: with M. Tygert, P.-G. Martinsson
 - title: A Fast Randomized Algorithm for Orthogonal Projection
   year: 2011
   venue: SIAM J. Sci. Comput.
@@ -1594,6 +1832,13 @@
   authors:
   - eric-de-sturler
   - misha-kilmer
+- title: A randomized algorithm for the decomposition of matrices
+  year: 2011
+  venue: Appl. Comput. Harmon. Anal.
+  authors:
+  - per-gunnar-martinsson
+  - vladimir-rokhlin
+  - mark-tygert
 - title: An Algorithm for the Principal Component Analysis of Large Data Sets
   year: 2011
   venue: SIAM J. Sci. Comput.
@@ -1602,6 +1847,12 @@
   - per-gunnar-martinsson
   - mark-tygert
   - nathan-halko
+- title: Avoiding Communication using Successive Band Reduction
+  year: 2011
+  authors:
+  - grey-ballard
+  - james-demmel
+  - ioana-dumitriu
 - title: Bayesian mixture models for source separation in MEG
   year: 2011
   venue: Inverse Problems
@@ -1616,6 +1867,12 @@
   authors:
   - laura-grigori
   - james-demmel
+- title: Communication-optimal parallel and sequential eigenvalue and singular value algorithms
+  year: 2011
+  authors:
+  - grey-ballard
+  - james-demmel
+  - ioana-dumitriu
 - title: Computing the confidence levels for a root-mean-square test of goodness-of-fit
   year: 2011
   venue: Appl. Math. Comput.
@@ -1730,6 +1987,18 @@
   - xiaoye-sherry-li
   - james-demmel
   - laura-grigori
+- title: 'The Schur Complement Method for Nearly-Hermitian Linear Systems: An Effective Solver
+    and Preconditioner'
+  year: 2011
+  authors:
+  - mark-embree
+  - daniel-szyld
+- title: 'irlba: Fast truncated singular value decomposition and principal components analysis
+    for large dense and sparse matrices'
+  year: 2011
+  authors:
+  - james-baglama
+  - lothar-reichel
 - title: A hybrid stochastic–deterministic computational model accurately describes spatial
     dynamics and virus diffusion in HIV-1 growth competition assay
   year: 2012
@@ -1937,6 +2206,11 @@
   authors:
   - kapil-ahuja
   - eric-de-sturler
+- title: Short-term recurrence Krylov subspace methods for nearly hermitian matrices
+  year: 2012
+  authors:
+  - mark-embree
+  - daniel-szyld
 - title: Strong Scaling of Matrix Multiplication Algorithms and Memory-Independent Communication
     Lower Bounds
   year: 2012
@@ -2034,6 +2308,18 @@
   authors:
   - james-demmel
   - sivan-toledo
+- title: Interplay between discretization and algebraic computation in adaptive numerical
+    solution of elliptic PDE problems
+  year: 2013
+  authors:
+  - jorg-liesen
+  - zdenek-strakos
+- title: 'Krylov subspace methods: principles and analysis'
+  year: 2013
+  venue: Oxford UP
+  authors:
+  - jorg-liesen
+  - zdenek-strakos
 - title: LU Factorization with Panel Rank Revealing Pivoting and Its Communication Avoiding
     Version
   year: 2013
@@ -2215,6 +2501,13 @@
   authors:
   - james-demmel
   - sivan-toledo
+- title: Distribution of the discretization and algebraic error in numerical solution of partial
+    differential equations
+  year: 2014
+  venue: Linear Algebra Appl.
+  authors:
+  - jorg-liesen
+  - zdenek-strakos
 - title: Dynamic updating of numerical model discrepancy using sequential sampling
   year: 2014
   venue: Inverse Problems
@@ -2244,6 +2537,12 @@
   authors:
   - santosh-vempala
   - alan-frieze
+- title: Generalized Arnoldi-Tikhonov method for sparse reconstruction
+  year: 2014
+  venue: SIAM J. Sci. Computing
+  authors:
+  - silvia-gazzola
+  - james-nagy
 - title: Improving image clustering using sparse text and the wisdom of the crowds
   year: 2014
   venue: 2014 48th Asilomar Conference on Signals, Systems and Computers
@@ -2742,6 +3041,12 @@
   authors:
   - erkki-somersalo
   - daniela-calvetti
+- title: A new framework for multi-parameter regularization
+  year: 2016
+  venue: BIT
+  authors:
+  - silvia-gazzola
+  - lothar-reichel
 - title: Approximate Gaussian Elimination for Laplacians - Fast, Sparse, and Simple
   year: 2016
   venue: FOCS
@@ -2829,6 +3134,12 @@
   authors:
   - fred-roosta
   - michael-mahoney
+- title: Fast computation of Gauss quadrature nodes and weights on the whole real line
+  year: 2016
+  venue: IMA J. Numer. Anal.
+  authors:
+  - alex-townsend
+  - thomas-trogdon
 - title: Fast methods for estimating the Numerical rank of large matrices
   year: 2016
   venue: ICML
@@ -2902,6 +3213,16 @@
   authors:
   - james-demmel
   - sivan-toledo
+- title: On the Lanczos and Golub-Kahan reduction methods applied to discrete ill-posed problems
+  year: 2016
+  authors:
+  - silvia-gazzola
+  - lothar-reichel
+- title: On the numerical stability analysis of pipelined Krylov subspace methods
+  year: 2016
+  authors:
+  - erin-carson
+  - zdenek-strakos
 - title: Optimal Approximate Matrix Product in Terms of Stable Rank
   year: 2016
   venue: ICALP
@@ -3175,6 +3496,12 @@
   - shashanka-ubaru
   - agnieszka-miedlar
   - yousef-saad
+- title: Gauss quadrature for quasi-definite linear functionals
+  year: 2017
+  venue: IMA J. Numer. Anal.
+  authors:
+  - stefano-pozza
+  - zdenek-strakos
 - title: Generalized Hybrid Iterative Methods for Large-Scale Bayesian Inverse Problems
   year: 2017
   venue: SIAM Journal on Scientific Computing
@@ -3722,6 +4049,19 @@
   authors:
   - ainesh-bakshi
   - david-woodruff
+- title: The Lanczos algorithm and complex Gauss quadrature
+  year: 2018
+  venue: ETNA
+  authors:
+  - stefano-pozza
+  - zdenek-strakos
+- title: 'The numerical stability analysis of pipelined conjugate gradient methods: Historical
+    context and methodology'
+  year: 2018
+  venue: SIAM J. Sci. Computing
+  authors:
+  - erin-carson
+  - zdenek-strakos
 - title: Uncertainty quantification in large Bayesian linear inverse problems using Krylov
     subspace methods
   year: 2018
@@ -3803,6 +4143,11 @@
   authors:
   - robert-gower
   - deanna-needell
+- title: Algebraic description of the finite Stieltjes moment problem
+  year: 2019
+  authors:
+  - stefano-pozza
+  - zdenek-strakos
 - title: An Approximate Message Passing Framework for Side Information
   year: 2019
   venue: IEEE Transactions on Signal Processing
@@ -3832,6 +4177,11 @@
   authors:
   - anna-ma
   - deanna-needell
+- title: Arnoldi decomposition, GMRES, and preconditioning for linear discrete ill-posed problems
+  year: 2019
+  authors:
+  - silvia-gazzola
+  - lothar-reichel
 - title: Avoiding Communication in Primal and Dual Block Coordinate Descent Methods
   year: 2019
   venue: SIAM J. Sci. Comput.
@@ -3954,6 +4304,18 @@
   authors:
   - shashanka-ubaru
   - yousef-saad
+- title: Flexible GMRES for total variation regularization
+  year: 2019
+  venue: BIT
+  authors:
+  - silvia-gazzola
+  - malena-sabate-landman
+- title: Flexible Krylov Methods for lp Regularization
+  year: 2019
+  venue: SIAM J. Sci. Computing
+  authors:
+  - julianne-chung
+  - silvia-gazzola
 - title: Flows in almost linear time via adaptive preconditioning
   year: 2019
   venue: STOC
@@ -3976,6 +4338,14 @@
   authors:
   - mirjeta-pasha
   - lothar-reichel
+- title: 'IR Tools: a MATLAB package of iterative regularization methods and large-scale test
+    problems'
+  year: 2019
+  venue: Numer. Algorithms
+  authors:
+  - silvia-gazzola
+  - james-nagy
+  note: with P.C. Hansen
 - title: Inexact Arnoldi residual estimates and decay properties for functions of non-Hermitian
     matrices
   year: 2019
@@ -4223,6 +4593,13 @@
   authors:
   - eric-de-sturler
   - misha-kilmer
+- title: An inner-outer iterative method for edge preservation in image restoration and reconstruction
+  year: 2020
+  venue: Inverse Problems
+  authors:
+  - silvia-gazzola
+  - misha-kilmer
+  - james-nagy
 - title: 'Antibiotic Treatment Response in Chronic Lyme Disease: Why Do Some Patients Improve
     While Others Do Not?'
   year: 2020
@@ -4444,6 +4821,17 @@
   authors:
   - edmond-chow
   - jack-dongarra
+- title: Krylov Methods for Low-Rank Regularization
+  year: 2020
+  authors:
+  - silvia-gazzola
+  - james-nagy
+- title: 'Krylov methods for inverse problems: Surveying classical, and introducing new, algorithmic
+    approaches'
+  year: 2020
+  authors:
+  - silvia-gazzola
+  - malena-sabate-landman
 - title: Large-scale regression with non-convex loss and penalty
   year: 2020
   venue: Applied Numerical Mathematics
@@ -4575,6 +4963,11 @@
   authors:
   - elizaveta-rebrova
   - deanna-needell
+- title: On the cost of iterative computations
+  year: 2020
+  authors:
+  - erin-carson
+  - zdenek-strakos
 - title: Optimality Properties of Galerkin and Petrov–Galerkin Methods for Linear Matrix Equations
   year: 2020
   venue: Vietnam Journal of Mathematics
@@ -5117,6 +5510,12 @@
   authors:
   - kenneth-clarkson
   - lior-horesh
+- title: Iteratively reweighted FGMRES and FLSQR for sparse reconstruction
+  year: 2021
+  authors:
+  - silvia-gazzola
+  - james-nagy
+  - malena-sabate-landman
 - title: Learning a Latent Simplex in Input Sparsity Time
   year: 2021
   venue: ICLR
@@ -5262,6 +5661,12 @@
   authors:
   - anne-greenbaum
   - tyler-chen
+- title: On the block Lanczos and block Golub-Kahan reduction methods applied to discrete
+    ill-posed problems
+  year: 2021
+  authors:
+  - silvia-gazzola
+  - lothar-reichel
 - title: Overcomplete representation in a hierarchical Bayesian framework
   year: 2021
   venue: Inverse Problems and Imaging
@@ -5317,6 +5722,11 @@
   authors:
   - yuji-nakatsukasa
   - lloyd-trefethen
+- title: Regularization by inexact Krylov methods with applications to blind deblurring
+  year: 2021
+  authors:
+  - silvia-gazzola
+  - malena-sabate-landman
 - title: Scalable Semidefinite Programming
   year: 2021
   venue: SIAM J. Math. Data Sci.
@@ -5632,6 +6042,7 @@
   - julianne-chung
   - matthias-chung
   - mirjeta-pasha
+  - silvia-gazzola
 - title: Efficient randomized tensor-based algorithms for function approximation and low-rank
     kernel interactions
   year: 2022
@@ -5950,6 +6361,11 @@
   - ethan-epperly
   - joel-tropp
   - robert-webber
+- title: Realization and model reduction of dynamical systems
+  year: 2022
+  authors:
+  - christopher-beattie
+  - mark-embree
 - title: Rectangular eigenvalue problems
   year: 2022
   venue: Adv. Comput. Math.
@@ -6100,6 +6516,7 @@
   - arvind-saibaba
   - malena-espanol
   - eric-de-sturler
+  - silvia-gazzola
 - title: A spatially distributed model of brain metabolism highlights the role of diffusion
     in brain energy metabolism
   year: 2023
@@ -6299,6 +6716,11 @@
   authors:
   - daniela-calvetti
   - erkki-somersalo
+- title: Error estimation for random Fourier features
+  year: 2023
+  authors:
+  - benjamin-erichson
+  - miles-lopes
 - title: Fast Exact Leverage Score Sampling from Khatri-Rao Products with Applications to
     Tensor Decomposition
   year: 2023
@@ -6935,6 +7357,13 @@
   authors:
   - laura-grigori
   - grey-ballard
+- title: 'Computational methods for large-scale inverse problems: a survey on hybrid projection
+    methods'
+  year: 2024
+  venue: SIAM Review
+  authors:
+  - julianne-chung
+  - silvia-gazzola
 - title: Counting Triangles of Graphs via Matrix Partitioning
   year: 2024
   venue: MLSP
@@ -7438,6 +7867,13 @@
   authors:
   - petros-drineas
   - cameron-musco
+- title: Symmetric Pseudospectral Shattering and Fast Divide-and-Conquer for the Definite
+    Generalized Eigenvalue Problem
+  year: 2024
+  authors:
+  - james-demmel
+  - ioana-dumitriu
+  - ryan-schneider
 - title: Tensor Completion with BMD Factor Nuclear Norm Minimization
   year: 2024
   venue: arXiv (Cornell University)
@@ -7446,6 +7882,11 @@
   - fan-tian
   - mirjeta-pasha
   - misha-kilmer
+- title: The Akhiezer iteration
+  year: 2024
+  authors:
+  - thomas-trogdon
+  - heather-wilber
 - title: Theoretical Foundations of Good Simulation Practice
   year: 2024
   venue: Synthesis lectures on biomedical engineering
@@ -7461,6 +7902,13 @@
   - shashanka-ubaru
   - kenneth-clarkson
   - lior-horesh
+- title: Towards understanding CG and GMRES through examples
+  year: 2024
+  venue: Linear Algebra Appl.
+  authors:
+  - erin-carson
+  - jorg-liesen
+  - zdenek-strakos
 - title: Truncated LSQR for matrix least squares problems
   year: 2024
   venue: Computational Optimization and Applications
@@ -7614,6 +8062,11 @@
   - david-persson
   - raphael-meyer
   - christopher-musco
+- title: Alternating steepest descent methods for tensor completion with applications to spectromicroscopy
+  year: 2025
+  authors:
+  - silvia-gazzola
+  - misha-kilmer
 - title: Analysis of Randomized Householder-Cholesky QR factorization with multisketching
   year: 2025
   venue: Numerische Mathematik
@@ -7883,6 +8336,11 @@
   authors:
   - jorge-garza-vargas
   - nikhil-srivastava
+- title: 'H-CMRH: An inner product free hybrid Krylov method for large-scale inverse problems'
+  year: 2025
+  authors:
+  - malena-sabate-landman
+  - james-nagy
 - title: Improved Spectral Density Estimation via Explicit and Implicit Deflation
   year: 2025
   venue: SODA
@@ -7897,6 +8355,7 @@
   authors:
   - julianne-chung
   - malena-sabate-landman
+  - james-nagy
 - title: 'Interpolatory Dynamical Low-Rank Approximation: Theoretical Foundations and Algorithms'
   year: 2025
   venue: CoRR
@@ -8065,6 +8524,7 @@
   - lucas-onisk
   - mirjeta-pasha
   - lothar-reichel
+  - silvia-gazzola
 - title: Query Efficient Structured Matrix Learning
   year: 2025
   venue: CoRR
@@ -8104,6 +8564,11 @@
   authors:
   - jamie-haddock
   - deanna-needell
+- title: Randomized Krylov methods for inverse problems
+  year: 2025
+  authors:
+  - julianne-chung
+  - silvia-gazzola
 - title: Randomized Low-Rank Approximations beyond Gaussian Random Matrices
   year: 2025
   venue: SIAM Journal on Mathematics of Data Science
@@ -8157,6 +8622,7 @@
   authors:
   - malena-sabate-landman
   - julianne-chung
+  - james-nagy
 - title: Randomized biorthogonalization through a two-sided Gram-Schmidt process
   year: 2025
   venue: CoRR
@@ -8356,6 +8822,11 @@
   authors:
   - shashanka-ubaru
   - lior-horesh
+- title: 'TRIPs-Py: Techniques for regularization of inverse problems in python'
+  year: 2025
+  authors:
+  - mirjeta-pasha
+  - silvia-gazzola
 - title: TT-LSQR for tensor least squares problems and application to data mining
   year: 2025
   venue: Numerical Algorithms
@@ -8374,6 +8845,11 @@
   year: 2025
   venue: CoRR
   url: https://doi.org/10.48550/arXiv.2503.17496
+  authors:
+  - thomas-trogdon
+  - heather-wilber
+- title: The Akhiezer iteration and inverse-free solvers for Sylvester matrix equations
+  year: 2025
   authors:
   - thomas-trogdon
   - heather-wilber
@@ -8641,6 +9117,12 @@
   authors:
   - igor-simunec
   - michele-benzi
+- title: Fast and inverse-free algorithms for deflating subspaces
+  year: 2026
+  authors:
+  - james-demmel
+  - ioana-dumitriu
+  - ryan-schneider
 - title: Fast, High-Accuracy, Randomized Nullspace Computations for Tall Matrices
   year: 2026
   venue: CoRR
