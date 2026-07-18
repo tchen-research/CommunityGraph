@@ -334,6 +334,12 @@
   }
 
   // ---------- controls --------------------------------------------------------
+  // filled-progress styling for single sliders (CSS reads --fill)
+  const paintFill = (el) => {
+    const min = Number(el.min) || 0, max = Number(el.max) || 1;
+    el.style.setProperty("--fill", `${(100 * (el.value - min)) / (max - min || 1)}%`);
+  };
+
   const slidersDiv = document.getElementById("weight-sliders");
   DATA.factors.forEach((f) => {
     const row = document.createElement("div");
@@ -348,7 +354,10 @@
     input.min = 0; input.max = 1; input.step = 0.05;
     input.value = f.default_weight;
     const val = row.querySelector(".slider-value");
-    const paint = () => (val.textContent = Number(input.value).toFixed(2));
+    const paint = () => {
+      val.textContent = Number(input.value).toFixed(2);
+      paintFill(input);
+    };
     paint();
     input.addEventListener("input", () => {
       weights[f.id] = Number(input.value);
@@ -404,10 +413,12 @@
   if (!papers.length) document.getElementById("years-row").hidden = true;
 
   const thInput = document.getElementById("threshold");
+  paintFill(thInput);
   thInput.addEventListener("input", () => {
     threshold = Number(thInput.value);
     document.getElementById("threshold-value").textContent =
       `${Math.round(100 * threshold)}%`;
+    paintFill(thInput);
     update(false);
     sim.alpha(0.3).restart();
   });
@@ -524,6 +535,7 @@
   });
 
   function focusNode(n) {
+    sidebarEl.classList.remove("open"); // mobile sheet closes on selection
     select({ type: "node", d: n });
     const t = d3.zoomTransform(svg.node());
     const k = Math.max(t.k, 1);
@@ -661,6 +673,13 @@
       ${(l.links || []).length ? `<h3>References</h3><ul style="margin:4px 0;padding-left:18px">
         ${l.links.map((u) => `<li><a href="${esc(u)}" target="_blank" rel="noopener">${esc(u)}</a></li>`).join("")}</ul>` : ""}`;
   }
+
+  // ---------- mobile sidebar sheet --------------------------------------------
+  const sidebarEl = document.getElementById("sidebar");
+  document.getElementById("sidebar-open").addEventListener("click", () =>
+    sidebarEl.classList.add("open"));
+  document.getElementById("sidebar-close").addEventListener("click", () =>
+    sidebarEl.classList.remove("open"));
 
   // ---------- theme toggle ----------------------------------------------------
   const themeBtn = document.getElementById("theme-toggle");

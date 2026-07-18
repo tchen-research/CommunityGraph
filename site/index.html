@@ -26,6 +26,9 @@
   </header>
 
   <aside id="sidebar">
+    <div id="sidebar-close-row">
+      <button id="sidebar-close" class="ghost-btn">Done — show the graph</button>
+    </div>
     <section class="panel">
       <label class="panel-heading" for="search">Find a person</label>
       <input id="search" type="search" placeholder="Type a name…" autocomplete="off">
@@ -90,6 +93,7 @@
     <svg id="graph" role="img" aria-label="Force-directed graph of the research community"></svg>
     <div id="tooltip" hidden></div>
     <div id="zoom-hint" class="muted">scroll to zoom · drag background to pan · drag nodes to pin</div>
+    <button id="sidebar-open">Search &amp; filters</button>
   </main>
 
   <aside id="details" hidden>

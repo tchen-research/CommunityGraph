@@ -70,7 +70,7 @@ html, body {
 
 #layout {
   display: grid;
-  grid-template-columns: 300px 1fr;
+  grid-template-columns: 368px 1fr;
   grid-template-rows: auto 1fr;
   grid-template-areas: "topbar topbar" "sidebar graph";
   height: 100%;
@@ -160,7 +160,40 @@ details[open] > summary.panel-heading { margin-bottom: 8px; }
   color: var(--muted);
   font-size: 11.5px;
 }
-input[type="range"] { width: 100%; accent-color: var(--accent); margin: 2px 0 0; }
+/* single sliders share the dual-range look: 4px track, round accent thumb,
+   filled progress (via the --fill custom property set from JS) */
+input[type="range"]:not(.dual-range input) {
+  width: 100%;
+  height: 22px;
+  margin: 2px 0 0;
+  -webkit-appearance: none;
+  appearance: none;
+  background: none;
+}
+input[type="range"]:not(.dual-range input)::-webkit-slider-runnable-track {
+  height: 4px;
+  border-radius: 2px;
+  background: linear-gradient(to right,
+    var(--accent) var(--fill, 0%), var(--hairline) var(--fill, 0%));
+}
+input[type="range"]:not(.dual-range input)::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 14px; height: 14px; margin-top: -5px; border-radius: 50%;
+  background: var(--accent); border: 2px solid var(--surface-1);
+  box-shadow: 0 0 0 1px var(--border); cursor: pointer;
+}
+input[type="range"]:not(.dual-range input)::-moz-range-track {
+  height: 4px; border-radius: 2px; background: var(--hairline);
+}
+input[type="range"]:not(.dual-range input)::-moz-range-progress {
+  height: 4px; border-radius: 2px; background: var(--accent);
+}
+input[type="range"]:not(.dual-range input)::-moz-range-thumb {
+  width: 12px; height: 12px; border-radius: 50%;
+  background: var(--accent); border: 2px solid var(--surface-1);
+  box-shadow: 0 0 0 1px var(--border); cursor: pointer;
+}
 
 /* dual-thumb range: two overlaid inputs on one visual track */
 .dual-range { position: relative; height: 22px; margin-top: 2px; }
@@ -429,3 +462,69 @@ input[type="range"] { width: 100%; accent-color: var(--accent); margin: 2px 0 0;
 .factor-table td.num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
 .factor-table tr.zero td { color: var(--muted); }
 .factor-table tfoot td { font-weight: 650; border-bottom: 0; }
+
+/* ---- mobile (kept last so it overrides the desktop rules above) ---- */
+#sidebar-close-row { display: none; }
+#sidebar-open { display: none; }
+
+@media (max-width: 720px) {
+  #layout {
+    grid-template-columns: 1fr;
+    grid-template-areas: "topbar" "graph";
+  }
+  #subtitle, #stats, #zoom-hint { display: none; }
+  #topbar { padding: 10px 14px; }
+
+  /* sidebar becomes a full-screen slide-up sheet */
+  #sidebar {
+    position: fixed;
+    inset: 0;
+    z-index: 40;
+    border-right: 0;
+    transform: translateY(100%);
+    transition: transform 0.25s ease;
+    padding-bottom: 32px;
+  }
+  #sidebar.open { transform: translateY(0); }
+  #sidebar-close-row {
+    display: block;
+    position: sticky;
+    top: -14px;
+    margin: -14px -14px 0;
+    padding: 12px 14px;
+    background: var(--surface-1);
+    border-bottom: 1px solid var(--hairline);
+    z-index: 1;
+  }
+
+  #sidebar-open {
+    display: block;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 16px;
+    z-index: 30;
+    padding: 11px 20px;
+    border: 0;
+    border-radius: 999px;
+    background: var(--accent);
+    color: #fff;
+    font: inherit;
+    font-size: 14px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+  }
+
+  /* details panel becomes a bottom sheet, above the fab */
+  #details {
+    top: auto;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    width: auto;
+    max-height: 62%;
+    z-index: 35;
+  }
+  #topic-chips { max-height: none; }
+  #people-list { max-height: none; }
+}
