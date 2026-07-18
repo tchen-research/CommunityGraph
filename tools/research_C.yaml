@@ -1,0 +1,252 @@
+people:
+  - id: tyler-chen
+    website: "https://chen.pw/personal.html"
+    photo: "https://research.chen.pw/profile.jpg"
+    advising:
+      - {advisor: anne-greenbaum, student: tyler-chen, kind: phd}
+      - {advisor: thomas-trogdon, student: tyler-chen, kind: phd}
+      - {advisor: christopher-musco, student: tyler-chen, kind: postdoc}
+    papers:
+      - title: "Analysis of stochastic Lanczos quadrature for spectrum approximation"
+        year: 2021
+        venue: "ICML"
+        url: "http://proceedings.mlr.press/v139/chen21s.html"
+        authors: [tyler-chen, thomas-trogdon, shashanka-ubaru]
+      - title: "Predict-and-Recompute Conjugate Gradient Variants"
+        year: 2020
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/19M1276856"
+        authors: [tyler-chen, erin-carson]
+      - title: "Error Bounds for Lanczos-Based Matrix Function Approximation"
+        year: 2022
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/21m1427784"
+        authors: [tyler-chen, anne-greenbaum, cameron-musco, christopher-musco]
+      - title: "Nearly Optimal Approximation of Matrix Functions by the Lanczos Method"
+        year: 2024
+        venue: "NeurIPS"
+        url: "http://papers.nips.cc/paper_files/paper/2024/hash/fcc3dc27672a12510babe448d665e152-Abstract-Conference.html"
+        authors: [noah-amsel, tyler-chen, anne-greenbaum, cameron-musco, christopher-musco]
+      - title: "GMRES, pseudospectra, and Crouzeix's conjecture for shifted and scaled Ginibre matrices"
+        year: 2024
+        venue: "Math. Comput."
+        url: "https://doi.org/10.1090/mcom/3963"
+        authors: [tyler-chen, anne-greenbaum, thomas-trogdon]
+      - title: "Randomized Matrix-Free Quadrature: Unified and Uniform Bounds for Stochastic Lanczos Quadrature and the Kernel Polynomial Method"
+        year: 2025
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/23m1600414"
+        authors: [tyler-chen, thomas-trogdon, shashanka-ubaru]
+      - title: "Near-optimal hierarchical matrix approximation from matrix-vector products"
+        year: 2025
+        venue: "SODA"
+        url: "https://doi.org/10.1137/1.9781611978322.87"
+        authors: [tyler-chen, diana-halikias, cameron-musco, christopher-musco, david-persson]
+      - title: "Does block size matter in randomized block Krylov low-rank approximation?"
+        year: 2026
+        venue: "SODA"
+        url: "https://doi.org/10.1137/1.9781611978971.42"
+        authors: [tyler-chen, ethan-epperly, raphael-meyer, christopher-musco]
+      - title: "Fixed-Sparsity Matrix Approximation from Matrix-Vector Products"
+        year: 2026
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/25m1742710"
+        authors: [noah-amsel, tyler-chen, diana-halikias, cameron-musco, christopher-musco]
+      - title: "On the fast convergence of minibatch heavy ball momentum"
+        year: 2022
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2206.07553"
+        authors: [tyler-chen, rachel-ward]
+      - title: "Low-Memory Krylov Subspace Methods for Optimal Rational Matrix Function Approximation"
+        year: 2023
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/22m1479853"
+        authors: [tyler-chen, anne-greenbaum, cameron-musco, christopher-musco]
+      - title: "Optimal polynomial approximation to rational matrix functions using the Arnoldi algorithm"
+        year: 2025
+        venue: "Numer. Algorithms"
+        url: "https://doi.org/10.1007/s11075-025-02085-x"
+        authors: [tyler-chen, anne-greenbaum]
+
+  - id: christopher-musco
+    website: "https://www.chrismusco.com/"
+    photo: "https://www.chrismusco.com/wsv_image.jpg"
+    advising: []
+    papers:
+      - title: "Uniform Sampling for Matrix Approximation"
+        year: 2015
+        venue: "ITCS"
+        url: "https://doi.org/10.1145/2688073.2688113"
+        authors: [cameron-musco, christopher-musco, richard-peng, aaron-sidford]
+      - title: "A universal sampling method for reconstructing signals with simple Fourier transforms"
+        year: 2019
+        venue: "STOC"
+        url: "https://doi.org/10.1145/3313276.3316363"
+        authors: [haim-avron, cameron-musco, christopher-musco, michael-kapralov]
+      - title: "Near Optimal Linear Algebra in the Online and Sliding Window Models"
+        year: 2020
+        venue: "FOCS"
+        url: "https://doi.org/10.1109/FOCS46700.2020.00055"
+        authors: [cameron-musco, christopher-musco, david-woodruff]
+      - title: "Hutch++: Optimal Stochastic Trace Estimation"
+        year: 2021
+        venue: "SOSA"
+        url: "https://doi.org/10.1137/1.9781611976496.16"
+        authors: [raphael-meyer, cameron-musco, christopher-musco, david-woodruff]
+      - title: "Improved Active Learning via Dependent Leverage Score Sampling"
+        year: 2024
+        venue: "ICLR"
+        url: "https://openreview.net/forum?id=IYxDy2jDFL"
+        authors: [xiaoou-cheng, christopher-musco]
+      - title: "Faster Linear Systems and Matrix Norm Approximation via Multi-level Sketched Preconditioning"
+        year: 2025
+        venue: "SODA"
+        url: "https://doi.org/10.1137/1.9781611978322.62"
+        authors: [michal-derezinski, christopher-musco]
+      - title: "The Polar Express: Optimal Matrix Sign Methods and Their Application to the Muon Algorithm"
+        year: 2025
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2505.16932"
+        authors: [noah-amsel, david-persson, christopher-musco, robert-gower]
+      - title: "Spectral density estimation for normal matrices"
+        year: 2026
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2605.31430"
+        authors: [cameron-musco, christopher-musco, rikhav-shah, john-urschel]
+
+  - id: cameron-musco
+    website: "https://people.cs.umass.edu/~cmusco/"
+    photo: "https://people.cs.umass.edu/~cmusco/personal_site/images/head5.jpg"
+    advising: []
+    papers:
+      - title: "Randomized Block Krylov Methods for Stronger and Faster Approximate Singular Value Decomposition"
+        year: 2015
+        venue: "NIPS"
+        url: "https://proceedings.neurips.cc/paper/2015/hash/1efa39bcaec6f3900149160693694536-Abstract.html"
+        authors: [cameron-musco, christopher-musco]
+      - title: "Spectrum Approximation Beyond Fast Matrix Multiplication: Algorithms and Hardness"
+        year: 2018
+        venue: "ITCS"
+        url: "https://doi.org/10.4230/LIPIcs.ITCS.2018.8"
+        authors: [cameron-musco, aaron-sidford, shashanka-ubaru, david-woodruff]
+      - title: "Universal Matrix Sparsifiers and Fast Deterministic Algorithms for Linear Algebra"
+        year: 2024
+        venue: "ITCS"
+        url: "https://doi.org/10.4230/LIPIcs.ITCS.2024.13"
+        authors: [cameron-musco, sushant-sachdeva, david-woodruff]
+
+  - id: anne-greenbaum
+    website: "https://faculty.washington.edu/greenbau/"
+    photo: "https://amath.washington.edu/sites/amath/files/styles/portrait/public/photos/photo_on_1-10-22_at_11.50_am_1.jpeg?itok=JWvY2RYo"
+    advising:
+      - {advisor: anne-greenbaum, student: tyler-chen, kind: phd}
+    papers:
+      - title: "LAPACK Users' Guide, Third Edition"
+        year: 1999
+        venue: ""
+        url: "https://doi.org/10.1137/1.9780898719604"
+        authors: [zhaojun-bai, james-demmel, anne-greenbaum]
+      - title: "Any Nonincreasing Convergence Curve is Possible for GMRES"
+        year: 1996
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/S0895479894275030"
+        authors: [anne-greenbaum, zdenek-strakos]
+      - title: "Stable algorithms for general linear systems by preconditioning the normal equations"
+        year: 2025
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2502.17767"
+        authors: [anne-greenbaum]
+
+  - id: thomas-trogdon
+    website: "https://faculty.washington.edu/trogdon/"
+    photo: "https://faculty.washington.edu/trogdon/images/biopic.jpg"
+    advising:
+      - {advisor: thomas-trogdon, student: tyler-chen, kind: phd}
+    papers:
+      - title: "The Akhiezer iteration and an inverse-free solver for Sylvester matrix equations"
+        year: 2025
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2503.17496"
+        authors: [thomas-trogdon, heather-wilber]
+
+  - id: raphael-meyer
+    website: "https://ram900.com/"
+    photo: "https://ram900.com/assets/profile_2022.jpg"
+    advising:
+      - {advisor: christopher-musco, student: raphael-meyer, kind: phd}
+      - {advisor: michael-mahoney, student: raphael-meyer, kind: postdoc}
+      - {advisor: joel-tropp, student: raphael-meyer, kind: postdoc}
+    papers:
+      - title: "Algorithm-Agnostic Low-Rank Approximation of Operator Monotone Matrix Functions"
+        year: 2025
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/23m1619435"
+        authors: [david-persson, raphael-meyer, christopher-musco]
+      - title: "Hutchinson's Estimator is Bad at Kronecker-Trace-Estimation"
+        year: 2026
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/24m1720895"
+        authors: [raphael-meyer, haim-avron]
+      - title: "Linear algebra at exponential scale via tensor network dimension reduction"
+        year: 2026
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2606.15350"
+        authors: [chris-camano, ethan-epperly, raphael-meyer, joel-tropp]
+      - title: "The matrix-vector complexity of Ax=b"
+        year: 2026
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2602.04842"
+        authors: [michal-derezinski, ethan-epperly, raphael-meyer]
+      - title: "Understanding the Kronecker Matrix-Vector Complexity of Linear Algebra"
+        year: 2025
+        venue: "ICML"
+        url: "https://proceedings.mlr.press/v267/meyer25a.html"
+        authors: [raphael-meyer, david-woodruff]
+
+  - id: noah-amsel
+    website: "https://noahamsel.github.io/"
+    photo: "https://noahamsel.github.io/assets/img/IMG_2147_zoomed.jpg"
+    advising:
+      - {advisor: christopher-musco, student: noah-amsel, kind: phd}
+    papers:
+      - title: "Query Efficient Structured Matrix Learning"
+        year: 2025
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2507.19290"
+        authors: [noah-amsel, tyler-chen, cameron-musco, christopher-musco, david-persson]
+
+  - id: yousef-saad
+    website: "https://www-users.cse.umn.edu/~saad/"
+    photo: "https://cse.umn.edu/sites/cse.umn.edu/files/styles/webp_scaled/public/Saad_Yousef.jpg.webp?itok=RN_Lbzrf"
+    advising: []
+    papers:
+      - title: "Non-Hermitian Eigenvalue Problems"
+        year: 2000
+        venue: "Templates for the Solution of Algebraic Eigenvalue Problems"
+        url: "https://doi.org/10.1137/1.9780898719581.ch7"
+        authors: [james-demmel, ming-gu, yousef-saad, zhaojun-bai]
+      - title: "SMASH: Structured matrix approximation by separation and hierarchy"
+        year: 2018
+        venue: "Numer. Linear Algebra Appl."
+        url: "https://doi.org/10.1002/nla.2204"
+        authors: [edmond-chow, yousef-saad]
+      - title: "A rational approximation method for solving acoustic nonlinear eigenvalue problems"
+        year: 2019
+        venue: "CoRR"
+        url: "http://arxiv.org/abs/1906.03938"
+        authors: [agnieszka-miedlar, yousef-saad]
+      - title: "Randomized linear solvers for computational architectures with straggling workers"
+        year: 2024
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2407.01098"
+        authors: [lior-horesh, yousef-saad]
+      - title: "Design Criteria for SGD Preconditioners: Local Conditioning, Noise Floors, and Basin Stability"
+        year: 2026
+        venue: "Trans. Mach. Learn. Res."
+        url: "https://openreview.net/forum?id=vo8FOBt6f6"
+        authors: [mitchell-scott, yousef-saad]
+      - title: "Fast Estimation of tr(f(A)) via Stochastic Lanczos Quadrature"
+        year: 2017
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/16M1104974"
+        authors: [shashanka-ubaru, yousef-saad]

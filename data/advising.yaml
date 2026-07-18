@@ -48,3 +48,12 @@
 - {advisor: michael-mahoney, student: michal-derezinski, kind: postdoc}
 - {advisor: michael-mahoney, student: riley-murray, kind: postdoc}
 - {advisor: daniel-szyld, student: andrew-higgins, kind: phd}
+
+# --- added from the research agents (July 2026) ---
+- {advisor: james-demmel, student: riley-murray, kind: postdoc}
+- {advisor: jelani-nelson, student: rasmus-kyng, kind: postdoc}
+- {advisor: joel-tropp, student: raphael-meyer, kind: postdoc}
+- {advisor: michael-mahoney, student: fred-roosta, kind: postdoc}
+- {advisor: michael-mahoney, student: raphael-meyer, kind: postdoc}
+- {advisor: misha-kilmer, student: malena-espanol, kind: phd}
+- {advisor: misha-kilmer, student: mirjeta-pasha, kind: postdoc}

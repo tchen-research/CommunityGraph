@@ -26,6 +26,7 @@
   topics:
   - eigenvalue problems
   notes: Eigenvalue computations; co-organizer of the ICERM 2026 workshop.
+  website: https://miedlar.ku.edu/
 - id: aidan-mason-mackay
   name: Aidan Mason-Mackay
   affiliation: University of Eastern Finland
@@ -46,6 +47,8 @@
   - uncertainty quantification
   - sampling
   notes: Sampling methods for approximation and UQ.
+  website: https://www.sci.utah.edu/~akil/
+  photo: https://www.sci.utah.edu/~akil/media/me.jpg
 - id: alan-edelman
   name: Alan Edelman
   affiliation: Massachusetts Institute of Technology
@@ -54,6 +57,8 @@
   - random matrix theory
   - Julia
   notes: Random matrix theory; co-creator of Julia.
+  website: https://math.mit.edu/~edelman/
+  photo: https://math.mit.edu/~edelman/edelman.png
 - id: alberto-bucci
   name: Alberto Bucci
   affiliation: University of Edinburgh
@@ -67,6 +72,8 @@
   - spectral methods
   - operator learning
   notes: Why-are-matrices-low-rank theory; continuous analogues; operator learning.
+  website: https://alextownsend.net/
+  photo: https://alextownsend.net/images/headshots/AlexTownsend2.jpeg
 - id: alice-cortinovis
   name: Alice Cortinovis
   affiliation: University of Pisa
@@ -91,6 +98,8 @@
   name: Andrew Higgins
   affiliation: Sandia National Laboratories
   area: nla
+  website: https://sites.temple.edu/higgins/
+  photo: https://sites.temple.edu/higgins/files/2023/09/Higgins_Photo_Temple_Math-1024x1024.jpg
 - id: anna-ma
   name: Anna Ma
   affiliation: University of California Irvine
@@ -98,6 +107,8 @@
   topics:
   - stochastic iterative methods
   notes: Randomized Kaczmarz-type methods. Co-organizer of the ICERM 2026 workshop.
+  website: https://sites.google.com/view/annama
+  photo: https://scholar.googleusercontent.com/citations?view_op=view_photo&user=o4EFl3YAAAAJ&citpid=1
 - id: anna-yesypenko
   name: Anna Yesypenko
   affiliation: University of Texas at Austin
@@ -113,6 +124,8 @@
   - Krylov methods
   - finite precision
   notes: Foundational analysis of Krylov methods in finite precision arithmetic.
+  website: https://faculty.washington.edu/greenbau/
+  photo: https://amath.washington.edu/sites/amath/files/styles/portrait/public/photos/photo_on_1-10-22_at_11.50_am_1.jpeg?itok=JWvY2RYo
 - id: ansley-bentley
   name: Ansley Bentley
   affiliation: Emory University
@@ -125,6 +138,8 @@
   - randomized inverse problems
   notes: Randomized methods for inverse problems and model reduction. Co-organizer of the
     ICERM 2026 workshop.
+  website: https://asaibab.math.ncsu.edu/
+  photo: https://asaibab.math.ncsu.edu/img/profile.jpg
 - id: benjamin-carrel
   name: Benjamin Carrel
   affiliation: Paul Scherrer Institut
@@ -138,6 +153,8 @@
   - spectral methods
   notes: Randomized block Krylov methods, Hutch++, sublinear-time linear algebra. Brother
     of Christopher.
+  website: https://people.cs.umass.edu/~cmusco/
+  photo: https://people.cs.umass.edu/~cmusco/personal_site/images/head5.jpg
 - id: carlos-beltran
   name: Carlos Beltrán
   affiliation: Universidad de Cantabria
@@ -167,6 +184,8 @@
   - matvec query complexity
   notes: Randomized block Krylov methods, Hutch++, matrix-vector query complexity. Brother
     of Cameron.
+  website: https://www.chrismusco.com/
+  photo: https://www.chrismusco.com/wsv_image.jpg
 - id: cleve-moler
   name: Cleve Moler
   affiliation: MathWorks
@@ -193,6 +212,8 @@
   - Krylov methods
   - asynchronous iterations
   notes: Krylov convergence theory (long line with Simoncini); asynchronous methods.
+  website: https://faculty.cst.temple.edu/~szyld/
+  photo: https://faculty.cst.temple.edu/~szyld/jpg/Daniel.Luminy.Nov21.JPG
 - id: daniela-calvetti
   name: Daniela Calvetti
   affiliation: Case Western Reserve University
@@ -200,6 +221,8 @@
   topics:
   - Bayesian inverse problems
   notes: Bayesian scientific computing (books with Somersalo).
+  website: https://sites.google.com/case.edu/danielacalvetti/home
+  photo: https://artscimedia.case.edu/wp-content/uploads/2013/07/18081149/Calvetti001milnerCropped-1-scaled-e1697631131978.jpg
 - id: david-bindel
   name: David Bindel
   affiliation: Cornell University
@@ -226,6 +249,8 @@
   - lower bounds
   notes: Sketching-as-a-tool; Clarkson–Woodruff input-sparsity-time regression and low-rank
     approximation.
+  website: https://www.cs.cmu.edu/~dwoodruf/
+  photo: https://www.cs.cmu.edu/~dwoodruf/myPic.jpg
 - id: davide-palitta
   name: Davide Palitta
   affiliation: University of Bologna
@@ -233,6 +258,8 @@
   topics:
   - matrix equations
   notes: Matrix equations and large-scale Sylvester/Lyapunov solvers.
+  website: https://www.unibo.it/sitoweb/davide.palitta/en
+  photo: https://www.unibo.it/uniboweb/utils/UserImage.aspx?IdAnagrafica=652479&IdFoto=a04ea83d
 - id: deanna-needell
   name: Deanna Needell
   affiliation: University of California, Los Angeles
@@ -242,6 +269,8 @@
   - stochastic iterative methods
   - compressed sensing
   notes: Randomized Kaczmarz and stochastic iterative methods.
+  website: https://www.math.ucla.edu/~deanna/
+  photo: https://www.math.ucla.edu/~deanna/img/ucladn.png
 - id: diana-halikias
   name: Diana Halikias
   affiliation: New York University
@@ -266,6 +295,8 @@
   - frequent directions
   - streaming low-rank
   notes: Frequent Directions sketching; early randomized SVD work at Yale.
+  website: https://edoliberty.com/
+  photo: https://scholar.googleusercontent.com/citations?view_op=view_photo&user=QHS_pZAAAAAJ&citpid=1
 - id: elizabeth-newman
   name: Elizabeth Newman
   affiliation: Tufts University
@@ -274,6 +305,8 @@
   - tensor methods
   - scientific ML
   notes: t-product tensor frameworks for deep learning and imaging.
+  website: https://elizabethnewman.owlstown.net/
+  photo: https://spaces-cdn.owlstown.com/blobs/zsgkfn719agyhy9kwc5a5gcxcf7l
 - id: elizaveta-rebrova
   name: Elizaveta Rebrova
   affiliation: Princeton University
@@ -282,6 +315,8 @@
   - random matrices
   - iterative sketching
   notes: Random matrix theory and randomized iterative methods.
+  website: https://erebrova.github.io/
+  photo: https://erebrova.github.io/me-ofic-3-web-tall.jpg
 - id: emeric-battaglia
   name: Emeric Battaglia
   affiliation: University of California, Irvine
@@ -309,6 +344,8 @@
   topics:
   - Bayesian inverse problems
   notes: Bayesian scientific computing (books with Calvetti).
+  website: https://sites.google.com/case.edu/erkkisomersalo/home
+  photo: https://artscimedia.case.edu/wp-content/uploads/2013/07/03123113/01.jpg
 - id: ethan-epperly
   name: Ethan Epperly
   affiliation: California Institute of Technology
@@ -337,6 +374,8 @@
   topics:
   - sub-sampled Newton methods
   notes: Sub-sampled and sketched second-order optimization.
+  website: https://smp.uq.edu.au/profile/3598/fred-roosta
+  photo: https://smp.uq.edu.au/files/11757/18555.jpeg
 - id: george-turkiyyah
   name: George Turkiyyah
   affiliation: KAUST
@@ -400,6 +439,8 @@
   - leverage scores
   - probabilistic numerics
   notes: Numerical analysis of randomized algorithms; leverage scores and probabilistic bounds.
+  website: https://ipsen.math.ncsu.edu/
+  photo: https://math.sciences.ncsu.edu/wp-content/uploads/sites/458/2017/07/ipsen_2008.jpg
 - id: ioana-dumitriu
   name: Ioana Dumitriu
   affiliation: University of California, San Diego
@@ -408,6 +449,8 @@
   - random matrix theory
   - spectral algorithms
   notes: Matrix models for beta-ensembles; randomized spectral algorithms.
+  website: https://mathweb.ucsd.edu/~idumitriu/
+  photo: https://math.ucsd.edu/sites/math.ucsd.edu/files/2021-08/photo-ioana-dumitriu-small.jpeg
 - id: israa-fakih
   name: Israa Fakih
   affiliation: EPFL / Paul Scherrer Institut
@@ -419,6 +462,8 @@
   topics:
   - randomized iterative methods
   notes: Randomized Kaczmarz-type and iterative methods.
+  website: https://jackielok.github.io/
+  photo: https://jackielok.github.io/assets/images/me2.jpg
 - id: james-baglama
   name: James Baglama
   affiliation: University of Rhode Island
@@ -442,6 +487,8 @@
   topics:
   - Kaczmarz methods
   notes: Randomized Kaczmarz and iterative projection methods.
+  website: https://jamiehaddock.com/
+  photo: https://jamiehadd.github.io/images/jamie.jpg
 - id: jelani-nelson
   name: Jelani Nelson
   affiliation: University of California, Berkeley
@@ -450,6 +497,8 @@
   - sparse embeddings
   - streaming
   notes: OSNAP sparse subspace embeddings; streaming algorithms.
+  website: https://people.eecs.berkeley.edu/~minilek/
+  photo: https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Jelani_Nelson.jpg/250px-Jelani_Nelson.jpg
 - id: jessie-chen
   name: Jessie Chen
   affiliation: North Carolina State University
@@ -464,6 +513,8 @@
   - sketching
   notes: Matrix concentration inequalities; HMT randomized SVD survey; Acta Numerica 2020
     survey with Martinsson.
+  website: https://tropp.caltech.edu/
+  photo: https://tropp.caltech.edu/images/jat-headshot-web-2017.jpg
 - id: john-urschel
   name: John Urschel
   affiliation: Massachusetts Institute of Technology
@@ -472,6 +523,8 @@
   - matrix analysis
   - Lanczos theory
   notes: Matrix analysis and spectral graph theory; former NFL lineman.
+  website: https://math.mit.edu/~urschel/
+  photo: https://math.mit.edu/~urschel/photographs/mit.jpg
 - id: jorge-garza-vargas
   name: Jorge Garza-Vargas
   affiliation: University of California, Berkeley
@@ -495,6 +548,8 @@
   - inverse problems
   - hybrid regularization
   notes: Hybrid iterative regularization; randomized methods for inverse problems.
+  website: https://www.math.emory.edu/~jmchung/
+  photo: https://www.math.emory.edu/~jmchung/index_files/cos.jpg
 - id: julien-langou
   name: Julien Langou
   affiliation: University of Colorado Denver
@@ -541,6 +596,8 @@
   - sketching
   - input-sparsity algorithms
   notes: Clarkson–Woodruff sketching; foundational sketching algorithms.
+  website: https://research.ibm.com/people/ken-clarkson
+  photo: https://scholar.googleusercontent.com/citations?view_op=view_photo&user=F7ODi8QAAAAJ&citpid=1
 - id: kyle-monette
   name: Kyle Monette
   affiliation: University of Rhode Island
@@ -587,10 +644,14 @@
   - quadrature
   - SVD algorithms
   notes: Tikhonov regularization, Gauss quadrature, and IRLBA.
+  website: https://www.math.kent.edu/~reichel/
+  photo: https://www.math.kent.edu/~reichel/b.jpg
 - id: lucas-onisk
   name: Lucas Onisk
   affiliation: Emory University
   area: inverse
+  website: https://sites.google.com/view/lucas-onisk/home
+  photo: http://www.math.emory.edu/site/cmds-reuret/author/lucas-onisk/avatar_hu_230a0b2010639c35.jpg
 - id: madeleine-udell
   name: Madeleine Udell
   affiliation: Stanford University
@@ -603,6 +664,8 @@
   name: Malena Español
   affiliation: Arizona State University
   area: inverse
+  website: https://search.asu.edu/profile/3488212
+  photo: https://webapp4.asu.edu/photo-ws/directory_photo/mespanol?size=medium
 - id: malena-sabate-landman
   name: Malena Sabaté Landman
   affiliation: University of Bath
@@ -630,6 +693,8 @@
   - inverse problems
   - scientific ML
   notes: Computational inverse problems and learning-based regularization.
+  website: https://sites.google.com/view/matthias-chung/home
+  photo: https://sites.google.com/sitesv-images-rt/ACHe0d39DVut3tp0atUr4OYOZTEnvl5tulMLAGLzOMXM_CohsMmGRo8kHaH-aS0-DJmLmLbVL4NIs9sgXOgrVfJxUxCER0tjt0DUIMpV_IklAR1WgJKLQD3nzIhYnnIuDCCj_n2w7EGOFE-U98P2lAyQdVwiBGWqz2L3hjY8ahu_WMhxcFkxDhmOliHcFM5RAHZvSiWbWNXXll66jCTikAW27iQ-TJbRJifHheMQBZiRi88=w1280
 - id: matthieu-dolbeault
   name: Matthieu Dolbeault
   affiliation: RWTH Aachen
@@ -641,6 +706,8 @@
   topics:
   - sketching for optimization
   notes: Sketching for convex optimization; Newton sketch.
+  website: https://stanford.edu/~pilanci/
+  photo: https://stanford.edu/~pilanci/images/mpmp.jpg
 - id: michael-kapralov
   name: Michael Kapralov
   affiliation: EPFL
@@ -649,6 +716,8 @@
   - streaming
   - sketching
   notes: Streaming and sketching algorithms; spectral sparsification.
+  website: https://theory.epfl.ch/kapralov/
+  photo: https://theory.epfl.ch/kapralov/photo-upd.jpg
 - id: michael-mahoney
   name: Michael Mahoney
   affiliation: University of California, Berkeley
@@ -659,6 +728,8 @@
   - ML & scientific computing
   notes: One of the founders of RandNLA; leverage-score sampling, implicit regularization,
     and the RandLAPACK effort.
+  website: https://www.stat.berkeley.edu/~mmahoney/
+  photo: https://www.stat.berkeley.edu/~mmahoney/MWM_6150.jpeg
 - id: michal-derezinski
   name: Michał Dereziński
   affiliation: University of Michigan
@@ -668,6 +739,8 @@
   - sketching
   - stochastic optimization
   notes: DPPs in RandNLA; sketched second-order optimization.
+  website: https://eecs.engin.umich.edu/people/derezinski-michal/
+  photo: https://scholar.googleusercontent.com/citations?view_op=view_photo&user=qhP66JAAAAAJ&citpid=2
 - id: ming-gu
   name: Ming Gu
   affiliation: University of California, Berkeley
@@ -684,6 +757,8 @@
   - inverse problems
   - regularization
   notes: Computational inverse problems and Bayesian regularization.
+  website: https://sites.google.com/view/mirjeta-pasha/home
+  photo: https://www.math.vt.edu/content/math_vt_edu/en/people/faculty/pasha-mirjeta/_jcr_content/bio-image.transform/m-medium/image.jpg
 - id: misha-kilmer
   name: Misha Kilmer
   affiliation: Tufts University
@@ -692,6 +767,8 @@
   - tensor decompositions
   - inverse problems
   notes: t-product tensor framework; randomized methods for inverse problems.
+  website: https://math.tufts.edu/people/faculty/misha-kilmer
+  photo: https://math.tufts.edu/sites/g/files/lrezom266/files/styles/large/public/mkilme01.jpeg
 - id: mitchell-scott
   name: Mitchell Scott
   affiliation: Emory University
@@ -726,6 +803,8 @@
   - shifted QR
   notes: Kadison–Singer / interlacing families; pseudospectral shattering and shifted QR convergence.
     Co-organizer of the Banff 2023 workshop.
+  website: https://math.berkeley.edu/~nikhil/
+  photo: https://math.berkeley.edu/~nikhil/duckula3.jpg
 - id: nikita-kapur
   name: Nikita Kapur
   affiliation: University of Iowa
@@ -738,6 +817,8 @@
   - matrix functions
   - approximation theory
   notes: Near-optimal approximation of matrix functions; Krylov methods.
+  website: https://noahamsel.github.io/
+  photo: https://noahamsel.github.io/assets/img/IMG_2147_zoomed.jpg
 - id: olga-holtz
   name: Olga Holtz
   affiliation: University of California, Berkeley
@@ -768,6 +849,8 @@
   - rank-structured matrices
   notes: Co-author of the Halko–Martinsson–Tropp randomized SVD survey (SIREV 2011) and the
     Acta Numerica 2020 RandNLA survey.
+  website: https://users.oden.utexas.edu/~pgm/
+  photo: https://users.oden.utexas.edu/~pgm/Pics/mug6.png
 - id: peter-burgisser
   name: Peter Bürgisser
   affiliation: TU Berlin
@@ -782,6 +865,8 @@
   - RandNLA foundations
   notes: 'One of the founders of RandNLA: early Monte Carlo algorithms for matrix multiplication
     and CUR, and the 2016 CACM survey with Mahoney. Co-organizer of the ICERM 2026 workshop.'
+  website: https://www.cs.purdue.edu/homes/pdrineas/
+  photo: https://www.cs.purdue.edu/homes/pdrineas/images/PD_2022_v1.jpeg
 - id: polina-sachsenmaier
   name: Polina Sachsenmaier
   affiliation: RWTH Aachen University
@@ -803,6 +888,8 @@
   - trace estimation
   - matvec query complexity
   notes: Hutch++ and optimal trace estimation query complexity.
+  website: https://ram900.com/
+  photo: https://ram900.com/assets/profile_2022.jpg
 - id: rasmus-kyng
   name: Rasmus Kyng
   affiliation: ETH Zurich
@@ -818,6 +905,8 @@
   - sampling algorithms
   - spectral methods
   notes: Frieze–Kannan–Vempala sampling; foundational randomized matrix algorithms.
+  website: https://www.csa.iisc.ac.in/people/ravi-kannan/
+  photo: https://www.csa.iisc.ac.in/newweb/wp-content/uploads/2019/11/faculty-kannan-4.jpg
 - id: richard-peng
   name: Richard Peng
   affiliation: University of Waterloo
@@ -842,6 +931,8 @@
   topics:
   - RandNLA software
   notes: Leads the RandLAPACK / RandBLAS standardization effort.
+  website: https://rileyjmurray.com/
+  photo: https://rileyjmurray.com/assets/img/prof_pic.jpg
 - id: robert-gower
   name: Robert Gower
   affiliation: Flatiron Institute
@@ -850,6 +941,8 @@
   - stochastic optimization
   - sketch-and-project
   notes: Sketch-and-project framework; stochastic optimization.
+  website: https://gowerrobert.github.io/
+  photo: https://gowerrobert.github.io/img/pics/face_may_8_2026.jpg
 - id: robert-webber
   name: Robert Webber
   affiliation: University of California, San Diego
@@ -898,6 +991,8 @@
   - spectral methods
   notes: Randomized and spectral algorithms; solving sparse systems faster than matrix multiplication
     (with Peng).
+  website: https://faculty.cc.gatech.edu/~vempala/
+  photo: https://scholar.googleusercontent.com/citations?view_op=view_photo&user=hRggMmIAAAAJ&citpid=2
 - id: sascha-portaro
   name: Sascha Portaro
   affiliation: University of Bologna
@@ -968,6 +1063,8 @@
   - subspace embeddings
   - fast JL
   notes: The 2006 subspace-embedding paper that unlocked fast randomized regression.
+  website: https://sites.google.com/site/stamas/
+  photo: https://scholar.googleusercontent.com/citations?view_op=view_photo&user=c4YtO-MAAAAJ&citpid=1
 - id: tao-hong
   name: Tao Hong
   affiliation: University of Texas at Austin
@@ -980,6 +1077,8 @@
   - random matrices
   - universality
   notes: Random matrix theory and universality in the runtime of numerical algorithms.
+  website: https://faculty.washington.edu/trogdon/
+  photo: https://faculty.washington.edu/trogdon/images/biopic.jpg
 - id: theo-mary
   name: Théo Mary
   affiliation: CNRS
@@ -1002,6 +1101,8 @@
   - matrix functions
   notes: Lanczos-based methods for matrix functions and trace estimation; finite precision
     behavior of Krylov methods.
+  website: https://chen.pw/personal.html
+  photo: https://research.chen.pw/profile.jpg
 - id: valeria-simoncini
   name: Valeria Simoncini
   affiliation: University of Bologna
@@ -1010,6 +1111,8 @@
   - matrix equations
   - Krylov methods
   notes: Matrix equations and Krylov convergence theory. Co-organizer of the ICERM 2026 workshop.
+  website: https://www.dm.unibo.it/~simoncin/
+  photo: https://www.unibo.it/uniboweb/utils/UserImage.aspx?IdAnagrafica=231378&IdFoto=75e6c008
 - id: vasilije-perovic
   name: Vasilije Perovic
   affiliation: University of Rhode Island
@@ -1075,6 +1178,8 @@
   - preconditioning
   - spectrum estimation
   notes: Krylov subspace methods; stochastic spectrum estimation line with Ubaru.
+  website: https://www-users.cse.umn.edu/~saad/
+  photo: https://cse.umn.edu/sites/cse.umn.edu/files/styles/webp_scaled/public/Saad_Yousef.jpg.webp?itok=RN_Lbzrf
 - id: yuji-nakatsukasa
   name: Yuji Nakatsukasa
   affiliation: University of Oxford
@@ -1085,6 +1190,8 @@
   - rational approximation
   notes: Eigenvalue algorithms; fast randomized methods for linear systems, eigenproblems,
     and low-rank approximation.
+  website: https://people.maths.ox.ac.uk/nakatsukasa/
+  photo: https://people.maths.ox.ac.uk/nakatsukasa/IMG.jpg
 - id: yunhui-he
   name: Yunhui He
   affiliation: University of Houston
