@@ -626,11 +626,6 @@ people:
         venue: "CoRR"
         url: "http://arxiv.org/abs/0811.3648"
         authors: [jelani-nelson, david-woodruff]
-      - title: "A Near-Optimal Algorithm for L1-Difference"
-        year: 2009
-        venue: "CoRR"
-        url: "http://arxiv.org/abs/0904.2027"
-        authors: [jelani-nelson, david-woodruff]
       - title: "Numerical linear algebra in the streaming model"
         year: 2009
         venue: "STOC"
@@ -726,11 +721,6 @@ people:
         venue: "NII Shonan Meet. Rep."
         url: "https://shonan.nii.ac.jp/seminars/080/"
         authors: [ravindran-kannan, michael-mahoney, david-woodruff]
-      - title: "Sharper Bounds for Regression and Low-Rank Approximation with Regularization"
-        year: 2016
-        venue: "CoRR"
-        url: "http://arxiv.org/abs/1611.03225"
-        authors: [haim-avron, kenneth-clarkson, david-woodruff]
       - title: "The Fast Cauchy Transform and Faster Robust Linear Regression"
         year: 2016
         venue: "SIAM J. Comput."
@@ -841,11 +831,6 @@ people:
         venue: "APPROX-RANDOM"
         url: "https://doi.org/10.4230/LIPIcs.APPROX/RANDOM.2020.64"
         authors: [ainesh-bakshi, david-woodruff]
-      - title: "Active Sampling for Linear Regression Beyond the ℓ2 Norm"
-        year: 2021
-        venue: "CoRR"
-        url: "https://arxiv.org/abs/2111.04888"
-        authors: [cameron-musco, christopher-musco, david-woodruff]
       - title: "Hutch++: Optimal Stochastic Trace Estimation"
         year: 2021
         venue: "SOSA"
@@ -993,11 +978,6 @@ people:
         venue: "SODA"
         url: "https://doi.org/10.1137/1.9781611973730.63"
         authors: [kenneth-clarkson, david-woodruff]
-      - title: "Sharper Bounds for Regression and Low-Rank Approximation with Regularization"
-        year: 2016
-        venue: "CoRR"
-        url: "http://arxiv.org/abs/1611.03225"
-        authors: [haim-avron, kenneth-clarkson, david-woodruff]
       - title: "The Fast Cauchy Transform and Faster Robust Linear Regression"
         year: 2016
         venue: "SIAM J. Comput."
@@ -1068,11 +1048,6 @@ people:
         venue: "ICML"
         url: "https://proceedings.mlr.press/v162/chepurko22a.html"
         authors: [kenneth-clarkson, lior-horesh, david-woodruff]
-      - title: "Towards Quantum Advantage on Noisy Quantum Computers"
-        year: 2022
-        venue: "CoRR"
-        url: "https://doi.org/10.48550/arXiv.2209.09371"
-        authors: [shashanka-ubaru, kenneth-clarkson, lior-horesh]
       - title: "Capacity Analysis of Vector Symbolic Architectures"
         year: 2023
         venue: "CoRR"
@@ -1215,11 +1190,6 @@ people:
         venue: "COLT"
         url: "http://proceedings.mlr.press/v35/kannan14.html"
         authors: [ravindran-kannan, santosh-vempala, david-woodruff]
-      - title: "Beyond Spectral: Tight Bounds for Planted Gaussians"
-        year: 2016
-        venue: "CoRR"
-        url: "http://arxiv.org/abs/1608.03643"
-        authors: [ravindran-kannan, santosh-vempala]
       - title: "Recent Advances in Randomized Numerical Linear Algebra (NII Shonan Meeting 2016-10)"
         year: 2016
         venue: "NII Shonan Meet. Rep."
@@ -1332,11 +1302,6 @@ people:
         venue: "COLT"
         url: "http://proceedings.mlr.press/v35/kannan14.html"
         authors: [ravindran-kannan, santosh-vempala, david-woodruff]
-      - title: "Beyond Spectral: Tight Bounds for Planted Gaussians"
-        year: 2016
-        venue: "CoRR"
-        url: "http://arxiv.org/abs/1608.03643"
-        authors: [ravindran-kannan, santosh-vempala]
       - title: "Adaptive Matrix Vector Product"
         year: 2017
         venue: "SODA"
@@ -1689,11 +1654,6 @@ people:
         venue: "CoRR"
         url: "http://arxiv.org/abs/0811.3648"
         authors: [jelani-nelson, david-woodruff]
-      - title: "A Near-Optimal Algorithm for L1-Difference"
-        year: 2009
-        venue: "CoRR"
-        url: "http://arxiv.org/abs/0904.2027"
-        authors: [jelani-nelson, david-woodruff]
       - title: "An optimal algorithm for the distinct elements problem"
         year: 2010
         venue: "PODS"
@@ -1917,11 +1877,6 @@ people:
         authors: [michael-kapralov, cameron-musco]
   - id: aaron-sidford
     papers:
-      - title: "Robust Shift-and-Invert Preconditioning: Faster and More Sample Efficient Algorithms for Eigenvector Computation"
-        year: 2015
-        venue: "CoRR"
-        url: "http://arxiv.org/abs/1510.08896"
-        authors: [cameron-musco, aaron-sidford]
       - title: "Uniform Sampling for Matrix Approximation"
         year: 2015
         venue: "ITCS"

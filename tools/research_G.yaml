@@ -1,0 +1,2967 @@
+people:
+  - id: tyler-chen
+    papers:
+      - title: "Fixed-Sparsity Matrix Approximation from Matrix-Vector Products"
+        year: 2026
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/25m1742710"
+        authors: [noah-amsel, tyler-chen, diana-halikias, cameron-musco, christopher-musco]
+        note: "pair has 47+ joint papers; representative subset"
+      - title: "Quasi-optimal Hierarchically Semi-separable Matrix Approximation"
+        year: 2026
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/25m176622x"
+        authors: [noah-amsel, tyler-chen, diana-halikias, cameron-musco, christopher-musco, david-persson]
+      - title: "Does block size matter in randomized block Krylov low-rank approximation?"
+        year: 2026
+        venue: "SODA"
+        url: "https://doi.org/10.1137/1.9781611978971.42"
+        authors: [tyler-chen, ethan-epperly, raphael-meyer, christopher-musco]
+      - title: "Optimal polynomial approximation to rational matrix functions using the Arnoldi algorithm"
+        year: 2025
+        venue: "Numer. Algorithms"
+        url: "https://doi.org/10.1007/s11075-025-02085-x"
+        authors: [tyler-chen, anne-greenbaum]
+      - title: "Randomized Matrix-Free Quadrature: Unified and Uniform Bounds for Stochastic Lanczos Quadrature and the Kernel Polynomial Method"
+        year: 2025
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/23m1600414"
+        authors: [tyler-chen, thomas-trogdon, shashanka-ubaru]
+      - title: "Near-optimal hierarchical matrix approximation from matrix-vector products"
+        year: 2025
+        venue: "SODA"
+        url: "https://doi.org/10.1137/1.9781611978322.87"
+        authors: [tyler-chen, diana-halikias, cameron-musco, christopher-musco, david-persson]
+      - title: "Randomized block-Krylov subspace methods for low-rank approximation of matrix functions"
+        year: 2025
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2502.01888"
+        authors: [david-persson, tyler-chen, christopher-musco]
+      - title: "Query Efficient Structured Matrix Learning"
+        year: 2025
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2507.19290"
+        authors: [noah-amsel, tyler-chen, cameron-musco, christopher-musco, david-persson]
+      - title: "GMRES, pseudospectra, and Crouzeix's conjecture for shifted and scaled Ginibre matrices"
+        year: 2024
+        venue: "Math. Comput."
+        url: "https://doi.org/10.1090/mcom/3963"
+        authors: [tyler-chen, anne-greenbaum, thomas-trogdon]
+      - title: "Nearly Optimal Approximation of Matrix Functions by the Lanczos Method"
+        year: 2024
+        venue: "NeurIPS"
+        url: "http://papers.nips.cc/paper_files/paper/2024/hash/fcc3dc27672a12510babe448d665e152-Abstract-Conference.html"
+        authors: [noah-amsel, tyler-chen, anne-greenbaum, cameron-musco, christopher-musco]
+      - title: "Low-Memory Krylov Subspace Methods for Optimal Rational Matrix Function Approximation"
+        year: 2023
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/22m1479853"
+        authors: [tyler-chen, anne-greenbaum, cameron-musco, christopher-musco]
+      - title: "Stability of the Lanczos algorithm on matrices with regular spectral distributions"
+        year: 2023
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2302.14842"
+        authors: [tyler-chen, thomas-trogdon]
+      - title: "Near-Optimality Guarantees for Approximating Rational Matrix Functions by the Lanczos Method"
+        year: 2023
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2303.03358"
+        authors: [noah-amsel, tyler-chen, anne-greenbaum, cameron-musco, christopher-musco]
+      - title: "Error Bounds for Lanczos-Based Matrix Function Approximation"
+        year: 2022
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/21m1427784"
+        authors: [tyler-chen, anne-greenbaum, cameron-musco, christopher-musco]
+      - title: "Randomized matrix-free quadrature for spectrum and spectral sum approximation"
+        year: 2022
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2204.01941"
+        authors: [tyler-chen, thomas-trogdon, shashanka-ubaru]
+      - title: "On the fast convergence of minibatch heavy ball momentum"
+        year: 2022
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2206.07553"
+        authors: [tyler-chen, rachel-ward]
+      - title: "On the Convergence Rate of Variants of the Conjugate Gradient Algorithm in Finite Precision Arithmetic"
+        year: 2021
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/20M1346249"
+        authors: [anne-greenbaum, tyler-chen]
+      - title: "Analysis of stochastic Lanczos quadrature for spectrum approximation"
+        year: 2021
+        venue: "ICML"
+        url: "http://proceedings.mlr.press/v139/chen21s.html"
+        authors: [tyler-chen, thomas-trogdon, shashanka-ubaru]
+      - title: "Predict-and-Recompute Conjugate Gradient Variants"
+        year: 2020
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/19M1276856"
+        authors: [tyler-chen, erin-carson]
+  - id: christopher-musco
+    papers:
+      - title: "Fixed-Sparsity Matrix Approximation from Matrix-Vector Products"
+        year: 2026
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/25m1742710"
+        authors: [noah-amsel, tyler-chen, diana-halikias, cameron-musco, christopher-musco]
+        note: "pair has 47+ joint papers; representative subset"
+      - title: "Quasi-optimal Hierarchically Semi-separable Matrix Approximation"
+        year: 2026
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/25m176622x"
+        authors: [noah-amsel, tyler-chen, diana-halikias, cameron-musco, christopher-musco, david-persson]
+      - title: "Does block size matter in randomized block Krylov low-rank approximation?"
+        year: 2026
+        venue: "SODA"
+        url: "https://doi.org/10.1137/1.9781611978971.42"
+        authors: [tyler-chen, ethan-epperly, raphael-meyer, christopher-musco]
+      - title: "Spectral density estimation for normal matrices"
+        year: 2026
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2605.31430"
+        authors: [cameron-musco, christopher-musco, rikhav-shah, john-urschel]
+      - title: "Algorithm-Agnostic Low-Rank Approximation of Operator Monotone Matrix Functions"
+        year: 2025
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/23m1619435"
+        authors: [david-persson, raphael-meyer, christopher-musco]
+      - title: "Faster Linear Systems and Matrix Norm Approximation via Multi-level Sketched Preconditioning"
+        year: 2025
+        venue: "SODA"
+        url: "https://doi.org/10.1137/1.9781611978322.62"
+        authors: [michal-derezinski, christopher-musco]
+      - title: "Near-optimal hierarchical matrix approximation from matrix-vector products"
+        year: 2025
+        venue: "SODA"
+        url: "https://doi.org/10.1137/1.9781611978322.87"
+        authors: [tyler-chen, diana-halikias, cameron-musco, christopher-musco, david-persson]
+      - title: "Randomized block-Krylov subspace methods for low-rank approximation of matrix functions"
+        year: 2025
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2502.01888"
+        authors: [david-persson, tyler-chen, christopher-musco]
+      - title: "The Polar Express: Optimal Matrix Sign Methods and Their Application to the Muon Algorithm"
+        year: 2025
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2505.16932"
+        authors: [noah-amsel, david-persson, christopher-musco, robert-gower]
+      - title: "Query Efficient Structured Matrix Learning"
+        year: 2025
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2507.19290"
+        authors: [noah-amsel, tyler-chen, cameron-musco, christopher-musco, david-persson]
+      - title: "Faster Spectral Density Estimation and Sparsification in the Nuclear Norm (Extended Abstract)"
+        year: 2024
+        venue: "COLT"
+        url: "https://proceedings.mlr.press/v247/jin24a.html"
+        authors: [christopher-musco, aaron-sidford]
+      - title: "Improved Active Learning via Dependent Leverage Score Sampling"
+        year: 2024
+        venue: "ICLR"
+        url: "https://openreview.net/forum?id=IYxDy2jDFL"
+        authors: [xiaoou-cheng, christopher-musco]
+      - title: "Nearly Optimal Approximation of Matrix Functions by the Lanczos Method"
+        year: 2024
+        venue: "NeurIPS"
+        url: "http://papers.nips.cc/paper_files/paper/2024/hash/fcc3dc27672a12510babe448d665e152-Abstract-Conference.html"
+        authors: [noah-amsel, tyler-chen, anne-greenbaum, cameron-musco, christopher-musco]
+      - title: "On the Unreasonable Effectiveness of Single Vector Krylov Methods for Low-Rank Approximation"
+        year: 2024
+        venue: "SODA"
+        url: "https://doi.org/10.1137/1.9781611977912.32"
+        authors: [raphael-meyer, cameron-musco, christopher-musco]
+      - title: "Faster Spectral Density Estimation and Sparsification in the Nuclear Norm"
+        year: 2024
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2406.07521"
+        authors: [christopher-musco, aaron-sidford]
+      - title: "Low-Memory Krylov Subspace Methods for Optimal Rational Matrix Function Approximation"
+        year: 2023
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/22m1479853"
+        authors: [tyler-chen, anne-greenbaum, cameron-musco, christopher-musco]
+      - title: "Moments, Random Walks, and Limits for Spectrum Approximation"
+        year: 2023
+        venue: "COLT"
+        url: "https://proceedings.mlr.press/v195/jin23a.html"
+        authors: [christopher-musco, aaron-sidford]
+      - title: "Structured Semidefinite Programming for Recovering Structured Preconditioners"
+        year: 2023
+        venue: "NeurIPS"
+        url: "http://papers.nips.cc/paper_files/paper/2023/hash/36ce475705c1dc6c50a5956cedff3d01-Abstract-Conference.html"
+        authors: [christopher-musco, aaron-sidford]
+      - title: "Near-Linear Sample Complexity for Lp Polynomial Regression"
+        year: 2023
+        venue: "SODA"
+        url: "https://doi.org/10.1137/1.9781611977554.ch153"
+        authors: [raphael-meyer, cameron-musco, christopher-musco, david-woodruff]
+      - title: "Near-Optimality Guarantees for Approximating Rational Matrix Functions by the Lanczos Method"
+        year: 2023
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2303.03358"
+        authors: [noah-amsel, tyler-chen, anne-greenbaum, cameron-musco, christopher-musco]
+      - title: "Error Bounds for Lanczos-Based Matrix Function Approximation"
+        year: 2022
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/21m1427784"
+        authors: [tyler-chen, anne-greenbaum, cameron-musco, christopher-musco]
+      - title: "Active Linear Regression for ℓp Norms and Beyond"
+        year: 2022
+        venue: "FOCS"
+        url: "https://doi.org/10.1109/FOCS54457.2022.00076"
+        authors: [cameron-musco, christopher-musco, david-woodruff]
+      - title: "Fast Regression for Structured Inputs"
+        year: 2022
+        venue: "ICLR"
+        url: "https://openreview.net/forum?id=gNp54NxHUPJ"
+        authors: [raphael-meyer, cameron-musco, christopher-musco, david-woodruff]
+      - title: "Simple Heuristics Yield Provable Algorithms for Masked Low-Rank Approximation"
+        year: 2021
+        venue: "ITCS"
+        url: "https://doi.org/10.4230/LIPIcs.ITCS.2021.6"
+        authors: [cameron-musco, christopher-musco, david-woodruff]
+      - title: "Hutch++: Optimal Stochastic Trace Estimation"
+        year: 2021
+        venue: "SOSA"
+        url: "https://doi.org/10.1137/1.9781611976496.16"
+        authors: [raphael-meyer, cameron-musco, christopher-musco, david-woodruff]
+      - title: "Active Sampling for Linear Regression Beyond the $\\ell_2$ Norm"
+        year: 2021
+        venue: "CoRR"
+        url: "https://arxiv.org/abs/2111.04888"
+        authors: [cameron-musco, christopher-musco, david-woodruff]
+      - title: "Near Optimal Linear Algebra in the Online and Sliding Window Models"
+        year: 2020
+        venue: "FOCS"
+        url: "https://doi.org/10.1109/FOCS46700.2020.00055"
+        authors: [petros-drineas, cameron-musco, christopher-musco, david-woodruff]
+      - title: "The Statistical Cost of Robust Kernel Hyperparameter Turning"
+        year: 2020
+        venue: "NeurIPS"
+        url: "https://proceedings.neurips.cc/paper/2020/hash/f4661398cb1a3abd3ffe58600bf11322-Abstract.html"
+        authors: [raphael-meyer, christopher-musco]
+      - title: "Fast and Space Efficient Spectral Sparsification in Dynamic Streams"
+        year: 2020
+        venue: "SODA"
+        url: "https://doi.org/10.1137/1.9781611975994.111"
+        authors: [michael-kapralov, cameron-musco, christopher-musco, aaron-sidford]
+      - title: "The Statistical Cost of Robust Kernel Hyperparameter Tuning"
+        year: 2020
+        venue: "CoRR"
+        url: "https://arxiv.org/abs/2006.08035"
+        authors: [raphael-meyer, christopher-musco]
+      - title: "A universal sampling method for reconstructing signals with simple Fourier transforms"
+        year: 2019
+        venue: "STOC"
+        url: "https://doi.org/10.1145/3313276.3316363"
+        authors: [haim-avron, michael-kapralov, cameron-musco, christopher-musco]
+      - title: "Faster Spectral Sparsification in Dynamic Streams"
+        year: 2019
+        venue: "CoRR"
+        url: "http://arxiv.org/abs/1903.12165"
+        authors: [michael-kapralov, cameron-musco, christopher-musco]
+      - title: "Low-Rank Approximation from Communication Complexity"
+        year: 2019
+        venue: "CoRR"
+        url: "http://arxiv.org/abs/1904.09841"
+        authors: [cameron-musco, christopher-musco, david-woodruff]
+      - title: "Stability of the Lanczos Method for Matrix Function Approximation"
+        year: 2018
+        venue: "SODA"
+        url: "https://doi.org/10.1137/1.9781611975031.105"
+        authors: [cameron-musco, christopher-musco, aaron-sidford]
+      - title: "Random Fourier Features for Kernel Ridge Regression: Approximation Bounds and Statistical Guarantees"
+        year: 2017
+        venue: "ICML"
+        url: "http://proceedings.mlr.press/v70/avron17a.html"
+        authors: [haim-avron, michael-kapralov, cameron-musco, christopher-musco]
+      - title: "Single Pass Spectral Sparsification in Dynamic Streams"
+        year: 2017
+        venue: "SIAM J. Comput."
+        url: "https://doi.org/10.1137/141002281"
+        authors: [michael-kapralov, cameron-musco, christopher-musco, aaron-sidford]
+      - title: "Principal Component Projection Without Principal Component Analysis"
+        year: 2016
+        venue: "ICML"
+        url: "http://proceedings.mlr.press/v48/frostig16.html"
+        authors: [cameron-musco, christopher-musco, aaron-sidford]
+      - title: "Uniform Sampling for Matrix Approximation"
+        year: 2015
+        venue: "ITCS"
+        url: "https://doi.org/10.1145/2688073.2688113"
+        authors: [cameron-musco, christopher-musco, richard-peng, aaron-sidford]
+  - id: cameron-musco
+    papers:
+      - title: "Fixed-Sparsity Matrix Approximation from Matrix-Vector Products"
+        year: 2026
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/25m1742710"
+        authors: [noah-amsel, tyler-chen, diana-halikias, cameron-musco, christopher-musco]
+        note: "pair has 47+ joint papers; representative subset"
+      - title: "Quasi-optimal Hierarchically Semi-separable Matrix Approximation"
+        year: 2026
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/25m176622x"
+        authors: [noah-amsel, tyler-chen, diana-halikias, cameron-musco, christopher-musco, david-persson]
+      - title: "Sublinear Time Low-Rank Approximation of Hankel Matrices"
+        year: 2026
+        venue: "SODA"
+        url: "https://doi.org/10.1137/1.9781611978971.117"
+        authors: [michael-kapralov, cameron-musco]
+      - title: "Spectral density estimation for normal matrices"
+        year: 2026
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2605.31430"
+        authors: [cameron-musco, christopher-musco, rikhav-shah, john-urschel]
+      - title: "Near-optimal hierarchical matrix approximation from matrix-vector products"
+        year: 2025
+        venue: "SODA"
+        url: "https://doi.org/10.1137/1.9781611978322.87"
+        authors: [tyler-chen, diana-halikias, cameron-musco, christopher-musco, david-persson]
+      - title: "Query Efficient Structured Matrix Learning"
+        year: 2025
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2507.19290"
+        authors: [noah-amsel, tyler-chen, cameron-musco, christopher-musco, david-persson]
+      - title: "Sublinear Time Eigenvalue Approximation via Random Sampling"
+        year: 2024
+        venue: "Algorithmica"
+        url: "https://doi.org/10.1007/s00453-024-01208-5"
+        authors: [petros-drineas, cameron-musco]
+      - title: "Universal Matrix Sparsifiers and Fast Deterministic Algorithms for Linear Algebra"
+        year: 2024
+        venue: "ITCS"
+        url: "https://doi.org/10.4230/LIPIcs.ITCS.2024.13"
+        authors: [cameron-musco, sushant-sachdeva, david-woodruff]
+      - title: "Nearly Optimal Approximation of Matrix Functions by the Lanczos Method"
+        year: 2024
+        venue: "NeurIPS"
+        url: "http://papers.nips.cc/paper_files/paper/2024/hash/fcc3dc27672a12510babe448d665e152-Abstract-Conference.html"
+        authors: [noah-amsel, tyler-chen, anne-greenbaum, cameron-musco, christopher-musco]
+      - title: "On the Unreasonable Effectiveness of Single Vector Krylov Methods for Low-Rank Approximation"
+        year: 2024
+        venue: "SODA"
+        url: "https://doi.org/10.1137/1.9781611977912.32"
+        authors: [raphael-meyer, cameron-musco, christopher-musco]
+      - title: "Low-Memory Krylov Subspace Methods for Optimal Rational Matrix Function Approximation"
+        year: 2023
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/22m1479853"
+        authors: [tyler-chen, anne-greenbaum, cameron-musco, christopher-musco]
+      - title: "Optimal Sketching Bounds for Sparse Linear Regression"
+        year: 2023
+        venue: "AISTATS"
+        url: "https://proceedings.mlr.press/v206/mai23a.html"
+        authors: [cameron-musco, david-woodruff]
+      - title: "Near-Linear Sample Complexity for Lp Polynomial Regression"
+        year: 2023
+        venue: "SODA"
+        url: "https://doi.org/10.1137/1.9781611977554.ch153"
+        authors: [raphael-meyer, cameron-musco, christopher-musco, david-woodruff]
+      - title: "Toeplitz Low-Rank Approximation with Sublinear Query Complexity"
+        year: 2023
+        venue: "SODA"
+        url: "https://doi.org/10.1137/1.9781611977554.ch159"
+        authors: [michael-kapralov, cameron-musco]
+      - title: "Near-Optimality Guarantees for Approximating Rational Matrix Functions by the Lanczos Method"
+        year: 2023
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2303.03358"
+        authors: [noah-amsel, tyler-chen, anne-greenbaum, cameron-musco, christopher-musco]
+      - title: "Error Bounds for Lanczos-Based Matrix Function Approximation"
+        year: 2022
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/21m1427784"
+        authors: [tyler-chen, anne-greenbaum, cameron-musco, christopher-musco]
+      - title: "Active Linear Regression for ℓp Norms and Beyond"
+        year: 2022
+        venue: "FOCS"
+        url: "https://doi.org/10.1109/FOCS54457.2022.00076"
+        authors: [cameron-musco, christopher-musco, david-woodruff]
+      - title: "Fast Regression for Structured Inputs"
+        year: 2022
+        venue: "ICLR"
+        url: "https://openreview.net/forum?id=gNp54NxHUPJ"
+        authors: [raphael-meyer, cameron-musco, christopher-musco, david-woodruff]
+      - title: "Simple Heuristics Yield Provable Algorithms for Masked Low-Rank Approximation"
+        year: 2021
+        venue: "ITCS"
+        url: "https://doi.org/10.4230/LIPIcs.ITCS.2021.6"
+        authors: [cameron-musco, christopher-musco, david-woodruff]
+      - title: "Hutch++: Optimal Stochastic Trace Estimation"
+        year: 2021
+        venue: "SOSA"
+        url: "https://doi.org/10.1137/1.9781611976496.16"
+        authors: [raphael-meyer, cameron-musco, christopher-musco, david-woodruff]
+      - title: "Active Sampling for Linear Regression Beyond the $\\ell_2$ Norm"
+        year: 2021
+        venue: "CoRR"
+        url: "https://arxiv.org/abs/2111.04888"
+        authors: [cameron-musco, christopher-musco, david-woodruff]
+      - title: "Near Optimal Linear Algebra in the Online and Sliding Window Models"
+        year: 2020
+        venue: "FOCS"
+        url: "https://doi.org/10.1109/FOCS46700.2020.00055"
+        authors: [petros-drineas, cameron-musco, christopher-musco, david-woodruff]
+      - title: "Fast and Space Efficient Spectral Sparsification in Dynamic Streams"
+        year: 2020
+        venue: "SODA"
+        url: "https://doi.org/10.1137/1.9781611975994.111"
+        authors: [michael-kapralov, cameron-musco, christopher-musco, aaron-sidford]
+      - title: "A universal sampling method for reconstructing signals with simple Fourier transforms"
+        year: 2019
+        venue: "STOC"
+        url: "https://doi.org/10.1145/3313276.3316363"
+        authors: [haim-avron, michael-kapralov, cameron-musco, christopher-musco]
+      - title: "Faster Spectral Sparsification in Dynamic Streams"
+        year: 2019
+        venue: "CoRR"
+        url: "http://arxiv.org/abs/1903.12165"
+        authors: [michael-kapralov, cameron-musco, christopher-musco]
+      - title: "Low-Rank Approximation from Communication Complexity"
+        year: 2019
+        venue: "CoRR"
+        url: "http://arxiv.org/abs/1904.09841"
+        authors: [cameron-musco, christopher-musco, david-woodruff]
+      - title: "Spectrum Approximation Beyond Fast Matrix Multiplication: Algorithms and Hardness"
+        year: 2018
+        venue: "ITCS"
+        url: "https://doi.org/10.4230/LIPIcs.ITCS.2018.8"
+        authors: [cameron-musco, aaron-sidford, shashanka-ubaru, david-woodruff]
+      - title: "Stability of the Lanczos Method for Matrix Function Approximation"
+        year: 2018
+        venue: "SODA"
+        url: "https://doi.org/10.1137/1.9781611975031.105"
+        authors: [cameron-musco, christopher-musco, aaron-sidford]
+      - title: "Random Fourier Features for Kernel Ridge Regression: Approximation Bounds and Statistical Guarantees"
+        year: 2017
+        venue: "ICML"
+        url: "http://proceedings.mlr.press/v70/avron17a.html"
+        authors: [haim-avron, michael-kapralov, cameron-musco, christopher-musco]
+      - title: "Single Pass Spectral Sparsification in Dynamic Streams"
+        year: 2017
+        venue: "SIAM J. Comput."
+        url: "https://doi.org/10.1137/141002281"
+        authors: [michael-kapralov, cameron-musco, christopher-musco, aaron-sidford]
+      - title: "Sublinear Time Low-Rank Approximation of Positive Semidefinite Matrices"
+        year: 2017
+        venue: "FOCS"
+        url: "https://doi.org/10.1109/FOCS.2017.68"
+        authors: [cameron-musco, david-woodruff]
+      - title: "Is Input Sparsity Time Possible for Kernel Low-Rank Approximation?"
+        year: 2017
+        venue: "NIPS"
+        url: "https://proceedings.neurips.cc/paper/2017/hash/69dafe8b58066478aea48f3d0f384820-Abstract.html"
+        authors: [cameron-musco, david-woodruff]
+      - title: "Principal Component Projection Without Principal Component Analysis"
+        year: 2016
+        venue: "ICML"
+        url: "http://proceedings.mlr.press/v48/frostig16.html"
+        authors: [cameron-musco, christopher-musco, aaron-sidford]
+      - title: "Faster Eigenvector Computation via Shift-and-Invert Preconditioning"
+        year: 2016
+        venue: "ICML"
+        url: "http://proceedings.mlr.press/v48/garber16.html"
+        authors: [cameron-musco, aaron-sidford]
+      - title: "Uniform Sampling for Matrix Approximation"
+        year: 2015
+        venue: "ITCS"
+        url: "https://doi.org/10.1145/2688073.2688113"
+        authors: [cameron-musco, christopher-musco, richard-peng, aaron-sidford]
+      - title: "Robust Shift-and-Invert Preconditioning: Faster and More Sample Efficient Algorithms for Eigenvector Computation"
+        year: 2015
+        venue: "CoRR"
+        url: "http://arxiv.org/abs/1510.08896"
+        authors: [cameron-musco, aaron-sidford]
+  - id: anne-greenbaum
+    papers:
+      - title: "Optimal polynomial approximation to rational matrix functions using the Arnoldi algorithm"
+        year: 2025
+        venue: "Numer. Algorithms"
+        url: "https://doi.org/10.1007/s11075-025-02085-x"
+        authors: [tyler-chen, anne-greenbaum]
+      - title: "Stable algorithms for general linear systems by preconditioning the normal equations"
+        year: 2025
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2502.17767"
+        authors: [ethan-epperly, anne-greenbaum, yuji-nakatsukasa]
+      - title: "GMRES, pseudospectra, and Crouzeix's conjecture for shifted and scaled Ginibre matrices"
+        year: 2024
+        venue: "Math. Comput."
+        url: "https://doi.org/10.1090/mcom/3963"
+        authors: [tyler-chen, anne-greenbaum, thomas-trogdon]
+      - title: "Nearly Optimal Approximation of Matrix Functions by the Lanczos Method"
+        year: 2024
+        venue: "NeurIPS"
+        url: "http://papers.nips.cc/paper_files/paper/2024/hash/fcc3dc27672a12510babe448d665e152-Abstract-Conference.html"
+        authors: [noah-amsel, tyler-chen, anne-greenbaum, cameron-musco, christopher-musco]
+      - title: "Low-Memory Krylov Subspace Methods for Optimal Rational Matrix Function Approximation"
+        year: 2023
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/22m1479853"
+        authors: [tyler-chen, anne-greenbaum, cameron-musco, christopher-musco]
+      - title: "Near-Optimality Guarantees for Approximating Rational Matrix Functions by the Lanczos Method"
+        year: 2023
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2303.03358"
+        authors: [noah-amsel, tyler-chen, anne-greenbaum, cameron-musco, christopher-musco]
+      - title: "Error Bounds for Lanczos-Based Matrix Function Approximation"
+        year: 2022
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/21m1427784"
+        authors: [tyler-chen, anne-greenbaum, cameron-musco, christopher-musco]
+      - title: "On the Convergence Rate of Variants of the Conjugate Gradient Algorithm in Finite Precision Arithmetic"
+        year: 2021
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/20M1346249"
+        authors: [anne-greenbaum, tyler-chen]
+      - title: "Any Nonincreasing Convergence Curve is Possible for GMRES"
+        year: 1996
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/S0895479894275030"
+        authors: [anne-greenbaum, zdenek-strakos]
+      - title: "Predicting the Behavior of Finite Precision Lanczos and Conjugate Gradient Computations"
+        year: 1992
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/0613011"
+        authors: [anne-greenbaum, zdenek-strakos]
+      - title: "LAPACK: a portable linear algebra library for high-performance computers"
+        year: 1990
+        venue: "SC"
+        url: "https://doi.org/10.1109/SUPERC.1990.129995"
+        authors: [zhaojun-bai, anne-greenbaum, james-demmel]
+  - id: thomas-trogdon
+    papers:
+      - title: "Randomized Matrix-Free Quadrature: Unified and Uniform Bounds for Stochastic Lanczos Quadrature and the Kernel Polynomial Method"
+        year: 2025
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/23m1600414"
+        authors: [tyler-chen, thomas-trogdon, shashanka-ubaru]
+      - title: "The Akhiezer iteration and an inverse-free solver for Sylvester matrix equations"
+        year: 2025
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2503.17496"
+        authors: [thomas-trogdon, heather-wilber]
+      - title: "GMRES, pseudospectra, and Crouzeix's conjecture for shifted and scaled Ginibre matrices"
+        year: 2024
+        venue: "Math. Comput."
+        url: "https://doi.org/10.1090/mcom/3963"
+        authors: [tyler-chen, anne-greenbaum, thomas-trogdon]
+      - title: "Stability of the Lanczos algorithm on matrices with regular spectral distributions"
+        year: 2023
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2302.14842"
+        authors: [tyler-chen, thomas-trogdon]
+      - title: "Randomized matrix-free quadrature for spectrum and spectral sum approximation"
+        year: 2022
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2204.01941"
+        authors: [tyler-chen, thomas-trogdon, shashanka-ubaru]
+      - title: "Analysis of stochastic Lanczos quadrature for spectrum approximation"
+        year: 2021
+        venue: "ICML"
+        url: "http://proceedings.mlr.press/v139/chen21s.html"
+        authors: [tyler-chen, thomas-trogdon, shashanka-ubaru]
+  - id: raphael-meyer
+    papers:
+      - title: "Hutchinson's Estimator is Bad at Kronecker-Trace-Estimation"
+        year: 2026
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/24m1720895"
+        authors: [raphael-meyer, haim-avron]
+      - title: "Does block size matter in randomized block Krylov low-rank approximation?"
+        year: 2026
+        venue: "SODA"
+        url: "https://doi.org/10.1137/1.9781611978971.42"
+        authors: [tyler-chen, ethan-epperly, raphael-meyer, christopher-musco]
+      - title: "Debiasing Polynomial and Fourier Regression"
+        year: 2026
+        venue: "SOSA"
+        url: "https://doi.org/10.1137/1.9781611978964.26"
+        authors: [chris-camano, raphael-meyer]
+      - title: "The matrix-vector complexity of Ax=b"
+        year: 2026
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2602.04842"
+        authors: [michal-derezinski, ethan-epperly, raphael-meyer]
+      - title: "Linear algebra at exponential scale via tensor network dimension reduction"
+        year: 2026
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2606.15350"
+        authors: [chris-camano, ethan-epperly, raphael-meyer, joel-tropp]
+      - title: "Algorithm-Agnostic Low-Rank Approximation of Operator Monotone Matrix Functions"
+        year: 2025
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/23m1619435"
+        authors: [david-persson, raphael-meyer, christopher-musco]
+      - title: "Understanding the Kronecker Matrix-Vector Complexity of Linear Algebra"
+        year: 2025
+        venue: "ICML"
+        url: "https://proceedings.mlr.press/v267/meyer25a.html"
+        authors: [raphael-meyer, david-woodruff]
+      - title: "Faster Linear Algebra Algorithms with Structured Random Matrices"
+        year: 2025
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2508.21189"
+        authors: [chris-camano, ethan-epperly, raphael-meyer, joel-tropp]
+      - title: "On the Unreasonable Effectiveness of Single Vector Krylov Methods for Low-Rank Approximation"
+        year: 2024
+        venue: "SODA"
+        url: "https://doi.org/10.1137/1.9781611977912.32"
+        authors: [raphael-meyer, cameron-musco, christopher-musco]
+      - title: "Near-Linear Sample Complexity for Lp Polynomial Regression"
+        year: 2023
+        venue: "SODA"
+        url: "https://doi.org/10.1137/1.9781611977554.ch153"
+        authors: [raphael-meyer, cameron-musco, christopher-musco, david-woodruff]
+      - title: "Fast Regression for Structured Inputs"
+        year: 2022
+        venue: "ICLR"
+        url: "https://openreview.net/forum?id=gNp54NxHUPJ"
+        authors: [raphael-meyer, cameron-musco, christopher-musco, david-woodruff]
+      - title: "Hutch++: Optimal Stochastic Trace Estimation"
+        year: 2021
+        venue: "SOSA"
+        url: "https://doi.org/10.1137/1.9781611976496.16"
+        authors: [raphael-meyer, cameron-musco, christopher-musco, david-woodruff]
+      - title: "The Statistical Cost of Robust Kernel Hyperparameter Turning"
+        year: 2020
+        venue: "NeurIPS"
+        url: "https://proceedings.neurips.cc/paper/2020/hash/f4661398cb1a3abd3ffe58600bf11322-Abstract.html"
+        authors: [raphael-meyer, christopher-musco]
+      - title: "The Statistical Cost of Robust Kernel Hyperparameter Tuning"
+        year: 2020
+        venue: "CoRR"
+        url: "https://arxiv.org/abs/2006.08035"
+        authors: [raphael-meyer, christopher-musco]
+  - id: noah-amsel
+    papers:
+      - title: "Fixed-Sparsity Matrix Approximation from Matrix-Vector Products"
+        year: 2026
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/25m1742710"
+        authors: [noah-amsel, tyler-chen, diana-halikias, cameron-musco, christopher-musco]
+        note: "pair has 47+ joint papers; representative subset"
+      - title: "Quasi-optimal Hierarchically Semi-separable Matrix Approximation"
+        year: 2026
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/25m176622x"
+        authors: [noah-amsel, tyler-chen, diana-halikias, cameron-musco, christopher-musco, david-persson]
+      - title: "The Polar Express: Optimal Matrix Sign Methods and Their Application to the Muon Algorithm"
+        year: 2025
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2505.16932"
+        authors: [noah-amsel, david-persson, christopher-musco, robert-gower]
+      - title: "Query Efficient Structured Matrix Learning"
+        year: 2025
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2507.19290"
+        authors: [noah-amsel, tyler-chen, cameron-musco, christopher-musco, david-persson]
+      - title: "Nearly Optimal Approximation of Matrix Functions by the Lanczos Method"
+        year: 2024
+        venue: "NeurIPS"
+        url: "http://papers.nips.cc/paper_files/paper/2024/hash/fcc3dc27672a12510babe448d665e152-Abstract-Conference.html"
+        authors: [noah-amsel, tyler-chen, anne-greenbaum, cameron-musco, christopher-musco]
+      - title: "Near-Optimality Guarantees for Approximating Rational Matrix Functions by the Lanczos Method"
+        year: 2023
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2303.03358"
+        authors: [noah-amsel, tyler-chen, anne-greenbaum, cameron-musco, christopher-musco]
+  - id: yousef-saad
+    papers:
+      - title: "Design Criteria for SGD Preconditioners: Local Conditioning, Noise Floors, and Basin Stability"
+        year: 2026
+        venue: "Trans. Mach. Learn. Res."
+        url: "https://openreview.net/forum?id=vo8FOBt6f6"
+        authors: [mitchell-scott, yousef-saad]
+      - title: "Designing Preconditioners for SGD: Local Conditioning, Noise Floors, and Basin Stability"
+        year: 2025
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2511.19716"
+        authors: [mitchell-scott, yousef-saad]
+      - title: "Randomized linear solvers for computational architectures with straggling workers"
+        year: 2024
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2407.01098"
+        authors: [lior-horesh, yousef-saad]
+      - title: "Spectrum-Adapted Polynomial Approximation for Matrix Functions with Applications in Graph Signal Processing"
+        year: 2020
+        venue: "Algorithms"
+        url: "https://doi.org/10.3390/a13110295"
+        authors: [shashanka-ubaru, yousef-saad]
+      - title: "Sampling and multilevel coarsening algorithms for fast matrix approximations"
+        year: 2019
+        venue: "Numer. Linear Algebra Appl."
+        url: "https://doi.org/10.1002/nla.2234"
+        authors: [shashanka-ubaru, yousef-saad]
+      - title: "Spectrum-adapted Polynomial Approximation for Matrix Functions"
+        year: 2019
+        venue: "ICASSP"
+        url: "https://doi.org/10.1109/ICASSP.2019.8683179"
+        authors: [shashanka-ubaru, yousef-saad]
+      - title: "Find the dimension that counts: Fast dimension estimation and Krylov PCA"
+        year: 2019
+        venue: "SDM"
+        url: "https://doi.org/10.1137/1.9781611975673.81"
+        authors: [shashanka-ubaru, yousef-saad]
+      - title: "A rational approximation method for solving acoustic nonlinear eigenvalue problems"
+        year: 2019
+        venue: "CoRR"
+        url: "http://arxiv.org/abs/1906.03938"
+        authors: [agnieszka-miedlar, yousef-saad]
+      - title: "SMASH: Structured matrix approximation by separation and hierarchy"
+        year: 2018
+        venue: "Numer. Linear Algebra Appl."
+        url: "https://doi.org/10.1002/nla.2204"
+        authors: [edmond-chow, yousef-saad]
+      - title: "Improving the Incoherence of a Learned Dictionary via Rank Shrinkage"
+        year: 2017
+        venue: "Neural Comput."
+        url: "https://doi.org/10.1162/NECO_a_00907"
+        authors: [shashanka-ubaru, yousef-saad]
+      - title: "Fast Estimation of Approximate Matrix Ranks Using Spectral Densities"
+        year: 2017
+        venue: "Neural Comput."
+        url: "https://doi.org/10.1162/NECO_a_00951"
+        authors: [shashanka-ubaru, yousef-saad]
+      - title: "Fast Estimation of tr(f(A)) via Stochastic Lanczos Quadrature"
+        year: 2017
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/16M1104974"
+        authors: [shashanka-ubaru, yousef-saad]
+      - title: "Low Rank Approximation and Decomposition of Large Matrices Using Error Correcting Codes"
+        year: 2017
+        venue: "IEEE Trans. Inf. Theory"
+        url: "https://doi.org/10.1109/TIT.2017.2723898"
+        authors: [shashanka-ubaru, yousef-saad]
+      - title: "Applications of Trace Estimation Techniques"
+        year: 2017
+        venue: "HPCSE"
+        url: "https://doi.org/10.1007/978-3-319-97136-0_2"
+        authors: [shashanka-ubaru, yousef-saad]
+      - title: "Fast methods for estimating the Numerical rank of large matrices"
+        year: 2016
+        venue: "ICML"
+        url: "http://proceedings.mlr.press/v48/ubaru16.html"
+        authors: [shashanka-ubaru, yousef-saad]
+      - title: "Low Rank Approximation using Error Correcting Coding Matrices"
+        year: 2015
+        venue: "ICML"
+        url: "http://proceedings.mlr.press/v37/ubaru15.html"
+        authors: [shashanka-ubaru, yousef-saad]
+      - title: "Preconditioned Krylov Subspace Methods for Sampling Multivariate Gaussian Distributions"
+        year: 2014
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/130920587"
+        authors: [edmond-chow, yousef-saad]
+      - title: "Crout Versions of ILU for General Sparse Matrices"
+        year: 2003
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/S1064827502405094"
+        authors: [yousef-saad, edmond-chow]
+      - title: "Non-Hermitian Eigenvalue Problems"
+        year: 2000
+        venue: "Templates for the Solution of Algebraic Eigenvalue Problems"
+        url: "https://doi.org/10.1137/1.9780898719581.ch7"
+        authors: [james-demmel, ming-gu, yousef-saad, zhaojun-bai]
+      - title: "Approximate Inverse Preconditioners via Sparse-Sparse Iterations"
+        year: 1998
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/S1064827594270415"
+        authors: [edmond-chow, yousef-saad]
+      - title: "Preserving Symmetry in Preconditioned Krylov Subspace Methods"
+        year: 1998
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/S1064827596311554"
+        authors: [edmond-chow, yousef-saad]
+      - title: "Approximate Inverse Techniques for Block-Partitioned Matrices"
+        year: 1997
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/S1064827595281575"
+        authors: [edmond-chow, yousef-saad]
+      - title: "Parallel Approximate Inverse Preconditioners"
+        year: 1997
+        venue: "PP"
+        url: ""
+        authors: [edmond-chow, yousef-saad]
+  - id: shashanka-ubaru
+    papers:
+      - title: "PCE-Net : High-Dimensional Surrogate Modeling for Learning Uncertainty"
+        year: 2026
+        venue: "SIAM/ASA J. Uncertain. Quantification"
+        url: "https://doi.org/10.1137/24m1723838"
+        authors: [shashanka-ubaru, lior-horesh, haim-avron]
+        note: "pair has 27+ joint papers; representative subset"
+      - title: "Group-Algebraic Tensors: Provably-optimal Equivariant Learning and Physical Symmetry Discovery"
+        year: 2026
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2605.20440"
+        authors: [shashanka-ubaru, kenneth-clarkson, haim-avron, lior-horesh]
+      - title: "Analysis of Power Iteration Algorithm with Partially Observed Matrix-vector Products"
+        year: 2026
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2606.11956"
+        authors: [lior-horesh, shashanka-ubaru]
+      - title: "Counting Triangles of Graphs via Randomized Trace Estimation with Incomplete Matrix-Vector Products"
+        year: 2026
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2606.22629"
+        authors: [lior-horesh, shashanka-ubaru]
+      - title: "Comparing quantum and classical Monte Carlo algorithms for estimating Betti numbers of clique complexes"
+        year: 2025
+        venue: "Quantum"
+        url: "https://doi.org/10.22331/q-2025-10-31-1901"
+        authors: [lior-horesh, shashanka-ubaru]
+      - title: "Multivariate Trace Estimation Using Quantum State Space Linear Algebra"
+        year: 2025
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/24m1654749"
+        authors: [shashanka-ubaru, lior-horesh, haim-avron]
+      - title: "Randomized Matrix-Free Quadrature: Unified and Uniform Bounds for Stochastic Lanczos Quadrature and the Kernel Polynomial Method"
+        year: 2025
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/23m1600414"
+        authors: [tyler-chen, thomas-trogdon, shashanka-ubaru]
+      - title: "Power iteration with probabilistic updates for systems with heterogeneous performance"
+        year: 2025
+        venue: "HPEC"
+        url: "https://doi.org/10.1109/HPEC67600.2025.11196482"
+        authors: [lior-horesh, shashanka-ubaru]
+      - title: "A Framework For The Iterative Solution of Sparse Linear Systems on Hybrid Architectures Using Homomorphic Encryption"
+        year: 2025
+        venue: "HPEC"
+        url: "https://doi.org/10.1109/HPEC67600.2025.11196237"
+        authors: [lior-horesh, shashanka-ubaru]
+      - title: "Fast Linear Solvers via AI-Tuned Markov Chain Monte Carlo-based Matrix Inversion"
+        year: 2025
+        venue: "SC Workshops"
+        url: "https://doi.org/10.1145/3731599.3767543"
+        authors: [shashanka-ubaru, lior-horesh]
+      - title: "Transformers Learn Faster with Semantic Focus"
+        year: 2025
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2506.14095"
+        authors: [kenneth-clarkson, shashanka-ubaru]
+      - title: "Surrogate-based quantification of policy uncertainty in generative flow networks"
+        year: 2025
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2510.21523"
+        authors: [shashanka-ubaru, lior-horesh]
+      - title: "Single-pass top-N subgraph centrality of graphs via subspace projections"
+        year: 2024
+        venue: "J. Complex Networks"
+        url: "https://doi.org/10.1093/comnet/cnae049"
+        authors: [shashanka-ubaru, lior-horesh]
+      - title: "Asynchronous Randomized Trace Estimation"
+        year: 2024
+        venue: "AISTATS"
+        url: "https://proceedings.mlr.press/v238/kalantzis24a.html"
+        authors: [shashanka-ubaru, lior-horesh]
+      - title: "Topological data analysis on noisy quantum computers"
+        year: 2024
+        venue: "ICLR"
+        url: "https://openreview.net/forum?id=dLrhRIMVmB"
+        authors: [shashanka-ubaru, kenneth-clarkson, lior-horesh]
+      - title: "Counting Triangles of Graphs via Matrix Partitioning"
+        year: 2024
+        venue: "MLSP"
+        url: "https://doi.org/10.1109/MLSP58920.2024.10734796"
+        authors: [lior-horesh, shashanka-ubaru]
+      - title: "Multi-Function Multi-Way Analog Technology for Sustainable Machine Intelligence Computation"
+        year: 2024
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2401.13754"
+        authors: [shashanka-ubaru, haim-avron, lior-horesh]
+      - title: "Solving Sparse Linear Systems via Flexible GMRES with In-Memory Analog Preconditioning"
+        year: 2023
+        venue: "HPEC"
+        url: "https://doi.org/10.1109/HPEC58863.2023.10363502"
+        authors: [shashanka-ubaru, lior-horesh]
+      - title: "Capacity Analysis of Vector Symbolic Architectures"
+        year: 2023
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2301.10352"
+        authors: [kenneth-clarkson, shashanka-ubaru]
+      - title: "On Quantum Algorithms for Random Walks in the Nonnegative Quarter Plane"
+        year: 2022
+        venue: "SIGMETRICS Perform. Evaluation Rev."
+        url: "https://doi.org/10.1145/3561074.3561089"
+        authors: [shashanka-ubaru, lior-horesh]
+      - title: "Randomized matrix-free quadrature for spectrum and spectral sum approximation"
+        year: 2022
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2204.01941"
+        authors: [tyler-chen, thomas-trogdon, shashanka-ubaru]
+      - title: "Towards Quantum Advantage on Noisy Quantum Computers"
+        year: 2022
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2209.09371"
+        authors: [shashanka-ubaru, kenneth-clarkson, lior-horesh]
+      - title: "Dynamic graph and polynomial chaos based models for contact tracing data analysis and optimal testing prescription"
+        year: 2021
+        venue: "J. Biomed. Informatics"
+        url: "https://doi.org/10.1016/j.jbi.2021.103901"
+        authors: [shashanka-ubaru, lior-horesh]
+      - title: "Sparse Graph Based Sketching for Fast Numerical Linear Algebra"
+        year: 2021
+        venue: "ICASSP"
+        url: "https://doi.org/10.1109/ICASSP39728.2021.9414030"
+        authors: [shashanka-ubaru, kenneth-clarkson, lior-horesh]
+      - title: "Analysis of stochastic Lanczos quadrature for spectrum approximation"
+        year: 2021
+        venue: "ICML"
+        url: "http://proceedings.mlr.press/v139/chen21s.html"
+        authors: [tyler-chen, thomas-trogdon, shashanka-ubaru]
+      - title: "Projection techniques to update the truncated SVD of evolving matrices with applications"
+        year: 2021
+        venue: "ICML"
+        url: "http://proceedings.mlr.press/v139/kalantzis21a.html"
+        authors: [shashanka-ubaru, lior-horesh, kenneth-clarkson]
+      - title: "Dynamic Graph Convolutional Networks Using the Tensor M-Product"
+        year: 2021
+        venue: "SDM"
+        url: "https://doi.org/10.1137/1.9781611976700.82"
+        authors: [shashanka-ubaru, lior-horesh, misha-kilmer, haim-avron]
+      - title: "Quantum Topological Data Analysis with Linear Depth and Exponential Speedup"
+        year: 2021
+        venue: "CoRR"
+        url: "https://arxiv.org/abs/2108.02811"
+        authors: [shashanka-ubaru, kenneth-clarkson, lior-horesh]
+      - title: "Spectrum-Adapted Polynomial Approximation for Matrix Functions with Applications in Graph Signal Processing"
+        year: 2020
+        venue: "Algorithms"
+        url: "https://doi.org/10.3390/a13110295"
+        authors: [shashanka-ubaru, yousef-saad]
+      - title: "Projection techniques to update the truncated SVD of evolving matrices"
+        year: 2020
+        venue: "CoRR"
+        url: "https://arxiv.org/abs/2010.06392"
+        authors: [shashanka-ubaru, lior-horesh, kenneth-clarkson]
+      - title: "Sampling and multilevel coarsening algorithms for fast matrix approximations"
+        year: 2019
+        venue: "Numer. Linear Algebra Appl."
+        url: "https://doi.org/10.1002/nla.2234"
+        authors: [shashanka-ubaru, yousef-saad]
+      - title: "Spectrum-adapted Polynomial Approximation for Matrix Functions"
+        year: 2019
+        venue: "ICASSP"
+        url: "https://doi.org/10.1109/ICASSP.2019.8683179"
+        authors: [shashanka-ubaru, yousef-saad]
+      - title: "Find the dimension that counts: Fast dimension estimation and Krylov PCA"
+        year: 2019
+        venue: "SDM"
+        url: "https://doi.org/10.1137/1.9781611975673.81"
+        authors: [shashanka-ubaru, yousef-saad]
+      - title: "Tensor Graph Convolutional Networks for Prediction on Dynamic Graphs"
+        year: 2019
+        venue: "CoRR"
+        url: "http://arxiv.org/abs/1910.07643"
+        authors: [shashanka-ubaru, lior-horesh, misha-kilmer, haim-avron]
+      - title: "Spectrum Approximation Beyond Fast Matrix Multiplication: Algorithms and Hardness"
+        year: 2018
+        venue: "ITCS"
+        url: "https://doi.org/10.4230/LIPIcs.ITCS.2018.8"
+        authors: [cameron-musco, aaron-sidford, shashanka-ubaru, david-woodruff]
+      - title: "Improving the Incoherence of a Learned Dictionary via Rank Shrinkage"
+        year: 2017
+        venue: "Neural Comput."
+        url: "https://doi.org/10.1162/NECO_a_00907"
+        authors: [shashanka-ubaru, yousef-saad]
+      - title: "Fast Estimation of Approximate Matrix Ranks Using Spectral Densities"
+        year: 2017
+        venue: "Neural Comput."
+        url: "https://doi.org/10.1162/NECO_a_00951"
+        authors: [shashanka-ubaru, yousef-saad]
+      - title: "Fast Estimation of tr(f(A)) via Stochastic Lanczos Quadrature"
+        year: 2017
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/16M1104974"
+        authors: [shashanka-ubaru, yousef-saad]
+      - title: "Low Rank Approximation and Decomposition of Large Matrices Using Error Correcting Codes"
+        year: 2017
+        venue: "IEEE Trans. Inf. Theory"
+        url: "https://doi.org/10.1109/TIT.2017.2723898"
+        authors: [shashanka-ubaru, yousef-saad]
+      - title: "Applications of Trace Estimation Techniques"
+        year: 2017
+        venue: "HPCSE"
+        url: "https://doi.org/10.1007/978-3-319-97136-0_2"
+        authors: [shashanka-ubaru, yousef-saad]
+      - title: "Union of Intersections (UoI) for Interpretable Data Driven Discovery and Prediction"
+        year: 2017
+        venue: "NIPS"
+        url: "https://proceedings.neurips.cc/paper/2017/hash/788d986905533aba051261497ecffcbb-Abstract.html"
+        authors: [fred-roosta, shashanka-ubaru, michael-mahoney]
+      - title: "Fast methods for estimating the Numerical rank of large matrices"
+        year: 2016
+        venue: "ICML"
+        url: "http://proceedings.mlr.press/v48/ubaru16.html"
+        authors: [shashanka-ubaru, yousef-saad]
+      - title: "Low Rank Approximation using Error Correcting Coding Matrices"
+        year: 2015
+        venue: "ICML"
+        url: "http://proceedings.mlr.press/v37/ubaru15.html"
+        authors: [shashanka-ubaru, yousef-saad]
+  - id: haim-avron
+    papers:
+      - title: "PCE-Net : High-Dimensional Surrogate Modeling for Learning Uncertainty"
+        year: 2026
+        venue: "SIAM/ASA J. Uncertain. Quantification"
+        url: "https://doi.org/10.1137/24m1723838"
+        authors: [shashanka-ubaru, lior-horesh, haim-avron]
+        note: "pair has 27+ joint papers; representative subset"
+      - title: "Hutchinson's Estimator is Bad at Kronecker-Trace-Estimation"
+        year: 2026
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/24m1720895"
+        authors: [raphael-meyer, haim-avron]
+      - title: "Group-Algebraic Tensors: Provably-optimal Equivariant Learning and Physical Symmetry Discovery"
+        year: 2026
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2605.20440"
+        authors: [shashanka-ubaru, kenneth-clarkson, haim-avron, lior-horesh]
+      - title: "Multivariate Trace Estimation Using Quantum State Space Linear Algebra"
+        year: 2025
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/24m1654749"
+        authors: [shashanka-ubaru, lior-horesh, haim-avron]
+      - title: "Stable tensor neural networks for efficient deep learning"
+        year: 2024
+        venue: "Frontiers Big Data"
+        url: "https://doi.org/10.3389/fdata.2024.1363978"
+        authors: [elizabeth-newman, lior-horesh, haim-avron, misha-kilmer]
+      - title: "Low-rank updates of matrix square roots"
+        year: 2024
+        venue: "Numer. Linear Algebra Appl."
+        url: "https://doi.org/10.1002/nla.2528"
+        authors: [petros-drineas, haim-avron]
+      - title: "Multi-Function Multi-Way Analog Technology for Sustainable Machine Intelligence Computation"
+        year: 2024
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2401.13754"
+        authors: [shashanka-ubaru, haim-avron, lior-horesh]
+      - title: "Faster Randomized Interior Point Methods for Tall/Wide Linear Programs"
+        year: 2022
+        venue: "J. Mach. Learn. Res."
+        url: "https://jmlr.org/papers/v23/21-0709.html"
+        authors: [haim-avron, petros-drineas]
+      - title: "On the Convergence of Inexact Predictor-Corrector Methods for Linear Programming"
+        year: 2022
+        venue: "ICML"
+        url: "https://proceedings.mlr.press/v162/dexter22a.html"
+        authors: [haim-avron, petros-drineas]
+      - title: "Solving sparse linear systems with approximate inverse preconditioners on analog devices"
+        year: 2021
+        venue: "HPEC"
+        url: "https://doi.org/10.1109/HPEC49654.2021.9622816"
+        authors: [lior-horesh, haim-avron]
+      - title: "Dynamic Graph Convolutional Networks Using the Tensor M-Product"
+        year: 2021
+        venue: "SDM"
+        url: "https://doi.org/10.1137/1.9781611976700.82"
+        authors: [shashanka-ubaru, lior-horesh, misha-kilmer, haim-avron]
+      - title: "Faster Randomized Infeasible Interior Point Methods for Tall/Wide Linear Programs"
+        year: 2020
+        venue: "NeurIPS"
+        url: "https://proceedings.neurips.cc/paper/2020/hash/630eff1b380505a67570dff952ce4ad7-Abstract.html"
+        authors: [haim-avron, petros-drineas]
+      - title: "Tensor-Tensor Products for Optimal Representation and Compression"
+        year: 2020
+        venue: "CoRR"
+        url: "http://arxiv.org/abs/2001.00046"
+        authors: [misha-kilmer, lior-horesh, haim-avron, elizabeth-newman]
+      - title: "Speeding up Linear Programming using Randomized Linear Algebra"
+        year: 2020
+        venue: "CoRR"
+        url: "https://arxiv.org/abs/2003.08072"
+        authors: [haim-avron, petros-drineas]
+      - title: "A randomized least squares solver for terabyte-sized dense overdetermined systems"
+        year: 2019
+        venue: "J. Comput. Sci."
+        url: "https://doi.org/10.1016/j.jocs.2016.09.007"
+        authors: [haim-avron, petros-drineas]
+      - title: "Spectral condition-number estimation of large sparse matrices"
+        year: 2019
+        venue: "Numer. Linear Algebra Appl."
+        url: "https://doi.org/10.1002/nla.2235"
+        authors: [haim-avron, sivan-toledo]
+      - title: "A universal sampling method for reconstructing signals with simple Fourier transforms"
+        year: 2019
+        venue: "STOC"
+        url: "https://doi.org/10.1145/3313276.3316363"
+        authors: [haim-avron, michael-kapralov, cameron-musco, christopher-musco]
+      - title: "Tensor Graph Convolutional Networks for Prediction on Dynamic Graphs"
+        year: 2019
+        venue: "CoRR"
+        url: "http://arxiv.org/abs/1910.07643"
+        authors: [shashanka-ubaru, lior-horesh, misha-kilmer, haim-avron]
+      - title: "Experimental Design for Nonparametric Correction of Misspecified Dynamical Models"
+        year: 2018
+        venue: "SIAM/ASA J. Uncertain. Quantification"
+        url: "https://doi.org/10.1137/17M1128435"
+        authors: [lior-horesh, haim-avron]
+      - title: "Stable Tensor Neural Networks for Rapid Deep Learning"
+        year: 2018
+        venue: "CoRR"
+        url: "http://arxiv.org/abs/1811.06569"
+        authors: [elizabeth-newman, lior-horesh, haim-avron, misha-kilmer]
+      - title: "Random Fourier Features for Kernel Ridge Regression: Approximation Bounds and Statistical Guarantees"
+        year: 2017
+        venue: "ICML"
+        url: "http://proceedings.mlr.press/v70/avron17a.html"
+        authors: [haim-avron, michael-kapralov, cameron-musco, christopher-musco]
+      - title: "Faster Kernel Ridge Regression Using Sketching and Preconditioning"
+        year: 2017
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/16M1105396"
+        authors: [haim-avron, kenneth-clarkson, david-woodruff]
+      - title: "Sharper Bounds for Regularized Data Fitting"
+        year: 2017
+        venue: "APPROX-RANDOM"
+        url: "https://doi.org/10.4230/LIPIcs.APPROX-RANDOM.2017.27"
+        authors: [haim-avron, kenneth-clarkson, david-woodruff]
+      - title: "Quasi-Monte Carlo Feature Maps for Shift-Invariant Kernels"
+        year: 2016
+        venue: "J. Mach. Learn. Res."
+        url: "https://jmlr.org/papers/v17/14-538.html"
+        authors: [haim-avron, michael-mahoney]
+      - title: "Sharper Bounds for Regression and Low-Rank Approximation with Regularization"
+        year: 2016
+        venue: "CoRR"
+        url: "http://arxiv.org/abs/1611.03225"
+        authors: [haim-avron, kenneth-clarkson, david-woodruff]
+      - title: "Community Detection Using Time-Dependent Personalized PageRank"
+        year: 2015
+        venue: "ICML"
+        url: "http://proceedings.mlr.press/v37/avron15.html"
+        authors: [haim-avron, lior-horesh]
+      - title: "A scalable randomized least squares solver for dense overdetermined systems"
+        year: 2015
+        venue: "ScalA@SC"
+        url: "https://doi.org/10.1145/2832080.2832083"
+        authors: [haim-avron, petros-drineas]
+      - title: "Efficient Dimensionality Reduction for Canonical Correlation Analysis"
+        year: 2014
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/130919222"
+        authors: [haim-avron, sivan-toledo]
+      - title: "Random Laplace Feature Maps for Semigroup Kernels on Histograms"
+        year: 2014
+        venue: "CVPR"
+        url: "https://doi.org/10.1109/CVPR.2014.129"
+        authors: [haim-avron, michael-mahoney]
+      - title: "Subspace Embeddings for the Polynomial Kernel"
+        year: 2014
+        venue: "NIPS"
+        url: "https://proceedings.neurips.cc/paper/2014/hash/b571ecea16a9824023ee1af16897a582-Abstract.html"
+        authors: [haim-avron, david-woodruff]
+      - title: "Solving Hermitian positive definite systems using indefinite incomplete factorizations"
+        year: 2013
+        venue: "J. Comput. Appl. Math."
+        url: "https://doi.org/10.1016/j.cam.2012.11.011"
+        authors: [haim-avron, sivan-toledo]
+      - title: "Sketching Structured Matrices for Faster Nonlinear Regression"
+        year: 2013
+        venue: "NIPS"
+        url: "https://proceedings.neurips.cc/paper/2013/hash/9683cc5f89562ea48e72bb321d9f03fb-Abstract.html"
+        authors: [haim-avron, david-woodruff]
+      - title: "Reliable Iterative Condition-Number Estimation"
+        year: 2013
+        venue: "CoRR"
+        url: "http://arxiv.org/abs/1301.1107"
+        authors: [haim-avron, sivan-toledo]
+      - title: "Randomized algorithms for estimating the trace of an implicit symmetric positive semi-definite matrix"
+        year: 2011
+        venue: "J. ACM"
+        url: "https://doi.org/10.1145/1944345.1944349"
+        authors: [haim-avron, sivan-toledo]
+      - title: "Effective Stiffness: Generalizing Effective Resistance Sampling to Finite Element Matrices"
+        year: 2011
+        venue: "CoRR"
+        url: "http://arxiv.org/abs/1110.4437"
+        authors: [haim-avron, sivan-toledo]
+      - title: "Blendenpik: Supercharging LAPACK's Least-Squares Solver"
+        year: 2010
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/090767911"
+        authors: [haim-avron, sivan-toledo]
+      - title: "Using Perturbed QR Factorizations to Solve Linear Least-Squares Problems"
+        year: 2009
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/070698725"
+        authors: [haim-avron, sivan-toledo]
+      - title: "Combinatorial Preconditioners for Scalar Elliptic Finite-Element Problems"
+        year: 2009
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/060675940"
+        authors: [haim-avron, sivan-toledo]
+      - title: "On Element SDD Approximability"
+        year: 2009
+        venue: "CoRR"
+        url: "http://arxiv.org/abs/0911.0547"
+        authors: [haim-avron, sivan-toledo]
+      - title: "Parallel unsymmetric-pattern multifrontal sparse LU with column preordering"
+        year: 2008
+        venue: "ACM Trans. Math. Softw."
+        url: "https://doi.org/10.1145/1326548.1326550"
+        authors: [haim-avron, sivan-toledo]
+  - id: sivan-toledo
+    papers:
+      - title: "Spectral condition-number estimation of large sparse matrices"
+        year: 2019
+        venue: "Numer. Linear Algebra Appl."
+        url: "https://doi.org/10.1002/nla.2235"
+        authors: [haim-avron, sivan-toledo]
+      - title: "Exploiting Multiple Levels of Parallelism in Sparse Matrix-Matrix Multiplication"
+        year: 2016
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/15M104253X"
+        authors: [james-demmel, laura-grigori, sivan-toledo]
+      - title: "Network Topologies and Inevitable Contention"
+        year: 2016
+        venue: "COMHPC@SC"
+        url: "https://doi.org/10.1109/COMHPC.2016.010"
+        authors: [james-demmel, sivan-toledo]
+      - title: "Communication-Avoiding Symmetric-Indefinite Factorization"
+        year: 2014
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/130929060"
+        authors: [james-demmel, sivan-toledo]
+      - title: "Efficient Dimensionality Reduction for Canonical Correlation Analysis"
+        year: 2014
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/130919222"
+        authors: [haim-avron, sivan-toledo]
+      - title: "Solving Hermitian positive definite systems using indefinite incomplete factorizations"
+        year: 2013
+        venue: "J. Comput. Appl. Math."
+        url: "https://doi.org/10.1016/j.cam.2012.11.011"
+        authors: [haim-avron, sivan-toledo]
+      - title: "Implementing a Blocked Aasen's Algorithm with a Dynamic Scheduler on Multicore Architectures"
+        year: 2013
+        venue: "IPDPS"
+        url: "https://doi.org/10.1109/IPDPS.2013.98"
+        authors: [james-demmel, sivan-toledo]
+      - title: "Communication optimal parallel multiplication of sparse random matrices"
+        year: 2013
+        venue: "SPAA"
+        url: "https://doi.org/10.1145/2486159.2486196"
+        authors: [james-demmel, laura-grigori, sivan-toledo]
+      - title: "Communication efficient gaussian elimination with partial pivoting using a shape morphing data layout"
+        year: 2013
+        venue: "SPAA"
+        url: "https://doi.org/10.1145/2486159.2486198"
+        authors: [james-demmel, sivan-toledo]
+      - title: "Reliable Iterative Condition-Number Estimation"
+        year: 2013
+        venue: "CoRR"
+        url: "http://arxiv.org/abs/1301.1107"
+        authors: [haim-avron, sivan-toledo]
+      - title: "Randomized algorithms for estimating the trace of an implicit symmetric positive semi-definite matrix"
+        year: 2011
+        venue: "J. ACM"
+        url: "https://doi.org/10.1145/1944345.1944349"
+        authors: [haim-avron, sivan-toledo]
+      - title: "Effective Stiffness: Generalizing Effective Resistance Sampling to Finite Element Matrices"
+        year: 2011
+        venue: "CoRR"
+        url: "http://arxiv.org/abs/1110.4437"
+        authors: [haim-avron, sivan-toledo]
+      - title: "Blendenpik: Supercharging LAPACK's Least-Squares Solver"
+        year: 2010
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/090767911"
+        authors: [haim-avron, sivan-toledo]
+      - title: "Using Perturbed QR Factorizations to Solve Linear Least-Squares Problems"
+        year: 2009
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/070698725"
+        authors: [haim-avron, sivan-toledo]
+      - title: "Combinatorial Preconditioners for Scalar Elliptic Finite-Element Problems"
+        year: 2009
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/060675940"
+        authors: [haim-avron, sivan-toledo]
+      - title: "On Element SDD Approximability"
+        year: 2009
+        venue: "CoRR"
+        url: "http://arxiv.org/abs/0911.0547"
+        authors: [haim-avron, sivan-toledo]
+      - title: "Parallel unsymmetric-pattern multifrontal sparse LU with column preordering"
+        year: 2008
+        venue: "ACM Trans. Math. Softw."
+        url: "https://doi.org/10.1145/1326548.1326550"
+        authors: [haim-avron, sivan-toledo]
+      - title: "The Future Fast Fourier Transform?"
+        year: 1998
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/S1064827597316266"
+        authors: [alan-edelman, sivan-toledo]
+  - id: lior-horesh
+    papers:
+      - title: "PCE-Net : High-Dimensional Surrogate Modeling for Learning Uncertainty"
+        year: 2026
+        venue: "SIAM/ASA J. Uncertain. Quantification"
+        url: "https://doi.org/10.1137/24m1723838"
+        authors: [shashanka-ubaru, lior-horesh, haim-avron]
+        note: "pair has 27+ joint papers; representative subset"
+      - title: "Group-Algebraic Tensors: Provably-optimal Equivariant Learning and Physical Symmetry Discovery"
+        year: 2026
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2605.20440"
+        authors: [shashanka-ubaru, kenneth-clarkson, haim-avron, lior-horesh]
+      - title: "Analysis of Power Iteration Algorithm with Partially Observed Matrix-vector Products"
+        year: 2026
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2606.11956"
+        authors: [lior-horesh, shashanka-ubaru]
+      - title: "Counting Triangles of Graphs via Randomized Trace Estimation with Incomplete Matrix-Vector Products"
+        year: 2026
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2606.22629"
+        authors: [lior-horesh, shashanka-ubaru]
+      - title: "Comparing quantum and classical Monte Carlo algorithms for estimating Betti numbers of clique complexes"
+        year: 2025
+        venue: "Quantum"
+        url: "https://doi.org/10.22331/q-2025-10-31-1901"
+        authors: [lior-horesh, shashanka-ubaru]
+      - title: "Multivariate Trace Estimation Using Quantum State Space Linear Algebra"
+        year: 2025
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/24m1654749"
+        authors: [shashanka-ubaru, lior-horesh, haim-avron]
+      - title: "Power iteration with probabilistic updates for systems with heterogeneous performance"
+        year: 2025
+        venue: "HPEC"
+        url: "https://doi.org/10.1109/HPEC67600.2025.11196482"
+        authors: [lior-horesh, shashanka-ubaru]
+      - title: "A Framework For The Iterative Solution of Sparse Linear Systems on Hybrid Architectures Using Homomorphic Encryption"
+        year: 2025
+        venue: "HPEC"
+        url: "https://doi.org/10.1109/HPEC67600.2025.11196237"
+        authors: [lior-horesh, shashanka-ubaru]
+      - title: "Fast Linear Solvers via AI-Tuned Markov Chain Monte Carlo-based Matrix Inversion"
+        year: 2025
+        venue: "SC Workshops"
+        url: "https://doi.org/10.1145/3731599.3767543"
+        authors: [shashanka-ubaru, lior-horesh]
+      - title: "Finding Clustering Algorithms in the Transformer Architecture"
+        year: 2025
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2506.19125"
+        authors: [kenneth-clarkson, lior-horesh]
+      - title: "Surrogate-based quantification of policy uncertainty in generative flow networks"
+        year: 2025
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2510.21523"
+        authors: [shashanka-ubaru, lior-horesh]
+      - title: "Single-pass top-N subgraph centrality of graphs via subspace projections"
+        year: 2024
+        venue: "J. Complex Networks"
+        url: "https://doi.org/10.1093/comnet/cnae049"
+        authors: [shashanka-ubaru, lior-horesh]
+      - title: "Stable tensor neural networks for efficient deep learning"
+        year: 2024
+        venue: "Frontiers Big Data"
+        url: "https://doi.org/10.3389/fdata.2024.1363978"
+        authors: [elizabeth-newman, lior-horesh, haim-avron, misha-kilmer]
+      - title: "Asynchronous Randomized Trace Estimation"
+        year: 2024
+        venue: "AISTATS"
+        url: "https://proceedings.mlr.press/v238/kalantzis24a.html"
+        authors: [shashanka-ubaru, lior-horesh]
+      - title: "Topological data analysis on noisy quantum computers"
+        year: 2024
+        venue: "ICLR"
+        url: "https://openreview.net/forum?id=dLrhRIMVmB"
+        authors: [shashanka-ubaru, kenneth-clarkson, lior-horesh]
+      - title: "Counting Triangles of Graphs via Matrix Partitioning"
+        year: 2024
+        venue: "MLSP"
+        url: "https://doi.org/10.1109/MLSP58920.2024.10734796"
+        authors: [lior-horesh, shashanka-ubaru]
+      - title: "Multi-Function Multi-Way Analog Technology for Sustainable Machine Intelligence Computation"
+        year: 2024
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2401.13754"
+        authors: [shashanka-ubaru, haim-avron, lior-horesh]
+      - title: "Randomized linear solvers for computational architectures with straggling workers"
+        year: 2024
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2407.01098"
+        authors: [lior-horesh, yousef-saad]
+      - title: "Solving Sparse Linear Systems via Flexible GMRES with In-Memory Analog Preconditioning"
+        year: 2023
+        venue: "HPEC"
+        url: "https://doi.org/10.1109/HPEC58863.2023.10363502"
+        authors: [shashanka-ubaru, lior-horesh]
+      - title: "On Quantum Algorithms for Random Walks in the Nonnegative Quarter Plane"
+        year: 2022
+        venue: "SIGMETRICS Perform. Evaluation Rev."
+        url: "https://doi.org/10.1145/3561074.3561089"
+        authors: [shashanka-ubaru, lior-horesh]
+      - title: "Quantum-Inspired Algorithms from Randomized Numerical Linear Algebra"
+        year: 2022
+        venue: "ICML"
+        url: "https://proceedings.mlr.press/v162/chepurko22a.html"
+        authors: [kenneth-clarkson, lior-horesh, david-woodruff]
+      - title: "Towards Quantum Advantage on Noisy Quantum Computers"
+        year: 2022
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2209.09371"
+        authors: [shashanka-ubaru, kenneth-clarkson, lior-horesh]
+      - title: "Bayesian Experimental Design for Symbolic Discovery"
+        year: 2022
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2211.15860"
+        authors: [kenneth-clarkson, lior-horesh]
+      - title: "Dynamic graph and polynomial chaos based models for contact tracing data analysis and optimal testing prescription"
+        year: 2021
+        venue: "J. Biomed. Informatics"
+        url: "https://doi.org/10.1016/j.jbi.2021.103901"
+        authors: [shashanka-ubaru, lior-horesh]
+      - title: "Solving sparse linear systems with approximate inverse preconditioners on analog devices"
+        year: 2021
+        venue: "HPEC"
+        url: "https://doi.org/10.1109/HPEC49654.2021.9622816"
+        authors: [lior-horesh, haim-avron]
+      - title: "Sparse Graph Based Sketching for Fast Numerical Linear Algebra"
+        year: 2021
+        venue: "ICASSP"
+        url: "https://doi.org/10.1109/ICASSP39728.2021.9414030"
+        authors: [shashanka-ubaru, kenneth-clarkson, lior-horesh]
+      - title: "Projection techniques to update the truncated SVD of evolving matrices with applications"
+        year: 2021
+        venue: "ICML"
+        url: "http://proceedings.mlr.press/v139/kalantzis21a.html"
+        authors: [shashanka-ubaru, lior-horesh, kenneth-clarkson]
+      - title: "Dynamic Graph Convolutional Networks Using the Tensor M-Product"
+        year: 2021
+        venue: "SDM"
+        url: "https://doi.org/10.1137/1.9781611976700.82"
+        authors: [shashanka-ubaru, lior-horesh, misha-kilmer, haim-avron]
+      - title: "Quantum Topological Data Analysis with Linear Depth and Exponential Speedup"
+        year: 2021
+        venue: "CoRR"
+        url: "https://arxiv.org/abs/2108.02811"
+        authors: [shashanka-ubaru, kenneth-clarkson, lior-horesh]
+      - title: "Integration of Data and Theory for Accelerated Derivable Symbolic Discovery"
+        year: 2021
+        venue: "CoRR"
+        url: "https://arxiv.org/abs/2109.01634"
+        authors: [kenneth-clarkson, lior-horesh]
+      - title: "Tensor-Tensor Products for Optimal Representation and Compression"
+        year: 2020
+        venue: "CoRR"
+        url: "http://arxiv.org/abs/2001.00046"
+        authors: [misha-kilmer, lior-horesh, haim-avron, elizabeth-newman]
+      - title: "Projection techniques to update the truncated SVD of evolving matrices"
+        year: 2020
+        venue: "CoRR"
+        url: "https://arxiv.org/abs/2010.06392"
+        authors: [shashanka-ubaru, lior-horesh, kenneth-clarkson]
+      - title: "Tensor Graph Convolutional Networks for Prediction on Dynamic Graphs"
+        year: 2019
+        venue: "CoRR"
+        url: "http://arxiv.org/abs/1910.07643"
+        authors: [shashanka-ubaru, lior-horesh, misha-kilmer, haim-avron]
+      - title: "Experimental Design for Nonparametric Correction of Misspecified Dynamical Models"
+        year: 2018
+        venue: "SIAM/ASA J. Uncertain. Quantification"
+        url: "https://doi.org/10.1137/17M1128435"
+        authors: [lior-horesh, haim-avron]
+      - title: "Stable Tensor Neural Networks for Rapid Deep Learning"
+        year: 2018
+        venue: "CoRR"
+        url: "http://arxiv.org/abs/1811.06569"
+        authors: [elizabeth-newman, lior-horesh, haim-avron, misha-kilmer]
+      - title: "Image classification using local tensor singular value decompositions"
+        year: 2017
+        venue: "CAMSAP"
+        url: "https://doi.org/10.1109/CAMSAP.2017.8313137"
+        authors: [elizabeth-newman, misha-kilmer, lior-horesh]
+      - title: "Community Detection Using Time-Dependent Personalized PageRank"
+        year: 2015
+        venue: "ICML"
+        url: "http://proceedings.mlr.press/v37/avron15.html"
+        authors: [haim-avron, lior-horesh]
+  - id: james-demmel
+    papers:
+      - title: "Generalized Pseudospectral Shattering and Inverse-Free Matrix Pencil Diagonalization"
+        year: 2026
+        venue: "Found. Comput. Math."
+        url: "https://doi.org/10.1007/s10208-024-09682-7"
+        authors: [james-demmel, ioana-dumitriu, ryan-schneider]
+      - title: "Surrogate-Based Autotuning for Randomized Sketching Algorithms in Regression Problems"
+        year: 2025
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/23m1597526"
+        authors: [james-demmel, michal-derezinski, michael-mahoney, riley-murray]
+      - title: "CholeskyQR with Randomization and Pivoting for Tall Matrices (CQRRPT)"
+        year: 2025
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/24m163712x"
+        authors: [riley-murray, james-demmel, michael-mahoney]
+      - title: "Excvate: Spoofing Exceptions and Solving Constraints to Test Exception Handling in Numerical Libraries"
+        year: 2025
+        venue: "ARITH"
+        url: "https://doi.org/10.1109/ARITH64983.2025.00026"
+        authors: [james-demmel, xiaoye-sherry-li]
+        note: "pair has 26+ joint papers; representative subset"
+      - title: "Parallel GPU-Accelerated Randomized Construction of Approximate Cholesky Preconditioners"
+        year: 2025
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2505.02977"
+        authors: [xiaoye-sherry-li, james-demmel]
+      - title: "Structured Divide-and-Conquer for the Definite Generalized Eigenvalue Problem"
+        year: 2025
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2505.21917"
+        authors: [james-demmel, ioana-dumitriu, ryan-schneider]
+      - title: "Minimizing the Arithmetic and Communication Complexity of Jacobi's Method for Eigenvalues and Singular Values"
+        year: 2025
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2506.03466"
+        authors: [james-demmel, ryan-schneider]
+      - title: "Anatomy of High-Performance Column-Pivoted QR Decomposition"
+        year: 2025
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2507.00976"
+        authors: [riley-murray, james-demmel, michael-mahoney]
+      - title: "Non-smooth Bayesian optimization in tuning scientific applications"
+        year: 2024
+        venue: "Int. J. High Perform. Comput. Appl."
+        url: "https://doi.org/10.1177/10943420241278981"
+        authors: [james-demmel, xiaoye-sherry-li]
+      - title: "Hybrid Parameter Search and Dynamic Model Selection for Mixed-Variable Bayesian Optimization"
+        year: 2024
+        venue: "J. Comput. Graph. Stat."
+        url: "https://doi.org/10.1080/10618600.2024.2308216"
+        authors: [james-demmel, xiaoye-sherry-li]
+      - title: "Fast multiplication of random dense matrices with sparse matrices"
+        year: 2024
+        venue: "IPDPS"
+        url: "https://doi.org/10.1109/IPDPS57955.2024.00014"
+        authors: [riley-murray, james-demmel]
+      - title: "Distributed-Memory Randomized Algorithms for Sparse Tensor CP Decomposition"
+        year: 2024
+        venue: "SPAA"
+        url: "https://doi.org/10.1145/3626183.3659980"
+        authors: [riley-murray, james-demmel]
+      - title: "Interface for Sparse Linear Algebra Operations"
+        year: 2024
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2411.13259"
+        authors: [james-demmel, xiaoye-sherry-li, riley-murray]
+      - title: "An Improved Analysis and Unified Perspective on Deterministic and Randomized Low-Rank Matrix Approximation"
+        year: 2023
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/21m1391316"
+        authors: [james-demmel, laura-grigori]
+      - title: "Harnessing the Crowd for Autotuning High-Performance Computing Applications"
+        year: 2023
+        venue: "IPDPS"
+        url: "https://doi.org/10.1109/IPDPS54959.2023.00069"
+        authors: [james-demmel, xiaoye-sherry-li]
+      - title: "Fast Exact Leverage Score Sampling from Khatri-Rao Products with Applications to Tensor Decomposition"
+        year: 2023
+        venue: "NeurIPS"
+        url: "http://papers.nips.cc/paper_files/paper/2023/hash/959f70ee50044bed305e48e3484005a7-Abstract-Conference.html"
+        authors: [riley-murray, laura-grigori, james-demmel]
+      - title: "Randomized Numerical Linear Algebra : A Perspective on the Field With an Eye to Software"
+        year: 2023
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2302.11474"
+        authors: [riley-murray, james-demmel, michael-mahoney, laura-grigori, michal-derezinski]
+      - title: "Fast multiplication of random dense matrices with fixed sparse matrices"
+        year: 2023
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2310.15419"
+        authors: [riley-murray, james-demmel]
+      - title: "Proposed Consistent Exception Handling for the BLAS and LAPACK"
+        year: 2022
+        venue: "Correctness@SC"
+        url: "https://doi.org/10.1109/Correctness56720.2022.00006"
+        authors: [james-demmel, julien-langou, xiaoye-sherry-li]
+      - title: "Communication bounds for convolutional neural networks"
+        year: 2022
+        venue: "PASC"
+        url: "https://doi.org/10.1145/3539781.3539784"
+        authors: [james-demmel, olga-holtz]
+      - title: "Hybrid Models for Mixed Variables in Bayesian Optimization"
+        year: 2022
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2206.01409"
+        authors: [james-demmel, xiaoye-sherry-li]
+      - title: "Parallel and Communication Avoiding Least Angle Regression"
+        year: 2021
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/19M1305720"
+        authors: [james-demmel, laura-grigori, michael-mahoney]
+      - title: "Enhancing Autotuning Capability with a History Database"
+        year: 2021
+        venue: "MCSoC"
+        url: "https://doi.org/10.1109/MCSoC51149.2021.00044"
+        authors: [james-demmel, xiaoye-sherry-li]
+      - title: "GPTune: multitask learning for autotuning exascale applications"
+        year: 2021
+        venue: "PPoPP"
+        url: "https://doi.org/10.1145/3437801.3441621"
+        authors: [james-demmel, xiaoye-sherry-li]
+      - title: "Non-smooth Bayesian Optimization in Tuning Problems"
+        year: 2021
+        venue: "CoRR"
+        url: "https://arxiv.org/abs/2109.07563"
+        authors: [james-demmel, xiaoye-sherry-li]
+      - title: "Avoiding Communication in Primal and Dual Block Coordinate Descent Methods"
+        year: 2019
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/17M1134433"
+        authors: [james-demmel, michael-mahoney]
+      - title: "A Generalized Randomized Rank-Revealing Factorization"
+        year: 2019
+        venue: "CoRR"
+        url: "http://arxiv.org/abs/1909.06524"
+        authors: [james-demmel, ioana-dumitriu]
+      - title: "An improved analysis and unified perspective on deterministic and randomized low rank matrix approximations"
+        year: 2019
+        venue: "CoRR"
+        url: "http://arxiv.org/abs/1910.00223"
+        authors: [james-demmel, laura-grigori]
+      - title: "Low Rank Approximation of a Sparse Matrix Based on LU Factorization with Column and Row Tournament Pivoting"
+        year: 2018
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/16M1074527"
+        authors: [laura-grigori, james-demmel]
+      - title: "Avoiding Synchronization in First-Order Methods for Sparse Convex Optimization"
+        year: 2018
+        venue: "IPDPS"
+        url: "https://doi.org/10.1109/IPDPS.2018.00051"
+        authors: [james-demmel, michael-mahoney]
+      - title: "A 3D Parallel Algorithm for QR Decomposition"
+        year: 2018
+        venue: "SPAA"
+        url: "https://doi.org/10.1145/3210377.3210415"
+        authors: [james-demmel, laura-grigori]
+      - title: "Exploiting Multiple Levels of Parallelism in Sparse Matrix-Matrix Multiplication"
+        year: 2016
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/15M104253X"
+        authors: [james-demmel, laura-grigori, sivan-toledo]
+      - title: "Matrix factorizations at scale: A comparison of scientific data analytics in spark and C+MPI using three case studies"
+        year: 2016
+        venue: "IEEE BigData"
+        url: "https://doi.org/10.1109/BigData.2016.7840606"
+        authors: [james-demmel, michael-mahoney]
+      - title: "Write-Avoiding Algorithms"
+        year: 2016
+        venue: "IPDPS"
+        url: "https://doi.org/10.1109/IPDPS.2016.114"
+        authors: [erin-carson, james-demmel, laura-grigori]
+      - title: "Network Topologies and Inevitable Contention"
+        year: 2016
+        venue: "COMHPC@SC"
+        url: "https://doi.org/10.1109/COMHPC.2016.010"
+        authors: [james-demmel, sivan-toledo]
+      - title: "Matrix Factorization at Scale: a Comparison of Scientific Data Analytics in Spark and C+MPI Using Three Case Studies"
+        year: 2016
+        venue: "CoRR"
+        url: "http://arxiv.org/abs/1607.01335"
+        authors: [james-demmel, michael-mahoney]
+      - title: "Reconstructing Householder vectors from Tall-Skinny QR"
+        year: 2015
+        venue: "J. Parallel Distributed Comput."
+        url: "https://doi.org/10.1016/j.jpdc.2015.06.003"
+        authors: [james-demmel, laura-grigori]
+      - title: "Communication Avoiding Rank Revealing QR Factorization with Column Pivoting"
+        year: 2015
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/13092157X"
+        authors: [james-demmel, laura-grigori, ming-gu]
+      - title: "Accuracy of the s-Step Lanczos Method for the Symmetric Eigenproblem in Finite Precision"
+        year: 2015
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/140990735"
+        authors: [erin-carson, james-demmel]
+      - title: "Communication lower bounds and optimal algorithms for numerical linear algebra"
+        year: 2014
+        venue: "Acta Numer."
+        url: "https://doi.org/10.1017/S0962492914000038"
+        authors: [erin-carson, james-demmel]
+      - title: "Communication costs of Strassen's matrix multiplication"
+        year: 2014
+        venue: "Commun. ACM"
+        url: "https://doi.org/10.1145/2556647.2556660"
+        authors: [james-demmel, olga-holtz]
+      - title: "A Residual Replacement Strategy for Improving the Maximum Attainable Accuracy of s-Step Krylov Subspace Methods"
+        year: 2014
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/120893057"
+        authors: [erin-carson, james-demmel]
+      - title: "Communication-Avoiding Symmetric-Indefinite Factorization"
+        year: 2014
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/130929060"
+        authors: [james-demmel, sivan-toledo]
+      - title: "s-Step Krylov Subspace Methods as Bottom Solvers for Geometric Multigrid"
+        year: 2014
+        venue: "IPDPS"
+        url: "https://doi.org/10.1109/IPDPS.2014.119"
+        authors: [erin-carson, james-demmel]
+      - title: "Tradeoffs between synchronization, communication, and computation in parallel linear algebra computations"
+        year: 2014
+        venue: "SPAA"
+        url: "https://doi.org/10.1145/2612669.2612671"
+        authors: [erin-carson, james-demmel]
+      - title: "LU Factorization with Panel Rank Revealing Pivoting and Its Communication Avoiding Version"
+        year: 2013
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/120863691"
+        authors: [james-demmel, laura-grigori, ming-gu]
+      - title: "Implementing a Blocked Aasen's Algorithm with a Dynamic Scheduler on Multicore Architectures"
+        year: 2013
+        venue: "IPDPS"
+        url: "https://doi.org/10.1109/IPDPS.2013.98"
+        authors: [james-demmel, sivan-toledo]
+      - title: "Communication optimal parallel multiplication of sparse random matrices"
+        year: 2013
+        venue: "SPAA"
+        url: "https://doi.org/10.1145/2486159.2486196"
+        authors: [james-demmel, laura-grigori, sivan-toledo]
+      - title: "Communication efficient gaussian elimination with partial pivoting using a shape morphing data layout"
+        year: 2013
+        venue: "SPAA"
+        url: "https://doi.org/10.1145/2486159.2486198"
+        authors: [james-demmel, sivan-toledo]
+      - title: "Graph expansion and communication costs of fast matrix multiplication"
+        year: 2012
+        venue: "J. ACM"
+        url: "https://doi.org/10.1145/2395116.2395121"
+        authors: [james-demmel, olga-holtz]
+      - title: "Communication-optimal Parallel and Sequential QR and LU Factorizations"
+        year: 2012
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/080731992"
+        authors: [james-demmel, laura-grigori, julien-langou]
+      - title: "Graph Expansion Analysis for Communication Costs of Fast Rectangular Matrix Multiplication"
+        year: 2012
+        venue: "MedAlg"
+        url: "https://doi.org/10.1007/978-3-642-34862-4_2"
+        authors: [james-demmel, olga-holtz]
+      - title: "Brief announcement: strong scaling of matrix multiplication algorithms and memory-independent communication lower bounds"
+        year: 2012
+        venue: "SPAA"
+        url: "https://doi.org/10.1145/2312005.2312021"
+        authors: [james-demmel, olga-holtz]
+      - title: "Communication-optimal parallel algorithm for strassen's matrix multiplication"
+        year: 2012
+        venue: "SPAA"
+        url: "https://doi.org/10.1145/2312005.2312044"
+        authors: [james-demmel, olga-holtz]
+      - title: "Strong Scaling of Matrix Multiplication Algorithms and Memory-Independent Communication Lower Bounds"
+        year: 2012
+        venue: "CoRR"
+        url: "http://arxiv.org/abs/1202.3177"
+        authors: [james-demmel, olga-holtz]
+      - title: "Minimizing Communication in Numerical Linear Algebra"
+        year: 2011
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/090769156"
+        authors: [james-demmel, olga-holtz]
+      - title: "CALU: A Communication Optimal LU Factorization Algorithm"
+        year: 2011
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/100788926"
+        authors: [laura-grigori, james-demmel]
+      - title: "Graph expansion and communication costs of fast matrix multiplication: regular submission"
+        year: 2011
+        venue: "SPAA"
+        url: "https://doi.org/10.1145/1989493.1989495"
+        authors: [james-demmel, olga-holtz]
+      - title: "SuperLU"
+        year: 2011
+        venue: "Encyclopedia of Parallel Computing"
+        url: "https://doi.org/10.1007/978-0-387-09766-4_95"
+        authors: [xiaoye-sherry-li, james-demmel, laura-grigori]
+      - title: "Communication-optimal Parallel and Sequential Cholesky Decomposition"
+        year: 2010
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/090760969"
+        authors: [james-demmel, olga-holtz]
+      - title: "Brief announcement: Lower bounds on communication for sparse Cholesky factorization of a model problem"
+        year: 2010
+        venue: "SPAA"
+        url: "https://doi.org/10.1145/1810479.1810496"
+        authors: [laura-grigori, james-demmel]
+      - title: "Minimizing Communication for Eigenproblems and the Singular Value Decomposition"
+        year: 2010
+        venue: "CoRR"
+        url: "http://arxiv.org/abs/1011.3077"
+        authors: [james-demmel, ioana-dumitriu]
+      - title: "Extra-Precise Iterative Refinement for Overdetermined Least Squares Problems"
+        year: 2009
+        venue: "ACM Trans. Math. Softw."
+        url: "https://doi.org/10.1145/1462173.1462177"
+        authors: [james-demmel, xiaoye-sherry-li]
+      - title: "Communication-optimal parallel and sequential Cholesky decomposition: extended abstract"
+        year: 2009
+        venue: "SPAA"
+        url: "https://doi.org/10.1145/1583991.1584054"
+        authors: [james-demmel, olga-holtz]
+      - title: "Minimizing Communication in Linear Algebra"
+        year: 2009
+        venue: "CoRR"
+        url: "http://arxiv.org/abs/0905.2485"
+        authors: [james-demmel, olga-holtz]
+      - title: "Global minimization of rational functions and the nearest GCDs"
+        year: 2008
+        venue: "J. Glob. Optim."
+        url: "https://doi.org/10.1007/s10898-006-9119-8"
+        authors: [james-demmel, ming-gu]
+      - title: "Continuation of Invariant Subspaces in Large Bifurcation Problems"
+        year: 2008
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/060654219"
+        authors: [david-bindel, james-demmel]
+      - title: "Communication avoiding Gaussian elimination"
+        year: 2008
+        venue: "SC"
+        url: "https://doi.org/10.1109/SC.2008.5214287"
+        authors: [laura-grigori, james-demmel]
+      - title: "Communication-avoiding parallel and sequential QR factorizations"
+        year: 2008
+        venue: "CoRR"
+        url: "http://arxiv.org/abs/0806.2159"
+        authors: [james-demmel, laura-grigori, julien-langou]
+      - title: "Fast matrix multiplication is stable"
+        year: 2007
+        venue: "Numerische Mathematik"
+        url: "https://doi.org/10.1007/s00211-007-0061-6"
+        authors: [james-demmel, ioana-dumitriu, olga-holtz]
+      - title: "Fast linear algebra is stable"
+        year: 2007
+        venue: "Numerische Mathematik"
+        url: "https://doi.org/10.1007/s00211-007-0114-x"
+        authors: [james-demmel, ioana-dumitriu, olga-holtz]
+      - title: "Parallel Symbolic Factorization for Sparse LU with Static Pivoting"
+        year: 2007
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/050638102"
+        authors: [laura-grigori, james-demmel, xiaoye-sherry-li]
+      - title: "Prospectus for a Dense Linear Algebra Software Library"
+        year: 2007
+        venue: "Handbook of Parallel Computing"
+        url: "https://doi.org/10.1201/9781420011296.ch29"
+        authors: [james-demmel, julien-langou, ming-gu, xiaoye-sherry-li, david-bindel]
+      - title: "Accurate and Efficient Expression Evaluation and Linear Algebra"
+        year: 2007
+        venue: "CoRR"
+        url: "http://arxiv.org/abs/0712.4027"
+        authors: [james-demmel, ioana-dumitriu, olga-holtz]
+      - title: "Error bounds from extra-precise iterative refinement"
+        year: 2006
+        venue: "ACM Trans. Math. Softw."
+        url: "https://doi.org/10.1145/1141885.1141894"
+        authors: [james-demmel, xiaoye-sherry-li]
+      - title: "Prospectus for the Next LAPACK and ScaLAPACK Libraries"
+        year: 2006
+        venue: "PARA"
+        url: "https://doi.org/10.1007/978-3-540-75755-9_2"
+        authors: [james-demmel, ming-gu, david-bindel, xiaoye-sherry-li, julien-langou]
+      - title: "Bifurcation Analysis of Large Equilibrium Systems in Matlab"
+        year: 2005
+        venue: "International Conference on Computational Science (1)"
+        url: "https://doi.org/10.1007/11428831_7"
+        authors: [david-bindel, james-demmel]
+      - title: "Toward accurate polynomial evaluation in rounded arithmetic (short report)"
+        year: 2005
+        venue: "Algebraic and Numerical Algorithms and Computer-assisted Proofs"
+        url: "http://drops.dagstuhl.de/opus/volltexte/2006/447"
+        authors: [james-demmel, ioana-dumitriu, olga-holtz]
+      - title: "Toward accurate polynomial evaluation in rounded arithmetic"
+        year: 2005
+        venue: "CoRR"
+        url: "http://arxiv.org/abs/math/0508350"
+        authors: [james-demmel, ioana-dumitriu, olga-holtz]
+      - title: "Model Reduction for RF MEMS Simulation"
+        year: 2004
+        venue: "PARA"
+        url: "https://doi.org/10.1007/11558958_34"
+        authors: [david-bindel, zhaojun-bai, james-demmel]
+      - title: "SuperLU_DIST: A scalable distributed-memory sparse direct solver for unsymmetric linear systems"
+        year: 2003
+        venue: "ACM Trans. Math. Softw."
+        url: "https://doi.org/10.1145/779359.779361"
+        authors: [xiaoye-sherry-li, james-demmel]
+      - title: "Design, implementation and testing of extended and mixed precision BLAS"
+        year: 2002
+        venue: "ACM Trans. Math. Softw."
+        url: "https://doi.org/10.1145/567806.567808"
+        authors: [xiaoye-sherry-li, james-demmel]
+      - title: "On computing givens rotations reliably and efficiently"
+        year: 2002
+        venue: "ACM Trans. Math. Softw."
+        url: "https://doi.org/10.1145/567806.567809"
+        authors: [david-bindel, james-demmel]
+      - title: "Non-Hermitian Eigenvalue Problems"
+        year: 2000
+        venue: "Templates for the Solution of Algebraic Eigenvalue Problems"
+        url: "https://doi.org/10.1137/1.9780898719581.ch7"
+        authors: [james-demmel, ming-gu, yousef-saad, zhaojun-bai]
+      - title: "Common Issues"
+        year: 2000
+        venue: "Templates for the Solution of Algebraic Eigenvalue Problems"
+        url: "https://doi.org/10.1137/1.9780898719581.ch10"
+        authors: [xiaoye-sherry-li, james-demmel]
+      - title: "A Supernodal Approach to Sparse Partial Pivoting"
+        year: 1999
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/S0895479895291765"
+        authors: [james-demmel, xiaoye-sherry-li]
+      - title: "An Asynchronous Parallel Supernodal Algorithm for Sparse Gaussian Elimination"
+        year: 1999
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/S0895479897317685"
+        authors: [james-demmel, xiaoye-sherry-li]
+      - title: "A Scalable Sparse Direct Solver Using Static Pivoting"
+        year: 1999
+        venue: "PP"
+        url: ""
+        authors: [xiaoye-sherry-li, james-demmel]
+      - title: "Using the Matrix Sign Function to Compute Invariant Subspaces"
+        year: 1998
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/s0895479896297719"
+        authors: [zhaojun-bai, james-demmel]
+      - title: "Making Sparse Gaussian Elimination Scalable by Static Pivoting"
+        year: 1998
+        venue: "SC"
+        url: "https://doi.org/10.1109/SC.1998.10030"
+        authors: [xiaoye-sherry-li, james-demmel]
+      - title: "The Spectral Decomposition of Nonsymmetric Matrices on Distributed Memory Parallel Computers"
+        year: 1997
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/S1064827595281368"
+        authors: [zhaojun-bai, james-demmel]
+      - title: "Stability of block LU factorization"
+        year: 1995
+        venue: "Numer. Linear Algebra Appl."
+        url: "https://doi.org/10.1002/nla.1680020208"
+        authors: [james-demmel, nicholas-higham]
+      - title: "Templates for Linear Algebra Problems"
+        year: 1995
+        venue: "Computer Science Today"
+        url: "https://doi.org/10.1007/BFb0015240"
+        authors: [zhaojun-bai, james-demmel, ming-gu]
+      - title: "Faster Numerical Algorithms via Exception Handling"
+        year: 1994
+        venue: "IEEE Trans. Computers"
+        url: "https://doi.org/10.1109/12.295860"
+        authors: [james-demmel, xiaoye-sherry-li]
+      - title: "Improved Error Bounds for Underdetermined System Solvers"
+        year: 1993
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/0614001"
+        authors: [james-demmel, nicholas-higham]
+      - title: "Computing the Generalized Singular Value Decomposition"
+        year: 1993
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/0914085"
+        authors: [zhaojun-bai, james-demmel]
+      - title: "On computing condition numbers for the nonsymmetric eigenproblem"
+        year: 1993
+        venue: "ACM Trans. Math. Softw."
+        url: "https://doi.org/10.1145/152613.152617"
+        authors: [zhaojun-bai, james-demmel]
+      - title: "Design of a Parallel Nonsymmetric Eigenroutine Toolbox, Part I"
+        year: 1993
+        venue: "PPSC"
+        url: ""
+        authors: [zhaojun-bai, james-demmel]
+      - title: "Stability of block algorithms with fast level-3 BLAS"
+        year: 1992
+        venue: "ACM Trans. Math. Softw."
+        url: "https://doi.org/10.1145/131766.131769"
+        authors: [james-demmel, nicholas-higham]
+      - title: "LAPACK: a portable linear algebra library for high-performance computers"
+        year: 1990
+        venue: "SC"
+        url: "https://doi.org/10.1109/SUPERC.1990.129995"
+        authors: [zhaojun-bai, anne-greenbaum, james-demmel]
+      - title: "On a Block Implementation of Hessenberg Multishift QR Iteration"
+        year: 1989
+        venue: "Int. J. High Speed Comput."
+        url: "https://doi.org/10.1142/S0129053389000068"
+        authors: [zhaojun-bai, james-demmel]
+  - id: laura-grigori
+    papers:
+      - title: "Restoring similarity in randomized Krylov methods with applications to eigenvalue problems and matrix functions"
+        year: 2026
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2601.10248"
+        authors: [laura-grigori, daniel-kressner, igor-simunec]
+      - title: "Attention Mechanisms Through the Lens of Numerical Methods: Approximation Methods and Alternative Formulations"
+        year: 2026
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2604.01757"
+        authors: [alice-cortinovis, yijun-dong, diana-halikias, anna-ma, deanna-needell, katherine-pearce, elizaveta-rebrova, rudi-smith, laura-grigori]
+      - title: "Randomized strong rank-revealing QR for column subset selection and low-rank matrix approximation"
+        year: 2025
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2503.18496"
+        authors: [laura-grigori, zhipeng-xue]
+      - title: "Efficient QR-based Column Subset Selection through Randomized Sparse Embeddings"
+        year: 2025
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2509.03198"
+        authors: [israa-fakih, laura-grigori]
+      - title: "Randomized biorthogonalization through a two-sided Gram-Schmidt process"
+        year: 2025
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2509.04386"
+        authors: [laura-grigori, lorenzo-piccinini, igor-simunec]
+      - title: "Adaptive Randomized Tensor Train Rounding using Khatri-Rao Products"
+        year: 2025
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2511.03598"
+        authors: [laura-grigori, mariana-martinez-aguilar, arvind-saibaba]
+      - title: "Randomized orthogonalization and Krylov subspace methods: principles and algorithms"
+        year: 2025
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2512.15455"
+        authors: [laura-grigori, igor-simunec]
+      - title: "An Improved Analysis and Unified Perspective on Deterministic and Randomized Low-Rank Matrix Approximation"
+        year: 2023
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/21m1391316"
+        authors: [james-demmel, laura-grigori]
+      - title: "Fast Exact Leverage Score Sampling from Khatri-Rao Products with Applications to Tensor Decomposition"
+        year: 2023
+        venue: "NeurIPS"
+        url: "http://papers.nips.cc/paper_files/paper/2023/hash/959f70ee50044bed305e48e3484005a7-Abstract-Conference.html"
+        authors: [riley-murray, laura-grigori, james-demmel]
+      - title: "Randomized Numerical Linear Algebra : A Perspective on the Field With an Eye to Software"
+        year: 2023
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2302.11474"
+        authors: [riley-murray, james-demmel, michael-mahoney, laura-grigori, michal-derezinski]
+      - title: "Parallel and Communication Avoiding Least Angle Regression"
+        year: 2021
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/19M1305720"
+        authors: [james-demmel, laura-grigori, michael-mahoney]
+      - title: "An improved analysis and unified perspective on deterministic and randomized low rank matrix approximations"
+        year: 2019
+        venue: "CoRR"
+        url: "http://arxiv.org/abs/1910.00223"
+        authors: [james-demmel, laura-grigori]
+      - title: "Low Rank Approximation of a Sparse Matrix Based on LU Factorization with Column and Row Tournament Pivoting"
+        year: 2018
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/16M1074527"
+        authors: [laura-grigori, james-demmel]
+      - title: "A 3D Parallel Algorithm for QR Decomposition"
+        year: 2018
+        venue: "SPAA"
+        url: "https://doi.org/10.1145/3210377.3210415"
+        authors: [james-demmel, laura-grigori]
+      - title: "Exploiting Multiple Levels of Parallelism in Sparse Matrix-Matrix Multiplication"
+        year: 2016
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/15M104253X"
+        authors: [james-demmel, laura-grigori, sivan-toledo]
+      - title: "Write-Avoiding Algorithms"
+        year: 2016
+        venue: "IPDPS"
+        url: "https://doi.org/10.1109/IPDPS.2016.114"
+        authors: [erin-carson, james-demmel, laura-grigori]
+      - title: "Reconstructing Householder vectors from Tall-Skinny QR"
+        year: 2015
+        venue: "J. Parallel Distributed Comput."
+        url: "https://doi.org/10.1016/j.jpdc.2015.06.003"
+        authors: [james-demmel, laura-grigori]
+      - title: "Communication Avoiding Rank Revealing QR Factorization with Column Pivoting"
+        year: 2015
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/13092157X"
+        authors: [james-demmel, laura-grigori, ming-gu]
+      - title: "LU Factorization with Panel Rank Revealing Pivoting and Its Communication Avoiding Version"
+        year: 2013
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/120863691"
+        authors: [james-demmel, laura-grigori, ming-gu]
+      - title: "Topic 10: Parallel Numerical Algorithms - (Introduction)"
+        year: 2013
+        venue: "Euro-Par"
+        url: "https://doi.org/10.1007/978-3-642-40047-6_49"
+        authors: [julien-langou, laura-grigori]
+      - title: "Communication optimal parallel multiplication of sparse random matrices"
+        year: 2013
+        venue: "SPAA"
+        url: "https://doi.org/10.1145/2486159.2486196"
+        authors: [james-demmel, laura-grigori, sivan-toledo]
+      - title: "Communication-optimal Parallel and Sequential QR and LU Factorizations"
+        year: 2012
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/080731992"
+        authors: [james-demmel, laura-grigori, julien-langou]
+      - title: "CALU: A Communication Optimal LU Factorization Algorithm"
+        year: 2011
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/100788926"
+        authors: [laura-grigori, james-demmel]
+      - title: "SuperLU"
+        year: 2011
+        venue: "Encyclopedia of Parallel Computing"
+        url: "https://doi.org/10.1007/978-0-387-09766-4_95"
+        authors: [xiaoye-sherry-li, james-demmel, laura-grigori]
+      - title: "Brief announcement: Lower bounds on communication for sparse Cholesky factorization of a model problem"
+        year: 2010
+        venue: "SPAA"
+        url: "https://doi.org/10.1145/1810479.1810496"
+        authors: [laura-grigori, james-demmel]
+      - title: "Communication avoiding Gaussian elimination"
+        year: 2008
+        venue: "SC"
+        url: "https://doi.org/10.1109/SC.2008.5214287"
+        authors: [laura-grigori, james-demmel]
+      - title: "Communication-avoiding parallel and sequential QR factorizations"
+        year: 2008
+        venue: "CoRR"
+        url: "http://arxiv.org/abs/0806.2159"
+        authors: [james-demmel, laura-grigori, julien-langou]
+      - title: "Towards an accurate performance modeling of parallel sparse factorization"
+        year: 2007
+        venue: "Appl. Algebra Eng. Commun. Comput."
+        url: "https://doi.org/10.1007/s00200-007-0036-y"
+        authors: [laura-grigori, xiaoye-sherry-li]
+      - title: "Parallel Symbolic Factorization for Sparse LU with Static Pivoting"
+        year: 2007
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/050638102"
+        authors: [laura-grigori, james-demmel, xiaoye-sherry-li]
+      - title: "Performance Analysis of Parallel Right-Looking Sparse LU Factorization on Two Dimensional Grids of Processors"
+        year: 2004
+        venue: "PARA"
+        url: "https://doi.org/10.1007/11558958_93"
+        authors: [laura-grigori, xiaoye-sherry-li]
+      - title: "A new scheduling algorithm for parallel sparse LU factorization with static pivoting"
+        year: 2002
+        venue: "SC"
+        url: "https://doi.org/10.1109/SC.2002.10032"
+        authors: [laura-grigori, xiaoye-sherry-li]
+  - id: erin-carson
+    papers:
+      - title: "A Comparison of Mixed Precision Iterative Refinement Approaches for Least-Squares Problems"
+        year: 2025
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/24m1664927"
+        authors: [erin-carson, ieva-dauzickaite]
+      - title: "Mixed Precision Sketching for Least-Squares Problems and its Application in GMRES-Based Iterative Refinement"
+        year: 2025
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/24m1702246"
+        authors: [erin-carson, ieva-dauzickaite]
+      - title: "Single-Pass Nyström Approximation in Mixed Precision"
+        year: 2024
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/22m154079x"
+        authors: [erin-carson, ieva-dauzickaite]
+      - title: "The stability of split-preconditioned FGMRES in four precisions"
+        year: 2023
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2303.11901"
+        authors: [erin-carson, ieva-dauzickaite]
+      - title: "70 years of Krylov subspace methods: The journey continues"
+        year: 2022
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2211.00953"
+        authors: [erin-carson, jorg-liesen, zdenek-strakos]
+      - title: "A survey of numerical linear algebra methods utilizing mixed-precision arithmetic"
+        year: 2021
+        venue: "Int. J. High Perform. Comput. Appl."
+        url: "https://doi.org/10.1177/10943420211003313"
+        authors: [erin-carson, nicholas-higham, xiaoye-sherry-li]
+      - title: "Predict-and-Recompute Conjugate Gradient Variants"
+        year: 2020
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/19M1276856"
+        authors: [tyler-chen, erin-carson]
+      - title: "Three-Precision GMRES-Based Iterative Refinement for Least Squares Problems"
+        year: 2020
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/20M1316822"
+        authors: [erin-carson, nicholas-higham]
+      - title: "A Survey of Numerical Methods Utilizing Mixed Precision Arithmetic"
+        year: 2020
+        venue: "CoRR"
+        url: "https://arxiv.org/abs/2007.06674"
+        authors: [erin-carson, nicholas-higham, xiaoye-sherry-li]
+      - title: "Accelerating the Solution of Linear Systems by Iterative Refinement in Three Precisions"
+        year: 2018
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/17M1140819"
+        authors: [erin-carson, nicholas-higham]
+      - title: "A New Analysis of Iterative Refinement and Its Application to Accurate Solution of Ill-Conditioned Sparse Linear Systems"
+        year: 2017
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/17M1122918"
+        authors: [erin-carson, nicholas-higham]
+      - title: "Write-Avoiding Algorithms"
+        year: 2016
+        venue: "IPDPS"
+        url: "https://doi.org/10.1109/IPDPS.2016.114"
+        authors: [erin-carson, james-demmel, laura-grigori]
+      - title: "Accuracy of the s-Step Lanczos Method for the Symmetric Eigenproblem in Finite Precision"
+        year: 2015
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/140990735"
+        authors: [erin-carson, james-demmel]
+      - title: "Communication lower bounds and optimal algorithms for numerical linear algebra"
+        year: 2014
+        venue: "Acta Numer."
+        url: "https://doi.org/10.1017/S0962492914000038"
+        authors: [erin-carson, james-demmel]
+      - title: "A Residual Replacement Strategy for Improving the Maximum Attainable Accuracy of s-Step Krylov Subspace Methods"
+        year: 2014
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/120893057"
+        authors: [erin-carson, james-demmel]
+      - title: "s-Step Krylov Subspace Methods as Bottom Solvers for Geometric Multigrid"
+        year: 2014
+        venue: "IPDPS"
+        url: "https://doi.org/10.1109/IPDPS.2014.119"
+        authors: [erin-carson, james-demmel]
+      - title: "Tradeoffs between synchronization, communication, and computation in parallel linear algebra computations"
+        year: 2014
+        venue: "SPAA"
+        url: "https://doi.org/10.1145/2612669.2612671"
+        authors: [erin-carson, james-demmel]
+  - id: xiaoye-sherry-li
+    papers:
+      - title: "Elucidating the Design Choice of Probability Paths in Flow Matching for Forecasting"
+        year: 2025
+        venue: "Trans. Mach. Learn. Res."
+        url: "https://openreview.net/forum?id=JApMDLwbLR"
+        authors: [michael-mahoney, xiaoye-sherry-li]
+      - title: "Excvate: Spoofing Exceptions and Solving Constraints to Test Exception Handling in Numerical Libraries"
+        year: 2025
+        venue: "ARITH"
+        url: "https://doi.org/10.1109/ARITH64983.2025.00026"
+        authors: [james-demmel, xiaoye-sherry-li]
+        note: "pair has 26+ joint papers; representative subset"
+      - title: "Parallel GPU-Accelerated Randomized Construction of Approximate Cholesky Preconditioners"
+        year: 2025
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2505.02977"
+        authors: [xiaoye-sherry-li, james-demmel]
+      - title: "Non-smooth Bayesian optimization in tuning scientific applications"
+        year: 2024
+        venue: "Int. J. High Perform. Comput. Appl."
+        url: "https://doi.org/10.1177/10943420241278981"
+        authors: [james-demmel, xiaoye-sherry-li]
+      - title: "Hybrid Parameter Search and Dynamic Model Selection for Mixed-Variable Bayesian Optimization"
+        year: 2024
+        venue: "J. Comput. Graph. Stat."
+        url: "https://doi.org/10.1080/10618600.2024.2308216"
+        authors: [james-demmel, xiaoye-sherry-li]
+      - title: "Forecasting high-dimensional spatio-temporal systems from sparse measurements"
+        year: 2024
+        venue: "Mach. Learn. Sci. Technol."
+        url: "https://doi.org/10.1088/2632-2153/ad9883"
+        authors: [michael-mahoney, xiaoye-sherry-li]
+      - title: "Interface for Sparse Linear Algebra Operations"
+        year: 2024
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2411.13259"
+        authors: [james-demmel, xiaoye-sherry-li, riley-murray]
+      - title: "Harnessing the Crowd for Autotuning High-Performance Computing Applications"
+        year: 2023
+        venue: "IPDPS"
+        url: "https://doi.org/10.1109/IPDPS54959.2023.00069"
+        authors: [james-demmel, xiaoye-sherry-li]
+      - title: "Proposed Consistent Exception Handling for the BLAS and LAPACK"
+        year: 2022
+        venue: "Correctness@SC"
+        url: "https://doi.org/10.1109/Correctness56720.2022.00006"
+        authors: [james-demmel, julien-langou, xiaoye-sherry-li]
+      - title: "GPTuneBand: Multi-task and Multi-fidelity Autotuning for Large-scale High Performance Computing Applications"
+        year: 2022
+        venue: "PP"
+        url: "https://doi.org/10.1137/1.9781611977141.1"
+        authors: [david-bindel, xiaoye-sherry-li]
+      - title: "Hybrid Models for Mixed Variables in Bayesian Optimization"
+        year: 2022
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2206.01409"
+        authors: [james-demmel, xiaoye-sherry-li]
+      - title: "A survey of numerical linear algebra methods utilizing mixed-precision arithmetic"
+        year: 2021
+        venue: "Int. J. High Perform. Comput. Appl."
+        url: "https://doi.org/10.1177/10943420211003313"
+        authors: [erin-carson, nicholas-higham, xiaoye-sherry-li]
+      - title: "Enhancing Autotuning Capability with a History Database"
+        year: 2021
+        venue: "MCSoC"
+        url: "https://doi.org/10.1109/MCSoC51149.2021.00044"
+        authors: [james-demmel, xiaoye-sherry-li]
+      - title: "GPTune: multitask learning for autotuning exascale applications"
+        year: 2021
+        venue: "PPoPP"
+        url: "https://doi.org/10.1145/3437801.3441621"
+        authors: [james-demmel, xiaoye-sherry-li]
+      - title: "Non-smooth Bayesian Optimization in Tuning Problems"
+        year: 2021
+        venue: "CoRR"
+        url: "https://arxiv.org/abs/2109.07563"
+        authors: [james-demmel, xiaoye-sherry-li]
+      - title: "A parallel hierarchical blocked adaptive cross approximation algorithm"
+        year: 2020
+        venue: "Int. J. High Perform. Comput. Appl."
+        url: "https://doi.org/10.1177/1094342020918305"
+        authors: [elizaveta-rebrova, xiaoye-sherry-li]
+      - title: "Scalable and Memory-Efficient Kernel Ridge Regression"
+        year: 2020
+        venue: "IPDPS"
+        url: "https://doi.org/10.1109/IPDPS47924.2020.00102"
+        authors: [xiaoye-sherry-li, elizaveta-rebrova]
+      - title: "A Survey of Numerical Methods Utilizing Mixed Precision Arithmetic"
+        year: 2020
+        venue: "CoRR"
+        url: "https://arxiv.org/abs/2007.06674"
+        authors: [erin-carson, nicholas-higham, xiaoye-sherry-li]
+      - title: "Robust and Accurate Stopping Criteria for Adaptive Randomized Sampling in Matrix-Free Hierarchically Semiseparable Construction"
+        year: 2019
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/18M1194961"
+        authors: [theo-mary, xiaoye-sherry-li]
+      - title: "A Study of Clustering Techniques and Hierarchical Matrix Formats for Kernel Ridge Regression"
+        year: 2018
+        venue: "IPDPS Workshops"
+        url: "https://doi.org/10.1109/IPDPSW.2018.00140"
+        authors: [elizaveta-rebrova, xiaoye-sherry-li]
+      - title: "Matrix-free construction of HSS representation using adaptive randomized sampling"
+        year: 2018
+        venue: "CoRR"
+        url: "http://arxiv.org/abs/1810.04125"
+        authors: [theo-mary, xiaoye-sherry-li]
+      - title: "SuperLU"
+        year: 2011
+        venue: "Encyclopedia of Parallel Computing"
+        url: "https://doi.org/10.1007/978-0-387-09766-4_95"
+        authors: [xiaoye-sherry-li, james-demmel, laura-grigori]
+      - title: "Fast algorithms for hierarchically semiseparable matrices"
+        year: 2010
+        venue: "Numer. Linear Algebra Appl."
+        url: "https://doi.org/10.1002/nla.691"
+        authors: [ming-gu, xiaoye-sherry-li]
+      - title: "Direction-Preserving and Schur-Monotonic Semiseparable Approximations of Symmetric Positive Definite Matrices"
+        year: 2010
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/090774331"
+        authors: [ming-gu, xiaoye-sherry-li]
+      - title: "Superfast Multifrontal Method for Large Structured Linear Systems of Equations"
+        year: 2009
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/09074543X"
+        authors: [ming-gu, xiaoye-sherry-li]
+      - title: "Extra-Precise Iterative Refinement for Overdetermined Least Squares Problems"
+        year: 2009
+        venue: "ACM Trans. Math. Softw."
+        url: "https://doi.org/10.1145/1462173.1462177"
+        authors: [james-demmel, xiaoye-sherry-li]
+      - title: "An Implementation and Evaluation of the AMLS Method for Sparse Eigenvalue Problems"
+        year: 2008
+        venue: "ACM Trans. Math. Softw."
+        url: "https://doi.org/10.1145/1377596.1377600"
+        authors: [xiaoye-sherry-li, zhaojun-bai]
+      - title: "Towards an accurate performance modeling of parallel sparse factorization"
+        year: 2007
+        venue: "Appl. Algebra Eng. Commun. Comput."
+        url: "https://doi.org/10.1007/s00200-007-0036-y"
+        authors: [laura-grigori, xiaoye-sherry-li]
+      - title: "Parallel Symbolic Factorization for Sparse LU with Static Pivoting"
+        year: 2007
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/050638102"
+        authors: [laura-grigori, james-demmel, xiaoye-sherry-li]
+      - title: "Prospectus for a Dense Linear Algebra Software Library"
+        year: 2007
+        venue: "Handbook of Parallel Computing"
+        url: "https://doi.org/10.1201/9781420011296.ch29"
+        authors: [james-demmel, julien-langou, ming-gu, xiaoye-sherry-li, david-bindel]
+      - title: "Error bounds from extra-precise iterative refinement"
+        year: 2006
+        venue: "ACM Trans. Math. Softw."
+        url: "https://doi.org/10.1145/1141885.1141894"
+        authors: [james-demmel, xiaoye-sherry-li]
+      - title: "Prospectus for the Next LAPACK and ScaLAPACK Libraries"
+        year: 2006
+        venue: "PARA"
+        url: "https://doi.org/10.1007/978-3-540-75755-9_2"
+        authors: [james-demmel, ming-gu, david-bindel, xiaoye-sherry-li, julien-langou]
+      - title: "An Algebraic Substructuring Method for Large-Scale Eigenvalue Calculation"
+        year: 2005
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/040613767"
+        authors: [zhaojun-bai, xiaoye-sherry-li]
+      - title: "Algebraic Sub-structuring for Electromagnetic Applications"
+        year: 2004
+        venue: "PARA"
+        url: "https://doi.org/10.1007/11558958_43"
+        authors: [zhaojun-bai, xiaoye-sherry-li]
+      - title: "Performance Analysis of Parallel Right-Looking Sparse LU Factorization on Two Dimensional Grids of Processors"
+        year: 2004
+        venue: "PARA"
+        url: "https://doi.org/10.1007/11558958_93"
+        authors: [laura-grigori, xiaoye-sherry-li]
+      - title: "SuperLU_DIST: A scalable distributed-memory sparse direct solver for unsymmetric linear systems"
+        year: 2003
+        venue: "ACM Trans. Math. Softw."
+        url: "https://doi.org/10.1145/779359.779361"
+        authors: [xiaoye-sherry-li, james-demmel]
+      - title: "Design, implementation and testing of extended and mixed precision BLAS"
+        year: 2002
+        venue: "ACM Trans. Math. Softw."
+        url: "https://doi.org/10.1145/567806.567808"
+        authors: [xiaoye-sherry-li, james-demmel]
+      - title: "A new scheduling algorithm for parallel sparse LU factorization with static pivoting"
+        year: 2002
+        venue: "SC"
+        url: "https://doi.org/10.1109/SC.2002.10032"
+        authors: [laura-grigori, xiaoye-sherry-li]
+      - title: "Common Issues"
+        year: 2000
+        venue: "Templates for the Solution of Algebraic Eigenvalue Problems"
+        url: "https://doi.org/10.1137/1.9780898719581.ch10"
+        authors: [xiaoye-sherry-li, james-demmel]
+      - title: "A Supernodal Approach to Sparse Partial Pivoting"
+        year: 1999
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/S0895479895291765"
+        authors: [james-demmel, xiaoye-sherry-li]
+      - title: "An Asynchronous Parallel Supernodal Algorithm for Sparse Gaussian Elimination"
+        year: 1999
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/S0895479897317685"
+        authors: [james-demmel, xiaoye-sherry-li]
+      - title: "A Scalable Sparse Direct Solver Using Static Pivoting"
+        year: 1999
+        venue: "PP"
+        url: ""
+        authors: [xiaoye-sherry-li, james-demmel]
+      - title: "Making Sparse Gaussian Elimination Scalable by Static Pivoting"
+        year: 1998
+        venue: "SC"
+        url: "https://doi.org/10.1109/SC.1998.10030"
+        authors: [xiaoye-sherry-li, james-demmel]
+      - title: "Faster Numerical Algorithms via Exception Handling"
+        year: 1994
+        venue: "IEEE Trans. Computers"
+        url: "https://doi.org/10.1109/12.295860"
+        authors: [james-demmel, xiaoye-sherry-li]
+  - id: zhaojun-bai
+    papers:
+      - title: "Optimizing Halley's Iteration for Computing the Matrix Polar Decomposition"
+        year: 2010
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/090774999"
+        authors: [yuji-nakatsukasa, zhaojun-bai]
+      - title: "An Implementation and Evaluation of the AMLS Method for Sparse Eigenvalue Problems"
+        year: 2008
+        venue: "ACM Trans. Math. Softw."
+        url: "https://doi.org/10.1145/1377596.1377600"
+        authors: [xiaoye-sherry-li, zhaojun-bai]
+      - title: "An Algebraic Substructuring Method for Large-Scale Eigenvalue Calculation"
+        year: 2005
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/040613767"
+        authors: [zhaojun-bai, xiaoye-sherry-li]
+      - title: "Model Reduction for RF MEMS Simulation"
+        year: 2004
+        venue: "PARA"
+        url: "https://doi.org/10.1007/11558958_34"
+        authors: [david-bindel, zhaojun-bai, james-demmel]
+      - title: "Algebraic Sub-structuring for Electromagnetic Applications"
+        year: 2004
+        venue: "PARA"
+        url: "https://doi.org/10.1007/11558958_43"
+        authors: [zhaojun-bai, xiaoye-sherry-li]
+      - title: "Hermitian Eigenvalue Problems"
+        year: 2000
+        venue: "Templates for the Solution of Algebraic Eigenvalue Problems"
+        url: "https://doi.org/10.1137/1.9780898719581.ch4"
+        authors: [ming-gu, zhaojun-bai]
+      - title: "Generalized Hermitian Eigenvalue Problems"
+        year: 2000
+        venue: "Templates for the Solution of Algebraic Eigenvalue Problems"
+        url: "https://doi.org/10.1137/1.9780898719581.ch5"
+        authors: [ming-gu, zhaojun-bai]
+      - title: "Non-Hermitian Eigenvalue Problems"
+        year: 2000
+        venue: "Templates for the Solution of Algebraic Eigenvalue Problems"
+        url: "https://doi.org/10.1137/1.9780898719581.ch7"
+        authors: [james-demmel, ming-gu, yousef-saad, zhaojun-bai]
+      - title: "Nonlinear Eigenvalue Problems"
+        year: 2000
+        venue: "Templates for the Solution of Algebraic Eigenvalue Problems"
+        url: "https://doi.org/10.1137/1.9780898719581.ch9"
+        authors: [zhaojun-bai, alan-edelman]
+      - title: "Using the Matrix Sign Function to Compute Invariant Subspaces"
+        year: 1998
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/s0895479896297719"
+        authors: [zhaojun-bai, james-demmel]
+      - title: "The Spectral Decomposition of Nonsymmetric Matrices on Distributed Memory Parallel Computers"
+        year: 1997
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/S1064827595281368"
+        authors: [zhaojun-bai, james-demmel]
+      - title: "Templates for Linear Algebra Problems"
+        year: 1995
+        venue: "Computer Science Today"
+        url: "https://doi.org/10.1007/BFb0015240"
+        authors: [zhaojun-bai, james-demmel, ming-gu]
+      - title: "Computing the Generalized Singular Value Decomposition"
+        year: 1993
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/0914085"
+        authors: [zhaojun-bai, james-demmel]
+      - title: "On computing condition numbers for the nonsymmetric eigenproblem"
+        year: 1993
+        venue: "ACM Trans. Math. Softw."
+        url: "https://doi.org/10.1145/152613.152617"
+        authors: [zhaojun-bai, james-demmel]
+      - title: "Design of a Parallel Nonsymmetric Eigenroutine Toolbox, Part I"
+        year: 1993
+        venue: "PPSC"
+        url: ""
+        authors: [zhaojun-bai, james-demmel]
+      - title: "An Implementation of the GMRES Method Using QR Factorization"
+        year: 1991
+        venue: "PP"
+        url: ""
+        authors: [zhaojun-bai, lothar-reichel]
+      - title: "LAPACK: a portable linear algebra library for high-performance computers"
+        year: 1990
+        venue: "SC"
+        url: "https://doi.org/10.1109/SUPERC.1990.129995"
+        authors: [zhaojun-bai, anne-greenbaum, james-demmel]
+      - title: "On a Block Implementation of Hessenberg Multishift QR Iteration"
+        year: 1989
+        venue: "Int. J. High Speed Comput."
+        url: "https://doi.org/10.1142/S0129053389000068"
+        authors: [zhaojun-bai, james-demmel]
+  - id: julien-langou
+    papers:
+      - title: "2024 NSF CSSI-Cybertraining-SCIPE PI Meeting August 12 to 13, 2024, Charlotte, NC"
+        year: 2025
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2507.04171"
+        authors: [julien-langou, vivak-patel]
+      - title: "Proposed Consistent Exception Handling for the BLAS and LAPACK"
+        year: 2022
+        venue: "Correctness@SC"
+        url: "https://doi.org/10.1109/Correctness56720.2022.00006"
+        authors: [james-demmel, julien-langou, xiaoye-sherry-li]
+      - title: "Fast Parallel Randomized QR with Column Pivoting Algorithms for Reliable Low-Rank Matrix Approximations"
+        year: 2017
+        venue: "HiPC"
+        url: "https://doi.org/10.1109/HiPC.2017.00035"
+        authors: [ming-gu, julien-langou]
+      - title: "Topic 10: Parallel Numerical Algorithms - (Introduction)"
+        year: 2013
+        venue: "Euro-Par"
+        url: "https://doi.org/10.1007/978-3-642-40047-6_49"
+        authors: [julien-langou, laura-grigori]
+      - title: "Communication-optimal Parallel and Sequential QR and LU Factorizations"
+        year: 2012
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/080731992"
+        authors: [james-demmel, laura-grigori, julien-langou]
+      - title: "Communication-avoiding parallel and sequential QR factorizations"
+        year: 2008
+        venue: "CoRR"
+        url: "http://arxiv.org/abs/0806.2159"
+        authors: [james-demmel, laura-grigori, julien-langou]
+      - title: "Prospectus for a Dense Linear Algebra Software Library"
+        year: 2007
+        venue: "Handbook of Parallel Computing"
+        url: "https://doi.org/10.1201/9781420011296.ch29"
+        authors: [james-demmel, julien-langou, ming-gu, xiaoye-sherry-li, david-bindel]
+      - title: "Prospectus for the Next LAPACK and ScaLAPACK Libraries"
+        year: 2006
+        venue: "PARA"
+        url: "https://doi.org/10.1007/978-3-540-75755-9_2"
+        authors: [james-demmel, ming-gu, david-bindel, xiaoye-sherry-li, julien-langou]
+      - title: "Recent Advances in Dense Linear Algebra: Minisymposium Abstract"
+        year: 2006
+        venue: "PARA"
+        url: "https://doi.org/10.1007/978-3-540-75755-9_14"
+        authors: [daniel-kressner, julien-langou]
+  - id: david-bindel
+    papers:
+      - title: "GPTuneBand: Multi-task and Multi-fidelity Autotuning for Large-scale High Performance Computing Applications"
+        year: 2022
+        venue: "PP"
+        url: "https://doi.org/10.1137/1.9781611977141.1"
+        authors: [david-bindel, xiaoye-sherry-li]
+      - title: "Continuation of Invariant Subspaces in Large Bifurcation Problems"
+        year: 2008
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/060654219"
+        authors: [david-bindel, james-demmel]
+      - title: "Prospectus for a Dense Linear Algebra Software Library"
+        year: 2007
+        venue: "Handbook of Parallel Computing"
+        url: "https://doi.org/10.1201/9781420011296.ch29"
+        authors: [james-demmel, julien-langou, ming-gu, xiaoye-sherry-li, david-bindel]
+      - title: "Prospectus for the Next LAPACK and ScaLAPACK Libraries"
+        year: 2006
+        venue: "PARA"
+        url: "https://doi.org/10.1007/978-3-540-75755-9_2"
+        authors: [james-demmel, ming-gu, david-bindel, xiaoye-sherry-li, julien-langou]
+      - title: "Bifurcation Analysis of Large Equilibrium Systems in Matlab"
+        year: 2005
+        venue: "International Conference on Computational Science (1)"
+        url: "https://doi.org/10.1007/11428831_7"
+        authors: [david-bindel, james-demmel]
+      - title: "Model Reduction for RF MEMS Simulation"
+        year: 2004
+        venue: "PARA"
+        url: "https://doi.org/10.1007/11558958_34"
+        authors: [david-bindel, zhaojun-bai, james-demmel]
+      - title: "On computing givens rotations reliably and efficiently"
+        year: 2002
+        venue: "ACM Trans. Math. Softw."
+        url: "https://doi.org/10.1145/567806.567809"
+        authors: [david-bindel, james-demmel]
+  - id: edmond-chow
+    papers:
+      - title: "\\({\\mathcal{H}^{2}}\\)-MG: A Multigrid Method for Hierarchical Rank Structured Matrices"
+        year: 2026
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/24m171944x"
+        authors: [george-turkiyyah, edmond-chow]
+      - title: "H2-MG: A multigrid method for hierarchical rank structured matrices"
+        year: 2025
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2501.17656"
+        authors: [george-turkiyyah, edmond-chow]
+      - title: "Asynchronous Richardson iterations: theory and practice"
+        year: 2021
+        venue: "Numer. Algorithms"
+        url: "https://doi.org/10.1007/s11075-020-01023-3"
+        authors: [edmond-chow, daniel-szyld]
+      - title: "Scalable Asynchronous Domain Decomposition Solvers"
+        year: 2020
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/19M1291303"
+        authors: [edmond-chow, daniel-szyld]
+      - title: "Asynchronous Richardson iterations"
+        year: 2020
+        venue: "CoRR"
+        url: "https://arxiv.org/abs/2009.02015"
+        authors: [edmond-chow, daniel-szyld]
+      - title: "SMASH: Structured matrix approximation by separation and hierarchy"
+        year: 2018
+        venue: "Numer. Linear Algebra Appl."
+        url: "https://doi.org/10.1002/nla.2204"
+        authors: [edmond-chow, yousef-saad]
+      - title: "Domain Overlap for Iterative Sparse Triangular Solves on GPUs"
+        year: 2016
+        venue: "Software for Exascale Computing"
+        url: "https://doi.org/10.1007/978-3-319-40528-5_24"
+        authors: [edmond-chow, daniel-szyld]
+      - title: "Preconditioned Krylov Subspace Methods for Sampling Multivariate Gaussian Distributions"
+        year: 2014
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/130920587"
+        authors: [edmond-chow, yousef-saad]
+      - title: "Crout Versions of ILU for General Sparse Matrices"
+        year: 2003
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/S1064827502405094"
+        authors: [yousef-saad, edmond-chow]
+      - title: "Approximate Inverse Preconditioners via Sparse-Sparse Iterations"
+        year: 1998
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/S1064827594270415"
+        authors: [edmond-chow, yousef-saad]
+      - title: "Preserving Symmetry in Preconditioned Krylov Subspace Methods"
+        year: 1998
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/S1064827596311554"
+        authors: [edmond-chow, yousef-saad]
+      - title: "Approximate Inverse Techniques for Block-Partitioned Matrices"
+        year: 1997
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/S1064827595281575"
+        authors: [edmond-chow, yousef-saad]
+      - title: "Parallel Approximate Inverse Preconditioners"
+        year: 1997
+        venue: "PP"
+        url: ""
+        authors: [edmond-chow, yousef-saad]
+  - id: eric-de-sturler
+    papers:
+      - title: "ResGene-T: A Tensor-Based Residual Network Approach for Genomic Prediction"
+        year: 2026
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2603.00744"
+        authors: [kapil-ahuja, eric-de-sturler]
+      - title: "Nonlinear RMM-GKS for Large-Scale Dynamic and Streaming Inverse Problems with Uncertain Forward Operators"
+        year: 2026
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2605.06336"
+        authors: [mirjeta-pasha, misha-kilmer, eric-de-sturler]
+      - title: "Subspace Recycling for Sequences of Shifted Systems with Applications in Image Recovery"
+        year: 2023
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2306.15049"
+        authors: [misha-kilmer, eric-de-sturler]
+      - title: "Recycling MMGKS for large-scale dynamic and streaming data"
+        year: 2023
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2309.15759"
+        authors: [mirjeta-pasha, eric-de-sturler, misha-kilmer]
+      - title: "Parametric Level-sets Enhanced To Improve Reconstruction (PaLEnTIR)"
+        year: 2022
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2204.09815"
+        authors: [eric-de-sturler, arvind-saibaba]
+      - title: "Randomized approaches to accelerate MCMC algorithms for Bayesian inverse problems"
+        year: 2021
+        venue: "J. Comput. Phys."
+        url: "https://doi.org/10.1016/j.jcp.2021.110391"
+        authors: [arvind-saibaba, eric-de-sturler, misha-kilmer]
+      - title: "Hybrid Projection Methods with Recycling for Inverse Problems"
+        year: 2021
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/20M1349515"
+        authors: [julianne-chung, eric-de-sturler]
+      - title: "Efficient edge-preserving methods for dynamic inverse problems"
+        year: 2021
+        venue: "CoRR"
+        url: "https://arxiv.org/abs/2107.05727"
+        authors: [mirjeta-pasha, arvind-saibaba, malena-espanol, eric-de-sturler]
+      - title: "A survey of subspace recycling iterative methods"
+        year: 2020
+        venue: "CoRR"
+        url: "https://arxiv.org/abs/2001.10347"
+        authors: [eric-de-sturler, misha-kilmer]
+      - title: "Randomized Approach to Nonlinear Inversion Combining Random and Optimized Simultaneous Sources and Detectors"
+        year: 2019
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/17M1143319"
+        authors: [eric-de-sturler, misha-kilmer]
+      - title: "Computing Reduced Order Models via Inner-Outer Krylov Recycling in Diffuse Optical Tomography"
+        year: 2017
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/16M1062880"
+        authors: [misha-kilmer, eric-de-sturler]
+      - title: "Recycling Krylov subspaces for CFD applications and a new hybrid recycling solver"
+        year: 2015
+        venue: "J. Comput. Phys."
+        url: "https://doi.org/10.1016/j.jcp.2015.09.040"
+        authors: [eric-de-sturler, kapil-ahuja]
+      - title: "Nonlinear Parametric Inversion Using Interpolatory Model Reduction"
+        year: 2015
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/130946320"
+        authors: [eric-de-sturler, christopher-beattie]
+      - title: "Recycling BiCGSTAB with an Application to Parametric Model Order Reduction"
+        year: 2015
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/140972433"
+        authors: [kapil-ahuja, eric-de-sturler]
+      - title: "Recycling Krylov subspaces for CFD applications"
+        year: 2015
+        venue: "CoRR"
+        url: "http://arxiv.org/abs/1501.03358"
+        authors: [eric-de-sturler, kapil-ahuja]
+      - title: "Recycling BiCG with an Application to Model Reduction"
+        year: 2012
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/100801500"
+        authors: [kapil-ahuja, eric-de-sturler]
+      - title: "Improved Scaling for Quantum Monte Carlo on Insulators"
+        year: 2011
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/100805467"
+        authors: [kapil-ahuja, eric-de-sturler]
+      - title: "Block-Diagonal and Constraint Preconditioners for Nonsymmetric Indefinite Linear Systems. Part I: Theory"
+        year: 2005
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/S1064827502411006"
+        authors: [eric-de-sturler, jorg-liesen]
+      - title: "Preconditioners for Indefinite Linear Systems Arising in Surface Parameterization"
+        year: 2001
+        venue: "IMR"
+        url: "http://imr.sandia.gov/papers/abstracts/Li208.html"
+        authors: [jorg-liesen, eric-de-sturler]
+  - id: james-baglama
+    papers:
+      - title: "A hybrid algorithm for computing a partial singular value decomposition satisfying a given threshold"
+        year: 2025
+        venue: "Numer. Algorithms"
+        url: "https://doi.org/10.1007/s11075-024-01906-9"
+        authors: [james-baglama, vasilije-perovic]
+      - title: "Note on a rank-one modification of the singular value decomposition"
+        year: 2023
+        venue: "Appl. Math. Comput."
+        url: "https://doi.org/10.1016/j.amc.2023.128170"
+        authors: [james-baglama, vasilije-perovic]
+      - title: "Hybrid iterative refined restarted Lanczos bidiagonalization methods"
+        year: 2023
+        venue: "Numer. Algorithms"
+        url: "https://doi.org/10.1007/s11075-022-01336-5"
+        authors: [james-baglama, vasilije-perovic]
+      - title: "An augmented LSQR method"
+        year: 2013
+        venue: "Numer. Algorithms"
+        url: "https://doi.org/10.1007/s11075-012-9665-8"
+        authors: [james-baglama, lothar-reichel]
+      - title: "Augmented GMRES-type methods"
+        year: 2007
+        venue: "Numer. Linear Algebra Appl."
+        url: "https://doi.org/10.1002/nla.518"
+        authors: [james-baglama, lothar-reichel]
+      - title: "Restarted block Lanczos bidiagonalization methods"
+        year: 2006
+        venue: "Numer. Algorithms"
+        url: "https://doi.org/10.1007/s11075-006-9057-z"
+        authors: [james-baglama, lothar-reichel]
+      - title: "Augmented Implicitly Restarted Lanczos Bidiagonalization Methods"
+        year: 2005
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/04060593X"
+        authors: [james-baglama, lothar-reichel]
+      - title: "IRBL: An Implicitly Restarted Block-Lanczos Method for Large-Scale Hermitian Eigenproblems"
+        year: 2003
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/S1064827501397949"
+        authors: [james-baglama, daniela-calvetti, lothar-reichel]
+      - title: "Algorithm 827: irbleigs: A MATLAB program for computing a few eigenpairs of a large sparse Hermitian matrix"
+        year: 2003
+        venue: "ACM Trans. Math. Softw."
+        url: "https://doi.org/10.1145/838250.838257"
+        authors: [james-baglama, daniela-calvetti, lothar-reichel]
+      - title: "Adaptively Preconditioned GMRES Algorithms"
+        year: 1998
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/S1064827596305258"
+        authors: [james-baglama, daniela-calvetti, lothar-reichel]
+  - id: zdenek-strakos
+    papers:
+      - title: "70 years of Krylov subspace methods: The journey continues"
+        year: 2022
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2211.00953"
+        authors: [erin-carson, jorg-liesen, zdenek-strakos]
+      - title: "On Optimal Short Recurrences for Generating Orthogonal Krylov Subspace Bases"
+        year: 2008
+        venue: "SIAM Rev."
+        url: "https://doi.org/10.1137/060662149"
+        authors: [jorg-liesen, zdenek-strakos]
+      - title: "GMRES Convergence Analysis for a Convection-Diffusion Model Problem"
+        year: 2005
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/S1064827503430746"
+        authors: [jorg-liesen, zdenek-strakos]
+      - title: "Convergence of GMRES for Tridiagonal Toeplitz Matrices"
+        year: 2004
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/S0895479803424967"
+        authors: [jorg-liesen, zdenek-strakos]
+      - title: "Least Squares Residuals and Minimal Residual Methods"
+        year: 2002
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/S1064827500377988"
+        authors: [jorg-liesen, zdenek-strakos]
+      - title: "Any Nonincreasing Convergence Curve is Possible for GMRES"
+        year: 1996
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/S0895479894275030"
+        authors: [anne-greenbaum, zdenek-strakos]
+      - title: "Predicting the Behavior of Finite Precision Lanczos and Conjugate Gradient Computations"
+        year: 1992
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/0613011"
+        authors: [anne-greenbaum, zdenek-strakos]
+  - id: jorg-liesen
+    papers:
+      - title: "On Non-Hermitian Positive (Semi)Definite Linear Algebraic Systems Arising from Dissipative Hamiltonian DAEs"
+        year: 2022
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/21m1458594"
+        authors: [jorg-liesen, daniel-szyld]
+      - title: "70 years of Krylov subspace methods: The journey continues"
+        year: 2022
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2211.00953"
+        authors: [erin-carson, jorg-liesen, zdenek-strakos]
+      - title: "On Optimal Short Recurrences for Generating Orthogonal Krylov Subspace Bases"
+        year: 2008
+        venue: "SIAM Rev."
+        url: "https://doi.org/10.1137/060662149"
+        authors: [jorg-liesen, zdenek-strakos]
+      - title: "Block-Diagonal and Constraint Preconditioners for Nonsymmetric Indefinite Linear Systems. Part I: Theory"
+        year: 2005
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/S1064827502411006"
+        authors: [eric-de-sturler, jorg-liesen]
+      - title: "GMRES Convergence Analysis for a Convection-Diffusion Model Problem"
+        year: 2005
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/S1064827503430746"
+        authors: [jorg-liesen, zdenek-strakos]
+      - title: "Convergence of GMRES for Tridiagonal Toeplitz Matrices"
+        year: 2004
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/S0895479803424967"
+        authors: [jorg-liesen, zdenek-strakos]
+      - title: "Least Squares Residuals and Minimal Residual Methods"
+        year: 2002
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/S1064827500377988"
+        authors: [jorg-liesen, zdenek-strakos]
+      - title: "Preconditioners for Indefinite Linear Systems Arising in Surface Parameterization"
+        year: 2001
+        venue: "IMR"
+        url: "http://imr.sandia.gov/papers/abstracts/Li208.html"
+        authors: [jorg-liesen, eric-de-sturler]
+  - id: stefano-pozza
+    papers:
+      - title: "The Short-Term Rational Lanczos Method and Applications"
+        year: 2022
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/21m1403254"
+        authors: [davide-palitta, stefano-pozza, valeria-simoncini]
+      - title: "Functions of rational Krylov space matrices and their decay properties"
+        year: 2021
+        venue: "Numerische Mathematik"
+        url: "https://doi.org/10.1007/s00211-021-01198-4"
+        authors: [stefano-pozza, valeria-simoncini]
+  - id: ieva-dauzickaite
+    papers:
+      - title: "A Comparison of Mixed Precision Iterative Refinement Approaches for Least-Squares Problems"
+        year: 2025
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/24m1664927"
+        authors: [erin-carson, ieva-dauzickaite]
+      - title: "Mixed Precision Sketching for Least-Squares Problems and its Application in GMRES-Based Iterative Refinement"
+        year: 2025
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/24m1702246"
+        authors: [erin-carson, ieva-dauzickaite]
+      - title: "Single-Pass Nyström Approximation in Mixed Precision"
+        year: 2024
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/22m154079x"
+        authors: [erin-carson, ieva-dauzickaite]
+      - title: "The stability of split-preconditioned FGMRES in four precisions"
+        year: 2023
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2303.11901"
+        authors: [erin-carson, ieva-dauzickaite]
