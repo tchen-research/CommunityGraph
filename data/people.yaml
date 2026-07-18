@@ -84,6 +84,7 @@
   - graph-algorithms
   notes: The F of Frieze-Kannan-Vempala low-rank sampling.
   website: https://www.math.cmu.edu/~af1p/
+  photo: https://scholar.googleusercontent.com/citations?view_op=view_photo&user=EqKRQ4YAAAAJ&citpid=5
 - id: alberto-bucci
   name: Alberto Bucci
   affiliation: University of Edinburgh
@@ -125,7 +126,8 @@
   - sketching
   - randomized-lowrank
   notes: 'Sketchy decisions: sketching for convex optimization (with Tropp and Udell).'
-  website: https://www.alpyurtsever.com/
+  website: https://alpyurtsever.github.io/
+  photo: https://alpyurtsever.github.io/assets/images/alp-avatar.jpg
 - id: andrea-arnold
   name: Andrea Arnold
   affiliation: Worcester Polytechnic Institute
@@ -152,6 +154,8 @@
   - eigenvalue
   - fast-solvers
   notes: Rank-revealing factorizations and randomized methods; chaired Householder XXII (2025).
+  website: https://www.cs.cornell.edu/~damle/
+  photo: https://www.cs.cornell.edu/~damle/Anil_Damle_square.jpg
 - id: anna-ma
   name: Anna Ma
   affiliation: University of California Irvine
@@ -257,12 +261,15 @@
   photo: https://www.chrismusco.com/wsv_image.jpg
 - id: christos-boutsidis
   name: Christos Boutsidis
-  affiliation: Industry (formerly Yahoo Labs)
+  affiliation: Goldman Sachs (VP, Relationship Analytics and Engineering; verified email domain
+    gs.com)
   area: rand
   topics:
   - randomized-lowrank
   - sketching
   notes: Column-subset selection and CUR; core early-RandNLA contributor.
+  website: https://scholar.google.com/citations?user=9vAv0c4AAAAJ&hl=en
+  photo: https://scholar.googleusercontent.com/citations?view_op=view_photo&user=9vAv0c4AAAAJ&citpid=16
 - id: daniel-kressner
   name: Daniel Kressner
   affiliation: EPFL
@@ -288,6 +295,7 @@
   - rmt
   notes: Laplacian paradigm and smoothed analysis; spectral sparsification.
   website: https://www.cs.yale.edu/homes/spielman/
+  photo: https://www.cs.yale.edu/homes/spielman/2025_DAS_small.jpeg
 - id: daniel-szyld
   name: Daniel Szyld
   affiliation: Temple University
@@ -332,6 +340,8 @@
   - graph-algorithms
   - randomized-lowrank
   notes: Randomized and spectral methods for network analysis.
+  website: https://dgleich.com/
+  photo: https://www.cs.purdue.edu/people/images-landscape/faculty/dgleich.jpg
 - id: david-persson
   name: David Persson
   affiliation: New York University / Flatiron Institute
@@ -533,6 +543,7 @@
   - tensors
   notes: Communication-avoiding algorithms; randomized methods for tensor decompositions.
   website: https://users.wfu.edu/ballard/
+  photo: https://users.wfu.edu/ballard/images/ballard-headshot.jpg
 - id: haim-avron
   name: Haim Avron
   affiliation: Tel Aviv University
@@ -631,7 +642,8 @@
   - software
   - mixed-precision
   notes: LINPACK/LAPACK/MAGMA lineage; 2021 Turing Award; coauthor of the RandLAPACK monograph.
-  website: https://www.icl.utk.edu/~dongarra/
+  website: https://netlib.org/utk/people/jack/home.html
+  photo: https://netlib.org/utk/people/jack/jack.jpg
 - id: jackie-lok
   name: Jackie Lok
   affiliation: National University of Singapore
@@ -676,7 +688,8 @@
   - inverse-problems
   - regularization
   notes: Structured and iterative methods for large-scale imaging inverse problems.
-  website: http://www.cs.emory.edu/~nagy/
+  website: https://www.math.emory.edu/~nagy/
+  photo: https://www.math.emory.edu/~nagy/Jim_2008.jpg
 - id: jamie-haddock
   name: Jamie Haddock
   affiliation: Harvey Mudd College
@@ -841,6 +854,8 @@
   - matrix-equations
   - matrix-functions
   notes: Rank-structured matrix computations; hm-toolbox with Massei and Kressner.
+  website: https://web.dm.unipi.it/robol
+  photo: https://web.dm.unipi.it/robol/assets/img/prof_pic.jpg
 - id: linkai-ma
   name: Linkai Ma
   affiliation: Purdue University
@@ -863,14 +878,16 @@
   photo: https://scholar.googleusercontent.com/citations?view_op=view_photo&user=qbqwCbEAAAAJ&citpid=6
 - id: lloyd-trefethen
   name: Lloyd N. Trefethen
-  affiliation: University of Oxford
+  affiliation: Harvard University (Professor of Applied Mathematics in Residence, SEAS) -
+    moved from Oxford in Sept 2023
   area: krylov
   topics:
   - eigenvalue
   - krylov
   - matrix-functions
   notes: Pseudospectra, approximation theory, and numerical linear algebra exposition.
-  website: https://people.maths.ox.ac.uk/trefethen/
+  website: https://seas.harvard.edu/person/nick-trefethen
+  photo: https://scholar.googleusercontent.com/citations?view_op=view_photo&user=9hvCdiQAAAAJ&citpid=2
 - id: lorenzo-piccinini
   name: Lorenzo Piccinini
   affiliation: University of Bologna
@@ -941,6 +958,7 @@
   - sketching
   notes: Long-time Drineas collaborator on sparse/fast low-rank approximation.
   website: https://www.cs.rpi.edu/~magdon/
+  photo: https://www.cs.rpi.edu/~magdon/images/malik/webpic.jpg
 - id: mariana-martinez-aguilar
   name: Mariana Martinez Aguilar
   affiliation: EPFL
@@ -956,7 +974,8 @@
   - krylov
   - eigenvalue
   notes: Krylov convergence theory; 'Spectra and Pseudospectra' with Trefethen.
-  website: https://embree.math.vt.edu/
+  website: https://personal.math.vt.edu/embree/
+  photo: https://personal.math.vt.edu/embree/embree_photo1.jpg
 - id: mark-tygert
   name: Mark Tygert
   affiliation: Meta
@@ -1027,6 +1046,8 @@
   - krylov
   - software
   notes: LSQR and MINRES; the iterative solvers inside many sketch-and-solve pipelines.
+  website: https://web.stanford.edu/~saunders/
+  photo: https://web.stanford.edu/~saunders/images/MichaelSaunders.jpg
 - id: michal-derezinski
   name: Michał Dereziński
   affiliation: University of Michigan
@@ -1050,7 +1071,8 @@
   - preconditioning
   - graph-algorithms
   notes: Matrix functions and network science; preconditioning.
-  website: https://www.dm.unipi.it/~benzi/
+  website: https://www.sns.it/en/persona/michele-benzi
+  photo: https://www.sns.it/sites/default/files/ugov_fotopersona_49892.png
 - id: miles-lopes
   name: Miles Lopes
   affiliation: University of California, Davis
@@ -1060,7 +1082,8 @@
   - randomized-lowrank
   - sketching
   notes: Bootstrap error estimation for randomized matrix algorithms.
-  website: https://www.stat.ucdavis.edu/~melopes/
+  website: https://anson.ucdavis.edu/~melopes/
+  photo: https://anson.ucdavis.edu/~melopes/Lopes_Miles_5292_R_C_2_W.jpg
 - id: ming-gu
   name: Ming Gu
   affiliation: University of California, Berkeley
@@ -1113,13 +1136,17 @@
   - software
   - optimization
   notes: Randomized matrix decompositions in practice; RandLAPACK monograph coauthor.
+  website: https://www.benerichson.com
+  photo: https://scholar.googleusercontent.com/citations?view_op=view_photo&user=8ViYcioAAAAJ&citpid=7
 - id: nathan-halko
   name: Nathan Halko
-  affiliation: Industry (PhD CU Boulder)
+  affiliation: Salesforce (Lead Software Engineer, Salesforce Einstein)
   area: rand
   topics:
   - randomized-lowrank
   notes: 'The H of Halko-Martinsson-Tropp: ''Finding structure with randomness''.'
+  website: https://www.nathanhalko.com
+  photo: https://www.nathanhalko.com/headshot.png
 - id: nicholas-higham
   name: Nicholas Higham
   affiliation: University of Manchester
@@ -1186,7 +1213,7 @@
   - eigenvalue
 - id: osman-asif-malik
   name: Osman Asif Malik
-  affiliation: Encube Technologies (formerly LBNL)
+  affiliation: CoLab (Senior Software Developer; formerly LBNL, formerly Encube Technologies)
   area: rand
   topics:
   - tensors
@@ -1194,6 +1221,7 @@
   - randomized-lowrank
   notes: Sketching for tensor decompositions and structured problems.
   website: https://osmanmalik.github.io/
+  photo: https://osmanmalik.github.io/photo.jpg
 - id: paul-cazeaux
   name: Paul Cazeaux
   affiliation: Virginia Tech
@@ -1231,6 +1259,8 @@
   - kaczmarz
   - optimization
   notes: Sketch-and-project framework and stochastic methods; Gower's PhD advisor.
+  website: https://richtarik.org
+  photo: https://scholar.googleusercontent.com/citations?view_op=view_photo&user=pGh242UAAAAJ&citpid=3
 - id: petros-drineas
   name: Petros Drineas
   affiliation: Purdue University
@@ -1248,14 +1278,14 @@
   photo: https://www.cs.purdue.edu/homes/pdrineas/images/PD_2022_v1.jpeg
 - id: piotr-luszczek
   name: Piotr Luszczek
-  affiliation: MIT Lincoln Laboratory
+  affiliation: MIT Lincoln Laboratory / University of Tennessee (Innovative Computing Laboratory)
   area: hpc
   topics:
   - hpc
   - software
   - randomized-lowrank
   notes: HPC dense linear algebra (PLASMA/MAGMA); CQRRPT and the RandLAPACK effort.
-  website: https://www.icl.utk.edu/~luszczek/
+  website: https://icl.utk.edu/~luszczek/
 - id: praneeth-kacham
   name: Praneeth Kacham
   affiliation: Google Research
@@ -1264,6 +1294,8 @@
   - sketching
   - streaming
   notes: Sketching and low-rank approximation; PhD with Woodruff at CMU.
+  website: https://praneethkacham.com
+  photo: https://praneethkacham.com/photo.jpg
 - id: rachel-ward
   name: Rachel Ward
   affiliation: University of Texas at Austin
@@ -1407,6 +1439,7 @@
   - sketching
   notes: Streaming and sketching algorithms; frequent Woodruff collaborator.
   website: https://samsonzhou.github.io/
+  photo: https://scholar.googleusercontent.com/citations?view_op=view_photo&user=NpjsgocAAAAJ&citpid=3
 - id: santosh-vempala
   name: Santosh Vempala
   affiliation: Georgia Institute of Technology
@@ -1442,14 +1475,16 @@
   photo: https://shashankaubaru.github.io/images/Ubaru.jpg
 - id: silvia-gazzola
   name: Silvia Gazzola
-  affiliation: University of Bath
+  affiliation: University of Pisa (Associate Professor, Dipartimento di Matematica) - moved
+    from University of Bath
   area: inverse
   topics:
   - inverse-problems
   - regularization
   - krylov
   notes: Krylov-based regularization; IR Tools.
-  website: https://people.bath.ac.uk/sg2233/
+  website: https://sites.google.com/view/silviaspersonalwebpage/silvias-homepage
+  photo: https://scholar.googleusercontent.com/citations?view_op=view_photo&user=jajPPAMAAAAJ&citpid=2
 - id: sivan-toledo
   name: Sivan Toledo
   affiliation: Tel Aviv University
@@ -1582,6 +1617,7 @@
   - krylov
   - graph-algorithms
   notes: Spectrum slicing and randomized eigensolvers; IBM cluster with Horesh/Ubaru.
+  website: https://mitibm.mit.edu/people/vasileios-kalantzis/
 - id: vasilije-perovic
   name: Vasilije Perovic
   affiliation: University of Rhode Island
@@ -1649,14 +1685,16 @@
   photo: https://scholar.googleusercontent.com/citations?view_op=view_photo&user=l3bmbCkAAAAJ&citpid=6
 - id: yin-tat-lee
   name: Yin Tat Lee
-  affiliation: University of Washington / Microsoft Research
+  affiliation: OpenAI (Member of Technical Staff) / University of Washington (Associate Professor,
+    Allen School)
   area: tcs
   topics:
   - optimization
   - graph-algorithms
   - streaming
   notes: Faster solvers via interior point and sparsification; single-pass spectral sparsification.
-  website: https://yintat.com/
+  website: https://yintat.com
+  photo: https://yintat.com/images/profile.jpg
 - id: yousef-saad
   name: Yousef Saad
   affiliation: University of Minnesota
