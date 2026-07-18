@@ -1,0 +1,77 @@
+# Banff agent raw output (from BIRS 23w5108 participants page).
+workshops:
+  - id: banff-2023
+    title: "Perspectives on Matrix Computations: Theoretical Computer Science Meets Numerical Analysis"
+    venue: "Banff International Research Station (BIRS)"
+    code: "23w5108"
+    dates: "March 5-10, 2023"
+    url: "https://www.birs.ca/events/2023/5-day-workshops/23w5108"
+    organizers:
+      - Erin Carson
+      - Daniel Kressner
+      - Joerg Liesen
+      - Richard Peng
+      - Nikhil Srivastava
+    participants:
+      - {name: "Josh Alman", affiliation: "Columbia University"}
+      - {name: "Zhaojun Bai", affiliation: "University of California, Davis"}
+      - {name: "Ainesh Bakshi", affiliation: "MIT"}
+      - {name: "Carlos Beltran", affiliation: "Universidad de Cantabria"}
+      - {name: "David Bindel", affiliation: "Cornell University"}
+      - {name: "Nicolas Boulle", affiliation: "University of Oxford"}
+      - {name: "Peter Burgisser", affiliation: "TU Berlin"}
+      - {name: "Erin Carson", affiliation: "Charles University"}
+      - {name: "Tyler Chen", affiliation: "New York University"}
+      - {name: "Edmond Chow", affiliation: "Georgia Institute of Technology"}
+      - {name: "Alice Cortinovis", affiliation: "University of Pisa"}
+      - {name: "Ieva Dauzickaite", affiliation: "Charles University"}
+      - {name: "Jim Demmel", affiliation: "Berkeley"}
+      - {name: "Michal Derezinski", affiliation: "University of Michigan"}
+      - {name: "Petros Drineas", affiliation: "Purdue University"}
+      - {name: "Ioana Dumitriu", affiliation: "UC San Diego"}
+      - {name: "Alan Edelman", affiliation: "Massachusetts Institute of Technology"}
+      - {name: "Ethan Epperly", affiliation: "California Institute of Technology"}
+      - {name: "Jorge Garza-Vargas", affiliation: "Berkeley"}
+      - {name: "Anne Greenbaum", affiliation: "U Washington"}
+      - {name: "Laura Grigori", affiliation: "EPFL"}
+      - {name: "Jamie Haddock", affiliation: "Harvey Mudd College"}
+      - {name: "Nick Higham", affiliation: "University of Manchester"}
+      - {name: "Olga Holtz", affiliation: "University of California, Berkeley"}
+      - {name: "Ilse Ipsen", affiliation: "North Carolina State University"}
+      - {name: "Michael Kapralov", affiliation: "EPFL"}
+      - {name: "Daniel Kressner", affiliation: "Ecole Polytechnique Federale de Lausanne"}
+      - {name: "Rasmus Kyng", affiliation: "ETH Zurich"}
+      - {name: "Julien Langou", affiliation: "University of Colorado Denver"}
+      - {name: "Joerg Liesen", affiliation: "Technical University of Berlin"}
+      - {name: "Michael Mahoney", affiliation: "Berkeley"}
+      - {name: "Per-Gunnar Martinsson", affiliation: "UT Austin"}
+      - {name: "Theo Mary", affiliation: "CNRS"}
+      - {name: "Stefano Massei", affiliation: "University of Pisa"}
+      - {name: "Raphael Meyer", affiliation: "NYU"}
+      - {name: "Cleve Moler", affiliation: "MathWorks"}
+      - {name: "Christopher Musco", affiliation: "New York University"}
+      - {name: "Cameron Musco", affiliation: "UMass Amherst"}
+      - {name: "Yuji Nakatsukasa", affiliation: "Oxford University"}
+      - {name: "Davide Palitta", affiliation: "Alma Mater Studiorum, Università di Bologna"}
+      - {name: "Richard Peng", affiliation: "University of Waterloo"}
+      - {name: "David Persson", affiliation: "EPFL"}
+      - {name: "Stefano Pozza", affiliation: "Charles University"}
+      - {name: "Yousef Saad", affiliation: "University of Minnesota"}
+      - {name: "Sushant Sachdeva", affiliation: "University of Toronto"}
+      - {name: "Rikhav Shah", affiliation: "UC Berkeley"}
+      - {name: "Aaron Sidford", affiliation: "Stanford Univrsity"}
+      - {name: "Nikhil Srivastava", affiliation: "University of California, Berkeley"}
+      - {name: "Zdenek Strakos", affiliation: "Charles University, Prague"}
+      - {name: "Sivan Toledo", affiliation: "Tel Aviv University"}
+      - {name: "Alex Townsend", affiliation: "Cornell University"}
+      - {name: "Thomas Trogdon", affiliation: "U Washington"}
+      - {name: "Joel Tropp", affiliation: "Caltech"}
+      - {name: "Madeleine Udell", affiliation: "Stanford university"}
+      - {name: "John Urschel", affiliation: "MIT"}
+      - {name: "Stephen Vavasis", affiliation: "University of Waterloo"}
+      - {name: "Santosh Vempala", affiliation: "Georgia Institute of Technology"}
+      - {name: "Ke Wang", affiliation: "The Hong Kong University of Science and Technology"}
+      - {name: "Rob Webber", affiliation: "University of California San Diego"}
+      - {name: "Heather Wilber", affiliation: "University of Texas at Austin"}
+      - {name: "David Woodruff", affiliation: "CMU"}
+      - {name: "Peng Zhang", affiliation: "Rutgers University"}

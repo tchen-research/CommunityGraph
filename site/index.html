@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RandNLA Community Graph</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%95%B8%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="layout">
+  <header id="topbar">
+    <div>
+      <h1 id="title">Community Graph</h1>
+      <p id="subtitle"></p>
+    </div>
+    <div id="stats" class="muted"></div>
+  </header>
+
+  <aside id="sidebar">
+    <section class="panel">
+      <label class="panel-heading" for="search">Find a person</label>
+      <input id="search" type="search" placeholder="Type a name…" autocomplete="off">
+      <div id="search-results"></div>
+    </section>
+
+    <section class="panel">
+      <h2 class="panel-heading">Closeness metric</h2>
+      <p class="hint">Edge closeness is a weighted sum of these factors.
+        Drag to tune the metric; the layout follows.</p>
+      <div id="weight-sliders"></div>
+      <div class="slider-row" id="threshold-row">
+        <div class="slider-label">
+          <span>Hide edges weaker than</span>
+          <span class="slider-value" id="threshold-value">0%</span>
+        </div>
+        <input id="threshold" type="range" min="0" max="1" step="0.01" value="0">
+      </div>
+      <label class="check-row">
+        <input type="checkbox" id="advising-toggle">
+        <span>Advising view <span class="hint-inline">(arrows advisor → student)</span></span>
+      </label>
+      <button id="reset-weights" class="ghost-btn">Reset weights</button>
+    </section>
+
+    <section class="panel">
+      <h2 class="panel-heading">Groups</h2>
+      <p class="hint">Click a group to fade the others.</p>
+      <div id="legend"></div>
+    </section>
+
+    <section class="panel">
+      <details id="people-list-details">
+        <summary class="panel-heading">All people</summary>
+        <div id="people-list"></div>
+      </details>
+    </section>
+  </aside>
+
+  <main id="graph-wrap">
+    <svg id="graph" role="img" aria-label="Force-directed graph of the research community"></svg>
+    <div id="tooltip" hidden></div>
+    <div id="zoom-hint" class="muted">scroll to zoom · drag background to pan · drag nodes to pin</div>
+  </main>
+
+  <aside id="details" hidden>
+    <button id="details-close" aria-label="Close details">×</button>
+    <div id="details-body"></div>
+  </aside>
+</div>
+
+<script src="lib/d3.v7.min.js"></script>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,130 @@
+# ICERM agent raw output (verified against page HTML by the agent).
+workshops:
+  - id: icerm-2026
+    title: "Randomized Numerical Linear Algebra"
+    venue: "ICERM, Brown University"
+    dates: "February 2-6, 2026"
+    url: "https://icerm.brown.edu/program/semester_program_workshop/sp-s26-w1"
+    organizers:
+      - Haim Avron
+      - Petros Drineas
+      - Anna Ma
+      - Agnieszka Miedlar
+      - Arvind Krishna Saibaba
+      - Valeria Simoncini
+    participants:
+      - {name: "Kapil Ahuja", affiliation: "Virginia Tech"}
+      - {name: "Noah Amsel", affiliation: "New York University"}
+      - {name: "Harbir Antil", affiliation: "George Mason University"}
+      - {name: "Andrea Arnold", affiliation: "Worcester Polytechnic Institute"}
+      - {name: "Haim Avron", affiliation: "Tel Aviv University"}
+      - {name: "James Baglama", affiliation: "University of Rhode Island"}
+      - {name: "Emeric Battaglia", affiliation: "University of California, Irvine"}
+      - {name: "Christopher Beattie", affiliation: "Virginia Tech"}
+      - {name: "Ansley Bentley", affiliation: "Emory University"}
+      - {name: "Lorenzo Beretta", affiliation: "University of California, Santa Cruz"}
+      - {name: "Harshit Bhatt", affiliation: "North Carolina State University"}
+      - {name: "Alberto Bucci", affiliation: "University of Edinburgh"}
+      - {name: "Daniela Calvetti", affiliation: "Case Western Reserve University"}
+      - {name: "Chris Camaño", affiliation: "California Institute of Technology"}
+      - {name: "Chenyang Cao", affiliation: "Purdue University"}
+      - {name: "Benjamin Carrel", affiliation: "Paul Scherrer Institut"}
+      - {name: "Paul Cazeaux", affiliation: "Virginia Tech"}
+      - {name: "Jessie Chen", affiliation: "North Carolina State University"}
+      - {name: "Tyler Chen", affiliation: "JPMorganChase"}
+      - {name: "Xiaoou Cheng", affiliation: "New York University"}
+      - {name: "Yingda Cheng", affiliation: "Virginia Tech"}
+      - {name: "Abhijit Chowdhary", affiliation: "Tufts University"}
+      - {name: "Julianne Chung", affiliation: "Emory University"}
+      - {name: "Matthias Chung", affiliation: "Emory University"}
+      - {name: "Alice Cortinovis", affiliation: "University of Pisa"}
+      - {name: "Omar De la Cruz Cabrera", affiliation: "Kent State University"}
+      - {name: "Eric de Sturler", affiliation: "Virginia Tech"}
+      - {name: "William Dean", affiliation: "Rensselaer Polytechnic Institute"}
+      - {name: "Michal Dereziński", affiliation: "University of Michigan"}
+      - {name: "Tong Ding", affiliation: "Purdue University"}
+      - {name: "Matthieu Dolbeault", affiliation: "RWTH Aachen"}
+      - {name: "Yijun Dong", affiliation: "New York University"}
+      - {name: "Petros Drineas", affiliation: "Purdue University"}
+      - {name: "Malena Espanol", affiliation: "Arizona State University"}
+      - {name: "Israa Fakih", affiliation: "EPFL/PSI"}
+      - {name: "Rodrigo Figueroa Justiniano", affiliation: "Virginia Tech"}
+      - {name: "Allison Fuller", affiliation: "Arizona State University"}
+      - {name: "Robert Gower", affiliation: "Flatiron Institute"}
+      - {name: "Wael Hajj Ali", affiliation: "Mitsubishi Electric Research Laboratories"}
+      - {name: "Diana Halikias", affiliation: "Simons Institute/NYU"}
+      - {name: "Yiyun He", affiliation: "University of California, San Diego"}
+      - {name: "Yunhui He", affiliation: "University of Houston"}
+      - {name: "Andrew Higgins", affiliation: "Sandia National Laboratories"}
+      - {name: "Tao Hong", affiliation: "University of Texas at Austin"}
+      - {name: "Lior Horesh", affiliation: "IBM Research"}
+      - {name: "Jung Eun Huh", affiliation: "University of Oxford"}
+      - {name: "Ilse Ipsen", affiliation: "North Carolina State University"}
+      - {name: "Ruhui Jin", affiliation: "Johns Hopkins University"}
+      - {name: "Nikita Kapur", affiliation: "University of Iowa"}
+      - {name: "Abraham Khan", affiliation: "North Carolina State University"}
+      - {name: "Misha Kilmer", affiliation: "Tufts University"}
+      - {name: "Daniel Kressner", affiliation: "École Polytechnique Fédérale de Lausanne"}
+      - {name: "Sherry Xiaoye Li", affiliation: "Lawrence Berkeley National Laboratory"}
+      - {name: "Jackie Lok", affiliation: "Princeton University"}
+      - {name: "Anna Ma", affiliation: "University of California Irvine"}
+      - {name: "Linkai Ma", affiliation: "Purdue University"}
+      - {name: "Michael Mahoney", affiliation: "University of California, Berkeley"}
+      - {name: "Andreas Mang", affiliation: "University of Houston"}
+      - {name: "Mariana Martinez Aguilar", affiliation: "École Polytechnique Fédérale de Lausanne"}
+      - {name: "Per-Gunnar Martinsson", affiliation: "University of Texas at Austin"}
+      - {name: "Aidan Mason-Mackay", affiliation: "University of Eastern Finland"}
+      - {name: "Zhaonan Meng", affiliation: "North Carolina State University"}
+      - {name: "Federica Milinanni", affiliation: "ICERM"}
+      - {name: "Kyle Monette", affiliation: "University of Rhode Island"}
+      - {name: "Shancong Mou", affiliation: "University of Minnesota Twin Cities"}
+      - {name: "Chris Musco", affiliation: "New York University"}
+      - {name: "Yuji Nakatsukasa", affiliation: "University of Oxford"}
+      - {name: "Akil Narayan", affiliation: "University of Utah"}
+      - {name: "Deanna Needell", affiliation: "UCLA"}
+      - {name: "Elizabeth Newman", affiliation: "Tufts University"}
+      - {name: "Lucas Onisk", affiliation: "Emory University"}
+      - {name: "Swati Padmanabhan", affiliation: "University of Minnesota Twin Cities"}
+      - {name: "Davide Palitta", affiliation: "Alma Mater Studiorum, Universita' di Bologna"}
+      - {name: "Taejun Park", affiliation: "École Polytechnique Fédérale de Lausanne"}
+      - {name: "Mirjeta Pasha", affiliation: "Virginia Tech"}
+      - {name: "Vivak Patel", affiliation: "University of Wisconsin -- Madison"}
+      - {name: "Katherine Pearce", affiliation: "University of Texas at Austin"}
+      - {name: "Vasilije Perovic", affiliation: "University of Rhode Island"}
+      - {name: "David Persson", affiliation: "New York University & Flatiron Institute"}
+      - {name: "Lorenzo Piccinini", affiliation: "Alma Mater Studiorum - Università di Bologna"}
+      - {name: "Nick Polydorides", affiliation: "University of Edinburgh"}
+      - {name: "Sascha Portaro", affiliation: "University of Bologna"}
+      - {name: "Haojun Qin", affiliation: "Brown University"}
+      - {name: "Vishwas Rao", affiliation: "Argonne National Laboratory"}
+      - {name: "Matteo Raviola", affiliation: "EPFL"}
+      - {name: "Elizaveta Rebrova", affiliation: "Princeton"}
+      - {name: "Logan Reed", affiliation: "Temple University"}
+      - {name: "Lothar Reichel", affiliation: "Kent State University"}
+      - {name: "Fred Roosta", affiliation: "University of Queensland"}
+      - {name: "Malena Sabate Landman", affiliation: "University of Bath"}
+      - {name: "Polina Sachsenmaier", affiliation: "RWTH Aachen University"}
+      - {name: "Arvind Krishna Saibaba", affiliation: "North Carolina State University"}
+      - {name: "Fatoumata Sanogo", affiliation: "Bates College"}
+      - {name: "Ryan Schneider", affiliation: "University of California Berkeley"}
+      - {name: "Mitchell Scott", affiliation: "Emory University"}
+      - {name: "Rikhav Shah", affiliation: "MIT"}
+      - {name: "Valeria Simoncini", affiliation: "Università di Bologna"}
+      - {name: "Igor Simunec", affiliation: "École Polytechnique Fédérale de Lausanne"}
+      - {name: "Kathrin Smetana", affiliation: "Stevens Institute of Technology"}
+      - {name: "Rudi Smith", affiliation: "Virginia Tech"}
+      - {name: "Erkki Somersalo", affiliation: "Case Western Reserve University"}
+      - {name: "Daniel Szyld", affiliation: "Temple University"}
+      - {name: "Samuel Talkington", affiliation: "Georgia Institute of Technology"}
+      - {name: "Fan Tian", affiliation: "Tufts University"}
+      - {name: "Alex Townsend", affiliation: "Cornell University"}
+      - {name: "Giulio Trigila", affiliation: "City University of New York"}
+      - {name: "Joel Tropp", affiliation: "California Institute of Technology"}
+      - {name: "George Turkiyyah", affiliation: "KAUST -- King Abdullah University of Science and Technology"}
+      - {name: "Shashanka Ubaru", affiliation: "IBM Research & Oden Institute, UT Austin"}
+      - {name: "John Urschel", affiliation: "MIT"}
+      - {name: "Robert Webber", affiliation: "UC San Diego"}
+      - {name: "David Woodruff", affiliation: "Carnegie Mellon University"}
+      - {name: "Zhipeng Xue", affiliation: "EPFL"}
+      - {name: "Ruiyi Yang", affiliation: "Princeton University"}
+      - {name: "Anna Yesypenko", affiliation: "University of Texas at Austin"}

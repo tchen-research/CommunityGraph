@@ -1,0 +1,50 @@
+# Directed advising relations: advisor -> student. Both ids must exist in
+# people.yaml. kind: phd (doctoral advisor/co-advisor) or postdoc (postdoc
+# host). These records drive the "advising" closeness factor and the directed
+# arrows in the app. Verified against Math Genealogy / theses / homepages
+# (July 2026).
+
+- {advisor: ravindran-kannan, student: petros-drineas, kind: phd}
+- {advisor: david-woodruff, student: ainesh-bakshi, kind: phd}    # co-advised with P. Kothari
+- {advisor: vladimir-rokhlin, student: per-gunnar-martinsson, kind: postdoc}
+- {advisor: vladimir-rokhlin, student: mark-tygert, kind: phd}
+- {advisor: joel-tropp, student: ethan-epperly, kind: phd}
+- {advisor: joel-tropp, student: robert-webber, kind: postdoc}
+- {advisor: joel-tropp, student: chris-camano, kind: phd}
+- {advisor: per-gunnar-martinsson, student: yijun-dong, kind: phd}    # co-advised with Ward
+- {advisor: rachel-ward, student: yijun-dong, kind: phd}
+- {advisor: per-gunnar-martinsson, student: anna-yesypenko, kind: phd}
+- {advisor: per-gunnar-martinsson, student: katherine-pearce, kind: postdoc}
+- {advisor: rachel-ward, student: ruhui-jin, kind: phd}
+- {advisor: sivan-toledo, student: haim-avron, kind: phd}
+- {advisor: yousef-saad, student: shashanka-ubaru, kind: phd}
+- {advisor: yousef-saad, student: edmond-chow, kind: phd}
+- {advisor: anne-greenbaum, student: tyler-chen, kind: phd}    # co-advised with Trogdon
+- {advisor: thomas-trogdon, student: tyler-chen, kind: phd}
+- {advisor: christopher-musco, student: tyler-chen, kind: postdoc}
+- {advisor: christopher-musco, student: raphael-meyer, kind: phd}
+- {advisor: christopher-musco, student: noah-amsel, kind: phd}    # co-advised with J. Bruna
+- {advisor: daniel-kressner, student: alice-cortinovis, kind: phd}
+- {advisor: daniel-kressner, student: david-persson, kind: phd}
+- {advisor: daniel-kressner, student: stefano-massei, kind: postdoc}
+- {advisor: yuji-nakatsukasa, student: taejun-park, kind: phd}
+- {advisor: nicholas-higham, student: theo-mary, kind: postdoc}
+- {advisor: james-demmel, student: erin-carson, kind: phd}
+- {advisor: erin-carson, student: ieva-dauzickaite, kind: postdoc}
+- {advisor: james-demmel, student: xiaoye-sherry-li, kind: phd}
+- {advisor: james-demmel, student: david-bindel, kind: phd}
+- {advisor: alan-edelman, student: ioana-dumitriu, kind: phd}
+- {advisor: ioana-dumitriu, student: ryan-schneider, kind: phd}
+- {advisor: nikhil-srivastava, student: jorge-garza-vargas, kind: phd}
+- {advisor: nikhil-srivastava, student: rikhav-shah, kind: phd}
+- {advisor: deanna-needell, student: anna-ma, kind: phd}
+- {advisor: deanna-needell, student: elizaveta-rebrova, kind: postdoc}
+- {advisor: deanna-needell, student: jamie-haddock, kind: postdoc}
+- {advisor: elizaveta-rebrova, student: jackie-lok, kind: phd}
+- {advisor: valeria-simoncini, student: davide-palitta, kind: phd}
+- {advisor: lothar-reichel, student: mirjeta-pasha, kind: phd}    # co-advised with A. Buccini
+- {advisor: lothar-reichel, student: lucas-onisk, kind: phd}    # co-advised with A. Buccini
+- {advisor: misha-kilmer, student: elizabeth-newman, kind: phd}
+- {advisor: michael-mahoney, student: michal-derezinski, kind: postdoc}
+- {advisor: michael-mahoney, student: riley-murray, kind: postdoc}
+- {advisor: daniel-szyld, student: andrew-higgins, kind: phd}

@@ -1,0 +1,108 @@
+# =============================================================================
+# Configuration for the community-graph build.
+#
+# Everything about *how* closeness is measured and how nodes are grouped lives
+# here (not in code), so the same pipeline can be pointed at another community
+# by editing the data/ directory only.
+# =============================================================================
+
+title: "Randomized Numerical Linear Algebra — Community Graph"
+subtitle: >
+  People, papers, and advising in the RandNLA research community. Closeness
+  is a tunable weighted combination of factors - drag the sliders.
+
+# -----------------------------------------------------------------------------
+# Closeness factors.
+#
+#   kind: curated   value is set by hand on each edge in connections.yaml
+#   kind: computed  value is derived by build.py (`compute` names the rule)
+#   max             the value treated as "full strength" (used to normalize)
+#   default_weight  initial slider position in the UI (0 - 1); tune in the app
+#
+# The overall closeness of an edge is the weighted sum
+#     score = sum_f  weight[f] * min(value[f], max[f]) / max[f]
+# and the weights are adjustable live in the visualization, so the metric can
+# be tuned without touching the data.
+# -----------------------------------------------------------------------------
+factors:
+  - id: coauthor
+    label: Joint papers
+    kind: computed
+    compute: papers
+    max: 8
+    default_weight: 1.0
+    description: >
+      Number of tracked joint papers (papers.yaml), capped at 8 - eight or
+      more tracked papers counts as full strength.
+
+  - id: advising
+    label: Advising
+    kind: computed
+    compute: advising
+    max: 1
+    default_weight: 0.8
+    description: >
+      Advisor relationship (advising.yaml): PhD advisor/advisee = 1.0,
+      postdoc host/postdoc = 0.7.
+
+  - id: collaboration
+    label: Other collaboration
+    kind: curated
+    max: 2
+    default_weight: 0.5
+    description: >
+      Collaboration beyond papers: joint software, co-organizing, joint
+      grants/projects. 1 = some · 2 = substantial.
+
+  - id: shared_workshops
+    label: Shared workshops
+    kind: computed
+    compute: shared_workshops
+    max: 2
+    default_weight: 0.3
+    description: >
+      Number of listed workshops both people attended (computed from
+      workshops.yaml).
+
+  - id: same_institution
+    label: Same institution
+    kind: computed
+    compute: same_institution
+    max: 1
+    default_weight: 0.3
+    description: >
+      1 = current affiliations match (computed from people.yaml; requires the
+      affiliation strings to be written consistently).
+
+  - id: co_organized
+    label: Co-organized workshops
+    kind: computed
+    compute: co_organized
+    max: 1
+    default_weight: 0.6
+    description: >
+      Number of listed workshops the two people organized together (computed
+      from workshops.yaml).
+
+# -----------------------------------------------------------------------------
+# If true, co-attending a workshop by itself creates an edge between every
+# pair of attendees (a complete graph per workshop - dense but sometimes
+# useful). If false, co-attendance only contributes as a factor on edges that
+# are explicitly curated in connections.yaml.
+# -----------------------------------------------------------------------------
+coattendance_edges: false
+
+# Co-organizing a workshop is a deliberate tie, so (unlike co-attendance)
+# it does create an edge between the organizers by default.
+coorganizer_edges: true
+
+# -----------------------------------------------------------------------------
+# Node color groups: each person's `area` field in people.yaml selects a
+# group. The order here fixes the color assignment in the app. People with an
+# unknown/missing area fall into the first group.
+# -----------------------------------------------------------------------------
+node_groups:
+  - { id: nla,     label: "Numerical linear algebra" }
+  - { id: tcs,     label: "Theory & sketching" }
+  - { id: opt,     label: "Optimization & ML" }
+  - { id: inverse, label: "Inverse problems & imaging" }

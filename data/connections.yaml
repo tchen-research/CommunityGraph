@@ -1,0 +1,459 @@
+# Curated relationship annotations. Each entry connects two people (ids from
+# people.yaml) with free-text `notes` / `links` and the one remaining curated
+# factor:
+#   collaboration: 0-2   (non-paper collaboration: software, organizing, ...)
+# Coauthorship is now computed from papers.yaml and advising from
+# advising.yaml - do not enter those here. An entry in this file also
+# guarantees the edge exists even with no tracked papers.
+#
+# Notes were curated from public knowledge of the community and verified
+# against DBLP, the Mathematics Genealogy Project, theses, and homepages
+# (July 2026). Corrections welcome - this file is the place to make them.
+
+# --- RandNLA founders / sketching theory ------------------------------------
+- between: [petros-drineas, michael-mahoney]
+  collaboration: 1
+  notes: >
+    Long-term collaborators and co-founders of RandNLA as a field: the fast
+    Monte Carlo matrix algorithms trilogy (SICOMP 2006), CUR decompositions,
+    and the CACM 2016 survey "RandNLA: Randomized Numerical Linear Algebra".
+
+- between: [petros-drineas, ravindran-kannan]
+  notes: >
+    Kannan was Drineas's PhD advisor at Yale; coauthors of the fast Monte
+    Carlo matrix multiplication line that seeded RandNLA.
+
+- between: [michael-mahoney, ravindran-kannan]
+  notes: Coauthors of the fast Monte Carlo matrix algorithms trilogy (SICOMP 2006).
+
+- between: [santosh-vempala, ravindran-kannan]
+  notes: >
+    Long-term collaborators: Frieze-Kannan-Vempala sampling, adaptive
+    sampling, and the "Spectral Algorithms" monograph.
+
+- between: [petros-drineas, ilse-ipsen]
+  notes: >
+    Joint work on the numerical analysis side of RandNLA, e.g. "Low-rank
+    matrix approximations do not need a singular value gap" (SIMAX 2019).
+
+- between: [petros-drineas, tamas-sarlos]
+  notes: '"Faster least squares approximation" (Drineas, Mahoney, Muthukrishnan, Sarlós).'
+
+- between: [michael-mahoney, tamas-sarlos]
+  notes: '"Faster least squares approximation" (Drineas, Mahoney, Muthukrishnan, Sarlós).'
+
+- between: [kenneth-clarkson, david-woodruff]
+  notes: >
+    The Clarkson-Woodruff line: input-sparsity-time sketching for regression
+    and low-rank approximation (STOC 2013) and many follow-ups.
+
+- between: [haim-avron, david-woodruff]
+  notes: >
+    Sketching for kernel methods: subspace embeddings for the polynomial
+    kernel, faster kernel ridge regression (with Clarkson).
+
+- between: [haim-avron, kenneth-clarkson]
+  notes: '"Faster kernel ridge regression using sketching and preconditioning" (SIMAX 2017).'
+
+- between: [jelani-nelson, david-woodruff]
+  notes: >
+    Joint papers in streaming and sketching, e.g. Kane-Nelson-Woodruff on
+    distinct elements; lower bounds for sketching.
+
+- between: [david-woodruff, cameron-musco]
+  notes: >
+    Sublinear-time low-rank approximation of PSD matrices (FOCS 2017);
+    Hutch++ (with C. Musco and Meyer).
+
+- between: [david-woodruff, christopher-musco]
+  notes: Hutch++ optimal stochastic trace estimation (with Meyer and Cameron Musco).
+
+- between: [david-woodruff, raphael-meyer]
+  notes: Hutch++ optimal stochastic trace estimation.
+
+- between: [david-woodruff, ainesh-bakshi]
+  notes: >
+    PhD at CMU (2022) co-advised by Pravesh Kothari and Woodruff; joint papers
+    on low-rank approximation.
+
+# --- randomized SVD / Yale lineage ------------------------------------------
+- between: [per-gunnar-martinsson, vladimir-rokhlin]
+  notes: >
+    Martinsson was a postdoc at Yale with Rokhlin; the original randomized
+    low-rank approximation papers (with Tygert), PNAS 2007.
+
+- between: [per-gunnar-martinsson, mark-tygert]
+  notes: Early randomized low-rank approximation and randomized SVD papers.
+
+- between: [vladimir-rokhlin, mark-tygert]
+  notes: Tygert's PhD at Yale was advised by Rokhlin; randomized least squares and SVD.
+
+- between: [edo-liberty, vladimir-rokhlin]
+  notes: '"Randomized algorithms for the low-rank approximation of matrices" (PNAS 2007).'
+
+- between: [edo-liberty, mark-tygert]
+  notes: '"Randomized algorithms for the low-rank approximation of matrices" (PNAS 2007).'
+
+- between: [edo-liberty, per-gunnar-martinsson]
+  notes: '"Randomized algorithms for the low-rank approximation of matrices" (PNAS 2007).'
+
+- between: [edo-liberty, david-woodruff]
+  notes: '"Frequent Directions: simple and deterministic matrix sketching" (SICOMP 2016).'
+
+- between: [per-gunnar-martinsson, joel-tropp]
+  notes: >
+    "Randomized numerical linear algebra: foundations and algorithms"
+    (Acta Numerica 2020); the HMT randomized SVD survey lineage.
+
+- between: [joel-tropp, madeleine-udell]
+  notes: Practical sketching algorithms for low-rank matrix approximation (SIMAX 2017, 2019).
+
+# --- Caltech cluster ---------------------------------------------------------
+- between: [joel-tropp, ethan-epperly]
+  notes: PhD advisor at Caltech; RPCholesky, XTrace, and a sustained line of joint work.
+
+- between: [joel-tropp, robert-webber]
+  notes: Webber was a postdoc at Caltech with Tropp; RPCholesky, XTrace, randomized Krylov.
+
+- between: [ethan-epperly, robert-webber]
+  notes: RPCholesky, XTrace, and leave-one-out variance-reduced trace estimation.
+
+- between: [joel-tropp, chris-camano]
+  notes: PhD student at Caltech; randomized tensor-network and Krylov methods.
+
+- between: [yuji-nakatsukasa, joel-tropp]
+  notes: '"Fast and accurate randomized algorithms for linear systems and eigenvalue problems" (SIMAX 2024).'
+
+# --- UT Austin cluster -------------------------------------------------------
+- between: [per-gunnar-martinsson, yijun-dong]
+  notes: PhD at UT Austin co-advised by Martinsson and Ward; randomized dimension reduction.
+
+- between: [rachel-ward, yijun-dong]
+  notes: PhD at UT Austin co-advised by Martinsson and Ward.
+
+- between: [per-gunnar-martinsson, anna-yesypenko]
+  notes: PhD at UT Austin with Martinsson; randomized compression and fast direct solvers.
+
+- between: [per-gunnar-martinsson, katherine-pearce]
+  notes: Postdoc at UT Austin (Oden Institute) working with Martinsson.
+
+- between: [rachel-ward, ruhui-jin]
+  notes: PhD at UT Austin with Ward; tensor sketching.
+
+- between: [deanna-needell, rachel-ward]
+  notes: >
+    SGD meets Kaczmarz: "Stochastic gradient descent, weighted sampling, and
+    the randomized Kaczmarz algorithm" (Needell-Srebro-Ward) and follow-ups.
+
+# --- trace estimation / Krylov -----------------------------------------------
+- between: [haim-avron, sivan-toledo]
+  notes: >
+    PhD at Tel Aviv with Toledo; Avron-Toledo (JACM 2011) began the modern
+    analysis of randomized trace estimation.
+
+- between: [yousef-saad, shashanka-ubaru]
+  notes: PhD at Minnesota with Saad; stochastic Lanczos quadrature for tr(f(A)).
+
+- between: [tyler-chen, anne-greenbaum]
+  notes: >
+    PhD co-advisor at the University of Washington; Lanczos error bounds and
+    finite-precision behavior of Krylov methods.
+
+- between: [tyler-chen, thomas-trogdon]
+  notes: >
+    PhD co-advisor at the University of Washington; stochastic Lanczos
+    quadrature analysis and universality in numerical computation.
+
+- between: [tyler-chen, shashanka-ubaru]
+  notes: '"Analysis of stochastic Lanczos quadrature for spectrum approximation" (with Trogdon).'
+
+- between: [tyler-chen, christopher-musco]
+  notes: >
+    Postdoc at NYU hosted by C. Musco; Lanczos-based matrix function
+    approximation and Krylov-aware trace estimation.
+
+- between: [tyler-chen, cameron-musco]
+  notes: Error bounds for Lanczos-based matrix function approximation; low-memory Krylov.
+
+- between: [cameron-musco, christopher-musco]
+  notes: >
+    Brothers and frequent coauthors: randomized block Krylov methods
+    (NeurIPS 2015), Hutch++, and much more.
+
+- between: [christopher-musco, raphael-meyer]
+  notes: PhD at NYU Tandon with C. Musco; Hutch++ and matvec query complexity.
+
+- between: [cameron-musco, raphael-meyer]
+  notes: Hutch++ and optimal trace estimation lower bounds.
+
+- between: [raphael-meyer, haim-avron]
+  notes: '"Hutchinson''s estimator is bad at Kronecker-trace-estimation".'
+
+- between: [christopher-musco, noah-amsel]
+  notes: >
+    PhD student at NYU co-advised by C. Musco and Joan Bruna; near-optimal
+    matrix function approximation.
+
+- between: [tyler-chen, noah-amsel]
+  notes: Joint work on polynomial/Krylov approximation of matrix functions.
+
+- between: [tyler-chen, ethan-epperly]
+  notes: '"Does block size matter in randomized block Krylov low-rank approximation?"'
+
+- between: [anne-greenbaum, zdenek-strakos]
+  notes: >
+    Classic finite-precision Krylov analysis: Greenbaum-Strakoš (1992), and
+    "any nonincreasing GMRES curve is possible" (with Pták, 1996).
+
+- between: [jorg-liesen, zdenek-strakos]
+  notes: '"Krylov Subspace Methods: Principles and Analysis" (Oxford UP, 2013) and more.'
+
+# --- EPFL cluster ------------------------------------------------------------
+- between: [daniel-kressner, alice-cortinovis]
+  notes: >
+    PhD at EPFL with Kressner; randomized trace estimation and low-rank
+    approximation error analysis.
+
+- between: [daniel-kressner, david-persson]
+  notes: PhD at EPFL with Kressner; funNyström and randomized trace estimation.
+
+- between: [daniel-kressner, stefano-massei]
+  notes: Postdoc at EPFL with Kressner; hierarchical matrices and the hm-toolbox.
+
+# --- Oxford / Manchester -----------------------------------------------------
+- between: [yuji-nakatsukasa, taejun-park]
+  notes: PhD at Oxford with Nakatsukasa; randomized low-rank approximation.
+
+- between: [yuji-nakatsukasa, nicholas-higham]
+  notes: >
+    Postdoc years at Manchester: spectral divide-and-conquer and polar
+    decomposition algorithms.
+
+- between: [nicholas-higham, theo-mary]
+  notes: >
+    Postdoc at Manchester with Higham; probabilistic rounding-error analysis
+    and mixed-precision algorithms.
+
+- between: [erin-carson, nicholas-higham]
+  notes: Mixed-precision iterative refinement (SISC 2017/2018).
+
+- between: [erin-carson, james-demmel]
+  notes: PhD at Berkeley with Demmel; communication-avoiding and s-step Krylov methods.
+
+- between: [erin-carson, ieva-dauzickaite]
+  notes: Postdoc at Charles University with Carson; randomized and mixed-precision methods.
+
+# --- Berkeley / LAPACK / HPC -------------------------------------------------
+- between: [james-demmel, laura-grigori]
+  notes: Communication-avoiding LU and QR (CALU, CAQR) and a long HPC collaboration.
+
+- between: [james-demmel, xiaoye-sherry-li]
+  notes: PhD at Berkeley with Demmel; SuperLU and sparse direct methods.
+
+- between: [james-demmel, zhaojun-bai]
+  notes: LAPACK and the eigenvalue Templates books.
+
+- between: [james-demmel, david-bindel]
+  notes: PhD at Berkeley with Demmel.
+
+- between: [james-demmel, julien-langou]
+  notes: Communication-avoiding QR (CAQR); LAPACK development.
+
+- between: [laura-grigori, julien-langou]
+  notes: Communication-avoiding QR (CAQR).
+
+- between: [james-demmel, ming-gu]
+  notes: Communication-avoiding rank-revealing QR (with Grigori and Xiang).
+
+- between: [laura-grigori, ming-gu]
+  notes: Communication-avoiding rank-revealing QR (SIMAX 2015).
+
+- between: [james-demmel, olga-holtz]
+  notes: '"Fast linear algebra is stable" and fast matrix multiplication stability (with Dumitriu).'
+
+- between: [james-demmel, ioana-dumitriu]
+  notes: '"Fast linear algebra is stable" (Numer. Math. 2007, with Holtz).'
+
+- between: [olga-holtz, ioana-dumitriu]
+  notes: '"Fast linear algebra is stable" (Numer. Math. 2007, with Demmel).'
+
+- between: [james-demmel, riley-murray]
+  notes: The RandLAPACK monograph ("Randomized Numerical Linear Algebra - A Perspective...").
+
+- between: [michael-mahoney, riley-murray]
+  notes: >
+    Postdoc at Berkeley (ICSI) with Mahoney; leads the RandBLAS/RandLAPACK
+    standardization effort.
+
+- between: [laura-grigori, riley-murray]
+  notes: The RandLAPACK monograph.
+
+- between: [michal-derezinski, riley-murray]
+  notes: The RandLAPACK monograph.
+
+- between: [michal-derezinski, michael-mahoney]
+  notes: >
+    Postdoc at UC Berkeley with Mahoney; "Determinantal point processes in
+    RandNLA" (survey) and sketched second-order methods.
+
+- between: [michal-derezinski, mert-pilanci]
+  notes: Newton-LESS sketched second-order optimization (with Mahoney).
+
+- between: [michael-mahoney, mert-pilanci]
+  notes: Newton-LESS and related sketched optimization work.
+
+- between: [michael-mahoney, fred-roosta]
+  notes: Sub-sampled Newton methods for machine learning.
+
+- between: [yousef-saad, edmond-chow]
+  notes: PhD at Minnesota with Saad; approximate inverse preconditioning.
+
+# --- random matrix theory / TCS ---------------------------------------------
+- between: [alan-edelman, ioana-dumitriu]
+  notes: PhD at MIT with Edelman; matrix models for beta-ensembles.
+
+- between: [ioana-dumitriu, ryan-schneider]
+  notes: PhD at UC San Diego with Dumitriu; randomized diagonalization.
+
+- between: [nikhil-srivastava, jorge-garza-vargas]
+  notes: >
+    PhD at Berkeley with Srivastava; pseudospectral shattering and global
+    convergence of shifted QR.
+
+- between: [nikhil-srivastava, rikhav-shah]
+  notes: PhD at Berkeley with Srivastava.
+
+- between: [richard-peng, santosh-vempala]
+  notes: Solving sparse linear systems faster than matrix multiplication (SODA 2021 best paper).
+
+- between: [rasmus-kyng, sushant-sachdeva]
+  notes: Approximate Gaussian elimination for Laplacians (FOCS 2016).
+
+- between: [rasmus-kyng, peng-zhang]
+  notes: Hardness results for structured linear systems (FOCS 2017).
+
+- between: [michael-kapralov, cameron-musco]
+  notes: Single-pass spectral sparsification in dynamic streams.
+
+- between: [michael-kapralov, christopher-musco]
+  notes: Single-pass spectral sparsification in dynamic streams.
+
+- between: [aaron-sidford, cameron-musco]
+  notes: Single-pass spectral sparsification; accelerated PCA methods.
+
+- between: [aaron-sidford, christopher-musco]
+  notes: Single-pass spectral sparsification in dynamic streams.
+
+# --- Kaczmarz / stochastic iterative methods ---------------------------------
+- between: [deanna-needell, anna-ma]
+  notes: PhD (Claremont Graduate University) with Needell; randomized Kaczmarz methods.
+
+- between: [deanna-needell, elizaveta-rebrova]
+  notes: Postdoc at UCLA with Needell; sketching and iterative methods.
+
+- between: [deanna-needell, jamie-haddock]
+  notes: Postdoc at UCLA with Needell; Kaczmarz-type methods.
+
+- between: [elizaveta-rebrova, jackie-lok]
+  notes: PhD at Princeton with Rebrova; randomized iterative methods.
+
+- between: [robert-gower, deanna-needell]
+  notes: Adaptive sketch-and-project for linear systems; SP2.
+
+# --- matrix equations / Krylov (Italy, Temple) -------------------------------
+- between: [valeria-simoncini, daniel-szyld]
+  notes: Long-running collaboration on Krylov convergence theory and inexact Krylov.
+
+- between: [valeria-simoncini, davide-palitta]
+  notes: PhD at Bologna with Simoncini; matrix equations.
+
+# --- regularization / inverse problems ---------------------------------------
+- between: [james-baglama, lothar-reichel]
+  notes: IRLBA - augmented implicitly restarted Lanczos bidiagonalization - and more.
+
+- between: [daniela-calvetti, lothar-reichel]
+  notes: Decades of joint work on regularization and quadrature-based bounds.
+
+- between: [daniela-calvetti, erkki-somersalo]
+  collaboration: 1
+  notes: >
+    Long-term collaborators at Case Western; books on Bayesian scientific
+    computing.
+
+- between: [lothar-reichel, omar-de-la-cruz-cabrera]
+  notes: Network analysis via matrix functions (Kent State colleagues).
+
+- between: [lothar-reichel, mirjeta-pasha]
+  notes: >
+    PhD at Kent State (2020) co-advised by Reichel and Alessandro Buccini;
+    regularization for large-scale inverse problems.
+
+- between: [lothar-reichel, lucas-onisk]
+  notes: PhD at Kent State co-advised by Reichel and Buccini; now a postdoc at Emory.
+
+- between: [julianne-chung, matthias-chung]
+  notes: Married collaborators; hybrid regularization and learning-based inverse problems.
+
+- between: [julianne-chung, arvind-saibaba]
+  notes: Generalized hybrid iterative methods for Bayesian inverse problems (SISC 2017).
+
+- between: [arvind-saibaba, ilse-ipsen]
+  notes: Randomized methods with a numerical-analysis lens (NC State colleagues).
+
+- between: [misha-kilmer, elizabeth-newman]
+  notes: PhD at Tufts with Kilmer; t-product tensor frameworks.
+
+- between: [misha-kilmer, eric-de-sturler]
+  notes: Krylov recycling for tomography and parametrized inverse problems.
+
+- between: [haim-avron, lior-horesh]
+  notes: Joint work from Avron's IBM Research years.
+
+- between: [shashanka-ubaru, lior-horesh]
+  notes: IBM Research colleagues; joint work on graph/quantum applications.
+
+# --- low-rank theory / operator learning -------------------------------------
+- between: [alex-townsend, heather-wilber]
+  notes: PhD at Cornell with Townsend; rational approximation and low-rank structure.
+
+- between: [alex-townsend, diana-halikias]
+  notes: PhD at Cornell with Townsend; operator learning and matrix recovery.
+
+- between: [alex-townsend, nicolas-boulle]
+  notes: Learning Green's functions; rational neural networks; operator learning theory.
+
+- between: [nicolas-boulle, yuji-nakatsukasa]
+  notes: Rational neural networks (NeurIPS 2020, with Townsend).
+
+- between: [nicolas-boulle, diana-halikias]
+  notes: Elliptic PDE learning is provably data-efficient (PNAS 2023, with Townsend).
+
+# --- added after verification pass -------------------------------------------
+- between: [malena-espanol, mirjeta-pasha]
+  notes: Variable projection and edge-preserving methods for inverse problems.
+
+- between: [andrew-higgins, daniel-szyld]
+  notes: PhD at Temple (2024) with Szyld; now a postdoc at Sandia.
+
+- between: [john-urschel, rikhav-shah]
+  notes: >
+    Spectral density estimation for normal matrices (with the Muscos);
+    condition numbers of Fourier/Vandermonde submatrices.
+
+- between: [john-urschel, cameron-musco]
+  notes: Spectral density estimation for normal matrices (with Shah and C. Musco).
+
+- between: [john-urschel, christopher-musco]
+  notes: Spectral density estimation for normal matrices (with Shah and Cameron Musco).
+
+- between: [john-urschel, alan-edelman]
+  notes: Several joint papers on growth factors of random matrices.
+
+- between: [robert-gower, noah-amsel]
+  notes: '"The Polar Express": optimal matrix sign methods (with Persson and C. Musco).'
+
+- between: [robert-gower, david-persson]
+  notes: '"The Polar Express": optimal matrix sign methods.'
+
+- between: [robert-gower, christopher-musco]
+  notes: '"The Polar Express": optimal matrix sign methods.'

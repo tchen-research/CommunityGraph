@@ -1,0 +1,1115 @@
+# One entry per person. id is referenced by the other data files.
+# area: research-area group for node colors (see config.yaml node_groups).
+# Keep affiliations written consistently - the same_institution factor is
+# computed by exact (case-insensitive) match.
+# Optional keys: website, photo (direct image URL), topics (list), notes.
+- id: aaron-sidford
+  name: Aaron Sidford
+  affiliation: Stanford University
+  area: tcs
+  topics:
+  - optimization
+  - spectral methods
+  notes: Optimization and fast linear system solvers.
+- id: abhijit-chowdhary
+  name: Abhijit Chowdhary
+  affiliation: Tufts University
+  area: inverse
+- id: abraham-khan
+  name: Abraham Khan
+  affiliation: North Carolina State University
+  area: nla
+- id: agnieszka-miedlar
+  name: Agnieszka Miedlar
+  affiliation: Virginia Tech
+  area: nla
+  topics:
+  - eigenvalue problems
+  notes: Eigenvalue computations; co-organizer of the ICERM 2026 workshop.
+- id: aidan-mason-mackay
+  name: Aidan Mason-Mackay
+  affiliation: University of Eastern Finland
+  area: nla
+- id: ainesh-bakshi
+  name: Ainesh Bakshi
+  affiliation: Massachusetts Institute of Technology
+  area: tcs
+  topics:
+  - sketching
+  - robust statistics
+  notes: Low-rank approximation and robust statistics.
+- id: akil-narayan
+  name: Akil Narayan
+  affiliation: University of Utah
+  area: nla
+  topics:
+  - uncertainty quantification
+  - sampling
+  notes: Sampling methods for approximation and UQ.
+- id: alan-edelman
+  name: Alan Edelman
+  affiliation: Massachusetts Institute of Technology
+  area: nla
+  topics:
+  - random matrix theory
+  - Julia
+  notes: Random matrix theory; co-creator of Julia.
+- id: alberto-bucci
+  name: Alberto Bucci
+  affiliation: University of Edinburgh
+  area: nla
+- id: alex-townsend
+  name: Alex Townsend
+  affiliation: Cornell University
+  area: nla
+  topics:
+  - low-rank theory
+  - spectral methods
+  - operator learning
+  notes: Why-are-matrices-low-rank theory; continuous analogues; operator learning.
+- id: alice-cortinovis
+  name: Alice Cortinovis
+  affiliation: University of Pisa
+  area: nla
+  topics:
+  - trace estimation
+  - low-rank approximation
+  notes: Randomized trace estimation analysis; low-rank approximation.
+- id: allison-fuller
+  name: Allison Fuller
+  affiliation: Arizona State University
+  area: nla
+- id: andrea-arnold
+  name: Andrea Arnold
+  affiliation: Worcester Polytechnic Institute
+  area: inverse
+- id: andreas-mang
+  name: Andreas Mang
+  affiliation: University of Houston
+  area: inverse
+- id: andrew-higgins
+  name: Andrew Higgins
+  affiliation: Sandia National Laboratories
+  area: nla
+- id: anna-ma
+  name: Anna Ma
+  affiliation: University of California Irvine
+  area: opt
+  topics:
+  - stochastic iterative methods
+  notes: Randomized Kaczmarz-type methods. Co-organizer of the ICERM 2026 workshop.
+- id: anna-yesypenko
+  name: Anna Yesypenko
+  affiliation: University of Texas at Austin
+  area: nla
+  topics:
+  - fast direct solvers
+  notes: Randomized compression and fast direct solvers.
+- id: anne-greenbaum
+  name: Anne Greenbaum
+  affiliation: University of Washington
+  area: nla
+  topics:
+  - Krylov methods
+  - finite precision
+  notes: Foundational analysis of Krylov methods in finite precision arithmetic.
+- id: ansley-bentley
+  name: Ansley Bentley
+  affiliation: Emory University
+  area: inverse
+- id: arvind-saibaba
+  name: Arvind Saibaba
+  affiliation: North Carolina State University
+  area: inverse
+  topics:
+  - randomized inverse problems
+  notes: Randomized methods for inverse problems and model reduction. Co-organizer of the
+    ICERM 2026 workshop.
+- id: benjamin-carrel
+  name: Benjamin Carrel
+  affiliation: Paul Scherrer Institut
+  area: nla
+- id: cameron-musco
+  name: Cameron Musco
+  affiliation: University of Massachusetts Amherst
+  area: tcs
+  topics:
+  - sublinear algorithms
+  - spectral methods
+  notes: Randomized block Krylov methods, Hutch++, sublinear-time linear algebra. Brother
+    of Christopher.
+- id: carlos-beltran
+  name: Carlos Beltrán
+  affiliation: Universidad de Cantabria
+  area: nla
+- id: chenyang-cao
+  name: Chenyang Cao
+  affiliation: Purdue University
+  area: nla
+- id: chris-camano
+  name: Chris Camaño
+  affiliation: California Institute of Technology
+  area: nla
+  topics:
+  - randomized tensor methods
+  notes: Randomized algorithms for tensor networks and Krylov methods.
+- id: christopher-beattie
+  name: Christopher Beattie
+  affiliation: Virginia Tech
+  area: nla
+- id: christopher-musco
+  name: Christopher Musco
+  affiliation: New York University
+  area: tcs
+  topics:
+  - randomized Krylov
+  - trace estimation
+  - matvec query complexity
+  notes: Randomized block Krylov methods, Hutch++, matrix-vector query complexity. Brother
+    of Cameron.
+- id: cleve-moler
+  name: Cleve Moler
+  affiliation: MathWorks
+  area: nla
+  topics:
+  - MATLAB
+  - numerical software
+  notes: Creator of MATLAB.
+- id: daniel-kressner
+  name: Daniel Kressner
+  affiliation: EPFL
+  area: nla
+  topics:
+  - low-rank approximation
+  - tensors
+  - eigenvalue problems
+  notes: Low-rank and tensor methods; randomized trace estimation and low-rank approximation
+    analysis with his EPFL group.
+- id: daniel-szyld
+  name: Daniel Szyld
+  affiliation: Temple University
+  area: nla
+  topics:
+  - Krylov methods
+  - asynchronous iterations
+  notes: Krylov convergence theory (long line with Simoncini); asynchronous methods.
+- id: daniela-calvetti
+  name: Daniela Calvetti
+  affiliation: Case Western Reserve University
+  area: inverse
+  topics:
+  - Bayesian inverse problems
+  notes: Bayesian scientific computing (books with Somersalo).
+- id: david-bindel
+  name: David Bindel
+  affiliation: Cornell University
+  area: nla
+  topics:
+  - eigenvalue problems
+  - kernel methods
+  notes: Eigenvalue computations, kernels, and network analysis.
+- id: david-persson
+  name: David Persson
+  affiliation: New York University / Flatiron Institute
+  area: nla
+  topics:
+  - randomized trace estimation
+  - low-rank approximation
+  notes: funNyström; randomized trace estimation and low-rank approximation.
+- id: david-woodruff
+  name: David Woodruff
+  affiliation: Carnegie Mellon University
+  area: tcs
+  topics:
+  - sketching
+  - streaming
+  - lower bounds
+  notes: Sketching-as-a-tool; Clarkson–Woodruff input-sparsity-time regression and low-rank
+    approximation.
+- id: davide-palitta
+  name: Davide Palitta
+  affiliation: University of Bologna
+  area: nla
+  topics:
+  - matrix equations
+  notes: Matrix equations and large-scale Sylvester/Lyapunov solvers.
+- id: deanna-needell
+  name: Deanna Needell
+  affiliation: University of California, Los Angeles
+  area: opt
+  topics:
+  - Kaczmarz
+  - stochastic iterative methods
+  - compressed sensing
+  notes: Randomized Kaczmarz and stochastic iterative methods.
+- id: diana-halikias
+  name: Diana Halikias
+  affiliation: New York University
+  area: nla
+  topics:
+  - operator learning
+  - low-rank recovery
+  notes: Matrix recovery from matvec queries; operator learning.
+- id: edmond-chow
+  name: Edmond Chow
+  affiliation: Georgia Institute of Technology
+  area: nla
+  topics:
+  - preconditioning
+  - parallel algorithms
+  notes: Parallel preconditioning and approximate inverse methods.
+- id: edo-liberty
+  name: Edo Liberty
+  affiliation: Pinecone
+  area: tcs
+  topics:
+  - frequent directions
+  - streaming low-rank
+  notes: Frequent Directions sketching; early randomized SVD work at Yale.
+- id: elizabeth-newman
+  name: Elizabeth Newman
+  affiliation: Tufts University
+  area: inverse
+  topics:
+  - tensor methods
+  - scientific ML
+  notes: t-product tensor frameworks for deep learning and imaging.
+- id: elizaveta-rebrova
+  name: Elizaveta Rebrova
+  affiliation: Princeton University
+  area: opt
+  topics:
+  - random matrices
+  - iterative sketching
+  notes: Random matrix theory and randomized iterative methods.
+- id: emeric-battaglia
+  name: Emeric Battaglia
+  affiliation: University of California, Irvine
+  area: nla
+- id: eric-de-sturler
+  name: Eric de Sturler
+  affiliation: Virginia Tech
+  area: nla
+  topics:
+  - Krylov recycling
+  notes: Krylov subspace recycling; inverse problems.
+- id: erin-carson
+  name: Erin Carson
+  affiliation: Charles University
+  area: nla
+  topics:
+  - mixed precision
+  - communication-avoiding Krylov
+  notes: Mixed-precision iterative refinement; s-step Krylov stability. Co-organizer of the
+    Banff 2023 workshop.
+- id: erkki-somersalo
+  name: Erkki Somersalo
+  affiliation: Case Western Reserve University
+  area: inverse
+  topics:
+  - Bayesian inverse problems
+  notes: Bayesian scientific computing (books with Calvetti).
+- id: ethan-epperly
+  name: Ethan Epperly
+  affiliation: California Institute of Technology
+  area: nla
+  topics:
+  - RPCholesky
+  - randomized low-rank
+  - trace estimation
+  notes: Randomly pivoted Cholesky; XTrace; numerical analysis of randomized methods.
+- id: fan-tian
+  name: Fan Tian
+  affiliation: Tufts University
+  area: inverse
+- id: fatoumata-sanogo
+  name: Fatoumata Sanogo
+  affiliation: Bates College
+  area: inverse
+- id: federica-milinanni
+  name: Federica Milinanni
+  affiliation: ICERM / Brown University
+  area: nla
+- id: fred-roosta
+  name: Fred Roosta
+  affiliation: University of Queensland
+  area: opt
+  topics:
+  - sub-sampled Newton methods
+  notes: Sub-sampled and sketched second-order optimization.
+- id: george-turkiyyah
+  name: George Turkiyyah
+  affiliation: KAUST
+  area: nla
+- id: giulio-trigila
+  name: Giulio Trigila
+  affiliation: City University of New York
+  area: opt
+- id: haim-avron
+  name: Haim Avron
+  affiliation: Tel Aviv University
+  area: nla
+  topics:
+  - trace estimation
+  - sketching
+  - kernel methods
+  notes: Avron–Toledo trace estimation analysis; sketching for kernel methods. Co-organizer
+    of the ICERM 2026 workshop.
+- id: haojun-qin
+  name: Haojun Qin
+  affiliation: Brown University
+  area: nla
+- id: harbir-antil
+  name: Harbir Antil
+  affiliation: George Mason University
+  area: inverse
+- id: harshit-bhatt
+  name: Harshit Bhatt
+  affiliation: North Carolina State University
+  area: nla
+- id: heather-wilber
+  name: Heather Wilber
+  affiliation: University of Texas at Austin
+  area: nla
+  topics:
+  - rational approximation
+  - low-rank structure
+  notes: Rational approximation and structured low-rank computations.
+- id: ieva-dauzickaite
+  name: Ieva Daužickaitė
+  affiliation: CERFACS
+  area: nla
+  topics:
+  - mixed precision
+  - randomized methods
+  notes: Randomized and mixed-precision methods for large linear systems.
+- id: igor-simunec
+  name: Igor Simunec
+  affiliation: EPFL
+  area: nla
+  topics:
+  - matrix functions
+  - Krylov methods
+  notes: Krylov methods for matrix functions and network analysis.
+- id: ilse-ipsen
+  name: Ilse Ipsen
+  affiliation: North Carolina State University
+  area: nla
+  topics:
+  - perturbation theory
+  - leverage scores
+  - probabilistic numerics
+  notes: Numerical analysis of randomized algorithms; leverage scores and probabilistic bounds.
+- id: ioana-dumitriu
+  name: Ioana Dumitriu
+  affiliation: University of California, San Diego
+  area: nla
+  topics:
+  - random matrix theory
+  - spectral algorithms
+  notes: Matrix models for beta-ensembles; randomized spectral algorithms.
+- id: israa-fakih
+  name: Israa Fakih
+  affiliation: EPFL / Paul Scherrer Institut
+  area: nla
+- id: jackie-lok
+  name: Jackie Lok
+  affiliation: National University of Singapore
+  area: opt
+  topics:
+  - randomized iterative methods
+  notes: Randomized Kaczmarz-type and iterative methods.
+- id: james-baglama
+  name: James Baglama
+  affiliation: University of Rhode Island
+  area: nla
+  topics:
+  - SVD algorithms
+  notes: 'IRLBA: restarted Lanczos bidiagonalization for the partial SVD.'
+- id: james-demmel
+  name: James Demmel
+  affiliation: University of California, Berkeley
+  area: nla
+  topics:
+  - LAPACK
+  - communication-avoiding
+  - error analysis
+  notes: LAPACK lead; communication-avoiding algorithms; 'fast linear algebra is stable'.
+- id: jamie-haddock
+  name: Jamie Haddock
+  affiliation: Harvey Mudd College
+  area: opt
+  topics:
+  - Kaczmarz methods
+  notes: Randomized Kaczmarz and iterative projection methods.
+- id: jelani-nelson
+  name: Jelani Nelson
+  affiliation: University of California, Berkeley
+  area: tcs
+  topics:
+  - sparse embeddings
+  - streaming
+  notes: OSNAP sparse subspace embeddings; streaming algorithms.
+- id: jessie-chen
+  name: Jessie Chen
+  affiliation: North Carolina State University
+  area: nla
+- id: joel-tropp
+  name: Joel Tropp
+  affiliation: California Institute of Technology
+  area: nla
+  topics:
+  - matrix concentration
+  - randomized algorithms
+  - sketching
+  notes: Matrix concentration inequalities; HMT randomized SVD survey; Acta Numerica 2020
+    survey with Martinsson.
+- id: john-urschel
+  name: John Urschel
+  affiliation: Massachusetts Institute of Technology
+  area: nla
+  topics:
+  - matrix analysis
+  - Lanczos theory
+  notes: Matrix analysis and spectral graph theory; former NFL lineman.
+- id: jorge-garza-vargas
+  name: Jorge Garza-Vargas
+  affiliation: University of California, Berkeley
+  area: tcs
+  topics:
+  - free probability
+  - spectral algorithms
+  notes: Pseudospectral shattering; global convergence of shifted QR.
+- id: josh-alman
+  name: Josh Alman
+  affiliation: Columbia University
+  area: tcs
+  topics:
+  - matrix multiplication
+  notes: Fast matrix multiplication algorithms.
+- id: julianne-chung
+  name: Julianne Chung
+  affiliation: Emory University
+  area: inverse
+  topics:
+  - inverse problems
+  - hybrid regularization
+  notes: Hybrid iterative regularization; randomized methods for inverse problems.
+- id: julien-langou
+  name: Julien Langou
+  affiliation: University of Colorado Denver
+  area: nla
+  topics:
+  - LAPACK
+  - communication-avoiding QR
+  notes: Dense linear algebra libraries; CAQR.
+- id: jung-eun-huh
+  name: Jung Eun Huh
+  affiliation: University of Oxford
+  area: nla
+- id: jorg-liesen
+  name: Jörg Liesen
+  affiliation: TU Berlin
+  area: nla
+  topics:
+  - Krylov theory
+  notes: Krylov subspace methods theory; monograph with Strakoš.
+- id: kapil-ahuja
+  name: Kapil Ahuja
+  affiliation: Virginia Tech
+  area: nla
+- id: katherine-pearce
+  name: Katherine Pearce
+  affiliation: University of Texas at Austin
+  area: nla
+  topics:
+  - randomized low-rank
+  notes: Randomized interpolative and CUR-type decompositions.
+- id: kathrin-smetana
+  name: Kathrin Smetana
+  affiliation: Stevens Institute of Technology
+  area: nla
+- id: ke-wang
+  name: Ke Wang
+  affiliation: Hong Kong University of Science and Technology
+  area: nla
+- id: kenneth-clarkson
+  name: Kenneth Clarkson
+  affiliation: IBM Research
+  area: tcs
+  topics:
+  - sketching
+  - input-sparsity algorithms
+  notes: Clarkson–Woodruff sketching; foundational sketching algorithms.
+- id: kyle-monette
+  name: Kyle Monette
+  affiliation: University of Rhode Island
+  area: nla
+- id: laura-grigori
+  name: Laura Grigori
+  affiliation: EPFL
+  area: nla
+  topics:
+  - communication-avoiding
+  - randomized orthogonalization
+  - HPC
+  notes: Communication-avoiding LU/QR; randomized Gram–Schmidt and sketched Krylov.
+- id: linkai-ma
+  name: Linkai Ma
+  affiliation: Purdue University
+  area: nla
+- id: lior-horesh
+  name: Lior Horesh
+  affiliation: IBM Research
+  area: inverse
+  topics:
+  - scientific ML
+  - quantum computing
+  notes: Scientific machine learning and quantum algorithms at IBM.
+- id: logan-reed
+  name: Logan Reed
+  affiliation: Temple University
+  area: nla
+- id: lorenzo-beretta
+  name: Lorenzo Beretta
+  affiliation: University of California, Santa Cruz
+  area: tcs
+- id: lorenzo-piccinini
+  name: Lorenzo Piccinini
+  affiliation: University of Bologna
+  area: nla
+- id: lothar-reichel
+  name: Lothar Reichel
+  affiliation: Kent State University
+  area: inverse
+  topics:
+  - regularization
+  - quadrature
+  - SVD algorithms
+  notes: Tikhonov regularization, Gauss quadrature, and IRLBA.
+- id: lucas-onisk
+  name: Lucas Onisk
+  affiliation: Emory University
+  area: inverse
+- id: madeleine-udell
+  name: Madeleine Udell
+  affiliation: Stanford University
+  area: opt
+  topics:
+  - low-rank models
+  - optimization
+  notes: Generalized low-rank models; practical sketching for optimization.
+- id: malena-espanol
+  name: Malena Español
+  affiliation: Arizona State University
+  area: inverse
+- id: malena-sabate-landman
+  name: Malena Sabaté Landman
+  affiliation: University of Bath
+  area: inverse
+- id: mariana-martinez-aguilar
+  name: Mariana Martinez Aguilar
+  affiliation: EPFL
+  area: nla
+- id: mark-tygert
+  name: Mark Tygert
+  affiliation: Meta
+  area: nla
+  topics:
+  - randomized SVD origins
+  notes: Early randomized algorithms for matrix approximation (with Rokhlin and Martinsson).
+- id: matteo-raviola
+  name: Matteo Raviola
+  affiliation: EPFL
+  area: nla
+- id: matthias-chung
+  name: Matthias Chung
+  affiliation: Emory University
+  area: inverse
+  topics:
+  - inverse problems
+  - scientific ML
+  notes: Computational inverse problems and learning-based regularization.
+- id: matthieu-dolbeault
+  name: Matthieu Dolbeault
+  affiliation: RWTH Aachen
+  area: nla
+- id: mert-pilanci
+  name: Mert Pilanci
+  affiliation: Stanford University
+  area: opt
+  topics:
+  - sketching for optimization
+  notes: Sketching for convex optimization; Newton sketch.
+- id: michael-kapralov
+  name: Michael Kapralov
+  affiliation: EPFL
+  area: tcs
+  topics:
+  - streaming
+  - sketching
+  notes: Streaming and sketching algorithms; spectral sparsification.
+- id: michael-mahoney
+  name: Michael Mahoney
+  affiliation: University of California, Berkeley
+  area: nla
+  topics:
+  - leverage scores
+  - RandNLA foundations
+  - ML & scientific computing
+  notes: One of the founders of RandNLA; leverage-score sampling, implicit regularization,
+    and the RandLAPACK effort.
+- id: michal-derezinski
+  name: Michał Dereziński
+  affiliation: University of Michigan
+  area: tcs
+  topics:
+  - determinantal point processes
+  - sketching
+  - stochastic optimization
+  notes: DPPs in RandNLA; sketched second-order optimization.
+- id: ming-gu
+  name: Ming Gu
+  affiliation: University of California, Berkeley
+  area: nla
+  topics:
+  - rank-revealing factorizations
+  - randomized QR
+  notes: Rank-revealing and randomized pivoted factorizations; subspace iteration analysis.
+- id: mirjeta-pasha
+  name: Mirjeta Pasha
+  affiliation: Virginia Tech
+  area: inverse
+  topics:
+  - inverse problems
+  - regularization
+  notes: Computational inverse problems and Bayesian regularization.
+- id: misha-kilmer
+  name: Misha Kilmer
+  affiliation: Tufts University
+  area: inverse
+  topics:
+  - tensor decompositions
+  - inverse problems
+  notes: t-product tensor framework; randomized methods for inverse problems.
+- id: mitchell-scott
+  name: Mitchell Scott
+  affiliation: Emory University
+  area: inverse
+- id: nicholas-higham
+  name: Nicholas Higham
+  affiliation: University of Manchester
+  area: nla
+  topics:
+  - matrix functions
+  - mixed precision
+  - rounding error analysis
+  notes: Authority on matrix functions and rounding-error analysis (1961–2024).
+- id: nick-polydorides
+  name: Nick Polydorides
+  affiliation: University of Edinburgh
+  area: inverse
+- id: nicolas-boulle
+  name: Nicolas Boullé
+  affiliation: Imperial College London
+  area: nla
+  topics:
+  - operator learning
+  notes: Data-efficient operator learning; learning Green's functions.
+- id: nikhil-srivastava
+  name: Nikhil Srivastava
+  affiliation: University of California, Berkeley
+  area: tcs
+  topics:
+  - free probability
+  - spectral sparsification
+  - shifted QR
+  notes: Kadison–Singer / interlacing families; pseudospectral shattering and shifted QR convergence.
+    Co-organizer of the Banff 2023 workshop.
+- id: nikita-kapur
+  name: Nikita Kapur
+  affiliation: University of Iowa
+  area: nla
+- id: noah-amsel
+  name: Noah Amsel
+  affiliation: New York University
+  area: tcs
+  topics:
+  - matrix functions
+  - approximation theory
+  notes: Near-optimal approximation of matrix functions; Krylov methods.
+- id: olga-holtz
+  name: Olga Holtz
+  affiliation: University of California, Berkeley
+  area: nla
+  topics:
+  - stability theory
+  - fast algorithms
+  notes: Stability of fast matrix algorithms.
+- id: omar-de-la-cruz-cabrera
+  name: Omar De la Cruz Cabrera
+  affiliation: Kent State University
+  area: nla
+- id: paul-cazeaux
+  name: Paul Cazeaux
+  affiliation: Virginia Tech
+  area: nla
+- id: peng-zhang
+  name: Peng Zhang
+  affiliation: Rutgers University
+  area: tcs
+- id: per-gunnar-martinsson
+  name: Per-Gunnar Martinsson
+  affiliation: University of Texas at Austin
+  area: nla
+  topics:
+  - randomized SVD
+  - fast direct solvers
+  - rank-structured matrices
+  notes: Co-author of the Halko–Martinsson–Tropp randomized SVD survey (SIREV 2011) and the
+    Acta Numerica 2020 RandNLA survey.
+- id: peter-burgisser
+  name: Peter Bürgisser
+  affiliation: TU Berlin
+  area: nla
+- id: petros-drineas
+  name: Petros Drineas
+  affiliation: Purdue University
+  area: nla
+  topics:
+  - sketching
+  - CUR & leverage scores
+  - RandNLA foundations
+  notes: 'One of the founders of RandNLA: early Monte Carlo algorithms for matrix multiplication
+    and CUR, and the 2016 CACM survey with Mahoney. Co-organizer of the ICERM 2026 workshop.'
+- id: polina-sachsenmaier
+  name: Polina Sachsenmaier
+  affiliation: RWTH Aachen University
+  area: nla
+- id: rachel-ward
+  name: Rachel Ward
+  affiliation: University of Texas at Austin
+  area: opt
+  topics:
+  - stochastic gradient methods
+  - sampling
+  - sketching
+  notes: Stochastic gradient and sampling methods; importance sampling for regression.
+- id: raphael-meyer
+  name: Raphael Meyer
+  affiliation: California Institute of Technology
+  area: tcs
+  topics:
+  - trace estimation
+  - matvec query complexity
+  notes: Hutch++ and optimal trace estimation query complexity.
+- id: rasmus-kyng
+  name: Rasmus Kyng
+  affiliation: ETH Zurich
+  area: tcs
+  topics:
+  - Laplacian solvers
+  notes: Approximate Gaussian elimination for Laplacians; hardness for structured systems.
+- id: ravindran-kannan
+  name: Ravindran Kannan
+  affiliation: Simons Institute / Indian Institute of Science
+  area: tcs
+  topics:
+  - sampling algorithms
+  - spectral methods
+  notes: Frieze–Kannan–Vempala sampling; foundational randomized matrix algorithms.
+- id: richard-peng
+  name: Richard Peng
+  affiliation: University of Waterloo
+  area: tcs
+  topics:
+  - Laplacian solvers
+  - graph algorithms
+  notes: Fast Laplacian and structured linear system solvers. Co-organizer of the Banff 2023
+    workshop.
+- id: rikhav-shah
+  name: Rikhav Shah
+  affiliation: Massachusetts Institute of Technology
+  area: tcs
+  topics:
+  - random matrices
+  - eigenvalue algorithms
+  notes: Smoothed analysis and randomized eigenvalue computation.
+- id: riley-murray
+  name: Riley Murray
+  affiliation: Sandia National Laboratories
+  area: nla
+  topics:
+  - RandNLA software
+  notes: Leads the RandLAPACK / RandBLAS standardization effort.
+- id: robert-gower
+  name: Robert Gower
+  affiliation: Flatiron Institute
+  area: opt
+  topics:
+  - stochastic optimization
+  - sketch-and-project
+  notes: Sketch-and-project framework; stochastic optimization.
+- id: robert-webber
+  name: Robert Webber
+  affiliation: University of California, San Diego
+  area: nla
+  topics:
+  - randomized algorithms
+  - Monte Carlo
+  notes: Randomized low-rank approximation (RPCholesky, XTrace) and Monte Carlo methods.
+- id: rodrigo-figueroa-justiniano
+  name: Rodrigo Figueroa Justiniano
+  affiliation: Virginia Tech
+  area: nla
+- id: rudi-smith
+  name: Rudi Smith
+  affiliation: Virginia Tech
+  area: nla
+- id: ruhui-jin
+  name: Ruhui Jin
+  affiliation: Johns Hopkins University
+  area: nla
+  topics:
+  - tensor sketching
+  notes: Sketching for tensor problems.
+- id: ruiyi-yang
+  name: Ruiyi Yang
+  affiliation: Princeton University
+  area: nla
+- id: ryan-schneider
+  name: Ryan Schneider
+  affiliation: University of California, Berkeley
+  area: nla
+  topics:
+  - eigenvalue problems
+  - pseudospectra
+  notes: Randomized diagonalization; pseudospectral divide-and-conquer.
+- id: samuel-talkington
+  name: Samuel Talkington
+  affiliation: Georgia Institute of Technology
+  area: nla
+- id: santosh-vempala
+  name: Santosh Vempala
+  affiliation: Georgia Institute of Technology
+  area: tcs
+  topics:
+  - randomized algorithms
+  - spectral methods
+  notes: Randomized and spectral algorithms; solving sparse systems faster than matrix multiplication
+    (with Peng).
+- id: sascha-portaro
+  name: Sascha Portaro
+  affiliation: University of Bologna
+  area: nla
+- id: shancong-mou
+  name: Shancong Mou
+  affiliation: University of Minnesota Twin Cities
+  area: opt
+- id: shashanka-ubaru
+  name: Shashanka Ubaru
+  affiliation: IBM Research
+  area: nla
+  topics:
+  - trace estimation
+  - graph ML
+  notes: Stochastic Lanczos quadrature for spectrum and trace estimation.
+- id: sivan-toledo
+  name: Sivan Toledo
+  affiliation: Tel Aviv University
+  area: nla
+  topics:
+  - sparse solvers
+  - trace estimation
+  notes: Sparse direct methods; Avron–Toledo randomized trace estimation.
+- id: stefano-massei
+  name: Stefano Massei
+  affiliation: University of Pisa
+  area: nla
+  topics:
+  - hierarchical matrices
+  notes: Hierarchical / rank-structured matrix computations.
+- id: stefano-pozza
+  name: Stefano Pozza
+  affiliation: Charles University
+  area: nla
+  topics:
+  - Krylov methods
+  - matrix functions
+  notes: Lanczos-based methods and time-ordered exponentials.
+- id: stephen-vavasis
+  name: Stephen Vavasis
+  affiliation: University of Waterloo
+  area: nla
+- id: sushant-sachdeva
+  name: Sushant Sachdeva
+  affiliation: University of Toronto
+  area: tcs
+  topics:
+  - Laplacian solvers
+  - optimization
+  notes: Laplacian solvers and fast graph algorithms.
+- id: swati-padmanabhan
+  name: Swati Padmanabhan
+  affiliation: University of Minnesota Twin Cities
+  area: opt
+- id: taejun-park
+  name: Taejun Park
+  affiliation: EPFL
+  area: nla
+  topics:
+  - randomized low-rank
+  notes: Randomized low-rank approximation algorithms.
+- id: tamas-sarlos
+  name: Tamás Sarlós
+  affiliation: Google Research
+  area: tcs
+  topics:
+  - subspace embeddings
+  - fast JL
+  notes: The 2006 subspace-embedding paper that unlocked fast randomized regression.
+- id: tao-hong
+  name: Tao Hong
+  affiliation: University of Texas at Austin
+  area: nla
+- id: thomas-trogdon
+  name: Thomas Trogdon
+  affiliation: University of Washington
+  area: nla
+  topics:
+  - random matrices
+  - universality
+  notes: Random matrix theory and universality in the runtime of numerical algorithms.
+- id: theo-mary
+  name: Théo Mary
+  affiliation: CNRS
+  area: nla
+  topics:
+  - mixed precision
+  - probabilistic error analysis
+  notes: Probabilistic rounding-error analysis; block low-rank solvers.
+- id: tong-ding
+  name: Tong Ding
+  affiliation: Purdue University
+  area: nla
+- id: tyler-chen
+  name: Tyler Chen
+  affiliation: JPMorganChase
+  area: nla
+  topics:
+  - Lanczos
+  - stochastic trace estimation
+  - matrix functions
+  notes: Lanczos-based methods for matrix functions and trace estimation; finite precision
+    behavior of Krylov methods.
+- id: valeria-simoncini
+  name: Valeria Simoncini
+  affiliation: University of Bologna
+  area: nla
+  topics:
+  - matrix equations
+  - Krylov methods
+  notes: Matrix equations and Krylov convergence theory. Co-organizer of the ICERM 2026 workshop.
+- id: vasilije-perovic
+  name: Vasilije Perovic
+  affiliation: University of Rhode Island
+  area: nla
+- id: vishwas-rao
+  name: Vishwas Rao
+  affiliation: Argonne National Laboratory
+  area: inverse
+- id: vivak-patel
+  name: Vivak Patel
+  affiliation: University of Wisconsin–Madison
+  area: opt
+- id: vladimir-rokhlin
+  name: Vladimir Rokhlin
+  affiliation: Yale University
+  area: nla
+  topics:
+  - fast multipole
+  - randomized low-rank origins
+  notes: Fast multipole method; the original randomized low-rank approximation papers with
+    Martinsson, Tygert, and Liberty.
+- id: wael-hajj-ali
+  name: Wael Hajj Ali
+  affiliation: Mitsubishi Electric Research Laboratories
+  area: nla
+- id: william-dean
+  name: William Dean
+  affiliation: Rensselaer Polytechnic Institute
+  area: nla
+- id: xiaoou-cheng
+  name: Xiaoou Cheng
+  affiliation: New York University
+  area: nla
+- id: xiaoye-sherry-li
+  name: Xiaoye Sherry Li
+  affiliation: Lawrence Berkeley National Laboratory
+  area: nla
+  topics:
+  - sparse direct solvers
+  notes: SuperLU sparse direct solvers; scalable numerical libraries.
+- id: yijun-dong
+  name: Yijun Dong
+  affiliation: New York University
+  area: nla
+  topics:
+  - randomized low-rank
+  - dimension reduction
+  notes: Randomized dimension reduction and low-rank approximation.
+- id: yingda-cheng
+  name: Yingda Cheng
+  affiliation: Virginia Tech
+  area: nla
+- id: yiyun-he
+  name: Yiyun He
+  affiliation: University of California, San Diego
+  area: nla
+- id: yousef-saad
+  name: Yousef Saad
+  affiliation: University of Minnesota
+  area: nla
+  topics:
+  - Krylov methods
+  - preconditioning
+  - spectrum estimation
+  notes: Krylov subspace methods; stochastic spectrum estimation line with Ubaru.
+- id: yuji-nakatsukasa
+  name: Yuji Nakatsukasa
+  affiliation: University of Oxford
+  area: nla
+  topics:
+  - eigenvalue algorithms
+  - randomized low-rank
+  - rational approximation
+  notes: Eigenvalue algorithms; fast randomized methods for linear systems, eigenproblems,
+    and low-rank approximation.
+- id: yunhui-he
+  name: Yunhui He
+  affiliation: University of Houston
+  area: nla
+- id: zdenek-strakos
+  name: Zdeněk Strakoš
+  affiliation: Charles University
+  area: nla
+  topics:
+  - Krylov theory
+  - finite precision
+  notes: Krylov subspace methods theory; finite-precision Lanczos and CG.
+- id: zhaojun-bai
+  name: Zhaojun Bai
+  affiliation: University of California, Davis
+  area: nla
+  topics:
+  - eigenvalue problems
+  - LAPACK
+  notes: Large-scale eigenvalue computations; LAPACK and Templates.
+- id: zhaonan-meng
+  name: Zhaonan Meng
+  affiliation: North Carolina State University
+  area: nla
+- id: zhipeng-xue
+  name: Zhipeng Xue
+  affiliation: EPFL
+  area: nla
