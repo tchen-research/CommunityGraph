@@ -662,8 +662,37 @@
         ${l.links.map((u) => `<li><a href="${esc(u)}" target="_blank" rel="noopener">${esc(u)}</a></li>`).join("")}</ul>` : ""}`;
   }
 
+  // ---------- theme toggle ----------------------------------------------------
+  const themeBtn = document.getElementById("theme-toggle");
+  const THEMES = ["auto", "light", "dark"];
+  function applyTheme(t) {
+    if (t === "auto") delete document.documentElement.dataset.theme;
+    else document.documentElement.dataset.theme = t;
+    themeBtn.textContent = `theme: ${t}`;
+  }
+  let theme = localStorage.getItem("nla-theme") || "auto";
+  applyTheme(theme);
+  themeBtn.addEventListener("click", () => {
+    theme = THEMES[(THEMES.indexOf(theme) + 1) % THEMES.length];
+    localStorage.setItem("nla-theme", theme);
+    applyTheme(theme);
+  });
+
   // ---------- go --------------------------------------------------------------
   document.getElementById("threshold-value").textContent =
     `${Math.round(100 * threshold)}%`;
-  update(true);
+
+  // Settle the initial layout using EVERY scored edge (so hidden relationships
+  // still shape the geography), synchronously and off-screen; then hand the
+  // simulation over to the visible edge set for interaction.
+  computeScores();
+  sim.stop();
+  sim.force("link")
+    .links(links.filter((l) => l.score > 0))
+    .distance((l) => 60 + 190 * (1 - l.rel))
+    .strength((l) => 0.06 + 0.4 * l.rel);
+  sim.alpha(1);
+  for (let i = 0; i < 300; i++) sim.tick();
+  update(false);           // swaps the link force to visible edges only
+  sim.alpha(0.12).restart(); // brief gentle settle under the new force set
 })();

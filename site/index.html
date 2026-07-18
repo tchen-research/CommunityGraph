@@ -6,6 +6,11 @@
 <title>RandNLA Community Graph</title>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%95%B8%3C/text%3E%3C/svg%3E">
 <link rel="stylesheet" href="style.css">
+<script>
+  // apply the stored theme before first paint to avoid a flash
+  const t = localStorage.getItem("nla-theme");
+  if (t === "light" || t === "dark") document.documentElement.dataset.theme = t;
+</script>
 </head>
 <body>
 <div id="layout">
@@ -14,7 +19,10 @@
       <h1 id="title">Community Graph</h1>
       <p id="subtitle"></p>
     </div>
-    <div id="stats" class="muted"></div>
+    <div id="topbar-right">
+      <div id="stats" class="muted"></div>
+      <button id="theme-toggle" class="ghost-btn"></button>
+    </div>
   </header>
 
   <aside id="sidebar">
