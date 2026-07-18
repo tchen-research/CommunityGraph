@@ -108,6 +108,9 @@ def main():
                 if len(authors) < 2:
                     stats["skipped"].append(f"{letter}: paper '{title[:40]}' has <2 known authors")
                     continue
+                # cap-era notes are obsolete now that prolific pairs are complete
+                if "representative subset" in (paper.get("note") or ""):
+                    paper = {k: v for k, v in paper.items() if k != "note"}
                 key = norm_title(title)
                 if key in papers:
                     ex = papers[key]

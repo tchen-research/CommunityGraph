@@ -1,9 +1,8 @@
 # One entry per person. id is referenced by the other data files.
 # area: research-area group for node colors (see config.yaml node_groups).
-# topics: tag ids from topics.yaml (drives the topic filter).
 # Keep affiliations written consistently - the same_institution factor is
 # computed by exact (case-insensitive) match.
-# Optional keys: website, photo (direct image URL), notes.
+# Optional keys: website, photo (direct image URL), topics (list), notes.
 - id: aaron-sidford
   name: Aaron Sidford
   affiliation: Stanford University

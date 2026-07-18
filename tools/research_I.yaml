@@ -1,0 +1,2364 @@
+people:
+- id: daniela-calvetti
+  papers:
+  - title: Dictionary Learning Methods for Brain Activity Mapping with MEG Data
+    year: 2026
+    venue: Brain Topography
+    url: https://doi.org/10.1007/s10548-026-01205-7
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: Discretization-free Bayesian inverse problems in distribution spaces
+    year: 2026
+    venue: Open MIND
+    url: https://doi.org/10.48550/arxiv.2602.10247
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: Sparse Dictionary-Based Solution of Dynamic Inverse Problems
+    year: 2026
+    venue: Open MIND
+    url: https://doi.org/10.48550/arxiv.2602.18593
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: Spotlight, priorsketching and Bayesian approximation error paradigms
+    year: 2026
+    venue: arXiv (Cornell University)
+    url: https://doi.org/10.48550/arxiv.2604.26254
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: Subspace Splitting Fast Sampling from Gaussian Posterior Distributions of Linear Inverse Problems
+    year: 2026
+    venue: SIAM/ASA Journal on Uncertainty Quantification
+    url: https://doi.org/10.1137/25m1744605
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: A Bayesian approach to locally varying regularization in optical flow velocimetry
+    year: 2025
+    venue: Physics of Fluids
+    url: https://doi.org/10.1063/5.0270225
+    authors:
+    - erkki-somersalo
+    - daniela-calvetti
+  - title: Bayesian dictionary learning estimation of cell membrane permeability from surface pH data
+    year: 2025
+    venue: arXiv (Cornell University)
+    url: https://doi.org/10.48550/arxiv.2507.09651
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: Separable hierarchical priors applied to analysis of synergies in human locomotion
+    year: 2025
+    venue: Philosophical Transactions of the Royal Society A Mathematical Physical and Engineering Sciences
+    url: https://doi.org/10.1098/rsta.2024.0055
+    authors:
+    - daniela-calvetti
+    - andrea-arnold
+    - erkki-somersalo
+  - title: An efficient hierarchical Bayesian method for the Kuopio tomography challenge 2023
+    year: 2024
+    venue: Applied Mathematics for Modern Challenges
+    url: https://doi.org/10.3934/ammc.2024011
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: Distributed Tikhonov regularization for ill-posed inverse problems from a Bayesian perspective
+    year: 2024
+    venue: arXiv (Cornell University)
+    url: https://doi.org/10.48550/arxiv.2404.05956
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: Exploring Muscle Recruitment by Bayesian Methods During Motion
+    year: 2024
+    venue: SSRN Electronic Journal
+    url: https://doi.org/10.2139/ssrn.4696202
+    authors:
+    - erkki-somersalo
+    - daniela-calvetti
+  - title: 'Myobolica: A Stochastic Approach to Estimate Physiological Muscle Control Variability'
+    year: 2024
+    venue: IEEE Transactions on Neural Systems and Rehabilitation Engineering
+    url: https://doi.org/10.1109/tnsre.2024.3447791
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: Sparsity-Promoting Hierarchical Bayesian Model for Eit with a Blocky Target
+    year: 2024
+    venue: SSRN Electronic Journal
+    url: https://doi.org/10.2139/ssrn.4860114
+    authors:
+    - erkki-somersalo
+    - daniela-calvetti
+  - title: Theoretical Foundations of Good Simulation Practice
+    year: 2024
+    venue: Synthesis lectures on biomedical engineering
+    url: https://doi.org/10.1007/978-3-031-48284-7_2
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: A spatially distributed model of brain metabolism highlights the role of diffusion in brain
+      energy metabolism
+    year: 2023
+    venue: Journal of Theoretical Biology
+    url: https://doi.org/10.1016/j.jtbi.2023.111567
+    authors:
+    - erkki-somersalo
+    - daniela-calvetti
+  - title: Adaptive anisotropic Bayesian meshing for inverse problems
+    year: 2023
+    venue: arXiv (Cornell University)
+    url: https://doi.org/10.48550/arxiv.2310.03855
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: Bayesian Filtering for Gaussian Densities
+    year: 2023
+    venue: Applied mathematical sciences
+    url: https://doi.org/10.1007/978-3-031-23824-6_13
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: Bayesian Scientific Computing
+    year: 2023
+    venue: Applied mathematical sciences
+    url: https://doi.org/10.1007/978-3-031-23824-6
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: Bayesian Scientific Computing and Inverse Problems
+    year: 2023
+    venue: Applied mathematical sciences
+    url: https://doi.org/10.1007/978-3-031-23824-6_1
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: Bayesian sparsity and class sparsity priors for dictionary learning and coding
+    year: 2023
+    venue: arXiv (Cornell University)
+    url: https://doi.org/10.48550/arxiv.2309.00999
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: Computationally efficient sampling methods for sparsity promoting hierarchical Bayesian models
+    year: 2023
+    venue: arXiv (Cornell University)
+    url: https://doi.org/10.48550/arxiv.2303.16988
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: Conditional Gaussian Densities
+    year: 2023
+    venue: Applied mathematical sciences
+    url: https://doi.org/10.1007/978-3-031-23824-6_8
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: Continuous and Discrete Multivariate Distributions
+    year: 2023
+    venue: Applied mathematical sciences
+    url: https://doi.org/10.1007/978-3-031-23824-6_3
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: Dynamic Methods and Learning from the Past
+    year: 2023
+    venue: Applied mathematical sciences
+    url: https://doi.org/10.1007/978-3-031-23824-6_12
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: 'Enter Subject: Construction of Priors'
+    year: 2023
+    venue: Applied mathematical sciences
+    url: https://doi.org/10.1007/978-3-031-23824-6_6
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: Hierarchical Models and Bayesian Sparsity
+    year: 2023
+    venue: Applied mathematical sciences
+    url: https://doi.org/10.1007/978-3-031-23824-6_10
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: Introduction to Sampling
+    year: 2023
+    venue: Applied mathematical sciences
+    url: https://doi.org/10.1007/978-3-031-23824-6_4
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: Iterative Linear Solvers and Priorconditioners
+    year: 2023
+    venue: Applied mathematical sciences
+    url: https://doi.org/10.1007/978-3-031-23824-6_9
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: Linear Algebra
+    year: 2023
+    venue: Applied mathematical sciences
+    url: https://doi.org/10.1007/978-3-031-23824-6_2
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: 'On the fast track: Rapid construction of stellar stream paths'
+    year: 2023
+    venue: Monthly Notices of the Royal Astronomical Society
+    url: https://doi.org/10.1093/mnras/stad1166
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: Posterior Densities, Ill-Conditioning,and Classical Regularization
+    year: 2023
+    venue: Applied mathematical sciences
+    url: https://doi.org/10.1007/978-3-031-23824-6_7
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: 'Sampling: The Real Thing'
+    year: 2023
+    venue: Applied mathematical sciences
+    url: https://doi.org/10.1007/978-3-031-23824-6_11
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: 'The Praise of Ignorance: Randomnessas Lack of Certainty'
+    year: 2023
+    venue: Applied mathematical sciences
+    url: https://doi.org/10.1007/978-3-031-23824-6_5
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: Brain Energy Metabolism
+    year: 2022
+    venue: Encyclopedia of Computational Neuroscience
+    url: https://doi.org/10.1007/978-1-0716-1006-0_100673
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: 'The IAS-MEEG Package: A Flexible Inverse Source Reconstruction Platform for Reconstruction
+      and Visualization of Brain Activity from M/EEG Data'
+    year: 2022
+    venue: Brain Topography
+    url: https://doi.org/10.1007/s10548-022-00926-9
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: The Less Is More Linear Algebra of Vector Spaces and Matrices
+    year: 2022
+    venue: Society for Industrial and Applied Mathematics eBooks
+    url: https://doi.org/10.1137/1.9781611977400
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: 'Mining the Mind: Linear Discriminant Analysis of MEG Source Reconstruction Time Series Supports
+      Dynamic Changes in Deep Brain Regions During Meditation Sessions'
+    year: 2021
+    venue: Brain Topography
+    url: https://doi.org/10.1007/s10548-021-00874-w
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: Modeling Epidemic Spread among a Commuting Population Using Transport Schemes
+    year: 2021
+    venue: Mathematics
+    url: https://doi.org/10.3390/math9161861
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: Overcomplete representation in a hierarchical Bayesian framework
+    year: 2021
+    venue: Inverse Problems and Imaging
+    url: https://doi.org/10.3934/ipi.2021039
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: Bayesian Mesh Adaptation for Estimating Distributed Parameters
+    year: 2020
+    venue: SIAM Journal on Scientific Computing
+    url: https://doi.org/10.1137/20m1326222
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: Bayesian dynamical estimation of the parameters of an SE(A)IR COVID-19 spread model
+    year: 2020
+    venue: arXiv (Cornell University)
+    url: https://doi.org/10.48550/arxiv.2005.04365
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: Computational Model of Electrode-Induced Microenvironmental Effects on pH Measurements Near
+      a Cell Membrane
+    year: 2020
+    venue: Multiscale Modeling and Simulation
+    url: https://doi.org/10.1137/19m1262875
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: Hybrid solver for hierarchical Bayesian inverse problems
+    year: 2020
+    venue: arXiv (Cornell University)
+    url: https://arxiv.org/pdf/2003.06532
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: 'Mathematics of Data Science: A Computational Approach to Clustering and Classification'
+    year: 2020
+    venue: Society for Industrial and Applied Mathematics eBooks
+    url: https://doi.org/10.1137/1.9781611976373
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: Metapopulation Network Models for Understanding, Predicting, and Managing the Coronavirus Disease
+      COVID-19
+    year: 2020
+    venue: Frontiers in Physics
+    url: https://doi.org/10.3389/fphy.2020.00261
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: Sparsity Promoting Hybrid Solvers for Hierarchical Bayesian Inverse Problems
+    year: 2020
+    venue: SIAM Journal on Scientific Computing
+    url: https://doi.org/10.1137/20m1326246
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: 'Sparse reconstructions from few noisy data: analysis of hierarchical Bayesian models with
+      generalized gamma hyperpriors'
+    year: 2019
+    venue: Inverse Problems
+    url: https://doi.org/10.1088/1361-6420/ab4d92
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: Brain Activity Mapping from MEG Data via a Hierarchical Bayesian Algorithm with Automatic Depth
+      Weighting
+    year: 2018
+    venue: Brain Topography
+    url: https://doi.org/10.1007/s10548-018-0670-7
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: 'Hierachical Bayesian models and sparsity: L 2 -magic'
+    year: 2018
+    venue: AGU Fall Meeting Abstracts
+    url: http://ui.adsabs.harvard.edu/abs/2018AGUFM.S31E0550C/abstract
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: 'Beyond the Model Limit: Parameter Inference Across Scales'
+    year: 2017
+    venue: SIAM/ASA Journal on Uncertainty Quantification
+    url: https://doi.org/10.1137/15m105505x
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: A measure of similarity between optimal and suboptimal muscle force production in gait
+    year: 2016
+    venue: QUT ePrints (Queensland University of Technology)
+    url: https://openalex.org/W3081582576
+    authors:
+    - erkki-somersalo
+    - daniela-calvetti
+  - title: Computational issues and numerical experiments for Linear Multistep Method Particle Filtering
+    year: 2016
+    venue: arXiv (Cornell University)
+    url: https://doi.org/10.48550/arxiv.1605.05042
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: Computational issues in linear multistep method particle filtering
+    year: 2016
+    venue: AIP conference proceedings
+    url: https://doi.org/10.1063/1.4965321
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: Mathematical modeling of the microenvironment beneath a surface pH electrode tip
+    year: 2016
+    venue: The FASEB Journal
+    url: https://doi.org/10.1096/fasebj.30.1_supplement.1300.1
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: Uncertainty quantification in flux balance analysis of spatially lumped and distributed models
+      of neuron–astrocyte metabolism
+    year: 2016
+    venue: Journal of Mathematical Biology
+    url: https://doi.org/10.1007/s00285-016-1011-7
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: A spatially distributed computational model of brain cellular metabolism
+    year: 2015
+    venue: Journal of Theoretical Biology
+    url: https://doi.org/10.1016/j.jtbi.2015.03.037
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: 'Artificial boundary conditions and domain truncation in electrical impedance tomography. Part
+      I: Theory and preliminary results'
+    year: 2015
+    venue: Inverse Problems and Imaging
+    url: https://doi.org/10.3934/ipi.2015.9.749
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: 'Bayes meets Krylov: preconditioning CGLS for underdetermined systems'
+    year: 2015
+    venue: arXiv (Cornell University)
+    url: https://doi.org/10.48550/arxiv.1503.06844
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: Bayesian Integration in Force Estimation
+    year: 2015
+    venue: ''
+    url: https://jn.physiology.org/content/jn/92/5/3161.full.pdf
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: Life sciences through mathematical models
+    year: 2015
+    venue: RENDICONTI LINCEI
+    url: https://doi.org/10.1007/s12210-015-0422-5
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: Parameter Identification
+    year: 2015
+    venue: ''
+    url: https://doi.org/10.1007/978-3-540-70529-1_426
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: Statistical Methods in Imaging
+    year: 2015
+    venue: ''
+    url: https://doi.org/10.1007/978-1-4939-0790-8_53
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: Stochastic modelling of muscle recruitment during activity
+    year: 2015
+    venue: Interface Focus
+    url: https://doi.org/10.1098/rsfs.2014.0094
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: Astrocytic tracer dynamics estimated from [1-<sup>11</sup>C]-acetate PET measurements
+    year: 2014
+    venue: Mathematical Medicine and Biology A Journal of the IMA
+    url: https://doi.org/10.1093/imammb/dqu021
+    authors:
+    - andrea-arnold
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: Dynamic updating of numerical model discrepancy using sequential sampling
+    year: 2014
+    venue: Inverse Problems
+    url: https://doi.org/10.1088/0266-5611/30/11/114019
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: Energy Demand and Metabolite Partitioning in Spatially Lumped and Distributed Models of Neuron-Astrocyte
+      Complex
+    year: 2014
+    venue: arXiv (Cornell University)
+    url: https://doi.org/10.48550/arxiv.1412.5693
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: Inverse problems in the Bayesian framework
+    year: 2014
+    venue: Inverse Problems
+    url: https://doi.org/10.1088/0266-5611/30/11/110301
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: Modeling HIV-1 Dynamics and Fitness in Cell Culture Across Scales
+    year: 2014
+    venue: Bulletin of Mathematical Biology
+    url: https://doi.org/10.1007/s11538-013-9926-2
+    authors:
+    - erkki-somersalo
+    - daniela-calvetti
+  - title: Parameter estimation for stiff deterministic dynamical systems via ensemble Kalman filter
+    year: 2014
+    venue: Inverse Problems
+    url: https://doi.org/10.1088/0266-5611/30/10/105008
+    authors:
+    - andrea-arnold
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: Variable order smoothness priors for ill-posed inverse problems
+    year: 2014
+    venue: Mathematics of Computation
+    url: https://doi.org/10.1090/s0025-5718-2014-02909-8
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: Vectorized and Parallel Particle Filter SMC Parameter Estimation for Stiff ODEs
+    year: 2014
+    venue: ''
+    url: https://doi.org/10.48550/arxiv.1411.1702
+    authors:
+    - andrea-arnold
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: Bayesian Preconditioned CGLS for Source Separation in MEG Time Series
+    year: 2013
+    venue: SIAM Journal on Scientific Computing
+    url: https://doi.org/10.1137/120889903
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: 'Computational tools for calculating alternative muscle force patterns during motion: A comparison
+      of possible solutions'
+    year: 2013
+    venue: Journal of Biomechanics
+    url: https://doi.org/10.1016/j.jbiomech.2013.05.023
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: Linear multistep methods, particle filtering and sequential Monte Carlo
+    year: 2013
+    venue: Inverse Problems
+    url: https://doi.org/10.1088/0266-5611/29/8/085007
+    authors:
+    - andrea-arnold
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: Quantitative in silico Analysis of Neurotransmitter Pathways Under Steady State Conditions
+    year: 2013
+    venue: Frontiers in Endocrinology
+    url: https://doi.org/10.3389/fendo.2013.00137
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: A hybrid stochastic–deterministic computational model accurately describes spatial dynamics
+      and virus diffusion in HIV-1 growth competition assay
+    year: 2012
+    venue: Journal of Theoretical Biology
+    url: https://doi.org/10.1016/j.jtbi.2012.07.005
+    authors:
+    - erkki-somersalo
+    - daniela-calvetti
+  - title: A parallel implementation of the GMRES method
+    year: 2012
+    venue: ''
+    url: https://doi.org/10.1515/9783110857658.31
+    authors:
+    - daniela-calvetti
+    - lothar-reichel
+  - title: A reaction–diffusion model of CO2 influx into an oocyte
+    year: 2012
+    venue: Journal of Theoretical Biology
+    url: https://doi.org/10.1016/j.jtbi.2012.06.016
+    authors:
+    - erkki-somersalo
+    - daniela-calvetti
+  - title: Back Matter
+    year: 2012
+    venue: ''
+    url: https://doi.org/10.1137/1.9781611972481.bm
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: 'Chapter 1: Review of multivariate calculus and differential equations'
+    year: 2012
+    venue: Society for Industrial and Applied Mathematics eBooks
+    url: https://doi.org/10.1137/1.9781611972481.ch1
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: 'Chapter 2: Compartment models'
+    year: 2012
+    venue: Society for Industrial and Applied Mathematics eBooks
+    url: https://doi.org/10.1137/1.9781611972481.ch2
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: 'Chapter 3: From compartment models to continuous models'
+    year: 2012
+    venue: Society for Industrial and Applied Mathematics eBooks
+    url: https://doi.org/10.1137/1.9781611972481.ch3
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: 'Chapter 4: Dimensional analysis and scaling'
+    year: 2012
+    venue: Society for Industrial and Applied Mathematics eBooks
+    url: https://doi.org/10.1137/1.9781611972481.ch4
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: 'Chapter 5: Introduction to stochastic modeling'
+    year: 2012
+    venue: Society for Industrial and Applied Mathematics eBooks
+    url: https://doi.org/10.1137/1.9781611972481.ch5
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: 'Chapter 6: Modeling noise'
+    year: 2012
+    venue: Society for Industrial and Applied Mathematics eBooks
+    url: https://doi.org/10.1137/1.9781611972481.ch6
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: 'Chapter 7: Modeling with waiting processes'
+    year: 2012
+    venue: Society for Industrial and Applied Mathematics eBooks
+    url: https://doi.org/10.1137/1.9781611972481.ch7
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: 'Chapter 8: Markov processes'
+    year: 2012
+    venue: Society for Industrial and Applied Mathematics eBooks
+    url: https://doi.org/10.1137/1.9781611972481.ch8
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: 'Chapter 9: Cellular automata, agent-based modeling'
+    year: 2012
+    venue: Society for Industrial and Applied Mathematics eBooks
+    url: https://doi.org/10.1137/1.9781611972481.ch9
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: 'Computational Mathematical Modeling: An Integrated Approach Across Scales'
+    year: 2012
+    venue: Society for Industrial and Applied Mathematics eBooks
+    url: https://doi.org/10.1137/1.9781611972481
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: Front Matter
+    year: 2012
+    venue: ''
+    url: https://doi.org/10.1137/1.9781611972481.fm
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: Left and right preconditioning for electrical impedance tomography with structural information
+    year: 2012
+    venue: Inverse Problems
+    url: https://doi.org/10.1088/0266-5611/28/5/055015
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: 'Ménage à Trois: The Role of Neurotransmitters in the Energy Metabolism of Astrocytes, Glutamatergic,
+      and GABAergic Neurons'
+    year: 2012
+    venue: Journal of Cerebral Blood Flow & Metabolism
+    url: https://doi.org/10.1038/jcbfm.2012.31
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: Quantitative imaging with electrical impedance spectroscopy
+    year: 2012
+    venue: Physics in Medicine and Biology
+    url: https://doi.org/10.1088/0031-9155/57/22/7289
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: A Reaction‐Diffusion Model of Acid‐Base Balance in a Xenopus Oocyte
+    year: 2011
+    venue: The FASEB Journal
+    url: https://doi.org/10.1096/fasebj.25.1_supplement.1129.4
+    authors:
+    - erkki-somersalo
+    - daniela-calvetti
+  - title: Bayesian mixture models for source separation in MEG
+    year: 2011
+    venue: Inverse Problems
+    url: https://doi.org/10.1088/0266-5611/27/11/115001
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: 'Effects of Intracellular and Extracellular Carbonic Anhydrase on the Influx of CO2 in a Xenopus
+      Oocyte: Insights with a Mathematical Model'
+    year: 2011
+    venue: The FASEB Journal
+    url: https://doi.org/10.1096/fasebj.25.1_supplement.1039.25
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: Hierarchical beamformer and cross-talk reduction in electroneurography
+    year: 2011
+    venue: Journal of Neural Engineering
+    url: https://doi.org/10.1088/1741-2560/8/5/056002
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: Interpretation of NMR Spectroscopy Human Brain Data with a Multi-Compartment Computational
+      Model of Cerebral Metabolism
+    year: 2011
+    venue: Advances in experimental medicine and biology
+    url: https://doi.org/10.1007/978-1-4419-7756-4_33
+    authors:
+    - erkki-somersalo
+    - daniela-calvetti
+  - title: Dynamic activation model for a glutamatergic neurovascular unit
+    year: 2010
+    venue: Journal of Theoretical Biology
+    url: https://doi.org/10.1016/j.jtbi.2010.12.007
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: 'Energetics of Inhibition: Insights with a Computational Model of the Human GABAergic Neuron–Astrocyte
+      Cellular Complex'
+    year: 2010
+    venue: Journal of Cerebral Blood Flow & Metabolism
+    url: https://doi.org/10.1038/jcbfm.2010.107
+    authors:
+    - erkki-somersalo
+    - daniela-calvetti
+  - title: Hierarchical regularization for edge-preserving reconstruction of PET images
+    year: 2010
+    venue: Inverse Problems
+    url: https://doi.org/10.1088/0266-5611/26/3/035010
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: A statistical methodology for computational models of hepatic metabolism and sensitivity analysis
+    year: 2009
+    venue: The FASEB Journal
+    url: https://doi.org/10.1096/fasebj.23.1_supplement.818.6
+    authors:
+    - erkki-somersalo
+    - daniela-calvetti
+  - title: Conditionally Gaussian Hypermodels for Cerebral Source Localization
+    year: 2009
+    venue: SIAM Journal on Imaging Sciences
+    url: https://doi.org/10.1137/080723995
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: In silico study of lactate metabolism in brain during visual stimulation
+    year: 2009
+    venue: The FASEB Journal
+    url: https://doi.org/10.1096/fasebj.23.1_supplement.lb113
+    authors:
+    - erkki-somersalo
+    - daniela-calvetti
+  - title: 'Metabolica: A statistical research tool for analyzing metabolic networks'
+    year: 2009
+    venue: Computer Methods and Programs in Biomedicine
+    url: https://doi.org/10.1016/j.cmpb.2009.07.007
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: An adaptive smoothness regularization algorithm for optical tomography
+    year: 2008
+    venue: Optics Express
+    url: https://doi.org/10.1364/oe.16.019957
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: 'Astrocytes as the Glucose Shunt for Glutamatergic Neurons at High Activity: An In Silico Study'
+    year: 2008
+    venue: Journal of Neurophysiology
+    url: https://doi.org/10.1152/jn.90377.2008
+    authors:
+    - erkki-somersalo
+    - daniela-calvetti
+  - title: Conditionally Gaussian hypermodels for source localization in brain imaging
+    year: 2008
+    venue: ''
+    url: https://research.aalto.fi/en/publications/conditionally-gaussian-hypermodels-for-source-localization-in-bra
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: Hypermodels in the Bayesian imaging framework
+    year: 2008
+    venue: Inverse Problems
+    url: https://doi.org/10.1088/0266-5611/24/3/034013
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: Sampling-Based Analysis of a Spatially Distributed Model for Liver Metabolism at Steady State
+    year: 2008
+    venue: Multiscale Modeling and Simulation
+    url: https://doi.org/10.1137/070682824
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: A Gaussian hypermodel to recover blocky objects
+    year: 2007
+    venue: Inverse Problems
+    url: https://doi.org/10.1088/0266-5611/23/2/016
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: A unified Bayesian framework for algorithms to recover blocky signals
+    year: 2007
+    venue: Proceedings of SPIE, the International Society for Optical Engineering/Proceedings of SPIE
+    url: https://doi.org/10.1117/12.740193
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: An efficient deconvolution algorithm for estimating oxygen consumption during muscle activities
+    year: 2007
+    venue: Computer Methods and Programs in Biomedicine
+    url: https://doi.org/10.1016/j.cmpb.2006.12.008
+    authors:
+    - erkki-somersalo
+    - daniela-calvetti
+  - title: Basic problem in numerical linear algebra
+    year: 2007
+    venue: ''
+    url: https://doi.org/10.1007/978-0-387-73394-4_4
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: Basic problem of statistical inference
+    year: 2007
+    venue: ''
+    url: https://doi.org/10.1007/978-0-387-73394-4_2
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: Bayesian flux balance analysis applied to a skeletal muscle metabolic model
+    year: 2007
+    venue: Journal of Theoretical Biology
+    url: https://doi.org/10.1016/j.jtbi.2007.04.002
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: Bayesian stationary state flux balance analysis for a skeletal muscle metabolic model
+    year: 2007
+    venue: Inverse Problems and Imaging
+    url: https://doi.org/10.3934/ipi.2007.1.247
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: Computation of Gauss-Kronrod Quadrature Rules.
+    year: 2007
+    venue: ''
+    url: http://dblp.uni-trier.de/db/books/collections/CGO2007.html#GolubCGR07
+    authors:
+    - daniela-calvetti
+    - lothar-reichel
+  - title: Conditional Gaussian densities and predictive envelopes
+    year: 2007
+    venue: ''
+    url: https://doi.org/10.1007/978-0-387-73394-4_7
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: 'Introduction to Bayesian Scientific Computing: Ten Lectures on Subjective Computing (Surveys
+      and Tutorials in the Applied Mathematical Sciences)'
+    year: 2007
+    venue: Springer eBooks
+    url: https://dl.acm.org/citation.cfm?id=1296219
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: Inverse problems and subjective computing
+    year: 2007
+    venue: ''
+    url: https://doi.org/10.1007/978-0-387-73394-4_1
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: Microlocal sequential regularization in imaging
+    year: 2007
+    venue: Inverse Problems and Imaging
+    url: https://doi.org/10.3934/ipi.2007.1.1
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: More applications of the Gaussian conditioning
+    year: 2007
+    venue: ''
+    url: https://doi.org/10.1007/978-0-387-73394-4_8
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: 'Sampling: first encounter'
+    year: 2007
+    venue: ''
+    url: https://doi.org/10.1007/978-0-387-73394-4_5
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: Statistically inspired preconditioners
+    year: 2007
+    venue: ''
+    url: https://doi.org/10.1007/978-0-387-73394-4_6
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: 'The praise of ignorance: randomness as lack of information'
+    year: 2007
+    venue: ''
+    url: https://doi.org/10.1007/978-0-387-73394-4_3
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: 'Wrapping up: hypermodels, dynamic priorconditioners and Bayesian learning'
+    year: 2007
+    venue: ''
+    url: https://doi.org/10.1007/978-0-387-73394-4_10
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: Aristotelian prior boundary conditions
+    year: 2006
+    venue: International journal of mathematics and computer science
+    url: https://research.aalto.fi/en/publications/aristotelian-prior-boundary-conditions(4fabe51c-5bbb-4f67-8b1b-b35ced11f892).html
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: Image inpainting with structural bootstrap priors
+    year: 2006
+    venue: Image and Vision Computing
+    url: https://doi.org/10.1016/j.imavis.2006.01.015
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: Large-scale Bayesian parameter estimation for a three-compartment cardiac metabolism model
+      during ischemia
+    year: 2006
+    venue: Inverse Problems
+    url: https://doi.org/10.1088/0266-5611/22/5/016
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: Large‐Scale Statistical Parameter Estimation in Complex Systems with an Application to Metabolic
+      Models
+    year: 2006
+    venue: Multiscale Modeling and Simulation
+    url: https://doi.org/10.1137/050644860
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: Local regularization method applied to estimating oxygen consumption during muscle activities
+    year: 2006
+    venue: Inverse Problems
+    url: https://doi.org/10.1088/0266-5611/22/1/013
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: Bayesian image deblurring and boundary effects
+    year: 2005
+    venue: Proceedings of SPIE, the International Society for Optical Engineering/Proceedings of SPIE
+    url: https://doi.org/10.1117/12.623160
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: Local regularization and Bayesian hypermodels
+    year: 2005
+    venue: Proceedings of SPIE, the International Society for Optical Engineering/Proceedings of SPIE
+    url: https://doi.org/10.1117/12.623159
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: Priorconditioners for linear systems
+    year: 2005
+    venue: Inverse Problems
+    url: https://doi.org/10.1088/0266-5611/21/4/014
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: Quadrature Rules Based on the Arnoldi Process
+    year: 2005
+    venue: SIAM Journal on Matrix Analysis and Applications
+    url: https://doi.org/10.1137/s0895479803423822
+    authors:
+    - daniela-calvetti
+    - lothar-reichel
+  - title: Statistical elimination of boundary artefacts in image deblurring
+    year: 2005
+    venue: Inverse Problems
+    url: https://doi.org/10.1088/0266-5611/21/5/012
+    authors:
+    - daniela-calvetti
+    - erkki-somersalo
+  - title: TIKHONOV REGULARIZATION WITH NONNEGATIVITY CONSTRAINT
+    year: 2004
+    venue: ''
+    url: http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.88.229
+    authors:
+    - daniela-calvetti
+    - lothar-reichel
+  - title: Tikhonov Regularization with a Solution Constraint
+    year: 2004
+    venue: SIAM Journal on Scientific Computing
+    url: https://doi.org/10.1137/s1064827502412280
+    authors:
+    - daniela-calvetti
+    - lothar-reichel
+  - title: Gauss Quadrature Applied to Trust Region Computations
+    year: 2003
+    venue: Numerical Algorithms
+    url: https://doi.org/10.1023/a:1026130310913
+    authors:
+    - daniela-calvetti
+    - lothar-reichel
+  - title: On the Evaluation of Polynomial Coefficients
+    year: 2003
+    venue: Numerical Algorithms
+    url: https://doi.org/10.1023/a:1025555803588
+    authors:
+    - daniela-calvetti
+    - lothar-reichel
+  - title: Symmetric Gauss–Lobatto and Modified Anti-Gauss Rules
+    year: 2003
+    venue: BIT Numerical Mathematics
+    url: https://doi.org/10.1023/b:bitn.0000007053.03860.c0
+    authors:
+    - daniela-calvetti
+    - lothar-reichel
+  - title: Tikhonov Regularization of Large Linear Problems
+    year: 2003
+    venue: BIT Numerical Mathematics
+    url: https://doi.org/10.1023/a:1026083619097
+    authors:
+    - daniela-calvetti
+    - lothar-reichel
+  - title: A hybrid GMRES and TV-norm-based method for image restoration
+    year: 2002
+    venue: Proceedings of SPIE, the International Society for Optical Engineering/Proceedings of SPIE
+    url: https://doi.org/10.1117/12.452016
+    authors:
+    - daniela-calvetti
+    - lothar-reichel
+  - title: The restarted QR-algorithm for eigenvalue computation of structured matrices
+    year: 2002
+    venue: Journal of Computational and Applied Mathematics
+    url: https://doi.org/10.1016/s0377-0427(02)00486-7
+    authors:
+    - daniela-calvetti
+    - lothar-reichel
+  - title: Krylov subspace iterative methods for nonsymmetric discrete ill-posed problems in image restoration
+    year: 2001
+    venue: Proceedings of SPIE, the International Society for Optical Engineering/Proceedings of SPIE
+    url: https://doi.org/10.1117/12.448653
+    authors:
+    - daniela-calvetti
+    - lothar-reichel
+  - title: L-Curve Curvature Bounds via Lanczos Bidiagonalization
+    year: 2001
+    venue: ''
+    url: http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.15.6145
+    authors:
+    - daniela-calvetti
+    - lothar-reichel
+  - title: On the Choice of Subspace for Iterative Methods for Linear Discrete Ill-Posed Problems
+    year: 2001
+    venue: Digital library of Zielona Gora (University of Zielona Góra)
+    url: https://zbc.uz.zgora.pl/dlibra/docmetadata?showContent=true&id=58804
+    authors:
+    - daniela-calvetti
+    - lothar-reichel
+  - title: L-curve for the MINRES method
+    year: 2000
+    venue: Proceedings of SPIE, the International Society for Optical Engineering/Proceedings of SPIE
+    url: https://doi.org/10.1117/12.406517
+    authors:
+    - daniela-calvetti
+    - lothar-reichel
+  - title: Restoration of images with spatially variant blur by the GMRES method
+    year: 2000
+    venue: Proceedings of SPIE, the International Society for Optical Engineering/Proceedings of SPIE
+    url: https://doi.org/10.1117/12.406515
+    authors:
+    - daniela-calvetti
+    - lothar-reichel
+  - title: Applications of Anti-Gauss Quadrature Rules in Linear Algebra
+    year: 1999
+    venue: Birkhäuser Basel eBooks
+    url: https://doi.org/10.1007/978-3-0348-8685-7_3
+    authors:
+    - daniela-calvetti
+    - lothar-reichel
+  - title: COMPUTATION OF GAUSS-KRONROD QUADRATURE RULES WITH NON-POSITIVE WEIGHTS
+    year: 1999
+    venue: ''
+    url: http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.45.8686
+    authors:
+    - daniela-calvetti
+    - lothar-reichel
+  - title: Iterative Solution Methods for Large Linear Discrete Ill-Posed Problems
+    year: 1999
+    venue: Birkhäuser Boston eBooks
+    url: https://doi.org/10.1007/978-1-4612-0571-5_7
+    authors:
+    - daniela-calvetti
+    - lothar-reichel
+  - title: Fast Leja points.
+    year: 1998
+    venue: ETNA. Electronic Transactions on Numerical Analysis [electronic only]
+    url: https://eudml.org/doc/119747
+    authors:
+    - james-baglama
+    - daniela-calvetti
+    - lothar-reichel
+  - title: 'Smooth or abrupt: a comparison of regularization methods'
+    year: 1998
+    venue: Proceedings of SPIE, the International Society for Optical Engineering/Proceedings of SPIE
+    url: https://doi.org/10.1117/12.325689
+    authors:
+    - daniela-calvetti
+    - lothar-reichel
+  - title: A numerical method for eigenvalue problems in modeling liquid crystals
+    year: 1996
+    venue: OSTI OAI (U.S. Department of Energy Office of Scientific and Technical Information)
+    url: https://www.osti.gov/biblio/433398
+    authors:
+    - james-baglama
+    - lothar-reichel
+    - daniela-calvetti
+  - title: ON THE SOLUTION OF CAUCHY SYSTEMS OF EQUATIONS
+    year: 1996
+    venue: ''
+    url: http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.38.5726
+    authors:
+    - daniela-calvetti
+    - lothar-reichel
+  - title: Iterative solution methods for ill-posed problems
+    year: 1995
+    venue: Proceedings of SPIE, the International Society for Optical Engineering/Proceedings of SPIE
+    url: https://doi.org/10.1117/12.211410
+    authors:
+    - daniela-calvetti
+    - lothar-reichel
+  - title: An implicit restarted Lanczos method for large symmetric eigenvalue problems.
+    year: 1994
+    venue: ETNA. Electronic Transactions on Numerical Analysis [electronic only]
+    url: https://eudml.org/doc/118543
+    authors:
+    - daniela-calvetti
+    - lothar-reichel
+  - title: Accuracy Control for Parallel Evaluation of Matrix Rational Functions.
+    year: 1993
+    venue: ''
+    url: http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.49.1725
+    authors:
+    - daniela-calvetti
+    - lothar-reichel
+- id: deanna-needell
+  papers:
+  - title: Block Gauss-Seidel methods for t-product tensor regression
+    year: 2025
+    venue: Numerical Algorithms
+    url: https://doi.org/10.1007/s11075-025-02240-4
+    authors:
+    - jamie-haddock
+    - deanna-needell
+  - title: Block Matrix and Tensor Randomized Kaczmarz Methods for Linear Feasibility Problems
+    year: 2025
+    venue: La Matematica
+    url: https://doi.org/10.1007/s44007-025-00163-z
+    authors:
+    - jamie-haddock
+    - deanna-needell
+  - title: Randomized Iterative Methods for Tensor Regression Under the t-Product
+    year: 2025
+    venue: Association for Women in Mathematics series
+    url: https://doi.org/10.1007/978-3-031-87804-6_1
+    authors:
+    - jamie-haddock
+    - deanna-needell
+  - title: Randomized Kaczmarz methods for t-product tensor linear systems with factorized operators
+    year: 2025
+    venue: BIT Numerical Mathematics
+    url: https://doi.org/10.1007/s10543-025-01078-5
+    authors:
+    - jamie-haddock
+    - deanna-needell
+  - title: Neural nonnegative matrix factorization for hierarchical multilayer topic modeling
+    year: 2023
+    venue: Sampling Theory Signal Processing and Data Analysis
+    url: https://doi.org/10.1007/s43670-023-00077-3
+    authors:
+    - jamie-haddock
+    - deanna-needell
+  - title: A Generalized Hierarchical Nonnegative Tensor Decomposition
+    year: 2022
+    venue: ICASSP 2022 - 2022 IEEE International Conference on Acoustics, Speech and Signal Processing
+      (ICASSP)
+    url: https://doi.org/10.1109/icassp43922.2022.9747810
+    authors:
+    - jamie-haddock
+    - deanna-needell
+  - title: Automatic Infectious Disease Classification Analysis with Concept Discovery
+    year: 2022
+    venue: arXiv (Cornell University)
+    url: https://doi.org/10.48550/arxiv.2209.02415
+    authors:
+    - jamie-haddock
+    - deanna-needell
+  - title: Quantile-Based Iterative Methods for Corrupted Systems of Linear Equations
+    year: 2022
+    venue: SIAM Journal on Matrix Analysis and Applications
+    url: https://doi.org/10.1137/21m1429187
+    authors:
+    - jamie-haddock
+    - deanna-needell
+    - elizaveta-rebrova
+  - title: Neural Nonnegative CP Decomposition for Hierarchical Tensor Analysis
+    year: 2021
+    venue: 2021 55th Asilomar Conference on Signals, Systems, and Computers
+    url: https://doi.org/10.1109/ieeeconf53345.2021.9723126
+    authors:
+    - jamie-haddock
+    - deanna-needell
+  - title: On Large-Scale Dynamic Topic Modeling with Nonnegative CP Tensor Decomposition
+    year: 2021
+    venue: Association for Women in Mathematics series
+    url: https://doi.org/10.1007/978-3-030-79891-8_8
+    authors:
+    - jamie-haddock
+    - deanna-needell
+  - title: On a Guided Nonnegative Matrix Factorization
+    year: 2021
+    venue: ''
+    url: https://doi.org/10.1109/icassp39728.2021.9413656
+    authors:
+    - jamie-haddock
+    - elizaveta-rebrova
+    - deanna-needell
+  - title: Semi-supervised Nonnegative Matrix Factorization for Document Classification
+    year: 2021
+    venue: 2021 55th Asilomar Conference on Signals, Systems, and Computers
+    url: https://doi.org/10.1109/ieeeconf53345.2021.9723109
+    authors:
+    - jamie-haddock
+    - deanna-needell
+  - title: Statistical Learning for Best Practices in Tattoo Removal
+    year: 2021
+    venue: arXiv (Cornell University)
+    url: https://doi.org/10.48550/arxiv.2105.09065
+    authors:
+    - jamie-haddock
+    - deanna-needell
+  - title: 'Antibiotic Treatment Response in Chronic Lyme Disease: Why Do Some Patients Improve While
+      Others Do Not?'
+    year: 2020
+    venue: Healthcare
+    url: https://doi.org/10.3390/healthcare8040383
+    authors:
+    - jamie-haddock
+    - deanna-needell
+  - title: Data-driven algorithm selection and tuning in optimization and signal processing
+    year: 2020
+    venue: Annals of Mathematics and Artificial Intelligence
+    url: https://doi.org/10.1007/s10472-020-09717-z
+    authors:
+    - jamie-haddock
+    - anna-ma
+    - deanna-needell
+  - title: Feature Selection from Lyme Disease Patient Survey Using Machine Learning
+    year: 2020
+    venue: Algorithms
+    url: https://doi.org/10.3390/a13120334
+    authors:
+    - jamie-haddock
+    - deanna-needell
+  - title: Feature Selection on Lyme Disease Patient Survey Data
+    year: 2020
+    venue: arXiv (Cornell University)
+    url: https://doi.org/10.48550/arxiv.2009.09087
+    authors:
+    - jamie-haddock
+    - deanna-needell
+  - title: On Nonnegative CP Tensor Decomposition Robustness to Noise
+    year: 2020
+    venue: ''
+    url: https://doi.org/10.1109/ita50056.2020.9244932
+    authors:
+    - jamie-haddock
+    - deanna-needell
+  - title: Semi-supervised NMF Models for Topic Modeling in Learning Tasks
+    year: 2020
+    venue: arXiv (Cornell University)
+    url: https://doi.org/10.48550/arxiv.2010.07956
+    authors:
+    - jamie-haddock
+    - deanna-needell
+  - title: Stochastic Gradient Descent Variants for Corrupted Systems of Linear Equations
+    year: 2020
+    venue: ''
+    url: https://doi.org/10.1109/ciss48834.2020.1570631711
+    authors:
+    - jamie-haddock
+    - deanna-needell
+    - elizaveta-rebrova
+  - title: Convergence of Iterative Hard Thresholding Variants with Application to Asynchronous Parallel
+      Methods for Sparse Recovery
+    year: 2019
+    venue: ''
+    url: https://doi.org/10.1109/ieeeconf44664.2019.9048787
+    authors:
+    - jamie-haddock
+    - deanna-needell
+  - title: 'Data-driven Algorithm Selection and Parameter Tuning: Two Case studies in Optimization and
+      Signal Processing'
+    year: 2019
+    venue: arXiv (Cornell University)
+    url: https://doi.org/10.48550/arxiv.1905.13404
+    authors:
+    - jamie-haddock
+    - anna-ma
+    - deanna-needell
+  - title: On Inferences from Completed Data
+    year: 2019
+    venue: arXiv (Cornell University)
+    url: https://doi.org/10.48550/arxiv.1907.03028
+    authors:
+    - jamie-haddock
+    - deanna-needell
+  - title: Randomized Projection Methods for Linear Systems with Arbitrarily Large Sparse Corruptions
+    year: 2019
+    venue: SIAM Journal on Scientific Computing
+    url: https://doi.org/10.1137/18m1179213
+    authors:
+    - jamie-haddock
+    - deanna-needell
+  - title: A Bayesian Approach for Asynchronous Parallel Sparse Recovery
+    year: 2018
+    venue: 2018 52nd Asilomar Conference on Signals, Systems, and Computers
+    url: https://doi.org/10.1109/acssc.2018.8645176
+    authors:
+    - jamie-haddock
+    - deanna-needell
+  - title: On Motzkin’s method for inconsistent linear systems
+    year: 2018
+    venue: BIT Numerical Mathematics
+    url: https://doi.org/10.1007/s10543-018-0737-6
+    authors:
+    - jamie-haddock
+    - deanna-needell
+  - title: A Sampling Kaczmarz--Motzkin Algorithm for Linear Feasibility
+    year: 2017
+    venue: SIAM Journal on Scientific Computing
+    url: https://doi.org/10.1137/16m1073807
+    authors:
+    - jamie-haddock
+    - deanna-needell
+- id: cameron-musco
+  papers:
+  - title: Fixed-Sparsity Matrix Approximation from Matrix-Vector Products
+    year: 2026
+    venue: SIAM J. Matrix Anal. Appl.
+    url: https://doi.org/10.1137/25m1742710
+    authors:
+    - noah-amsel
+    - tyler-chen
+    - diana-halikias
+    - cameron-musco
+    - christopher-musco
+  - title: Quasi-optimal Hierarchically Semi-separable Matrix Approximation
+    year: 2026
+    venue: SIAM J. Matrix Anal. Appl.
+    url: https://doi.org/10.1137/25m176622x
+    authors:
+    - noah-amsel
+    - tyler-chen
+    - diana-halikias
+    - cameron-musco
+    - christopher-musco
+    - david-persson
+  - title: Spectral density estimation for normal matrices
+    year: 2026
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2605.31430
+    authors:
+    - cameron-musco
+    - christopher-musco
+    - rikhav-shah
+    - john-urschel
+  - title: Distance Adaptive Beam Search for Provably Accurate Graph-Based Nearest Neighbor Search
+    year: 2025
+    venue: NeurIPS
+    url: http://papers.nips.cc/paper_files/paper/2025/hash/904fe070f484231aa26dbdb37816cd40-Abstract-Conference.html
+    authors:
+    - cameron-musco
+    - christopher-musco
+  - title: Improved Spectral Density Estimation via Explicit and Implicit Deflation
+    year: 2025
+    venue: SODA
+    url: https://doi.org/10.1137/1.9781611978322.88
+    authors:
+    - cameron-musco
+    - christopher-musco
+  - title: Near-optimal hierarchical matrix approximation from matrix-vector products
+    year: 2025
+    venue: SODA
+    url: https://doi.org/10.1137/1.9781611978322.87
+    authors:
+    - tyler-chen
+    - diana-halikias
+    - cameron-musco
+    - christopher-musco
+    - david-persson
+  - title: Query Efficient Structured Matrix Learning
+    year: 2025
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2507.19290
+    authors:
+    - noah-amsel
+    - tyler-chen
+    - cameron-musco
+    - christopher-musco
+    - david-persson
+  - title: Sharper Bounds for Chebyshev Moment Matching, with Applications
+    year: 2025
+    venue: COLT
+    url: https://proceedings.mlr.press/v291/musco25a.html
+    authors:
+    - cameron-musco
+    - christopher-musco
+  - title: 'Navigable Graphs for High-Dimensional Nearest Neighbor Search: Constructions and Limits'
+    year: 2024
+    venue: NeurIPS
+    url: http://papers.nips.cc/paper_files/paper/2024/hash/6dc63b4063c978cf195bc15178e8152a-Abstract-Conference.html
+    authors:
+    - cameron-musco
+    - christopher-musco
+  - title: Nearly Optimal Approximation of Matrix Functions by the Lanczos Method
+    year: 2024
+    venue: NeurIPS
+    url: http://papers.nips.cc/paper_files/paper/2024/hash/fcc3dc27672a12510babe448d665e152-Abstract-Conference.html
+    authors:
+    - noah-amsel
+    - tyler-chen
+    - anne-greenbaum
+    - cameron-musco
+    - christopher-musco
+  - title: On the Unreasonable Effectiveness of Single Vector Krylov Methods for Low-Rank Approximation
+    year: 2024
+    venue: SODA
+    url: https://doi.org/10.1137/1.9781611977912.32
+    authors:
+    - raphael-meyer
+    - cameron-musco
+    - christopher-musco
+  - title: Sharper Bounds for Chebyshev Moment Matching with Applications to Differential Privacy and
+      Beyond
+    year: 2024
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2408.12385
+    authors:
+    - cameron-musco
+    - christopher-musco
+  - title: Low-Memory Krylov Subspace Methods for Optimal Rational Matrix Function Approximation
+    year: 2023
+    venue: SIAM J. Matrix Anal. Appl.
+    url: https://doi.org/10.1137/22m1479853
+    authors:
+    - tyler-chen
+    - anne-greenbaum
+    - cameron-musco
+    - christopher-musco
+  - title: Near-Linear Sample Complexity for Lp Polynomial Regression
+    year: 2023
+    venue: SODA
+    url: https://doi.org/10.1137/1.9781611977554.ch153
+    authors:
+    - raphael-meyer
+    - cameron-musco
+    - christopher-musco
+    - david-woodruff
+  - title: Near-Optimality Guarantees for Approximating Rational Matrix Functions by the Lanczos Method
+    year: 2023
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2303.03358
+    authors:
+    - noah-amsel
+    - tyler-chen
+    - anne-greenbaum
+    - cameron-musco
+    - christopher-musco
+  - title: Weighted Minwise Hashing Beats Linear Sketching for Inner Product Estimation
+    year: 2023
+    venue: PODS
+    url: https://doi.org/10.1145/3584372.3588679
+    authors:
+    - cameron-musco
+    - christopher-musco
+  - title: Active Linear Regression for ℓp Norms and Beyond
+    year: 2022
+    venue: FOCS
+    url: https://doi.org/10.1109/FOCS54457.2022.00076
+    authors:
+    - cameron-musco
+    - christopher-musco
+    - david-woodruff
+  - title: Error Bounds for Lanczos-Based Matrix Function Approximation
+    year: 2022
+    venue: SIAM J. Matrix Anal. Appl.
+    url: https://doi.org/10.1137/21m1427784
+    authors:
+    - tyler-chen
+    - anne-greenbaum
+    - cameron-musco
+    - christopher-musco
+  - title: Fast Regression for Structured Inputs
+    year: 2022
+    venue: ICLR
+    url: https://openreview.net/forum?id=gNp54NxHUPJ
+    authors:
+    - raphael-meyer
+    - cameron-musco
+    - christopher-musco
+    - david-woodruff
+  - title: Active Sampling for Linear Regression Beyond the ℓ2 Norm
+    year: 2021
+    venue: CoRR
+    url: https://arxiv.org/abs/2111.04888
+    authors:
+    - cameron-musco
+    - christopher-musco
+    - david-woodruff
+  - title: 'Hutch++: Optimal Stochastic Trace Estimation'
+    year: 2021
+    venue: SOSA
+    url: https://doi.org/10.1137/1.9781611976496.16
+    authors:
+    - raphael-meyer
+    - cameron-musco
+    - christopher-musco
+    - david-woodruff
+  - title: Simple Heuristics Yield Provable Algorithms for Masked Low-Rank Approximation
+    year: 2021
+    venue: ITCS
+    url: https://doi.org/10.4230/LIPIcs.ITCS.2021.6
+    authors:
+    - cameron-musco
+    - christopher-musco
+    - david-woodruff
+  - title: Fast and Space Efficient Spectral Sparsification in Dynamic Streams
+    year: 2020
+    venue: SODA
+    url: https://doi.org/10.1137/1.9781611975994.111
+    authors:
+    - michael-kapralov
+    - cameron-musco
+    - christopher-musco
+    - aaron-sidford
+  - title: Fourier Sparse Leverage Scores and Approximate Kernel Learning
+    year: 2020
+    venue: NeurIPS
+    url: https://proceedings.neurips.cc/paper/2020/hash/012d9fe15b2493f21902cd55603382ec-Abstract.html
+    authors:
+    - cameron-musco
+    - christopher-musco
+  - title: Low-Rank Toeplitz Matrix Estimation Via Random Ultra-Sparse Rulers
+    year: 2020
+    venue: ICASSP
+    url: https://doi.org/10.1109/ICASSP40776.2020.9053026
+    authors:
+    - cameron-musco
+    - christopher-musco
+  - title: Near Optimal Linear Algebra in the Online and Sliding Window Models
+    year: 2020
+    venue: FOCS
+    url: https://doi.org/10.1109/FOCS46700.2020.00055
+    authors:
+    - petros-drineas
+    - cameron-musco
+    - christopher-musco
+    - david-woodruff
+  - title: 'Projection-Cost-Preserving Sketches: Proof Strategies and Constructions'
+    year: 2020
+    venue: CoRR
+    url: https://arxiv.org/abs/2004.08434
+    authors:
+    - cameron-musco
+    - christopher-musco
+  - title: Sample Efficient Toeplitz Covariance Estimation
+    year: 2020
+    venue: SODA
+    url: https://doi.org/10.1137/1.9781611975994.23
+    authors:
+    - cameron-musco
+    - christopher-musco
+  - title: A universal sampling method for reconstructing signals with simple Fourier transforms
+    year: 2019
+    venue: STOC
+    url: https://doi.org/10.1145/3313276.3316363
+    authors:
+    - haim-avron
+    - michael-kapralov
+    - cameron-musco
+    - christopher-musco
+  - title: Faster Spectral Sparsification in Dynamic Streams
+    year: 2019
+    venue: CoRR
+    url: http://arxiv.org/abs/1903.12165
+    authors:
+    - michael-kapralov
+    - cameron-musco
+    - christopher-musco
+  - title: Low-Rank Approximation from Communication Complexity
+    year: 2019
+    venue: CoRR
+    url: http://arxiv.org/abs/1904.09841
+    authors:
+    - cameron-musco
+    - christopher-musco
+    - david-woodruff
+  - title: Eigenvector Computation and Community Detection in Asynchronous Gossip Models
+    year: 2018
+    venue: ICALP
+    url: https://doi.org/10.4230/LIPIcs.ICALP.2018.159
+    authors:
+    - cameron-musco
+    - christopher-musco
+  - title: Inferring Networks From Random Walk-Based Node Similarities
+    year: 2018
+    venue: NeurIPS
+    url: https://proceedings.neurips.cc/paper/2018/hash/2f25f6e326adb93c5787175dda209ab6-Abstract.html
+    authors:
+    - cameron-musco
+    - christopher-musco
+  - title: Learning Networks from Random Walk-Based Node Similarities
+    year: 2018
+    venue: CoRR
+    url: http://arxiv.org/abs/1801.07386
+    authors:
+    - cameron-musco
+    - christopher-musco
+  - title: Minimizing Polarization and Disagreement in Social Networks
+    year: 2018
+    venue: WWW
+    url: https://doi.org/10.1145/3178876.3186103
+    authors:
+    - cameron-musco
+    - christopher-musco
+  - title: Stability of the Lanczos Method for Matrix Function Approximation
+    year: 2018
+    venue: SODA
+    url: https://doi.org/10.1137/1.9781611975031.105
+    authors:
+    - cameron-musco
+    - christopher-musco
+    - aaron-sidford
+  - title: Input Sparsity Time Low-rank Approximation via Ridge Leverage Score Sampling
+    year: 2017
+    venue: SODA
+    url: https://doi.org/10.1137/1.9781611974782.115
+    authors:
+    - cameron-musco
+    - christopher-musco
+  - title: 'Random Fourier Features for Kernel Ridge Regression: Approximation Bounds and Statistical
+      Guarantees'
+    year: 2017
+    venue: ICML
+    url: http://proceedings.mlr.press/v70/avron17a.html
+    authors:
+    - haim-avron
+    - michael-kapralov
+    - cameron-musco
+    - christopher-musco
+  - title: Recursive Sampling for the Nystrom Method
+    year: 2017
+    venue: NIPS
+    url: https://proceedings.neurips.cc/paper/2017/hash/a03fa30821986dff10fc66647c84c9c3-Abstract.html
+    authors:
+    - cameron-musco
+    - christopher-musco
+  - title: Single Pass Spectral Sparsification in Dynamic Streams
+    year: 2017
+    venue: SIAM J. Comput.
+    url: https://doi.org/10.1137/141002281
+    authors:
+    - michael-kapralov
+    - cameron-musco
+    - christopher-musco
+    - aaron-sidford
+  - title: Principal Component Projection Without Principal Component Analysis
+    year: 2016
+    venue: ICML
+    url: http://proceedings.mlr.press/v48/frostig16.html
+    authors:
+    - cameron-musco
+    - christopher-musco
+    - aaron-sidford
+  - title: Provably Useful Kernel Matrix Approximation in Linear Time
+    year: 2016
+    venue: CoRR
+    url: http://arxiv.org/abs/1605.07583
+    authors:
+    - cameron-musco
+    - christopher-musco
+  - title: Dimensionality Reduction for k-Means Clustering and Low Rank Approximation
+    year: 2015
+    venue: STOC
+    url: https://doi.org/10.1145/2746539.2746569
+    authors:
+    - cameron-musco
+    - christopher-musco
+  - title: Randomized Block Krylov Methods for Stronger and Faster Approximate Singular Value Decomposition
+    year: 2015
+    venue: NIPS
+    url: https://proceedings.neurips.cc/paper/2015/hash/1efa39bcaec6f3900149160693694536-Abstract.html
+    authors:
+    - cameron-musco
+    - christopher-musco
+  - title: Ridge Leverage Scores for Low-Rank Approximation
+    year: 2015
+    venue: CoRR
+    url: http://arxiv.org/abs/1511.07263
+    authors:
+    - cameron-musco
+    - christopher-musco
+  - title: Stronger Approximate Singular Value Decomposition via the Block Lanczos and Power Methods
+    year: 2015
+    venue: CoRR
+    url: http://arxiv.org/abs/1504.05477
+    authors:
+    - cameron-musco
+    - christopher-musco
+  - title: Uniform Sampling for Matrix Approximation
+    year: 2015
+    venue: ITCS
+    url: https://doi.org/10.1145/2688073.2688113
+    authors:
+    - cameron-musco
+    - christopher-musco
+    - richard-peng
+    - aaron-sidford
+- id: lior-horesh
+  papers:
+  - title: Analysis of Power Iteration Algorithm with Partially Observed Matrix-vector Products
+    year: 2026
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2606.11956
+    authors:
+    - lior-horesh
+    - shashanka-ubaru
+  - title: Counting Triangles of Graphs via Randomized Trace Estimation with Incomplete Matrix-Vector
+      Products
+    year: 2026
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2606.22629
+    authors:
+    - lior-horesh
+    - shashanka-ubaru
+  - title: 'Group-Algebraic Tensors: Provably-optimal Equivariant Learning and Physical Symmetry Discovery'
+    year: 2026
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2605.20440
+    authors:
+    - shashanka-ubaru
+    - kenneth-clarkson
+    - misha-kilmer
+    - haim-avron
+    - lior-horesh
+  - title: 'PCE-Net : High-Dimensional Surrogate Modeling for Learning Uncertainty'
+    year: 2026
+    venue: SIAM/ASA J. Uncertain. Quantification
+    url: https://doi.org/10.1137/24m1723838
+    authors:
+    - shashanka-ubaru
+    - lior-horesh
+    - haim-avron
+  - title: A Framework For The Iterative Solution of Sparse Linear Systems on Hybrid Architectures Using
+      Homomorphic Encryption
+    year: 2025
+    venue: HPEC
+    url: https://doi.org/10.1109/HPEC67600.2025.11196237
+    authors:
+    - lior-horesh
+    - shashanka-ubaru
+  - title: Comparing quantum and classical Monte Carlo algorithms for estimating Betti numbers of clique
+      complexes
+    year: 2025
+    venue: Quantum
+    url: https://doi.org/10.22331/q-2025-10-31-1901
+    authors:
+    - lior-horesh
+    - shashanka-ubaru
+  - title: Fast Linear Solvers via AI-Tuned Markov Chain Monte Carlo-based Matrix Inversion
+    year: 2025
+    venue: SC Workshops
+    url: https://doi.org/10.1145/3731599.3767543
+    authors:
+    - shashanka-ubaru
+    - lior-horesh
+  - title: Multivariate Trace Estimation Using Quantum State Space Linear Algebra
+    year: 2025
+    venue: SIAM J. Matrix Anal. Appl.
+    url: https://doi.org/10.1137/24m1654749
+    authors:
+    - shashanka-ubaru
+    - lior-horesh
+    - haim-avron
+  - title: Power iteration with probabilistic updates for systems with heterogeneous performance
+    year: 2025
+    venue: HPEC
+    url: https://doi.org/10.1109/HPEC67600.2025.11196482
+    authors:
+    - lior-horesh
+    - shashanka-ubaru
+  - title: Surrogate-based quantification of policy uncertainty in generative flow networks
+    year: 2025
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2510.21523
+    authors:
+    - shashanka-ubaru
+    - lior-horesh
+  - title: Asynchronous Randomized Trace Estimation
+    year: 2024
+    venue: AISTATS
+    url: https://proceedings.mlr.press/v238/kalantzis24a.html
+    authors:
+    - shashanka-ubaru
+    - lior-horesh
+  - title: Counting Triangles of Graphs via Matrix Partitioning
+    year: 2024
+    venue: MLSP
+    url: https://doi.org/10.1109/MLSP58920.2024.10734796
+    authors:
+    - lior-horesh
+    - shashanka-ubaru
+  - title: Multi-Function Multi-Way Analog Technology for Sustainable Machine Intelligence Computation
+    year: 2024
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2401.13754
+    authors:
+    - shashanka-ubaru
+    - haim-avron
+    - lior-horesh
+  - title: Single-pass top-N subgraph centrality of graphs via subspace projections
+    year: 2024
+    venue: J. Complex Networks
+    url: https://doi.org/10.1093/comnet/cnae049
+    authors:
+    - shashanka-ubaru
+    - lior-horesh
+  - title: Topological data analysis on noisy quantum computers
+    year: 2024
+    venue: ICLR
+    url: https://openreview.net/forum?id=dLrhRIMVmB
+    authors:
+    - shashanka-ubaru
+    - kenneth-clarkson
+    - lior-horesh
+  - title: Solving Sparse Linear Systems via Flexible GMRES with In-Memory Analog Preconditioning
+    year: 2023
+    venue: HPEC
+    url: https://doi.org/10.1109/HPEC58863.2023.10363502
+    authors:
+    - shashanka-ubaru
+    - lior-horesh
+  - title: Efficient Quantum Computation of the Fermionic Boundary Operator
+    year: 2022
+    venue: CoRR
+    url: https://arxiv.org/abs/2201.11510
+    authors:
+    - lior-horesh
+    - shashanka-ubaru
+  - title: On Quantum Algorithms for Random Walks in the Nonnegative Quarter Plane
+    year: 2022
+    venue: SIGMETRICS Perform. Evaluation Rev.
+    url: https://doi.org/10.1145/3561074.3561089
+    authors:
+    - shashanka-ubaru
+    - lior-horesh
+  - title: 'PCENet: High Dimensional Surrogate Modeling for Learning Uncertainty'
+    year: 2022
+    venue: CoRR
+    url: https://arxiv.org/abs/2202.05063
+    authors:
+    - shashanka-ubaru
+    - lior-horesh
+    - haim-avron
+  - title: Towards Quantum Advantage on Noisy Quantum Computers
+    year: 2022
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2209.09371
+    authors:
+    - shashanka-ubaru
+    - kenneth-clarkson
+    - lior-horesh
+  - title: Dynamic Graph Convolutional Networks Using the Tensor M-Product
+    year: 2021
+    venue: SDM
+    url: https://doi.org/10.1137/1.9781611976700.82
+    authors:
+    - shashanka-ubaru
+    - lior-horesh
+    - misha-kilmer
+    - haim-avron
+  - title: Dynamic graph and polynomial chaos based models for contact tracing data analysis and optimal
+      testing prescription
+    year: 2021
+    venue: J. Biomed. Informatics
+    url: https://doi.org/10.1016/j.jbi.2021.103901
+    authors:
+    - shashanka-ubaru
+    - lior-horesh
+  - title: Projection techniques to update the truncated SVD of evolving matrices with applications
+    year: 2021
+    venue: ICML
+    url: http://proceedings.mlr.press/v139/kalantzis21a.html
+    authors:
+    - shashanka-ubaru
+    - lior-horesh
+    - kenneth-clarkson
+  - title: Quantum Topological Data Analysis with Linear Depth and Exponential Speedup
+    year: 2021
+    venue: CoRR
+    url: https://arxiv.org/abs/2108.02811
+    authors:
+    - shashanka-ubaru
+    - kenneth-clarkson
+    - lior-horesh
+  - title: Sparse Graph Based Sketching for Fast Numerical Linear Algebra
+    year: 2021
+    venue: ICASSP
+    url: https://doi.org/10.1109/ICASSP39728.2021.9414030
+    authors:
+    - shashanka-ubaru
+    - kenneth-clarkson
+    - lior-horesh
+  - title: Dynamic graph based epidemiological model for COVID-19 contact tracing data analysis and optimal
+      testing prescription
+    year: 2020
+    venue: CoRR
+    url: https://arxiv.org/abs/2009.04971
+    authors:
+    - shashanka-ubaru
+    - lior-horesh
+  - title: Projection techniques to update the truncated SVD of evolving matrices
+    year: 2020
+    venue: CoRR
+    url: https://arxiv.org/abs/2010.06392
+    authors:
+    - shashanka-ubaru
+    - lior-horesh
+    - kenneth-clarkson
+  - title: Tensor Graph Convolutional Networks for Prediction on Dynamic Graphs
+    year: 2019
+    venue: CoRR
+    url: http://arxiv.org/abs/1910.07643
+    authors:
+    - shashanka-ubaru
+    - lior-horesh
+    - misha-kilmer
+    - haim-avron
+- id: james-demmel
+  papers:
+  - title: 'Excvate: Spoofing Exceptions and Solving Constraints to Test Exception Handling in Numerical
+      Libraries'
+    year: 2025
+    venue: ARITH
+    url: https://doi.org/10.1109/ARITH64983.2025.00026
+    authors:
+    - james-demmel
+    - xiaoye-sherry-li
+  - title: Parallel GPU-Accelerated Randomized Construction of Approximate Cholesky Preconditioners
+    year: 2025
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2505.02977
+    authors:
+    - xiaoye-sherry-li
+    - james-demmel
+  - title: Hybrid Parameter Search and Dynamic Model Selection for Mixed-Variable Bayesian Optimization
+    year: 2024
+    venue: J. Comput. Graph. Stat.
+    url: https://doi.org/10.1080/10618600.2024.2308216
+    authors:
+    - james-demmel
+    - xiaoye-sherry-li
+  - title: Non-smooth Bayesian optimization in tuning scientific applications
+    year: 2024
+    venue: Int. J. High Perform. Comput. Appl.
+    url: https://doi.org/10.1177/10943420241278981
+    authors:
+    - james-demmel
+    - xiaoye-sherry-li
+  - title: Harnessing the Crowd for Autotuning High-Performance Computing Applications
+    year: 2023
+    venue: IPDPS
+    url: https://doi.org/10.1109/IPDPS54959.2023.00069
+    authors:
+    - james-demmel
+    - xiaoye-sherry-li
+  - title: Hybrid Models for Mixed Variables in Bayesian Optimization
+    year: 2022
+    venue: CoRR
+    url: https://doi.org/10.48550/arXiv.2206.01409
+    authors:
+    - james-demmel
+    - xiaoye-sherry-li
+  - title: Proposed Consistent Exception Handling for the BLAS and LAPACK
+    year: 2022
+    venue: Correctness@SC
+    url: https://doi.org/10.1109/Correctness56720.2022.00006
+    authors:
+    - james-demmel
+    - julien-langou
+    - xiaoye-sherry-li
+  - title: Enhancing Autotuning Capability with a History Database
+    year: 2021
+    venue: MCSoC
+    url: https://doi.org/10.1109/MCSoC51149.2021.00044
+    authors:
+    - james-demmel
+    - xiaoye-sherry-li
+  - title: 'GPTune: multitask learning for autotuning exascale applications'
+    year: 2021
+    venue: PPoPP
+    url: https://doi.org/10.1145/3437801.3441621
+    authors:
+    - james-demmel
+    - xiaoye-sherry-li
+  - title: Non-smooth Bayesian Optimization in Tuning Problems
+    year: 2021
+    venue: CoRR
+    url: https://arxiv.org/abs/2109.07563
+    authors:
+    - james-demmel
+    - xiaoye-sherry-li
+  - title: Multitask and Transfer Learning for Autotuning Exascale Applications
+    year: 2019
+    venue: CoRR
+    url: http://arxiv.org/abs/1908.05792
+    authors:
+    - xiaoye-sherry-li
+    - james-demmel
+  - title: SuperLU
+    year: 2011
+    venue: Encyclopedia of Parallel Computing
+    url: https://doi.org/10.1007/978-0-387-09766-4_95
+    authors:
+    - xiaoye-sherry-li
+    - james-demmel
+    - laura-grigori
+  - title: Extra-Precise Iterative Refinement for Overdetermined Least Squares Problems
+    year: 2009
+    venue: ACM Trans. Math. Softw.
+    url: https://doi.org/10.1145/1462173.1462177
+    authors:
+    - james-demmel
+    - xiaoye-sherry-li
+  - title: Parallel Symbolic Factorization for Sparse LU with Static Pivoting
+    year: 2007
+    venue: SIAM J. Sci. Comput.
+    url: https://doi.org/10.1137/050638102
+    authors:
+    - laura-grigori
+    - james-demmel
+    - xiaoye-sherry-li
+  - title: Prospectus for a Dense Linear Algebra Software Library
+    year: 2007
+    venue: Handbook of Parallel Computing
+    url: https://doi.org/10.1201/9781420011296.ch29
+    authors:
+    - james-demmel
+    - julien-langou
+    - ming-gu
+    - xiaoye-sherry-li
+    - david-bindel
+  - title: Error bounds from extra-precise iterative refinement
+    year: 2006
+    venue: ACM Trans. Math. Softw.
+    url: https://doi.org/10.1145/1141885.1141894
+    authors:
+    - james-demmel
+    - xiaoye-sherry-li
+  - title: Prospectus for the Next LAPACK and ScaLAPACK Libraries
+    year: 2006
+    venue: PARA
+    url: https://doi.org/10.1007/978-3-540-75755-9_2
+    authors:
+    - james-demmel
+    - ming-gu
+    - david-bindel
+    - xiaoye-sherry-li
+    - julien-langou
+  - title: 'SuperLU_DIST: A scalable distributed-memory sparse direct solver for unsymmetric linear systems'
+    year: 2003
+    venue: ACM Trans. Math. Softw.
+    url: https://doi.org/10.1145/779359.779361
+    authors:
+    - xiaoye-sherry-li
+    - james-demmel
+  - title: Design, implementation and testing of extended and mixed precision BLAS
+    year: 2002
+    venue: ACM Trans. Math. Softw.
+    url: https://doi.org/10.1145/567806.567808
+    authors:
+    - xiaoye-sherry-li
+    - james-demmel
+  - title: Common Issues
+    year: 2000
+    venue: Templates for the Solution of Algebraic Eigenvalue Problems
+    url: https://doi.org/10.1137/1.9780898719581.ch10
+    authors:
+    - xiaoye-sherry-li
+    - james-demmel
+  - title: A Scalable Sparse Direct Solver Using Static Pivoting
+    year: 1999
+    venue: PP
+    url: ''
+    authors:
+    - xiaoye-sherry-li
+    - james-demmel
+  - title: A Supernodal Approach to Sparse Partial Pivoting
+    year: 1999
+    venue: SIAM J. Matrix Anal. Appl.
+    url: https://doi.org/10.1137/S0895479895291765
+    authors:
+    - james-demmel
+    - xiaoye-sherry-li
+  - title: An Asynchronous Parallel Supernodal Algorithm for Sparse Gaussian Elimination
+    year: 1999
+    venue: SIAM J. Matrix Anal. Appl.
+    url: https://doi.org/10.1137/S0895479897317685
+    authors:
+    - james-demmel
+    - xiaoye-sherry-li
+  - title: Making Sparse Gaussian Elimination Scalable by Static Pivoting
+    year: 1998
+    venue: SC
+    url: https://doi.org/10.1109/SC.1998.10030
+    authors:
+    - xiaoye-sherry-li
+    - james-demmel
+  - title: Faster Numerical Algorithms via Exception Handling
+    year: 1994
+    venue: IEEE Trans. Computers
+    url: https://doi.org/10.1109/12.295860
+    authors:
+    - james-demmel
+    - xiaoye-sherry-li
+- id: petros-drineas
+  papers:
+  - title: Lectures on Randomized Numerical Linear Algebra
+    year: 2017
+    venue: CoRR
+    url: http://arxiv.org/abs/1712.08880
+    authors:
+    - petros-drineas
+    - michael-mahoney
+  - title: 'RandNLA: randomized numerical linear algebra'
+    year: 2016
+    venue: Commun. ACM
+    url: https://doi.org/10.1145/2842602
+    authors:
+    - petros-drineas
+    - michael-mahoney
+  - title: Structural Properties Underlying High-Quality Randomized Numerical Linear Algebra Algorithms
+    year: 2016
+    venue: Handbook of Big Data
+    url: http://www.crcnetbase.com/doi/abs/10.1201/b19567-13
+    authors:
+    - michael-mahoney
+    - petros-drineas
+  - title: The Fast Cauchy Transform and Faster Robust Linear Regression
+    year: 2016
+    venue: SIAM J. Comput.
+    url: https://doi.org/10.1137/140963698
+    authors:
+    - kenneth-clarkson
+    - petros-drineas
+    - michael-mahoney
+    - david-woodruff
+  - title: Randomized Dimensionality Reduction for k-Means Clustering
+    year: 2015
+    venue: IEEE Trans. Inf. Theory
+    url: https://doi.org/10.1109/TIT.2014.2375327
+    authors:
+    - michael-mahoney
+    - petros-drineas
+  - title: Fast approximation of matrix coherence and statistical leverage
+    year: 2012
+    venue: J. Mach. Learn. Res.
+    url: https://dl.acm.org/doi/10.5555/2503308.2503352
+    authors:
+    - petros-drineas
+    - michael-mahoney
+    - david-woodruff
+  - title: 'The Fast Cauchy Transform: with Applications to Basis Construction, Regression, and Subspace
+      Approximation in L1'
+    year: 2012
+    venue: CoRR
+    url: http://arxiv.org/abs/1207.4684
+    authors:
+    - kenneth-clarkson
+    - petros-drineas
+    - michael-mahoney
+    - david-woodruff
+  - title: Faster least squares approximation
+    year: 2011
+    venue: Numerische Mathematik
+    url: https://doi.org/10.1007/s00211-010-0331-6
+    authors:
+    - petros-drineas
+    - michael-mahoney
+    - tamas-sarlos
+  - title: Stochastic Dimensionality Reduction for K-means Clustering
+    year: 2011
+    venue: CoRR
+    url: http://arxiv.org/abs/1110.2897
+    authors:
+    - michael-mahoney
+    - petros-drineas
+  - title: Effective Resistances, Statistical Leverage, and Applications to Linear Equation Solving
+    year: 2010
+    venue: CoRR
+    url: http://arxiv.org/abs/1005.3097
+    authors:
+    - petros-drineas
+    - michael-mahoney
+  - title: An improved approximation algorithm for the column subset selection problem
+    year: 2009
+    venue: SODA
+    url: https://doi.org/10.1137/1.9781611973068.105
+    authors:
+    - michael-mahoney
+    - petros-drineas
+  - title: CUR matrix decompositions for improved data analysis
+    year: 2009
+    venue: Proc. Natl. Acad. Sci. USA
+    url: https://doi.org/10.1073/pnas.0803205106
+    authors:
+    - michael-mahoney
+    - petros-drineas
+  - title: Sampling Algorithms and Coresets for ℓp Regression
+    year: 2009
+    venue: SIAM J. Comput.
+    url: https://doi.org/10.1137/070696507
+    authors:
+    - petros-drineas
+    - michael-mahoney
+  - title: Unsupervised Feature Selection for the k-means Clustering Problem
+    year: 2009
+    venue: NIPS
+    url: https://proceedings.neurips.cc/paper/2009/hash/c51ce410c124a10e0db5e4b97fc2af39-Abstract.html
+    authors:
+    - michael-mahoney
+    - petros-drineas
+  - title: Relative-Error CUR Matrix Decompositions
+    year: 2008
+    venue: SIAM J. Matrix Anal. Appl.
+    url: https://doi.org/10.1137/07070471X
+    authors:
+    - petros-drineas
+    - michael-mahoney
+  - title: Sampling algorithms and coresets for ℓp regression
+    year: 2008
+    venue: SODA
+    url: http://dl.acm.org/citation.cfm?id=1347082.1347184
+    authors:
+    - petros-drineas
+    - michael-mahoney
+  - title: Sampling subproblems of heterogeneous Max-Cut problems and approximation algorithms
+    year: 2008
+    venue: Random Struct. Algorithms
+    url: https://doi.org/10.1002/rsa.20196
+    authors:
+    - petros-drineas
+    - ravindran-kannan
+    - michael-mahoney
+  - title: Tensor-CUR Decompositions for Tensor-Based Data
+    year: 2008
+    venue: SIAM J. Matrix Anal. Appl.
+    url: https://doi.org/10.1137/060665336
+    authors:
+    - michael-mahoney
+    - petros-drineas
+  - title: Unsupervised feature selection for principal components analysis
+    year: 2008
+    venue: KDD
+    url: https://doi.org/10.1145/1401890.1401903
+    authors:
+    - michael-mahoney
+    - petros-drineas
+  - title: Feature selection methods for text classification
+    year: 2007
+    venue: KDD
+    url: https://doi.org/10.1145/1281192.1281220
+    authors:
+    - petros-drineas
+    - michael-mahoney
+  - title: 'Fast Monte Carlo Algorithms for Matrices I: Approximating Matrix Multiplication'
+    year: 2006
+    venue: SIAM J. Comput.
+    url: https://doi.org/10.1137/S0097539704442684
+    authors:
+    - petros-drineas
+    - ravindran-kannan
+    - michael-mahoney
+  - title: 'Fast Monte Carlo Algorithms for Matrices II: Computing a Low-Rank Approximation to a Matrix'
+    year: 2006
+    venue: SIAM J. Comput.
+    url: https://doi.org/10.1137/S0097539704442696
+    authors:
+    - petros-drineas
+    - ravindran-kannan
+    - michael-mahoney
+  - title: 'Fast Monte Carlo Algorithms for Matrices III: Computing a Compressed Approximate Matrix Decomposition'
+    year: 2006
+    venue: SIAM J. Comput.
+    url: https://doi.org/10.1137/S0097539704442702
+    authors:
+    - petros-drineas
+    - ravindran-kannan
+    - michael-mahoney
+  - title: Randomized Algorithms for Matrices and Massive Data Sets
+    year: 2006
+    venue: VLDB
+    url: http://dl.acm.org/citation.cfm?id=1164263
+    authors:
+    - petros-drineas
+    - michael-mahoney
+  - title: Sampling algorithms for l2 regression and applications
+    year: 2006
+    venue: SODA
+    url: http://dl.acm.org/citation.cfm?id=1109557.1109682
+    authors:
+    - petros-drineas
+    - michael-mahoney
+  - title: 'Subspace Sampling and Relative-Error Matrix Approximation: Column-Based Methods'
+    year: 2006
+    venue: APPROX-RANDOM
+    url: https://doi.org/10.1007/11830924_30
+    authors:
+    - petros-drineas
+    - michael-mahoney
+  - title: 'Subspace Sampling and Relative-Error Matrix Approximation: Column-Row-Based Methods'
+    year: 2006
+    venue: ESA
+    url: https://doi.org/10.1007/11841036_29
+    authors:
+    - petros-drineas
+    - michael-mahoney
+  - title: Approximating a Gram Matrix for Improved Kernel-Based Learning
+    year: 2005
+    venue: COLT
+    url: https://doi.org/10.1007/11503415_22
+    authors:
+    - petros-drineas
+    - michael-mahoney
+  - title: On the Nyström Method for Approximating a Gram Matrix for Improved Kernel-Based Learning
+    year: 2005
+    venue: J. Mach. Learn. Res.
+    url: https://jmlr.org/papers/v6/drineas05a.html
+    authors:
+    - petros-drineas
+    - michael-mahoney
+  - title: Sampling Sub-problems of Heterogeneous Max-cut Problems and Approximation Algorithms
+    year: 2005
+    venue: STACS
+    url: https://doi.org/10.1007/978-3-540-31856-9_5
+    authors:
+    - petros-drineas
+    - ravindran-kannan
+    - michael-mahoney
