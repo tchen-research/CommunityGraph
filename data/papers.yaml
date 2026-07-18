@@ -2,6 +2,13 @@
 # edges/factor. `authors` lists ids from people.yaml that are on the
 # paper (outside coauthors are not tracked; use `note` when that
 # matters). Collected from DBLP/homepages by research agents, July 2026.
+- title: Linear Congruential Generators Do Not Produce Random Sequences
+  year: 1984
+  venue: FOCS
+  url: https://doi.org/10.1109/SFCS.1984.715950
+  authors:
+  - alan-frieze
+  - ravindran-kannan
 - title: Complexity of dense linear system solution on a multiprocessor ring
   year: 1985
   venue: OSTI (U.S. Department of Energy)
@@ -16,6 +23,13 @@
   authors:
   - ilse-ipsen
   - yousef-saad
+- title: Reconstructing Truncated Integer Variables Satisfying Linear Congruences
+  year: 1988
+  venue: SIAM J. Comput.
+  url: https://doi.org/10.1137/0217016
+  authors:
+  - alan-frieze
+  - ravindran-kannan
 - title: On a Block Implementation of Hessenberg Multishift QR Iteration
   year: 1989
   venue: Int. J. High Speed Comput.
@@ -45,6 +59,13 @@
   - zhaojun-bai
   - lothar-reichel
   url: http://dblp.uni-trier.de/db/conf/ppsc/ppsc1991.html#BaiHR91
+- title: A Hybrid GMRES Algorithm for Nonsymmetric Linear Systems
+  year: 1992
+  venue: SIAM J. Matrix Anal. Appl.
+  url: https://doi.org/10.1137/0613050
+  authors:
+  - lothar-reichel
+  - lloyd-trefethen
 - title: Open questions in the convergence analysis of the Lanczos process for the real symmetric
     eigenvalue problem
   year: 1992
@@ -65,6 +86,14 @@
   authors:
   - james-demmel
   - nicholas-higham
+- title: A Mildly Exponential Time Algorithm for Approximating the Number of Solutions to
+    a Multidimensional Knapsack Problem
+  year: 1993
+  venue: Comb. Probab. Comput.
+  url: https://doi.org/10.1017/S0963548300000675
+  authors:
+  - alan-frieze
+  - ravindran-kannan
 - title: Accuracy Control for Parallel Evaluation of Matrix Rational Functions
   year: 1993
   url: http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.49.1725
@@ -91,6 +120,12 @@
   authors:
   - james-demmel
   - nicholas-higham
+- title: 'LAPACK for Distributed Memory Architectures: The Next Generation'
+  year: 1993
+  venue: PPSC
+  authors:
+  - james-demmel
+  - jack-dongarra
 - title: On computing condition numbers for the nonsymmetric eigenproblem
   year: 1993
   venue: ACM Trans. Math. Softw.
@@ -128,6 +163,12 @@
   authors:
   - alan-frieze
   - ravindran-kannan
+- title: 'Templates for the Solution of Linear Systems: Building Blocks for Iterative Methods'
+  year: 1994
+  url: https://doi.org/10.1137/1.9781611971538
+  authors:
+  - james-demmel
+  - jack-dongarra
 - title: Iterative solution methods for ill-posed problems
   year: 1995
   venue: Proceedings of SPIE, the International Society for Optical Engineering/Proceedings
@@ -163,6 +204,13 @@
   authors:
   - james-demmel
   - alan-edelman
+- title: A hybrid iterative method for symmetric positive definite linear systems
+  year: 1996
+  venue: Numer. Algorithms
+  url: https://doi.org/10.1007/BF02142490
+  authors:
+  - daniela-calvetti
+  - lothar-reichel
 - title: A numerical method for eigenvalue problems in modeling liquid crystals
   year: 1996
   venue: OSTI OAI (U.S. Department of Energy Office of Scientific and Technical Information)
@@ -171,6 +219,13 @@
   - james-baglama
   - lothar-reichel
   - daniela-calvetti
+- title: An adaptive Richardson iteration method for indefinite linear systems
+  year: 1996
+  venue: Numer. Algorithms
+  url: https://doi.org/10.1007/BF02141745
+  authors:
+  - daniela-calvetti
+  - lothar-reichel
 - title: Any Nonincreasing Convergence Curve is Possible for GMRES
   year: 1996
   venue: SIAM J. Matrix Anal. Appl.
@@ -178,6 +233,13 @@
   authors:
   - anne-greenbaum
   - zdenek-strakos
+- title: Application of ADI Iterative Methods to the Restoration of Noisy Images
+  year: 1996
+  venue: SIAM J. Matrix Anal. Appl.
+  url: https://doi.org/10.1137/S0895479894273687
+  authors:
+  - daniela-calvetti
+  - lothar-reichel
 - title: Fast algorithms for polynomial interpolation, integration, and differentiation
   year: 1996
   venue: SIAM J. Numer. Anal.
@@ -203,6 +265,21 @@
   authors:
   - daniela-calvetti
   - lothar-reichel
+- title: Practical Experience in the Dangers of Heterogeneous Computing
+  year: 1996
+  venue: PARA
+  url: https://doi.org/10.1007/3-540-62095-8_7
+  authors:
+  - james-demmel
+  - jack-dongarra
+- title: 'ScaLAPACK: A Portable Linear Algebra Library for Distributed Memory Computers -
+    Design Issues and Performance'
+  year: 1996
+  venue: SC
+  url: https://doi.ieeecomputersociety.org/10.1109/SC.1996.41
+  authors:
+  - james-demmel
+  - jack-dongarra
 - title: The regularity lemma and approximation schemes for dense problems
   year: 1996
   venue: FOCS
@@ -228,6 +305,13 @@
   authors:
   - edmond-chow
   - yousef-saad
+- title: Practical Experience in the Numerical Dangers of Heterogeneous Computing
+  year: 1997
+  venue: ACM Trans. Math. Softw.
+  url: https://doi.org/10.1145/264029.264030
+  authors:
+  - james-demmel
+  - jack-dongarra
 - title: Sampling Lattice Points
   year: 1997
   venue: STOC
@@ -235,6 +319,12 @@
   authors:
   - ravindran-kannan
   - santosh-vempala
+- title: 'ScaLAPACK: A Linear Algebra Library for Message-Passing Computers'
+  year: 1997
+  venue: PP
+  authors:
+  - james-demmel
+  - jack-dongarra
 - title: Simple Markov-Chain Algorithms for Generating Bipartite Graphs and Tournaments (Extended
     Abstract)
   year: 1997
@@ -295,6 +385,13 @@
   authors:
   - edmond-chow
   - yousef-saad
+- title: Programming Tools and Environments
+  year: 1998
+  venue: Commun. ACM
+  url: https://doi.org/10.1145/287831.287841
+  authors:
+  - james-demmel
+  - jack-dongarra
 - title: 'Smooth or abrupt: a comparison of regularization methods'
   year: 1998
   venue: Proceedings of SPIE, the International Society for Optical Engineering/Proceedings
@@ -337,6 +434,13 @@
   authors:
   - james-demmel
   - xiaoye-sherry-li
+- title: A block-Lanczos method for large continuation problems
+  year: 1999
+  venue: Numer. Algorithms
+  url: https://doi.org/10.1023/A:1019161413952
+  authors:
+  - daniela-calvetti
+  - lothar-reichel
 - title: An Asynchronous Parallel Supernodal Algorithm for Sparse Gaussian Elimination
   year: 1999
   venue: SIAM J. Matrix Anal. Appl.
@@ -383,6 +487,13 @@
   authors:
   - daniela-calvetti
   - lothar-reichel
+- title: Iterative exponential filtering for large discrete ill-posed problems
+  year: 1999
+  venue: Numerische Mathematik
+  url: https://doi.org/10.1007/s002119900077
+  authors:
+  - daniela-calvetti
+  - lothar-reichel
 - title: LAPACK Users' Guide
   year: 1999
   venue: SIAM
@@ -400,6 +511,20 @@
   - zhaojun-bai
   - james-demmel
   - anne-greenbaum
+- title: On an inverse eigenproblem for Jacobi matrices
+  year: 1999
+  venue: Adv. Comput. Math.
+  url: https://doi.org/10.1023/A:1018951304418
+  authors:
+  - daniela-calvetti
+  - lothar-reichel
+- title: Orderings for Incomplete Factorization Preconditioning of Nonsymmetric Problems
+  year: 1999
+  venue: SIAM J. Sci. Comput.
+  url: https://doi.org/10.1137/S1064827597326845
+  authors:
+  - michele-benzi
+  - daniel-szyld
 - title: Quick Approximation to Matrices and Applications
   year: 1999
   venue: Comb.
@@ -414,6 +539,13 @@
   authors:
   - ravindran-kannan
   - santosh-vempala
+- title: An L-ribbon for large underdetermined linear discrete ill-posed problems
+  year: 2000
+  venue: Numer. Algorithms
+  url: https://doi.org/10.1023/A:1016656923184
+  authors:
+  - daniela-calvetti
+  - lothar-reichel
 - title: Common Issues
   year: 2000
   venue: Templates for the Solution of Algebraic Eigenvalue Problems
@@ -421,6 +553,13 @@
   authors:
   - xiaoye-sherry-li
   - james-demmel
+- title: Computable error bounds and estimates for the conjugate gradient method
+  year: 2000
+  venue: Numer. Algorithms
+  url: https://doi.org/10.1023/A:1016661024093
+  authors:
+  - daniela-calvetti
+  - lothar-reichel
 - title: Generalized Hermitian Eigenvalue Problems
   year: 2000
   venue: Templates for the Solution of Algebraic Eigenvalue Problems
@@ -467,6 +606,13 @@
   authors:
   - daniela-calvetti
   - lothar-reichel
+- title: Algebraic theory of multiplicative Schwarz methods
+  year: 2001
+  venue: Numerische Mathematik
+  url: https://doi.org/10.1007/s002110100275
+  authors:
+  - michele-benzi
+  - daniel-szyld
 - title: Fast Monte-Carlo Algorithms for Approximate Matrix Multiplication
   year: 2001
   venue: FOCS
@@ -501,6 +647,13 @@
   authors:
   - daniela-calvetti
   - lothar-reichel
+- title: On the solution of large Sylvester-observer equations
+  year: 2001
+  venue: Numer. Linear Algebra Appl.
+  url: https://doi.org/10.1002/nla.254
+  authors:
+  - daniela-calvetti
+  - lothar-reichel
 - title: Preconditioners for Indefinite Linear Systems Arising in Surface Parameterization
   year: 2001
   venue: IMR
@@ -508,6 +661,13 @@
   authors:
   - jorg-liesen
   - eric-de-sturler
+- title: Recursive approach in sparse matrix LU factorization
+  year: 2001
+  venue: Sci. Program.
+  url: https://doi.org/10.1155/2001/569670
+  authors:
+  - jack-dongarra
+  - piotr-luszczek
 - title: Spectra, pseudospectra, and localization for random bidiagonal matrices
   year: 2001
   authors:
@@ -549,6 +709,13 @@
   authors:
   - christopher-beattie
   - ilse-ipsen
+- title: Lanczos-Based Exponential Filtering for Discrete Ill-Posed Problems
+  year: 2002
+  venue: Numer. Algorithms
+  url: https://doi.org/10.1023/A:1014899604567
+  authors:
+  - daniela-calvetti
+  - lothar-reichel
 - title: Least Squares Residuals and Minimal Residual Methods
   year: 2002
   venue: SIAM J. Sci. Comput.
@@ -569,6 +736,13 @@
   authors:
   - david-bindel
   - james-demmel
+- title: On the regularizing properties of the GMRES method
+  year: 2002
+  venue: Numerische Mathematik
+  url: https://doi.org/10.1007/s002110100339
+  authors:
+  - daniela-calvetti
+  - lothar-reichel
 - title: 'Piecewise continuous Toeplitz matrices and operators: Slow approach to infinity'
   year: 2002
   authors:
@@ -640,6 +814,20 @@
   authors:
   - ravindran-kannan
   - michael-mahoney
+- title: Self-Adapting Software for Numerical Linear Algebra Library Routines on Clusters
+  year: 2003
+  venue: International Conference on Computational Science
+  url: https://doi.org/10.1007/3-540-44863-2_65
+  authors:
+  - jack-dongarra
+  - piotr-luszczek
+- title: Self-adapting software for numerical linear algebra and LAPACK for clusters
+  year: 2003
+  venue: Parallel Comput.
+  url: https://doi.org/10.1016/j.parco.2003.05.014
+  authors:
+  - jack-dongarra
+  - piotr-luszczek
 - title: Slow Initial Convergence of GMRES for SUPG Discretized Convection-Diffusion Problems
   year: 2003
   authors:
@@ -660,6 +848,13 @@
   authors:
   - daniela-calvetti
   - lothar-reichel
+- title: 'The LINPACK Benchmark: past, present and future'
+  year: 2003
+  venue: Concurr. Comput. Pract. Exp.
+  url: https://doi.org/10.1002/cpe.728
+  authors:
+  - jack-dongarra
+  - piotr-luszczek
 - title: Theory of Inexact Krylov Subspace Methods and Applications to Scientific Computing
   year: 2003
   venue: SIAM Journal on Scientific Computing
@@ -702,6 +897,14 @@
   authors:
   - christopher-beattie
   - mark-embree
+- title: Design of Interactive Environment for Numerically Intensive Parallel Linear Algebra
+    Calculations
+  year: 2004
+  venue: International Conference on Computational Science
+  url: https://doi.org/10.1007/978-3-540-25944-2_35
+  authors:
+  - piotr-luszczek
+  - jack-dongarra
 - title: Fast monte-carlo algorithms for finding low-rank approximations
   year: 2004
   venue: J. ACM
@@ -710,6 +913,13 @@
   - ravindran-kannan
   - santosh-vempala
   - alan-frieze
+- title: L-Curve and Curvature Bounds for Tikhonov Regularization
+  year: 2004
+  venue: Numer. Algorithms
+  url: https://doi.org/10.1023/B:NUMA.0000021764.16526.47
+  authors:
+  - daniela-calvetti
+  - lothar-reichel
 - title: Model Reduction for RF MEMS Simulation
   year: 2004
   venue: PARA
@@ -733,12 +943,27 @@
   authors:
   - laura-grigori
   - xiaoye-sherry-li
+- title: Spectral Properties of the Hermitian and Skew-Hermitian Splitting Preconditioner
+    for Saddle Point Problems
+  year: 2004
+  venue: SIAM J. Matrix Anal. Appl.
+  url: https://doi.org/10.1137/S0895479803434926
+  authors:
+  - valeria-simoncini
+  - michele-benzi
 - title: TIKHONOV REGULARIZATION WITH NONNEGATIVITY CONSTRAINT
   year: 2004
   url: http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.88.229
   authors:
   - daniela-calvetti
   - lothar-reichel
+- title: 'The LAPACK for Clusters Project: An Example of Self Adapting Numerical Software'
+  year: 2004
+  venue: HICSS
+  url: https://doi.org/10.1109/HICSS.2004.1265664
+  authors:
+  - jack-dongarra
+  - piotr-luszczek
 - title: The Spectral Method for Mixture Models
   year: 2004
   venue: Electron. Colloquium Comput. Complex.
@@ -809,6 +1034,14 @@
   authors:
   - eric-de-sturler
   - jorg-liesen
+- title: Comparison of Nonlinear Conjugate-Gradient Methods for Computing the Electronic Properties
+    of Nanostructure Architectures
+  year: 2005
+  venue: International Conference on Computational Science (3)
+  url: https://doi.org/10.1007/11428862_44
+  authors:
+  - julien-langou
+  - jack-dongarra
 - title: Convergence of polynomial restart Krylov methods for eigenvalue computations
   year: 2005
   venue: SIAM Review
@@ -820,6 +1053,13 @@
   authors:
   - ioana-dumitriu
   - alan-edelman
+- title: Fault tolerant high performance computing by a coding approach
+  year: 2005
+  venue: PPoPP
+  url: https://doi.org/10.1145/1065944.1065973
+  authors:
+  - julien-langou
+  - jack-dongarra
 - title: GMRES Convergence Analysis for a Convection-Diffusion Model Problem
   year: 2005
   venue: SIAM J. Sci. Comput.
@@ -827,6 +1067,13 @@
   authors:
   - jorg-liesen
   - zdenek-strakos
+- title: Hash Functions for Datatype Signatures in MPI
+  year: 2005
+  venue: PVM/MPI
+  url: https://doi.org/10.1007/11557265_14
+  authors:
+  - julien-langou
+  - jack-dongarra
 - title: Local regularization and Bayesian hypermodels
   year: 2005
   venue: Proceedings of SPIE, the International Society for Optical Engineering/Proceedings
@@ -910,6 +1157,13 @@
   authors:
   - valeria-simoncini
   - daniel-szyld
+- title: Tikhonov regularization of large symmetric problems
+  year: 2005
+  venue: Numer. Linear Algebra Appl.
+  url: https://doi.org/10.1002/nla.402
+  authors:
+  - daniela-calvetti
+  - lothar-reichel
 - title: Toward accurate polynomial evaluation in rounded arithmetic
   year: 2005
   venue: CoRR
@@ -945,6 +1199,14 @@
   authors:
   - daniela-calvetti
   - erkki-somersalo
+- title: Conjugate-gradient eigenvalue solvers in computing electronic properties of nanostructure
+    architectures
+  year: 2006
+  venue: Int. J. Comput. Sci. Eng.
+  url: https://doi.org/10.1504/IJCSE.2006.012774
+  authors:
+  - julien-langou
+  - jack-dongarra
 - title: Decomposition methods for large linear discrete ill-posed problems
   year: 2006
   venue: Journal of Computational and Applied Mathematics
@@ -952,6 +1214,14 @@
   authors:
   - james-baglama
   - lothar-reichel
+- title: Distance Matrix Reconstruction from Incomplete Distance Information for Sensor Network
+    Localization
+  year: 2006
+  venue: SECON
+  url: https://doi.org/10.1109/SAHCN.2006.288510
+  authors:
+  - petros-drineas
+  - malik-magdon-ismail
 - title: Error bounds from extra-precise iterative refinement
   year: 2006
   venue: ACM Trans. Math. Softw.
@@ -959,6 +1229,13 @@
   authors:
   - james-demmel
   - xiaoye-sherry-li
+- title: Exploiting Mixed Precision Floating Point Hardware in Scientific Computations
+  year: 2006
+  venue: High Performance Computing Workshop
+  authors:
+  - jack-dongarra
+  - julien-langou
+  - piotr-luszczek
 - title: Fast Algorithms for Spherical Harmonic Expansions
   year: 2006
   venue: SIAM J. Sci. Comput.
@@ -1046,6 +1323,20 @@
   authors:
   - julianne-chung
   - james-nagy
+- title: On the eigenvalues of a class of saddle point matrices
+  year: 2006
+  venue: Numerische Mathematik
+  url: https://doi.org/10.1007/s00211-006-0679-9
+  authors:
+  - michele-benzi
+  - valeria-simoncini
+- title: Parallel Linear Algebra Software
+  year: 2006
+  venue: Parallel Processing for Scientific Computing
+  url: https://doi.org/10.1137/1.9780898718133.ch13
+  authors:
+  - julien-langou
+  - jack-dongarra
 - title: Prospectus for the Next LAPACK and ScaLAPACK Libraries
   year: 2006
   venue: PARA
@@ -1091,6 +1382,13 @@
   authors:
   - james-baglama
   - lothar-reichel
+- title: S12 - The HPC Challenge (HPCC) benchmark suite
+  year: 2006
+  venue: SC
+  url: https://doi.org/10.1145/1188455.1188677
+  authors:
+  - piotr-luszczek
+  - jack-dongarra
 - title: Sampling algorithms for l2 regression and applications
   year: 2006
   venue: SODA
@@ -1098,6 +1396,14 @@
   authors:
   - petros-drineas
   - michael-mahoney
+- title: Self-adapting numerical software (SANS) effort
+  year: 2006
+  venue: IBM J. Res. Dev.
+  url: https://doi.org/10.1147/rd.502.0223
+  authors:
+  - jack-dongarra
+  - julien-langou
+  - piotr-luszczek
 - title: 'Subspace Sampling and Relative-Error Matrix Approximation: Column-Based Methods'
   year: 2006
   venue: APPROX-RANDOM
@@ -1112,6 +1418,24 @@
   authors:
   - petros-drineas
   - michael-mahoney
+- title: The Impact of Multicore on Math Software
+  year: 2006
+  venue: PARA
+  url: https://doi.org/10.1007/978-3-540-75755-9_1
+  authors:
+  - jack-dongarra
+  - julien-langou
+  - piotr-luszczek
+- title: Tools and techniques for performance - Exploiting the performance of 32 bit floating
+    point arithmetic in obtaining 64 bit accuracy (revisiting iterative refinement for linear
+    systems)
+  year: 2006
+  venue: SC
+  url: https://doi.org/10.1145/1188455.1188573
+  authors:
+  - julien-langou
+  - piotr-luszczek
+  - jack-dongarra
 - title: 07071 Abstracts Collection -- Web Information Retrieval and Linear Algebra Algorithms
   year: 2007
   venue: Web Information Retrieval and Linear Algebra Algorithms
@@ -1224,6 +1548,14 @@
   authors:
   - daniela-calvetti
   - erkki-somersalo
+- title: Editorial introduction to the special issue on computational linear algebra and sparse
+    matrix computations
+  year: 2007
+  venue: Appl. Algebra Eng. Commun. Comput.
+  url: https://doi.org/10.1007/s00200-007-0033-1
+  authors:
+  - jack-dongarra
+  - sivan-toledo
 - title: Fast linear algebra is stable
   year: 2007
   venue: Numerische Mathematik
@@ -1247,6 +1579,14 @@
   authors:
   - petros-drineas
   - michael-mahoney
+- title: High Performance Development for High End Computing With Python Language Wrapper
+    (PLW)
+  year: 2007
+  venue: Int. J. High Perform. Comput. Appl.
+  url: https://doi.org/10.1177/1094342007078444
+  authors:
+  - piotr-luszczek
+  - jack-dongarra
 - title: 'Introduction to Bayesian Scientific Computing: Ten Lectures on Subjective Computing
     (Surveys and Tutorials in the Applied Mathematical Sciences)'
   year: 2007
@@ -1280,6 +1620,15 @@
   authors:
   - daniela-calvetti
   - erkki-somersalo
+- title: Mixed Precision Iterative Refinement Techniques for the Solution of Dense Linear
+    Systems
+  year: 2007
+  venue: Int. J. High Perform. Comput. Appl.
+  url: https://doi.org/10.1177/1094342007084026
+  authors:
+  - jack-dongarra
+  - julien-langou
+  - piotr-luszczek
 - title: More applications of the Gaussian conditioning
   year: 2007
   url: https://doi.org/10.1007/978-0-387-73394-4_8
@@ -1313,6 +1662,20 @@
   - vladimir-rokhlin
   - mark-tygert
   note: with F. Woolfe
+- title: Recovery Patterns for Iterative Methods in a Parallel Unstable Environment
+  year: 2007
+  venue: SIAM J. Sci. Comput.
+  url: https://doi.org/10.1137/040620394
+  authors:
+  - julien-langou
+  - jack-dongarra
+- title: Sampling Algorithms and Coresets for Lp Regression
+  year: 2007
+  venue: CoRR
+  url: http://arxiv.org/abs/0707.1714
+  authors:
+  - petros-drineas
+  - michael-mahoney
 - title: 'Sampling: first encounter'
   year: 2007
   url: https://doi.org/10.1007/978-0-387-73394-4_5
@@ -1371,6 +1734,13 @@
   authors:
   - julianne-chung
   - james-nagy
+- title: Algorithmic Based Fault Tolerance Applied to High Performance Computing
+  year: 2008
+  venue: CoRR
+  url: http://arxiv.org/abs/0806.3121
+  authors:
+  - jack-dongarra
+  - julien-langou
 - title: An Implementation and Evaluation of the AMLS Method for Sparse Eigenvalue Problems
   year: 2008
   venue: ACM Trans. Math. Softw.
@@ -1408,6 +1778,13 @@
   - james-demmel
   - laura-grigori
   - julien-langou
+- title: Computing AAlpha,  log(A), and Related Matrix Functions by Contour Integrals
+  year: 2008
+  venue: SIAM J. Numer. Anal.
+  url: https://doi.org/10.1137/070700607
+  authors:
+  - nicholas-higham
+  - lloyd-trefethen
 - title: Conditionally Gaussian hypermodels for source localization in brain imaging
   year: 2008
   url: https://research.aalto.fi/en/publications/conditionally-gaussian-hypermodels-for-source-localization-in-bra
@@ -1421,6 +1798,12 @@
   authors:
   - david-bindel
   - james-demmel
+- title: DARPA's HPCS Program- History, Models, Tools, Languages
+  year: 2008
+  venue: Adv. Comput.
+  authors:
+  - jack-dongarra
+  - piotr-luszczek
 - title: Global minimization of rational functions and the nearest GCDs
   year: 2008
   venue: J. Glob. Optim.
@@ -1456,6 +1839,13 @@
   authors:
   - jorg-liesen
   - zdenek-strakos
+- title: Parallel tiled QR factorization for multicore architectures
+  year: 2008
+  venue: Concurr. Comput. Pract. Exp.
+  url: https://doi.org/10.1002/cpe.1301
+  authors:
+  - julien-langou
+  - jack-dongarra
 - title: Parallel unsymmetric-pattern multifrontal sparse LU with column preordering
   year: 2008
   venue: ACM Trans. Math. Softw.
@@ -1463,6 +1853,13 @@
   authors:
   - haim-avron
   - sivan-toledo
+- title: Random Projections for the Nonnegative Least-Squares Problem
+  year: 2008
+  venue: CoRR
+  url: http://arxiv.org/abs/0812.4547
+  authors:
+  - christos-boutsidis
+  - petros-drineas
 - title: Relative-Error CUR Matrix Decompositions
   year: 2008
   venue: SIAM J. Matrix Anal. Appl.
@@ -1507,6 +1904,13 @@
   authors:
   - michael-mahoney
   - petros-drineas
+- title: The PlayStation 3 for High-Performance Scientific Computing
+  year: 2008
+  venue: Comput. Sci. Eng.
+  url: https://doi.org/10.1109/MCSE.2008.85
+  authors:
+  - piotr-luszczek
+  - jack-dongarra
 - title: The Spectral Method for General Mixture Models
   year: 2008
   venue: SIAM J. Comput.
@@ -1521,6 +1925,21 @@
   authors:
   - michael-mahoney
   - petros-drineas
+- title: Using Mixed Precision for Sparse Matrix Computations to Enhance the Performance while
+    Achieving 64-bit Accuracy
+  year: 2008
+  venue: ACM Trans. Math. Softw.
+  url: https://doi.org/10.1145/1377596.1377597
+  authors:
+  - jack-dongarra
+  - piotr-luszczek
+- title: A Near-Optimal Algorithm for L1-Difference
+  year: 2009
+  venue: CoRR
+  url: http://arxiv.org/abs/0904.2027
+  authors:
+  - jelani-nelson
+  - david-woodruff
 - title: A Randomized Algorithm for Principal Component Analysis
   year: 2009
   venue: SIAM J. Matrix Anal. Appl.
@@ -1528,6 +1947,13 @@
   authors:
   - vladimir-rokhlin
   - mark-tygert
+- title: A class of parallel tiled linear algebra algorithms for multicore architectures
+  year: 2009
+  venue: Parallel Comput.
+  url: https://doi.org/10.1016/j.parco.2008.10.002
+  authors:
+  - julien-langou
+  - jack-dongarra
 - title: A statistical methodology for computational models of hepatic metabolism and sensitivity
     analysis
   year: 2009
@@ -1536,6 +1962,21 @@
   authors:
   - erkki-somersalo
   - daniela-calvetti
+- title: Accelerating scientific computations with mixed precision algorithms
+  year: 2009
+  venue: Comput. Phys. Commun.
+  url: https://doi.org/10.1016/j.cpc.2008.11.005
+  authors:
+  - jack-dongarra
+  - julien-langou
+  - piotr-luszczek
+- title: Algorithm-based fault tolerance applied to high performance computing
+  year: 2009
+  venue: J. Parallel Distributed Comput.
+  url: https://doi.org/10.1016/j.jpdc.2008.12.002
+  authors:
+  - jack-dongarra
+  - julien-langou
 - title: An improved approximation algorithm for the column subset selection problem
   year: 2009
   venue: SODA
@@ -1564,6 +2005,13 @@
   authors:
   - james-demmel
   - olga-holtz
+- title: Computing the conditioning of the components of a linear least-squares solution
+  year: 2009
+  venue: Numer. Linear Algebra Appl.
+  url: https://doi.org/10.1002/nla.627
+  authors:
+  - jack-dongarra
+  - julien-langou
 - title: Conditionally Gaussian Hypermodels for Cerebral Source Localization
   year: 2009
   venue: SIAM Journal on Imaging Sciences
@@ -1619,6 +2067,13 @@
   authors:
   - haim-avron
   - sivan-toledo
+- title: Sampling Algorithms and Coresets for $\ellp Regression
+  year: 2009
+  venue: SIAM J. Comput.
+  url: https://doi.org/10.1137/070696507
+  authors:
+  - petros-drineas
+  - michael-mahoney
 - title: Sampling Algorithms and Coresets for ℓp Regression
   year: 2009
   venue: SIAM J. Comput.
@@ -1640,6 +2095,13 @@
   authors:
   - ming-gu
   - xiaoye-sherry-li
+- title: The Problem With the Linpack Benchmark 1.0 Matrix Generator
+  year: 2009
+  venue: Int. J. High Perform. Comput. Appl.
+  url: https://doi.org/10.1177/1094342008098683
+  authors:
+  - jack-dongarra
+  - julien-langou
 - title: Unsupervised Feature Selection for the k-means Clustering Problem
   year: 2009
   venue: NIPS
@@ -1775,6 +2237,13 @@
   authors:
   - james-demmel
   - ioana-dumitriu
+- title: Mixed-Tool Performance Analysis on Hybrid Multicore Architectures
+  year: 2010
+  venue: ICPP Workshops
+  url: https://doi.org/10.1109/ICPPW.2010.41
+  authors:
+  - piotr-luszczek
+  - jack-dongarra
 - title: Multilevel Approach For Signal Restoration Problems With Toeplitz Matrices
   year: 2010
   venue: SIAM Journal on Scientific Computing
@@ -1782,6 +2251,13 @@
   authors:
   - malena-espanol
   - misha-kilmer
+- title: Numerical Algorithms for Polyenergetic Digital Breast Tomosynthesis Reconstruction
+  year: 2010
+  venue: SIAM J. Imaging Sci.
+  url: https://doi.org/10.1137/090749633
+  authors:
+  - julianne-chung
+  - james-nagy
 - title: On the Exact Space Complexity of Sketching and Streaming Small Norms
   year: 2010
   venue: SODA
@@ -1803,6 +2279,20 @@
   authors:
   - yuji-nakatsukasa
   - zhaojun-bai
+- title: QR factorization of tall and skinny matrices in a grid computing environment
+  year: 2010
+  venue: IPDPS
+  url: https://doi.org/10.1109/IPDPS.2010.5470475
+  authors:
+  - jack-dongarra
+  - julien-langou
+- title: Random Projections for $k$-means Clustering
+  year: 2010
+  venue: NIPS
+  url: https://proceedings.neurips.cc/paper/2010/hash/73278a4a86960eeb576a8fd4c9ec6997-Abstract.html
+  authors:
+  - christos-boutsidis
+  - petros-drineas
 - title: Randomized methods for computing the Singular Value Decomposition (SVD) of very large
     matrices
   year: 2010
@@ -1811,6 +2301,29 @@
   - nathan-halko
   - vladimir-rokhlin
   note: with M. Tygert, P.-G. Martinsson
+- title: 'Rectangular full packed format for cholesky''s algorithm: factorization, solution,
+    and inversion'
+  year: 2010
+  venue: ACM Trans. Math. Softw.
+  url: https://doi.org/10.1145/1731022.1731028
+  authors:
+  - jack-dongarra
+  - julien-langou
+- title: Solution of linear systems from an optimal control problem arising in wind simulation
+  year: 2010
+  venue: Numer. Linear Algebra Appl.
+  url: https://doi.org/10.1002/nla.679
+  authors:
+  - michele-benzi
+  - valeria-simoncini
+- title: Towards an Efficient Tile Matrix Inversion of Symmetric Positive Definite Matrices
+    on Multicore Architectures
+  year: 2010
+  venue: VECPAR
+  url: https://doi.org/10.1007/978-3-642-19328-6_14
+  authors:
+  - jack-dongarra
+  - julien-langou
 - title: A Fast Randomized Algorithm for Orthogonal Projection
   year: 2011
   venue: SIAM J. Sci. Comput.
@@ -1860,12 +2373,33 @@
   authors:
   - daniela-calvetti
   - erkki-somersalo
+- title: Benchmarks
+  year: 2011
+  venue: Encyclopedia of Parallel Computing
+  url: https://doi.org/10.1007/978-0-387-09766-4_154
+  authors:
+  - jack-dongarra
+  - piotr-luszczek
+- title: 'Brief announcement: communication bounds for heterogeneous architectures'
+  year: 2011
+  venue: SPAA
+  url: https://doi.org/10.1145/1989493.1989531
+  authors:
+  - grey-ballard
+  - james-demmel
 - title: 'CALU: A Communication Optimal LU Factorization Algorithm'
   year: 2011
   venue: SIAM J. Matrix Anal. Appl.
   url: https://doi.org/10.1137/100788926
   authors:
   - laura-grigori
+  - james-demmel
+- title: Communication-Avoiding QR Decomposition for GPUs
+  year: 2011
+  venue: IPDPS
+  url: https://doi.org/10.1109/IPDPS.2011.15
+  authors:
+  - grey-ballard
   - james-demmel
 - title: Communication-optimal parallel and sequential eigenvalue and singular value algorithms
   year: 2011
@@ -1903,6 +2437,28 @@
   authors:
   - daniela-calvetti
   - erkki-somersalo
+- title: Enhancing Parallelism of Tile Bidiagonal Transformation on Multicore Architectures
+    Using Tree Reduction
+  year: 2011
+  venue: PPAM (1)
+  url: https://doi.org/10.1007/978-3-642-31464-3_67
+  authors:
+  - piotr-luszczek
+  - jack-dongarra
+- title: Evaluation of the HPC Challenge Benchmarks in Virtualized Environments
+  year: 2011
+  venue: Euro-Par Workshops (2)
+  url: https://doi.org/10.1007/978-3-642-29740-3_49
+  authors:
+  - piotr-luszczek
+  - jack-dongarra
+- title: Exploiting Fine-Grain Parallelism in Recursive LU Factorization
+  year: 2011
+  venue: PARCO
+  url: https://doi.org/10.3233/978-1-61499-041-3-429
+  authors:
+  - jack-dongarra
+  - piotr-luszczek
 - title: Fast moment estimation in data streams in optimal space
   year: 2011
   venue: STOC
@@ -1928,6 +2484,22 @@
   - joel-tropp
   - nathan-halko
   note: with N. Halko (not in roster); landmark RandNLA survey
+- title: Flexible Development of Dense Linear Algebra Algorithms on Massively Parallel Architectures
+    with DPLASMA
+  year: 2011
+  venue: IPDPS Workshops
+  url: https://doi.org/10.1109/IPDPS.2011.299
+  authors:
+  - julien-langou
+  - piotr-luszczek
+  - jack-dongarra
+- title: Graph Sparsification by Effective Resistances
+  year: 2011
+  venue: SIAM J. Comput.
+  url: https://doi.org/10.1137/080734029
+  authors:
+  - daniel-spielman
+  - nikhil-srivastava
 - title: 'Graph expansion and communication costs of fast matrix multiplication: regular submission'
   year: 2011
   venue: SPAA
@@ -1935,6 +2507,13 @@
   authors:
   - james-demmel
   - olga-holtz
+- title: HPC Challenge Benchmark
+  year: 2011
+  venue: Encyclopedia of Parallel Computing
+  url: https://doi.org/10.1007/978-0-387-09766-4_156
+  authors:
+  - jack-dongarra
+  - piotr-luszczek
 - title: Hierarchical beamformer and cross-talk reduction in electroneurography
   year: 2011
   venue: Journal of Neural Engineering
@@ -1942,6 +2521,20 @@
   authors:
   - daniela-calvetti
   - erkki-somersalo
+- title: High Performance Dense Linear System Solver with Soft Error Resilience
+  year: 2011
+  venue: CLUSTER
+  url: https://doi.org/10.1109/CLUSTER.2011.38
+  authors:
+  - piotr-luszczek
+  - jack-dongarra
+- title: High performance matrix inversion based on LU factorization for multicore architectures
+  year: 2011
+  venue: MTAGS@SC
+  url: https://doi.org/10.1145/2132876.2132885
+  authors:
+  - jack-dongarra
+  - piotr-luszczek
 - title: Improved Scaling for Quantum Monte Carlo on Insulators
   year: 2011
   venue: SIAM J. Sci. Comput.
@@ -1957,6 +2550,48 @@
   authors:
   - erkki-somersalo
   - daniela-calvetti
+- title: LAPACK
+  year: 2011
+  venue: Encyclopedia of Parallel Computing
+  url: https://doi.org/10.1007/978-0-387-09766-4_152
+  authors:
+  - jack-dongarra
+  - piotr-luszczek
+- title: LINPACK Benchmark
+  year: 2011
+  venue: Encyclopedia of Parallel Computing
+  url: https://doi.org/10.1007/978-0-387-09766-4_155
+  authors:
+  - jack-dongarra
+  - piotr-luszczek
+- title: LU factorization for accelerator-based systems
+  year: 2011
+  venue: AICCSA
+  url: https://doi.org/10.1109/AICCSA.2011.6126599
+  authors:
+  - jack-dongarra
+  - julien-langou
+- title: Linear Algebra Software
+  year: 2011
+  venue: Encyclopedia of Parallel Computing
+  url: https://doi.org/10.1007/978-0-387-09766-4_150
+  authors:
+  - jack-dongarra
+  - piotr-luszczek
+- title: Linear algebra - software issues
+  year: 2011
+  venue: Scholarpedia
+  url: https://doi.org/10.4249/scholarpedia.9699
+  authors:
+  - piotr-luszczek
+  - jack-dongarra
+- title: Livermore Loops
+  year: 2011
+  venue: Encyclopedia of Parallel Computing
+  url: https://doi.org/10.1007/978-0-387-09766-4_161
+  authors:
+  - jack-dongarra
+  - piotr-luszczek
 - title: Minimizing Communication in Numerical Linear Algebra
   year: 2011
   venue: SIAM J. Matrix Anal. Appl.
@@ -1964,6 +2599,20 @@
   authors:
   - james-demmel
   - olga-holtz
+- title: PLASMA
+  year: 2011
+  venue: Encyclopedia of Parallel Computing
+  url: https://doi.org/10.1007/978-0-387-09766-4_153
+  authors:
+  - jack-dongarra
+  - piotr-luszczek
+- title: 'QCG-OMPI: MPI applications on grids'
+  year: 2011
+  venue: Future Gener. Comput. Syst.
+  url: https://doi.org/10.1016/j.future.2010.11.015
+  authors:
+  - julien-langou
+  - jack-dongarra
 - title: Randomized algorithms for estimating the trace of an implicit symmetric positive
     semi-definite matrix
   year: 2011
@@ -1972,6 +2621,44 @@
   authors:
   - haim-avron
   - sivan-toledo
+- title: Reducing the Time to Tune Parallel Dense Linear Algebra Routines with Partial Execution
+    and Performance Modeling
+  year: 2011
+  venue: PPAM (1)
+  url: https://doi.org/10.1007/978-3-642-31464-3_74
+  authors:
+  - piotr-luszczek
+  - jack-dongarra
+- title: ScaLAPACK
+  year: 2011
+  venue: Encyclopedia of Parallel Computing
+  url: https://doi.org/10.1007/978-0-387-09766-4_151
+  authors:
+  - jack-dongarra
+  - piotr-luszczek
+- title: Solving the Generalized Symmetric Eigenvalue Problem using Tile Algorithms on Multicore
+    Architectures
+  year: 2011
+  venue: PARCO
+  url: https://doi.org/10.3233/978-1-61499-041-3-397
+  authors:
+  - piotr-luszczek
+  - jack-dongarra
+- title: Sparse Features for PCA-Like Linear Regression
+  year: 2011
+  venue: NIPS
+  url: https://proceedings.neurips.cc/paper/2011/hash/b3ba8f1bee1238a2f37603d90b58898d-Abstract.html
+  authors:
+  - christos-boutsidis
+  - petros-drineas
+  - malik-magdon-ismail
+- title: 'Special Section: 2010 Copper Mountain Conference'
+  year: 2011
+  venue: SIAM J. Sci. Comput.
+  url: https://doi.org/10.1137/SJOCE3000033000005002685000001
+  authors:
+  - michele-benzi
+  - misha-kilmer
 - title: Stochastic Dimensionality Reduction for K-means Clustering
   year: 2011
   venue: CoRR
@@ -1987,18 +2674,49 @@
   - xiaoye-sherry-li
   - james-demmel
   - laura-grigori
+- title: TOP500
+  year: 2011
+  venue: Encyclopedia of Parallel Computing
+  url: https://doi.org/10.1007/978-0-387-09766-4_157
+  authors:
+  - jack-dongarra
+  - piotr-luszczek
 - title: 'The Schur Complement Method for Nearly-Hermitian Linear Systems: An Effective Solver
     and Preconditioner'
   year: 2011
   authors:
   - mark-embree
   - daniel-szyld
+- title: Two-Stage Tridiagonal Reduction for Dense Symmetric Matrices Using Tile Algorithms
+    on Multicore Architectures
+  year: 2011
+  venue: IPDPS
+  url: https://doi.org/10.1109/IPDPS.2011.91
+  authors:
+  - piotr-luszczek
+  - jack-dongarra
 - title: 'irlba: Fast truncated singular value decomposition and principal components analysis
     for large dense and sparse matrices'
   year: 2011
   authors:
   - james-baglama
   - lothar-reichel
+- title: A Class of Communication-avoiding Algorithms for Solving General Dense Linear Systems
+    on CPU/GPU Parallel Machines
+  year: 2012
+  venue: ICCS
+  url: https://doi.org/10.1016/j.procs.2012.04.003
+  authors:
+  - jack-dongarra
+  - laura-grigori
+- title: A Comprehensive Study of Task Coalescing for Selecting Parallelism Granularity in
+    a Two-Stage Bidiagonal Reduction
+  year: 2012
+  venue: IPDPS
+  url: https://doi.org/10.1109/IPDPS.2012.13
+  authors:
+  - piotr-luszczek
+  - jack-dongarra
 - title: A hybrid stochastic–deterministic computational model accurately describes spatial
     dynamics and virus diffusion in HIV-1 growth competition assay
   year: 2012
@@ -2020,6 +2738,13 @@
   authors:
   - erkki-somersalo
   - daniela-calvetti
+- title: 'Abstract: Matrices Over Runtime Systems at Exascale'
+  year: 2012
+  venue: SC Companion
+  url: https://doi.org/10.1109/SC.Companion.2012.167
+  authors:
+  - jack-dongarra
+  - julien-langou
 - title: An implicitly restarted block Lanczos bidiagonalization method using Leja shifts
   year: 2012
   venue: BIT Numerical Mathematics
@@ -2027,6 +2752,13 @@
   authors:
   - james-baglama
   - lothar-reichel
+- title: Anatomy of a globally recursive embedded LINPACK benchmark
+  year: 2012
+  venue: HPEC
+  url: https://doi.org/10.1109/HPEC.2012.6408679
+  authors:
+  - jack-dongarra
+  - piotr-luszczek
 - title: Back Matter
   year: 2012
   url: https://doi.org/10.1137/1.9781611972481.bm
@@ -2040,6 +2772,13 @@
   authors:
   - yuji-nakatsukasa
   - nicholas-higham
+- title: 'BlackjackBench: portable hardware characterization'
+  year: 2012
+  venue: SIGMETRICS Perform. Evaluation Rev.
+  url: https://doi.org/10.1145/2381056.2381074
+  authors:
+  - piotr-luszczek
+  - jack-dongarra
 - title: 'Brief announcement: strong scaling of matrix multiplication algorithms and memory-independent
     communication lower bounds'
   year: 2012
@@ -2111,6 +2850,20 @@
   authors:
   - daniela-calvetti
   - erkki-somersalo
+- title: Communication avoiding successive band reduction
+  year: 2012
+  venue: PPoPP
+  url: https://doi.org/10.1145/2145816.2145822
+  authors:
+  - grey-ballard
+  - james-demmel
+- title: 'Communication-avoiding parallel strassen: implementation and performance'
+  year: 2012
+  venue: SC
+  url: https://doi.org/10.1109/SC.2012.33
+  authors:
+  - grey-ballard
+  - james-demmel
 - title: Communication-optimal Parallel and Sequential QR and LU Factorizations
   year: 2012
   venue: SIAM J. Sci. Comput.
@@ -2133,6 +2886,21 @@
   authors:
   - daniela-calvetti
   - erkki-somersalo
+- title: Dense Linear Algebra on Accelerated Multicore Hardware
+  year: 2012
+  venue: High-Performance Scientific Computing
+  url: https://doi.org/10.1007/978-1-4471-2437-5_5
+  authors:
+  - jack-dongarra
+  - piotr-luszczek
+- title: Energy Footprint of Advanced Dense Numerical Linear Algebra Using Tile Algorithms
+    on Multicore Architectures
+  year: 2012
+  venue: CGC
+  url: https://doi.org/10.1109/CGC.2012.113
+  authors:
+  - jack-dongarra
+  - piotr-luszczek
 - title: Fast approximation of matrix coherence and statistical leverage
   year: 2012
   venue: J. Mach. Learn. Res.
@@ -2141,12 +2909,27 @@
   - petros-drineas
   - michael-mahoney
   - david-woodruff
+- title: 'From CUDA to OpenCL: Towards a performance-portable solution for multi-platform
+    GPU programming'
+  year: 2012
+  venue: Parallel Comput.
+  url: https://doi.org/10.1016/j.parco.2011.10.002
+  authors:
+  - piotr-luszczek
+  - jack-dongarra
 - title: Front Matter
   year: 2012
   url: https://doi.org/10.1137/1.9781611972481.fm
   authors:
   - daniela-calvetti
   - erkki-somersalo
+- title: GPU-Accelerated Asynchronous Error Correction for Mixed Precision Iterative Refinement
+  year: 2012
+  venue: Euro-Par
+  url: https://doi.org/10.1007/978-3-642-32820-6_89
+  authors:
+  - piotr-luszczek
+  - jack-dongarra
 - title: Graph Expansion Analysis for Communication Costs of Fast Rectangular Matrix Multiplication
   year: 2012
   venue: MedAlg
@@ -2161,6 +2944,20 @@
   authors:
   - james-demmel
   - olga-holtz
+- title: Hierarchical QR Factorization Algorithms for Multi-core Cluster Systems
+  year: 2012
+  venue: IPDPS
+  url: https://doi.org/10.1109/IPDPS.2012.62
+  authors:
+  - jack-dongarra
+  - julien-langou
+- title: High Performance Dense Linear System Solver with Resilience to Multiple Soft Errors
+  year: 2012
+  venue: ICCS
+  url: https://doi.org/10.1016/j.procs.2012.04.023
+  authors:
+  - piotr-luszczek
+  - jack-dongarra
 - title: Left and right preconditioning for electrical impedance tomography with structural
     information
   year: 2012
@@ -2169,6 +2966,13 @@
   authors:
   - daniela-calvetti
   - erkki-somersalo
+- title: Multi-GPU Implementation of LU Factorization
+  year: 2012
+  venue: ICCS
+  url: https://doi.org/10.1016/j.procs.2012.04.012
+  authors:
+  - piotr-luszczek
+  - jack-dongarra
 - title: 'Ménage à Trois: The Role of Neurotransmitters in the Energy Metabolism of Astrocytes,
     Glutamatergic, and GABAergic Neurons'
   year: 2012
@@ -2192,6 +2996,28 @@
   authors:
   - julianne-chung
   - matthias-chung
+- title: 'Poster: Matrices over Runtime Systems at Exascale'
+  year: 2012
+  venue: SC Companion
+  url: https://doi.org/10.1109/SC.Companion.2012.168
+  authors:
+  - jack-dongarra
+  - julien-langou
+- title: Profiling high performance dense linear algebra algorithms on multicore architectures
+    for power and energy efficiency
+  year: 2012
+  venue: Comput. Sci. Res. Dev.
+  url: https://doi.org/10.1007/s00450-011-0191-z
+  authors:
+  - piotr-luszczek
+  - jack-dongarra
+- title: Programming the LU Factorization for a Multicore System with Accelerators
+  year: 2012
+  venue: VECPAR
+  url: https://doi.org/10.1007/978-3-642-38718-0_6
+  authors:
+  - piotr-luszczek
+  - jack-dongarra
 - title: Quantitative imaging with electrical impedance spectroscopy
   year: 2012
   venue: Physics in Medicine and Biology
@@ -2206,11 +3032,34 @@
   authors:
   - kapil-ahuja
   - eric-de-sturler
+- title: Rich Coresets For Constrained Linear Regression
+  year: 2012
+  venue: CoRR
+  url: http://arxiv.org/abs/1202.3505
+  authors:
+  - christos-boutsidis
+  - petros-drineas
+  - malik-magdon-ismail
+- title: Scalable Dense Linear Algebra on Heterogeneous Hardware
+  year: 2012
+  venue: High Performance Computing Workshop (2)
+  url: https://doi.org/10.3233/978-1-61499-324-7-65
+  authors:
+  - piotr-luszczek
+  - jack-dongarra
 - title: Short-term recurrence Krylov subspace methods for nearly hermitian matrices
   year: 2012
   authors:
   - mark-embree
   - daniel-szyld
+- title: 'Spectral Clustering: An empirical study of Approximation Algorithms and its Application
+    to the Attrition Problem'
+  year: 2012
+  venue: CoRR
+  url: http://arxiv.org/abs/1211.3444
+  authors:
+  - christos-boutsidis
+  - deanna-needell
 - title: Strong Scaling of Matrix Multiplication Algorithms and Memory-Independent Communication
     Lower Bounds
   year: 2012
@@ -2257,6 +3106,20 @@
   authors:
   - ravindran-kannan
   - nikhil-srivastava
+- title: A new approach to computing maximum flows using electrical flows
+  year: 2013
+  venue: STOC
+  url: https://doi.org/10.1145/2488608.2488704
+  authors:
+  - yin-tat-lee
+  - nikhil-srivastava
+- title: An Extension of Chebfun to Two Dimensions
+  year: 2013
+  venue: SIAM J. Sci. Comput.
+  url: https://doi.org/10.1137/130908002
+  authors:
+  - alex-townsend
+  - lloyd-trefethen
 - title: An augmented LSQR method
   year: 2013
   venue: Numer. Algorithms
@@ -2264,6 +3127,13 @@
   authors:
   - james-baglama
   - lothar-reichel
+- title: Avoiding Communication in Nonsymmetric Lanczos-Based Krylov Subspace Methods
+  year: 2013
+  venue: SIAM J. Sci. Comput.
+  url: https://doi.org/10.1137/120881191
+  authors:
+  - erin-carson
+  - james-demmel
 - title: Bayesian Preconditioned CGLS for Source Separation in MEG Time Series
   year: 2013
   venue: SIAM Journal on Scientific Computing
@@ -2271,6 +3141,13 @@
   authors:
   - daniela-calvetti
   - erkki-somersalo
+- title: CPU-GPU hybrid bidiagonal reduction with soft error resilience
+  year: 2013
+  venue: ScalA@SC
+  url: https://doi.org/10.1145/2530268.2530270
+  authors:
+  - piotr-luszczek
+  - jack-dongarra
 - title: Communication efficient gaussian elimination with partial pivoting using a shape
     morphing data layout
   year: 2013
@@ -2301,6 +3178,65 @@
   authors:
   - julianne-chung
   - matthias-chung
+- title: Deterministic Feature Selection for $k$-Means Clustering
+  year: 2013
+  venue: IEEE Trans. Inf. Theory
+  url: https://doi.org/10.1109/TIT.2013.2255021
+  authors:
+  - christos-boutsidis
+  - malik-magdon-ismail
+- title: Direct QR factorizations for tall-and-skinny matrices in MapReduce architectures
+  year: 2013
+  venue: IEEE BigData
+  url: https://doi.org/10.1109/BigData.2013.6691583
+  authors:
+  - david-gleich
+  - james-demmel
+- title: Efficient Accelerated Coordinate Descent Methods and Faster Algorithms for Solving
+    Linear Systems
+  year: 2013
+  venue: FOCS
+  url: https://doi.org/10.1109/FOCS.2013.24
+  authors:
+  - yin-tat-lee
+  - aaron-sidford
+- title: Exploiting Data Sparsity in Parallel Matrix Powers Computations
+  year: 2013
+  venue: PPAM (1)
+  url: https://doi.org/10.1007/978-3-642-55224-3_2
+  authors:
+  - erin-carson
+  - james-demmel
+- title: Faster Subset Selection for Matrices and Applications
+  year: 2013
+  venue: SIAM J. Matrix Anal. Appl.
+  url: https://doi.org/10.1137/120867287
+  authors:
+  - haim-avron
+  - christos-boutsidis
+- title: 'Following the Path of Least Resistance : An Õ(m sqrt(n)) Algorithm for the Minimum
+    Cost Flow Problem'
+  year: 2013
+  venue: CoRR
+  url: http://arxiv.org/abs/1312.6713
+  authors:
+  - yin-tat-lee
+  - aaron-sidford
+- title: Hierarchical QR factorization algorithms for multi-core clusters
+  year: 2013
+  venue: Parallel Comput.
+  url: https://doi.org/10.1016/j.parco.2013.01.003
+  authors:
+  - jack-dongarra
+  - julien-langou
+- title: High-performance bidiagonal reduction using tile algorithms on homogeneous multicore
+    architectures
+  year: 2013
+  venue: ACM Trans. Math. Softw.
+  url: https://doi.org/10.1145/2450153.2450154
+  authors:
+  - piotr-luszczek
+  - jack-dongarra
 - title: Implementing a Blocked Aasen's Algorithm with a Dynamic Scheduler on Multicore Architectures
   year: 2013
   venue: IPDPS
@@ -2308,6 +3244,21 @@
   authors:
   - james-demmel
   - sivan-toledo
+- title: Implementing a Systolic Algorithm for QR Factorization on Multicore Clusters with
+    PaRSEC
+  year: 2013
+  venue: Euro-Par Workshops
+  url: https://doi.org/10.1007/978-3-642-54420-0_64
+  authors:
+  - piotr-luszczek
+  - jack-dongarra
+- title: 'Interlacing Families I: Bipartite Ramanujan Graphs of All Degrees'
+  year: 2013
+  venue: FOCS
+  url: https://doi.org/10.1109/FOCS.2013.63
+  authors:
+  - daniel-spielman
+  - nikhil-srivastava
 - title: Interplay between discretization and algebraic computation in adaptive numerical
     solution of elliptic PDE problems
   year: 2013
@@ -2329,6 +3280,20 @@
   - james-demmel
   - laura-grigori
   - ming-gu
+- title: LU Factorization with Partial Pivoting for a Multicore System with Accelerators
+  year: 2013
+  venue: IEEE Trans. Parallel Distributed Syst.
+  url: https://doi.org/10.1109/TPDS.2012.242
+  authors:
+  - piotr-luszczek
+  - jack-dongarra
+- title: Level-3 Cholesky Factorization Routines Improve Performance of Many Cholesky Algorithms
+  year: 2013
+  venue: ACM Trans. Math. Softw.
+  url: https://doi.org/10.1145/2427023.2427026
+  authors:
+  - jack-dongarra
+  - julien-langou
 - title: Linear multistep methods, particle filtering and sequential Monte Carlo
   year: 2013
   venue: Inverse Problems
@@ -2344,6 +3309,14 @@
   authors:
   - kenneth-clarkson
   - david-woodruff
+- title: 'Matching the Universal Barrier Without Paying the Costs : Solving Linear Programs
+    with Õ(sqrt(rank)) Linear System Solves'
+  year: 2013
+  venue: CoRR
+  url: http://arxiv.org/abs/1312.6677
+  authors:
+  - yin-tat-lee
+  - aaron-sidford
 - title: Near-Optimal Compressed Sensing Guarantees for Total Variation Minimization
   year: 2013
   venue: IEEE Trans. Image Process.
@@ -2351,6 +3324,14 @@
   authors:
   - deanna-needell
   - rachel-ward
+- title: Near-Optimal Coresets for Least-Squares Regression
+  year: 2013
+  venue: IEEE Trans. Inf. Theory
+  url: https://doi.org/10.1109/TIT.2013.2272457
+  authors:
+  - christos-boutsidis
+  - petros-drineas
+  - malik-magdon-ismail
 - title: Near-optimal compressed sensing guarantees for anisotropic and isotropic total variation
     minimization
   year: 2013
@@ -2372,6 +3353,13 @@
   authors:
   - lior-horesh
   - misha-kilmer
+- title: Parallel reduction to hessenberg form with algorithm-based fault tolerance
+  year: 2013
+  venue: SC
+  url: https://doi.org/10.1145/2503210.2503249
+  authors:
+  - piotr-luszczek
+  - jack-dongarra
 - title: 'Paved with good intentions: Analysis of a randomized block Kaczmarz method'
   year: 2013
   venue: Linear Algebra and its Applications
@@ -2379,6 +3367,14 @@
   authors:
   - deanna-needell
   - joel-tropp
+- title: Portable HPC Programming on Intel Many-Integrated-Core Hardware with MAGMA Port to
+    Xeon Phi
+  year: 2013
+  venue: PPAM (1)
+  url: https://doi.org/10.1007/978-3-642-55224-3_53
+  authors:
+  - jack-dongarra
+  - piotr-luszczek
 - title: Quantitative in silico Analysis of Neurotransmitter Pathways Under Steady State Conditions
   year: 2013
   venue: Frontiers in Endocrinology
@@ -2386,6 +3382,14 @@
   authors:
   - daniela-calvetti
   - erkki-somersalo
+- title: Random Projections for Support Vector Machines
+  year: 2013
+  venue: AISTATS
+  url: http://proceedings.mlr.press/v31/paul13a.html
+  authors:
+  - christos-boutsidis
+  - malik-magdon-ismail
+  - petros-drineas
 - title: Reliable Iterative Condition-Number Estimation
   year: 2013
   venue: CoRR
@@ -2400,6 +3404,13 @@
   authors:
   - haim-avron
   - david-woodruff
+- title: Soft error resilient QR factorization for hybrid system with GPGPU
+  year: 2013
+  venue: J. Comput. Sci.
+  url: https://doi.org/10.1016/j.jocs.2013.01.004
+  authors:
+  - piotr-luszczek
+  - jack-dongarra
 - title: Solving Hermitian positive definite systems using indefinite incomplete factorizations
   year: 2013
   venue: J. Comput. Appl. Math.
@@ -2407,6 +3418,13 @@
   authors:
   - haim-avron
   - sivan-toledo
+- title: 'Spectral sparsification of graphs: theory and algorithms'
+  year: 2013
+  venue: Commun. ACM
+  url: https://doi.org/10.1145/2492007.2492029
+  authors:
+  - daniel-spielman
+  - nikhil-srivastava
 - title: Stable Image Reconstruction Using Total Variation Minimization
   year: 2013
   venue: SIAM Journal on Imaging Sciences
@@ -2436,6 +3454,13 @@
   authors:
   - julien-langou
   - laura-grigori
+- title: Virtual Systolic Array for QR Decomposition
+  year: 2013
+  venue: IPDPS
+  url: https://doi.org/10.1109/IPDPS.2013.119
+  authors:
+  - piotr-luszczek
+  - jack-dongarra
 - title: A Bayesian approach to linear inverse problems in seismic tomography
   year: 2014
   venue: AGU Fall Meeting Abstracts
@@ -2458,6 +3483,43 @@
   authors:
   - malena-espanol
   - misha-kilmer
+- title: A note on sparse least-squares regression
+  year: 2014
+  venue: Inf. Process. Lett.
+  url: https://doi.org/10.1016/j.ipl.2013.11.011
+  authors:
+  - christos-boutsidis
+  - malik-magdon-ismail
+- title: Accelerating Numerical Dense Linear Algebra Calculations with GPUs
+  year: 2014
+  venue: Numerical Computations with GPUs
+  url: https://doi.org/10.1007/978-3-319-06548-9_1
+  authors:
+  - jack-dongarra
+  - piotr-luszczek
+- title: Access-averse framework for computing low-rank matrix approximations
+  year: 2014
+  venue: IEEE BigData
+  url: https://doi.org/10.1109/BigData.2014.7004374
+  authors:
+  - theo-mary
+  - jack-dongarra
+- title: Achieving numerical accuracy and high performance using recursive tile LU factorization
+    with partial pivoting
+  year: 2014
+  venue: Concurr. Comput. Pract. Exp.
+  url: https://doi.org/10.1002/cpe.3110
+  authors:
+  - jack-dongarra
+  - piotr-luszczek
+- title: An Almost-Linear-Time Algorithm for Approximate Max Flow in Undirected Graphs, and
+    its Multicommodity Generalizations
+  year: 2014
+  venue: SODA
+  url: https://doi.org/10.1137/1.9781611973402.16
+  authors:
+  - yin-tat-lee
+  - aaron-sidford
 - title: An efficient approach for computing optimal low-rank regularized inverse matrices
   year: 2014
   venue: Inverse Problems
@@ -2465,6 +3527,13 @@
   authors:
   - julianne-chung
   - matthias-chung
+- title: An efficient parallel solver for SDD linear systems
+  year: 2014
+  venue: STOC
+  url: https://doi.org/10.1145/2591796.2591832
+  authors:
+  - richard-peng
+  - daniel-spielman
 - title: 'Anti-differentiating approximation algorithms: A case study with min-cuts, spectral,
     and flow'
   year: 2014
@@ -2480,6 +3549,13 @@
   - andrea-arnold
   - daniela-calvetti
   - erkki-somersalo
+- title: 'BlackjackBench: Portable Hardware Characterization with Automated Results'' Analysis'
+  year: 2014
+  venue: Comput. J.
+  url: https://doi.org/10.1093/comjnl/bxt057
+  authors:
+  - piotr-luszczek
+  - jack-dongarra
 - title: Communication costs of Strassen's matrix multiplication
   year: 2014
   venue: Commun. ACM
@@ -2501,6 +3577,28 @@
   authors:
   - james-demmel
   - sivan-toledo
+- title: Design and Implementation of a Large Scale Tree-Based QR Decomposition Using a 3D
+    Virtual Systolic Array and a Lightweight Runtime
+  year: 2014
+  venue: Parallel Process. Lett.
+  url: https://doi.org/10.1142/S0129626414420043
+  authors:
+  - piotr-luszczek
+  - jack-dongarra
+- title: Designing LU-QR Hybrid Solvers for Performance and Stability
+  year: 2014
+  venue: IPDPS
+  url: https://doi.org/10.1109/IPDPS.2014.108
+  authors:
+  - julien-langou
+  - jack-dongarra
+- title: Deterministic Feature Selection for Linear SVM with Provable Guarantees
+  year: 2014
+  venue: CoRR
+  url: http://arxiv.org/abs/1406.0167
+  authors:
+  - malik-magdon-ismail
+  - petros-drineas
 - title: Distribution of the discretization and algebraic error in numerical solution of partial
     differential equations
   year: 2014
@@ -2537,12 +3635,33 @@
   authors:
   - santosh-vempala
   - alan-frieze
+- title: Faster SVD-Truncated Least-Squares Regression
+  year: 2014
+  venue: CoRR
+  url: http://arxiv.org/abs/1401.0417
+  authors:
+  - christos-boutsidis
+  - malik-magdon-ismail
+- title: Faster SVD-truncated regularized least-squares
+  year: 2014
+  venue: ISIT
+  url: https://doi.org/10.1109/ISIT.2014.6875047
+  authors:
+  - christos-boutsidis
+  - malik-magdon-ismail
 - title: Generalized Arnoldi-Tikhonov method for sparse reconstruction
   year: 2014
   venue: SIAM J. Sci. Computing
   authors:
   - silvia-gazzola
   - james-nagy
+- title: Heterogenous Acceleration for Linear Algebra in Multi-coprocessor Environments
+  year: 2014
+  venue: VECPAR
+  url: https://doi.org/10.1007/978-3-319-17353-5_3
+  authors:
+  - piotr-luszczek
+  - jack-dongarra
 - title: Improving image clustering using sparse text and the wisdom of the crowds
   year: 2014
   venue: 2014 48th Asilomar Conference on Signals, Systems and Computers
@@ -2563,6 +3682,27 @@
   authors:
   - michael-mahoney
   - michael-saunders
+- title: 'LU Factorization of Small Matrices: Accelerating Batched DGETRF on the GPU'
+  year: 2014
+  venue: HPCC/CSS/ICESS
+  url: https://doi.org/10.1109/HPCC.2014.30
+  authors:
+  - piotr-luszczek
+  - jack-dongarra
+- title: Looking back at dense linear algebra software
+  year: 2014
+  venue: J. Parallel Distributed Comput.
+  url: https://doi.org/10.1016/j.jpdc.2013.10.005
+  authors:
+  - piotr-luszczek
+  - jack-dongarra
+- title: Model-Driven One-Sided Factorizations on Multicore Accelerated Systems
+  year: 2014
+  venue: Supercomput. Front. Innov.
+  url: https://doi.org/10.14529/jsfi140105
+  authors:
+  - jack-dongarra
+  - piotr-luszczek
 - title: Modeling HIV-1 Dynamics and Fitness in Cell Culture Across Scales
   year: 2014
   venue: Bulletin of Mathematical Biology
@@ -2577,6 +3717,13 @@
   authors:
   - petros-drineas
   - christos-boutsidis
+- title: New Algorithm for Computing Eigenvectors of the Symmetric Eigenvalue Problem
+  year: 2014
+  venue: IPDPS Workshops
+  url: https://doi.org/10.1109/IPDPSW.2014.130
+  authors:
+  - piotr-luszczek
+  - jack-dongarra
 - title: Optimal Regularization Parameters for General-Form Tikhonov Regularization
   year: 2014
   venue: arXiv
@@ -2591,6 +3738,20 @@
   authors:
   - julianne-chung
   - matthias-chung
+- title: Optimizing Krylov Subspace Solvers on Graphics Processing Units
+  year: 2014
+  venue: IPDPS Workshops
+  url: https://doi.org/10.1109/IPDPSW.2014.107
+  authors:
+  - piotr-luszczek
+  - jack-dongarra
+- title: Parallel Simulation of Superscalar Scheduling
+  year: 2014
+  venue: ICPP
+  url: https://doi.org/10.1109/ICPP.2014.21
+  authors:
+  - piotr-luszczek
+  - jack-dongarra
 - title: Parameter estimation for stiff deterministic dynamical systems via ensemble Kalman
     filter
   year: 2014
@@ -2600,6 +3761,22 @@
   - andrea-arnold
   - daniela-calvetti
   - erkki-somersalo
+- title: 'Path Finding Methods for Linear Programming: Solving Linear Programs in Õ(vrank)
+    Iterations and Faster Algorithms for Maximum Flow'
+  year: 2014
+  venue: FOCS
+  url: https://doi.org/10.1109/FOCS.2014.52
+  authors:
+  - yin-tat-lee
+  - aaron-sidford
+- title: Performance and portability with OpenCL for throughput-oriented HPC workloads across
+    accelerators, coprocessors, and multicore processors
+  year: 2014
+  venue: ScalA@SC
+  url: https://doi.org/10.1109/ScalA.2014.8
+  authors:
+  - piotr-luszczek
+  - jack-dongarra
 - title: Preconditioned Krylov Subspace Methods for Sampling Multivariate Gaussian Distributions
   year: 2014
   venue: SIAM J. Sci. Comput.
@@ -2629,6 +3806,14 @@
   authors:
   - haim-avron
   - michael-mahoney
+- title: Random Projections for Linear Support Vector Machines
+  year: 2014
+  venue: ACM Trans. Knowl. Discov. Data
+  url: https://doi.org/10.1145/2641760
+  authors:
+  - christos-boutsidis
+  - malik-magdon-ismail
+  - petros-drineas
 - title: Solving SDD linear systems in nearly mlog1/2n time
   year: 2014
   venue: STOC
@@ -2658,6 +3843,21 @@
   authors:
   - erin-carson
   - james-demmel
+- title: Twice-Ramanujan Sparsifiers
+  year: 2014
+  venue: SIAM Rev.
+  url: https://doi.org/10.1137/130949117
+  authors:
+  - daniel-spielman
+  - nikhil-srivastava
+- title: Unified Development for Mixed Multi-GPU and Multi-coprocessor Environments Using
+    a Lightweight Runtime Environment
+  year: 2014
+  venue: IPDPS
+  url: https://doi.org/10.1109/IPDPS.2014.58
+  authors:
+  - piotr-luszczek
+  - jack-dongarra
 - title: Variable order smoothness priors for ill-posed inverse problems
   year: 2014
   venue: Mathematics of Computation
@@ -2672,6 +3872,13 @@
   - andrea-arnold
   - daniela-calvetti
   - erkki-somersalo
+- title: 'clMAGMA: high performance dense linear algebra with OpenCL'
+  year: 2014
+  venue: IWOCL
+  url: https://doi.org/10.1145/2664666.2664667
+  authors:
+  - jack-dongarra
+  - piotr-luszczek
 - title: s-Step Krylov Subspace Methods as Bottom Solvers for Geometric Multigrid
   year: 2014
   venue: IPDPS
@@ -2687,6 +3894,21 @@
   authors:
   - arvind-saibaba
   - misha-kilmer
+- title: A Faster Cutting Plane Method and its Implications for Combinatorial and Convex Optimization
+  year: 2015
+  venue: FOCS
+  url: https://doi.org/10.1109/FOCS.2015.68
+  authors:
+  - yin-tat-lee
+  - aaron-sidford
+- title: A Framework for Batched and GPU-Resident Factorization Algorithms Applied to Block
+    Householder Transformations
+  year: 2015
+  venue: ISC High Performance
+  url: https://doi.org/10.1007/978-3-319-20119-1_3
+  authors:
+  - piotr-luszczek
+  - jack-dongarra
 - title: A Framework for Regularization via Operator Approximation
   year: 2015
   venue: SIAM Journal on Scientific Computing
@@ -2716,6 +3938,20 @@
   authors:
   - daniela-calvetti
   - erkki-somersalo
+- title: A survey of recent developments in parallel implementations of Gaussian elimination
+  year: 2015
+  venue: Concurr. Comput. Pract. Exp.
+  url: https://doi.org/10.1002/cpe.3306
+  authors:
+  - jack-dongarra
+  - piotr-luszczek
+- title: Acceleration of GPU-based Krylov solvers via data transfer reduction
+  year: 2015
+  venue: Int. J. High Perform. Comput. Appl.
+  url: https://doi.org/10.1177/1094342015580139
+  authors:
+  - piotr-luszczek
+  - jack-dongarra
 - title: Accuracy of the s-Step Lanczos Method for the Symmetric Eigenproblem in Finite Precision
   year: 2015
   venue: SIAM J. Matrix Anal. Appl.
@@ -2746,6 +3982,20 @@
   authors:
   - daniela-calvetti
   - erkki-somersalo
+- title: Asynchronous Iterative Algorithm for Computing Incomplete Factorizations on GPUs
+  year: 2015
+  venue: ISC High Performance
+  url: https://doi.org/10.1007/978-3-319-20119-1_1
+  authors:
+  - edmond-chow
+  - jack-dongarra
+- title: Avoiding Communication in Successive Band Reduction
+  year: 2015
+  venue: ACM Trans. Parallel Comput.
+  url: https://doi.org/10.1145/2686877
+  authors:
+  - grey-ballard
+  - james-demmel
 - title: 'Bayes meets Krylov: preconditioning CGLS for underdetermined systems'
   year: 2015
   venue: arXiv (Cornell University)
@@ -2810,6 +4060,13 @@
   authors:
   - anna-ma
   - deanna-needell
+- title: Decay Bounds for Functions of Hermitian Matrices with Banded or Kronecker Structure
+  year: 2015
+  venue: SIAM J. Matrix Anal. Appl.
+  url: https://doi.org/10.1137/151006159
+  authors:
+  - michele-benzi
+  - valeria-simoncini
 - title: Dimensionality Reduction for k-Means Clustering and Low Rank Approximation
   year: 2015
   venue: STOC
@@ -2817,6 +4074,13 @@
   authors:
   - cameron-musco
   - christopher-musco
+- title: Efficient Inverse Maintenance and Faster Algorithms for Linear Programming
+  year: 2015
+  venue: FOCS
+  url: https://doi.org/10.1109/FOCS.2015.23
+  authors:
+  - yin-tat-lee
+  - aaron-sidford
 - title: Efficient low-rank solution of generalized Lyapunov equations
   year: 2015
   venue: Numerische Mathematik
@@ -2824,6 +4088,13 @@
   authors:
   - valeria-simoncini
   - daniel-szyld
+- title: Experiences in autotuning matrix multiplication for energy minimization on GPUs
+  year: 2015
+  venue: Concurr. Comput. Pract. Exp.
+  url: https://doi.org/10.1002/cpe.3516
+  authors:
+  - piotr-luszczek
+  - jack-dongarra
 - title: Fast Algorithms for Hyperspectral Diffuse Optical Tomography
   year: 2015
   venue: SIAM Journal on Scientific Computing
@@ -2845,6 +4116,13 @@
   authors:
   - rasmus-kyng
   - sushant-sachdeva
+- title: Flexible Linear Algebra Development and Scheduling with Cholesky Factorization
+  year: 2015
+  venue: HPCC/CSS/ICESS
+  url: https://doi.org/10.1109/HPCC-CSS-ICESS.2015.285
+  authors:
+  - piotr-luszczek
+  - jack-dongarra
 - title: Greedy Minimization of Weakly Supermodular Set Functions
   year: 2015
   venue: CoRR
@@ -2852,6 +4130,13 @@
   authors:
   - edo-liberty
   - christos-boutsidis
+- title: HPC Programming on Intel Many-Integrated-Core Hardware with MAGMA Port to Xeon Phi
+  year: 2015
+  venue: Sci. Program.
+  url: https://doi.org/10.1155/2015/502593
+  authors:
+  - jack-dongarra
+  - piotr-luszczek
 - title: Input Sparsity and Hardness for Robust Subspace Approximation
   year: 2015
   venue: FOCS
@@ -2859,6 +4144,20 @@
   authors:
   - kenneth-clarkson
   - david-woodruff
+- title: Iterative Sparse Triangular Solves for Preconditioning
+  year: 2015
+  venue: Euro-Par
+  url: https://doi.org/10.1007/978-3-662-48096-0_50
+  authors:
+  - edmond-chow
+  - jack-dongarra
+- title: Large-Scale Inverse Problems in Imaging
+  year: 2015
+  venue: Handbook of Mathematical Methods in Imaging
+  url: https://doi.org/10.1007/978-1-4939-0790-8_2
+  authors:
+  - julianne-chung
+  - james-nagy
 - title: Life sciences through mathematical models
   year: 2015
   venue: RENDICONTI LINCEI
@@ -2873,6 +4172,14 @@
   authors:
   - shashanka-ubaru
   - yousef-saad
+- title: 'MAGMA embedded: Towards a dense linear algebra library for energy efficient extreme
+    computing'
+  year: 2015
+  venue: HPEC
+  url: https://doi.org/10.1109/HPEC.2015.7322444
+  authors:
+  - piotr-luszczek
+  - jack-dongarra
 - title: Matrix-equation-based strategies for convection-diffusion equations
   year: 2015
   venue: BIT Numerical Mathematics
@@ -2880,6 +4187,14 @@
   authors:
   - davide-palitta
   - valeria-simoncini
+- title: Mixing LU and QR factorization algorithms to design high-performance dense linear
+    algebra solvers
+  year: 2015
+  venue: J. Parallel Distributed Comput.
+  url: https://doi.org/10.1016/j.jpdc.2015.06.007
+  authors:
+  - julien-langou
+  - jack-dongarra
 - title: Nonlinear Parametric Inversion Using Interpolatory Model Reduction
   year: 2015
   venue: SIAM J. Sci. Comput.
@@ -2895,12 +4210,42 @@
   authors:
   - edo-liberty
   - christos-boutsidis
+- title: Optimal Sparse Linear Auto-Encoders and Sparse PCA
+  year: 2015
+  venue: CoRR
+  url: http://arxiv.org/abs/1502.06626
+  authors:
+  - malik-magdon-ismail
+  - christos-boutsidis
+- title: Optimization for performance and energy for batched matrix computations on GPUs
+  year: 2015
+  venue: GPGPU@PPoPP
+  url: https://doi.org/10.1145/2716282.2716288
+  authors:
+  - piotr-luszczek
+  - jack-dongarra
+- title: Parallel Programming Models for Dense Linear Algebra on Heterogeneous Systems
+  year: 2015
+  venue: Supercomput. Front. Innov.
+  url: https://doi.org/10.14529/jsfi150405
+  authors:
+  - jack-dongarra
+  - piotr-luszczek
 - title: Parameter Identification
   year: 2015
   url: https://doi.org/10.1007/978-3-540-70529-1_426
   authors:
   - daniela-calvetti
   - erkki-somersalo
+- title: Performance of random sampling for computing low-rank approximations of a dense matrix
+    on GPUs
+  year: 2015
+  venue: SC
+  url: https://doi.org/10.1145/2807591.2807613
+  authors:
+  - theo-mary
+  - piotr-luszczek
+  - jack-dongarra
 - title: Projection methods for large-scale T-Sylvester equations
   year: 2015
   venue: Mathematics of Computation
@@ -2930,6 +4275,14 @@
   authors:
   - robert-gower
   - peter-richtarik
+- title: Randomized algorithms to update partial singular value decomposition on a hybrid
+    CPU/GPU cluster
+  year: 2015
+  venue: SC
+  url: https://doi.org/10.1145/2807591.2807608
+  authors:
+  - piotr-luszczek
+  - jack-dongarra
 - title: Reconstructing Householder vectors from Tall-Skinny QR
   year: 2015
   venue: J. Parallel Distributed Comput.
@@ -2987,6 +4340,14 @@
   authors:
   - kenneth-clarkson
   - david-woodruff
+- title: Sparsified Cholesky Solvers for SDD linear systems
+  year: 2015
+  venue: CoRR
+  url: http://arxiv.org/abs/1506.08204
+  authors:
+  - yin-tat-lee
+  - richard-peng
+  - daniel-spielman
 - title: Spectral Gap Error Bounds for Improving CUR Matrix Decomposition and the Nyström
     Method
   year: 2015
@@ -3002,6 +4363,13 @@
   authors:
   - daniela-calvetti
   - erkki-somersalo
+- title: Stochastic Dual Ascent for Solving Linear Systems
+  year: 2015
+  venue: CoRR
+  url: http://arxiv.org/abs/1512.06890
+  authors:
+  - robert-gower
+  - peter-richtarik
 - title: Stochastic gradient descent, weighted sampling, and the randomized Kaczmarz algorithm
   year: 2015
   venue: Mathematical Programming
@@ -3024,6 +4392,13 @@
   authors:
   - cameron-musco
   - christopher-musco
+- title: Towards batched linear solvers on accelerated hardware platforms
+  year: 2015
+  venue: PPoPP
+  url: https://doi.org/10.1145/2688500.2688534
+  authors:
+  - piotr-luszczek
+  - jack-dongarra
 - title: Uniform Sampling for Matrix Approximation
   year: 2015
   venue: ITCS
@@ -3033,6 +4408,28 @@
   - christopher-musco
   - richard-peng
   - aaron-sidford
+- title: Using Local Spectral Methods to Robustify Graph-Based Learning Algorithms
+  year: 2015
+  venue: KDD
+  url: https://doi.org/10.1145/2783258.2783376
+  authors:
+  - david-gleich
+  - michael-mahoney
+- title: Weighted dynamic scheduling with many parallelism grains for offloading of numerical
+    workloads to multiple varied accelerators
+  year: 2015
+  venue: ScalA@SC
+  url: https://doi.org/10.1145/2832080.2832085
+  authors:
+  - piotr-luszczek
+  - jack-dongarra
+- title: A Simple and Strongly-Local Flow-Based Method for Cut Improvement
+  year: 2016
+  venue: ICML
+  url: http://proceedings.mlr.press/v48/veldt16.html
+  authors:
+  - david-gleich
+  - michael-mahoney
 - title: A measure of similarity between optimal and suboptimal muscle force production in
     gait
   year: 2016
@@ -3062,6 +4459,13 @@
   authors:
   - michael-mahoney
   - peng-zhang
+- title: Batched Generation of Incomplete Sparse Approximate Inverses on GPUs
+  year: 2016
+  venue: ScalA@SC
+  url: https://doi.org/10.1109/ScalA.2016.011
+  authors:
+  - edmond-chow
+  - jack-dongarra
 - title: Batched Stochastic Gradient Descent with Weighted Sampling
   year: 2016
   venue: CoRR
@@ -3069,6 +4473,20 @@
   authors:
   - deanna-needell
   - rachel-ward
+- title: 'Beyond Spectral: Tight Bounds for Planted Gaussians'
+  year: 2016
+  venue: CoRR
+  url: http://arxiv.org/abs/1608.03643
+  authors:
+  - ravindran-kannan
+  - santosh-vempala
+- title: Bidiagonalization with Parallel Tiled Algorithms
+  year: 2016
+  venue: CoRR
+  url: http://arxiv.org/abs/1611.06892
+  authors:
+  - julien-langou
+  - jack-dongarra
 - title: Computational issues and numerical experiments for Linear Multistep Method Particle
     Filtering
   year: 2016
@@ -3169,6 +4587,13 @@
   authors:
   - petros-drineas
   - malik-magdon-ismail
+- title: 'Feature-distributed sparse regression: a screen-and-clean approach'
+  year: 2016
+  venue: NIPS
+  url: https://proceedings.neurips.cc/paper/2016/hash/363763e5c3dc3a68b399058c34aecf2c-Abstract.html
+  authors:
+  - michael-mahoney
+  - michael-saunders
 - title: 'Frequent Directions: Simple and Deterministic Matrix Sketching'
   year: 2016
   venue: SIAM J. Comput.
@@ -3176,6 +4601,42 @@
   authors:
   - edo-liberty
   - david-woodruff
+- title: Geodesic Walks on Polytopes
+  year: 2016
+  venue: CoRR
+  url: http://arxiv.org/abs/1606.04696
+  authors:
+  - yin-tat-lee
+  - santosh-vempala
+- title: Geometric median in nearly linear time
+  year: 2016
+  venue: STOC
+  url: https://doi.org/10.1145/2897518.2897647
+  authors:
+  - yin-tat-lee
+  - aaron-sidford
+- title: Hessenberg Reduction with Transient Error Resilience on GPU-Based Hybrid Architectures
+  year: 2016
+  venue: IPDPS Workshops
+  url: https://doi.org/10.1109/IPDPSW.2016.34
+  authors:
+  - piotr-luszczek
+  - jack-dongarra
+- title: Heterogeneous Streaming
+  year: 2016
+  venue: IPDPS Workshops
+  url: https://doi.org/10.1109/IPDPSW.2016.217
+  authors:
+  - piotr-luszczek
+  - jack-dongarra
+- title: 'High-performance conjugate-gradient benchmark: A new metric for ranking high-performance
+    computing systems'
+  year: 2016
+  venue: Int. J. High Perform. Comput. Appl.
+  url: https://doi.org/10.1177/1094342015593158
+  authors:
+  - jack-dongarra
+  - piotr-luszczek
 - title: How to Fake Multiply by a Gaussian Matrix
   year: 2016
   venue: ICML
@@ -3183,6 +4644,13 @@
   authors:
   - michael-kapralov
   - david-woodruff
+- title: Linear algebra software for large-scale accelerated multicore computing
+  year: 2016
+  venue: Acta Numer.
+  url: https://doi.org/10.1017/S0962492916000015
+  authors:
+  - jack-dongarra
+  - piotr-luszczek
 - title: Mathematical modeling of the microenvironment beneath a surface pH electrode tip
   year: 2016
   venue: The FASEB Journal
@@ -3205,6 +4673,13 @@
   url: https://doi.org/10.1109/BigData.2016.7840606
   authors:
   - james-demmel
+  - michael-mahoney
+- title: Mining Large Graphs
+  year: 2016
+  venue: Handbook of Big Data
+  url: http://www.crcnetbase.com/doi/abs/10.1201/b19567-17
+  authors:
+  - david-gleich
   - michael-mahoney
 - title: Network Topologies and Inevitable Contention
   year: 2016
@@ -3230,6 +4705,13 @@
   authors:
   - jelani-nelson
   - david-woodruff
+- title: Optimal Sparse Linear Encoders and Sparse PCA
+  year: 2016
+  venue: NIPS
+  url: https://proceedings.neurips.cc/paper/2016/hash/0e65972dce68dad4d52d063967f0a705-Abstract.html
+  authors:
+  - malik-magdon-ismail
+  - christos-boutsidis
 - title: Optimal principal component analysis in distributed and streaming models
   year: 2016
   venue: STOC
@@ -3237,6 +4719,14 @@
   authors:
   - david-woodruff
   - christos-boutsidis
+- title: 'PFEAST: a high performance sparse eigenvalue solver using distributed-memory linear
+    solvers'
+  year: 2016
+  venue: SC
+  url: https://doi.org/10.1109/SC.2016.15
+  authors:
+  - vasileios-kalantzis
+  - yousef-saad
 - title: Parallel local graph clustering
   year: 2016
   venue: Proceedings of the VLDB Endowment
@@ -3244,6 +4734,14 @@
   authors:
   - fred-roosta
   - michael-mahoney
+- title: Performance-Portable Autotuning of OpenCL Kernels for Convolutional Layers of Deep
+    Neural Networks
+  year: 2016
+  venue: MLHPC@SC
+  url: https://doi.org/10.1109/MLHPC.2016.005
+  authors:
+  - piotr-luszczek
+  - jack-dongarra
 - title: Principal Component Projection Without Principal Component Analysis
   year: 2016
   venue: ICML
@@ -3289,6 +4787,13 @@
   - ravindran-kannan
   - michael-mahoney
   - david-woodruff
+- title: Search Space Generation and Pruning System for Autotuners
+  year: 2016
+  venue: IPDPS Workshops
+  url: https://doi.org/10.1109/IPDPSW.2016.197
+  authors:
+  - piotr-luszczek
+  - jack-dongarra
 - title: Sharper Bounds for Regression and Low-Rank Approximation with Regularization
   year: 2016
   venue: CoRR
@@ -3306,6 +4811,13 @@
   - richard-peng
   - sushant-sachdeva
   - daniel-spielman
+- title: 'Stochastic Block BFGS: Squeezing More Curvature out of Data'
+  year: 2016
+  venue: ICML
+  url: http://proceedings.mlr.press/v48/gower16.html
+  authors:
+  - robert-gower
+  - peter-richtarik
 - title: Structural Convergence Results for Low-Rank Approximations from Block Krylov Spaces
   year: 2016
   venue: arXiv (Cornell University)
@@ -3322,6 +4834,20 @@
   authors:
   - michael-mahoney
   - petros-drineas
+- title: 'Sub-Sampled Newton Methods I: Globally Convergent Algorithms'
+  year: 2016
+  venue: CoRR
+  url: http://arxiv.org/abs/1601.04737
+  authors:
+  - fred-roosta
+  - michael-mahoney
+- title: 'Sub-Sampled Newton Methods II: Local Convergence Rates'
+  year: 2016
+  venue: CoRR
+  url: http://arxiv.org/abs/1601.04738
+  authors:
+  - fred-roosta
+  - michael-mahoney
 - title: Sub-sampled Newton Methods with Non-uniform Sampling
   year: 2016
   venue: Queensland's institutional digital repository (The University of Queensland)
@@ -3329,6 +4855,13 @@
   authors:
   - fred-roosta
   - michael-mahoney
+- title: Task-Based Cholesky Decomposition on Knights Corner Using OpenMP
+  year: 2016
+  venue: ISC High Performance (Workshops)
+  url: https://doi.org/10.1007/978-3-319-46079-6_37
+  authors:
+  - piotr-luszczek
+  - jack-dongarra
 - title: The Fast Cauchy Transform and Faster Robust Linear Regression
   year: 2016
   venue: SIAM J. Comput.
@@ -3347,6 +4880,13 @@
   authors:
   - daniela-calvetti
   - erkki-somersalo
+- title: Updating incomplete factorization preconditioners for model order reduction
+  year: 2016
+  venue: Numer. Algorithms
+  url: https://doi.org/10.1007/s11075-016-0110-2
+  authors:
+  - edmond-chow
+  - jack-dongarra
 - title: Write-Avoiding Algorithms
   year: 2016
   venue: IPDPS
@@ -3355,6 +4895,13 @@
   - erin-carson
   - james-demmel
   - laura-grigori
+- title: A Communication-Avoiding Parallel Algorithm for the Symmetric Eigenvalue Problem
+  year: 2017
+  venue: SPAA
+  url: https://doi.org/10.1145/3087556.3087561
+  authors:
+  - grey-ballard
+  - james-demmel
 - title: A Framework for Analyzing Resparsification Algorithms
   year: 2017
   venue: SODA
@@ -3400,6 +4947,13 @@
   authors:
   - richard-peng
   - aaron-sidford
+- title: An Optimization Approach to Locally-Biased Graph Algorithms
+  year: 2017
+  venue: Proc. IEEE
+  url: https://doi.org/10.1109/JPROC.2016.2637349
+  authors:
+  - david-gleich
+  - michael-mahoney
 - title: Applications of Trace Estimation Techniques
   year: 2017
   venue: HPCSE
@@ -3407,6 +4961,20 @@
   authors:
   - shashanka-ubaru
   - yousef-saad
+- title: Approximation of functions of large matrices with Kronecker structure
+  year: 2017
+  venue: Numerische Mathematik
+  url: https://doi.org/10.1007/s00211-016-0799-9
+  authors:
+  - michele-benzi
+  - valeria-simoncini
+- title: Autotuning Batch Cholesky Factorization in CUDA with Interleaved Layout of Matrices
+  year: 2017
+  venue: IPDPS Workshops
+  url: https://doi.org/10.1109/IPDPSW.2017.18
+  authors:
+  - piotr-luszczek
+  - jack-dongarra
 - title: 'BPTree: An ℓ2 Heavy Hitters Algorithm Using Constant Memory'
   year: 2017
   venue: PODS
@@ -3421,6 +4989,21 @@
   authors:
   - daniela-calvetti
   - erkki-somersalo
+- title: 'Bidiagonalization and R-Bidiagonalization: Parallel Tiled Algorithms, Critical Paths
+    and Distributed-Memory Implementation'
+  year: 2017
+  venue: IPDPS
+  url: https://doi.org/10.1109/IPDPS.2017.46
+  authors:
+  - julien-langou
+  - jack-dongarra
+- title: Bringing High Performance Computing to Big Data Algorithms
+  year: 2017
+  venue: Handbook of Big Data Technologies
+  url: https://doi.org/10.1007/978-3-319-49340-4_23
+  authors:
+  - jack-dongarra
+  - piotr-luszczek
 - title: Computationally enhanced projection methods for symmetric Sylvester and Lyapunov
     matrix equations
   year: 2017
@@ -3450,6 +5033,21 @@
   authors:
   - anna-ma
   - deanna-needell
+- title: Design and Implementation of the PULSAR Programming System for Large Scale Computing
+  year: 2017
+  venue: Supercomput. Front. Innov.
+  url: https://doi.org/10.14529/jsfi170101
+  authors:
+  - piotr-luszczek
+  - jack-dongarra
+- title: 'Eldan''s Stochastic Localization and the KLS Hyperplane Conjecture: An Improved
+    Lower Bound for Expansion'
+  year: 2017
+  venue: FOCS
+  url: https://doi.org/10.1109/FOCS.2017.96
+  authors:
+  - yin-tat-lee
+  - santosh-vempala
 - title: Fast Estimation of Approximate Matrix Ranks Using Spectral Densities
   year: 2017
   venue: Neural Comput.
@@ -3517,6 +5115,13 @@
   - elizabeth-newman
   - misha-kilmer
   - lior-horesh
+- title: Improving Performance of GMRES by Reducing Communication and Pipelining Global Collectives
+  year: 2017
+  venue: IPDPS Workshops
+  url: https://doi.org/10.1109/IPDPSW.2017.65
+  authors:
+  - piotr-luszczek
+  - jack-dongarra
 - title: Improving the Incoherence of a Learned Dictionary via Rank Shrinkage
   year: 2017
   venue: Neural Comput.
@@ -3611,6 +5216,20 @@
   authors:
   - julianne-chung
   - matthias-chung
+- title: Optimized Batched Linear Algebra for Modern Architectures
+  year: 2017
+  venue: Euro-Par
+  url: https://doi.org/10.1007/978-3-319-64203-1_37
+  authors:
+  - jack-dongarra
+  - nicholas-higham
+- title: Porting the PLASMA Numerical Library to the OpenMP Standard
+  year: 2017
+  venue: Int. J. Parallel Program.
+  url: https://doi.org/10.1007/s10766-016-0441-6
+  authors:
+  - piotr-luszczek
+  - jack-dongarra
 - title: Practical Sketching Algorithms for Low-Rank Matrix Approximation
   year: 2017
   venue: SIAM J. Matrix Anal. Appl.
@@ -3620,6 +5239,14 @@
   - madeleine-udell
   - alp-yurtsever
   note: with A. Yurtsever, V. Cevher (not in roster)
+- title: Priorconditioned CGLS-Based Quasi-MAP Estimate, Statistical Stopping Rule, and Ranking
+    of Priors
+  year: 2017
+  venue: SIAM J. Sci. Comput.
+  url: https://doi.org/10.1137/16M108272X
+  authors:
+  - daniela-calvetti
+  - erkki-somersalo
 - title: 'Random Fourier Features for Kernel Ridge Regression: Approximation Bounds and Statistical
     Guarantees'
   year: 2017
@@ -3630,6 +5257,13 @@
   - michael-kapralov
   - cameron-musco
   - christopher-musco
+- title: Randomized Quasi-Newton Updates Are Linearly Convergent Matrix Inversion Algorithms
+  year: 2017
+  venue: SIAM J. Matrix Anal. Appl.
+  url: https://doi.org/10.1137/16M1062053
+  authors:
+  - robert-gower
+  - peter-richtarik
 - title: Randomized algorithms in numerical linear algebra
   year: 2017
   venue: Acta Numer.
@@ -3665,6 +5299,15 @@
   authors:
   - rasmus-kyng
   - sushant-sachdeva
+- title: Scaling point set registration in 3D across thread counts on multicore and hardware
+    accelerator platforms through autotuning for large scale analysis of scientific point
+    clouds
+  year: 2017
+  venue: IEEE BigData
+  url: https://doi.org/10.1109/BigData.2017.8258258
+  authors:
+  - piotr-luszczek
+  - jack-dongarra
 - title: Sharper Bounds for Regularized Data Fitting
   year: 2017
   venue: APPROX-RANDOM
@@ -3711,6 +5354,20 @@
   authors:
   - cameron-musco
   - david-woodruff
+- title: Subquadratic submodular function minimization
+  year: 2017
+  venue: STOC
+  url: https://doi.org/10.1145/3055399.3055419
+  authors:
+  - yin-tat-lee
+  - aaron-sidford
+- title: The Design and Performance of Batched BLAS on Modern High-Performance Computing Systems
+  year: 2017
+  venue: ICCS
+  url: https://doi.org/10.1016/j.procs.2017.05.138
+  authors:
+  - jack-dongarra
+  - nicholas-higham
 - title: The Hidden Hubs Problem
   year: 2017
   venue: COLT
@@ -3726,6 +5383,13 @@
   authors:
   - fred-roosta
   - michael-mahoney
+- title: Towards numerical benchmark for half-precision floating point arithmetic
+  year: 2017
+  venue: HPEC
+  url: https://doi.org/10.1109/HPEC.2017.8091031
+  authors:
+  - piotr-luszczek
+  - jack-dongarra
 - title: Union of Intersections (UoI) for Interpretable Data Driven Discovery and Prediction
   year: 2017
   venue: NIPS
@@ -3741,6 +5405,13 @@
   authors:
   - yuji-nakatsukasa
   - alex-townsend
+- title: With Extreme Computing, the Rules Have Changed
+  year: 2017
+  venue: Comput. Sci. Eng.
+  url: https://doi.org/10.1109/MCSE.2017.48
+  authors:
+  - jack-dongarra
+  - piotr-luszczek
 - title: 7th Workshop on Matrix Equations and Tensor Techniques
   year: 2018
   venue: Numer. Linear Algebra Appl.
@@ -3762,6 +5433,20 @@
   authors:
   - jamie-haddock
   - deanna-needell
+- title: A Gradient Descent Approach for Incomplete Linear Systems
+  year: 2018
+  venue: ACSSC
+  url: https://doi.org/10.1109/ACSSC.2018.8645206
+  authors:
+  - anna-ma
+  - deanna-needell
+- title: A Short Introduction to Local Graph Clustering Methods and Software
+  year: 2018
+  venue: CoRR
+  url: http://arxiv.org/abs/1810.07324
+  authors:
+  - david-gleich
+  - michael-mahoney
 - title: A Study of Clustering Techniques and Hierarchical Matrix Formats for Kernel Ridge
     Regression
   year: 2018
@@ -3770,6 +5455,13 @@
   authors:
   - elizaveta-rebrova
   - xiaoye-sherry-li
+- title: A matrix expander Chernoff bound
+  year: 2018
+  venue: STOC
+  url: https://doi.org/10.1145/3188745.3188890
+  authors:
+  - yin-tat-lee
+  - nikhil-srivastava
 - title: A randomized tensor singular value decomposition based on the t-product
   year: 2018
   venue: Numerical Linear Algebra with Applications
@@ -3777,6 +5469,14 @@
   authors:
   - arvind-saibaba
   - misha-kilmer
+- title: 'Accelerated Stochastic Matrix Inversion: General Theory and Speeding up BFGS Rules
+    for Faster Second-Order Optimization'
+  year: 2018
+  venue: NeurIPS
+  url: https://proceedings.neurips.cc/paper/2018/hash/d554f7bb7be44a7267068a7df88ddd20-Abstract.html
+  authors:
+  - robert-gower
+  - peter-richtarik
 - title: Accelerating the Solution of Linear Systems by Iterative Refinement in Three Precisions
   year: 2018
   venue: SIAM J. Sci. Comput.
@@ -3784,6 +5484,13 @@
   authors:
   - erin-carson
   - nicholas-higham
+- title: Algorithmic Theory of ODEs and Sampling from Well-conditioned Logconcave Densities
+  year: 2018
+  venue: CoRR
+  url: http://arxiv.org/abs/1812.06243
+  authors:
+  - yin-tat-lee
+  - santosh-vempala
 - title: Analysis of Fast Alternating Minimization for Structured Dictionary Learning
   year: 2018
   venue: arXiv
@@ -3791,6 +5498,28 @@
   authors:
   - anna-ma
   - deanna-needell
+- title: Analysis of Fast Structured Dictionary Learning
+  year: 2018
+  venue: CoRR
+  url: http://arxiv.org/abs/1805.12529
+  authors:
+  - anna-ma
+  - deanna-needell
+- title: Autotuning Numerical Dense Linear Algebra for Batched Computation With GPU Hardware
+    Accelerators
+  year: 2018
+  venue: Proc. IEEE
+  url: https://doi.org/10.1109/JPROC.2018.2868961
+  authors:
+  - jack-dongarra
+  - piotr-luszczek
+- title: Autotuning Techniques for Performance-Portable Point Set Registration in 3D
+  year: 2018
+  venue: Supercomput. Front. Innov.
+  url: https://doi.org/10.14529/jsfi180404
+  authors:
+  - piotr-luszczek
+  - jack-dongarra
 - title: Avoiding Synchronization in First-Order Methods for Sparse Convex Optimization
   year: 2018
   venue: IPDPS
@@ -3798,6 +5527,13 @@
   authors:
   - james-demmel
   - michael-mahoney
+- title: 'Bayes Meets Krylov: Statistically Inspired Preconditioners for CGLS'
+  year: 2018
+  venue: SIAM Rev.
+  url: https://doi.org/10.1137/15M1055061
+  authors:
+  - daniela-calvetti
+  - erkki-somersalo
 - title: Brain Activity Mapping from MEG Data via a Hierarchical Bayesian Algorithm with Automatic
     Depth Weighting
   year: 2018
@@ -3828,6 +5564,14 @@
   authors:
   - jorg-liesen
   - daniel-szyld
+- title: Convergence rate of riemannian Hamiltonian Monte Carlo and faster polytope volume
+    computation
+  year: 2018
+  venue: STOC
+  url: https://doi.org/10.1145/3188745.3188774
+  authors:
+  - yin-tat-lee
+  - santosh-vempala
 - title: Distributed Second-order Convex Optimization
   year: 2018
   venue: arXiv
@@ -3870,6 +5614,13 @@
   authors:
   - fred-roosta
   - michael-mahoney
+- title: 'GIANT: Globally Improved Approximate Newton Method for Distributed Optimization'
+  year: 2018
+  venue: NeurIPS
+  url: https://proceedings.neurips.cc/paper/2018/hash/dabd8d2ce74e782c65a973ef76fd540b-Abstract.html
+  authors:
+  - fred-roosta
+  - michael-mahoney
 - title: GPU Accelerated Sub-Sampled Newton's Method
   year: 2018
   venue: arXiv
@@ -3877,6 +5628,21 @@
   authors:
   - fred-roosta
   - michael-mahoney
+- title: GPU Accelerated Sub-Sampled Newton\textsf{'}s Method
+  year: 2018
+  venue: CoRR
+  url: http://arxiv.org/abs/1802.09113
+  authors:
+  - fred-roosta
+  - michael-mahoney
+- title: Harnessing GPU tensor cores for fast FP16 arithmetic to speed up mixed-precision
+    iterative refinement solvers
+  year: 2018
+  venue: SC
+  url: http://dl.acm.org/citation.cfm?id=3291719
+  authors:
+  - jack-dongarra
+  - nicholas-higham
 - title: 'Hierachical Bayesian models and sparsity: L 2 -magic'
   year: 2018
   venue: AGU Fall Meeting Abstracts
@@ -3942,6 +5708,13 @@
   authors:
   - cameron-musco
   - christopher-musco
+- title: Nearly Optimal Distinct Elements and Heavy Hitters on Sliding Windows
+  year: 2018
+  venue: APPROX-RANDOM
+  url: https://doi.org/10.4230/LIPIcs.APPROX-RANDOM.2018.7
+  authors:
+  - david-woodruff
+  - samson-zhou
 - title: 'Newton-MR: Newton''s Method Without Smoothness or Convexity'
   year: 2018
   venue: CoRR
@@ -3963,6 +5736,14 @@
   authors:
   - jamie-haddock
   - deanna-needell
+- title: On quadratic matrix equations with infinite size coefficients encountered in QBD
+    stochastic processes
+  year: 2018
+  venue: Numer. Linear Algebra Appl.
+  url: https://doi.org/10.1002/nla.2128
+  authors:
+  - stefano-massei
+  - leonardo-robol
 - title: Optimal Experimental Design for Inverse Problems with State Constraints
   year: 2018
   venue: SIAM Journal on Scientific Computing
@@ -3970,6 +5751,20 @@
   authors:
   - julianne-chung
   - matthias-chung
+- title: Out-of-sample extension of graph adjacency spectral embedding
+  year: 2018
+  venue: ICML
+  url: http://proceedings.mlr.press/v80/levin18a.html
+  authors:
+  - fred-roosta
+  - michael-mahoney
+- title: ParILUT - A New Parallel Threshold ILU Factorization
+  year: 2018
+  venue: SIAM J. Sci. Comput.
+  url: https://doi.org/10.1137/16M1079506
+  authors:
+  - edmond-chow
+  - jack-dongarra
 - title: Quantifying uncertainties in Large-scale Bayesian linear inverse problems using Krylov
     subspace methods
   year: 2018
@@ -3978,6 +5773,20 @@
   authors:
   - arvind-saibaba
   - julianne-chung
+- title: Randomized Projection Methods for Corrupted Linear Systems
+  year: 2018
+  venue: CoRR
+  url: http://arxiv.org/abs/1803.08114
+  authors:
+  - jamie-haddock
+  - deanna-needell
+- title: Rational Minimax Approximation via Adaptive Barycentric Representations
+  year: 2018
+  venue: SIAM J. Sci. Comput.
+  url: https://doi.org/10.1137/17M1132409
+  authors:
+  - yuji-nakatsukasa
+  - lloyd-trefethen
 - title: 'SMASH: Structured matrix approximation by separation and hierarchy'
   year: 2018
   venue: Numer. Linear Algebra Appl.
@@ -4026,6 +5835,13 @@
   - lior-horesh
   - haim-avron
   - misha-kilmer
+- title: Stochastic localization + Stieltjes barrier = tight bound for log-Sobolev
+  year: 2018
+  venue: STOC
+  url: https://doi.org/10.1145/3188745.3188866
+  authors:
+  - yin-tat-lee
+  - santosh-vempala
 - title: Structural Convergence Results for Approximation of Dominant Subspaces from Block
     Krylov Spaces
   year: 2018
@@ -4049,12 +5865,41 @@
   authors:
   - ainesh-bakshi
   - david-woodruff
+- title: Task based Cholesky decomposition on Xeon Phi architectures using OpenMP
+  year: 2018
+  venue: Int. J. Comput. Sci. Eng.
+  url: https://doi.org/10.1504/IJCSE.2018.095851
+  authors:
+  - piotr-luszczek
+  - jack-dongarra
+- title: The AAA Algorithm for Rational Approximation
+  year: 2018
+  venue: SIAM J. Sci. Comput.
+  url: https://doi.org/10.1137/16M1106122
+  authors:
+  - yuji-nakatsukasa
+  - lloyd-trefethen
+- title: The Kannan-Lovász-Simonovits Conjecture
+  year: 2018
+  venue: CoRR
+  url: http://arxiv.org/abs/1807.03465
+  authors:
+  - yin-tat-lee
+  - santosh-vempala
 - title: The Lanczos algorithm and complex Gauss quadrature
   year: 2018
   venue: ETNA
   authors:
   - stefano-pozza
   - zdenek-strakos
+- title: 'The Singular Value Decomposition: Anatomy of Optimizing an Algorithm for Extreme
+    Scale'
+  year: 2018
+  venue: SIAM Rev.
+  url: https://doi.org/10.1137/17M1117732
+  authors:
+  - jack-dongarra
+  - piotr-luszczek
 - title: 'The numerical stability analysis of pipelined conjugate gradient methods: Historical
     context and methodology'
   year: 2018
@@ -4070,6 +5915,14 @@
   authors:
   - arvind-saibaba
   - julianne-chung
+- title: Using Jacobi iterations and blocking for solving sparse triangular systems in incomplete
+    factorization preconditioning
+  year: 2018
+  venue: J. Parallel Distributed Comput.
+  url: https://doi.org/10.1016/j.jpdc.2018.04.017
+  authors:
+  - edmond-chow
+  - jack-dongarra
 - title: A Bootstrap Method for Error Estimation in Randomized Matrix Multiplication
   year: 2019
   venue: J. Mach. Learn. Res.
@@ -4136,6 +5989,13 @@
   - michael-kapralov
   - cameron-musco
   - christopher-musco
+- title: Adaptive Regularization Parameter Choice Rules for Large-Scale Problems
+  year: 2019
+  venue: CoRR
+  url: http://arxiv.org/abs/1907.05666
+  authors:
+  - silvia-gazzola
+  - malena-sabate-landman
 - title: Adaptive Sketch-and-Project Methods for Solving Linear Systems
   year: 2019
   venue: arXiv
@@ -4143,6 +6003,14 @@
   authors:
   - robert-gower
   - deanna-needell
+- title: Adaptive precision in block-Jacobi preconditioning for iterative sparse linear system
+    solvers
+  year: 2019
+  venue: Concurr. Comput. Pract. Exp.
+  url: https://doi.org/10.1002/cpe.4460
+  authors:
+  - jack-dongarra
+  - nicholas-higham
 - title: Algebraic description of the finite Stieltjes moment problem
   year: 2019
   authors:
@@ -4163,6 +6031,13 @@
   authors:
   - james-demmel
   - laura-grigori
+- title: An Õ(m/ε3.5)-Cost Algorithm for Semidefinite Programs with Diagonal Constraints
+  year: 2019
+  venue: CoRR
+  url: http://arxiv.org/abs/1903.01859
+  authors:
+  - yin-tat-lee
+  - swati-padmanabhan
 - title: Analysis of directed networks via the matrix exponential
   year: 2019
   venue: Journal of Computational and Applied Mathematics
@@ -4218,6 +6093,13 @@
   authors:
   - nicolas-boulle
   - yuji-nakatsukasa
+- title: Complexity of Highly Parallel Non-Smooth Convex Optimization
+  year: 2019
+  venue: NeurIPS
+  url: https://proceedings.neurips.cc/paper/2019/hash/3c0cd9bcd0686e8bc0a9047eae120cc5-Abstract.html
+  authors:
+  - yin-tat-lee
+  - aaron-sidford
 - title: Compressed Anomaly Detection with Multiple Mixed Observations
   year: 2019
   venue: Association for Women in Mathematics series
@@ -4275,6 +6157,14 @@
   authors:
   - anna-ma
   - deanna-needell
+- title: Fast Solvers for Two-Dimensional Fractional Diffusion Equations Using Rank Structured
+    Matrices
+  year: 2019
+  venue: SIAM J. Sci. Comput.
+  url: https://doi.org/10.1137/18M1180803
+  authors:
+  - stefano-massei
+  - leonardo-robol
 - title: Fast, Provably convergent IRLS Algorithm for p-norm Linear Regression
   year: 2019
   venue: NeurIPS
@@ -4289,6 +6179,13 @@
   authors:
   - ruhui-jin
   - rachel-ward
+- title: Faster Matroid Intersection
+  year: 2019
+  venue: FOCS
+  url: https://doi.org/10.1109/FOCS.2019.00072
+  authors:
+  - yin-tat-lee
+  - aaron-sidford
 - title: Faster Spectral Sparsification in Dynamic Streams
   year: 2019
   venue: CoRR
@@ -4316,6 +6213,13 @@
   authors:
   - julianne-chung
   - silvia-gazzola
+- title: Flexible Krylov Methods for ℓp Regularization
+  year: 2019
+  venue: SIAM J. Sci. Comput.
+  url: https://doi.org/10.1137/18M1194456
+  authors:
+  - julianne-chung
+  - silvia-gazzola
 - title: Flows in almost linear time via adaptive preconditioning
   year: 2019
   venue: STOC
@@ -4338,6 +6242,13 @@
   authors:
   - mirjeta-pasha
   - lothar-reichel
+- title: 'Greed Works: An Improved Analysis of Sampling Kaczmarz-Motkzin'
+  year: 2019
+  venue: CoRR
+  url: http://arxiv.org/abs/1912.03544
+  authors:
+  - jamie-haddock
+  - anna-ma
 - title: 'IR Tools: a MATLAB package of iterative regularization methods and large-scale test
     problems'
   year: 2019
@@ -4346,6 +6257,14 @@
   - silvia-gazzola
   - james-nagy
   note: with P.C. Hansen
+- title: Increasing Accuracy of Iterative Refinement in Limited Floating-Point Arithmetic
+    on Half-Precision Accelerators
+  year: 2019
+  venue: HPEC
+  url: https://doi.org/10.1109/HPEC.2019.8916392
+  authors:
+  - piotr-luszczek
+  - jack-dongarra
 - title: Inexact Arnoldi residual estimates and decay properties for functions of non-Hermitian
     matrices
   year: 2019
@@ -4354,6 +6273,13 @@
   authors:
   - stefano-pozza
   - valeria-simoncini
+- title: Iterative Hard Thresholding for Low CP-rank Tensor Models
+  year: 2019
+  venue: CoRR
+  url: http://arxiv.org/abs/1908.08479
+  authors:
+  - anna-ma
+  - deanna-needell
 - title: Iterative Refinement for ℓp-norm Regression
   year: 2019
   venue: SODA
@@ -4404,6 +6330,13 @@
   authors:
   - daniel-kressner
   - stefano-massei
+- title: Matrix Powers Kernels for Thick-Restart Lanczos with Explicit External Deflation
+  year: 2019
+  venue: IPDPS
+  url: https://doi.org/10.1109/IPDPS.2019.00057
+  authors:
+  - zhaojun-bai
+  - jack-dongarra
 - title: 'Minimax experimental design: Bridging the gap between statistical and worst-case
     approaches to least squares regression'
   year: 2019
@@ -4420,6 +6353,20 @@
   authors:
   - xiaoye-sherry-li
   - james-demmel
+- title: Near Optimal Methods for Minimizing Convex Functions with Lipschitz $p$-th Derivatives
+  year: 2019
+  venue: COLT
+  url: http://proceedings.mlr.press/v99/gasnikov19b.html
+  authors:
+  - yin-tat-lee
+  - aaron-sidford
+- title: Near-optimal method for highly smooth convex optimization
+  year: 2019
+  venue: COLT
+  url: http://proceedings.mlr.press/v99/bubeck19a.html
+  authors:
+  - yin-tat-lee
+  - aaron-sidford
 - title: On Inferences from Completed Data
   year: 2019
   venue: arXiv
@@ -4443,6 +6390,48 @@
   - alice-cortinovis
   - daniel-kressner
   - stefano-massei
+- title: 'PLASMA: Parallel Linear Algebra Software for Multicore Using OpenMP'
+  year: 2019
+  venue: ACM Trans. Math. Softw.
+  url: https://doi.org/10.1145/3264491
+  authors:
+  - jack-dongarra
+  - piotr-luszczek
+- title: ParILUT - A Parallel Threshold ILU for GPUs
+  year: 2019
+  venue: IPDPS
+  url: https://doi.org/10.1109/IPDPS.2019.00033
+  authors:
+  - edmond-chow
+  - jack-dongarra
+- title: Performance of asynchronous optimized Schwarz with one-sided communication
+  year: 2019
+  venue: Parallel Comput.
+  url: https://doi.org/10.1016/j.parco.2019.05.004
+  authors:
+  - edmond-chow
+  - jack-dongarra
+- title: Physics-informed Autoencoders for Lyapunov-stable Fluid Flow Prediction
+  year: 2019
+  venue: CoRR
+  url: http://arxiv.org/abs/1905.10866
+  authors:
+  - benjamin-erichson
+  - michael-mahoney
+- title: 'Quasi-Toeplitz matrix arithmetic: a MATLAB toolbox'
+  year: 2019
+  venue: Numer. Algorithms
+  url: https://doi.org/10.1007/s11075-018-0571-6
+  authors:
+  - stefano-massei
+  - leonardo-robol
+- title: 'RSN: Randomized Subspace Newton'
+  year: 2019
+  venue: NeurIPS
+  url: https://proceedings.neurips.cc/paper/2019/hash/bc6dc48b743dc5d013b1abaebd2faed2-Abstract.html
+  authors:
+  - robert-gower
+  - peter-richtarik
 - title: Randomized Approach to Nonlinear Inversion Combining Random and Optimized Simultaneous
     Sources and Detectors
   year: 2019
@@ -4458,6 +6447,13 @@
   authors:
   - jamie-haddock
   - deanna-needell
+- title: 'Rational Krylov for Stieltjes matrix functions: convergence and pole selection'
+  year: 2019
+  venue: CoRR
+  url: http://arxiv.org/abs/1908.02032
+  authors:
+  - stefano-massei
+  - leonardo-robol
 - title: Reduced Basis Methods for Fractional Laplace Equations via Extension
   year: 2019
   venue: SIAM Journal on Scientific Computing
@@ -4480,6 +6476,27 @@
   authors:
   - theo-mary
   - xiaoye-sherry-li
+- title: 'SGD with Arbitrary Sampling: General Analysis and Improved Rates'
+  year: 2019
+  venue: ICML
+  url: http://proceedings.mlr.press/v97/qian19b.html
+  authors:
+  - peter-richtarik
+  - robert-gower
+- title: 'SGD: General Analysis and Improved Rates'
+  year: 2019
+  venue: CoRR
+  url: http://arxiv.org/abs/1901.09401
+  authors:
+  - robert-gower
+  - peter-richtarik
+- title: Sampled Limited Memory Methods for Massive Linear Inverse Problems
+  year: 2019
+  venue: CoRR
+  url: http://arxiv.org/abs/1912.07962
+  authors:
+  - julianne-chung
+  - matthias-chung
 - title: Sampled Tikhonov regularization for large linear inverse problems
   year: 2019
   venue: Inverse Problems
@@ -4494,12 +6511,33 @@
   authors:
   - shashanka-ubaru
   - yousef-saad
+- title: Shallow Learning for Fluid Flow Reconstruction with Limited Sensors and Limited Data
+  year: 2019
+  venue: CoRR
+  url: http://arxiv.org/abs/1902.07358
+  authors:
+  - benjamin-erichson
+  - michael-mahoney
 - title: Sketching for Motzkin’s Iterative Method for Linear Systems
   year: 2019
   url: https://doi.org/10.1109/ieeeconf44664.2019.9048928
   authors:
   - elizaveta-rebrova
   - deanna-needell
+- title: Software-Defined Events through PAPI
+  year: 2019
+  venue: IPDPS Workshops
+  url: https://doi.org/10.1109/IPDPSW.2019.00069
+  authors:
+  - piotr-luszczek
+  - jack-dongarra
+- title: Solving Linear Programs with Sqrt(rank) Linear System Solves
+  year: 2019
+  venue: CoRR
+  url: http://arxiv.org/abs/1910.08033
+  authors:
+  - yin-tat-lee
+  - aaron-sidford
 - title: Sparse Randomized Kaczmarz for Support Recovery of Jointly Sparse Corrupted Multiple
     Measurement Vectors
   year: 2019
@@ -4538,6 +6576,13 @@
   - joel-tropp
   - madeleine-udell
   - alp-yurtsever
+- title: Strong Coresets for Subspace Approximation and k-Median in Nearly Linear Time
+  year: 2019
+  venue: CoRR
+  url: http://arxiv.org/abs/1912.12003
+  authors:
+  - praneeth-kacham
+  - david-woodruff
 - title: Tensor Graph Convolutional Networks for Prediction on Dynamic Graphs
   year: 2019
   venue: CoRR
@@ -4555,6 +6600,13 @@
   authors:
   - tamas-sarlos
   - david-woodruff
+- title: Variational perspective on local graph clustering
+  year: 2019
+  venue: Math. Program.
+  url: https://doi.org/10.1007/s10107-017-1214-8
+  authors:
+  - fred-roosta
+  - michael-mahoney
 - title: Why Are Big Data Matrices Approximately Low Rank?
   year: 2019
   venue: SIAM J. Math. Data Sci.
@@ -4569,6 +6621,20 @@
   authors:
   - nicholas-higham
   - theo-mary
+- title: A Computational Framework for Two-Dimensional Random Walks With Restarts
+  year: 2020
+  venue: SIAM J. Sci. Comput.
+  url: https://doi.org/10.1137/19M1304362
+  authors:
+  - stefano-massei
+  - leonardo-robol
+- title: A Faster Interior Point Method for Semidefinite Programming
+  year: 2020
+  venue: FOCS
+  url: https://doi.org/10.1109/FOCS46700.2020.00089
+  authors:
+  - yin-tat-lee
+  - swati-padmanabhan
 - title: A Survey of Numerical Methods Utilizing Mixed Precision Arithmetic
   year: 2020
   venue: CoRR
@@ -4593,6 +6659,35 @@
   authors:
   - eric-de-sturler
   - misha-kilmer
+- title: Acceleration with a Ball Optimization Oracle
+  year: 2020
+  venue: NeurIPS
+  url: https://proceedings.neurips.cc/paper/2020/hash/dba4c1a117472f6aca95211285d0587e-Abstract.html
+  authors:
+  - yin-tat-lee
+  - aaron-sidford
+- title: Adversarially-Trained Deep Nets Transfer Better
+  year: 2020
+  venue: CoRR
+  url: https://arxiv.org/abs/2007.05869
+  authors:
+  - benjamin-erichson
+  - michael-mahoney
+- title: An $\widetilde\mathcalO(m/\varepsilon^3.5)$-Cost Algorithm for Semidefinite Programs
+    with Diagonal Constraints
+  year: 2020
+  venue: COLT
+  url: http://proceedings.mlr.press/v125/lee20c.html
+  authors:
+  - yin-tat-lee
+  - swati-padmanabhan
+- title: An Algorithm for Real and Complex Rational Minimax Approximation
+  year: 2020
+  venue: SIAM J. Sci. Comput.
+  url: https://doi.org/10.1137/19M1281897
+  authors:
+  - yuji-nakatsukasa
+  - lloyd-trefethen
 - title: An inner-outer iterative method for edge preservation in image restoration and reconstruction
   year: 2020
   venue: Inverse Problems
@@ -4670,6 +6765,13 @@
   authors:
   - daniel-kressner
   - stefano-massei
+- title: Communication Avoiding 2D Stencil Implementations over PaRSEC Task-Based Runtime
+  year: 2020
+  venue: IPDPS Workshops
+  url: https://doi.org/10.1109/IPDPSW50202.2020.00127
+  authors:
+  - piotr-luszczek
+  - jack-dongarra
 - title: Computational Model of Electrode-Induced Microenvironmental Effects on pH Measurements
     Near a Cell Membrane
   year: 2020
@@ -4685,6 +6787,13 @@
   authors:
   - nicolas-boulle
   - alex-townsend
+- title: Continuous-in-Depth Neural Networks
+  year: 2020
+  venue: CoRR
+  url: https://arxiv.org/abs/2008.02389
+  authors:
+  - benjamin-erichson
+  - michael-mahoney
 - title: Data-driven algorithm selection and tuning in optimization and signal processing
   year: 2020
   venue: Annals of Mathematics and Artificial Intelligence
@@ -4709,6 +6818,13 @@
   authors:
   - michal-derezinski
   - michael-mahoney
+- title: Differentially Private Release of Synthetic Graphs
+  year: 2020
+  venue: SODA
+  url: https://doi.org/10.1137/1.9781611975994.34
+  authors:
+  - michael-kapralov
+  - yin-tat-lee
 - title: Dynamic graph based epidemiological model for COVID-19 contact tracing data analysis
     and optimal testing prescription
   year: 2020
@@ -4732,6 +6848,13 @@
   authors:
   - michael-mahoney
   - miles-lopes
+- title: 'Estimating the Error of Randomized Newton Methods: A Bootstrap Approach'
+  year: 2020
+  venue: ICML
+  url: http://proceedings.mlr.press/v119/chen20o.html
+  authors:
+  - jessie-chen
+  - miles-lopes
 - title: Exact expressions for double descent and implicit regularization via surrogate random
     design
   year: 2020
@@ -4740,6 +6863,13 @@
   authors:
   - michal-derezinski
   - michael-mahoney
+- title: Fast Linear Convergence of Randomized BFGS
+  year: 2020
+  venue: CoRR
+  url: https://arxiv.org/abs/2002.11337
+  authors:
+  - robert-gower
+  - peter-richtarik
 - title: Fast and Space Efficient Spectral Sparsification in Dynamic Streams
   year: 2020
   venue: SODA
@@ -4777,6 +6907,13 @@
   authors:
   - jamie-haddock
   - deanna-needell
+- title: Forecasting Sequential Data Using Consistent Koopman Autoencoders
+  year: 2020
+  venue: ICML
+  url: http://proceedings.mlr.press/v119/azencot20a.html
+  authors:
+  - benjamin-erichson
+  - michael-mahoney
 - title: Fourier Sparse Leverage Scores and Approximate Kernel Learning
   year: 2020
   venue: NeurIPS
@@ -4814,6 +6951,21 @@
   authors:
   - michal-derezinski
   - michael-mahoney
+- title: Improved guarantees and a multiple-descent curve for the Column Subset Selection
+    Problem and the Nyström method
+  year: 2020
+  venue: CoRR
+  url: https://arxiv.org/abs/2002.09073
+  authors:
+  - michal-derezinski
+  - michael-mahoney
+- title: Improving the Performance of the GMRES Method Using Mixed-Precision Techniques
+  year: 2020
+  venue: SMC
+  url: https://doi.org/10.1007/978-3-030-63393-6_4
+  authors:
+  - piotr-luszczek
+  - jack-dongarra
 - title: Integrating Deep Learning in Domain Sciences at Exascale
   year: 2020
   venue: SMC
@@ -4821,6 +6973,20 @@
   authors:
   - edmond-chow
   - jack-dongarra
+- title: Introduction to the Special Issue on SODA'18
+  year: 2020
+  venue: ACM Trans. Algorithms
+  url: https://doi.org/10.1145/3368307
+  authors:
+  - yin-tat-lee
+  - david-woodruff
+- title: 'JumpReLU: A Retrofit Defense Strategy for Adversarial Attacks'
+  year: 2020
+  venue: ICPRAM
+  url: https://doi.org/10.5220/0009316401030114
+  authors:
+  - benjamin-erichson
+  - michael-mahoney
 - title: Krylov Methods for Low-Rank Regularization
   year: 2020
   authors:
@@ -4839,6 +7005,13 @@
   authors:
   - omar-de-la-cruz-cabrera
   - lothar-reichel
+- title: Leverage Score Sampling for Faster Accelerated Regression and ERM
+  year: 2020
+  venue: ALT
+  url: http://proceedings.mlr.press/v117/agarwal20a.html
+  authors:
+  - yin-tat-lee
+  - aaron-sidford
 - title: Linearized Krylov subspace Bregman iteration with nonnegativity constraint
   year: 2020
   venue: Numerical Algorithms
@@ -4921,6 +7094,20 @@
   authors:
   - fred-roosta
   - michael-mahoney
+- title: Noise-response Analysis for Rapid Detection of Backdoors in Deep Neural Networks
+  year: 2020
+  venue: CoRR
+  url: https://arxiv.org/abs/2008.00123
+  authors:
+  - benjamin-erichson
+  - michael-mahoney
+- title: Non-adaptive adaptive sampling on turnstile streams
+  year: 2020
+  venue: STOC
+  url: https://doi.org/10.1145/3357713.3384331
+  authors:
+  - david-woodruff
+  - samson-zhou
 - title: Non-local network dynamics via fractional graph Laplacians
   year: 2020
   venue: J. Complex Networks
@@ -4968,6 +7155,13 @@
   authors:
   - erin-carson
   - zdenek-strakos
+- title: Optimal Deterministic Coresets for Ridge Regression
+  year: 2020
+  venue: AISTATS
+  url: http://proceedings.mlr.press/v108/kacham20a.html
+  authors:
+  - praneeth-kacham
+  - david-woodruff
 - title: Optimality Properties of Galerkin and Petrov–Galerkin Methods for Linear Matrix Equations
   year: 2020
   venue: Vietnam Journal of Mathematics
@@ -4982,6 +7176,13 @@
   authors:
   - omar-de-la-cruz-cabrera
   - lothar-reichel
+- title: Over-parametrized neural networks as under-determined linear systems
+  year: 2020
+  venue: CoRR
+  url: https://arxiv.org/abs/2010.15959
+  authors:
+  - anil-damle
+  - alex-townsend
 - title: Overlaps, Eigenvalue Gaps, and Pseudospectrum under real Ginibre and Absolutely Continuous
     Perturbations
   year: 2020
@@ -4997,6 +7198,13 @@
   authors:
   - rasmus-kyng
   - peng-zhang
+- title: 'Positive semidefinite programming: mixed, parallel, and width-independent'
+  year: 2020
+  venue: STOC
+  url: https://doi.org/10.1145/3357713.3384338
+  authors:
+  - yin-tat-lee
+  - swati-padmanabhan
 - title: 'Precise expressions for random projections: Low-rank approximation and randomized
     Newton'
   year: 2020
@@ -5065,6 +7273,13 @@
   - nicolas-boulle
   - yuji-nakatsukasa
   - alex-townsend
+- title: Replacing Pivoting in Distributed Gaussian Elimination with Randomized Techniques
+  year: 2020
+  venue: ScalA@SC
+  url: https://doi.org/10.1109/ScalA51936.2020.00010
+  authors:
+  - piotr-luszczek
+  - jack-dongarra
 - title: Robust and Sample Optimal Algorithms for PSD Low Rank Approximation
   year: 2020
   venue: FOCS
@@ -5086,6 +7301,13 @@
   authors:
   - edmond-chow
   - daniel-szyld
+- title: Scalable Data Generation for Evaluating Mixed-Precision Solvers
+  year: 2020
+  venue: HPEC
+  url: https://doi.org/10.1109/HPEC43674.2020.9286145
+  authors:
+  - piotr-luszczek
+  - jack-dongarra
 - title: Scalable and Memory-Efficient Kernel Ridge Regression
   year: 2020
   venue: 2020 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
@@ -5115,6 +7337,13 @@
   authors:
   - nicholas-higham
   - theo-mary
+- title: Solving tall dense linear programs in nearly linear time
+  year: 2020
+  venue: STOC
+  url: https://doi.org/10.1145/3357713.3384309
+  authors:
+  - yin-tat-lee
+  - aaron-sidford
 - title: Sparsity Promoting Hybrid Solvers for Hierarchical Bayesian Inverse Problems
   year: 2020
   venue: SIAM Journal on Scientific Computing
@@ -5164,6 +7393,13 @@
   authors:
   - deanna-needell
   - anna-ma
+- title: Strong self-concordance and sampling
+  year: 2020
+  venue: STOC
+  url: https://doi.org/10.1145/3357713.3384272
+  authors:
+  - yin-tat-lee
+  - santosh-vempala
 - title: Tensor-Tensor Products for Optimal Representation and Compression
   year: 2020
   venue: CoRR
@@ -5201,6 +7437,13 @@
   authors:
   - erin-carson
   - nicholas-higham
+- title: Variance-Reduced Methods for Machine Learning
+  year: 2020
+  venue: Proc. IEEE
+  url: https://doi.org/10.1109/JPROC.2020.3028013
+  authors:
+  - robert-gower
+  - peter-richtarik
 - title: Weighted Maximum Independent Set of Geometric Objects in Turnstile Streams
   year: 2020
   venue: APPROX-RANDOM
@@ -5216,6 +7459,13 @@
   - stefano-massei
   - daniel-kressner
   - leonardo-robol
+- title: A Differential Geometry Perspective on Orthogonal Recurrent Models
+  year: 2021
+  venue: CoRR
+  url: https://arxiv.org/abs/2102.09589
+  authors:
+  - benjamin-erichson
+  - michael-mahoney
 - title: A Set of Batched Basic Linear Algebra Subprograms and LAPACK Routines
   year: 2021
   venue: ACM Trans. Math. Softw.
@@ -5264,6 +7514,13 @@
   - cameron-musco
   - christopher-musco
   - david-woodruff
+- title: 'Adversarially-Trained Deep Nets Transfer Better: Illustration on Image Classification'
+  year: 2021
+  venue: ICLR
+  url: https://openreview.net/forum?id=ijJZbomCJIm
+  authors:
+  - benjamin-erichson
+  - michael-mahoney
 - title: Almost-Linear-Time Weighted 𝓁p-Norm Solvers in Slightly Dense Graphs via Sparsification
   year: 2021
   venue: ICALP
@@ -5366,6 +7623,13 @@
   - daniel-kressner
   - stefano-massei
   - davide-palitta
+- title: Compressing Deep ODE-Nets using Basis Function Expansions
+  year: 2021
+  venue: CoRR
+  url: https://arxiv.org/abs/2106.10820
+  authors:
+  - benjamin-erichson
+  - michael-mahoney
 - title: Data-driven Algorithms for signal processing with rational functions
   year: 2021
   venue: CoRR
@@ -5387,6 +7651,13 @@
   authors:
   - deanna-needell
   - elizaveta-rebrova
+- title: Dimensionality Reduction for the Sum-of-Distances Metric
+  year: 2021
+  venue: ICML
+  url: http://proceedings.mlr.press/v139/feng21a.html
+  authors:
+  - praneeth-kacham
+  - david-woodruff
 - title: Dynamic Graph Convolutional Networks Using the Tensor M-Product
   year: 2021
   venue: SDM
@@ -5545,6 +7816,13 @@
   authors:
   - michael-mahoney
   - benjamin-erichson
+- title: 'LocalNewton: Reducing Communication Bottleneck for Distributed Learning'
+  year: 2021
+  venue: CoRR
+  url: https://arxiv.org/abs/2105.07320
+  authors:
+  - michal-derezinski
+  - michael-mahoney
 - title: 'LocalNewton: Reducing communication rounds for distributed learning'
   year: 2021
   venue: UAI
@@ -5574,6 +7852,13 @@
   authors:
   - davide-palitta
   - valeria-simoncini
+- title: Minimum cost flows, MDPs, and ℓ1-regression in nearly linear time for dense instances
+  year: 2021
+  venue: STOC
+  url: https://doi.org/10.1145/3406325.3451108
+  authors:
+  - yin-tat-lee
+  - aaron-sidford
 - title: 'Mining the Mind: Linear Discriminant Analysis of MEG Source Reconstruction Time
     Series Supports Dynamic Changes in Deep Brain Regions During Meditation Sessions'
   year: 2021
@@ -5617,6 +7902,21 @@
   authors:
   - michal-derezinski
   - mert-pilanci
+  - michael-mahoney
+- title: Noise-Response Analysis of Deep Neural Networks Quantifies Robustness and Fingerprints
+    Structural Malware
+  year: 2021
+  venue: SDM
+  url: https://doi.org/10.1137/1.9781611976700.12
+  authors:
+  - benjamin-erichson
+  - michael-mahoney
+- title: Noisy Recurrent Neural Networks
+  year: 2021
+  venue: NeurIPS
+  url: https://proceedings.neurips.cc/paper/2021/hash/29301521774ff3cbd26652b2d5c95996-Abstract.html
+  authors:
+  - benjamin-erichson
   - michael-mahoney
 - title: Non-PSD matrix sketching with applications to regression and optimization
   year: 2021
@@ -5722,6 +8022,20 @@
   authors:
   - yuji-nakatsukasa
   - lloyd-trefethen
+- title: Reduced-Rank Regression with Operator Norm Error
+  year: 2021
+  venue: COLT
+  url: http://proceedings.mlr.press/v134/kacham21a.html
+  authors:
+  - praneeth-kacham
+  - david-woodruff
+- title: 'Reducing isotropy and volume to KLS: an o*(n3ψ2) volume algorithm'
+  year: 2021
+  venue: STOC
+  url: https://doi.org/10.1145/3406325.3451018
+  authors:
+  - yin-tat-lee
+  - santosh-vempala
 - title: Regularization by inexact Krylov methods with applications to blind deblurring
   year: 2021
   authors:
@@ -5742,6 +8056,13 @@
   authors:
   - jamie-haddock
   - deanna-needell
+- title: Separations for Estimating Large Frequency Moments on Data Streams
+  year: 2021
+  venue: ICALP
+  url: https://doi.org/10.4230/LIPIcs.ICALP.2021.112
+  authors:
+  - david-woodruff
+  - samson-zhou
 - title: Simple Heuristics Yield Provable Algorithms for Masked Low-Rank Approximation
   year: 2021
   venue: ITCS
@@ -5788,6 +8109,13 @@
   authors:
   - michal-derezinski
   - michael-mahoney
+- title: Stateful ODE-Nets using Basis Function Expansions
+  year: 2021
+  venue: NeurIPS
+  url: https://proceedings.neurips.cc/paper/2021/hash/b5d62aa6024ab6a65a12c78c4c2d4efc-Abstract.html
+  authors:
+  - benjamin-erichson
+  - michael-mahoney
 - title: Statistical Learning for Best Practices in Tattoo Removal
   year: 2021
   venue: arXiv (Cornell University)
@@ -5809,6 +8137,13 @@
   authors:
   - fred-roosta
   - michael-mahoney
+- title: 'Stochastic quasi-gradient methods: variance reduction via Jacobian sketching'
+  year: 2021
+  venue: Math. Program.
+  url: https://doi.org/10.1007/s10107-020-01506-0
+  authors:
+  - robert-gower
+  - peter-richtarik
 - title: Tensor Random Projection for Low Memory Dimension Reduction
   year: 2021
   venue: CoRR
@@ -5825,6 +8160,28 @@
   - lior-horesh
   - haim-avron
   - elizabeth-newman
+- title: Tight Bounds for Adversarially Robust Streams and Sliding Windows via Difference
+    Estimators
+  year: 2021
+  venue: FOCS
+  url: https://doi.org/10.1109/FOCS52979.2021.00116
+  authors:
+  - david-woodruff
+  - samson-zhou
+- title: 'Translational process: Mathematical software perspective'
+  year: 2021
+  venue: J. Comput. Sci.
+  url: https://doi.org/10.1016/j.jocs.2020.101216
+  authors:
+  - jack-dongarra
+  - piotr-luszczek
+- title: Tutorial on the Robust Interior Point Method
+  year: 2021
+  venue: CoRR
+  url: https://arxiv.org/abs/2108.04734
+  authors:
+  - yin-tat-lee
+  - santosh-vempala
 - title: Vandermonde with Arnoldi
   year: 2021
   venue: SIAM Rev.
@@ -5886,6 +8243,13 @@
   authors:
   - jamie-haddock
   - deanna-needell
+- title: A Slightly Improved Bound for the KLS Constant
+  year: 2022
+  venue: CoRR
+  url: https://doi.org/10.48550/arXiv.2208.11644
+  authors:
+  - yin-tat-lee
+  - santosh-vempala
 - title: A Theory of Quantum Subspace Diagonalization
   year: 2022
   venue: SIAM J. Matrix Anal. Appl.
@@ -5900,6 +8264,21 @@
   authors:
   - nicolas-boulle
   - alex-townsend
+- title: A gradient sampling method with complexity guarantees for Lipschitz functions in
+    high and low dimensions
+  year: 2022
+  venue: NeurIPS
+  url: http://papers.nips.cc/paper_files/paper/2022/hash/2c8d9636f74d0207ff4f65956010f450-Abstract-Conference.html
+  authors:
+  - yin-tat-lee
+  - swati-padmanabhan
+- title: Accelerating Restarted GMRES With Mixed Precision Arithmetic
+  year: 2022
+  venue: IEEE Trans. Parallel Distributed Syst.
+  url: https://doi.org/10.1109/TPDS.2021.3090757
+  authors:
+  - piotr-luszczek
+  - jack-dongarra
 - title: Active Linear Regression for ℓp Norms and Beyond
   year: 2022
   venue: FOCS
@@ -5916,6 +8295,13 @@
   authors:
   - yijun-dong
   - rachel-ward
+- title: Adaptive Sketches for Robust Regression with Importance Sampling
+  year: 2022
+  venue: APPROX/RANDOM
+  url: https://doi.org/10.4230/LIPIcs.APPROX/RANDOM.2022.31
+  authors:
+  - david-woodruff
+  - samson-zhou
 - title: Addressing Irregular Patterns of Matrix Computations on GPUs and Their Impact on
     Applications Powered by Sparse Direct Solvers
   year: 2022
@@ -6018,6 +8404,20 @@
   authors:
   - heather-wilber
   - alex-townsend
+- title: Decomposable Non-Smooth Convex Optimization with Nearly-Linear Gradient Oracle Complexity
+  year: 2022
+  venue: NeurIPS
+  url: http://papers.nips.cc/paper_files/paper/2022/hash/c6a79e139ec4f371701ea8cc9e06018e-Abstract-Conference.html
+  authors:
+  - yin-tat-lee
+  - swati-padmanabhan
+- title: Deep Gaussian process with multitask and transfer learning for performance optimization
+  year: 2022
+  venue: HPEC
+  url: https://doi.org/10.1109/HPEC55821.2022.9926396
+  authors:
+  - piotr-luszczek
+  - jack-dongarra
 - title: Divide-and-Conquer Methods for Functions of Matrices with Banded or Hierarchical
     Low-Rank Structure
   year: 2022
@@ -6027,6 +8427,13 @@
   - alice-cortinovis
   - daniel-kressner
   - stefano-massei
+- title: Doubly Adaptive Scaled Algorithm for Machine Learning Using Second-Order Information
+  year: 2022
+  venue: ICLR
+  url: https://openreview.net/forum?id=HCelXXcSEuH
+  authors:
+  - peter-richtarik
+  - michael-mahoney
 - title: Efficient Quantum Computation of the Fermionic Boundary Operator
   year: 2022
   venue: CoRR
@@ -6060,6 +8467,13 @@
   - anne-greenbaum
   - cameron-musco
   - christopher-musco
+- title: Fast Algorithms for Monotone Lower Subsets of Kronecker Least Squares Problems
+  year: 2022
+  venue: CoRR
+  url: https://doi.org/10.48550/arXiv.2209.05662
+  authors:
+  - osman-asif-malik
+  - akil-narayan
 - title: Fast Regression for Structured Inputs
   year: 2022
   venue: ICLR
@@ -6092,6 +8506,13 @@
   authors:
   - david-bindel
   - xiaoye-sherry-li
+- title: Geodesic Walks in Polytopes
+  year: 2022
+  venue: SIAM J. Comput.
+  url: https://doi.org/10.1137/17m1145999
+  authors:
+  - yin-tat-lee
+  - santosh-vempala
 - title: 'Global Convergence of Hessenberg Shifted QR II: Numerical Stability'
   year: 2022
   venue: CoRR
@@ -6122,6 +8543,13 @@
   authors:
   - stefano-massei
   - daniel-kressner
+- title: 'High-Performance GMRES Multi-Precision Benchmark: Design, Performance, and Challenges'
+  year: 2022
+  venue: PMBS@SC
+  url: https://doi.org/10.1109/PMBS56514.2022.00015
+  authors:
+  - piotr-luszczek
+  - jack-dongarra
 - title: Hybrid Models for Mixed Variables in Bayesian Optimization
   year: 2022
   venue: CoRR
@@ -6180,6 +8608,27 @@
   authors:
   - nicolas-boulle
   - alex-townsend
+- title: Learning continuous models for continuous physics
+  year: 2022
+  venue: CoRR
+  url: https://arxiv.org/abs/2202.08494
+  authors:
+  - benjamin-erichson
+  - michael-mahoney
+- title: Learning-Augmented $k$-means Clustering
+  year: 2022
+  venue: ICLR
+  url: https://openreview.net/forum?id=X8cLTHexYyY
+  authors:
+  - david-woodruff
+  - samson-zhou
+- title: Long Expressive Memory for Sequence Modeling
+  year: 2022
+  venue: ICLR
+  url: https://openreview.net/forum?id=vwj6aUeocyf
+  authors:
+  - benjamin-erichson
+  - michael-mahoney
 - title: Low-rank approximation with 1/ε1/3 matrix-vector products
   year: 2022
   venue: STOC
@@ -6203,6 +8652,20 @@
   authors:
   - diana-halikias
   - alex-townsend
+- title: Memory bounds for the experts problem
+  year: 2022
+  venue: STOC
+  url: https://doi.org/10.1145/3519935.3520069
+  authors:
+  - david-woodruff
+  - samson-zhou
+- title: Mixed Precision Recursive Block Diagonalization for Bivariate Functions of Matrices
+  year: 2022
+  venue: SIAM J. Matrix Anal. Appl.
+  url: https://doi.org/10.1137/21m1407872
+  authors:
+  - stefano-massei
+  - leonardo-robol
 - title: Mixed precision algorithms in numerical linear algebra
   year: 2022
   venue: Acta Numer.
@@ -6210,6 +8673,14 @@
   authors:
   - nicholas-higham
   - theo-mary
+- title: Mixed-Precision Algorithm for Finding Selected Eigenvalues and Eigenvectors of Symmetric
+    and Hermitian Matrices1
+  year: 2022
+  venue: ScalAH@SC
+  url: https://doi.org/10.1109/ScalAH56622.2022.00011
+  authors:
+  - piotr-luszczek
+  - jack-dongarra
 - title: Model Reduction of Linear Dynamical Systems via Balancing for Bayesian Inference
   year: 2022
   venue: Journal of Scientific Computing
@@ -6238,6 +8709,21 @@
   authors:
   - michael-kapralov
   - david-woodruff
+- title: Noisy Feature Mixup
+  year: 2022
+  venue: ICLR
+  url: https://openreview.net/forum?id=vJb4I2ANmy
+  authors:
+  - benjamin-erichson
+  - michael-mahoney
+- title: 'NoisyMix: Boosting Robustness by Combining Data Augmentations, Stability Training,
+    and Noise Injections'
+  year: 2022
+  venue: CoRR
+  url: https://arxiv.org/abs/2202.01263
+  authors:
+  - benjamin-erichson
+  - michael-mahoney
 - title: On Non-Hermitian Positive (Semi)Definite Linear Algebraic Systems Arising from Dissipative
     Hamiltonian DAEs
   year: 2022
@@ -6328,6 +8814,13 @@
   - xiaoye-sherry-li
   - jack-dongarra
   - piotr-luszczek
+- title: Quadrature Sampling of Parametric Models with Bi-fidelity Boosting
+  year: 2022
+  venue: CoRR
+  url: https://doi.org/10.48550/arXiv.2209.05705
+  authors:
+  - osman-asif-malik
+  - akil-narayan
 - title: Quantile-Based Iterative Methods for Corrupted Systems of Linear Equations
   year: 2022
   venue: SIAM Journal on Matrix Analysis and Applications
@@ -6388,6 +8881,27 @@
   authors:
   - deanna-needell
   - robert-gower
+- title: Sampling with Riemannian Hamiltonian Monte Carlo in a Constrained Space
+  year: 2022
+  venue: NeurIPS
+  url: http://papers.nips.cc/paper_files/paper/2022/hash/cdaa7f07b0c5a7803927d20aa717132e-Abstract-Conference.html
+  authors:
+  - yin-tat-lee
+  - santosh-vempala
+- title: Sampling-Based Decomposition Algorithms for Arbitrary Tensor Networks
+  year: 2022
+  venue: CoRR
+  url: https://doi.org/10.48550/arXiv.2210.03828
+  authors:
+  - osman-asif-malik
+  - riley-murray
+- title: Sketching Algorithms and Lower Bounds for Ridge Regression
+  year: 2022
+  venue: ICML
+  url: https://proceedings.mlr.press/v162/kacham22a.html
+  authors:
+  - praneeth-kacham
+  - david-woodruff
 - title: 'SlabLU: A Sparse Direct Solver for Elliptic PDEs on Rectangular Domains'
   year: 2022
   venue: CoRR
@@ -6431,6 +8945,13 @@
   authors:
   - daniela-calvetti
   - erkki-somersalo
+- title: The Manifold Joys of Sampling (Invited Talk)
+  year: 2022
+  venue: ICALP
+  url: https://doi.org/10.4230/LIPIcs.ICALP.2022.4
+  authors:
+  - yin-tat-lee
+  - santosh-vempala
 - title: The Short-Term Rational Lanczos Method and Applications
   year: 2022
   venue: SIAM J. Sci. Comput.
@@ -6439,6 +8960,27 @@
   - davide-palitta
   - stefano-pozza
   - valeria-simoncini
+- title: The White-Box Adversarial Data Stream Model
+  year: 2022
+  venue: PODS
+  url: https://doi.org/10.1145/3517804.3526228
+  authors:
+  - david-woodruff
+  - samson-zhou
+- title: Threshold Pivoting for Dense LU Factorization
+  year: 2022
+  venue: ScalAH@SC
+  url: https://doi.org/10.1109/ScalAH56622.2022.00010
+  authors:
+  - piotr-luszczek
+  - jack-dongarra
+- title: Tight Memory-Independent Parallel Matrix Multiplication Communication Lower Bounds
+  year: 2022
+  venue: CoRR
+  url: https://doi.org/10.48550/arXiv.2205.13407
+  authors:
+  - grey-ballard
+  - laura-grigori
 - title: Towards Quantum Advantage on Noisy Quantum Computers
   year: 2022
   venue: CoRR
@@ -6447,6 +8989,13 @@
   - shashanka-ubaru
   - kenneth-clarkson
   - lior-horesh
+- title: Truly Perfect Samplers for Data Streams and Sliding Windows
+  year: 2022
+  venue: PODS
+  url: https://doi.org/10.1145/3517804.3524139
+  authors:
+  - david-woodruff
+  - samson-zhou
 - title: Two-Commodity Flow Is Equivalent to Linear Programming Under Nearly-Linear Time Reductions
   year: 2022
   venue: ICALP
@@ -6517,6 +9066,14 @@
   - malena-espanol
   - eric-de-sturler
   - silvia-gazzola
+- title: A nested divide-and-conquer method for tensor Sylvester equations with positive definite
+    hierarchically semiseparable coefficients
+  year: 2023
+  venue: CoRR
+  url: https://doi.org/10.48550/arXiv.2301.06781
+  authors:
+  - stefano-massei
+  - leonardo-robol
 - title: A spatially distributed model of brain metabolism highlights the role of diffusion
     in brain energy metabolism
   year: 2023
@@ -6627,6 +9184,14 @@
   authors:
   - nicholas-higham
   - theo-mary
+- title: Combining multitask and transfer learning with deep Gaussian processes for autotuning-based
+    performance engineering
+  year: 2023
+  venue: Int. J. High Perform. Comput. Appl.
+  url: https://doi.org/10.1177/10943420231166365
+  authors:
+  - piotr-luszczek
+  - jack-dongarra
 - title: Computation of the von Neumann entropy of large matrices via trace estimators and
     rational Krylov methods
   year: 2023
@@ -6680,6 +9245,13 @@
   authors:
   - daniela-calvetti
   - erkki-somersalo
+- title: Differentially Private Aggregation via Imperfect Shuffling
+  year: 2023
+  venue: ITC
+  url: https://doi.org/10.4230/LIPIcs.ITC.2023.17
+  authors:
+  - jelani-nelson
+  - samson-zhou
 - title: Dynamic Methods and Learning from the Past
   year: 2023
   venue: Applied mathematical sciences
@@ -6721,6 +9293,13 @@
   authors:
   - benjamin-erichson
   - miles-lopes
+- title: Fast (1+ε)-Approximation Algorithms for Binary Matrix Factorization
+  year: 2023
+  venue: ICML
+  url: https://proceedings.mlr.press/v202/velingker23a.html
+  authors:
+  - david-woodruff
+  - samson-zhou
 - title: Fast Exact Leverage Score Sampling from Khatri-Rao Products with Applications to
     Tensor Decomposition
   year: 2023
@@ -6738,6 +9317,21 @@
   authors:
   - riley-murray
   - james-demmel
+- title: 'Flow-Based Algorithms for Improving Clusters: A Unifying Framework, Software, and
+    Performance'
+  year: 2023
+  venue: SIAM Rev.
+  url: https://doi.org/10.1137/20m1333055
+  authors:
+  - david-gleich
+  - michael-mahoney
+- title: GPU-based LU Factorization and Solve on Batches of Matrices with Band Structure
+  year: 2023
+  venue: SC Workshops
+  url: https://doi.org/10.1145/3624062.3624247
+  authors:
+  - piotr-luszczek
+  - jack-dongarra
 - title: Generalized Private Selection and Testing with High Confidence
   year: 2023
   venue: ITCS
@@ -6871,6 +9465,13 @@
   - anne-greenbaum
   - cameron-musco
   - christopher-musco
+- title: Lower Bounds on Adaptive Sensing for Matrix Recovery
+  year: 2023
+  venue: NeurIPS
+  url: http://papers.nips.cc/paper_files/paper/2023/hash/e258bb98cc032ab6ae9053db453431f7-Abstract-Conference.html
+  authors:
+  - praneeth-kacham
+  - david-woodruff
 - title: 'Matrix Multiplication in Multiword Arithmetic: Error Analysis and Application to
     GPU Tensor Cores'
   year: 2023
@@ -6908,6 +9509,13 @@
   authors:
   - ilse-ipsen
   - arvind-saibaba
+- title: Multi-scale Local Network Structure Critically Impacts Epidemic Spread and Interventions
+  year: 2023
+  venue: CoRR
+  url: https://doi.org/10.48550/arXiv.2312.17351
+  authors:
+  - michael-mahoney
+  - david-gleich
 - title: Near-Linear Sample Complexity for Lp Polynomial Regression
   year: 2023
   venue: SODA
@@ -6917,6 +9525,13 @@
   - cameron-musco
   - christopher-musco
   - david-woodruff
+- title: Near-Optimal k-Clustering in the Sliding Window Model
+  year: 2023
+  venue: NeurIPS
+  url: http://papers.nips.cc/paper_files/paper/2023/hash/476ab8f369e489c04187ba84f68cfa68-Abstract-Conference.html
+  authors:
+  - david-woodruff
+  - samson-zhou
 - title: Near-Optimality Guarantees for Approximating Rational Matrix Functions by the Lanczos
     Method
   year: 2023
@@ -6963,6 +9578,20 @@
   authors:
   - lucas-onisk
   - lothar-reichel
+- title: On Differential Privacy and Adaptive Data Analysis with Bounded Space
+  year: 2023
+  venue: EUROCRYPT (3)
+  url: https://doi.org/10.1007/978-3-031-30620-4_2
+  authors:
+  - david-woodruff
+  - samson-zhou
+- title: 'On Robust Streaming for Learning with Experts: Algorithms and Lower Bounds'
+  year: 2023
+  venue: NeurIPS
+  url: http://papers.nips.cc/paper_files/paper/2023/hash/fb71332951af4ae27fbd457daadc5341-Abstract-Conference.html
+  authors:
+  - david-woodruff
+  - samson-zhou
 - title: On Subsampled Quantile Randomized Kaczmarz
   year: 2023
   venue: 2023 59th Annual Allerton Conference on Communication, Control, and Computing
@@ -6978,6 +9607,13 @@
   authors:
   - daniela-calvetti
   - erkki-somersalo
+- title: Optimal Algorithms for Linear Algebra in the Current Matrix Multiplication Time
+  year: 2023
+  venue: SODA
+  url: https://doi.org/10.1137/1.9781611977554.ch154
+  authors:
+  - david-woodruff
+  - samson-zhou
 - title: Optimal Differentially Private Learning of Thresholds and Quasi-Concave Optimization
   year: 2023
   venue: STOC
@@ -6992,6 +9628,13 @@
   authors:
   - cameron-musco
   - david-woodruff
+- title: 'PAQR: Pivoting Avoiding QR factorization'
+  year: 2023
+  venue: IPDPS
+  url: https://doi.org/10.1109/IPDPS54959.2023.00040
+  authors:
+  - piotr-luszczek
+  - jack-dongarra
 - title: Parallel Memory-Independent Communication Bounds for SYRK
   year: 2023
   venue: SPAA
@@ -7006,6 +9649,13 @@
   authors:
   - daniela-calvetti
   - erkki-somersalo
+- title: Pseudorandom Hashing for Space-bounded Computation with Applications in Streaming
+  year: 2023
+  venue: FOCS
+  url: https://doi.org/10.1109/FOCS57990.2023.00093
+  authors:
+  - praneeth-kacham
+  - david-woodruff
 - title: Pseudospectral Shattering, the Sign Function, and Diagonalization in Nearly Matrix
     Multiplication Time
   year: 2023
@@ -7110,6 +9760,20 @@
   - mirjeta-pasha
   - misha-kilmer
   - eric-de-sturler
+- title: Regularized methods via cubic subspace minimization for nonconvex optimization
+  year: 2023
+  venue: CoRR
+  url: https://doi.org/10.48550/arXiv.2306.14290
+  authors:
+  - davide-palitta
+  - valeria-simoncini
+- title: Robust Algorithms on Adaptive Inputs from Bounded Adversaries
+  year: 2023
+  venue: ICLR
+  url: https://openreview.net/forum?id=I29Kt0RwChs
+  authors:
+  - david-woodruff
+  - samson-zhou
 - title: Robust and Practical Solution of Laplacian Equations by Approximate Elimination
   year: 2023
   venue: CoRR
@@ -7154,6 +9818,13 @@
   authors:
   - anna-yesypenko
   - per-gunnar-martinsson
+- title: 'Sketched and Truncated Polynomial Krylov Subspace Methods: Matrix Equations'
+  year: 2023
+  venue: CoRR
+  url: https://doi.org/10.48550/arXiv.2311.16019
+  authors:
+  - davide-palitta
+  - valeria-simoncini
 - title: 'Sketching Algorithms for Sparse Dictionary Learning: PTAS and Turnstile Streaming'
   year: 2023
   venue: NeurIPS
@@ -7175,6 +9846,13 @@
   authors:
   - tyler-chen
   - thomas-trogdon
+- title: Stable iterative refinement algorithms for solving linear systems
+  year: 2023
+  venue: CoRR
+  url: https://doi.org/10.48550/arXiv.2309.07865
+  authors:
+  - vasileios-kalantzis
+  - lior-horesh
 - title: Stochastic Natural Thresholding Algorithms
   year: 2023
   venue: arXiv
@@ -7182,6 +9860,20 @@
   authors:
   - anna-ma
   - deanna-needell
+- title: 'Streaming Algorithms for Learning with Experts: Deterministic Versus Robust'
+  year: 2023
+  venue: CoRR
+  url: https://doi.org/10.48550/arXiv.2303.01709
+  authors:
+  - david-woodruff
+  - samson-zhou
+- title: Streaming Euclidean k-median and k-means with o(log n) Space
+  year: 2023
+  venue: FOCS
+  url: https://doi.org/10.1109/FOCS57990.2023.00057
+  authors:
+  - david-woodruff
+  - samson-zhou
 - title: Structured Semidefinite Programming for Recovering Structured Preconditioners
   year: 2023
   venue: NeurIPS
@@ -7189,6 +9881,14 @@
   authors:
   - christopher-musco
   - aaron-sidford
+- title: Subquadratic Algorithms for Kernel Matrices via Kernel Density Estimation
+  year: 2023
+  venue: ICLR
+  url: https://openreview.net/forum?id=74A-FDAyiL
+  authors:
+  - ainesh-bakshi
+  - praneeth-kacham
+  - samson-zhou
 - title: Subspace Recycling for Sequences of Shifted Systems with Applications in Image Recovery
   year: 2023
   venue: CoRR
@@ -7196,6 +9896,14 @@
   authors:
   - misha-kilmer
   - eric-de-sturler
+- title: Tensor BM-Decomposition for Compression and Analysis of Spatio-Temporal Third-order
+    Data
+  year: 2023
+  venue: CoRR
+  url: https://doi.org/10.48550/arXiv.2306.09201
+  authors:
+  - fan-tian
+  - misha-kilmer
 - title: The Bit Complexity of Efficient Continuous Optimization
   year: 2023
   venue: FOCS
@@ -7246,6 +9954,20 @@
   authors:
   - jelani-nelson
   - tamas-sarlos
+- title: Unified Analysis of Stochastic Gradient Methods for Composite Convex and Smooth Optimization
+  year: 2023
+  venue: J. Optim. Theory Appl.
+  url: https://doi.org/10.1007/s10957-023-02297-y
+  authors:
+  - robert-gower
+  - peter-richtarik
+- title: Using Additive Modifications in LU Factorization Instead of Pivoting
+  year: 2023
+  venue: ICS
+  url: https://doi.org/10.1145/3577193.3593731
+  authors:
+  - piotr-luszczek
+  - jack-dongarra
 - title: Variable projection methods for separable nonlinear inverse problems with general-form
     Tikhonov regularization
   year: 2023
@@ -7275,6 +9997,21 @@
   - malena-sabate-landman
   - julianne-chung
   - arvind-saibaba
+- title: A Multilinear Nyström Algorithm for Low-Rank Approximation of Tensors in Tucker Format
+  year: 2024
+  venue: SIAM J. Matrix Anal. Appl.
+  url: https://doi.org/10.1137/23m1599343
+  authors:
+  - alberto-bucci
+  - leonardo-robol
+- title: A Parallel Algorithm for Computing Partial Spectral Factorizations of Matrix Pencils
+    via Chebyshev Approximation
+  year: 2024
+  venue: SIAM J. Sci. Comput.
+  url: https://doi.org/10.1137/22m1501155
+  authors:
+  - vasileios-kalantzis
+  - yousef-saad
 - title: A Spectral Approach to Polytope Diameter
   year: 2024
   venue: Discret. Comput. Geom.
@@ -7282,6 +10019,13 @@
   authors:
   - rikhav-shah
   - nikhil-srivastava
+- title: A Strong Separation for Adversarially Robust ℓ0 Estimation for Linear Sketches
+  year: 2024
+  venue: FOCS
+  url: https://doi.org/10.1109/FOCS61266.2024.00136
+  authors:
+  - david-woodruff
+  - samson-zhou
 - title: A joint reconstruction and model selection approach for large-scale linear inverse
     modeling (msHyBR v2)
   year: 2024
@@ -7313,6 +10057,13 @@
   authors:
   - yuji-nakatsukasa
   - lloyd-trefethen
+- title: Adversarially Robust Dense-Sparse Tradeoffs via Heavy-Hitters
+  year: 2024
+  venue: NeurIPS
+  url: http://papers.nips.cc/paper_files/paper/2024/hash/14c00f4bc19a5498982b16647998e894-Abstract-Conference.html
+  authors:
+  - david-woodruff
+  - samson-zhou
 - title: 'Almost-Linear Time Algorithms for Decremental Graphs: Min-Cost Flow and More via
     Duality'
   year: 2024
@@ -7349,6 +10100,14 @@
   authors:
   - shashanka-ubaru
   - lior-horesh
+- title: 'Bayesian D-Optimal Experimental Designs via Column Subset Selection: The Power of
+    Reweighted Sensors'
+  year: 2024
+  venue: CoRR
+  url: https://doi.org/10.48550/arXiv.2402.16000
+  authors:
+  - vishwas-rao
+  - arvind-saibaba
 - title: Communication Lower Bounds and Optimal Algorithms for Multiple Tensor-Times-Matrix
     Computation
   year: 2024
@@ -7364,6 +10123,13 @@
   authors:
   - julianne-chung
   - silvia-gazzola
+- title: Computing Functions of Symmetric Hierarchically Semiseparable Matrices
+  year: 2024
+  venue: SIAM J. Matrix Anal. Appl.
+  url: https://doi.org/10.1137/24m1642354
+  authors:
+  - daniel-kressner
+  - leonardo-robol
 - title: Counting Triangles of Graphs via Matrix Partitioning
   year: 2024
   venue: MLSP
@@ -7371,6 +10137,13 @@
   authors:
   - lior-horesh
   - shashanka-ubaru
+- title: Discrete error dynamics of mini-batch gradient descent for least squares regression
+  year: 2024
+  venue: CoRR
+  url: https://doi.org/10.48550/arXiv.2406.03696
+  authors:
+  - jackie-lok
+  - elizaveta-rebrova
 - title: Distributed Tikhonov regularization for ill-posed inverse problems from a Bayesian
     perspective
   year: 2024
@@ -7513,6 +10286,28 @@
   - tyler-chen
   - anne-greenbaum
   - thomas-trogdon
+- title: Generalizing Random Butterfly Transforms to Arbitrary Matrix Sizes
+  year: 2024
+  venue: ACM Trans. Math. Softw.
+  url: https://doi.org/10.1145/3699714
+  authors:
+  - piotr-luszczek
+  - jack-dongarra
+- title: Generative Modeling of Regular and Irregular Time Series Data via Koopman VAEs
+  year: 2024
+  venue: ICLR
+  url: https://openreview.net/forum?id=eY7sLb0dVF
+  authors:
+  - benjamin-erichson
+  - michael-mahoney
+- title: 'H-CMRH: a novel inner product free hybrid Krylov method for large-scale inverse
+    problems'
+  year: 2024
+  venue: CoRR
+  url: https://doi.org/10.48550/arXiv.2401.06918
+  authors:
+  - malena-sabate-landman
+  - james-nagy
 - title: High-Dimensional Geometric Streaming for Nearly Low Rank Data
   year: 2024
   venue: ICML
@@ -7520,6 +10315,13 @@
   authors:
   - david-woodruff
   - praneeth-kacham
+- title: How to reveal the rank of a matrix?
+  year: 2024
+  venue: CoRR
+  url: https://doi.org/10.48550/arXiv.2405.04330
+  authors:
+  - anil-damle
+  - alex-townsend
 - title: Hybrid Parameter Search and Dynamic Model Selection for Mixed-Variable Bayesian Optimization
   year: 2024
   venue: J. Comput. Graph. Stat.
@@ -7631,6 +10433,13 @@
   - anne-greenbaum
   - cameron-musco
   - christopher-musco
+- title: 'NoisyMix: Boosting Model Robustness to Common Corruptions'
+  year: 2024
+  venue: AISTATS
+  url: https://proceedings.mlr.press/v238/erichson24a.html
+  authors:
+  - benjamin-erichson
+  - michael-mahoney
 - title: Non-smooth Bayesian optimization in tuning scientific applications
   year: 2024
   venue: Int. J. High Perform. Comput. Appl.
@@ -7638,6 +10447,22 @@
   authors:
   - james-demmel
   - xiaoye-sherry-li
+- title: Numerical eigen-spectrum slicing, accurate orthogonal eigen-basis, and mixed-precision
+    eigenvalue refinement using OpenMP data-dependent tasks and accelerator offload
+  year: 2024
+  venue: Int. J. High Perform. Comput. Appl.
+  url: https://doi.org/10.1177/10943420241281050
+  authors:
+  - piotr-luszczek
+  - jack-dongarra
+- title: On Quantum Algorithms for Efficient Solutions of General Classes of Structured Markov
+    Processes
+  year: 2024
+  venue: SIGMETRICS Perform. Evaluation Rev.
+  url: https://doi.org/10.1145/3695411.3695427
+  authors:
+  - vasileios-kalantzis
+  - shashanka-ubaru
 - title: On Regularization via Early Stopping for Least Squares Regression
   year: 2024
   venue: arXiv (Cornell University)
@@ -7645,6 +10470,13 @@
   authors:
   - jackie-lok
   - elizaveta-rebrova
+- title: On Socially Fair Low-Rank Approximation and Column Subset Selection
+  year: 2024
+  venue: NeurIPS
+  url: http://papers.nips.cc/paper_files/paper/2024/hash/a1d2eca2159af6978ff2633454d8db81-Abstract-Conference.html
+  authors:
+  - david-woodruff
+  - samson-zhou
 - title: On a perturbation analysis of Higham squared maximum Gaussian elimination growth
     matrices
   year: 2024
@@ -7691,6 +10523,13 @@
   authors:
   - rasmus-kyng
   - sushant-sachdeva
+- title: Paired Autoencoders for Inverse Problems
+  year: 2024
+  venue: CoRR
+  url: https://doi.org/10.48550/arXiv.2405.13220
+  authors:
+  - matthias-chung
+  - julianne-chung
 - title: Paired autoencoders for likelihood-free estimation in inverse problems
   year: 2024
   venue: Machine Learning Science and Technology
@@ -7698,6 +10537,21 @@
   authors:
   - matthias-chung
   - julianne-chung
+- title: Phi-4 Technical Report
+  year: 2024
+  venue: CoRR
+  url: https://doi.org/10.48550/arXiv.2412.08905
+  authors:
+  - yin-tat-lee
+  - rachel-ward
+- title: 'Private Vector Mean Estimation in the Shuffle Model: Optimal Rates Require Many
+    Messages'
+  year: 2024
+  venue: ICML
+  url: https://proceedings.mlr.press/v235/asi24a.html
+  authors:
+  - jelani-nelson
+  - samson-zhou
 - title: Randomized Kaczmarz with tail averaging
   year: 2024
   venue: CoRR
@@ -7720,6 +10574,21 @@
   authors:
   - michal-derezinski
   - michael-mahoney
+- title: Reduced Order Modeling for Thermal Simulations of Electric Components With Surface-to-Surface
+    Radiation
+  year: 2024
+  venue: IEEE Access
+  url: https://doi.org/10.1109/ACCESS.2024.3507367
+  authors:
+  - stefano-massei
+  - leonardo-robol
+- title: Robustifying State-space Models for Long Sequences via Approximate Diagonalization
+  year: 2024
+  venue: ICLR
+  url: https://openreview.net/forum?id=DjeQ39QoLQ
+  authors:
+  - michael-mahoney
+  - benjamin-erichson
 - title: 'SALSA: Sequential Approximate Leverage-Score Algorithm with Application in Analyzing
     Big Time Series Data'
   year: 2024
@@ -7829,6 +10698,15 @@
   authors:
   - erkki-somersalo
   - daniela-calvetti
+- title: Speeding Up Krylov Subspace Methods for Computing \(\boldsymbol{{f}(A){b}}\) via
+    Randomization
+  year: 2024
+  venue: SIAM J. Matrix Anal. Appl.
+  url: https://doi.org/10.1137/22m1543458
+  authors:
+  - alice-cortinovis
+  - daniel-kressner
+  - yuji-nakatsukasa
 - title: Speeding Up Krylov Subspace Methods for Computing f(A)b via Randomization
   year: 2024
   venue: SIAM J. Matrix Anal. Appl.
@@ -7853,6 +10731,21 @@
   authors:
   - petros-drineas
   - ilse-ipsen
+- title: Stochastic gradient descent for streaming linear and rectified linear systems with
+    Massart noise
+  year: 2024
+  venue: CoRR
+  url: https://doi.org/10.48550/arXiv.2403.01204
+  authors:
+  - deanna-needell
+  - elizaveta-rebrova
+- title: Streaming Algorithms with Few State Changes
+  year: 2024
+  venue: Proc. ACM Manag. Data
+  url: https://doi.org/10.1145/3651145
+  authors:
+  - david-woodruff
+  - samson-zhou
 - title: Structured matrix recovery from matrix-vector products
   year: 2024
   venue: Numer. Linear Algebra Appl.
@@ -7867,6 +10760,13 @@
   authors:
   - petros-drineas
   - cameron-musco
+- title: Subsampling of Parametric Models with Bifidelity Boosting
+  year: 2024
+  venue: SIAM/ASA J. Uncertain. Quantification
+  url: https://doi.org/10.1137/22m1524989
+  authors:
+  - osman-asif-malik
+  - akil-narayan
 - title: Symmetric Pseudospectral Shattering and Fast Divide-and-Conquer for the Definite
     Generalized Eigenvalue Problem
   year: 2024
@@ -7894,6 +10794,13 @@
   authors:
   - daniela-calvetti
   - erkki-somersalo
+- title: There is HOPE to Avoid HiPPOs for Long-memory State Space Models
+  year: 2024
+  venue: CoRR
+  url: https://doi.org/10.48550/arXiv.2405.13975
+  authors:
+  - michael-mahoney
+  - benjamin-erichson
 - title: Topological data analysis on noisy quantum computers
   year: 2024
   venue: ICLR
@@ -7938,6 +10845,14 @@
   - cameron-musco
   - sushant-sachdeva
   - david-woodruff
+- title: 'WaveCastNet: An AI-enabled Wavefield Forecasting Framework for Earthquake Early
+    Warning'
+  year: 2024
+  venue: CoRR
+  url: https://doi.org/10.48550/arXiv.2405.20516
+  authors:
+  - michael-mahoney
+  - benjamin-erichson
 - title: 'XTrace: Making the Most of Every Sample in Stochastic Trace Estimation'
   year: 2024
   venue: SIAM J. Matrix Anal. Appl.
@@ -8021,6 +10936,14 @@
   authors:
   - anna-yesypenko
   - per-gunnar-martinsson
+- title: A tensor-based dynamic mode decomposition based on the ⋆M-product
+  year: 2025
+  venue: CoRR
+  url: https://doi.org/10.48550/arXiv.2508.10126
+  authors:
+  - arvind-saibaba
+  - misha-kilmer
+  - fan-tian
 - title: A time-frequency method for acoustic scattering with trapping
   year: 2025
   venue: CoRR
@@ -8153,6 +11076,13 @@
   - daniel-kressner
   - heather-wilber
   note: with Bernhard Beckermann (not in roster)
+- title: Computation of Zolotarev Rational Functions
+  year: 2025
+  venue: SIAM J. Sci. Comput.
+  url: https://doi.org/10.1137/24m1687960
+  authors:
+  - lloyd-trefethen
+  - heather-wilber
 - title: 'Correction: Regularized methods via cubic model subspace minimization for nonconvex
     optimization'
   year: 2025
@@ -8229,6 +11159,13 @@
   authors:
   - lior-horesh
   - malik-magdon-ismail
+- title: Error formulas for block rational Krylov approximations of matrix functions
+  year: 2025
+  venue: CoRR
+  url: https://doi.org/10.48550/arXiv.2504.05151
+  authors:
+  - stefano-massei
+  - leonardo-robol
 - title: Eulerian Graph Sparsification by Effective Resistance Decomposition
   year: 2025
   venue: SODA
@@ -8244,6 +11181,13 @@
   authors:
   - james-demmel
   - xiaoye-sherry-li
+- title: 'FLEX: A Backbone for Diffusion-Based Modeling of Spatio-temporal Physical Systems'
+  year: 2025
+  venue: CoRR
+  url: https://doi.org/10.48550/arXiv.2505.17351
+  authors:
+  - benjamin-erichson
+  - michael-mahoney
 - title: Fast Linear Solvers via AI-Tuned Markov Chain Monte Carlo-based Matrix Inversion
   year: 2025
   venue: SC Workshops
@@ -8268,6 +11212,13 @@
   authors:
   - deanna-needell
   - elizaveta-rebrova
+- title: Fast, Space-Optimal Streaming Algorithms for Clustering and Subspace Embeddings
+  year: 2025
+  venue: CoRR
+  url: https://doi.org/10.48550/arXiv.2504.16229
+  authors:
+  - david-woodruff
+  - samson-zhou
 - title: Faster Linear Algebra Algorithms with Structured Random Matrices
   year: 2025
   venue: CoRR
@@ -8307,6 +11258,13 @@
   authors:
   - lucas-onisk
   - lothar-reichel
+- title: Gated Recurrent Neural Networks with Weighted Time-Delay Feedback
+  year: 2025
+  venue: AISTATS
+  url: https://proceedings.mlr.press/v258/erichson25a.html
+  authors:
+  - benjamin-erichson
+  - michael-mahoney
 - title: Generalized Flow in Nearly-linear Time on Moderately Dense Graphs
   year: 2025
   venue: FOCS
@@ -8341,6 +11299,28 @@
   authors:
   - malena-sabate-landman
   - james-nagy
+- title: HOPE for a Robust Parameterization of Long-memory State Space Models
+  year: 2025
+  venue: ICLR
+  url: https://openreview.net/forum?id=RZwtbg3qYD
+  authors:
+  - michael-mahoney
+  - benjamin-erichson
+- title: HPC-Driven Modeling with ML-Based Surrogates for Magnon-Photon Dynamics in Hybrid
+    Quantum Systems
+  year: 2025
+  venue: CoRR
+  url: https://doi.org/10.48550/arXiv.2510.22221
+  authors:
+  - michael-mahoney
+  - benjamin-erichson
+- title: Improved Analysis of Khatri-Rao Random Projections and Applications
+  year: 2025
+  venue: CoRR
+  url: https://doi.org/10.48550/arXiv.2507.23207
+  authors:
+  - arvind-saibaba
+  - grey-ballard
 - title: Improved Spectral Density Estimation via Explicit and Implicit Deflation
   year: 2025
   venue: SODA
@@ -8386,6 +11366,20 @@
   - ravindran-kannan
   - david-woodruff
   - praneeth-kacham
+- title: 'Lifting Linear Sketches: Optimal Bounds and Adversarial Robustness'
+  year: 2025
+  venue: STOC
+  url: https://doi.org/10.1145/3717823.3718227
+  authors:
+  - david-woodruff
+  - samson-zhou
+- title: Linear Complexity ℋ2 Direct Solver for Fine-Grained Parallel Architectures
+  year: 2025
+  venue: CoRR
+  url: https://doi.org/10.48550/arXiv.2509.11152
+  authors:
+  - xiaoye-sherry-li
+  - george-turkiyyah
 - title: Low-Rank Approximation of Parameter-Dependent Matrices via CUR Decomposition
   year: 2025
   venue: SIAM J. Sci. Comput.
@@ -8393,6 +11387,13 @@
   authors:
   - taejun-park
   - yuji-nakatsukasa
+- title: Many (most?) column subset selection criteria are NP hard
+  year: 2025
+  venue: CoRR
+  url: https://doi.org/10.48550/arXiv.2511.02740
+  authors:
+  - ilse-ipsen
+  - arvind-saibaba
 - title: Many (most?) column subset selection criteria are NP hard for a few columns
   year: 2025
   venue: arXiv
@@ -8400,6 +11401,13 @@
   authors:
   - ilse-ipsen
   - arvind-saibaba
+- title: 'MatterChat: A Multi-Modal LLM for Material Science'
+  year: 2025
+  venue: CoRR
+  url: https://doi.org/10.48550/arXiv.2502.13107
+  authors:
+  - benjamin-erichson
+  - michael-mahoney
 - title: Maximum Flow and Minimum-Cost Flow in Almost-Linear Time
   year: 2025
   venue: J. ACM
@@ -8449,6 +11457,13 @@
   - cameron-musco
   - christopher-musco
   - david-persson
+- title: Nearly Space-Optimal Graph and Hypergraph Sparsification in Insertion-Only Data Streams
+  year: 2025
+  venue: CoRR
+  url: https://doi.org/10.48550/arXiv.2510.18180
+  authors:
+  - david-woodruff
+  - samson-zhou
 - title: 'Nested Dissection Meets IPMs: Planar Min-Cost Flow in Nearly-Linear Time'
   year: 2025
   venue: J. ACM
@@ -8457,6 +11472,13 @@
   - sushant-sachdeva
   - richard-peng
   - yin-tat-lee
+- title: New flexible and inexact Golub-Kahan algorithms for inverse problems
+  year: 2025
+  venue: CoRR
+  url: https://doi.org/10.48550/arXiv.2510.18865
+  authors:
+  - malena-sabate-landman
+  - silvia-gazzola
 - title: Numerical Stability of the Nyström Method
   year: 2025
   venue: CoRR
@@ -8465,6 +11487,13 @@
   - alberto-bucci
   - yuji-nakatsukasa
   - taejun-park
+- title: On Fine-Grained Distinct Element Estimation
+  year: 2025
+  venue: ICML
+  url: https://proceedings.mlr.press/v267/diakonikolas25d.html
+  authors:
+  - david-woodruff
+  - samson-zhou
 - title: On the randomized SVD in infinite dimensions
   year: 2025
   venue: CoRR
@@ -8500,6 +11529,14 @@
   authors:
   - xiaoye-sherry-li
   - james-demmel
+- title: Parametric Hierarchical Matrix Approximations to Kernel Matrices
+  year: 2025
+  venue: CoRR
+  url: https://doi.org/10.48550/arXiv.2511.03109
+  authors:
+  - abraham-khan
+  - vishwas-rao
+  - arvind-saibaba
 - title: Parametric Kernel Low-Rank Approximations Using Tensor Train Decomposition
   year: 2025
   venue: SIAM Journal on Matrix Analysis and Applications
@@ -8507,6 +11544,20 @@
   authors:
   - abraham-khan
   - arvind-saibaba
+- title: Perfect Lp Sampling with Polylogarithmic Update Time
+  year: 2025
+  venue: FOCS
+  url: https://doi.org/10.1109/FOCS63196.2025.00103
+  authors:
+  - david-woodruff
+  - samson-zhou
+- title: Perfect Sampling in Turnstile Streams Beyond Small Moments
+  year: 2025
+  venue: Proc. ACM Manag. Data
+  url: https://doi.org/10.1145/3725243
+  authors:
+  - david-woodruff
+  - samson-zhou
 - title: Power iteration with probabilistic updates for systems with heterogeneous performance
   year: 2025
   venue: HPEC
@@ -8515,6 +11566,21 @@
   - lior-horesh
   - shashanka-ubaru
   - vasileios-kalantzis
+- title: 'Powerformer: A Transformer with Weighted Causal Attention for Time-series Forecasting'
+  year: 2025
+  venue: CoRR
+  url: https://doi.org/10.48550/arXiv.2502.06151
+  authors:
+  - michael-mahoney
+  - benjamin-erichson
+- title: Preconditioned Low-Rank Riemannian Optimization for Symmetric Positive Definite Linear
+    Matrix Equations
+  year: 2025
+  venue: SIAM J. Sci. Comput.
+  url: https://doi.org/10.1137/24m1688540
+  authors:
+  - daniel-kressner
+  - leonardo-robol
 - title: Projected iterated Tikhonov in general form with adaptive choice of the regularization
     parameter
   year: 2025
@@ -8525,6 +11591,34 @@
   - mirjeta-pasha
   - lothar-reichel
   - silvia-gazzola
+- title: Projected iterated Tikhonov regularization in low precision
+  year: 2025
+  venue: CoRR
+  url: https://doi.org/10.48550/arXiv.2512.00669
+  authors:
+  - james-nagy
+  - lucas-onisk
+- title: Quantile Randomized Kaczmarz with Time-Varying Noise in Signal
+  year: 2025
+  venue: IEEECONF
+  url: https://doi.org/10.1109/IEEECONF67917.2025.11443641
+  authors:
+  - emeric-battaglia
+  - anna-ma
+- title: Quantile-Based Randomized Kaczmarz for Corrupted Tensor Linear Systems
+  year: 2025
+  venue: CoRR
+  url: https://doi.org/10.48550/arXiv.2503.18190
+  authors:
+  - jamie-haddock
+  - deanna-needell
+- title: Quantile-RK and Double Quantile-RK Error Horizon Analysis
+  year: 2025
+  venue: CoRR
+  url: https://doi.org/10.48550/arXiv.2505.00258
+  authors:
+  - emeric-battaglia
+  - anna-ma
 - title: Query Efficient Structured Matrix Learning
   year: 2025
   venue: CoRR
@@ -8535,6 +11629,14 @@
   - cameron-musco
   - christopher-musco
   - david-persson
+- title: Random-sketching Techniques to Enhance the Numerically Stability of Block Orthogonalization
+    Algorithms for s-step GMRES
+  year: 2025
+  venue: CoRR
+  url: https://doi.org/10.48550/arXiv.2503.16717
+  authors:
+  - andrew-higgins
+  - daniel-szyld
 - title: Randomized Algorithms for Low-Rank Matrix and Tensor Decompositions
   year: 2025
   venue: CoRR
@@ -8683,6 +11785,13 @@
   authors:
   - davide-palitta
   - valeria-simoncini
+- title: Removing Watermarks with Partial Regeneration using Semantic Information
+  year: 2025
+  venue: CoRR
+  url: https://doi.org/10.48550/arXiv.2505.08234
+  authors:
+  - benjamin-erichson
+  - michael-mahoney
 - title: Reverse Quantile-RK and Its Application to Quantile-RK
   year: 2025
   venue: Numerical Linear Algebra with Applications
@@ -8698,6 +11807,14 @@
   - yijun-dong
   - per-gunnar-martinsson
   - katherine-pearce
+- title: Scientific Applications Leveraging Randomized Linear Algebra
+  year: 2025
+  venue: CoRR
+  url: https://doi.org/10.48550/arXiv.2506.16457
+  authors:
+  - vivak-patel
+  - vishwas-rao
+  - elizaveta-rebrova
 - title: Separable hierarchical priors applied to analysis of synergies in human locomotion
   year: 2025
   venue: Philosophical Transactions of the Royal Society A Mathematical Physical and Engineering
@@ -8735,6 +11852,13 @@
   authors:
   - jelani-nelson
   - david-woodruff
+- title: Spotlight inversion by orthogonal projections
+  year: 2025
+  venue: CoRR
+  url: https://doi.org/10.48550/arXiv.2509.15512
+  authors:
+  - daniela-calvetti
+  - erkki-somersalo
 - title: Stable Rank and Intrinsic Dimension of Real and Complex Matrices
   year: 2025
   venue: SIAM Journal on Matrix Analysis and Applications
@@ -8797,6 +11921,13 @@
   authors:
   - jackie-lok
   - elizaveta-rebrova
+- title: 'SuperBench: A Super-Resolution Benchmark Dataset for Scientific Machine Learning'
+  year: 2025
+  venue: J. Data-centric Mach. Learn. Res.
+  url: https://data.mlr.press/assets/pdf/v02-8.pdf
+  authors:
+  - benjamin-erichson
+  - michael-mahoney
 - title: Superfast Direct Inversion of the Nonuniform Discrete Fourier Transform via Hierarchically
     Semiseparable Least Squares
   year: 2025
@@ -8822,6 +11953,13 @@
   authors:
   - shashanka-ubaru
   - lior-horesh
+- title: S⊤S-SVD and the Nearest Sketched Orthogonal Matrix
+  year: 2025
+  venue: CoRR
+  url: https://doi.org/10.48550/arXiv.2505.23582
+  authors:
+  - davide-palitta
+  - valeria-simoncini
 - title: 'TRIPs-Py: Techniques for regularization of inverse problems in python'
   year: 2025
   authors:
@@ -8863,6 +12001,13 @@
   - david-persson
   - christopher-musco
   - robert-gower
+- title: The Stability of Block Eliminations and Additive Modifications
+  year: 2025
+  venue: CoRR
+  url: https://doi.org/10.48550/arXiv.2509.07305
+  authors:
+  - piotr-luszczek
+  - jack-dongarra
 - title: Transformers Learn Faster with Semantic Focus
   year: 2025
   venue: CoRR
@@ -8870,6 +12015,13 @@
   authors:
   - kenneth-clarkson
   - shashanka-ubaru
+- title: Tuning Frequency Bias of State Space Models
+  year: 2025
+  venue: ICLR
+  url: https://openreview.net/forum?id=wkHcXDv7cv
+  authors:
+  - michael-mahoney
+  - benjamin-erichson
 - title: Turbocharging Gaussian Process Inference with Approximate Sketch-and-Project
   year: 2025
   venue: NeurIPS
@@ -8884,6 +12036,13 @@
   authors:
   - raphael-meyer
   - david-woodruff
+- title: A Majorization-Minimization with Monte Carlo Approach for Hyperparameter Estimation
+  year: 2026
+  venue: CoRR
+  url: https://doi.org/10.48550/arXiv.2605.13620
+  authors:
+  - julianne-chung
+  - arvind-saibaba
 - title: A Paired Autoencoder Framework for Inverse Problems via Bayes Risk Minimization
   year: 2026
   venue: SIAM Journal on Scientific Computing
@@ -8924,6 +12083,13 @@
   year: 2026
   venue: CoRR
   url: https://doi.org/10.48550/arXiv.2602.03837
+  authors:
+  - david-woodruff
+  - samson-zhou
+- title: Active Learning with Low-Rank Structure for Data Selection
+  year: 2026
+  venue: CoRR
+  url: https://doi.org/10.48550/arXiv.2606.16045
   authors:
   - david-woodruff
   - samson-zhou
@@ -9049,6 +12215,14 @@
   authors:
   - david-woodruff
   - samson-zhou
+- title: 'Correction to: Randomized Strong Recursive Skeletonization: Simultaneous Compression
+    and LU Factorization of Hierarchical Matrices using Matrix-Vector Products'
+  year: 2026
+  venue: J. Sci. Comput.
+  url: https://doi.org/10.1007/s10915-026-03299-4
+  authors:
+  - anna-yesypenko
+  - per-gunnar-martinsson
 - title: Counting Triangles of Graphs via Randomized Trace Estimation with Incomplete Matrix-Vector
     Products
   year: 2026
@@ -9117,6 +12291,13 @@
   authors:
   - igor-simunec
   - michele-benzi
+- title: Fast algorithms for least squares problems with Kronecker lower subsets
+  year: 2026
+  venue: J. Sci. Comput.
+  url: https://doi.org/10.1007/s10915-026-03224-9
+  authors:
+  - osman-asif-malik
+  - akil-narayan
 - title: Fast and inverse-free algorithms for deflating subspaces
   year: 2026
   authors:
@@ -9183,6 +12364,21 @@
   authors:
   - george-turkiyyah
   - edmond-chow
+- title: 'HPL-MxP benchmark: Mixed-precision algorithms, iterative refinement, and scalable
+    data generation'
+  year: 2026
+  venue: Int. J. High Perform. Comput. Appl.
+  url: https://doi.org/10.1177/10943420251382476
+  authors:
+  - jack-dongarra
+  - piotr-luszczek
+- title: High-Performance Star-M SVD for Big Data Compression
+  year: 2026
+  venue: CoRR
+  url: https://doi.org/10.48550/arXiv.2605.16058
+  authors:
+  - grey-ballard
+  - vishwas-rao
 - title: Hutchinson's Estimator is Bad at Kronecker-Trace-Estimation
   year: 2026
   venue: SIAM J. Matrix Anal. Appl.
@@ -9205,6 +12401,13 @@
   authors:
   - lior-horesh
   - vasileios-kalantzis
+- title: Is Flow Matching Just Trajectory Replay for Sequential Data?
+  year: 2026
+  venue: CoRR
+  url: https://doi.org/10.48550/arXiv.2602.08318
+  authors:
+  - michael-mahoney
+  - benjamin-erichson
 - title: Latent Space Inference via Paired Autoencoders
   year: 2026
   venue: arXiv
@@ -9242,6 +12445,13 @@
   authors:
   - david-woodruff
   - samson-zhou
+- title: Mixed Precision Iterative Refinement for Linear Inverse Problems
+  year: 2026
+  venue: SIAM J. Matrix Anal. Appl.
+  url: https://doi.org/10.1137/24m1703756
+  authors:
+  - james-nagy
+  - lucas-onisk
 - title: Nonlinear RMM-GKS for Large-Scale Dynamic and Streaming Inverse Problems with Uncertain
     Forward Operators
   year: 2026
@@ -9306,6 +12516,21 @@
   - lior-horesh
   - haim-avron
   - vasileios-kalantzis
+- title: 'PRISM: Distribution-free Adaptive Computation of Matrix Functions for Accelerating
+    Neural Network Training'
+  year: 2026
+  venue: CoRR
+  url: https://doi.org/10.48550/arXiv.2601.22137
+  authors:
+  - benjamin-erichson
+  - michael-mahoney
+- title: Quantifying Epistemic Uncertainty in Diffusion Models
+  year: 2026
+  venue: CoRR
+  url: https://doi.org/10.48550/arXiv.2602.09170
+  authors:
+  - raphael-meyer
+  - benjamin-erichson
 - title: Quasi-optimal Hierarchically Semi-separable Matrix Approximation
   year: 2026
   venue: SIAM J. Matrix Anal. Appl.
@@ -9325,6 +12550,14 @@
   authors:
   - andrew-higgins
   - daniel-szyld
+- title: Randomized Flexible LSQR and LSMR with applications to inverse problems
+  year: 2026
+  venue: CoRR
+  url: https://doi.org/10.48550/arXiv.2605.22281
+  authors:
+  - alberto-bucci
+  - silvia-gazzola
+  - leonardo-robol
 - title: 'Randomized Strong Recursive Skeletonization: Simultaneous Compression and LU Factorization
     of Hierarchical Matrices using Matrix-Vector Products'
   year: 2026
@@ -9449,6 +12682,13 @@
   authors:
   - linkai-ma
   - petros-drineas
+- title: Structure-Informed Bounds on the Kronecker Rank of Block-Structured Matrices
+  year: 2026
+  venue: CoRR
+  url: https://doi.org/10.48550/arXiv.2605.30908
+  authors:
+  - malena-espanol
+  - misha-kilmer
 - title: Sublinear Time Low-Rank Approximation of Hankel Matrices
   year: 2026
   venue: SODA
@@ -9510,6 +12750,13 @@
   authors:
   - diana-halikias
   - alex-townsend
+- title: 'Zatom-1: A Multimodal Flow Foundation Model for 3D Molecules and Materials'
+  year: 2026
+  venue: CoRR
+  url: https://doi.org/10.48550/arXiv.2602.22251
+  authors:
+  - benjamin-erichson
+  - michael-mahoney
 - title: '\({\mathcal{H}^{2}}\)-MG: A Multigrid Method for Hierarchical Rank Structured Matrices'
   year: 2026
   venue: SIAM J. Sci. Comput.
