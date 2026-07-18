@@ -155,7 +155,7 @@ people:
         year: 2025
         venue: "CoRR"
         url: "https://doi.org/10.48550/arXiv.2502.17767"
-        authors: [anne-greenbaum]
+        authors: [ethan-epperly, anne-greenbaum, yuji-nakatsukasa]
 
   - id: thomas-trogdon
     website: "https://faculty.washington.edu/trogdon/"
@@ -218,7 +218,9 @@ people:
   - id: yousef-saad
     website: "https://www-users.cse.umn.edu/~saad/"
     photo: "https://cse.umn.edu/sites/cse.umn.edu/files/styles/webp_scaled/public/Saad_Yousef.jpg.webp?itok=RN_Lbzrf"
-    advising: []
+    advising:
+      - {advisor: yousef-saad, student: shashanka-ubaru, kind: phd}
+      - {advisor: yousef-saad, student: edmond-chow, kind: phd}
     papers:
       - title: "Non-Hermitian Eigenvalue Problems"
         year: 2000
@@ -338,6 +340,7 @@ people:
     photo: "https://people.eecs.berkeley.edu/~demmel/Jim_Demmel_Oct2022.jpg"
     advising:
       - {advisor: james-demmel, student: erin-carson, kind: phd}
+      - {advisor: james-demmel, student: david-bindel, kind: phd}
     papers:
       - title: "Generalized Pseudospectral Shattering and Inverse-Free Matrix Pencil Diagonalization"
         year: 2026
@@ -431,6 +434,7 @@ people:
     photo: "https://www.karlin.mff.cuni.cz/~carson/erin2022a.jpg"
     advising:
       - {advisor: james-demmel, student: erin-carson, kind: phd}
+      - {advisor: erin-carson, student: ieva-dauzickaite, kind: postdoc}
     papers:
       - title: "70 years of Krylov subspace methods: The journey continues"
         year: 2022
@@ -529,3 +533,147 @@ people:
         venue: "SIAM J. Matrix Anal. Appl."
         url: "https://doi.org/10.1137/090774999"
         authors: [yuji-nakatsukasa, zhaojun-bai]
+
+  - id: julien-langou
+    website: "https://clas.ucdenver.edu/mathematical-and-statistical-sciences/julien-langou"
+    photo: "https://clas.ucdenver.edu/mathematical-and-statistical-sciences/sites/default/files/styles/small/public/people/langou.png?itok=kooKvef1"
+    advising: []
+    papers:
+      - title: "Recent Advances in Dense Linear Algebra: Minisymposium Abstract"
+        year: 2006
+        venue: "PARA"
+        url: "https://doi.org/10.1007/978-3-540-75755-9_14"
+        authors: [daniel-kressner, julien-langou]
+      - title: "2024 NSF CSSI-Cybertraining-SCIPE PI Meeting August 12 to 13, 2024, Charlotte, NC"
+        year: 2025
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2507.04171"
+        authors: [julien-langou, vivak-patel]
+
+  - id: david-bindel
+    website: "https://www.cs.cornell.edu/~bindel/"
+    photo: "https://www.cs.cornell.edu/~bindel/pic/Bush-06.jpg"
+    advising:
+      - {advisor: james-demmel, student: david-bindel, kind: phd}
+    papers:
+      - title: "On computing givens rotations reliably and efficiently"
+        year: 2002
+        venue: "ACM Trans. Math. Softw."
+        url: "https://doi.org/10.1145/567806.567809"
+        authors: [david-bindel, james-demmel]
+
+  - id: edmond-chow
+    website: "https://faculty.cc.gatech.edu/~echow/"
+    photo: "https://faculty.cc.gatech.edu/~echow/color2001.jpg"
+    advising:
+      - {advisor: yousef-saad, student: edmond-chow, kind: phd}
+    papers:
+      - title: "Asynchronous Richardson iterations: theory and practice"
+        year: 2021
+        venue: "Numer. Algorithms"
+        url: "https://doi.org/10.1007/s11075-020-01023-3"
+        authors: [edmond-chow, daniel-szyld]
+      - title: "H2-MG: A Multigrid Method for Hierarchical Rank Structured Matrices"
+        year: 2026
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/24m171944x"
+        authors: [george-turkiyyah, edmond-chow]
+
+  - id: eric-de-sturler
+    website: "https://math.vt.edu/people/faculty/desturler-eric.html"
+    photo: "https://math.vt.edu/content/math_vt_edu/en/people/faculty/desturler-eric/_jcr_content/bio-image.img.jpg"
+    advising: []
+    papers:
+      - title: "Randomized approaches to accelerate MCMC algorithms for Bayesian inverse problems"
+        year: 2021
+        venue: "J. Comput. Phys."
+        url: "https://doi.org/10.1016/j.jcp.2021.110391"
+        authors: [arvind-saibaba, eric-de-sturler, misha-kilmer]
+      - title: "Nonlinear Parametric Inversion Using Interpolatory Model Reduction"
+        year: 2015
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/130946320"
+        authors: [eric-de-sturler, misha-kilmer, christopher-beattie]
+      - title: "Block-Diagonal and Constraint Preconditioners for Nonsymmetric Indefinite Linear Systems. Part I: Theory"
+        year: 2005
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/S1064827502411006"
+        authors: [eric-de-sturler, jorg-liesen]
+      - title: "Hybrid Projection Methods with Recycling for Inverse Problems"
+        year: 2021
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/20M1349515"
+        authors: [julianne-chung, eric-de-sturler]
+      - title: "Recycling Krylov subspaces for CFD applications and a new hybrid recycling solver"
+        year: 2015
+        venue: "J. Comput. Phys."
+        url: "https://doi.org/10.1016/j.jcp.2015.09.040"
+        authors: [eric-de-sturler, kapil-ahuja]
+      - title: "Efficient edge-preserving methods for dynamic inverse problems"
+        year: 2021
+        venue: "CoRR"
+        url: "https://arxiv.org/abs/2107.05727"
+        authors: [mirjeta-pasha, arvind-saibaba, malena-espanol, eric-de-sturler]
+
+  - id: james-baglama
+    website: "https://www.math.uri.edu/meet/james-baglama/"
+    photo: "https://www.math.uri.edu/wp-content/uploads/2026/03/Baglama_1.jpg"
+    advising: []
+    papers:
+      - title: "IRBL: An Implicitly Restarted Block-Lanczos Method for Large-Scale Hermitian Eigenproblems"
+        year: 2003
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/S1064827501397949"
+        authors: [james-baglama, daniela-calvetti, lothar-reichel]
+      - title: "A hybrid algorithm for computing a partial singular value decomposition satisfying a given threshold"
+        year: 2025
+        venue: "Numer. Algorithms"
+        url: "https://doi.org/10.1007/s11075-024-01906-9"
+        authors: [james-baglama, vasilije-perovic]
+
+  - id: zdenek-strakos
+    website: "https://www.karlin.mff.cuni.cz/~strakos/"
+    photo: "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=TpKYkWoAAAAJ&citpid=2"
+    advising:
+      - {advisor: zdenek-strakos, student: stefano-pozza, kind: postdoc}
+    papers:
+      - title: "On Optimal Short Recurrences for Generating Orthogonal Krylov Subspace Bases"
+        year: 2008
+        venue: "SIAM Rev."
+        url: "https://doi.org/10.1137/060662149"
+        authors: [jorg-liesen, zdenek-strakos]
+
+  - id: jorg-liesen
+    website: "https://www.tu.berlin/nla/joerg-liesen"
+    photo: "https://www.static.tu.berlin/fileadmin/www/_processed_/4/3/csm_Joerg_Liesen-web_253986941f.jpg"
+    advising: []
+    papers:
+      - title: "On Non-Hermitian Positive (Semi)Definite Linear Algebraic Systems Arising from Dissipative Hamiltonian DAEs"
+        year: 2022
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/21m1458594"
+        authors: [jorg-liesen, daniel-szyld]
+
+  - id: stefano-pozza
+    website: "https://sites.google.com/site/infostepo/"
+    photo: "https://www.mff.cuni.cz/data/users/user_56594/pozza_img.jpg"
+    advising:
+      - {advisor: zdenek-strakos, student: stefano-pozza, kind: postdoc}
+    papers:
+      - title: "The Short-Term Rational Lanczos Method and Applications"
+        year: 2022
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/21m1403254"
+        authors: [davide-palitta, stefano-pozza, valeria-simoncini]
+
+  - id: ieva-dauzickaite
+    website: "https://www.dauzickaite.com"
+    photo: "https://lh7-us.googleusercontent.com/sitesv-images-rt/ACHe0d24hgw0bHDQLsa-P1yKAcxTXeujeditFF4ZCcr8Q-Cv_a2NHFRtA3UQUAxELadbcdeDXpE8dRGQNs3_7VIPWyOGTZlH8FAEuwkSgZD-3o8prePeO5IWxlbVranu_i3dSDnlD9WrKutyQkdPWJUWgSZLwAN5N8PO8BQxYFcbNAX4ltnVeoAwmI-WUgSMhGLW8cb6QCZ9QQyi6pyD_8p6Vf0n18VEEzwwgBBq1ZT1lU0=w1280"
+    advising:
+      - {advisor: erin-carson, student: ieva-dauzickaite, kind: postdoc}
+    papers:
+      - title: "Single-Pass Nyström Approximation in Mixed Precision"
+        year: 2024
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/22m154079x"
+        authors: [erin-carson, ieva-dauzickaite]

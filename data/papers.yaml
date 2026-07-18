@@ -103,6 +103,13 @@
   authors:
   - christopher-beattie
   - ilse-ipsen
+- title: On computing givens rotations reliably and efficiently
+  year: 2002
+  venue: ACM Trans. Math. Softw.
+  url: https://doi.org/10.1145/567806.567809
+  authors:
+  - david-bindel
+  - james-demmel
 - title: Editorial
   year: 2003
   venue: BIT Numerical Mathematics
@@ -110,6 +117,14 @@
   authors:
   - zdenek-strakos
   - daniel-szyld
+- title: 'IRBL: An Implicitly Restarted Block-Lanczos Method for Large-Scale Hermitian Eigenproblems'
+  year: 2003
+  venue: SIAM J. Sci. Comput.
+  url: https://doi.org/10.1137/S1064827501397949
+  authors:
+  - james-baglama
+  - daniela-calvetti
+  - lothar-reichel
 - title: Pass efficient algorithms for approximating large matrices
   year: 2003
   venue: SODA
@@ -183,6 +198,14 @@
   authors:
   - james-baglama
   - lothar-reichel
+- title: 'Block-Diagonal and Constraint Preconditioners for Nonsymmetric Indefinite Linear
+    Systems. Part I: Theory'
+  year: 2005
+  venue: SIAM J. Sci. Comput.
+  url: https://doi.org/10.1137/S1064827502411006
+  authors:
+  - eric-de-sturler
+  - jorg-liesen
 - title: Tensor decomposition and approximation schemes for constraint satisfaction problems
   year: 2005
   venue: STOC
@@ -352,6 +375,13 @@
   authors:
   - daniela-calvetti
   - erkki-somersalo
+- title: On Optimal Short Recurrences for Generating Orthogonal Krylov Subspace Bases
+  year: 2008
+  venue: SIAM Rev.
+  url: https://doi.org/10.1137/060662149
+  authors:
+  - jorg-liesen
+  - zdenek-strakos
 - title: Sampling subproblems of heterogeneous Max-Cut problems and approximation algorithms
   year: 2008
   venue: Random Struct. Algorithms
@@ -707,6 +737,14 @@
   authors:
   - davide-palitta
   - valeria-simoncini
+- title: Nonlinear Parametric Inversion Using Interpolatory Model Reduction
+  year: 2015
+  venue: SIAM J. Sci. Comput.
+  url: https://doi.org/10.1137/130946320
+  authors:
+  - eric-de-sturler
+  - misha-kilmer
+  - christopher-beattie
 - title: Projection methods for large-scale T-Sylvester equations
   year: 2015
   venue: Mathematics of Computation
@@ -722,6 +760,13 @@
   authors:
   - cameron-musco
   - christopher-musco
+- title: Recycling Krylov subspaces for CFD applications and a new hybrid recycling solver
+  year: 2015
+  venue: J. Comput. Phys.
+  url: https://doi.org/10.1016/j.jcp.2015.09.040
+  authors:
+  - eric-de-sturler
+  - kapil-ahuja
 - title: Spectral Gap Error Bounds for Improving CUR Matrix Decomposition and the Nyström
     Method
   year: 2015
@@ -1393,6 +1438,13 @@
   - tyler-chen
   - thomas-trogdon
   - shashanka-ubaru
+- title: 'Asynchronous Richardson iterations: theory and practice'
+  year: 2021
+  venue: Numer. Algorithms
+  url: https://doi.org/10.1007/s11075-020-01023-3
+  authors:
+  - edmond-chow
+  - daniel-szyld
 - title: Bit Complexity of Jordan Normal Form and Spectral Factorization
   year: 2021
   venue: CoRR
@@ -1417,6 +1469,15 @@
   - lior-horesh
   - misha-kilmer
   - haim-avron
+- title: Efficient edge-preserving methods for dynamic inverse problems
+  year: 2021
+  venue: CoRR
+  url: https://arxiv.org/abs/2107.05727
+  authors:
+  - mirjeta-pasha
+  - arvind-saibaba
+  - malena-espanol
+  - eric-de-sturler
 - title: 'Global Convergence of Hessenberg Shifted QR I: Dynamics'
   year: 2021
   venue: CoRR
@@ -1442,8 +1503,8 @@
   - david-woodruff
 - title: Hybrid Projection Methods with Recycling for Inverse Problems
   year: 2021
-  venue: SIAM Journal on Scientific Computing
-  url: https://doi.org/10.1137/20m1349515
+  venue: SIAM J. Sci. Comput.
+  url: https://doi.org/10.1137/20M1349515
   authors:
   - julianne-chung
   - eric-de-sturler
@@ -1501,6 +1562,14 @@
   - per-gunnar-martinsson
   - jelani-nelson
   note: large multi-author report
+- title: Randomized approaches to accelerate MCMC algorithms for Bayesian inverse problems
+  year: 2021
+  venue: J. Comput. Phys.
+  url: https://doi.org/10.1016/j.jcp.2021.110391
+  authors:
+  - arvind-saibaba
+  - eric-de-sturler
+  - misha-kilmer
 - title: Sparse Graph Based Sketching for Fast Numerical Linear Algebra
   year: 2021
   venue: ICASSP
@@ -1671,7 +1740,7 @@
 - title: On Non-Hermitian Positive (Semi)Definite Linear Algebraic Systems Arising from Dissipative
     Hamiltonian DAEs
   year: 2022
-  venue: SIAM Journal on Scientific Computing
+  venue: SIAM J. Sci. Comput.
   url: https://doi.org/10.1137/21m1458594
   authors:
   - jorg-liesen
@@ -1744,7 +1813,7 @@
   - david-woodruff
 - title: The Short-Term Rational Lanczos Method and Applications
   year: 2022
-  venue: SIAM Journal on Scientific Computing
+  venue: SIAM J. Sci. Comput.
   url: https://doi.org/10.1137/21m1403254
   authors:
   - davide-palitta
@@ -2205,6 +2274,13 @@
   authors:
   - michal-derezinski
   - elizaveta-rebrova
+- title: Single-Pass Nyström Approximation in Mixed Precision
+  year: 2024
+  venue: SIAM J. Matrix Anal. Appl.
+  url: https://doi.org/10.1137/22m154079x
+  authors:
+  - erin-carson
+  - ieva-dauzickaite
 - title: Some New Results on the Maximum Growth Factor in Gaussian Elimination
   year: 2024
   venue: SIAM J. Matrix Anal. Appl.
@@ -2275,6 +2351,13 @@
   - ethan-epperly
   - joel-tropp
   - robert-webber
+- title: 2024 NSF CSSI-Cybertraining-SCIPE PI Meeting August 12 to 13, 2024, Charlotte, NC
+  year: 2025
+  venue: CoRR
+  url: https://doi.org/10.48550/arXiv.2507.04171
+  authors:
+  - julien-langou
+  - vivak-patel
 - title: A Comparison of Mixed Precision Iterative Refinement Approaches for Least-Squares
     Problems
   year: 2025
@@ -2283,6 +2366,14 @@
   authors:
   - erin-carson
   - ieva-dauzickaite
+- title: A hybrid algorithm for computing a partial singular value decomposition satisfying
+    a given threshold
+  year: 2025
+  venue: Numer. Algorithms
+  url: https://doi.org/10.1007/s11075-024-01906-9
+  authors:
+  - james-baglama
+  - vasilije-perovic
 - title: A time-frequency method for acoustic scattering with trapping
   year: 2025
   venue: CoRR
@@ -2822,6 +2913,13 @@
   - misha-kilmer
   - haim-avron
   - lior-horesh
+- title: 'H2-MG: A Multigrid Method for Hierarchical Rank Structured Matrices'
+  year: 2026
+  venue: SIAM J. Sci. Comput.
+  url: https://doi.org/10.1137/24m171944x
+  authors:
+  - george-turkiyyah
+  - edmond-chow
 - title: Hutchinson's Estimator is Bad at Kronecker-Trace-Estimation
   year: 2026
   venue: SIAM J. Matrix Anal. Appl.

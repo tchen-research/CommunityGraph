@@ -29,10 +29,6 @@
   - eigenvalue problems
   notes: Eigenvalue computations; co-organizer of the ICERM 2026 workshop.
   website: https://miedlar.ku.edu/
-- id: aidan-mason-mackay
-  name: Aidan Mason-Mackay
-  affiliation: University of Eastern Finland
-  area: nla
 - id: ainesh-bakshi
   name: Ainesh Bakshi
   affiliation: Massachusetts Institute of Technology
@@ -88,17 +84,9 @@
   notes: Randomized trace estimation analysis; low-rank approximation.
   website: https://sites.google.com/view/alicecortinovis/home
   photo: https://sites.google.com/sitesv-images-rt/ACHe0d3Z8AYjEWmP7CyYQT6Jp0FprAZ0AOh5WO3XBR8DT9wcZmrLIAKcjE70XDXSpla8vkPg6cOOq9M7tULQBtrippYmjxx3Vgrq7k5VVnyUmk511x_0zNKXOqM1ivk-ZGYoNa8hg2FhgtxDFoPLhPtwXF791dQPEE7DccPJ-6bbV10jTLvj46CTBK1kreNXa0TvL8DYkpIty6SnIYfSnvxEiM70LClNdV0VP8eTfJ0WePk=w1280
-- id: allison-fuller
-  name: Allison Fuller
-  affiliation: Arizona State University
-  area: nla
 - id: andrea-arnold
   name: Andrea Arnold
   affiliation: Worcester Polytechnic Institute
-  area: inverse
-- id: andreas-mang
-  name: Andreas Mang
-  affiliation: University of Houston
   area: inverse
 - id: andrew-higgins
   name: Andrew Higgins
@@ -134,10 +122,6 @@
   notes: Foundational analysis of Krylov methods in finite precision arithmetic.
   website: https://faculty.washington.edu/greenbau/
   photo: https://amath.washington.edu/sites/amath/files/styles/portrait/public/photos/photo_on_1-10-22_at_11.50_am_1.jpeg?itok=JWvY2RYo
-- id: ansley-bentley
-  name: Ansley Bentley
-  affiliation: Emory University
-  area: inverse
 - id: arvind-saibaba
   name: Arvind Saibaba
   affiliation: North Carolina State University
@@ -163,14 +147,6 @@
     of Christopher.
   website: https://people.cs.umass.edu/~cmusco/
   photo: https://people.cs.umass.edu/~cmusco/personal_site/images/head5.jpg
-- id: carlos-beltran
-  name: Carlos Beltrán
-  affiliation: Universidad de Cantabria
-  area: nla
-- id: chenyang-cao
-  name: Chenyang Cao
-  affiliation: Purdue University
-  area: nla
 - id: chris-camano
   name: Chris Camaño
   affiliation: California Institute of Technology
@@ -196,14 +172,6 @@
     of Cameron.
   website: https://www.chrismusco.com/
   photo: https://www.chrismusco.com/wsv_image.jpg
-- id: cleve-moler
-  name: Cleve Moler
-  affiliation: MathWorks
-  area: nla
-  topics:
-  - MATLAB
-  - numerical software
-  notes: Creator of MATLAB.
 - id: daniel-kressner
   name: Daniel Kressner
   affiliation: EPFL
@@ -243,6 +211,8 @@
   - eigenvalue problems
   - kernel methods
   notes: Eigenvalue computations, kernels, and network analysis.
+  website: https://www.cs.cornell.edu/~bindel/
+  photo: https://www.cs.cornell.edu/~bindel/pic/Bush-06.jpg
 - id: david-persson
   name: David Persson
   affiliation: New York University / Flatiron Institute
@@ -303,6 +273,8 @@
   - preconditioning
   - parallel algorithms
   notes: Parallel preconditioning and approximate inverse methods.
+  website: https://faculty.cc.gatech.edu/~echow/
+  photo: https://faculty.cc.gatech.edu/~echow/color2001.jpg
 - id: edo-liberty
   name: Edo Liberty
   affiliation: Pinecone
@@ -344,6 +316,8 @@
   topics:
   - Krylov recycling
   notes: Krylov subspace recycling; inverse problems.
+  website: https://math.vt.edu/people/faculty/desturler-eric.html
+  photo: https://math.vt.edu/content/math_vt_edu/en/people/faculty/desturler-eric/_jcr_content/bio-image.img.jpg
 - id: erin-carson
   name: Erin Carson
   affiliation: Charles University
@@ -379,14 +353,6 @@
   name: Fan Tian
   affiliation: Tufts University
   area: inverse
-- id: fatoumata-sanogo
-  name: Fatoumata Sanogo
-  affiliation: Bates College
-  area: inverse
-- id: federica-milinanni
-  name: Federica Milinanni
-  affiliation: ICERM / Brown University
-  area: nla
 - id: fred-roosta
   name: Fred Roosta
   affiliation: University of Queensland
@@ -400,10 +366,6 @@
   name: George Turkiyyah
   affiliation: KAUST
   area: nla
-- id: giulio-trigila
-  name: Giulio Trigila
-  affiliation: City University of New York
-  area: opt
 - id: haim-avron
   name: Haim Avron
   affiliation: Tel Aviv University
@@ -416,18 +378,10 @@
     of the ICERM 2026 workshop.
   website: http://www.math.tau.ac.il/~haimav/
   photo: https://scholar.googleusercontent.com/citations?view_op=view_photo&user=KVPQoQgAAAAJ&citpid=2
-- id: haojun-qin
-  name: Haojun Qin
-  affiliation: Brown University
-  area: nla
 - id: harbir-antil
   name: Harbir Antil
   affiliation: George Mason University
   area: inverse
-- id: harshit-bhatt
-  name: Harshit Bhatt
-  affiliation: North Carolina State University
-  area: nla
 - id: heather-wilber
   name: Heather Wilber
   affiliation: University of Texas at Austin
@@ -446,6 +400,8 @@
   - mixed precision
   - randomized methods
   notes: Randomized and mixed-precision methods for large linear systems.
+  website: https://www.dauzickaite.com
+  photo: https://lh7-us.googleusercontent.com/sitesv-images-rt/ACHe0d24hgw0bHDQLsa-P1yKAcxTXeujeditFF4ZCcr8Q-Cv_a2NHFRtA3UQUAxELadbcdeDXpE8dRGQNs3_7VIPWyOGTZlH8FAEuwkSgZD-3o8prePeO5IWxlbVranu_i3dSDnlD9WrKutyQkdPWJUWgSZLwAN5N8PO8BQxYFcbNAX4ltnVeoAwmI-WUgSMhGLW8cb6QCZ9QQyi6pyD_8p6Vf0n18VEEzwwgBBq1ZT1lU0=w1280
 - id: igor-simunec
   name: Igor Simunec
   affiliation: EPFL
@@ -497,6 +453,8 @@
   topics:
   - SVD algorithms
   notes: 'IRLBA: restarted Lanczos bidiagonalization for the partial SVD.'
+  website: https://www.math.uri.edu/meet/james-baglama/
+  photo: https://www.math.uri.edu/wp-content/uploads/2026/03/Baglama_1.jpg
 - id: james-demmel
   name: James Demmel
   affiliation: University of California, Berkeley
@@ -563,15 +521,6 @@
   notes: Pseudospectral shattering; global convergence of shifted QR.
   website: https://web.math.princeton.edu/~jg8853/
   photo: https://web.math.princeton.edu/~jg8853/Photo_personalwebpage.jpg
-- id: josh-alman
-  name: Josh Alman
-  affiliation: Columbia University
-  area: tcs
-  topics:
-  - matrix multiplication
-  notes: Fast matrix multiplication algorithms.
-  website: https://joshalman.com/
-  photo: https://joshalman.com/wp-content/uploads/2015/03/JoshAlman.jpg
 - id: julianne-chung
   name: Julianne Chung
   affiliation: Emory University
@@ -590,6 +539,8 @@
   - LAPACK
   - communication-avoiding QR
   notes: Dense linear algebra libraries; CAQR.
+  website: https://clas.ucdenver.edu/mathematical-and-statistical-sciences/julien-langou
+  photo: https://clas.ucdenver.edu/mathematical-and-statistical-sciences/sites/default/files/styles/small/public/people/langou.png?itok=kooKvef1
 - id: jung-eun-huh
   name: Jung Eun Huh
   affiliation: University of Oxford
@@ -601,6 +552,8 @@
   topics:
   - Krylov theory
   notes: Krylov subspace methods theory; monograph with Strakoš.
+  website: https://www.tu.berlin/nla/joerg-liesen
+  photo: https://www.static.tu.berlin/fileadmin/www/_processed_/4/3/csm_Joerg_Liesen-web_253986941f.jpg
 - id: kapil-ahuja
   name: Kapil Ahuja
   affiliation: Virginia Tech
@@ -614,14 +567,6 @@
   notes: Randomized interpolative and CUR-type decompositions.
   website: https://kjpearce.github.io/
   photo: https://kjpearce.github.io/images/me.png
-- id: kathrin-smetana
-  name: Kathrin Smetana
-  affiliation: Stevens Institute of Technology
-  area: nla
-- id: ke-wang
-  name: Ke Wang
-  affiliation: Hong Kong University of Science and Technology
-  area: nla
 - id: kenneth-clarkson
   name: Kenneth Clarkson
   affiliation: IBM Research
@@ -632,10 +577,6 @@
   notes: Clarkson–Woodruff sketching; foundational sketching algorithms.
   website: https://research.ibm.com/people/ken-clarkson
   photo: https://scholar.googleusercontent.com/citations?view_op=view_photo&user=F7ODi8QAAAAJ&citpid=1
-- id: kyle-monette
-  name: Kyle Monette
-  affiliation: University of Rhode Island
-  area: nla
 - id: laura-grigori
   name: Laura Grigori
   affiliation: EPFL
@@ -661,14 +602,6 @@
   notes: Scientific machine learning and quantum algorithms at IBM.
   website: https://research.ibm.com/people/lior-horesh
   photo: https://scholar.googleusercontent.com/citations?view_op=view_photo&user=qbqwCbEAAAAJ&citpid=6
-- id: logan-reed
-  name: Logan Reed
-  affiliation: Temple University
-  area: nla
-- id: lorenzo-beretta
-  name: Lorenzo Beretta
-  affiliation: University of California, Santa Cruz
-  area: tcs
 - id: lorenzo-piccinini
   name: Lorenzo Piccinini
   affiliation: University of Bologna
@@ -723,10 +656,6 @@
   notes: Early randomized algorithms for matrix approximation (with Rokhlin and Martinsson).
   website: https://tygert.com/
   photo: https://tygert.com/standing.jpg
-- id: matteo-raviola
-  name: Matteo Raviola
-  affiliation: EPFL
-  area: nla
 - id: matthias-chung
   name: Matthias Chung
   affiliation: Emory University
@@ -737,10 +666,6 @@
   notes: Computational inverse problems and learning-based regularization.
   website: https://sites.google.com/view/matthias-chung/home
   photo: https://sites.google.com/sitesv-images-rt/ACHe0d39DVut3tp0atUr4OYOZTEnvl5tulMLAGLzOMXM_CohsMmGRo8kHaH-aS0-DJmLmLbVL4NIs9sgXOgrVfJxUxCER0tjt0DUIMpV_IklAR1WgJKLQD3nzIhYnnIuDCCj_n2w7EGOFE-U98P2lAyQdVwiBGWqz2L3hjY8ahu_WMhxcFkxDhmOliHcFM5RAHZvSiWbWNXXll66jCTikAW27iQ-TJbRJifHheMQBZiRi88=w1280
-- id: matthieu-dolbeault
-  name: Matthieu Dolbeault
-  affiliation: RWTH Aachen
-  area: nla
 - id: mert-pilanci
   name: Mert Pilanci
   affiliation: Stanford University
@@ -828,10 +753,6 @@
   notes: Authority on matrix functions and rounding-error analysis (1961–2024).
   website: https://nhigham.com/
   photo: https://nhigham.com/wp-content/uploads/2020/12/cropped-200302-1351-14_9943_2979_rot_square_1600px.jpg
-- id: nick-polydorides
-  name: Nick Polydorides
-  affiliation: University of Edinburgh
-  area: inverse
 - id: nicolas-boulle
   name: Nicolas Boullé
   affiliation: Imperial College London
@@ -853,10 +774,6 @@
     Co-organizer of the Banff 2023 workshop.
   website: https://math.berkeley.edu/~nikhil/
   photo: https://math.berkeley.edu/~nikhil/duckula3.jpg
-- id: nikita-kapur
-  name: Nikita Kapur
-  affiliation: University of Iowa
-  area: nla
 - id: noah-amsel
   name: Noah Amsel
   affiliation: New York University
@@ -903,10 +820,6 @@
     Acta Numerica 2020 RandNLA survey.
   website: https://users.oden.utexas.edu/~pgm/
   photo: https://users.oden.utexas.edu/~pgm/Pics/mug6.png
-- id: peter-burgisser
-  name: Peter Bürgisser
-  affiliation: TU Berlin
-  area: nla
 - id: petros-drineas
   name: Petros Drineas
   affiliation: Purdue University
@@ -919,10 +832,6 @@
     and CUR, and the 2016 CACM survey with Mahoney. Co-organizer of the ICERM 2026 workshop.'
   website: https://www.cs.purdue.edu/homes/pdrineas/
   photo: https://www.cs.purdue.edu/homes/pdrineas/images/PD_2022_v1.jpeg
-- id: polina-sachsenmaier
-  name: Polina Sachsenmaier
-  affiliation: RWTH Aachen University
-  area: nla
 - id: rachel-ward
   name: Rachel Ward
   affiliation: University of Texas at Austin
@@ -1012,10 +921,6 @@
   notes: Randomized low-rank approximation (RPCholesky, XTrace) and Monte Carlo methods.
   website: https://sites.google.com/ucsd.edu/rwebber/
   photo: https://sites.google.com/sitesv-images-rt/ACHe0d0fw_aTDdppgQ-o31INz63XziAFyYm6kaLW8kEfmlWU4iIL0C-VH6CXaDTMpQHu_EYN9E7e4l1b4VjfXbSypUC5ZfTluyrrvhvUbo1oAt03r5u37McnniqZ-skhl8eX2Kjc_-gD_KqGdQffTtKYhrzGG5Lqs47IKVYyrVYLSZVqJTNknDR5oh5s_TixTvq600RWuI9MInBE5REnD4D64tpt_W7Vvb9bclL9D1QiTkA=w1280
-- id: rodrigo-figueroa-justiniano
-  name: Rodrigo Figueroa Justiniano
-  affiliation: Virginia Tech
-  area: nla
 - id: rudi-smith
   name: Rudi Smith
   affiliation: Virginia Tech
@@ -1029,10 +934,6 @@
   notes: Sketching for tensor problems.
   website: https://ruhuijin96.github.io/
   photo: https://ruhuijin96.github.io/me.jpeg
-- id: ruiyi-yang
-  name: Ruiyi Yang
-  affiliation: Princeton University
-  area: nla
 - id: ryan-schneider
   name: Ryan Schneider
   affiliation: University of California, Berkeley
@@ -1043,10 +944,6 @@
   notes: Randomized diagonalization; pseudospectral divide-and-conquer.
   website: https://sites.google.com/view/ryan-schneider-math
   photo: https://sites.google.com/sitesv-images-rt/ACHe0d2FCVV5245hde9sMxEs5a9W1LoFQZbz9zuwixRVFqeWqX4o38_PeUu9Pm410-PF1-wHSshbQq1IplWujMdSE5dYnPm8AZivsJfVg5gNtjLEXa6bDVucCr6vStW8nvzlpcNB_bYjCnq4l4qffHeCM6afaz9IAV7AVLxXimoXzuxyOuVjjfw3l-3zWLFaP6yY4yGrX3FgJyyEdaBURqXfL6FGpVOBu2O7i133LjAyX24=w1280
-- id: samuel-talkington
-  name: Samuel Talkington
-  affiliation: Georgia Institute of Technology
-  area: nla
 - id: santosh-vempala
   name: Santosh Vempala
   affiliation: Georgia Institute of Technology
@@ -1062,10 +959,6 @@
   name: Sascha Portaro
   affiliation: University of Bologna
   area: nla
-- id: shancong-mou
-  name: Shancong Mou
-  affiliation: University of Minnesota Twin Cities
-  area: opt
 - id: shashanka-ubaru
   name: Shashanka Ubaru
   affiliation: IBM Research
@@ -1103,10 +996,8 @@
   - Krylov methods
   - matrix functions
   notes: Lanczos-based methods and time-ordered exponentials.
-- id: stephen-vavasis
-  name: Stephen Vavasis
-  affiliation: University of Waterloo
-  area: nla
+  website: https://sites.google.com/site/infostepo/
+  photo: https://www.mff.cuni.cz/data/users/user_56594/pozza_img.jpg
 - id: sushant-sachdeva
   name: Sushant Sachdeva
   affiliation: University of Toronto
@@ -1139,10 +1030,6 @@
   notes: The 2006 subspace-embedding paper that unlocked fast randomized regression.
   website: https://sites.google.com/site/stamas/
   photo: https://scholar.googleusercontent.com/citations?view_op=view_photo&user=c4YtO-MAAAAJ&citpid=1
-- id: tao-hong
-  name: Tao Hong
-  affiliation: University of Texas at Austin
-  area: nla
 - id: thomas-trogdon
   name: Thomas Trogdon
   affiliation: University of Washington
@@ -1163,10 +1050,6 @@
   notes: Probabilistic rounding-error analysis; block low-rank solvers.
   website: https://perso.lip6.fr/Theo.Mary/
   photo: https://perso.lip6.fr/Theo.Mary/images/photo.jpg
-- id: tong-ding
-  name: Tong Ding
-  affiliation: Purdue University
-  area: nla
 - id: tyler-chen
   name: Tyler Chen
   affiliation: JPMorganChase
@@ -1212,14 +1095,6 @@
     Martinsson, Tygert, and Liberty.
   website: https://math.yale.edu/people/vladimir-rokhlin
   photo: https://engineering.yale.edu/application/files/thumbnails/custom_720x720_exact/7317/3099/4088/Vladimir_Rokhlin_computer_science.webp
-- id: wael-hajj-ali
-  name: Wael Hajj Ali
-  affiliation: Mitsubishi Electric Research Laboratories
-  area: nla
-- id: william-dean
-  name: William Dean
-  affiliation: Rensselaer Polytechnic Institute
-  area: nla
 - id: xiaoou-cheng
   name: Xiaoou Cheng
   affiliation: New York University
@@ -1243,14 +1118,6 @@
   notes: Randomized dimension reduction and low-rank approximation.
   website: https://dyjdongyijun.github.io/
   photo: https://scholar.googleusercontent.com/citations?view_op=view_photo&user=l3bmbCkAAAAJ&citpid=6
-- id: yingda-cheng
-  name: Yingda Cheng
-  affiliation: Virginia Tech
-  area: nla
-- id: yiyun-he
-  name: Yiyun He
-  affiliation: University of California, San Diego
-  area: nla
 - id: yousef-saad
   name: Yousef Saad
   affiliation: University of Minnesota
@@ -1274,10 +1141,6 @@
     and low-rank approximation.
   website: https://people.maths.ox.ac.uk/nakatsukasa/
   photo: https://people.maths.ox.ac.uk/nakatsukasa/IMG.jpg
-- id: yunhui-he
-  name: Yunhui He
-  affiliation: University of Houston
-  area: nla
 - id: zdenek-strakos
   name: Zdeněk Strakoš
   affiliation: Charles University
@@ -1286,6 +1149,8 @@
   - Krylov theory
   - finite precision
   notes: Krylov subspace methods theory; finite-precision Lanczos and CG.
+  website: https://www.karlin.mff.cuni.cz/~strakos/
+  photo: https://scholar.googleusercontent.com/citations?view_op=view_photo&user=TpKYkWoAAAAJ&citpid=2
 - id: zhaojun-bai
   name: Zhaojun Bai
   affiliation: University of California, Davis
@@ -1296,10 +1161,6 @@
   notes: Large-scale eigenvalue computations; LAPACK and Templates.
   website: https://www.cs.ucdavis.edu/~bai/
   photo: https://scholar.googleusercontent.com/citations?view_op=view_photo&user=soiDQbQAAAAJ&citpid=2
-- id: zhaonan-meng
-  name: Zhaonan Meng
-  affiliation: North Carolina State University
-  area: nla
 - id: zhipeng-xue
   name: Zhipeng Xue
   affiliation: EPFL
