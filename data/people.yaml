@@ -51,7 +51,7 @@
   - optimization
   notes: Low-rank approximation and robust statistics.
   website: http://www.aineshbakshi.com/
-  photo: http://www.aineshbakshi.com/pic.png
+  photo: https://www.aineshbakshi.com/pic.png
 - id: akil-narayan
   name: Akil Narayan
   affiliation: University of Utah
@@ -914,7 +914,7 @@
   affiliation: Emory University
   area: inverse
   website: https://sites.google.com/view/lucas-onisk/home
-  photo: http://www.math.emory.edu/site/cmds-reuret/author/lucas-onisk/avatar_hu_230a0b2010639c35.jpg
+  photo: https://www.math.emory.edu/site/cmds-reuret/author/lucas-onisk/avatar_hu_230a0b2010639c35.jpg
   topics:
   - regularization
   - krylov

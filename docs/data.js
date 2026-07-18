@@ -20239,7 +20239,7 @@ window.GRAPH_DATA = {
    "name": "Ainesh Bakshi",
    "affiliation": "Massachusetts Institute of Technology",
    "website": "http://www.aineshbakshi.com/",
-   "photo": "http://www.aineshbakshi.com/pic.png",
+   "photo": "https://www.aineshbakshi.com/pic.png",
    "topics": [
     "sketching",
     "randomized-lowrank",
@@ -23683,7 +23683,7 @@ window.GRAPH_DATA = {
    "name": "Lucas Onisk",
    "affiliation": "Emory University",
    "website": "https://sites.google.com/view/lucas-onisk/home",
-   "photo": "http://www.math.emory.edu/site/cmds-reuret/author/lucas-onisk/avatar_hu_230a0b2010639c35.jpg",
+   "photo": "https://www.math.emory.edu/site/cmds-reuret/author/lucas-onisk/avatar_hu_230a0b2010639c35.jpg",
    "topics": [
     "regularization",
     "krylov",
