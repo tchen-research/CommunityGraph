@@ -1,0 +1,3217 @@
+people:
+  - id: deanna-needell
+    papers:
+      - title: "Stochastic gradient descent, weighted sampling, and the randomized Kaczmarz algorithm"
+        year: 2015
+        venue: "Mathematical Programming"
+        url: "https://doi.org/10.1007/s10107-015-0864-7"
+        authors: [deanna-needell, rachel-ward]
+      - title: "CoSaMP"
+        year: 2010
+        venue: "Communications of the ACM"
+        url: "https://doi.org/10.1145/1859204.1859229"
+        authors: [deanna-needell, joel-tropp]
+      - title: "Paved with good intentions: Analysis of a randomized block Kaczmarz method"
+        year: 2013
+        venue: "Linear Algebra and its Applications"
+        url: "https://doi.org/10.1016/j.laa.2012.12.022"
+        authors: [deanna-needell, joel-tropp]
+      - title: "Stable Image Reconstruction Using Total Variation Minimization"
+        year: 2013
+        venue: "SIAM Journal on Imaging Sciences"
+        url: "https://doi.org/10.1137/120868281"
+        authors: [deanna-needell, rachel-ward]
+      - title: "Convergence Properties of the Randomized Extended Gauss--Seidel and Kaczmarz Methods"
+        year: 2015
+        venue: "SIAM Journal on Matrix Analysis and Applications"
+        url: "https://doi.org/10.1137/15m1014425"
+        authors: [anna-ma, deanna-needell]
+      - title: "Greedy signal recovery review"
+        year: 2008
+        venue: ""
+        url: "https://doi.org/10.1109/acssc.2008.5074572"
+        authors: [deanna-needell, joel-tropp]
+      - title: "Compressive Sensing with Redundant Dictionaries and Structured Measurements"
+        year: 2015
+        venue: "SIAM Journal on Mathematical Analysis"
+        url: "https://doi.org/10.1137/151005245"
+        authors: [deanna-needell, rachel-ward]
+      - title: "Two-Subspace Projection Method for Coherent Overdetermined Systems"
+        year: 2012
+        venue: "Journal of Fourier Analysis and Applications"
+        url: "https://doi.org/10.1007/s00041-012-9248-z"
+        authors: [deanna-needell, rachel-ward]
+      - title: "On Adaptive Sketch-and-Project for Solving Linear Systems"
+        year: 2021
+        venue: "SIAM Journal on Matrix Analysis and Applications"
+        url: "https://doi.org/10.1137/19m1285846"
+        authors: [robert-gower, deanna-needell]
+      - title: "Quantile-Based Iterative Methods for Corrupted Systems of Linear Equations"
+        year: 2022
+        venue: "SIAM Journal on Matrix Analysis and Applications"
+        url: "https://doi.org/10.1137/21m1429187"
+        authors: [jamie-haddock, deanna-needell, elizaveta-rebrova]
+        note: "pair has 27+ joint papers; representative subset"
+      - title: "On block Gaussian sketching for the Kaczmarz method"
+        year: 2020
+        venue: "Numerical Algorithms"
+        url: "https://doi.org/10.1007/s11075-020-00895-9"
+        authors: [elizaveta-rebrova, deanna-needell]
+      - title: "Stochastic gradient descent and the randomized Kaczmarz algorithm"
+        year: 2013
+        venue: "arXiv"
+        url: "https://arxiv.org/pdf/1310.5715"
+        authors: [deanna-needell, rachel-ward]
+      - title: "An Approximate Message Passing Framework for Side Information"
+        year: 2019
+        venue: "IEEE Transactions on Signal Processing"
+        url: "https://doi.org/10.1109/tsp.2019.2899286"
+        authors: [anna-ma, deanna-needell]
+      - title: "Iterative Methods for Solving Factorized Linear Systems"
+        year: 2018
+        venue: "SIAM Journal on Matrix Analysis and Applications"
+        url: "https://doi.org/10.1137/17m1115678"
+        authors: [anna-ma, deanna-needell]
+      - title: "Lower Memory Oblivious (Tensor) Subspace Embeddings with Fewer Random Bits: Modewise Methods for Least Squares"
+        year: 2021
+        venue: "SIAM Journal on Matrix Analysis and Applications"
+        url: "https://doi.org/10.1137/19m1308116"
+        authors: [deanna-needell, elizaveta-rebrova]
+      - title: "On Large-Scale Dynamic Topic Modeling with Nonnegative CP Tensor Decomposition"
+        year: 2021
+        venue: "Association for Women in Mathematics series"
+        url: "https://doi.org/10.1007/978-3-030-79891-8_8"
+        authors: [jamie-haddock, deanna-needell]
+      - title: "Feature Selection from Lyme Disease Patient Survey Using Machine Learning"
+        year: 2020
+        venue: "Algorithms"
+        url: "https://doi.org/10.3390/a13120334"
+        authors: [jamie-haddock, deanna-needell]
+      - title: "On Nonnegative Matrix and Tensor Decompositions for COVID-19 Twitter Dynamics"
+        year: 2020
+        venue: "arXiv"
+        url: "https://arxiv.org/pdf/2010.01600"
+        authors: [deanna-needell, elizaveta-rebrova]
+      - title: "Adaptive Sketch-and-Project Methods for Solving Linear Systems"
+        year: 2019
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.1909.03604"
+        authors: [robert-gower, deanna-needell]
+      - title: "On block accelerations of quantile randomized Kaczmarz for corrupted systems of linear equations"
+        year: 2022
+        venue: "Inverse Problems"
+        url: "https://doi.org/10.1088/1361-6420/aca78a"
+        authors: [deanna-needell, elizaveta-rebrova]
+      - title: "Antibiotic Treatment Response in Chronic Lyme Disease: Why Do Some Patients Improve While Others Do Not?"
+        year: 2020
+        venue: "Healthcare"
+        url: "https://doi.org/10.3390/healthcare8040383"
+        authors: [jamie-haddock, deanna-needell]
+      - title: "Batched Stochastic Gradient Descent with Weighted Sampling"
+        year: 2017
+        venue: "Springer proceedings in mathematics & statistics"
+        url: "https://doi.org/10.1007/978-3-319-59912-0_14"
+        authors: [deanna-needell, rachel-ward]
+      - title: "Near-optimal compressed sensing guarantees for anisotropic and isotropic total variation minimization"
+        year: 2013
+        venue: ""
+        url: "https://doi.org/10.5642/cmcfacpub/318"
+        authors: [deanna-needell, rachel-ward]
+      - title: "Fast Hyperspectral Diffuse Optical Imaging Method with Joint Sparsity"
+        year: 2019
+        venue: ""
+        url: "https://doi.org/10.1109/embc.2019.8857069"
+        authors: [anna-ma, deanna-needell]
+      - title: "A Bayesian Approach for Asynchronous Parallel Sparse Recovery"
+        year: 2018
+        venue: "2018 52nd Asilomar Conference on Signals, Systems, and Computers"
+        url: "https://doi.org/10.1109/acssc.2018.8645176"
+        authors: [jamie-haddock, deanna-needell]
+      - title: "Total variation minimization for stable multidimensional signal recovery"
+        year: 2012
+        venue: "arXiv"
+        url: "https://arxiv.org/pdf/1210.3098"
+        authors: [deanna-needell, rachel-ward]
+      - title: "Semi-supervised Nonnegative Matrix Factorization for Document Classification"
+        year: 2021
+        venue: "2021 55th Asilomar Conference on Signals, Systems, and Computers"
+        url: "https://doi.org/10.1109/ieeeconf53345.2021.9723109"
+        authors: [jamie-haddock, deanna-needell]
+      - title: "Stochastic greedy algorithms for multiple measurement vectors"
+        year: 2020
+        venue: "Inverse Problems and Imaging"
+        url: "https://doi.org/10.3934/ipi.2020066"
+        authors: [deanna-needell, anna-ma]
+      - title: "Sparse Randomized Kaczmarz for Support Recovery of Jointly Sparse Corrupted Multiple Measurement Vectors"
+        year: 2019
+        venue: "Association for Women in Mathematics series"
+        url: "https://doi.org/10.1007/978-3-030-11566-1_1"
+        authors: [anna-ma, deanna-needell]
+      - title: "Analysis of fast structured dictionary learning [Image: see text]"
+        year: 2019
+        venue: "Information and Inference A Journal of the IMA"
+        url: "https://doi.org/10.1093/imaiai/iaz028"
+        authors: [anna-ma, deanna-needell]
+      - title: "Conditional approximate message passing with side information"
+        year: 2017
+        venue: ""
+        url: "https://doi.org/10.1109/acssc.2017.8335374"
+        authors: [anna-ma, deanna-needell]
+      - title: "Improving image clustering using sparse text and the wisdom of the crowds"
+        year: 2014
+        venue: "2014 48th Asilomar Conference on Signals, Systems and Computers"
+        url: "https://doi.org/10.1109/acssc.2014.7094725"
+        authors: [anna-ma, deanna-needell]
+      - title: "A Generalized Hierarchical Nonnegative Tensor Decomposition"
+        year: 2022
+        venue: "ICASSP 2022 - 2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)"
+        url: "https://doi.org/10.1109/icassp43922.2022.9747810"
+        authors: [jamie-haddock, deanna-needell]
+      - title: "Testing Positive Semidefiniteness Using Linear Measurements"
+        year: 2022
+        venue: "2022 IEEE 63rd Annual Symposium on Foundations of Computer Science (FOCS)"
+        url: "https://doi.org/10.1109/focs54457.2022.00016"
+        authors: [deanna-needell, david-woodruff]
+      - title: "Semi-supervised NMF Models for Topic Modeling in Learning Tasks"
+        year: 2020
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.2010.07956"
+        authors: [jamie-haddock, deanna-needell]
+      - title: "Stochastic Iterative Hard Thresholding for Low-Tucker-Rank Tensor Recovery"
+        year: 2020
+        venue: ""
+        url: "https://doi.org/10.1109/ita50056.2020.9244965"
+        authors: [anna-ma, deanna-needell]
+      - title: "Stochastic Gradient Descent for Linear Systems with Missing Data"
+        year: 2017
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.1702.07098"
+        authors: [anna-ma, deanna-needell]
+      - title: "Modewise operators, the tensor restricted isometry property, and low-rank tensor recovery"
+        year: 2023
+        venue: "Applied and Computational Harmonic Analysis"
+        url: "https://doi.org/10.1016/j.acha.2023.04.007"
+        authors: [deanna-needell, elizaveta-rebrova]
+      - title: "Neural nonnegative matrix factorization for hierarchical multilayer topic modeling"
+        year: 2023
+        venue: "Sampling Theory Signal Processing and Data Analysis"
+        url: "https://doi.org/10.1007/s43670-023-00077-3"
+        authors: [jamie-haddock, deanna-needell]
+      - title: "On Nonnegative CP Tensor Decomposition Robustness to Noise"
+        year: 2020
+        venue: ""
+        url: "https://doi.org/10.1109/ita50056.2020.9244932"
+        authors: [jamie-haddock, deanna-needell]
+      - title: "Compressed Anomaly Detection with Multiple Mixed Observations"
+        year: 2019
+        venue: "Association for Women in Mathematics series"
+        url: "https://doi.org/10.1007/978-3-030-11566-1_10"
+        authors: [anna-ma, deanna-needell]
+      - title: "On block Gaussian sketching for iterative projections"
+        year: 2019
+        venue: "arXiv"
+        url: "https://arxiv.org/abs/1905.08894v1"
+        authors: [deanna-needell, elizaveta-rebrova]
+      - title: "Jointly Sparse Signal Recovery with Prior Info"
+        year: 2019
+        venue: ""
+        url: "https://doi.org/10.1109/ieeeconf44664.2019.9048818"
+        authors: [anna-ma, deanna-needell]
+      - title: "Adapted Stochastic Gradient Descent for Linear Systems with Missing Data"
+        year: 2017
+        venue: "arXiv"
+        url: "https://arxiv.org/pdf/1702.07098.pdf"
+        authors: [anna-ma, deanna-needell]
+      - title: "Randomized Kaczmarz methods for t-product tensor linear systems with factorized operators"
+        year: 2025
+        venue: "BIT Numerical Mathematics"
+        url: "https://doi.org/10.1007/s10543-025-01078-5"
+        authors: [jamie-haddock, deanna-needell]
+      - title: "Iterative singular tube hard thresholding algorithms for tensor recovery"
+        year: 2024
+        venue: "Inverse Problems and Imaging"
+        url: "https://doi.org/10.3934/ipi.2023059"
+        authors: [anna-ma, deanna-needell]
+      - title: "Sparseness-constrained nonnegative tensor factorization for detecting topics at different time scales"
+        year: 2024
+        venue: "Frontiers in Applied Mathematics and Statistics"
+        url: "https://doi.org/10.3389/fams.2024.1287074"
+        authors: [deanna-needell, elizaveta-rebrova]
+      - title: "Neural Nonnegative CP Decomposition for Hierarchical Tensor Analysis"
+        year: 2021
+        venue: "2021 55th Asilomar Conference on Signals, Systems, and Computers"
+        url: "https://doi.org/10.1109/ieeeconf53345.2021.9723126"
+        authors: [jamie-haddock, deanna-needell]
+      - title: "Data-driven algorithm selection and tuning in optimization and signal processing"
+        year: 2020
+        venue: "Annals of Mathematics and Artificial Intelligence"
+        url: "https://doi.org/10.1007/s10472-020-09717-z"
+        authors: [jamie-haddock, anna-ma, deanna-needell]
+      - title: "Stochastic Gradient Descent Variants for Corrupted Systems of Linear Equations"
+        year: 2020
+        venue: ""
+        url: "https://doi.org/10.1109/ciss48834.2020.1570631711"
+        authors: [jamie-haddock, deanna-needell, elizaveta-rebrova]
+      - title: "COVID-19 Literature Topic-Based Search via Hierarchical NMF"
+        year: 2020
+        venue: ""
+        url: "https://doi.org/10.18653/v1/2020.nlpcovid19-2.4"
+        authors: [elizaveta-rebrova, deanna-needell]
+      - title: "A Sampling Kaczmarz--Motzkin Algorithm for Linear Feasibility"
+        year: 2017
+        venue: "SIAM Journal on Scientific Computing"
+        url: "https://doi.org/10.1137/16m1073807"
+        authors: [jamie-haddock, deanna-needell]
+      - title: "Stochastic Gradient Descent for Streaming Linear and Rectified Linear Systems with Adversarial Corruptions"
+        year: 2025
+        venue: "SIAM Journal on Mathematics of Data Science"
+        url: "https://doi.org/10.1137/24m1652167"
+        authors: [deanna-needell, elizaveta-rebrova]
+      - title: "Block Matrix and Tensor Randomized Kaczmarz Methods for Linear Feasibility Problems"
+        year: 2025
+        venue: "La Matematica"
+        url: "https://doi.org/10.1007/s44007-025-00163-z"
+        authors: [jamie-haddock, deanna-needell]
+      - title: "Randomized Iterative Methods for Tensor Regression Under the t-Product"
+        year: 2025
+        venue: "Association for Women in Mathematics series"
+        url: "https://doi.org/10.1007/978-3-031-87804-6_1"
+        authors: [jamie-haddock, deanna-needell]
+      - title: "Randomized Kaczmarz Methods with Beyond-Krylov Convergence"
+        year: 2025
+        venue: "SIAM Journal on Matrix Analysis and Applications"
+        url: "https://doi.org/10.1137/25m1727187"
+        authors: [deanna-needell, elizaveta-rebrova]
+      - title: "Stochastic Natural Thresholding Algorithms"
+        year: 2023
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.2306.04730"
+        authors: [anna-ma, deanna-needell]
+      - title: "Automatic Infectious Disease Classification Analysis with Concept Discovery"
+        year: 2022
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.2209.02415"
+        authors: [jamie-haddock, deanna-needell]
+      - title: "On a Guided Nonnegative Matrix Factorization"
+        year: 2021
+        venue: ""
+        url: "https://doi.org/10.1109/icassp39728.2021.9413656"
+        authors: [jamie-haddock, elizaveta-rebrova, deanna-needell]
+      - title: "Detecting Short-lasting Topics Using Nonnegative Tensor Decomposition"
+        year: 2021
+        venue: "arXiv"
+        url: "https://arxiv.org/pdf/2010.01600.pdf"
+        authors: [deanna-needell, elizaveta-rebrova]
+      - title: "Analysis of Legal Documents via Non-negative Matrix Factorization Methods"
+        year: 2021
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.2104.14028"
+        authors: [elizaveta-rebrova, deanna-needell]
+      - title: "Bias of Homotopic Gradient Descent for the Hinge Loss"
+        year: 2020
+        venue: "Applied Mathematics & Optimization"
+        url: "https://doi.org/10.1007/s00245-020-09656-5"
+        authors: [deanna-needell, rachel-ward]
+      - title: "Feature Selection on Lyme Disease Patient Survey Data"
+        year: 2020
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.2009.09087"
+        authors: [jamie-haddock, deanna-needell]
+      - title: "Sketching for Motzkin’s Iterative Method for Linear Systems"
+        year: 2019
+        venue: ""
+        url: "https://doi.org/10.1109/ieeeconf44664.2019.9048928"
+        authors: [elizaveta-rebrova, deanna-needell]
+      - title: "Stochastic Gradient Descent for Incomplete Tensor Linear Systems"
+        year: 2026
+        venue: "BIT Numerical Mathematics"
+        url: "https://doi.org/10.1007/s10543-026-01140-w"
+        authors: [anna-ma, deanna-needell]
+      - title: "Attention Mechanisms Through the Lens of Numerical Methods: Approximation Methods and Alternative Formulations"
+        year: 2026
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.2604.01757"
+        authors: [alice-cortinovis, yijun-dong, diana-halikias, anna-ma, deanna-needell, katherine-pearce, elizaveta-rebrova, rudi-smith, laura-grigori]
+      - title: "Fast and low-memory compressive sensing algorithms for low tucker-rank tensor approximation from streamed measurements"
+        year: 2025
+        venue: "Numerical Algorithms"
+        url: "https://doi.org/10.1007/s11075-025-02101-0"
+        authors: [deanna-needell, elizaveta-rebrova]
+      - title: "Block Gauss-Seidel methods for t-product tensor regression"
+        year: 2025
+        venue: "Numerical Algorithms"
+        url: "https://doi.org/10.1007/s11075-025-02240-4"
+        authors: [jamie-haddock, deanna-needell]
+      - title: "Fine-grained Analysis and Faster Algorithms for Iteratively Solving Linear Systems"
+        year: 2024
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.2405.05818"
+        authors: [deanna-needell, elizaveta-rebrova]
+      - title: "SP2: A Second Order Stochastic Polyak Method"
+        year: 2022
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.2207.08171"
+        authors: [deanna-needell, robert-gower]
+      - title: "A Simple Recovery Framework for Signals with Time-Varying Sparse Support"
+        year: 2021
+        venue: "Association for Women in Mathematics series"
+        url: "https://doi.org/10.1007/978-3-030-79891-8_9"
+        authors: [anna-ma, deanna-needell]
+      - title: "Data-driven Algorithm Selection and Parameter Tuning: Two Case studies in Optimization and Signal Processing"
+        year: 2019
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.1905.13404"
+        authors: [jamie-haddock, anna-ma, deanna-needell]
+      - title: "On Inferences from Completed Data"
+        year: 2019
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.1907.03028"
+        authors: [jamie-haddock, deanna-needell]
+      - title: "Convergence of Iterative Hard Thresholding Variants with Application to Asynchronous Parallel Methods for Sparse Recovery"
+        year: 2019
+        venue: ""
+        url: "https://doi.org/10.1109/ieeeconf44664.2019.9048787"
+        authors: [jamie-haddock, deanna-needell]
+      - title: "Analysis of Fast Alternating Minimization for Structured Dictionary Learning"
+        year: 2018
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.1802.00518"
+        authors: [anna-ma, deanna-needell]
+      - title: "On Motzkin’s method for inconsistent linear systems"
+        year: 2018
+        venue: "BIT Numerical Mathematics"
+        url: "https://doi.org/10.1007/s10543-018-0737-6"
+        authors: [jamie-haddock, deanna-needell]
+  - id: elizaveta-rebrova
+    papers:
+      - title: "Quantile-Based Iterative Methods for Corrupted Systems of Linear Equations"
+        year: 2022
+        venue: "SIAM Journal on Matrix Analysis and Applications"
+        url: "https://doi.org/10.1137/21m1429187"
+        authors: [jamie-haddock, deanna-needell, elizaveta-rebrova]
+        note: "pair has 27+ joint papers; representative subset"
+      - title: "On block Gaussian sketching for the Kaczmarz method"
+        year: 2020
+        venue: "Numerical Algorithms"
+        url: "https://doi.org/10.1007/s11075-020-00895-9"
+        authors: [elizaveta-rebrova, deanna-needell]
+      - title: "Lower Memory Oblivious (Tensor) Subspace Embeddings with Fewer Random Bits: Modewise Methods for Least Squares"
+        year: 2021
+        venue: "SIAM Journal on Matrix Analysis and Applications"
+        url: "https://doi.org/10.1137/19m1308116"
+        authors: [deanna-needell, elizaveta-rebrova]
+      - title: "Scalable and Memory-Efficient Kernel Ridge Regression"
+        year: 2020
+        venue: ""
+        url: "https://doi.org/10.1109/ipdps47924.2020.00102"
+        authors: [xiaoye-sherry-li, elizaveta-rebrova]
+      - title: "On Nonnegative Matrix and Tensor Decompositions for COVID-19 Twitter Dynamics"
+        year: 2020
+        venue: "arXiv"
+        url: "https://arxiv.org/pdf/2010.01600"
+        authors: [deanna-needell, elizaveta-rebrova]
+      - title: "On block accelerations of quantile randomized Kaczmarz for corrupted systems of linear equations"
+        year: 2022
+        venue: "Inverse Problems"
+        url: "https://doi.org/10.1088/1361-6420/aca78a"
+        authors: [deanna-needell, elizaveta-rebrova]
+      - title: "On Subsampled Quantile Randomized Kaczmarz"
+        year: 2023
+        venue: ""
+        url: "https://doi.org/10.1109/allerton58177.2023.10313381"
+        authors: [jamie-haddock, anna-ma, elizaveta-rebrova]
+      - title: "Modewise operators, the tensor restricted isometry property, and low-rank tensor recovery"
+        year: 2023
+        venue: "Applied and Computational Harmonic Analysis"
+        url: "https://doi.org/10.1016/j.acha.2023.04.007"
+        authors: [deanna-needell, elizaveta-rebrova]
+      - title: "On block Gaussian sketching for iterative projections"
+        year: 2019
+        venue: "arXiv"
+        url: "https://arxiv.org/abs/1905.08894v1"
+        authors: [deanna-needell, elizaveta-rebrova]
+      - title: "Sparseness-constrained nonnegative tensor factorization for detecting topics at different time scales"
+        year: 2024
+        venue: "Frontiers in Applied Mathematics and Statistics"
+        url: "https://doi.org/10.3389/fams.2024.1287074"
+        authors: [deanna-needell, elizaveta-rebrova]
+      - title: "Stochastic Gradient Descent Variants for Corrupted Systems of Linear Equations"
+        year: 2020
+        venue: ""
+        url: "https://doi.org/10.1109/ciss48834.2020.1570631711"
+        authors: [jamie-haddock, deanna-needell, elizaveta-rebrova]
+      - title: "COVID-19 Literature Topic-Based Search via Hierarchical NMF"
+        year: 2020
+        venue: ""
+        url: "https://doi.org/10.18653/v1/2020.nlpcovid19-2.4"
+        authors: [elizaveta-rebrova, deanna-needell]
+      - title: "A Study of Clustering Techniques and Hierarchical Matrix Formats for Kernel Ridge Regression"
+        year: 2018
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.1803.10274"
+        authors: [elizaveta-rebrova, xiaoye-sherry-li]
+      - title: "Stochastic Gradient Descent for Streaming Linear and Rectified Linear Systems with Adversarial Corruptions"
+        year: 2025
+        venue: "SIAM Journal on Mathematics of Data Science"
+        url: "https://doi.org/10.1137/24m1652167"
+        authors: [deanna-needell, elizaveta-rebrova]
+      - title: "Randomized Kaczmarz Methods with Beyond-Krylov Convergence"
+        year: 2025
+        venue: "SIAM Journal on Matrix Analysis and Applications"
+        url: "https://doi.org/10.1137/25m1727187"
+        authors: [deanna-needell, elizaveta-rebrova]
+      - title: "A subspace constrained randomized Kaczmarz method for structure or external knowledge exploitation"
+        year: 2024
+        venue: "Linear Algebra and its Applications"
+        url: "https://doi.org/10.1016/j.laa.2024.06.010"
+        authors: [jackie-lok, elizaveta-rebrova]
+      - title: "On Regularization via Early Stopping for Least Squares Regression"
+        year: 2024
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.2406.04425"
+        authors: [jackie-lok, elizaveta-rebrova]
+      - title: "On a Guided Nonnegative Matrix Factorization"
+        year: 2021
+        venue: ""
+        url: "https://doi.org/10.1109/icassp39728.2021.9413656"
+        authors: [jamie-haddock, elizaveta-rebrova, deanna-needell]
+      - title: "Detecting Short-lasting Topics Using Nonnegative Tensor Decomposition"
+        year: 2021
+        venue: "arXiv"
+        url: "https://arxiv.org/pdf/2010.01600.pdf"
+        authors: [deanna-needell, elizaveta-rebrova]
+      - title: "Analysis of Legal Documents via Non-negative Matrix Factorization Methods"
+        year: 2021
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.2104.14028"
+        authors: [elizaveta-rebrova, deanna-needell]
+      - title: "Sketching for Motzkin’s Iterative Method for Linear Systems"
+        year: 2019
+        venue: ""
+        url: "https://doi.org/10.1109/ieeeconf44664.2019.9048928"
+        authors: [elizaveta-rebrova, deanna-needell]
+      - title: "A Hierarchical Low-Rank Decomposition Algorithm Based on Blocked Adaptive Cross Approximation Algorithms"
+        year: 2019
+        venue: "arXiv"
+        url: "https://arxiv.org/pdf/1901.06101"
+        authors: [elizaveta-rebrova, xiaoye-sherry-li]
+      - title: "Attention Mechanisms Through the Lens of Numerical Methods: Approximation Methods and Alternative Formulations"
+        year: 2026
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.2604.01757"
+        authors: [alice-cortinovis, yijun-dong, diana-halikias, anna-ma, deanna-needell, katherine-pearce, elizaveta-rebrova, rudi-smith, laura-grigori]
+      - title: "Towards Universal Convergence of Backward Error in Linear System Solvers"
+        year: 2026
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.2604.16075"
+        authors: [yuji-nakatsukasa, elizaveta-rebrova]
+      - title: "Fast and low-memory compressive sensing algorithms for low tucker-rank tensor approximation from streamed measurements"
+        year: 2025
+        venue: "Numerical Algorithms"
+        url: "https://doi.org/10.1007/s11075-025-02101-0"
+        authors: [deanna-needell, elizaveta-rebrova]
+      - title: "Beyond Expectation: Concentration Inequalities for Randomized Iterative Methods"
+        year: 2025
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.2511.20877"
+        authors: [jamie-haddock, jackie-lok, elizaveta-rebrova]
+      - title: "Subspace-constrained randomized coordinate descent for linear systems with good low-rank matrix approximations"
+        year: 2025
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.2506.09394"
+        authors: [jackie-lok, elizaveta-rebrova]
+      - title: "Fine-grained Analysis and Faster Algorithms for Iteratively Solving Linear Systems"
+        year: 2024
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.2405.05818"
+        authors: [deanna-needell, elizaveta-rebrova]
+      - title: "Error dynamics of mini-batch gradient descent with random reshuffling for least squares regression"
+        year: 2024
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.2406.03696"
+        authors: [jackie-lok, elizaveta-rebrova]
+      - title: "A parallel hierarchical blocked adaptive cross approximation algorithm"
+        year: 2020
+        venue: "The International Journal of High Performance Computing Applications"
+        url: "https://doi.org/10.1177/1094342020918305"
+        authors: [elizaveta-rebrova, xiaoye-sherry-li]
+  - id: ilse-ipsen
+    papers:
+      - title: "Inclusion regions for matrix eigenvalues"
+        year: 2002
+        venue: "Linear Algebra and its Applications"
+        url: "https://doi.org/10.1016/s0024-3795(02)00279-3"
+        authors: [christopher-beattie, ilse-ipsen]
+      - title: "Monte Carlo Methods for Estimating the Diagonal of a Real Symmetric Matrix"
+        year: 2023
+        venue: "SIAM Journal on Matrix Analysis and Applications"
+        url: "https://doi.org/10.1137/22m1476277"
+        authors: [ilse-ipsen, arvind-saibaba]
+      - title: "Structural Convergence Results for Low-Rank Approximations from Block Krylov Spaces"
+        year: 2016
+        venue: "arXiv"
+        url: "https://arxiv.org/abs/1609.00671"
+        authors: [petros-drineas, ilse-ipsen]
+      - title: "Stable Rank and Intrinsic Dimension of Real and Complex Matrices"
+        year: 2025
+        venue: "SIAM Journal on Matrix Analysis and Applications"
+        url: "https://doi.org/10.1137/24m1681537"
+        authors: [ilse-ipsen, arvind-saibaba]
+      - title: "Small Singular Values Can Increase in Lower Precision"
+        year: 2024
+        venue: "SIAM Journal on Matrix Analysis and Applications"
+        url: "https://doi.org/10.1137/23m1557209"
+        authors: [petros-drineas, ilse-ipsen]
+      - title: "Randomized matrix-free trace and log-determinant estimators"
+        year: 2017
+        venue: "Numerische Mathematik"
+        url: "https://doi.org/10.1007/s00211-017-0880-z"
+        authors: [arvind-saibaba, ilse-ipsen]
+      - title: "Stochastic Rounding Implicitly Regularizes Tall-and-Thin Matrices"
+        year: 2025
+        venue: "SIAM Journal on Matrix Analysis and Applications"
+        url: "https://doi.org/10.1137/24m1647679"
+        authors: [linkai-ma, ilse-ipsen, petros-drineas]
+      - title: "Robust Parameter Identifiability Analysis via Column Subset Selection"
+        year: 2022
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.2205.04203"
+        authors: [katherine-pearce, ilse-ipsen, arvind-saibaba]
+      - title: "Low-Rank Matrix Approximations Do Not Need a Singular Value Gap"
+        year: 2019
+        venue: "SIAM Journal on Matrix Analysis and Applications"
+        url: "https://doi.org/10.1137/18m1163658"
+        authors: [petros-drineas, ilse-ipsen]
+      - title: "Structural Convergence Results for Approximation of Dominant Subspaces from Block Krylov Spaces"
+        year: 2018
+        venue: "SIAM Journal on Matrix Analysis and Applications"
+        url: "https://doi.org/10.1137/16m1091745"
+        authors: [petros-drineas, ilse-ipsen]
+      - title: "Revisiting column subset selection through the lens of submodularity"
+        year: 2026
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.2607.13823"
+        authors: [ilse-ipsen, arvind-saibaba]
+      - title: "Stochastic Trace Optimization of Parameter Dependent Matrices Based on Statistical Learning Theory"
+        year: 2025
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.2508.05764"
+        authors: [arvind-saibaba, ilse-ipsen]
+      - title: "Many (most?) column subset selection criteria are NP hard for a few columns"
+        year: 2025
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.2511.02740"
+        authors: [ilse-ipsen, arvind-saibaba]
+      - title: "Stochastic Rounding 2.0, with a View towards Complexity Analysis"
+        year: 2024
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.2410.10517"
+        authors: [petros-drineas, ilse-ipsen]
+      - title: "Complexity of dense linear system solution on a multiprocessor ring. Research report"
+        year: 1985
+        venue: "OSTI OAI (U.S. Department of Energy Office of Scientific and Technical Information)"
+        url: "http://www.osti.gov/scitech/biblio/5664901"
+        authors: [ilse-ipsen, yousef-saad]
+  - id: misha-kilmer
+    papers:
+      - title: "Tensor-tensor algebra for optimal representation and compression of multiway data"
+        year: 2021
+        venue: "Proceedings of the National Academy of Sciences"
+        url: "https://doi.org/10.1073/pnas.2015851118"
+        authors: [misha-kilmer, lior-horesh, haim-avron, elizabeth-newman]
+      - title: "A Projection‐Based Approach to General‐Form Tikhonov Regularization"
+        year: 2007
+        venue: "SIAM Journal on Scientific Computing"
+        url: "https://doi.org/10.1137/050645592"
+        authors: [misha-kilmer, malena-espanol]
+      - title: "A randomized tensor singular value decomposition based on the t‐product"
+        year: 2018
+        venue: "Numerical Linear Algebra with Applications"
+        url: "https://doi.org/10.1002/nla.2179"
+        authors: [arvind-saibaba, misha-kilmer]
+      - title: "Recycling Subspace Information for Diffuse Optical Tomography"
+        year: 2006
+        venue: "SIAM Journal on Scientific Computing"
+        url: "https://doi.org/10.1137/040610271"
+        authors: [misha-kilmer, eric-de-sturler]
+      - title: "Dynamic Graph Convolutional Networks Using the Tensor M-Product"
+        year: 2021
+        venue: "Society for Industrial and Applied Mathematics eBooks"
+        url: "https://doi.org/10.1137/1.9781611976700.82"
+        authors: [shashanka-ubaru, lior-horesh, misha-kilmer, haim-avron]
+      - title: "A Framework for Regularization via Operator Approximation"
+        year: 2015
+        venue: "SIAM Journal on Scientific Computing"
+        url: "https://doi.org/10.1137/130945363"
+        authors: [julianne-chung, misha-kilmer]
+      - title: "Stable Tensor Neural Networks for Rapid Deep Learning"
+        year: 2018
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.1811.06569"
+        authors: [elizabeth-newman, lior-horesh, haim-avron, misha-kilmer]
+      - title: "A Regularized Gauss–Newton Trust Region Approach to Imaging in Diffuse Optical Tomography"
+        year: 2011
+        venue: "SIAM Journal on Scientific Computing"
+        url: "https://doi.org/10.1137/100798181"
+        authors: [eric-de-sturler, misha-kilmer]
+      - title: "Multilevel Approach For Signal Restoration Problems With Toeplitz Matrices"
+        year: 2010
+        venue: "SIAM Journal on Scientific Computing"
+        url: "https://doi.org/10.1137/080715780"
+        authors: [malena-espanol, misha-kilmer]
+      - title: "Stable tensor neural networks for efficient deep learning"
+        year: 2024
+        venue: "Frontiers in Big Data"
+        url: "https://doi.org/10.3389/fdata.2024.1363978"
+        authors: [elizabeth-newman, lior-horesh, haim-avron, misha-kilmer]
+      - title: "A Wavelet-Based Multilevel Approach for Blind Deconvolution Problems"
+        year: 2014
+        venue: "SIAM Journal on Scientific Computing"
+        url: "https://doi.org/10.1137/130928716"
+        authors: [malena-espanol, misha-kilmer]
+      - title: "Randomized approaches to accelerate MCMC algorithms for Bayesian inverse problems"
+        year: 2021
+        venue: "Journal of Computational Physics"
+        url: "https://doi.org/10.1016/j.jcp.2021.110391"
+        authors: [arvind-saibaba, eric-de-sturler, misha-kilmer]
+      - title: "Tensor-Tensor Products for Optimal Representation and Compression"
+        year: 2019
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.2001.00046"
+        authors: [misha-kilmer, lior-horesh, haim-avron, elizabeth-newman]
+      - title: "Efficient randomized tensor-based algorithms for function approximation and low-rank kernel interactions"
+        year: 2022
+        venue: "Advances in Computational Mathematics"
+        url: "https://doi.org/10.1007/s10444-022-09979-7"
+        authors: [arvind-saibaba, misha-kilmer]
+      - title: "Randomized Algorithms for Low-Rank Tensor Decompositions in the Tucker Format"
+        year: 2020
+        venue: "SIAM Journal on Mathematics of Data Science"
+        url: "https://doi.org/10.1137/19m1261043"
+        authors: [arvind-saibaba, misha-kilmer]
+      - title: "Randomized Approach to Nonlinear Inversion Combining Random and Optimized Simultaneous Sources and Detectors"
+        year: 2019
+        venue: "SIAM Journal on Scientific Computing"
+        url: "https://doi.org/10.1137/17m1143319"
+        authors: [eric-de-sturler, misha-kilmer]
+      - title: "A survey of subspace recycling iterative methods"
+        year: 2020
+        venue: "GAMM-Mitteilungen"
+        url: "https://doi.org/10.1002/gamm.202000016"
+        authors: [eric-de-sturler, misha-kilmer]
+      - title: "Tensor Graph Convolutional Networks for Prediction on Dynamic Graphs"
+        year: 2019
+        venue: "arXiv"
+        url: "https://arxiv.org/pdf/1910.07643.pdf"
+        authors: [shashanka-ubaru, lior-horesh, misha-kilmer, haim-avron]
+      - title: "Parametric level-sets enhanced to improve reconstruction (PaLEnTIR)"
+        year: 2025
+        venue: "Inverse Problems"
+        url: "https://doi.org/10.1088/1361-6420/ada798"
+        authors: [misha-kilmer, eric-de-sturler, arvind-saibaba]
+      - title: "Nonnegative Tensor Patch Dictionary Approaches for Image Compression and Deblurring Applications"
+        year: 2020
+        venue: "SIAM Journal on Imaging Sciences"
+        url: "https://doi.org/10.1137/19m1297026"
+        authors: [elizabeth-newman, misha-kilmer]
+      - title: "Image classification using local tensor singular value decompositions"
+        year: 2017
+        venue: ""
+        url: "https://doi.org/10.1109/camsap.2017.8313137"
+        authors: [elizabeth-newman, misha-kilmer, lior-horesh]
+      - title: "Nuclear Norm Optimization and Its Application to Observation Model Specification"
+        year: 2013
+        venue: "Signals and communication technology"
+        url: "https://doi.org/10.1007/978-3-642-38398-4_4"
+        authors: [lior-horesh, misha-kilmer]
+      - title: "Recycling MMGKS for large-scale dynamic and streaming data"
+        year: 2023
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.2309.15759"
+        authors: [mirjeta-pasha, misha-kilmer]
+      - title: "Structured Matrix Approximations via Tensor Decompositions"
+        year: 2022
+        venue: "SIAM Journal on Matrix Analysis and Applications"
+        url: "https://doi.org/10.1137/21m1418290"
+        authors: [misha-kilmer, arvind-saibaba]
+      - title: "Fast Algorithms for Hyperspectral Diffuse Optical Tomography"
+        year: 2015
+        venue: "SIAM Journal on Scientific Computing"
+        url: "https://doi.org/10.1137/140990073"
+        authors: [arvind-saibaba, misha-kilmer]
+      - title: "An Efficient Cumulative Edge-Detection Method for Image Reconstruction"
+        year: 2026
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.2603.15151"
+        authors: [mirjeta-pasha, misha-kilmer]
+      - title: "Nonlinear RMM-GKS for Large-Scale Dynamic and Streaming Inverse Problems with Uncertain Forward Operators"
+        year: 2026
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.2605.06336"
+        authors: [mirjeta-pasha, misha-kilmer]
+      - title: "Tensor BM‐Decomposition for Compression and Analysis of Video Data"
+        year: 2025
+        venue: "Numerical Linear Algebra with Applications"
+        url: "https://doi.org/10.1002/nla.70043"
+        authors: [fan-tian, misha-kilmer]
+      - title: "Efficient Dynamic Image Reconstruction with motion estimation"
+        year: 2025
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.2501.12497"
+        authors: [mirjeta-pasha, misha-kilmer]
+      - title: "Tensor Completion with BMD Factor Nuclear Norm Minimization"
+        year: 2024
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.2402.13068"
+        authors: [fan-tian, mirjeta-pasha, misha-kilmer]
+      - title: "Computing Reduced Order Models via Inner-Outer Krylov Recycling in Diffuse Optical Tomography"
+        year: 2017
+        venue: "SIAM Journal on Scientific Computing"
+        url: "https://doi.org/10.1137/16m1062880"
+        authors: [misha-kilmer, eric-de-sturler]
+      - title: "3D parameter reconstruction in hyperspectral diffuse optical tomography"
+        year: 2015
+        venue: "Proceedings of SPIE, the International Society for Optical Engineering/Proceedings of SPIE"
+        url: "https://doi.org/10.1117/12.2079775"
+        authors: [arvind-saibaba, misha-kilmer]
+  - id: julianne-chung
+    papers:
+      - title: "Learning regularization parameters of inverse problems via deep neural networks"
+        year: 2021
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.2104.06594"
+        authors: [julianne-chung, matthias-chung]
+      - title: "Designing Optimal Spectral Filters for Inverse Problems"
+        year: 2011
+        venue: "SIAM Journal on Scientific Computing"
+        url: "https://doi.org/10.1137/100812938"
+        authors: [julianne-chung, matthias-chung]
+      - title: "Optimal Experimental Design for Inverse Problems with State Constraints"
+        year: 2018
+        venue: "SIAM Journal on Scientific Computing"
+        url: "https://doi.org/10.1137/17m1143733"
+        authors: [julianne-chung, matthias-chung]
+      - title: "Learning regularization parameters for general-form Tikhonov"
+        year: 2017
+        venue: "Inverse Problems"
+        url: "https://doi.org/10.1088/1361-6420/33/7/074004"
+        authors: [julianne-chung, malena-espanol]
+      - title: "A Framework for Regularization via Operator Approximation"
+        year: 2015
+        venue: "SIAM Journal on Scientific Computing"
+        url: "https://doi.org/10.1137/130945363"
+        authors: [julianne-chung, misha-kilmer]
+      - title: "An efficient approach for computing optimal low-rank regularized inverse matrices"
+        year: 2014
+        venue: "Inverse Problems"
+        url: "https://doi.org/10.1088/0266-5611/30/11/114009"
+        authors: [julianne-chung, matthias-chung]
+      - title: "Computing optimal low-rank matrix approximations for image processing"
+        year: 2013
+        venue: ""
+        url: "https://doi.org/10.1109/acssc.2013.6810366"
+        authors: [julianne-chung, matthias-chung]
+      - title: "Efficient Krylov subspace methods for uncertainty quantification in large Bayesian linear inverse problems"
+        year: 2020
+        venue: "Numerical Linear Algebra with Applications"
+        url: "https://doi.org/10.1002/nla.2325"
+        authors: [arvind-saibaba, julianne-chung]
+      - title: "Optimal regularized low rank inverse approximation"
+        year: 2014
+        venue: "Linear Algebra and its Applications"
+        url: "https://doi.org/10.1016/j.laa.2014.07.024"
+        authors: [julianne-chung, matthias-chung]
+      - title: "Computationally efficient methods for large-scale atmospheric inverse modeling"
+        year: 2022
+        venue: "Geoscientific model development"
+        url: "https://doi.org/10.5194/gmd-15-5547-2022"
+        authors: [julianne-chung, arvind-saibaba]
+      - title: "Hybrid Projection Methods for Solution Decomposition in Large-Scale Bayesian Inverse Problems"
+        year: 2023
+        venue: "SIAM Journal on Scientific Computing"
+        url: "https://doi.org/10.1137/22m1502197"
+        authors: [julianne-chung, arvind-saibaba]
+      - title: "Hybrid Projection Methods with Recycling for Inverse Problems"
+        year: 2021
+        venue: "SIAM Journal on Scientific Computing"
+        url: "https://doi.org/10.1137/20m1349515"
+        authors: [julianne-chung, eric-de-sturler]
+      - title: "Optimal Filters from Calibration Data for Image Deconvolution with Data Acquisition Error"
+        year: 2012
+        venue: "Journal of Mathematical Imaging and Vision"
+        url: "https://doi.org/10.1007/s10851-012-0332-4"
+        authors: [julianne-chung, matthias-chung]
+      - title: "Stochastic Newton and Quasi-Newton Methods for Large Linear Least-squares Problems"
+        year: 2017
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.1702.07367"
+        authors: [julianne-chung, matthias-chung]
+      - title: "Optimal Regularization Parameters for General-Form Tikhonov Regularization"
+        year: 2014
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.1407.1911"
+        authors: [julianne-chung, malena-espanol]
+      - title: "slimTrain---A Stochastic Approximation Method for Training Separable Deep Neural Networks"
+        year: 2022
+        venue: "SIAM Journal on Scientific Computing"
+        url: "https://doi.org/10.1137/21m1452512"
+        authors: [elizabeth-newman, julianne-chung, matthias-chung]
+      - title: "Efficient iterative methods for hyperparameter estimation in large-scale linear inverse problems"
+        year: 2024
+        venue: "Advances in Computational Mathematics"
+        url: "https://doi.org/10.1007/s10444-024-10208-6"
+        authors: [arvind-saibaba, julianne-chung]
+      - title: "Paired autoencoders for likelihood-free estimation in inverse problems"
+        year: 2024
+        venue: "Machine Learning Science and Technology"
+        url: "https://doi.org/10.1088/2632-2153/ad95dd"
+        authors: [matthias-chung, julianne-chung]
+      - title: "Efficient learning methods for large-scale optimal inversion design"
+        year: 2022
+        venue: "Numerical Algebra Control and Optimization"
+        url: "https://doi.org/10.3934/naco.2022036"
+        authors: [julianne-chung, matthias-chung, mirjeta-pasha]
+      - title: "Optimal Experimental Design for Constrained Inverse Problems"
+        year: 2017
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.1708.04740"
+        authors: [julianne-chung, matthias-chung]
+      - title: "Randomized and inner-product free Krylov methods for large-scale inverse problems"
+        year: 2025
+        venue: "Numerical Algorithms"
+        url: "https://doi.org/10.1007/s11075-025-02167-w"
+        authors: [malena-sabate-landman, julianne-chung]
+      - title: "Uncertainty quantification for goal-oriented inverse problems via variational encoder-decoder networks"
+        year: 2024
+        venue: "Inverse Problems"
+        url: "https://doi.org/10.1088/1361-6420/ad5373"
+        authors: [julianne-chung, matthias-chung]
+      - title: "Iterative Sampled Methods for Massive and Separable Nonlinear Inverse Problems"
+        year: 2019
+        venue: "Lecture notes in computer science"
+        url: "https://doi.org/10.1007/978-3-030-22368-7_10"
+        authors: [julianne-chung, matthias-chung]
+      - title: "Inner-Product Free Krylov Methods for Large-Scale Inverse Problems"
+        year: 2025
+        venue: "SIAM Journal on Scientific Computing"
+        url: "https://doi.org/10.1137/24m1672699"
+        authors: [julianne-chung, malena-sabate-landman]
+      - title: "Efficient hyperparameter estimation in Bayesian inverse problems using sample average approximation"
+        year: 2025
+        venue: "Philosophical Transactions of the Royal Society A Mathematical Physical and Engineering Sciences"
+        url: "https://doi.org/10.1098/rsta.2024.0046"
+        authors: [julianne-chung, malena-sabate-landman, arvind-saibaba]
+      - title: "A joint reconstruction and model selection approach for large-scale linear inverse modeling (msHyBR v2)"
+        year: 2024
+        venue: "Geoscientific model development"
+        url: "https://doi.org/10.5194/gmd-17-8853-2024"
+        authors: [malena-sabate-landman, julianne-chung, arvind-saibaba]
+      - title: "Flexible Krylov methods for group sparsity regularization"
+        year: 2024
+        venue: "Physica Scripta"
+        url: "https://doi.org/10.1088/1402-4896/ad88af"
+        authors: [julianne-chung, malena-sabate-landman]
+      - title: "Sampled Tikhonov regularization for large linear inverse problems"
+        year: 2019
+        venue: "Inverse Problems"
+        url: "https://doi.org/10.1088/1361-6420/ab2787"
+        authors: [julianne-chung, matthias-chung]
+      - title: "Quantifying uncertainties in Large-scale Bayesian linear inverse problems using Krylov subspace methods"
+        year: 2018
+        venue: "arXiv"
+        url: "https://arxiv.org/abs/1808.09066v1"
+        authors: [arvind-saibaba, julianne-chung]
+      - title: "Uncertainty quantification in large Bayesian linear inverse problems using Krylov subspace methods"
+        year: 2018
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.1808.09066"
+        authors: [arvind-saibaba, julianne-chung]
+      - title: "Generalized Hybrid Iterative Methods for Large-Scale Bayesian Inverse Problems"
+        year: 2017
+        venue: "SIAM Journal on Scientific Computing"
+        url: "https://doi.org/10.1137/16m1081968"
+        authors: [julianne-chung, arvind-saibaba]
+      - title: "A Bayesian approach to linear inverse problems in seismic tomography"
+        year: 2014
+        venue: "AGU Fall Meeting Abstracts"
+        url: "https://ui.adsabs.harvard.edu/abs/2014AGUFM.S53A4496T/abstract"
+        authors: [julianne-chung, matthias-chung]
+      - title: "A Paired Autoencoder Framework for Inverse Problems via Bayes Risk Minimization"
+        year: 2026
+        venue: "SIAM Journal on Scientific Computing"
+        url: "https://doi.org/10.1137/25m1726935"
+        authors: [julianne-chung, matthias-chung]
+      - title: "Latent Space Inference via Paired Autoencoders"
+        year: 2026
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.2601.11397"
+        authors: [julianne-chung, matthias-chung]
+      - title: "Iterative Reconstruction Methods for Cosmological X-Ray Tomography"
+        year: 2025
+        venue: "SIAM Journal on Imaging Sciences"
+        url: "https://doi.org/10.1137/24m1656724"
+        authors: [julianne-chung, lucas-onisk]
+      - title: "A Joint Reconstruction and Model Selection Approach for Large Scale Inverse Modeling"
+        year: 2024
+        venue: ""
+        url: "https://doi.org/10.5194/gmd-2024-90"
+        authors: [malena-sabate-landman, julianne-chung, arvind-saibaba]
+      - title: "Goal-oriented Uncertainty Quantification for Inverse Problems via Variational Encoder-Decoder Networks"
+        year: 2023
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.2304.08324"
+        authors: [julianne-chung, matthias-chung]
+      - title: "Accelerating Stochastic Optimization of Separable DNNs via Iterative Sampling Methods"
+        year: 2021
+        venue: ""
+        url: "https://doi.org/10.26226/morressier.612f6739bc98103724100993"
+        authors: [elizabeth-newman, julianne-chung, matthias-chung]
+      - title: "Optimal Regularized Inverse Matrices for Inverse Problems"
+        year: 2017
+        venue: "SIAM Journal on Matrix Analysis and Applications"
+        url: "https://doi.org/10.1137/16m1066531"
+        authors: [julianne-chung, matthias-chung]
+  - id: matthias-chung
+    papers:
+      - title: "Learning regularization parameters of inverse problems via deep neural networks"
+        year: 2021
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.2104.06594"
+        authors: [julianne-chung, matthias-chung]
+      - title: "Designing Optimal Spectral Filters for Inverse Problems"
+        year: 2011
+        venue: "SIAM Journal on Scientific Computing"
+        url: "https://doi.org/10.1137/100812938"
+        authors: [julianne-chung, matthias-chung]
+      - title: "Optimal Experimental Design for Inverse Problems with State Constraints"
+        year: 2018
+        venue: "SIAM Journal on Scientific Computing"
+        url: "https://doi.org/10.1137/17m1143733"
+        authors: [julianne-chung, matthias-chung]
+      - title: "An efficient approach for computing optimal low-rank regularized inverse matrices"
+        year: 2014
+        venue: "Inverse Problems"
+        url: "https://doi.org/10.1088/0266-5611/30/11/114009"
+        authors: [julianne-chung, matthias-chung]
+      - title: "Computing optimal low-rank matrix approximations for image processing"
+        year: 2013
+        venue: ""
+        url: "https://doi.org/10.1109/acssc.2013.6810366"
+        authors: [julianne-chung, matthias-chung]
+      - title: "Optimal regularized low rank inverse approximation"
+        year: 2014
+        venue: "Linear Algebra and its Applications"
+        url: "https://doi.org/10.1016/j.laa.2014.07.024"
+        authors: [julianne-chung, matthias-chung]
+      - title: "Optimal Filters from Calibration Data for Image Deconvolution with Data Acquisition Error"
+        year: 2012
+        venue: "Journal of Mathematical Imaging and Vision"
+        url: "https://doi.org/10.1007/s10851-012-0332-4"
+        authors: [julianne-chung, matthias-chung]
+      - title: "Stochastic Newton and Quasi-Newton Methods for Large Linear Least-squares Problems"
+        year: 2017
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.1702.07367"
+        authors: [julianne-chung, matthias-chung]
+      - title: "slimTrain---A Stochastic Approximation Method for Training Separable Deep Neural Networks"
+        year: 2022
+        venue: "SIAM Journal on Scientific Computing"
+        url: "https://doi.org/10.1137/21m1452512"
+        authors: [elizabeth-newman, julianne-chung, matthias-chung]
+      - title: "Paired autoencoders for likelihood-free estimation in inverse problems"
+        year: 2024
+        venue: "Machine Learning Science and Technology"
+        url: "https://doi.org/10.1088/2632-2153/ad95dd"
+        authors: [matthias-chung, julianne-chung]
+      - title: "Efficient learning methods for large-scale optimal inversion design"
+        year: 2022
+        venue: "Numerical Algebra Control and Optimization"
+        url: "https://doi.org/10.3934/naco.2022036"
+        authors: [julianne-chung, matthias-chung, mirjeta-pasha]
+      - title: "Optimal Experimental Design for Constrained Inverse Problems"
+        year: 2017
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.1708.04740"
+        authors: [julianne-chung, matthias-chung]
+      - title: "Uncertainty quantification for goal-oriented inverse problems via variational encoder-decoder networks"
+        year: 2024
+        venue: "Inverse Problems"
+        url: "https://doi.org/10.1088/1361-6420/ad5373"
+        authors: [julianne-chung, matthias-chung]
+      - title: "Iterative Sampled Methods for Massive and Separable Nonlinear Inverse Problems"
+        year: 2019
+        venue: "Lecture notes in computer science"
+        url: "https://doi.org/10.1007/978-3-030-22368-7_10"
+        authors: [julianne-chung, matthias-chung]
+      - title: "5 Image reconstructions using sparse dictionary representations and implicit, nonnegative mappings"
+        year: 2024
+        venue: ""
+        url: "https://doi.org/10.1515/9783111357270-005"
+        authors: [elizabeth-newman, matthias-chung]
+      - title: "Image reconstructions using sparse dictionary representations and implicit, non-negative mappings"
+        year: 2023
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.2312.03180"
+        authors: [elizabeth-newman, matthias-chung]
+      - title: "Sampled Tikhonov regularization for large linear inverse problems"
+        year: 2019
+        venue: "Inverse Problems"
+        url: "https://doi.org/10.1088/1361-6420/ab2787"
+        authors: [julianne-chung, matthias-chung]
+      - title: "A Bayesian approach to linear inverse problems in seismic tomography"
+        year: 2014
+        venue: "AGU Fall Meeting Abstracts"
+        url: "https://ui.adsabs.harvard.edu/abs/2014AGUFM.S53A4496T/abstract"
+        authors: [julianne-chung, matthias-chung]
+      - title: "A Paired Autoencoder Framework for Inverse Problems via Bayes Risk Minimization"
+        year: 2026
+        venue: "SIAM Journal on Scientific Computing"
+        url: "https://doi.org/10.1137/25m1726935"
+        authors: [julianne-chung, matthias-chung]
+      - title: "Latent Space Inference via Paired Autoencoders"
+        year: 2026
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.2601.11397"
+        authors: [julianne-chung, matthias-chung]
+      - title: "Latent Twins"
+        year: 2026
+        venue: "Machine Learning Science and Technology"
+        url: "https://doi.org/10.1088/2632-2153/ae538e"
+        authors: [matthias-chung, vishwas-rao]
+      - title: "Optimal linear baseline models for scientific machine learning"
+        year: 2026
+        venue: "Foundations of Data Science"
+        url: "https://doi.org/10.3934/fods.2026012"
+        authors: [andrea-arnold, matthias-chung]
+      - title: "Goal-oriented Uncertainty Quantification for Inverse Problems via Variational Encoder-Decoder Networks"
+        year: 2023
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.2304.08324"
+        authors: [julianne-chung, matthias-chung]
+      - title: "Accelerating Stochastic Optimization of Separable DNNs via Iterative Sampling Methods"
+        year: 2021
+        venue: ""
+        url: "https://doi.org/10.26226/morressier.612f6739bc98103724100993"
+        authors: [elizabeth-newman, julianne-chung, matthias-chung]
+      - title: "Optimal Regularized Inverse Matrices for Inverse Problems"
+        year: 2017
+        venue: "SIAM Journal on Matrix Analysis and Applications"
+        url: "https://doi.org/10.1137/16m1066531"
+        authors: [julianne-chung, matthias-chung]
+  - id: arvind-saibaba
+    papers:
+      - title: "A randomized tensor singular value decomposition based on the t‐product"
+        year: 2018
+        venue: "Numerical Linear Algebra with Applications"
+        url: "https://doi.org/10.1002/nla.2179"
+        authors: [arvind-saibaba, misha-kilmer]
+      - title: "Randomized Algorithms for Rounding in the Tensor-Train Format"
+        year: 2023
+        venue: "SIAM Journal on Scientific Computing"
+        url: "https://doi.org/10.1137/21m1451191"
+        authors: [paul-cazeaux, agnieszka-miedlar, mirjeta-pasha, arvind-saibaba]
+      - title: "Efficient Krylov subspace methods for uncertainty quantification in large Bayesian linear inverse problems"
+        year: 2020
+        venue: "Numerical Linear Algebra with Applications"
+        url: "https://doi.org/10.1002/nla.2325"
+        authors: [arvind-saibaba, julianne-chung]
+      - title: "Computationally efficient methods for large-scale atmospheric inverse modeling"
+        year: 2022
+        venue: "Geoscientific model development"
+        url: "https://doi.org/10.5194/gmd-15-5547-2022"
+        authors: [julianne-chung, arvind-saibaba]
+      - title: "Hybrid Projection Methods for Solution Decomposition in Large-Scale Bayesian Inverse Problems"
+        year: 2023
+        venue: "SIAM Journal on Scientific Computing"
+        url: "https://doi.org/10.1137/22m1502197"
+        authors: [julianne-chung, arvind-saibaba]
+      - title: "A computational framework for edge-preserving regularization in dynamic inverse problems"
+        year: 2023
+        venue: "ETNA - Electronic Transactions on Numerical Analysis"
+        url: "https://doi.org/10.1553/etna_vol58s486"
+        authors: [mirjeta-pasha, arvind-saibaba, malena-espanol, eric-de-sturler]
+      - title: "Monte Carlo Methods for Estimating the Diagonal of a Real Symmetric Matrix"
+        year: 2023
+        venue: "SIAM Journal on Matrix Analysis and Applications"
+        url: "https://doi.org/10.1137/22m1476277"
+        authors: [ilse-ipsen, arvind-saibaba]
+      - title: "Efficient Algorithms for Bayesian Inverse Problems with Whittle–Matérn Priors"
+        year: 2023
+        venue: "SIAM Journal on Scientific Computing"
+        url: "https://doi.org/10.1137/22m1494397"
+        authors: [harbir-antil, arvind-saibaba]
+      - title: "Randomized approaches to accelerate MCMC algorithms for Bayesian inverse problems"
+        year: 2021
+        venue: "Journal of Computational Physics"
+        url: "https://doi.org/10.1016/j.jcp.2021.110391"
+        authors: [arvind-saibaba, eric-de-sturler, misha-kilmer]
+      - title: "Stable Rank and Intrinsic Dimension of Real and Complex Matrices"
+        year: 2025
+        venue: "SIAM Journal on Matrix Analysis and Applications"
+        url: "https://doi.org/10.1137/24m1681537"
+        authors: [ilse-ipsen, arvind-saibaba]
+      - title: "Efficient iterative methods for hyperparameter estimation in large-scale linear inverse problems"
+        year: 2024
+        venue: "Advances in Computational Mathematics"
+        url: "https://doi.org/10.1007/s10444-024-10208-6"
+        authors: [arvind-saibaba, julianne-chung]
+      - title: "Efficient randomized tensor-based algorithms for function approximation and low-rank kernel interactions"
+        year: 2022
+        venue: "Advances in Computational Mathematics"
+        url: "https://doi.org/10.1007/s10444-022-09979-7"
+        authors: [arvind-saibaba, misha-kilmer]
+      - title: "Randomized Algorithms for Low-Rank Tensor Decompositions in the Tucker Format"
+        year: 2020
+        venue: "SIAM Journal on Mathematics of Data Science"
+        url: "https://doi.org/10.1137/19m1261043"
+        authors: [arvind-saibaba, misha-kilmer]
+      - title: "Randomized matrix-free trace and log-determinant estimators"
+        year: 2017
+        venue: "Numerische Mathematik"
+        url: "https://doi.org/10.1007/s00211-017-0880-z"
+        authors: [arvind-saibaba, ilse-ipsen]
+      - title: "Parametric level-sets enhanced to improve reconstruction (PaLEnTIR)"
+        year: 2025
+        venue: "Inverse Problems"
+        url: "https://doi.org/10.1088/1361-6420/ada798"
+        authors: [misha-kilmer, eric-de-sturler, arvind-saibaba]
+      - title: "Parametric Kernel Low-Rank Approximations Using Tensor Train Decomposition"
+        year: 2025
+        venue: "SIAM Journal on Matrix Analysis and Applications"
+        url: "https://doi.org/10.1137/24m1663879"
+        authors: [abraham-khan, arvind-saibaba]
+      - title: "Bayesian D-Optimal Experimental Designs via Column Subset Selection"
+        year: 2026
+        venue: "SIAM Journal on Scientific Computing"
+        url: "https://doi.org/10.1137/24m1649861"
+        authors: [vishwas-rao, arvind-saibaba]
+      - title: "Efficient hyperparameter estimation in Bayesian inverse problems using sample average approximation"
+        year: 2025
+        venue: "Philosophical Transactions of the Royal Society A Mathematical Physical and Engineering Sciences"
+        url: "https://doi.org/10.1098/rsta.2024.0046"
+        authors: [julianne-chung, malena-sabate-landman, arvind-saibaba]
+      - title: "Randomized Low-Rank Approximations beyond Gaussian Random Matrices"
+        year: 2025
+        venue: "SIAM Journal on Mathematics of Data Science"
+        url: "https://doi.org/10.1137/23m1593255"
+        authors: [arvind-saibaba, agnieszka-miedlar]
+      - title: "A joint reconstruction and model selection approach for large-scale linear inverse modeling (msHyBR v2)"
+        year: 2024
+        venue: "Geoscientific model development"
+        url: "https://doi.org/10.5194/gmd-17-8853-2024"
+        authors: [malena-sabate-landman, julianne-chung, arvind-saibaba]
+      - title: "Robust Parameter Identifiability Analysis via Column Subset Selection"
+        year: 2022
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.2205.04203"
+        authors: [katherine-pearce, ilse-ipsen, arvind-saibaba]
+      - title: "Structured Matrix Approximations via Tensor Decompositions"
+        year: 2022
+        venue: "SIAM Journal on Matrix Analysis and Applications"
+        url: "https://doi.org/10.1137/21m1418290"
+        authors: [misha-kilmer, arvind-saibaba]
+      - title: "Quantifying uncertainties in Large-scale Bayesian linear inverse problems using Krylov subspace methods"
+        year: 2018
+        venue: "arXiv"
+        url: "https://arxiv.org/abs/1808.09066v1"
+        authors: [arvind-saibaba, julianne-chung]
+      - title: "Uncertainty quantification in large Bayesian linear inverse problems using Krylov subspace methods"
+        year: 2018
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.1808.09066"
+        authors: [arvind-saibaba, julianne-chung]
+      - title: "Generalized Hybrid Iterative Methods for Large-Scale Bayesian Inverse Problems"
+        year: 2017
+        venue: "SIAM Journal on Scientific Computing"
+        url: "https://doi.org/10.1137/16m1081968"
+        authors: [julianne-chung, arvind-saibaba]
+      - title: "Multipreconditioned Gmres for Shifted Systems"
+        year: 2017
+        venue: "SIAM Journal on Scientific Computing"
+        url: "https://doi.org/10.1137/16m1068694"
+        authors: [arvind-saibaba, daniel-szyld]
+      - title: "Fast Algorithms for Hyperspectral Diffuse Optical Tomography"
+        year: 2015
+        venue: "SIAM Journal on Scientific Computing"
+        url: "https://doi.org/10.1137/140990073"
+        authors: [arvind-saibaba, misha-kilmer]
+      - title: "Revisiting column subset selection through the lens of submodularity"
+        year: 2026
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.2607.13823"
+        authors: [ilse-ipsen, arvind-saibaba]
+      - title: "Optimal Sensor Placement in Gaussian Processes via Column Subset Selection"
+        year: 2026
+        venue: "Open MIND"
+        url: "https://doi.org/10.48550/arxiv.2601.20781"
+        authors: [jessie-chen, arvind-saibaba]
+      - title: "Stochastic Trace Optimization of Parameter Dependent Matrices Based on Statistical Learning Theory"
+        year: 2025
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.2508.05764"
+        authors: [arvind-saibaba, ilse-ipsen]
+      - title: "Many (most?) column subset selection criteria are NP hard for a few columns"
+        year: 2025
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.2511.02740"
+        authors: [ilse-ipsen, arvind-saibaba]
+      - title: "Optimal sensor placement under model uncertainty in the weak-constraint 4D-Var framework"
+        year: 2025
+        venue: "Foundations of Data Science"
+        url: "https://doi.org/10.3934/fods.2026002"
+        authors: [vishwas-rao, arvind-saibaba]
+      - title: "Randomized Preconditioned Solvers for Strong Constraint 4D-Var Data Assimilation"
+        year: 2025
+        venue: "Optimization and Engineering"
+        url: "https://doi.org/10.1007/s11081-025-10018-9"
+        authors: [vishwas-rao, arvind-saibaba]
+      - title: "Structured Column Subset Selection for Bayesian Optimal Experimental Design"
+        year: 2025
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.2506.00336"
+        authors: [arvind-saibaba, vishwas-rao]
+      - title: "Adaptive Randomized Tensor Train Rounding using Khatri-Rao Products"
+        year: 2025
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.2511.03598"
+        authors: [laura-grigori, mariana-martinez-aguilar, arvind-saibaba]
+      - title: "A Joint Reconstruction and Model Selection Approach for Large Scale Inverse Modeling"
+        year: 2024
+        venue: ""
+        url: "https://doi.org/10.5194/gmd-2024-90"
+        authors: [malena-sabate-landman, julianne-chung, arvind-saibaba]
+      - title: "Randomized reduced basis methods for parameterized fractional elliptic PDEs"
+        year: 2023
+        venue: "Finite Elements in Analysis and Design"
+        url: "https://doi.org/10.1016/j.finel.2023.104046"
+        authors: [harbir-antil, arvind-saibaba]
+      - title: "Efficient edge-preserving methods for dynamic inverse problems"
+        year: 2021
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.2107.05727"
+        authors: [mirjeta-pasha, arvind-saibaba, malena-espanol]
+      - title: "3D parameter reconstruction in hyperspectral diffuse optical tomography"
+        year: 2015
+        venue: "Proceedings of SPIE, the International Society for Optical Engineering/Proceedings of SPIE"
+        url: "https://doi.org/10.1117/12.2079775"
+        authors: [arvind-saibaba, misha-kilmer]
+  - id: valeria-simoncini
+    papers:
+      - title: "Recent computational developments in Krylov subspace methods for linear systems"
+        year: 2006
+        venue: "Numerical Linear Algebra with Applications"
+        url: "https://doi.org/10.1002/nla.499"
+        authors: [valeria-simoncini, daniel-szyld]
+      - title: "Theory of Inexact Krylov Subspace Methods and Applications to Scientific Computing"
+        year: 2003
+        venue: "SIAM Journal on Scientific Computing"
+        url: "https://doi.org/10.1137/s1064827502406415"
+        authors: [valeria-simoncini, daniel-szyld]
+      - title: "Flexible Inner-Outer Krylov Subspace Methods"
+        year: 2002
+        venue: "SIAM Journal on Numerical Analysis"
+        url: "https://doi.org/10.1137/s0036142902401074"
+        authors: [valeria-simoncini, daniel-szyld]
+      - title: "On the Occurrence of Superlinear Convergence of Exact and Inexact Krylov Subspace Methods"
+        year: 2005
+        venue: "SIAM Review"
+        url: "https://doi.org/10.1137/s0036144503424439"
+        authors: [valeria-simoncini, daniel-szyld]
+      - title: "Matrix-equation-based strategies for convection–diffusion equations"
+        year: 2015
+        venue: "BIT Numerical Mathematics"
+        url: "https://doi.org/10.1007/s10543-015-0575-8"
+        authors: [davide-palitta, valeria-simoncini]
+      - title: "Efficient low-rank solution of generalized Lyapunov equations"
+        year: 2015
+        venue: "Numerische Mathematik"
+        url: "https://doi.org/10.1007/s00211-015-0777-7"
+        authors: [valeria-simoncini, daniel-szyld]
+      - title: "Interpreting IDR as a Petrov–Galerkin Method"
+        year: 2010
+        venue: "SIAM Journal on Scientific Computing"
+        url: "https://doi.org/10.1137/090774756"
+        authors: [valeria-simoncini, daniel-szyld]
+      - title: "An ultraweak space-time variational formulation for the wave equation: Analysis and efficient numerical solution"
+        year: 2022
+        venue: "ESAIM Mathematical Modelling and Numerical Analysis"
+        url: "https://doi.org/10.1051/m2an/2022035"
+        authors: [davide-palitta, valeria-simoncini]
+      - title: "The effect of non-optimal bases on the convergence of Krylov subspace methods"
+        year: 2005
+        venue: "Numerische Mathematik"
+        url: "https://doi.org/10.1007/s00211-005-0603-8"
+        authors: [valeria-simoncini, daniel-szyld]
+      - title: "New conditions for non-stagnation of minimal residual methods"
+        year: 2008
+        venue: "Numerische Mathematik"
+        url: "https://doi.org/10.1007/s00211-008-0145-y"
+        authors: [valeria-simoncini, daniel-szyld]
+      - title: "Projection methods for large-scale T-Sylvester equations"
+        year: 2015
+        venue: "Mathematics of Computation"
+        url: "https://doi.org/10.1090/mcom/3081"
+        authors: [daniel-kressner, valeria-simoncini]
+      - title: "The Short-Term Rational Lanczos Method and Applications"
+        year: 2022
+        venue: "SIAM Journal on Scientific Computing"
+        url: "https://doi.org/10.1137/21m1403254"
+        authors: [davide-palitta, stefano-pozza, valeria-simoncini]
+      - title: "Decay bounds for non-Hermitian matrix functions"
+        year: 2016
+        venue: "arXiv"
+        url: "https://www.arxiv.org/pdf/1605.01595"
+        authors: [stefano-pozza, valeria-simoncini]
+      - title: "Relaxed Krylov subspace approximation"
+        year: 2005
+        venue: "PAMM"
+        url: "https://doi.org/10.1002/pamm.200510373"
+        authors: [valeria-simoncini, daniel-szyld]
+      - title: "Sketched and Truncated Polynomial Krylov Methods: Evaluation of Matrix Functions"
+        year: 2024
+        venue: "Numerical Linear Algebra with Applications"
+        url: "https://doi.org/10.1002/nla.2596"
+        authors: [davide-palitta, valeria-simoncini]
+      - title: "Sketched and truncated polynomial Krylov subspace methods: Matrix Sylvester equations"
+        year: 2024
+        venue: "Mathematics of Computation"
+        url: "https://doi.org/10.1090/mcom/4002"
+        authors: [davide-palitta, valeria-simoncini]
+      - title: "Functions of rational Krylov space matrices and their decay properties"
+        year: 2021
+        venue: "Numerische Mathematik"
+        url: "https://doi.org/10.1007/s00211-021-01198-4"
+        authors: [stefano-pozza, valeria-simoncini]
+      - title: "Inexact Arnoldi residual estimates and decay properties for functions of non-Hermitian matrices"
+        year: 2019
+        venue: "BIT Numerical Mathematics"
+        url: "https://doi.org/10.1007/s10543-019-00763-6"
+        authors: [stefano-pozza, valeria-simoncini]
+      - title: "On the field of values of oblique projections"
+        year: 2010
+        venue: "Linear Algebra and its Applications"
+        url: "https://doi.org/10.1016/j.laa.2010.04.004"
+        authors: [valeria-simoncini, daniel-szyld]
+      - title: "Truncated LSQR for matrix least squares problems"
+        year: 2024
+        venue: "Computational Optimization and Applications"
+        url: "https://doi.org/10.1007/s10589-024-00629-w"
+        authors: [lorenzo-piccinini, valeria-simoncini]
+      - title: "Matrix Oriented Reduction of Space-Time Petrov-Galerkin Variational Problems"
+        year: 2021
+        venue: "Lecture notes in computational science and engineering"
+        url: "https://doi.org/10.1007/978-3-030-55874-1_104"
+        authors: [davide-palitta, valeria-simoncini]
+      - title: "Optimality Properties of Galerkin and Petrov–Galerkin Methods for Linear Matrix Equations"
+        year: 2020
+        venue: "Vietnam Journal of Mathematics"
+        url: "https://doi.org/10.1007/s10013-020-00390-7"
+        authors: [davide-palitta, valeria-simoncini]
+      - title: "Numerical Methods for Large-Scale Lyapunov Equations with Symmetric Banded Data"
+        year: 2018
+        venue: "SIAM Journal on Scientific Computing"
+        url: "https://doi.org/10.1137/17m1156575"
+        authors: [davide-palitta, valeria-simoncini]
+      - title: "Regularized methods via cubic model subspace minimization for nonconvex optimization"
+        year: 2025
+        venue: "Computational Optimization and Applications"
+        url: "https://doi.org/10.1007/s10589-025-00655-2"
+        authors: [davide-palitta, valeria-simoncini]
+      - title: "Computationally enhanced projection methods for symmetric Sylvester and Lyapunov matrix equations"
+        year: 2017
+        venue: "Journal of Computational and Applied Mathematics"
+        url: "https://doi.org/10.1016/j.cam.2017.08.011"
+        authors: [davide-palitta, valeria-simoncini]
+      - title: "S^T S-SVD via sketching and the nearest S^T S-orthogonal matrix"
+        year: 2026
+        venue: "BIT Numerical Mathematics"
+        url: "https://doi.org/10.1007/s10543-025-01101-9"
+        authors: [davide-palitta, valeria-simoncini]
+      - title: "Special issue in honor of Daniel B. Szyld"
+        year: 2026
+        venue: "Linear Algebra and its Applications"
+        url: "https://doi.org/10.1016/j.laa.2026.02.015"
+        authors: [edmond-chow, valeria-simoncini]
+      - title: "Subspace gradient descent method for linear tensor equations"
+        year: 2026
+        venue: "Open MIND"
+        url: "https://doi.org/10.48550/arxiv.2602.21974"
+        authors: [lorenzo-piccinini, valeria-simoncini]
+      - title: "A class of low-rank short recurrences for nonsymmetric linear matrix equations"
+        year: 2026
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.2605.01276"
+        authors: [davide-palitta, valeria-simoncini]
+      - title: "A Subspace-Conjugate Gradient Method for Linear Matrix Equations"
+        year: 2025
+        venue: "SIAM Journal on Matrix Analysis and Applications"
+        url: "https://doi.org/10.1137/25m1723402"
+        authors: [davide-palitta, valeria-simoncini]
+      - title: "TT-LSQR for tensor least squares problems and application to data mining"
+        year: 2025
+        venue: "Numerical Algorithms"
+        url: "https://doi.org/10.1007/s11075-025-02204-8"
+        authors: [lorenzo-piccinini, valeria-simoncini]
+      - title: "Correction: Regularized methods via cubic model subspace minimization for nonconvex optimization"
+        year: 2025
+        venue: "Computational Optimization and Applications"
+        url: "https://doi.org/10.1007/s10589-025-00681-0"
+        authors: [davide-palitta, valeria-simoncini]
+      - title: "Very Weak Space-Time Variational Formulation for the Wave Equation: Analysis and Efficient Numerical Solution"
+        year: 2021
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.2107.12119"
+        authors: [davide-palitta, valeria-simoncini]
+      - title: "7th Workshop on Matrix Equations and Tensor Techniques"
+        year: 2018
+        venue: "Numerical Linear Algebra with Applications"
+        url: "https://doi.org/10.1002/nla.2223"
+        authors: [daniel-kressner, valeria-simoncini]
+      - title: "Decay bounds for functions of banded non-Hermitian matrices"
+        year: 2016
+        venue: "arXiv"
+        url: "https://arxiv.org/abs/1605.01595v2"
+        authors: [stefano-pozza, valeria-simoncini]
+  - id: daniel-szyld
+    papers:
+      - title: "Recent computational developments in Krylov subspace methods for linear systems"
+        year: 2006
+        venue: "Numerical Linear Algebra with Applications"
+        url: "https://doi.org/10.1002/nla.499"
+        authors: [valeria-simoncini, daniel-szyld]
+      - title: "Theory of Inexact Krylov Subspace Methods and Applications to Scientific Computing"
+        year: 2003
+        venue: "SIAM Journal on Scientific Computing"
+        url: "https://doi.org/10.1137/s1064827502406415"
+        authors: [valeria-simoncini, daniel-szyld]
+      - title: "Flexible Inner-Outer Krylov Subspace Methods"
+        year: 2002
+        venue: "SIAM Journal on Numerical Analysis"
+        url: "https://doi.org/10.1137/s0036142902401074"
+        authors: [valeria-simoncini, daniel-szyld]
+      - title: "On the Occurrence of Superlinear Convergence of Exact and Inexact Krylov Subspace Methods"
+        year: 2005
+        venue: "SIAM Review"
+        url: "https://doi.org/10.1137/s0036144503424439"
+        authors: [valeria-simoncini, daniel-szyld]
+      - title: "Efficient low-rank solution of generalized Lyapunov equations"
+        year: 2015
+        venue: "Numerische Mathematik"
+        url: "https://doi.org/10.1007/s00211-015-0777-7"
+        authors: [valeria-simoncini, daniel-szyld]
+      - title: "Interpreting IDR as a Petrov–Galerkin Method"
+        year: 2010
+        venue: "SIAM Journal on Scientific Computing"
+        url: "https://doi.org/10.1137/090774756"
+        authors: [valeria-simoncini, daniel-szyld]
+      - title: "Scalable Asynchronous Domain Decomposition Solvers"
+        year: 2020
+        venue: "SIAM Journal on Scientific Computing"
+        url: "https://doi.org/10.1137/19m1291303"
+        authors: [edmond-chow, daniel-szyld]
+      - title: "The effect of non-optimal bases on the convergence of Krylov subspace methods"
+        year: 2005
+        venue: "Numerische Mathematik"
+        url: "https://doi.org/10.1007/s00211-005-0603-8"
+        authors: [valeria-simoncini, daniel-szyld]
+      - title: "New conditions for non-stagnation of minimal residual methods"
+        year: 2008
+        venue: "Numerische Mathematik"
+        url: "https://doi.org/10.1007/s00211-008-0145-y"
+        authors: [valeria-simoncini, daniel-szyld]
+      - title: "On Non-Hermitian Positive (Semi)Definite Linear Algebraic Systems Arising from Dissipative Hamiltonian DAEs"
+        year: 2022
+        venue: "SIAM Journal on Scientific Computing"
+        url: "https://doi.org/10.1137/21m1458594"
+        authors: [jorg-liesen, daniel-szyld]
+      - title: "Domain Overlap for Iterative Sparse Triangular Solves on GPUs"
+        year: 2016
+        venue: "Lecture notes in computational science and engineering"
+        url: "https://doi.org/10.1007/978-3-319-40528-5_24"
+        authors: [edmond-chow, daniel-szyld]
+      - title: "Asynchronous Richardson iterations: theory and practice"
+        year: 2020
+        venue: "Numerical Algorithms"
+        url: "https://doi.org/10.1007/s11075-020-01023-3"
+        authors: [edmond-chow, daniel-szyld]
+      - title: "Convergence of the multiplicative Schwarz method for singularly perturbed convection-diffusion problems discretized on a Shishkin mesh"
+        year: 2018
+        venue: "ETNA - Electronic Transactions on Numerical Analysis"
+        url: "https://doi.org/10.1553/etna_vol48s40"
+        authors: [jorg-liesen, daniel-szyld]
+      - title: "Relaxed Krylov subspace approximation"
+        year: 2005
+        venue: "PAMM"
+        url: "https://doi.org/10.1002/pamm.200510373"
+        authors: [valeria-simoncini, daniel-szyld]
+      - title: "Asynchronous domain decomposition methods for nonlinear PDEs"
+        year: 2022
+        venue: "ETNA - Electronic Transactions on Numerical Analysis"
+        url: "https://doi.org/10.1553/etna_vol58s22"
+        authors: [edmond-chow, daniel-szyld]
+      - title: "Optimal size of the block in block GMRES on GPUs: computational model and experiments"
+        year: 2022
+        venue: "Numerical Algorithms"
+        url: "https://doi.org/10.1007/s11075-022-01439-z"
+        authors: [andrew-higgins, daniel-szyld]
+      - title: "Two-Stage Block Orthogonalization to Improve Performance of s-step GMRES"
+        year: 2024
+        venue: ""
+        url: "https://doi.org/10.1109/ipdps57955.2024.00012"
+        authors: [andrew-higgins, daniel-szyld]
+      - title: "On the field of values of oblique projections"
+        year: 2010
+        venue: "Linear Algebra and its Applications"
+        url: "https://doi.org/10.1016/j.laa.2010.04.004"
+        authors: [valeria-simoncini, daniel-szyld]
+      - title: "Randomized Householder-Cholesky QR Factorization with Multisketching"
+        year: 2023
+        venue: ""
+        url: "https://doi.org/10.2172/2540515"
+        authors: [andrew-higgins, daniel-szyld]
+      - title: "Multipreconditioned Gmres for Shifted Systems"
+        year: 2017
+        venue: "SIAM Journal on Scientific Computing"
+        url: "https://doi.org/10.1137/16m1068694"
+        authors: [arvind-saibaba, daniel-szyld]
+      - title: "Random sketching to enhance the numerical stability of block orthogonalization algorithms for s-step GMRES"
+        year: 2026
+        venue: "Parallel Computing"
+        url: "https://doi.org/10.1016/j.parco.2026.103197"
+        authors: [andrew-higgins, daniel-szyld]
+      - title: "Analysis of Randomized Householder-Cholesky QR factorization with multisketching"
+        year: 2025
+        venue: "Numerische Mathematik"
+        url: "https://doi.org/10.1007/s00211-025-01492-5"
+        authors: [andrew-higgins, daniel-szyld]
+      - title: "New Linear Solvers Features and Improvements in Trilinos"
+        year: 2023
+        venue: ""
+        url: "https://doi.org/10.2172/2463061"
+        authors: [andrew-higgins, daniel-szyld]
+      - title: "07071 Report on Dagstuhl Seminar – Web Information Retrieval and Linear Algebra Algorithms"
+        year: 2007
+        venue: "DROPS (Schloss Dagstuhl – Leibniz Center for Informatics)"
+        url: "https://doi.org/10.4230/dagsemproc.07071.2"
+        authors: [michael-mahoney, daniel-szyld]
+      - title: "07071 Abstracts Collection – Web Information Retrieval and Linear Algebra Algorithms"
+        year: 2007
+        venue: "Leibniz-Zentrum für Informatik (Schloss Dagstuhl)"
+        url: "https://doi.org/10.4230/dagsemproc.07071.1"
+        authors: [michael-mahoney, daniel-szyld]
+      - title: "Editorial"
+        year: 2003
+        venue: "BIT Numerical Mathematics"
+        url: "https://doi.org/10.1023/b:bitn.0000014634.41070.b2"
+        authors: [zdenek-strakos, daniel-szyld]
+  - id: lothar-reichel
+    papers:
+      - title: "Augmented Implicitly Restarted Lanczos Bidiagonalization Methods"
+        year: 2005
+        venue: "SIAM Journal on Scientific Computing"
+        url: "https://doi.org/10.1137/04060593x"
+        authors: [james-baglama, lothar-reichel]
+      - title: "Tikhonov Regularization of Large Linear Problems"
+        year: 2003
+        venue: "BIT Numerical Mathematics"
+        url: "https://doi.org/10.1023/a:1026083619097"
+        authors: [daniela-calvetti, lothar-reichel]
+        note: "pair has 26+ joint papers; representative subset"
+      - title: "On the Choice of Subspace for Iterative Methods for Linear Discrete Ill-Posed Problems"
+        year: 2001
+        venue: "Digital library of Zielona Gora (University of Zielona Góra)"
+        url: "https://zbc.uz.zgora.pl/dlibra/docmetadata?showContent=true&id=58804"
+        authors: [daniela-calvetti, lothar-reichel]
+      - title: "Restarted block Lanczos bidiagonalization methods"
+        year: 2007
+        venue: "Numerical Algorithms"
+        url: "https://doi.org/10.1007/s11075-006-9057-z"
+        authors: [james-baglama, lothar-reichel]
+      - title: "Fast Leja points"
+        year: 1998
+        venue: "ETNA. Electronic Transactions on Numerical Analysis [electronic only]"
+        url: "https://eudml.org/doc/119747"
+        authors: [james-baglama, daniela-calvetti, lothar-reichel]
+      - title: "L-Curve Curvature Bounds via Lanczos Bidiagonalization"
+        year: 2001
+        venue: ""
+        url: "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.15.6145"
+        authors: [daniela-calvetti, lothar-reichel]
+      - title: "Tikhonov Regularization with a Solution Constraint"
+        year: 2004
+        venue: "SIAM Journal on Scientific Computing"
+        url: "https://doi.org/10.1137/s1064827502412280"
+        authors: [daniela-calvetti, lothar-reichel]
+      - title: "Augmented GMRES‐type methods"
+        year: 2007
+        venue: "Numerical Linear Algebra with Applications"
+        url: "https://doi.org/10.1002/nla.518"
+        authors: [james-baglama, lothar-reichel]
+      - title: "Analysis of directed networks via the matrix exponential"
+        year: 2019
+        venue: "Journal of Computational and Applied Mathematics"
+        url: "https://doi.org/10.1016/j.cam.2019.01.015"
+        authors: [omar-de-la-cruz-cabrera, lothar-reichel]
+      - title: "Generalized singular value decomposition with iterated Tikhonov regularization"
+        year: 2019
+        venue: "Journal of Computational and Applied Mathematics"
+        url: "https://doi.org/10.1016/j.cam.2019.05.024"
+        authors: [mirjeta-pasha, lothar-reichel]
+      - title: "An implicitly restarted block Lanczos bidiagonalization method using Leja shifts"
+        year: 2012
+        venue: "BIT Numerical Mathematics"
+        url: "https://doi.org/10.1007/s10543-012-0409-x"
+        authors: [james-baglama, lothar-reichel]
+      - title: "Decomposition methods for large linear discrete ill-posed problems"
+        year: 2006
+        venue: "Journal of Computational and Applied Mathematics"
+        url: "https://doi.org/10.1016/j.cam.2005.09.025"
+        authors: [james-baglama, lothar-reichel]
+      - title: "Edge importance in a network via line graphs and the matrix exponential"
+        year: 2019
+        venue: "Numerical Algorithms"
+        url: "https://doi.org/10.1007/s11075-019-00704-y"
+        authors: [omar-de-la-cruz-cabrera, lothar-reichel]
+      - title: "On the Evaluation of Polynomial Coefficients"
+        year: 2003
+        venue: "Numerical Algorithms"
+        url: "https://doi.org/10.1023/a:1025555803588"
+        authors: [daniela-calvetti, lothar-reichel]
+      - title: "TIKHONOV REGULARIZATION WITH NONNEGATIVITY CONSTRAINT"
+        year: 2004
+        venue: ""
+        url: "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.88.229"
+        authors: [daniela-calvetti, lothar-reichel]
+      - title: "Symmetric Gauss–Lobatto and Modified Anti-Gauss Rules"
+        year: 2003
+        venue: "BIT Numerical Mathematics"
+        url: "https://doi.org/10.1023/b:bitn.0000007053.03860.c0"
+        authors: [daniela-calvetti, lothar-reichel]
+      - title: "Iterative Solution Methods for Large Linear Discrete Ill-Posed Problems"
+        year: 1999
+        venue: "Birkhäuser Boston eBooks"
+        url: "https://doi.org/10.1007/978-1-4612-0571-5_7"
+        authors: [daniela-calvetti, lothar-reichel]
+      - title: "Restoration of images with spatially variant blur by the GMRES method"
+        year: 2000
+        venue: "Proceedings of SPIE, the International Society for Optical Engineering/Proceedings of SPIE"
+        url: "https://doi.org/10.1117/12.406515"
+        authors: [daniela-calvetti, lothar-reichel]
+      - title: "COMPUTATION OF GAUSS-KRONROD QUADRATURE RULES WITH NON-POSITIVE WEIGHTS"
+        year: 1999
+        venue: ""
+        url: "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.45.8686"
+        authors: [daniela-calvetti, lothar-reichel]
+      - title: "Computation of Gauss-Kronrod Quadrature Rules"
+        year: 2007
+        venue: ""
+        url: "http://dblp.uni-trier.de/db/books/collections/CGO2007.html#GolubCGR07"
+        authors: [daniela-calvetti, lothar-reichel]
+      - title: "Applications of Anti-Gauss Quadrature Rules in Linear Algebra"
+        year: 1999
+        venue: "Birkhäuser Basel eBooks"
+        url: "https://doi.org/10.1007/978-3-0348-8685-7_3"
+        authors: [daniela-calvetti, lothar-reichel]
+      - title: "Large-scale regression with non-convex loss and penalty"
+        year: 2020
+        venue: "Applied Numerical Mathematics"
+        url: "https://doi.org/10.1016/j.apnum.2020.07.006"
+        authors: [omar-de-la-cruz-cabrera, lothar-reichel]
+      - title: "Centrality measures for node-weighted networks via line graphs and the matrix exponential"
+        year: 2021
+        venue: "Numerical Algorithms"
+        url: "https://doi.org/10.1007/s11075-020-01050-0"
+        authors: [omar-de-la-cruz-cabrera, lothar-reichel]
+      - title: "Quadrature Rules Based on the Arnoldi Process"
+        year: 2005
+        venue: "SIAM Journal on Matrix Analysis and Applications"
+        url: "https://doi.org/10.1137/s0895479803423822"
+        authors: [daniela-calvetti, lothar-reichel]
+      - title: "Iterative solution methods for ill-posed problems"
+        year: 1995
+        venue: "Proceedings of SPIE, the International Society for Optical Engineering/Proceedings of SPIE"
+        url: "https://doi.org/10.1117/12.211410"
+        authors: [daniela-calvetti, lothar-reichel]
+      - title: "Linearized Krylov subspace Bregman iteration with nonnegativity constraint"
+        year: 2020
+        venue: "Numerical Algorithms"
+        url: "https://doi.org/10.1007/s11075-020-01004-6"
+        authors: [mirjeta-pasha, lothar-reichel]
+      - title: "The restarted QR-algorithm for eigenvalue computation of structured matrices"
+        year: 2002
+        venue: "Journal of Computational and Applied Mathematics"
+        url: "https://doi.org/10.1016/s0377-0427(02)00486-7"
+        authors: [daniela-calvetti, lothar-reichel]
+      - title: "Variable selection in saturated and supersaturated designs via lp-lq minimization"
+        year: 2021
+        venue: "Communications in Statistics - Simulation and Computation"
+        url: "https://doi.org/10.1080/03610918.2021.1961151"
+        authors: [omar-de-la-cruz-cabrera, lothar-reichel]
+      - title: "Krylov subspace iterative methods for nonsymmetric discrete ill-posed problems in image restoration"
+        year: 2001
+        venue: "Proceedings of SPIE, the International Society for Optical Engineering/Proceedings of SPIE"
+        url: "https://doi.org/10.1117/12.448653"
+        authors: [daniela-calvetti, lothar-reichel]
+      - title: "An implicit restarted Lanczos method for large symmetric eigenvalue problems"
+        year: 1994
+        venue: "ETNA. Electronic Transactions on Numerical Analysis [electronic only]"
+        url: "https://eudml.org/doc/118543"
+        authors: [daniela-calvetti, lothar-reichel]
+      - title: "ON THE SOLUTION OF CAUCHY SYSTEMS OF EQUATIONS"
+        year: 1996
+        venue: ""
+        url: "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.38.5726"
+        authors: [daniela-calvetti, lothar-reichel]
+      - title: "A parallel implementation of the GMRES method"
+        year: 2012
+        venue: ""
+        url: "https://doi.org/10.1515/9783110857658.31"
+        authors: [daniela-calvetti, lothar-reichel]
+      - title: "L-curve for the MINRES method"
+        year: 2000
+        venue: "Proceedings of SPIE, the International Society for Optical Engineering/Proceedings of SPIE"
+        url: "https://doi.org/10.1117/12.406517"
+        authors: [daniela-calvetti, lothar-reichel]
+      - title: "A hybrid GMRES and TV-norm-based method for image restoration"
+        year: 2002
+        venue: "Proceedings of SPIE, the International Society for Optical Engineering/Proceedings of SPIE"
+        url: "https://doi.org/10.1117/12.452016"
+        authors: [daniela-calvetti, lothar-reichel]
+      - title: "An Arnoldi-based preconditioner for iterated Tikhonov regularization"
+        year: 2022
+        venue: "Numerical Algorithms"
+        url: "https://doi.org/10.1007/s11075-022-01407-7"
+        authors: [lucas-onisk, lothar-reichel]
+      - title: "Gauss Quadrature Applied to Trust Region Computations"
+        year: 2003
+        venue: "Numerical Algorithms"
+        url: "https://doi.org/10.1023/a:1026130310913"
+        authors: [daniela-calvetti, lothar-reichel]
+      - title: "Smooth or abrupt: a comparison of regularization methods"
+        year: 1998
+        venue: "Proceedings of SPIE, the International Society for Optical Engineering/Proceedings of SPIE"
+        url: "https://doi.org/10.1117/12.325689"
+        authors: [daniela-calvetti, lothar-reichel]
+      - title: "Block matrix models for dynamic networks"
+        year: 2021
+        venue: "Applied Mathematics and Computation"
+        url: "https://doi.org/10.1016/j.amc.2021.126121"
+        authors: [omar-de-la-cruz-cabrera, lothar-reichel]
+      - title: "An Implementation of the GMRES Method Using QR Factorization"
+        year: 1991
+        venue: "SIAM Conference on Parallel Processing for Scientific Computing"
+        url: "http://dblp.uni-trier.de/db/conf/ppsc/ppsc1991.html#BaiHR91"
+        authors: [zhaojun-bai, lothar-reichel]
+      - title: "Projected iterated Tikhonov in general form with adaptive choice of the regularization parameter"
+        year: 2025
+        venue: "Numerical Algorithms"
+        url: "https://doi.org/10.1007/s11075-025-02072-2"
+        authors: [lucas-onisk, mirjeta-pasha, lothar-reichel]
+      - title: "Range restricted iterative methods for linear discrete ill-posed problems"
+        year: 2023
+        venue: "ETNA - Electronic Transactions on Numerical Analysis"
+        url: "https://doi.org/10.1553/etna_vol58s348"
+        authors: [lucas-onisk, lothar-reichel]
+      - title: "Numerical considerations of block GMRES methods when applied to linear discrete ill-posed problems"
+        year: 2023
+        venue: "Journal of Computational and Applied Mathematics"
+        url: "https://doi.org/10.1016/j.cam.2023.115262"
+        authors: [lucas-onisk, lothar-reichel]
+      - title: "Sparse approximation of complex networks"
+        year: 2024
+        venue: "Applied Numerical Mathematics"
+        url: "https://doi.org/10.1016/j.apnum.2024.01.002"
+        authors: [omar-de-la-cruz-cabrera, lothar-reichel]
+      - title: "Orthogonal Expansion of Network Functions"
+        year: 2020
+        venue: "Vietnam Journal of Mathematics"
+        url: "https://doi.org/10.1007/s10013-020-00439-7"
+        authors: [omar-de-la-cruz-cabrera, lothar-reichel]
+      - title: "Accuracy Control for Parallel Evaluation of Matrix Rational Functions"
+        year: 1993
+        venue: ""
+        url: "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.49.1725"
+        authors: [daniela-calvetti, lothar-reichel]
+      - title: "Flexible iterative methods for linear systems of equations with multiple right-hand sides"
+        year: 2025
+        venue: "Numerical Algorithms"
+        url: "https://doi.org/10.1007/s11075-025-02007-x"
+        authors: [lucas-onisk, lothar-reichel]
+      - title: "Fast alternating fitting methods for trigonometric curves for large data sets"
+        year: 2024
+        venue: "Applied Numerical Mathematics"
+        url: "https://doi.org/10.1016/j.apnum.2024.01.001"
+        authors: [omar-de-la-cruz-cabrera, lothar-reichel]
+      - title: "Solution of large linear discrete ill-posed problems by randomized block Krylov methods"
+        year: 2025
+        venue: "BIT Numerical Mathematics"
+        url: "https://doi.org/10.1007/s10543-025-01097-2"
+        authors: [lucas-onisk, lothar-reichel]
+      - title: "Krylov Subspace Based FISTA‐Type Methods for Linear Discrete Ill‐Posed Problems"
+        year: 2024
+        venue: "Numerical Linear Algebra with Applications"
+        url: "https://doi.org/10.1002/nla.2610"
+        authors: [mirjeta-pasha, lothar-reichel]
+      - title: "New models for multi-class networks"
+        year: 2021
+        venue: "Journal of Computational and Applied Mathematics"
+        url: "https://doi.org/10.1016/j.cam.2021.113567"
+        authors: [omar-de-la-cruz-cabrera, lothar-reichel]
+      - title: "Communication in complex networks"
+        year: 2021
+        venue: "Applied Numerical Mathematics"
+        url: "https://doi.org/10.1016/j.apnum.2021.10.005"
+        authors: [omar-de-la-cruz-cabrera, lothar-reichel]
+      - title: "Functions and eigenvectors of partially known matrices with applications to network analysis"
+        year: 2020
+        venue: "Applied Numerical Mathematics"
+        url: "https://doi.org/10.1016/j.apnum.2020.08.020"
+        authors: [omar-de-la-cruz-cabrera, lothar-reichel]
+      - title: "Special volume on matrix analysis and applications"
+        year: 2008
+        venue: ""
+        url: "https://experts.umn.edu/en/publications/special-volume-on-matrix-analysis-and-applications"
+        authors: [lothar-reichel, yousef-saad]
+  - id: daniela-calvetti
+    papers:
+      - title: "Tikhonov Regularization of Large Linear Problems"
+        year: 2003
+        venue: "BIT Numerical Mathematics"
+        url: "https://doi.org/10.1023/a:1026083619097"
+        authors: [daniela-calvetti, lothar-reichel]
+        note: "pair has 26+ joint papers; representative subset"
+      - title: "Hypermodels in the Bayesian imaging framework"
+        year: 2008
+        venue: "Inverse Problems"
+        url: "https://doi.org/10.1088/0266-5611/24/3/034013"
+        authors: [daniela-calvetti, erkki-somersalo]
+        note: "pair has 133+ joint papers; representative subset"
+      - title: "Conditionally Gaussian Hypermodels for Cerebral Source Localization"
+        year: 2009
+        venue: "SIAM Journal on Imaging Sciences"
+        url: "https://doi.org/10.1137/080723995"
+        authors: [daniela-calvetti, erkki-somersalo]
+      - title: "A Gaussian hypermodel to recover blocky objects"
+        year: 2007
+        venue: "Inverse Problems"
+        url: "https://doi.org/10.1088/0266-5611/23/2/016"
+        authors: [daniela-calvetti, erkki-somersalo]
+      - title: "On the Choice of Subspace for Iterative Methods for Linear Discrete Ill-Posed Problems"
+        year: 2001
+        venue: "Digital library of Zielona Gora (University of Zielona Góra)"
+        url: "https://zbc.uz.zgora.pl/dlibra/docmetadata?showContent=true&id=58804"
+        authors: [daniela-calvetti, lothar-reichel]
+      - title: "Stochastic modelling of muscle recruitment during activity"
+        year: 2015
+        venue: "Interface Focus"
+        url: "https://doi.org/10.1098/rsfs.2014.0094"
+        authors: [daniela-calvetti, erkki-somersalo]
+      - title: "Priorconditioners for linear systems"
+        year: 2005
+        venue: "Inverse Problems"
+        url: "https://doi.org/10.1088/0266-5611/21/4/014"
+        authors: [daniela-calvetti, erkki-somersalo]
+      - title: "Fast Leja points"
+        year: 1998
+        venue: "ETNA. Electronic Transactions on Numerical Analysis [electronic only]"
+        url: "https://eudml.org/doc/119747"
+        authors: [james-baglama, daniela-calvetti, lothar-reichel]
+      - title: "L-Curve Curvature Bounds via Lanczos Bidiagonalization"
+        year: 2001
+        venue: ""
+        url: "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.15.6145"
+        authors: [daniela-calvetti, lothar-reichel]
+      - title: "Sparse reconstructions from few noisy data: analysis of hierarchical Bayesian models with generalized gamma hyperpriors"
+        year: 2019
+        venue: "Inverse Problems"
+        url: "https://doi.org/10.1088/1361-6420/ab4d92"
+        authors: [daniela-calvetti, erkki-somersalo]
+      - title: "Astrocytes as the Glucose Shunt for Glutamatergic Neurons at High Activity: An In Silico Study"
+        year: 2008
+        venue: "Journal of Neurophysiology"
+        url: "https://doi.org/10.1152/jn.90377.2008"
+        authors: [erkki-somersalo, daniela-calvetti]
+      - title: "Tikhonov Regularization with a Solution Constraint"
+        year: 2004
+        venue: "SIAM Journal on Scientific Computing"
+        url: "https://doi.org/10.1137/s1064827502412280"
+        authors: [daniela-calvetti, lothar-reichel]
+      - title: "A reaction–diffusion model of CO2 influx into an oocyte"
+        year: 2012
+        venue: "Journal of Theoretical Biology"
+        url: "https://doi.org/10.1016/j.jtbi.2012.06.016"
+        authors: [erkki-somersalo, daniela-calvetti]
+      - title: "Aristotelian prior boundary conditions"
+        year: 2006
+        venue: "International journal of mathematics and computer science"
+        url: "https://research.aalto.fi/en/publications/aristotelian-prior-boundary-conditions(4fabe51c-5bbb-4f67-8b1b-b35ced11f892).html"
+        authors: [daniela-calvetti, erkki-somersalo]
+      - title: "Brain Activity Mapping from MEG Data via a Hierarchical Bayesian Algorithm with Automatic Depth Weighting"
+        year: 2018
+        venue: "Brain Topography"
+        url: "https://doi.org/10.1007/s10548-018-0670-7"
+        authors: [daniela-calvetti, erkki-somersalo]
+      - title: "Parameter estimation for stiff deterministic dynamical systems via ensemble Kalman filter"
+        year: 2014
+        venue: "Inverse Problems"
+        url: "https://doi.org/10.1088/0266-5611/30/10/105008"
+        authors: [andrea-arnold, daniela-calvetti, erkki-somersalo]
+      - title: "Hierarchical regularization for edge-preserving reconstruction of PET images"
+        year: 2010
+        venue: "Inverse Problems"
+        url: "https://doi.org/10.1088/0266-5611/26/3/035010"
+        authors: [daniela-calvetti, erkki-somersalo]
+      - title: "Large‐Scale Statistical Parameter Estimation in Complex Systems with an Application to Metabolic Models"
+        year: 2006
+        venue: "Multiscale Modeling and Simulation"
+        url: "https://doi.org/10.1137/050644860"
+        authors: [daniela-calvetti, erkki-somersalo]
+      - title: "Inverse problems in the Bayesian framework"
+        year: 2014
+        venue: "Inverse Problems"
+        url: "https://doi.org/10.1088/0266-5611/30/11/110301"
+        authors: [daniela-calvetti, erkki-somersalo]
+      - title: "Computational tools for calculating alternative muscle force patterns during motion: A comparison of possible solutions"
+        year: 2013
+        venue: "Journal of Biomechanics"
+        url: "https://doi.org/10.1016/j.jbiomech.2013.05.023"
+        authors: [daniela-calvetti, erkki-somersalo]
+      - title: "Energetics of Inhibition: Insights with a Computational Model of the Human GABAergic Neuron–Astrocyte Cellular Complex"
+        year: 2010
+        venue: "Journal of Cerebral Blood Flow & Metabolism"
+        url: "https://doi.org/10.1038/jcbfm.2010.107"
+        authors: [erkki-somersalo, daniela-calvetti]
+      - title: "Ménage à Trois: The Role of Neurotransmitters in the Energy Metabolism of Astrocytes, Glutamatergic, and GABAergic Neurons"
+        year: 2012
+        venue: "Journal of Cerebral Blood Flow & Metabolism"
+        url: "https://doi.org/10.1038/jcbfm.2012.31"
+        authors: [daniela-calvetti, erkki-somersalo]
+      - title: "Metabolica: A statistical research tool for analyzing metabolic networks"
+        year: 2009
+        venue: "Computer Methods and Programs in Biomedicine"
+        url: "https://doi.org/10.1016/j.cmpb.2009.07.007"
+        authors: [daniela-calvetti, erkki-somersalo]
+      - title: "Bayesian flux balance analysis applied to a skeletal muscle metabolic model"
+        year: 2007
+        venue: "Journal of Theoretical Biology"
+        url: "https://doi.org/10.1016/j.jtbi.2007.04.002"
+        authors: [daniela-calvetti, erkki-somersalo]
+      - title: "Image inpainting with structural bootstrap priors"
+        year: 2006
+        venue: "Image and Vision Computing"
+        url: "https://doi.org/10.1016/j.imavis.2006.01.015"
+        authors: [daniela-calvetti, erkki-somersalo]
+      - title: "A spatially distributed computational model of brain cellular metabolism"
+        year: 2015
+        venue: "Journal of Theoretical Biology"
+        url: "https://doi.org/10.1016/j.jtbi.2015.03.037"
+        authors: [daniela-calvetti, erkki-somersalo]
+      - title: "Linear multistep methods, particle filtering and sequential Monte Carlo"
+        year: 2013
+        venue: "Inverse Problems"
+        url: "https://doi.org/10.1088/0266-5611/29/8/085007"
+        authors: [andrea-arnold, daniela-calvetti, erkki-somersalo]
+      - title: "Quantitative in silico Analysis of Neurotransmitter Pathways Under Steady State Conditions"
+        year: 2013
+        venue: "Frontiers in Endocrinology"
+        url: "https://doi.org/10.3389/fendo.2013.00137"
+        authors: [daniela-calvetti, erkki-somersalo]
+      - title: "On the Evaluation of Polynomial Coefficients"
+        year: 2003
+        venue: "Numerical Algorithms"
+        url: "https://doi.org/10.1023/a:1025555803588"
+        authors: [daniela-calvetti, lothar-reichel]
+      - title: "Dynamic activation model for a glutamatergic neurovascular unit"
+        year: 2010
+        venue: "Journal of Theoretical Biology"
+        url: "https://doi.org/10.1016/j.jtbi.2010.12.007"
+        authors: [daniela-calvetti, erkki-somersalo]
+      - title: "Introduction to Bayesian Scientific Computing: Ten Lectures on Subjective Computing (Surveys and Tutorials in the Applied Mathematical Sciences)"
+        year: 2007
+        venue: "Springer eBooks"
+        url: "https://dl.acm.org/citation.cfm?id=1296219"
+        authors: [daniela-calvetti, erkki-somersalo]
+      - title: "TIKHONOV REGULARIZATION WITH NONNEGATIVITY CONSTRAINT"
+        year: 2004
+        venue: ""
+        url: "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.88.229"
+        authors: [daniela-calvetti, lothar-reichel]
+      - title: "Symmetric Gauss–Lobatto and Modified Anti-Gauss Rules"
+        year: 2003
+        venue: "BIT Numerical Mathematics"
+        url: "https://doi.org/10.1023/b:bitn.0000007053.03860.c0"
+        authors: [daniela-calvetti, lothar-reichel]
+      - title: "Iterative Solution Methods for Large Linear Discrete Ill-Posed Problems"
+        year: 1999
+        venue: "Birkhäuser Boston eBooks"
+        url: "https://doi.org/10.1007/978-1-4612-0571-5_7"
+        authors: [daniela-calvetti, lothar-reichel]
+      - title: "Restoration of images with spatially variant blur by the GMRES method"
+        year: 2000
+        venue: "Proceedings of SPIE, the International Society for Optical Engineering/Proceedings of SPIE"
+        url: "https://doi.org/10.1117/12.406515"
+        authors: [daniela-calvetti, lothar-reichel]
+      - title: "COMPUTATION OF GAUSS-KRONROD QUADRATURE RULES WITH NON-POSITIVE WEIGHTS"
+        year: 1999
+        venue: ""
+        url: "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.45.8686"
+        authors: [daniela-calvetti, lothar-reichel]
+      - title: "Computation of Gauss-Kronrod Quadrature Rules"
+        year: 2007
+        venue: ""
+        url: "http://dblp.uni-trier.de/db/books/collections/CGO2007.html#GolubCGR07"
+        authors: [daniela-calvetti, lothar-reichel]
+      - title: "Applications of Anti-Gauss Quadrature Rules in Linear Algebra"
+        year: 1999
+        venue: "Birkhäuser Basel eBooks"
+        url: "https://doi.org/10.1007/978-3-0348-8685-7_3"
+        authors: [daniela-calvetti, lothar-reichel]
+      - title: "Quadrature Rules Based on the Arnoldi Process"
+        year: 2005
+        venue: "SIAM Journal on Matrix Analysis and Applications"
+        url: "https://doi.org/10.1137/s0895479803423822"
+        authors: [daniela-calvetti, lothar-reichel]
+      - title: "Iterative solution methods for ill-posed problems"
+        year: 1995
+        venue: "Proceedings of SPIE, the International Society for Optical Engineering/Proceedings of SPIE"
+        url: "https://doi.org/10.1117/12.211410"
+        authors: [daniela-calvetti, lothar-reichel]
+      - title: "The restarted QR-algorithm for eigenvalue computation of structured matrices"
+        year: 2002
+        venue: "Journal of Computational and Applied Mathematics"
+        url: "https://doi.org/10.1016/s0377-0427(02)00486-7"
+        authors: [daniela-calvetti, lothar-reichel]
+      - title: "Krylov subspace iterative methods for nonsymmetric discrete ill-posed problems in image restoration"
+        year: 2001
+        venue: "Proceedings of SPIE, the International Society for Optical Engineering/Proceedings of SPIE"
+        url: "https://doi.org/10.1117/12.448653"
+        authors: [daniela-calvetti, lothar-reichel]
+      - title: "An implicit restarted Lanczos method for large symmetric eigenvalue problems"
+        year: 1994
+        venue: "ETNA. Electronic Transactions on Numerical Analysis [electronic only]"
+        url: "https://eudml.org/doc/118543"
+        authors: [daniela-calvetti, lothar-reichel]
+      - title: "ON THE SOLUTION OF CAUCHY SYSTEMS OF EQUATIONS"
+        year: 1996
+        venue: ""
+        url: "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.38.5726"
+        authors: [daniela-calvetti, lothar-reichel]
+      - title: "A parallel implementation of the GMRES method"
+        year: 2012
+        venue: ""
+        url: "https://doi.org/10.1515/9783110857658.31"
+        authors: [daniela-calvetti, lothar-reichel]
+      - title: "L-curve for the MINRES method"
+        year: 2000
+        venue: "Proceedings of SPIE, the International Society for Optical Engineering/Proceedings of SPIE"
+        url: "https://doi.org/10.1117/12.406517"
+        authors: [daniela-calvetti, lothar-reichel]
+      - title: "A hybrid GMRES and TV-norm-based method for image restoration"
+        year: 2002
+        venue: "Proceedings of SPIE, the International Society for Optical Engineering/Proceedings of SPIE"
+        url: "https://doi.org/10.1117/12.452016"
+        authors: [daniela-calvetti, lothar-reichel]
+      - title: "Gauss Quadrature Applied to Trust Region Computations"
+        year: 2003
+        venue: "Numerical Algorithms"
+        url: "https://doi.org/10.1023/a:1026130310913"
+        authors: [daniela-calvetti, lothar-reichel]
+      - title: "Smooth or abrupt: a comparison of regularization methods"
+        year: 1998
+        venue: "Proceedings of SPIE, the International Society for Optical Engineering/Proceedings of SPIE"
+        url: "https://doi.org/10.1117/12.325689"
+        authors: [daniela-calvetti, lothar-reichel]
+      - title: "Accuracy Control for Parallel Evaluation of Matrix Rational Functions"
+        year: 1993
+        venue: ""
+        url: "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.49.1725"
+        authors: [daniela-calvetti, lothar-reichel]
+  - id: erkki-somersalo
+    papers:
+      - title: "Hypermodels in the Bayesian imaging framework"
+        year: 2008
+        venue: "Inverse Problems"
+        url: "https://doi.org/10.1088/0266-5611/24/3/034013"
+        authors: [daniela-calvetti, erkki-somersalo]
+        note: "pair has 133+ joint papers; representative subset"
+      - title: "Conditionally Gaussian Hypermodels for Cerebral Source Localization"
+        year: 2009
+        venue: "SIAM Journal on Imaging Sciences"
+        url: "https://doi.org/10.1137/080723995"
+        authors: [daniela-calvetti, erkki-somersalo]
+      - title: "A Gaussian hypermodel to recover blocky objects"
+        year: 2007
+        venue: "Inverse Problems"
+        url: "https://doi.org/10.1088/0266-5611/23/2/016"
+        authors: [daniela-calvetti, erkki-somersalo]
+      - title: "Stochastic modelling of muscle recruitment during activity"
+        year: 2015
+        venue: "Interface Focus"
+        url: "https://doi.org/10.1098/rsfs.2014.0094"
+        authors: [daniela-calvetti, erkki-somersalo]
+      - title: "Priorconditioners for linear systems"
+        year: 2005
+        venue: "Inverse Problems"
+        url: "https://doi.org/10.1088/0266-5611/21/4/014"
+        authors: [daniela-calvetti, erkki-somersalo]
+      - title: "Sparse reconstructions from few noisy data: analysis of hierarchical Bayesian models with generalized gamma hyperpriors"
+        year: 2019
+        venue: "Inverse Problems"
+        url: "https://doi.org/10.1088/1361-6420/ab4d92"
+        authors: [daniela-calvetti, erkki-somersalo]
+      - title: "Astrocytes as the Glucose Shunt for Glutamatergic Neurons at High Activity: An In Silico Study"
+        year: 2008
+        venue: "Journal of Neurophysiology"
+        url: "https://doi.org/10.1152/jn.90377.2008"
+        authors: [erkki-somersalo, daniela-calvetti]
+      - title: "A reaction–diffusion model of CO2 influx into an oocyte"
+        year: 2012
+        venue: "Journal of Theoretical Biology"
+        url: "https://doi.org/10.1016/j.jtbi.2012.06.016"
+        authors: [erkki-somersalo, daniela-calvetti]
+      - title: "Aristotelian prior boundary conditions"
+        year: 2006
+        venue: "International journal of mathematics and computer science"
+        url: "https://research.aalto.fi/en/publications/aristotelian-prior-boundary-conditions(4fabe51c-5bbb-4f67-8b1b-b35ced11f892).html"
+        authors: [daniela-calvetti, erkki-somersalo]
+      - title: "Brain Activity Mapping from MEG Data via a Hierarchical Bayesian Algorithm with Automatic Depth Weighting"
+        year: 2018
+        venue: "Brain Topography"
+        url: "https://doi.org/10.1007/s10548-018-0670-7"
+        authors: [daniela-calvetti, erkki-somersalo]
+      - title: "Parameter estimation for stiff deterministic dynamical systems via ensemble Kalman filter"
+        year: 2014
+        venue: "Inverse Problems"
+        url: "https://doi.org/10.1088/0266-5611/30/10/105008"
+        authors: [andrea-arnold, daniela-calvetti, erkki-somersalo]
+      - title: "Hierarchical regularization for edge-preserving reconstruction of PET images"
+        year: 2010
+        venue: "Inverse Problems"
+        url: "https://doi.org/10.1088/0266-5611/26/3/035010"
+        authors: [daniela-calvetti, erkki-somersalo]
+      - title: "Large‐Scale Statistical Parameter Estimation in Complex Systems with an Application to Metabolic Models"
+        year: 2006
+        venue: "Multiscale Modeling and Simulation"
+        url: "https://doi.org/10.1137/050644860"
+        authors: [daniela-calvetti, erkki-somersalo]
+      - title: "Inverse problems in the Bayesian framework"
+        year: 2014
+        venue: "Inverse Problems"
+        url: "https://doi.org/10.1088/0266-5611/30/11/110301"
+        authors: [daniela-calvetti, erkki-somersalo]
+      - title: "Computational tools for calculating alternative muscle force patterns during motion: A comparison of possible solutions"
+        year: 2013
+        venue: "Journal of Biomechanics"
+        url: "https://doi.org/10.1016/j.jbiomech.2013.05.023"
+        authors: [daniela-calvetti, erkki-somersalo]
+      - title: "Energetics of Inhibition: Insights with a Computational Model of the Human GABAergic Neuron–Astrocyte Cellular Complex"
+        year: 2010
+        venue: "Journal of Cerebral Blood Flow & Metabolism"
+        url: "https://doi.org/10.1038/jcbfm.2010.107"
+        authors: [erkki-somersalo, daniela-calvetti]
+      - title: "Ménage à Trois: The Role of Neurotransmitters in the Energy Metabolism of Astrocytes, Glutamatergic, and GABAergic Neurons"
+        year: 2012
+        venue: "Journal of Cerebral Blood Flow & Metabolism"
+        url: "https://doi.org/10.1038/jcbfm.2012.31"
+        authors: [daniela-calvetti, erkki-somersalo]
+      - title: "Metabolica: A statistical research tool for analyzing metabolic networks"
+        year: 2009
+        venue: "Computer Methods and Programs in Biomedicine"
+        url: "https://doi.org/10.1016/j.cmpb.2009.07.007"
+        authors: [daniela-calvetti, erkki-somersalo]
+      - title: "Bayesian flux balance analysis applied to a skeletal muscle metabolic model"
+        year: 2007
+        venue: "Journal of Theoretical Biology"
+        url: "https://doi.org/10.1016/j.jtbi.2007.04.002"
+        authors: [daniela-calvetti, erkki-somersalo]
+      - title: "Image inpainting with structural bootstrap priors"
+        year: 2006
+        venue: "Image and Vision Computing"
+        url: "https://doi.org/10.1016/j.imavis.2006.01.015"
+        authors: [daniela-calvetti, erkki-somersalo]
+      - title: "A spatially distributed computational model of brain cellular metabolism"
+        year: 2015
+        venue: "Journal of Theoretical Biology"
+        url: "https://doi.org/10.1016/j.jtbi.2015.03.037"
+        authors: [daniela-calvetti, erkki-somersalo]
+      - title: "Linear multistep methods, particle filtering and sequential Monte Carlo"
+        year: 2013
+        venue: "Inverse Problems"
+        url: "https://doi.org/10.1088/0266-5611/29/8/085007"
+        authors: [andrea-arnold, daniela-calvetti, erkki-somersalo]
+      - title: "Quantitative in silico Analysis of Neurotransmitter Pathways Under Steady State Conditions"
+        year: 2013
+        venue: "Frontiers in Endocrinology"
+        url: "https://doi.org/10.3389/fendo.2013.00137"
+        authors: [daniela-calvetti, erkki-somersalo]
+      - title: "Dynamic activation model for a glutamatergic neurovascular unit"
+        year: 2010
+        venue: "Journal of Theoretical Biology"
+        url: "https://doi.org/10.1016/j.jtbi.2010.12.007"
+        authors: [daniela-calvetti, erkki-somersalo]
+      - title: "Introduction to Bayesian Scientific Computing: Ten Lectures on Subjective Computing (Surveys and Tutorials in the Applied Mathematical Sciences)"
+        year: 2007
+        venue: "Springer eBooks"
+        url: "https://dl.acm.org/citation.cfm?id=1296219"
+        authors: [daniela-calvetti, erkki-somersalo]
+  - id: robert-gower
+    papers:
+      - title: "On Adaptive Sketch-and-Project for Solving Linear Systems"
+        year: 2021
+        venue: "SIAM Journal on Matrix Analysis and Applications"
+        url: "https://doi.org/10.1137/19m1285846"
+        authors: [robert-gower, deanna-needell]
+      - title: "Adaptive Sketch-and-Project Methods for Solving Linear Systems"
+        year: 2019
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.1909.03604"
+        authors: [robert-gower, deanna-needell]
+      - title: "The Polar Express: Optimal Matrix Sign Methods and Their Application to the Muon Algorithm"
+        year: 2025
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.2505.16932"
+        authors: [noah-amsel, david-persson, christopher-musco, robert-gower]
+      - title: "SP2: A Second Order Stochastic Polyak Method"
+        year: 2022
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.2207.08171"
+        authors: [deanna-needell, robert-gower]
+  - id: fred-roosta
+    papers:
+      - title: "Newton-type methods for non-convex optimization under inexact Hessian information"
+        year: 2019
+        venue: "Mathematical Programming"
+        url: "https://doi.org/10.1007/s10107-019-01405-z"
+        authors: [fred-roosta, michael-mahoney]
+      - title: "Sub-sampled Newton methods"
+        year: 2018
+        venue: "Mathematical Programming"
+        url: "https://doi.org/10.1007/s10107-018-1346-5"
+        authors: [fred-roosta, michael-mahoney]
+      - title: "Second-order Optimization for Non-convex Machine Learning: an Empirical Study"
+        year: 2020
+        venue: "Society for Industrial and Applied Mathematics eBooks"
+        url: "https://doi.org/10.1137/1.9781611976236.23"
+        authors: [fred-roosta, michael-mahoney]
+      - title: "Parallel local graph clustering"
+        year: 2016
+        venue: "Proceedings of the VLDB Endowment"
+        url: "https://doi.org/10.14778/2994509.2994522"
+        authors: [fred-roosta, michael-mahoney]
+      - title: "Stochastic Normalizing Flows"
+        year: 2020
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.2002.09547"
+        authors: [fred-roosta, michael-mahoney]
+      - title: "Sub-sampled Newton Methods with Non-uniform Sampling"
+        year: 2016
+        venue: "Queensland's institutional digital repository (The University of Queensland)"
+        url: "https://openalex.org/W2964063026"
+        authors: [fred-roosta, michael-mahoney]
+      - title: "Newton-MR: Newton's Method Without Smoothness or Convexity"
+        year: 2018
+        venue: "arXiv"
+        url: "https://arxiv.org/pdf/1810.00303"
+        authors: [fred-roosta, michael-mahoney]
+      - title: "GPU Accelerated Sub-Sampled Newton's Method for Convex Classification Problems"
+        year: 2019
+        venue: "Society for Industrial and Applied Mathematics eBooks"
+        url: "https://doi.org/10.1137/1.9781611975673.79"
+        authors: [fred-roosta, michael-mahoney]
+      - title: "Inexact Nonconvex Newton-Type Methods"
+        year: 2021
+        venue: "INFORMS Journal on Optimization"
+        url: "https://doi.org/10.1287/ijoo.2019.0043"
+        authors: [fred-roosta, michael-mahoney]
+      - title: "Newton-MR: Inexact Newton Method with minimum residual sub-problem solver"
+        year: 2022
+        venue: "EURO Journal on Computational Optimization"
+        url: "https://doi.org/10.1016/j.ejco.2022.100035"
+        authors: [fred-roosta, michael-mahoney]
+      - title: "LSAR: Efficient Leverage Score Sampling Algorithm for the Analysis of Big Time Series Data"
+        year: 2019
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.1911.12321"
+        authors: [fred-roosta, michael-mahoney]
+      - title: "Inexact Newton-CG algorithms with complexity guarantees"
+        year: 2022
+        venue: "IMA Journal of Numerical Analysis"
+        url: "https://doi.org/10.1093/imanum/drac043"
+        authors: [fred-roosta, michael-mahoney]
+      - title: "Newton-ADMM: A Distributed GPU-Accelerated Optimizer for Multiclass Classification Problems"
+        year: 2018
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.1807.07132"
+        authors: [fred-roosta, michael-mahoney]
+      - title: "Exploiting Optimization for Local Graph Clustering"
+        year: 2016
+        venue: "arXiv"
+        url: "https://arxiv.org/pdf/1602.01886"
+        authors: [fred-roosta, michael-mahoney]
+      - title: "Distributed Second-order Convex Optimization"
+        year: 2018
+        venue: "arXiv"
+        url: "https://arxiv.org/abs/1807.07132v1"
+        authors: [fred-roosta, michael-mahoney]
+      - title: "Stochastic Continuous Normalizing Flows: Training SDEs as ODEs"
+        year: 2021
+        venue: "Uncertainty in Artificial Intelligence"
+        url: "https://www.auai.org/uai2021/accepted_papers#106"
+        authors: [fred-roosta, michael-mahoney]
+      - title: "The Interpolating Information Criterion for Overparameterized Models"
+        year: 2023
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.2307.07785"
+        authors: [fred-roosta, michael-mahoney]
+      - title: "Monotonicity and Double Descent in Uncertainty Estimation with Gaussian Processes"
+        year: 2022
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.2210.07612"
+        authors: [fred-roosta, michael-mahoney]
+      - title: "Limit theorems for out-of-sample extensions of the adjacency and Laplacian spectral embeddings"
+        year: 2019
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.1910.00423"
+        authors: [fred-roosta, michael-mahoney]
+      - title: "The Union of Intersections (UoI) method for interpretable data driven discovery and prediction"
+        year: 2017
+        venue: "Queensland's institutional digital repository (The University of Queensland)"
+        url: "https://openalex.org/W2767385289"
+        authors: [fred-roosta, michael-mahoney]
+      - title: "Determinant Estimation under Memory Constraints and Neural Scaling Laws"
+        year: 2025
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.2503.04424"
+        authors: [fred-roosta, michael-mahoney]
+      - title: "A PAC-Bayesian Perspective on the Interpolating Information Criterion"
+        year: 2023
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.2311.07013"
+        authors: [fred-roosta, michael-mahoney]
+      - title: "SALSA: Sequential Approximate Leverage-Score Algorithm with Application in Analyzing Big Time Series Data"
+        year: 2023
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.2401.00122"
+        authors: [fred-roosta, michael-mahoney]
+      - title: "Non-PSD Matrix Sketching with Applications to Regression and Optimization"
+        year: 2021
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.2106.08544"
+        authors: [fred-roosta, david-woodruff]
+      - title: "GPU Accelerated Sub-Sampled Newton's Method"
+        year: 2018
+        venue: "arXiv"
+        url: "https://arxiv.org/abs/1802.09113v1"
+        authors: [fred-roosta, michael-mahoney]
+      - title: "FLAG: Fast Linearly-Coupled Adaptive Gradient method"
+        year: 2016
+        venue: "arXiv"
+        url: "https://www.arxiv.org/pdf/1605.08108"
+        authors: [fred-roosta, michael-mahoney]
+  - id: mert-pilanci
+    papers:
+      - title: "Newton-LESS: Sparsification without Trade-offs for the Sketched Newton Update"
+        year: 2021
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.2107.07480"
+        authors: [mert-pilanci, michael-mahoney]
+      - title: "Debiasing Distributed Second Order Optimization with Surrogate Sketching and Scaled Regularization"
+        year: 2020
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.2007.01327"
+        authors: [mert-pilanci, michael-mahoney]
+  - id: riley-murray
+    papers:
+      - title: "Randomized Numerical Linear Algebra : A Perspective on the Field With an Eye to Software"
+        year: 2023
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.2302.11474"
+        authors: [riley-murray, james-demmel, michael-mahoney, laura-grigori]
+      - title: "Distributed-Memory Randomized Algorithms for Sparse Tensor CP Decomposition"
+        year: 2024
+        venue: ""
+        url: "https://doi.org/10.1145/3626183.3659980"
+        authors: [riley-murray, james-demmel]
+      - title: "CholeskyQR with Randomization and Pivoting for Tall Matrices (CQRRPT)"
+        year: 2025
+        venue: "SIAM Journal on Matrix Analysis and Applications"
+        url: "https://doi.org/10.1137/24m163712x"
+        authors: [riley-murray, james-demmel, michael-mahoney]
+      - title: "Fast Exact Leverage Score Sampling from Khatri-Rao Products with Applications to Tensor Decomposition"
+        year: 2023
+        venue: "DORA PSI (Paul Scherrer Institute)"
+        url: "https://doi.org/10.48550/arxiv.2301.12584"
+        authors: [riley-murray, laura-grigori, james-demmel]
+      - title: "Surrogate-Based Autotuning for Randomized Sketching Algorithms in Regression Problems"
+        year: 2025
+        venue: "SIAM Journal on Matrix Analysis and Applications"
+        url: "https://doi.org/10.1137/23m1597526"
+        authors: [james-demmel, michael-mahoney, riley-murray]
+      - title: "Anatomy of High-Performance Column-Pivoted QR Decomposition"
+        year: 2025
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.2507.00976"
+        authors: [riley-murray, james-demmel, michael-mahoney]
+      - title: "Fast multiplication of random dense matrices with sparse matrices"
+        year: 2024
+        venue: ""
+        url: "https://doi.org/10.1109/ipdps57955.2024.00014"
+        authors: [riley-murray, james-demmel]
+      - title: "Interface for Sparse Linear Algebra Operations"
+        year: 2024
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.2411.13259"
+        authors: [xiaoye-sherry-li, riley-murray]
+      - title: "Fast multiplication of random dense matrices with fixed sparse matrices"
+        year: 2023
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.2310.15419"
+        authors: [riley-murray, james-demmel]
+  - id: anna-ma
+    papers:
+      - title: "Convergence Properties of the Randomized Extended Gauss--Seidel and Kaczmarz Methods"
+        year: 2015
+        venue: "SIAM Journal on Matrix Analysis and Applications"
+        url: "https://doi.org/10.1137/15m1014425"
+        authors: [anna-ma, deanna-needell]
+      - title: "Greed Works: An Improved Analysis of Sampling Kaczmarz--Motzkin"
+        year: 2021
+        venue: "SIAM Journal on Mathematics of Data Science"
+        url: "https://doi.org/10.1137/19m1307044"
+        authors: [jamie-haddock, anna-ma]
+      - title: "An Approximate Message Passing Framework for Side Information"
+        year: 2019
+        venue: "IEEE Transactions on Signal Processing"
+        url: "https://doi.org/10.1109/tsp.2019.2899286"
+        authors: [anna-ma, deanna-needell]
+      - title: "Iterative Methods for Solving Factorized Linear Systems"
+        year: 2018
+        venue: "SIAM Journal on Matrix Analysis and Applications"
+        url: "https://doi.org/10.1137/17m1115678"
+        authors: [anna-ma, deanna-needell]
+      - title: "On Subsampled Quantile Randomized Kaczmarz"
+        year: 2023
+        venue: ""
+        url: "https://doi.org/10.1109/allerton58177.2023.10313381"
+        authors: [jamie-haddock, anna-ma, elizaveta-rebrova]
+      - title: "Fast Hyperspectral Diffuse Optical Imaging Method with Joint Sparsity"
+        year: 2019
+        venue: ""
+        url: "https://doi.org/10.1109/embc.2019.8857069"
+        authors: [anna-ma, deanna-needell]
+      - title: "Stochastic greedy algorithms for multiple measurement vectors"
+        year: 2020
+        venue: "Inverse Problems and Imaging"
+        url: "https://doi.org/10.3934/ipi.2020066"
+        authors: [deanna-needell, anna-ma]
+      - title: "Sparse Randomized Kaczmarz for Support Recovery of Jointly Sparse Corrupted Multiple Measurement Vectors"
+        year: 2019
+        venue: "Association for Women in Mathematics series"
+        url: "https://doi.org/10.1007/978-3-030-11566-1_1"
+        authors: [anna-ma, deanna-needell]
+      - title: "Analysis of fast structured dictionary learning [Image: see text]"
+        year: 2019
+        venue: "Information and Inference A Journal of the IMA"
+        url: "https://doi.org/10.1093/imaiai/iaz028"
+        authors: [anna-ma, deanna-needell]
+      - title: "Conditional approximate message passing with side information"
+        year: 2017
+        venue: ""
+        url: "https://doi.org/10.1109/acssc.2017.8335374"
+        authors: [anna-ma, deanna-needell]
+      - title: "Improving image clustering using sparse text and the wisdom of the crowds"
+        year: 2014
+        venue: "2014 48th Asilomar Conference on Signals, Systems and Computers"
+        url: "https://doi.org/10.1109/acssc.2014.7094725"
+        authors: [anna-ma, deanna-needell]
+      - title: "Stochastic Iterative Hard Thresholding for Low-Tucker-Rank Tensor Recovery"
+        year: 2020
+        venue: ""
+        url: "https://doi.org/10.1109/ita50056.2020.9244965"
+        authors: [anna-ma, deanna-needell]
+      - title: "Stochastic Gradient Descent for Linear Systems with Missing Data"
+        year: 2017
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.1702.07098"
+        authors: [anna-ma, deanna-needell]
+      - title: "Compressed Anomaly Detection with Multiple Mixed Observations"
+        year: 2019
+        venue: "Association for Women in Mathematics series"
+        url: "https://doi.org/10.1007/978-3-030-11566-1_10"
+        authors: [anna-ma, deanna-needell]
+      - title: "Jointly Sparse Signal Recovery with Prior Info"
+        year: 2019
+        venue: ""
+        url: "https://doi.org/10.1109/ieeeconf44664.2019.9048818"
+        authors: [anna-ma, deanna-needell]
+      - title: "Adapted Stochastic Gradient Descent for Linear Systems with Missing Data"
+        year: 2017
+        venue: "arXiv"
+        url: "https://arxiv.org/pdf/1702.07098.pdf"
+        authors: [anna-ma, deanna-needell]
+      - title: "Reverse Quantile‐RK and Its Application to Quantile‐RK"
+        year: 2025
+        venue: "Numerical Linear Algebra with Applications"
+        url: "https://doi.org/10.1002/nla.70024"
+        authors: [emeric-battaglia, anna-ma]
+      - title: "Iterative singular tube hard thresholding algorithms for tensor recovery"
+        year: 2024
+        venue: "Inverse Problems and Imaging"
+        url: "https://doi.org/10.3934/ipi.2023059"
+        authors: [anna-ma, deanna-needell]
+      - title: "Data-driven algorithm selection and tuning in optimization and signal processing"
+        year: 2020
+        venue: "Annals of Mathematics and Artificial Intelligence"
+        url: "https://doi.org/10.1007/s10472-020-09717-z"
+        authors: [jamie-haddock, anna-ma, deanna-needell]
+      - title: "Stochastic Natural Thresholding Algorithms"
+        year: 2023
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.2306.04730"
+        authors: [anna-ma, deanna-needell]
+      - title: "Stochastic Gradient Descent for Incomplete Tensor Linear Systems"
+        year: 2026
+        venue: "BIT Numerical Mathematics"
+        url: "https://doi.org/10.1007/s10543-026-01140-w"
+        authors: [anna-ma, deanna-needell]
+      - title: "Attention Mechanisms Through the Lens of Numerical Methods: Approximation Methods and Alternative Formulations"
+        year: 2026
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.2604.01757"
+        authors: [alice-cortinovis, yijun-dong, diana-halikias, anna-ma, deanna-needell, katherine-pearce, elizaveta-rebrova, rudi-smith, laura-grigori]
+      - title: "A Simple Recovery Framework for Signals with Time-Varying Sparse Support"
+        year: 2021
+        venue: "Association for Women in Mathematics series"
+        url: "https://doi.org/10.1007/978-3-030-79891-8_9"
+        authors: [anna-ma, deanna-needell]
+      - title: "Data-driven Algorithm Selection and Parameter Tuning: Two Case studies in Optimization and Signal Processing"
+        year: 2019
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.1905.13404"
+        authors: [jamie-haddock, anna-ma, deanna-needell]
+      - title: "Analysis of Fast Alternating Minimization for Structured Dictionary Learning"
+        year: 2018
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.1802.00518"
+        authors: [anna-ma, deanna-needell]
+  - id: jamie-haddock
+    papers:
+      - title: "Greed Works: An Improved Analysis of Sampling Kaczmarz--Motzkin"
+        year: 2021
+        venue: "SIAM Journal on Mathematics of Data Science"
+        url: "https://doi.org/10.1137/19m1307044"
+        authors: [jamie-haddock, anna-ma]
+      - title: "Quantile-Based Iterative Methods for Corrupted Systems of Linear Equations"
+        year: 2022
+        venue: "SIAM Journal on Matrix Analysis and Applications"
+        url: "https://doi.org/10.1137/21m1429187"
+        authors: [jamie-haddock, deanna-needell, elizaveta-rebrova]
+        note: "pair has 27+ joint papers; representative subset"
+      - title: "On Large-Scale Dynamic Topic Modeling with Nonnegative CP Tensor Decomposition"
+        year: 2021
+        venue: "Association for Women in Mathematics series"
+        url: "https://doi.org/10.1007/978-3-030-79891-8_8"
+        authors: [jamie-haddock, deanna-needell]
+      - title: "Feature Selection from Lyme Disease Patient Survey Using Machine Learning"
+        year: 2020
+        venue: "Algorithms"
+        url: "https://doi.org/10.3390/a13120334"
+        authors: [jamie-haddock, deanna-needell]
+      - title: "Antibiotic Treatment Response in Chronic Lyme Disease: Why Do Some Patients Improve While Others Do Not?"
+        year: 2020
+        venue: "Healthcare"
+        url: "https://doi.org/10.3390/healthcare8040383"
+        authors: [jamie-haddock, deanna-needell]
+      - title: "On Subsampled Quantile Randomized Kaczmarz"
+        year: 2023
+        venue: ""
+        url: "https://doi.org/10.1109/allerton58177.2023.10313381"
+        authors: [jamie-haddock, anna-ma, elizaveta-rebrova]
+      - title: "A Bayesian Approach for Asynchronous Parallel Sparse Recovery"
+        year: 2018
+        venue: "2018 52nd Asilomar Conference on Signals, Systems, and Computers"
+        url: "https://doi.org/10.1109/acssc.2018.8645176"
+        authors: [jamie-haddock, deanna-needell]
+      - title: "Semi-supervised Nonnegative Matrix Factorization for Document Classification"
+        year: 2021
+        venue: "2021 55th Asilomar Conference on Signals, Systems, and Computers"
+        url: "https://doi.org/10.1109/ieeeconf53345.2021.9723109"
+        authors: [jamie-haddock, deanna-needell]
+      - title: "A Generalized Hierarchical Nonnegative Tensor Decomposition"
+        year: 2022
+        venue: "ICASSP 2022 - 2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)"
+        url: "https://doi.org/10.1109/icassp43922.2022.9747810"
+        authors: [jamie-haddock, deanna-needell]
+      - title: "Semi-supervised NMF Models for Topic Modeling in Learning Tasks"
+        year: 2020
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.2010.07956"
+        authors: [jamie-haddock, deanna-needell]
+      - title: "Neural nonnegative matrix factorization for hierarchical multilayer topic modeling"
+        year: 2023
+        venue: "Sampling Theory Signal Processing and Data Analysis"
+        url: "https://doi.org/10.1007/s43670-023-00077-3"
+        authors: [jamie-haddock, deanna-needell]
+      - title: "On Nonnegative CP Tensor Decomposition Robustness to Noise"
+        year: 2020
+        venue: ""
+        url: "https://doi.org/10.1109/ita50056.2020.9244932"
+        authors: [jamie-haddock, deanna-needell]
+      - title: "Randomized Kaczmarz methods for t-product tensor linear systems with factorized operators"
+        year: 2025
+        venue: "BIT Numerical Mathematics"
+        url: "https://doi.org/10.1007/s10543-025-01078-5"
+        authors: [jamie-haddock, deanna-needell]
+      - title: "Neural Nonnegative CP Decomposition for Hierarchical Tensor Analysis"
+        year: 2021
+        venue: "2021 55th Asilomar Conference on Signals, Systems, and Computers"
+        url: "https://doi.org/10.1109/ieeeconf53345.2021.9723126"
+        authors: [jamie-haddock, deanna-needell]
+      - title: "Data-driven algorithm selection and tuning in optimization and signal processing"
+        year: 2020
+        venue: "Annals of Mathematics and Artificial Intelligence"
+        url: "https://doi.org/10.1007/s10472-020-09717-z"
+        authors: [jamie-haddock, anna-ma, deanna-needell]
+      - title: "Stochastic Gradient Descent Variants for Corrupted Systems of Linear Equations"
+        year: 2020
+        venue: ""
+        url: "https://doi.org/10.1109/ciss48834.2020.1570631711"
+        authors: [jamie-haddock, deanna-needell, elizaveta-rebrova]
+      - title: "A Sampling Kaczmarz--Motzkin Algorithm for Linear Feasibility"
+        year: 2017
+        venue: "SIAM Journal on Scientific Computing"
+        url: "https://doi.org/10.1137/16m1073807"
+        authors: [jamie-haddock, deanna-needell]
+      - title: "Block Matrix and Tensor Randomized Kaczmarz Methods for Linear Feasibility Problems"
+        year: 2025
+        venue: "La Matematica"
+        url: "https://doi.org/10.1007/s44007-025-00163-z"
+        authors: [jamie-haddock, deanna-needell]
+      - title: "Randomized Iterative Methods for Tensor Regression Under the t-Product"
+        year: 2025
+        venue: "Association for Women in Mathematics series"
+        url: "https://doi.org/10.1007/978-3-031-87804-6_1"
+        authors: [jamie-haddock, deanna-needell]
+      - title: "Automatic Infectious Disease Classification Analysis with Concept Discovery"
+        year: 2022
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.2209.02415"
+        authors: [jamie-haddock, deanna-needell]
+      - title: "On a Guided Nonnegative Matrix Factorization"
+        year: 2021
+        venue: ""
+        url: "https://doi.org/10.1109/icassp39728.2021.9413656"
+        authors: [jamie-haddock, elizaveta-rebrova, deanna-needell]
+      - title: "Feature Selection on Lyme Disease Patient Survey Data"
+        year: 2020
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.2009.09087"
+        authors: [jamie-haddock, deanna-needell]
+      - title: "Block Gauss-Seidel methods for t-product tensor regression"
+        year: 2025
+        venue: "Numerical Algorithms"
+        url: "https://doi.org/10.1007/s11075-025-02240-4"
+        authors: [jamie-haddock, deanna-needell]
+      - title: "Beyond Expectation: Concentration Inequalities for Randomized Iterative Methods"
+        year: 2025
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.2511.20877"
+        authors: [jamie-haddock, jackie-lok, elizaveta-rebrova]
+      - title: "Data-driven Algorithm Selection and Parameter Tuning: Two Case studies in Optimization and Signal Processing"
+        year: 2019
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.1905.13404"
+        authors: [jamie-haddock, anna-ma, deanna-needell]
+      - title: "On Inferences from Completed Data"
+        year: 2019
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.1907.03028"
+        authors: [jamie-haddock, deanna-needell]
+      - title: "Convergence of Iterative Hard Thresholding Variants with Application to Asynchronous Parallel Methods for Sparse Recovery"
+        year: 2019
+        venue: ""
+        url: "https://doi.org/10.1109/ieeeconf44664.2019.9048787"
+        authors: [jamie-haddock, deanna-needell]
+      - title: "On Motzkin’s method for inconsistent linear systems"
+        year: 2018
+        venue: "BIT Numerical Mathematics"
+        url: "https://doi.org/10.1007/s10543-018-0737-6"
+        authors: [jamie-haddock, deanna-needell]
+  - id: jackie-lok
+    papers:
+      - title: "A subspace constrained randomized Kaczmarz method for structure or external knowledge exploitation"
+        year: 2024
+        venue: "Linear Algebra and its Applications"
+        url: "https://doi.org/10.1016/j.laa.2024.06.010"
+        authors: [jackie-lok, elizaveta-rebrova]
+      - title: "On Regularization via Early Stopping for Least Squares Regression"
+        year: 2024
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.2406.04425"
+        authors: [jackie-lok, elizaveta-rebrova]
+      - title: "Beyond Expectation: Concentration Inequalities for Randomized Iterative Methods"
+        year: 2025
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.2511.20877"
+        authors: [jamie-haddock, jackie-lok, elizaveta-rebrova]
+      - title: "Subspace-constrained randomized coordinate descent for linear systems with good low-rank matrix approximations"
+        year: 2025
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.2506.09394"
+        authors: [jackie-lok, elizaveta-rebrova]
+      - title: "Error dynamics of mini-batch gradient descent with random reshuffling for least squares regression"
+        year: 2024
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.2406.03696"
+        authors: [jackie-lok, elizaveta-rebrova]
+  - id: elizabeth-newman
+    papers:
+      - title: "Tensor-tensor algebra for optimal representation and compression of multiway data"
+        year: 2021
+        venue: "Proceedings of the National Academy of Sciences"
+        url: "https://doi.org/10.1073/pnas.2015851118"
+        authors: [misha-kilmer, lior-horesh, haim-avron, elizabeth-newman]
+      - title: "Stable Tensor Neural Networks for Rapid Deep Learning"
+        year: 2018
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.1811.06569"
+        authors: [elizabeth-newman, lior-horesh, haim-avron, misha-kilmer]
+      - title: "Stable tensor neural networks for efficient deep learning"
+        year: 2024
+        venue: "Frontiers in Big Data"
+        url: "https://doi.org/10.3389/fdata.2024.1363978"
+        authors: [elizabeth-newman, lior-horesh, haim-avron, misha-kilmer]
+      - title: "slimTrain---A Stochastic Approximation Method for Training Separable Deep Neural Networks"
+        year: 2022
+        venue: "SIAM Journal on Scientific Computing"
+        url: "https://doi.org/10.1137/21m1452512"
+        authors: [elizabeth-newman, julianne-chung, matthias-chung]
+      - title: "Tensor-Tensor Products for Optimal Representation and Compression"
+        year: 2019
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.2001.00046"
+        authors: [misha-kilmer, lior-horesh, haim-avron, elizabeth-newman]
+      - title: "Nonnegative Tensor Patch Dictionary Approaches for Image Compression and Deblurring Applications"
+        year: 2020
+        venue: "SIAM Journal on Imaging Sciences"
+        url: "https://doi.org/10.1137/19m1297026"
+        authors: [elizabeth-newman, misha-kilmer]
+      - title: "Image classification using local tensor singular value decompositions"
+        year: 2017
+        venue: ""
+        url: "https://doi.org/10.1109/camsap.2017.8313137"
+        authors: [elizabeth-newman, misha-kilmer, lior-horesh]
+      - title: "5 Image reconstructions using sparse dictionary representations and implicit, nonnegative mappings"
+        year: 2024
+        venue: ""
+        url: "https://doi.org/10.1515/9783111357270-005"
+        authors: [elizabeth-newman, matthias-chung]
+      - title: "Image reconstructions using sparse dictionary representations and implicit, non-negative mappings"
+        year: 2023
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.2312.03180"
+        authors: [elizabeth-newman, matthias-chung]
+      - title: "Boost Like a (Var)Pro: Trust-Region Gradient Boosting via Variable Projection"
+        year: 2026
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.2603.23658"
+        authors: [abhijit-chowdhary, elizabeth-newman]
+      - title: "Accelerating Stochastic Optimization of Separable DNNs via Iterative Sampling Methods"
+        year: 2021
+        venue: ""
+        url: "https://doi.org/10.26226/morressier.612f6739bc98103724100993"
+        authors: [elizabeth-newman, julianne-chung, matthias-chung]
+  - id: davide-palitta
+    papers:
+      - title: "Matrix-equation-based strategies for convection–diffusion equations"
+        year: 2015
+        venue: "BIT Numerical Mathematics"
+        url: "https://doi.org/10.1007/s10543-015-0575-8"
+        authors: [davide-palitta, valeria-simoncini]
+      - title: "An ultraweak space-time variational formulation for the wave equation: Analysis and efficient numerical solution"
+        year: 2022
+        venue: "ESAIM Mathematical Modelling and Numerical Analysis"
+        url: "https://doi.org/10.1051/m2an/2022035"
+        authors: [davide-palitta, valeria-simoncini]
+      - title: "The Short-Term Rational Lanczos Method and Applications"
+        year: 2022
+        venue: "SIAM Journal on Scientific Computing"
+        url: "https://doi.org/10.1137/21m1403254"
+        authors: [davide-palitta, stefano-pozza, valeria-simoncini]
+      - title: "Sketched and Truncated Polynomial Krylov Methods: Evaluation of Matrix Functions"
+        year: 2024
+        venue: "Numerical Linear Algebra with Applications"
+        url: "https://doi.org/10.1002/nla.2596"
+        authors: [davide-palitta, valeria-simoncini]
+      - title: "Sketched and truncated polynomial Krylov subspace methods: Matrix Sylvester equations"
+        year: 2024
+        venue: "Mathematics of Computation"
+        url: "https://doi.org/10.1090/mcom/4002"
+        authors: [davide-palitta, valeria-simoncini]
+      - title: "Solving Rank-Structured Sylvester and Lyapunov Equations"
+        year: 2018
+        venue: "SIAM Journal on Matrix Analysis and Applications"
+        url: "https://doi.org/10.1137/17m1157155"
+        authors: [stefano-massei, davide-palitta]
+      - title: "Matrix Oriented Reduction of Space-Time Petrov-Galerkin Variational Problems"
+        year: 2021
+        venue: "Lecture notes in computational science and engineering"
+        url: "https://doi.org/10.1007/978-3-030-55874-1_104"
+        authors: [davide-palitta, valeria-simoncini]
+      - title: "Optimality Properties of Galerkin and Petrov–Galerkin Methods for Linear Matrix Equations"
+        year: 2020
+        venue: "Vietnam Journal of Mathematics"
+        url: "https://doi.org/10.1007/s10013-020-00390-7"
+        authors: [davide-palitta, valeria-simoncini]
+      - title: "Compress‐and‐restart block Krylov subspace methods for Sylvester matrix equations"
+        year: 2020
+        venue: "Numerical Linear Algebra with Applications"
+        url: "https://doi.org/10.1002/nla.2339"
+        authors: [daniel-kressner, stefano-massei, davide-palitta]
+      - title: "Numerical Methods for Large-Scale Lyapunov Equations with Symmetric Banded Data"
+        year: 2018
+        venue: "SIAM Journal on Scientific Computing"
+        url: "https://doi.org/10.1137/17m1156575"
+        authors: [davide-palitta, valeria-simoncini]
+      - title: "Regularized methods via cubic model subspace minimization for nonconvex optimization"
+        year: 2025
+        venue: "Computational Optimization and Applications"
+        url: "https://doi.org/10.1007/s10589-025-00655-2"
+        authors: [davide-palitta, valeria-simoncini]
+      - title: "Computationally enhanced projection methods for symmetric Sylvester and Lyapunov matrix equations"
+        year: 2017
+        venue: "Journal of Computational and Applied Mathematics"
+        url: "https://doi.org/10.1016/j.cam.2017.08.011"
+        authors: [davide-palitta, valeria-simoncini]
+      - title: "S^T S-SVD via sketching and the nearest S^T S-orthogonal matrix"
+        year: 2026
+        venue: "BIT Numerical Mathematics"
+        url: "https://doi.org/10.1007/s10543-025-01101-9"
+        authors: [davide-palitta, valeria-simoncini]
+      - title: "A class of low-rank short recurrences for nonsymmetric linear matrix equations"
+        year: 2026
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.2605.01276"
+        authors: [davide-palitta, valeria-simoncini]
+      - title: "Row‐Aware Randomized SVD With Applications"
+        year: 2026
+        venue: "Numerical Linear Algebra with Applications"
+        url: "https://doi.org/10.1002/nla.70088"
+        authors: [davide-palitta, sascha-portaro]
+      - title: "A Practical Mode-parallel Implementation of the (H-)Tucker Decomposition via Randomization"
+        year: 2026
+        venue: "arXiv"
+        url: "http://arxiv.org/abs/2603.21379"
+        authors: [sascha-portaro, davide-palitta]
+      - title: "A Sketched Generalized Krylov Subspace Method for Large-Scale Regularization"
+        year: 2026
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.2606.18073"
+        authors: [davide-palitta, mirjeta-pasha]
+      - title: "A Subspace-Conjugate Gradient Method for Linear Matrix Equations"
+        year: 2025
+        venue: "SIAM Journal on Matrix Analysis and Applications"
+        url: "https://doi.org/10.1137/25m1723402"
+        authors: [davide-palitta, valeria-simoncini]
+      - title: "Correction: Regularized methods via cubic model subspace minimization for nonconvex optimization"
+        year: 2025
+        venue: "Computational Optimization and Applications"
+        url: "https://doi.org/10.1007/s10589-025-00681-0"
+        authors: [davide-palitta, valeria-simoncini]
+      - title: "Randomized Sketched TT-GMRES for Linear Systems with Tensor Structure"
+        year: 2025
+        venue: "SIAM Journal on Scientific Computing"
+        url: "https://doi.org/10.1137/24m1694999"
+        authors: [alberto-bucci, davide-palitta]
+      - title: "Very Weak Space-Time Variational Formulation for the Wave Equation: Analysis and Efficient Numerical Solution"
+        year: 2021
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.2107.12119"
+        authors: [davide-palitta, valeria-simoncini]
+  - id: mirjeta-pasha
+    papers:
+      - title: "Generalized singular value decomposition with iterated Tikhonov regularization"
+        year: 2019
+        venue: "Journal of Computational and Applied Mathematics"
+        url: "https://doi.org/10.1016/j.cam.2019.05.024"
+        authors: [mirjeta-pasha, lothar-reichel]
+      - title: "Randomized Algorithms for Rounding in the Tensor-Train Format"
+        year: 2023
+        venue: "SIAM Journal on Scientific Computing"
+        url: "https://doi.org/10.1137/21m1451191"
+        authors: [paul-cazeaux, agnieszka-miedlar, mirjeta-pasha, arvind-saibaba]
+      - title: "Linearized Krylov subspace Bregman iteration with nonnegativity constraint"
+        year: 2020
+        venue: "Numerical Algorithms"
+        url: "https://doi.org/10.1007/s11075-020-01004-6"
+        authors: [mirjeta-pasha, lothar-reichel]
+      - title: "A computational framework for edge-preserving regularization in dynamic inverse problems"
+        year: 2023
+        venue: "ETNA - Electronic Transactions on Numerical Analysis"
+        url: "https://doi.org/10.1553/etna_vol58s486"
+        authors: [mirjeta-pasha, arvind-saibaba, malena-espanol, eric-de-sturler]
+      - title: "Variable projection methods for separable nonlinear inverse problems with general-form Tikhonov regularization"
+        year: 2023
+        venue: "Inverse Problems"
+        url: "https://doi.org/10.1088/1361-6420/acdd1b"
+        authors: [malena-espanol, mirjeta-pasha]
+      - title: "Projected iterated Tikhonov in general form with adaptive choice of the regularization parameter"
+        year: 2025
+        venue: "Numerical Algorithms"
+        url: "https://doi.org/10.1007/s11075-025-02072-2"
+        authors: [lucas-onisk, mirjeta-pasha, lothar-reichel]
+      - title: "Efficient learning methods for large-scale optimal inversion design"
+        year: 2022
+        venue: "Numerical Algebra Control and Optimization"
+        url: "https://doi.org/10.3934/naco.2022036"
+        authors: [julianne-chung, matthias-chung, mirjeta-pasha]
+      - title: "The Image Deblurring Problem: Matrices, Wavelets, and Multilevel Methods"
+        year: 2022
+        venue: "Notices of the American Mathematical Society"
+        url: "https://doi.org/10.1090/noti2534"
+        authors: [malena-espanol, mirjeta-pasha]
+      - title: "Recycling MMGKS for large-scale dynamic and streaming data"
+        year: 2023
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.2309.15759"
+        authors: [mirjeta-pasha, misha-kilmer]
+      - title: "An 𝓁 p Variable Projection Method for Large-Scale Separable Nonlinear Inverse Problems"
+        year: 2021
+        venue: "arXiv"
+        url: "http://export.arxiv.org/pdf/2105.14155"
+        authors: [malena-espanol, mirjeta-pasha]
+      - title: "An $\\ell_p$ Variable Projection Method for Large-Scale Separable Nonlinear Inverse Problems"
+        year: 2021
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.2105.14155"
+        authors: [malena-espanol, mirjeta-pasha]
+      - title: "An Efficient Cumulative Edge-Detection Method for Image Reconstruction"
+        year: 2026
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.2603.15151"
+        authors: [mirjeta-pasha, misha-kilmer]
+      - title: "Nonlinear RMM-GKS for Large-Scale Dynamic and Streaming Inverse Problems with Uncertain Forward Operators"
+        year: 2026
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.2605.06336"
+        authors: [mirjeta-pasha, misha-kilmer]
+      - title: "A Sketched Generalized Krylov Subspace Method for Large-Scale Regularization"
+        year: 2026
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.2606.18073"
+        authors: [davide-palitta, mirjeta-pasha]
+      - title: "Hybrid ABBA-GMRES for Unmatched Backprojectors in Large Scale X-Ray Computerized Tomography"
+        year: 2026
+        venue: "Open MIND"
+        url: "https://doi.org/10.48550/arxiv.2602.17892"
+        authors: [mirjeta-pasha, malena-sabate-landman]
+      - title: "Code, Data and Results for Numerical Experiments in \"Efficient Sketching-Based Summation of Tucker Tensors\""
+        year: 2026
+        venue: "Zenodo (CERN European Organization for Nuclear Research)"
+        url: "https://doi.org/10.5281/zenodo.18736759"
+        authors: [rudi-smith, mirjeta-pasha]
+      - title: "Efficient Sketching-Based Summation of Tucker Tensors"
+        year: 2026
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.2603.13532"
+        authors: [rudi-smith, mirjeta-pasha]
+      - title: "Efficient Dynamic Image Reconstruction with motion estimation"
+        year: 2025
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.2501.12497"
+        authors: [mirjeta-pasha, misha-kilmer]
+      - title: "Tensor Completion with BMD Factor Nuclear Norm Minimization"
+        year: 2024
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.2402.13068"
+        authors: [fan-tian, mirjeta-pasha, misha-kilmer]
+      - title: "Krylov Subspace Based FISTA‐Type Methods for Linear Discrete Ill‐Posed Problems"
+        year: 2024
+        venue: "Numerical Linear Algebra with Applications"
+        url: "https://doi.org/10.1002/nla.2610"
+        authors: [mirjeta-pasha, lothar-reichel]
+      - title: "Efficient edge-preserving methods for dynamic inverse problems"
+        year: 2021
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.2107.05727"
+        authors: [mirjeta-pasha, arvind-saibaba, malena-espanol]
+  - id: lucas-onisk
+    papers:
+      - title: "An Arnoldi-based preconditioner for iterated Tikhonov regularization"
+        year: 2022
+        venue: "Numerical Algorithms"
+        url: "https://doi.org/10.1007/s11075-022-01407-7"
+        authors: [lucas-onisk, lothar-reichel]
+      - title: "Projected iterated Tikhonov in general form with adaptive choice of the regularization parameter"
+        year: 2025
+        venue: "Numerical Algorithms"
+        url: "https://doi.org/10.1007/s11075-025-02072-2"
+        authors: [lucas-onisk, mirjeta-pasha, lothar-reichel]
+      - title: "Range restricted iterative methods for linear discrete ill-posed problems"
+        year: 2023
+        venue: "ETNA - Electronic Transactions on Numerical Analysis"
+        url: "https://doi.org/10.1553/etna_vol58s348"
+        authors: [lucas-onisk, lothar-reichel]
+      - title: "Numerical considerations of block GMRES methods when applied to linear discrete ill-posed problems"
+        year: 2023
+        venue: "Journal of Computational and Applied Mathematics"
+        url: "https://doi.org/10.1016/j.cam.2023.115262"
+        authors: [lucas-onisk, lothar-reichel]
+      - title: "Flexible iterative methods for linear systems of equations with multiple right-hand sides"
+        year: 2025
+        venue: "Numerical Algorithms"
+        url: "https://doi.org/10.1007/s11075-025-02007-x"
+        authors: [lucas-onisk, lothar-reichel]
+      - title: "Iterative Reconstruction Methods for Cosmological X-Ray Tomography"
+        year: 2025
+        venue: "SIAM Journal on Imaging Sciences"
+        url: "https://doi.org/10.1137/24m1656724"
+        authors: [julianne-chung, lucas-onisk]
+      - title: "Solution of large linear discrete ill-posed problems by randomized block Krylov methods"
+        year: 2025
+        venue: "BIT Numerical Mathematics"
+        url: "https://doi.org/10.1007/s10543-025-01097-2"
+        authors: [lucas-onisk, lothar-reichel]
+      - title: "Iterative Refinement and Flexible Iteratively Reweighed Solvers for Linear Inverse Problems with Sparse Solutions"
+        year: 2025
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.2502.02303"
+        authors: [lucas-onisk, malena-sabate-landman]
+  - id: malena-espanol
+    papers:
+      - title: "A Projection‐Based Approach to General‐Form Tikhonov Regularization"
+        year: 2007
+        venue: "SIAM Journal on Scientific Computing"
+        url: "https://doi.org/10.1137/050645592"
+        authors: [misha-kilmer, malena-espanol]
+      - title: "Learning regularization parameters for general-form Tikhonov"
+        year: 2017
+        venue: "Inverse Problems"
+        url: "https://doi.org/10.1088/1361-6420/33/7/074004"
+        authors: [julianne-chung, malena-espanol]
+      - title: "Multilevel Approach For Signal Restoration Problems With Toeplitz Matrices"
+        year: 2010
+        venue: "SIAM Journal on Scientific Computing"
+        url: "https://doi.org/10.1137/080715780"
+        authors: [malena-espanol, misha-kilmer]
+      - title: "A computational framework for edge-preserving regularization in dynamic inverse problems"
+        year: 2023
+        venue: "ETNA - Electronic Transactions on Numerical Analysis"
+        url: "https://doi.org/10.1553/etna_vol58s486"
+        authors: [mirjeta-pasha, arvind-saibaba, malena-espanol, eric-de-sturler]
+      - title: "Variable projection methods for separable nonlinear inverse problems with general-form Tikhonov regularization"
+        year: 2023
+        venue: "Inverse Problems"
+        url: "https://doi.org/10.1088/1361-6420/acdd1b"
+        authors: [malena-espanol, mirjeta-pasha]
+      - title: "Optimal Regularization Parameters for General-Form Tikhonov Regularization"
+        year: 2014
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.1407.1911"
+        authors: [julianne-chung, malena-espanol]
+      - title: "A Wavelet-Based Multilevel Approach for Blind Deconvolution Problems"
+        year: 2014
+        venue: "SIAM Journal on Scientific Computing"
+        url: "https://doi.org/10.1137/130928716"
+        authors: [malena-espanol, misha-kilmer]
+      - title: "The Image Deblurring Problem: Matrices, Wavelets, and Multilevel Methods"
+        year: 2022
+        venue: "Notices of the American Mathematical Society"
+        url: "https://doi.org/10.1090/noti2534"
+        authors: [malena-espanol, mirjeta-pasha]
+      - title: "An 𝓁 p Variable Projection Method for Large-Scale Separable Nonlinear Inverse Problems"
+        year: 2021
+        venue: "arXiv"
+        url: "http://export.arxiv.org/pdf/2105.14155"
+        authors: [malena-espanol, mirjeta-pasha]
+      - title: "An $\\ell_p$ Variable Projection Method for Large-Scale Separable Nonlinear Inverse Problems"
+        year: 2021
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.2105.14155"
+        authors: [malena-espanol, mirjeta-pasha]
+      - title: "Efficient edge-preserving methods for dynamic inverse problems"
+        year: 2021
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.2107.05727"
+        authors: [mirjeta-pasha, arvind-saibaba, malena-espanol]
+  - id: andrew-higgins
+    papers:
+      - title: "Optimal size of the block in block GMRES on GPUs: computational model and experiments"
+        year: 2022
+        venue: "Numerical Algorithms"
+        url: "https://doi.org/10.1007/s11075-022-01439-z"
+        authors: [andrew-higgins, daniel-szyld]
+      - title: "Two-Stage Block Orthogonalization to Improve Performance of s-step GMRES"
+        year: 2024
+        venue: ""
+        url: "https://doi.org/10.1109/ipdps57955.2024.00012"
+        authors: [andrew-higgins, daniel-szyld]
+      - title: "Randomized Householder-Cholesky QR Factorization with Multisketching"
+        year: 2023
+        venue: ""
+        url: "https://doi.org/10.2172/2540515"
+        authors: [andrew-higgins, daniel-szyld]
+      - title: "Random sketching to enhance the numerical stability of block orthogonalization algorithms for s-step GMRES"
+        year: 2026
+        venue: "Parallel Computing"
+        url: "https://doi.org/10.1016/j.parco.2026.103197"
+        authors: [andrew-higgins, daniel-szyld]
+      - title: "Analysis of Randomized Householder-Cholesky QR factorization with multisketching"
+        year: 2025
+        venue: "Numerische Mathematik"
+        url: "https://doi.org/10.1007/s00211-025-01492-5"
+        authors: [andrew-higgins, daniel-szyld]
+      - title: "New Linear Solvers Features and Improvements in Trilinos"
+        year: 2023
+        venue: ""
+        url: "https://doi.org/10.2172/2463061"
+        authors: [andrew-higgins, daniel-szyld]
+  - id: agnieszka-miedlar
+    papers:
+      - title: "Formation enthalpies for transition metal alloys using machine learning"
+        year: 2017
+        venue: "Physical review. B./Physical review. B"
+        url: "https://doi.org/10.1103/physrevb.95.214102"
+        authors: [shashanka-ubaru, agnieszka-miedlar, yousef-saad]
+      - title: "Randomized Algorithms for Rounding in the Tensor-Train Format"
+        year: 2023
+        venue: "SIAM Journal on Scientific Computing"
+        url: "https://doi.org/10.1137/21m1451191"
+        authors: [paul-cazeaux, agnieszka-miedlar, mirjeta-pasha, arvind-saibaba]
+      - title: "A rational approximation method for the nonlinear eigenvalue problem"
+        year: 2019
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.1901.01188"
+        authors: [yousef-saad, agnieszka-miedlar]
+      - title: "Randomized Low-Rank Approximations beyond Gaussian Random Matrices"
+        year: 2025
+        venue: "SIAM Journal on Mathematics of Data Science"
+        url: "https://doi.org/10.1137/23m1593255"
+        authors: [arvind-saibaba, agnieszka-miedlar]
+      - title: "A rational approximation method for solving acoustic nonlinear eigenvalue problems"
+        year: 2019
+        venue: "Engineering Analysis with Boundary Elements"
+        url: "https://doi.org/10.1016/j.enganabound.2019.10.006"
+        authors: [agnieszka-miedlar, yousef-saad]
+  - id: akil-narayan
+    papers:
+      - title: "Reduced Basis Methods for Fractional Laplace Equations via Extension"
+        year: 2019
+        venue: "SIAM Journal on Scientific Computing"
+        url: "https://doi.org/10.1137/18m1204802"
+        authors: [harbir-antil, akil-narayan]
+      - title: "Model Reduction of Linear Dynamical Systems via Balancing for Bayesian Inference"
+        year: 2022
+        venue: "Journal of Scientific Computing"
+        url: "https://doi.org/10.1007/s10915-022-01798-8"
+        authors: [christopher-beattie, akil-narayan]
+      - title: "Certified reduced basis methods for fractional Laplace equations via extension"
+        year: 2018
+        venue: "arXiv"
+        url: "https://doi.org/10.48550/arxiv.1808.00584"
+        authors: [harbir-antil, akil-narayan]
+      - title: "Model reduction for fractional elliptic problems using Kato's formula"
+        year: 2021
+        venue: "Mathematical Control and Related Fields"
+        url: "https://doi.org/10.3934/mcrf.2021004"
+        authors: [harbir-antil, akil-narayan]
