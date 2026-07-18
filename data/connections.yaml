@@ -175,6 +175,7 @@
   notes: Error bounds for Lanczos-based matrix function approximation; low-memory Krylov.
 
 - between: [cameron-musco, christopher-musco]
+  genetic: 1
   notes: >
     Brothers and frequent coauthors: randomized block Krylov methods
     (NeurIPS 2015), Hutch++, and much more.

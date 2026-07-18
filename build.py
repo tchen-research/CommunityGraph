@@ -261,6 +261,9 @@ def main():
                 "compute": f.get("compute", ""),
                 "max": f.get("max"),
                 "saturation": f.get("saturation"),
+                "slider_max": f.get("slider_max"),
+                "scale": f.get("scale"),
+                "bonus": bool(f.get("bonus")),
                 "default_weight": f.get("default_weight", 1.0),
                 "description": (f.get("description") or "").strip(),
             }

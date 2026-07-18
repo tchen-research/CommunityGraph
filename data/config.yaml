@@ -36,6 +36,18 @@ factors:
       contribute n/(n+4) of the weight - so more papers always means a
       stronger edge (4 papers = half strength), but the curve flattens.
 
+  - id: genetic
+    label: Genetic similarity
+    kind: curated
+    max: 1
+    default_weight: 0.0
+    scale: 3
+    bonus: true   # lives in its own panel; hidden from edge factor breakdowns
+    description: >
+      1 = siblings. Currently distinguishes exactly one pair of nodes.
+      Internally weighted 3x, so at full strength this factor outweighs
+      any number of joint papers.
+
   - id: advising
     label: Advising
     kind: computed

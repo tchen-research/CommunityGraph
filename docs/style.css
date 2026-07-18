@@ -99,6 +99,46 @@ html, body {
 #subtitle { margin: 2px 0 0; font-size: 12.5px; color: var(--text-secondary); max-width: 72ch; }
 .muted { color: var(--muted); font-size: 12px; }
 
+/* ---- loading state ---- */
+/* the whole layout stays hidden until the app finishes building, so nothing
+   pops in piecemeal; the loader paints immediately from static HTML/CSS */
+#layout.booting { visibility: hidden; }
+#loader {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  background: var(--page);
+  color: var(--muted);
+  font-size: 13px;
+  z-index: 100;
+}
+#loader .spinner {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border: 3px solid var(--hairline);
+  border-top-color: var(--accent);
+  animation: spin 0.9s linear infinite;
+  will-change: transform; /* own compositor layer: keeps spinning while JS blocks */
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+@keyframes pulse { 50% { opacity: 0.35; } }
+@media (prefers-reduced-motion: reduce) {
+  /* no rotation: a plain square box pulsing gently */
+  #loader .spinner {
+    width: 26px;
+    height: 26px;
+    border: 0;
+    border-radius: 3px;
+    background: var(--accent);
+    animation: pulse 1.6s ease-in-out infinite;
+  }
+}
+
 /* ---- sidebar ---- */
 #sidebar {
   grid-area: sidebar;

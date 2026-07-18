@@ -11,8 +11,24 @@ window.GRAPH_DATA = {
    "compute": "papers",
    "max": null,
    "saturation": 4,
+   "slider_max": null,
+   "scale": null,
+   "bonus": false,
    "default_weight": 1.0,
    "description": "Number of tracked joint papers, with diminishing returns: n papers contribute n/(n+4) of the weight - so more papers always means a stronger edge (4 papers = half strength), but the curve flattens."
+  },
+  {
+   "id": "genetic",
+   "label": "Genetic similarity",
+   "kind": "curated",
+   "compute": "",
+   "max": 1,
+   "saturation": null,
+   "slider_max": null,
+   "scale": 3,
+   "bonus": true,
+   "default_weight": 0.0,
+   "description": "1 = siblings. Currently distinguishes exactly one pair of nodes. Internally weighted 3x, so at full strength this factor outweighs any number of joint papers."
   },
   {
    "id": "advising",
@@ -21,6 +37,9 @@ window.GRAPH_DATA = {
    "compute": "advising",
    "max": 1,
    "saturation": null,
+   "slider_max": null,
+   "scale": null,
+   "bonus": false,
    "default_weight": 0.2,
    "description": "Advisor relationship (advising.yaml): PhD advisor/advisee = 1.0, postdoc host/postdoc = 0.7."
   }
@@ -27003,6 +27022,7 @@ window.GRAPH_DATA = {
    "source": "aaron-sidford",
    "target": "cameron-musco",
    "factors": {
+    "genetic": 0,
     "coauthor": 8,
     "advising": 0
    },
@@ -27024,6 +27044,7 @@ window.GRAPH_DATA = {
    "source": "aaron-sidford",
    "target": "christopher-musco",
    "factors": {
+    "genetic": 0,
     "coauthor": 9,
     "advising": 0
    },
@@ -27046,6 +27067,7 @@ window.GRAPH_DATA = {
    "source": "aaron-sidford",
    "target": "david-woodruff",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -27060,6 +27082,7 @@ window.GRAPH_DATA = {
    "source": "aaron-sidford",
    "target": "michael-kapralov",
    "factors": {
+    "genetic": 0,
     "coauthor": 4,
     "advising": 0
    },
@@ -27077,6 +27100,7 @@ window.GRAPH_DATA = {
    "source": "aaron-sidford",
    "target": "michal-derezinski",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -27091,6 +27115,7 @@ window.GRAPH_DATA = {
    "source": "aaron-sidford",
    "target": "rasmus-kyng",
    "factors": {
+    "genetic": 0,
     "coauthor": 3,
     "advising": 0
    },
@@ -27107,6 +27132,7 @@ window.GRAPH_DATA = {
    "source": "aaron-sidford",
    "target": "richard-peng",
    "factors": {
+    "genetic": 0,
     "coauthor": 8,
     "advising": 0
    },
@@ -27128,6 +27154,7 @@ window.GRAPH_DATA = {
    "source": "aaron-sidford",
    "target": "santosh-vempala",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -27142,6 +27169,7 @@ window.GRAPH_DATA = {
    "source": "aaron-sidford",
    "target": "shashanka-ubaru",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -27156,6 +27184,7 @@ window.GRAPH_DATA = {
    "source": "aaron-sidford",
    "target": "sushant-sachdeva",
    "factors": {
+    "genetic": 0,
     "coauthor": 3,
     "advising": 0
    },
@@ -27172,6 +27201,7 @@ window.GRAPH_DATA = {
    "source": "aaron-sidford",
    "target": "swati-padmanabhan",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -27186,6 +27216,7 @@ window.GRAPH_DATA = {
    "source": "aaron-sidford",
    "target": "yin-tat-lee",
    "factors": {
+    "genetic": 0,
     "coauthor": 21,
     "advising": 0
    },
@@ -27220,6 +27251,7 @@ window.GRAPH_DATA = {
    "source": "abhijit-chowdhary",
    "target": "elizabeth-newman",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -27234,6 +27266,7 @@ window.GRAPH_DATA = {
    "source": "abraham-khan",
    "target": "arvind-saibaba",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0
    },
@@ -27249,6 +27282,7 @@ window.GRAPH_DATA = {
    "source": "abraham-khan",
    "target": "vishwas-rao",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -27263,6 +27297,7 @@ window.GRAPH_DATA = {
    "source": "agnieszka-miedlar",
    "target": "arvind-saibaba",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0
    },
@@ -27278,6 +27313,7 @@ window.GRAPH_DATA = {
    "source": "agnieszka-miedlar",
    "target": "mirjeta-pasha",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -27292,6 +27328,7 @@ window.GRAPH_DATA = {
    "source": "agnieszka-miedlar",
    "target": "paul-cazeaux",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -27306,6 +27343,7 @@ window.GRAPH_DATA = {
    "source": "agnieszka-miedlar",
    "target": "shashanka-ubaru",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -27320,6 +27358,7 @@ window.GRAPH_DATA = {
    "source": "agnieszka-miedlar",
    "target": "yousef-saad",
    "factors": {
+    "genetic": 0,
     "coauthor": 3,
     "advising": 0
    },
@@ -27336,6 +27375,7 @@ window.GRAPH_DATA = {
    "source": "ainesh-bakshi",
    "target": "david-woodruff",
    "factors": {
+    "genetic": 0,
     "coauthor": 7,
     "advising": 1.0
    },
@@ -27362,6 +27402,7 @@ window.GRAPH_DATA = {
    "source": "ainesh-bakshi",
    "target": "kenneth-clarkson",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -27376,6 +27417,7 @@ window.GRAPH_DATA = {
    "source": "ainesh-bakshi",
    "target": "praneeth-kacham",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -27390,6 +27432,7 @@ window.GRAPH_DATA = {
    "source": "ainesh-bakshi",
    "target": "ravindran-kannan",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -27404,6 +27447,7 @@ window.GRAPH_DATA = {
    "source": "ainesh-bakshi",
    "target": "samson-zhou",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -27418,6 +27462,7 @@ window.GRAPH_DATA = {
    "source": "ainesh-bakshi",
    "target": "santosh-vempala",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -27432,6 +27477,7 @@ window.GRAPH_DATA = {
    "source": "akil-narayan",
    "target": "christopher-beattie",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -27446,6 +27492,7 @@ window.GRAPH_DATA = {
    "source": "akil-narayan",
    "target": "harbir-antil",
    "factors": {
+    "genetic": 0,
     "coauthor": 3,
     "advising": 0
    },
@@ -27462,6 +27509,7 @@ window.GRAPH_DATA = {
    "source": "akil-narayan",
    "target": "osman-asif-malik",
    "factors": {
+    "genetic": 0,
     "coauthor": 4,
     "advising": 0
    },
@@ -27479,6 +27527,7 @@ window.GRAPH_DATA = {
    "source": "alan-edelman",
    "target": "ioana-dumitriu",
    "factors": {
+    "genetic": 0,
     "coauthor": 4,
     "advising": 1.0
    },
@@ -27502,6 +27551,7 @@ window.GRAPH_DATA = {
    "source": "alan-edelman",
    "target": "james-demmel",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -27516,6 +27566,7 @@ window.GRAPH_DATA = {
    "source": "alan-edelman",
    "target": "john-urschel",
    "factors": {
+    "genetic": 0,
     "coauthor": 4,
     "advising": 0
    },
@@ -27533,6 +27584,7 @@ window.GRAPH_DATA = {
    "source": "alan-edelman",
    "target": "sivan-toledo",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -27547,6 +27599,7 @@ window.GRAPH_DATA = {
    "source": "alan-edelman",
    "target": "zhaojun-bai",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -27561,6 +27614,7 @@ window.GRAPH_DATA = {
    "source": "alan-frieze",
    "target": "petros-drineas",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0
    },
@@ -27576,6 +27630,7 @@ window.GRAPH_DATA = {
    "source": "alan-frieze",
    "target": "ravindran-kannan",
    "factors": {
+    "genetic": 0,
     "coauthor": 14,
     "advising": 0
    },
@@ -27603,6 +27658,7 @@ window.GRAPH_DATA = {
    "source": "alan-frieze",
    "target": "santosh-vempala",
    "factors": {
+    "genetic": 0,
     "coauthor": 5,
     "advising": 0
    },
@@ -27621,6 +27677,7 @@ window.GRAPH_DATA = {
    "source": "alberto-bucci",
    "target": "davide-palitta",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -27635,6 +27692,7 @@ window.GRAPH_DATA = {
    "source": "alberto-bucci",
    "target": "leonardo-robol",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0
    },
@@ -27650,6 +27708,7 @@ window.GRAPH_DATA = {
    "source": "alberto-bucci",
    "target": "silvia-gazzola",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -27664,6 +27723,7 @@ window.GRAPH_DATA = {
    "source": "alberto-bucci",
    "target": "taejun-park",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -27678,6 +27738,7 @@ window.GRAPH_DATA = {
    "source": "alberto-bucci",
    "target": "yuji-nakatsukasa",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -27692,6 +27753,7 @@ window.GRAPH_DATA = {
    "source": "alex-townsend",
    "target": "anil-damle",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0
    },
@@ -27707,6 +27769,7 @@ window.GRAPH_DATA = {
    "source": "alex-townsend",
    "target": "diana-halikias",
    "factors": {
+    "genetic": 0,
     "coauthor": 6,
     "advising": 1.0
    },
@@ -27732,6 +27795,7 @@ window.GRAPH_DATA = {
    "source": "alex-townsend",
    "target": "heather-wilber",
    "factors": {
+    "genetic": 0,
     "coauthor": 5,
     "advising": 1.0
    },
@@ -27756,6 +27820,7 @@ window.GRAPH_DATA = {
    "source": "alex-townsend",
    "target": "lloyd-trefethen",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -27770,6 +27835,7 @@ window.GRAPH_DATA = {
    "source": "alex-townsend",
    "target": "madeleine-udell",
    "factors": {
+    "genetic": 0,
     "coauthor": 3,
     "advising": 0
    },
@@ -27786,6 +27852,7 @@ window.GRAPH_DATA = {
    "source": "alex-townsend",
    "target": "nicolas-boulle",
    "factors": {
+    "genetic": 0,
     "coauthor": 11,
     "advising": 1.0
    },
@@ -27816,6 +27883,7 @@ window.GRAPH_DATA = {
    "source": "alex-townsend",
    "target": "thomas-trogdon",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -27830,6 +27898,7 @@ window.GRAPH_DATA = {
    "source": "alex-townsend",
    "target": "yuji-nakatsukasa",
    "factors": {
+    "genetic": 0,
     "coauthor": 5,
     "advising": 0
    },
@@ -27848,6 +27917,7 @@ window.GRAPH_DATA = {
    "source": "alice-cortinovis",
    "target": "anna-ma",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -27862,6 +27932,7 @@ window.GRAPH_DATA = {
    "source": "alice-cortinovis",
    "target": "daniel-kressner",
    "factors": {
+    "genetic": 0,
     "coauthor": 10,
     "advising": 1.0
    },
@@ -27891,6 +27962,7 @@ window.GRAPH_DATA = {
    "source": "alice-cortinovis",
    "target": "david-persson",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -27905,6 +27977,7 @@ window.GRAPH_DATA = {
    "source": "alice-cortinovis",
    "target": "deanna-needell",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -27919,6 +27992,7 @@ window.GRAPH_DATA = {
    "source": "alice-cortinovis",
    "target": "diana-halikias",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -27933,6 +28007,7 @@ window.GRAPH_DATA = {
    "source": "alice-cortinovis",
    "target": "elizaveta-rebrova",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -27947,6 +28022,7 @@ window.GRAPH_DATA = {
    "source": "alice-cortinovis",
    "target": "katherine-pearce",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -27961,6 +28037,7 @@ window.GRAPH_DATA = {
    "source": "alice-cortinovis",
    "target": "laura-grigori",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -27975,6 +28052,7 @@ window.GRAPH_DATA = {
    "source": "alice-cortinovis",
    "target": "lexing-ying",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0.7
    },
@@ -27996,6 +28074,7 @@ window.GRAPH_DATA = {
    "source": "alice-cortinovis",
    "target": "rudi-smith",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -28010,6 +28089,7 @@ window.GRAPH_DATA = {
    "source": "alice-cortinovis",
    "target": "stefano-massei",
    "factors": {
+    "genetic": 0,
     "coauthor": 4,
     "advising": 0
    },
@@ -28027,6 +28107,7 @@ window.GRAPH_DATA = {
    "source": "alice-cortinovis",
    "target": "yijun-dong",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -28041,6 +28122,7 @@ window.GRAPH_DATA = {
    "source": "alice-cortinovis",
    "target": "yuji-nakatsukasa",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0
    },
@@ -28056,6 +28138,7 @@ window.GRAPH_DATA = {
    "source": "alp-yurtsever",
    "target": "joel-tropp",
    "factors": {
+    "genetic": 0,
     "coauthor": 7,
     "advising": 0
    },
@@ -28076,6 +28159,7 @@ window.GRAPH_DATA = {
    "source": "alp-yurtsever",
    "target": "madeleine-udell",
    "factors": {
+    "genetic": 0,
     "coauthor": 7,
     "advising": 0
    },
@@ -28096,6 +28180,7 @@ window.GRAPH_DATA = {
    "source": "andrea-arnold",
    "target": "daniela-calvetti",
    "factors": {
+    "genetic": 0,
     "coauthor": 5,
     "advising": 0
    },
@@ -28114,6 +28199,7 @@ window.GRAPH_DATA = {
    "source": "andrea-arnold",
    "target": "erkki-somersalo",
    "factors": {
+    "genetic": 0,
     "coauthor": 5,
     "advising": 0
    },
@@ -28132,6 +28218,7 @@ window.GRAPH_DATA = {
    "source": "andrea-arnold",
    "target": "matthias-chung",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -28146,6 +28233,7 @@ window.GRAPH_DATA = {
    "source": "andrew-higgins",
    "target": "daniel-szyld",
    "factors": {
+    "genetic": 0,
     "coauthor": 7,
     "advising": 1.0
    },
@@ -28172,6 +28260,7 @@ window.GRAPH_DATA = {
    "source": "anil-damle",
    "target": "david-bindel",
    "factors": {
+    "genetic": 0,
     "coauthor": 0,
     "advising": 0
    },
@@ -28184,6 +28273,7 @@ window.GRAPH_DATA = {
    "source": "anil-damle",
    "target": "lexing-ying",
    "factors": {
+    "genetic": 0,
     "coauthor": 7,
     "advising": 1.0
    },
@@ -28210,6 +28300,7 @@ window.GRAPH_DATA = {
    "source": "anil-damle",
    "target": "lin-lin",
    "factors": {
+    "genetic": 0,
     "coauthor": 5,
     "advising": 0.7
    },
@@ -28234,6 +28325,7 @@ window.GRAPH_DATA = {
    "source": "anna-ma",
    "target": "deanna-needell",
    "factors": {
+    "genetic": 0,
     "coauthor": 25,
     "advising": 1.0
    },
@@ -28278,6 +28370,7 @@ window.GRAPH_DATA = {
    "source": "anna-ma",
    "target": "diana-halikias",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -28292,6 +28385,7 @@ window.GRAPH_DATA = {
    "source": "anna-ma",
    "target": "elizaveta-rebrova",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0
    },
@@ -28307,6 +28401,7 @@ window.GRAPH_DATA = {
    "source": "anna-ma",
    "target": "emeric-battaglia",
    "factors": {
+    "genetic": 0,
     "coauthor": 3,
     "advising": 0
    },
@@ -28323,6 +28418,7 @@ window.GRAPH_DATA = {
    "source": "anna-ma",
    "target": "jamie-haddock",
    "factors": {
+    "genetic": 0,
     "coauthor": 5,
     "advising": 0
    },
@@ -28341,6 +28437,7 @@ window.GRAPH_DATA = {
    "source": "anna-ma",
    "target": "katherine-pearce",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -28355,6 +28452,7 @@ window.GRAPH_DATA = {
    "source": "anna-ma",
    "target": "laura-grigori",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -28369,6 +28467,7 @@ window.GRAPH_DATA = {
    "source": "anna-ma",
    "target": "rudi-smith",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -28383,6 +28482,7 @@ window.GRAPH_DATA = {
    "source": "anna-ma",
    "target": "yijun-dong",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -28397,6 +28497,7 @@ window.GRAPH_DATA = {
    "source": "anna-yesypenko",
    "target": "katherine-pearce",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -28411,6 +28512,7 @@ window.GRAPH_DATA = {
    "source": "anna-yesypenko",
    "target": "per-gunnar-martinsson",
    "factors": {
+    "genetic": 0,
     "coauthor": 11,
     "advising": 1.0
    },
@@ -28441,6 +28543,7 @@ window.GRAPH_DATA = {
    "source": "anne-greenbaum",
    "target": "cameron-musco",
    "factors": {
+    "genetic": 0,
     "coauthor": 4,
     "advising": 0
    },
@@ -28458,6 +28561,7 @@ window.GRAPH_DATA = {
    "source": "anne-greenbaum",
    "target": "christopher-musco",
    "factors": {
+    "genetic": 0,
     "coauthor": 4,
     "advising": 0
    },
@@ -28475,6 +28579,7 @@ window.GRAPH_DATA = {
    "source": "anne-greenbaum",
    "target": "ethan-epperly",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -28489,6 +28594,7 @@ window.GRAPH_DATA = {
    "source": "anne-greenbaum",
    "target": "jack-dongarra",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -28503,6 +28609,7 @@ window.GRAPH_DATA = {
    "source": "anne-greenbaum",
    "target": "james-demmel",
    "factors": {
+    "genetic": 0,
     "coauthor": 3,
     "advising": 0
    },
@@ -28519,6 +28626,7 @@ window.GRAPH_DATA = {
    "source": "anne-greenbaum",
    "target": "lloyd-trefethen",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -28533,6 +28641,7 @@ window.GRAPH_DATA = {
    "source": "anne-greenbaum",
    "target": "noah-amsel",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0
    },
@@ -28548,6 +28657,7 @@ window.GRAPH_DATA = {
    "source": "anne-greenbaum",
    "target": "thomas-trogdon",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -28562,6 +28672,7 @@ window.GRAPH_DATA = {
    "source": "anne-greenbaum",
    "target": "tyler-chen",
    "factors": {
+    "genetic": 0,
     "coauthor": 7,
     "advising": 1.0
    },
@@ -28588,6 +28699,7 @@ window.GRAPH_DATA = {
    "source": "anne-greenbaum",
    "target": "yuji-nakatsukasa",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -28602,6 +28714,7 @@ window.GRAPH_DATA = {
    "source": "anne-greenbaum",
    "target": "zdenek-strakos",
    "factors": {
+    "genetic": 0,
     "coauthor": 6,
     "advising": 0
    },
@@ -28621,6 +28734,7 @@ window.GRAPH_DATA = {
    "source": "anne-greenbaum",
    "target": "zhaojun-bai",
    "factors": {
+    "genetic": 0,
     "coauthor": 3,
     "advising": 0
    },
@@ -28637,6 +28751,7 @@ window.GRAPH_DATA = {
    "source": "arvind-saibaba",
    "target": "daniel-szyld",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -28651,6 +28766,7 @@ window.GRAPH_DATA = {
    "source": "arvind-saibaba",
    "target": "eric-de-sturler",
    "factors": {
+    "genetic": 0,
     "coauthor": 4,
     "advising": 0
    },
@@ -28668,6 +28784,7 @@ window.GRAPH_DATA = {
    "source": "arvind-saibaba",
    "target": "fan-tian",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -28682,6 +28799,7 @@ window.GRAPH_DATA = {
    "source": "arvind-saibaba",
    "target": "grey-ballard",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0
    },
@@ -28697,6 +28815,7 @@ window.GRAPH_DATA = {
    "source": "arvind-saibaba",
    "target": "harbir-antil",
    "factors": {
+    "genetic": 0,
     "coauthor": 3,
     "advising": 0
    },
@@ -28713,6 +28832,7 @@ window.GRAPH_DATA = {
    "source": "arvind-saibaba",
    "target": "ilse-ipsen",
    "factors": {
+    "genetic": 0,
     "coauthor": 8,
     "advising": 0
    },
@@ -28734,6 +28854,7 @@ window.GRAPH_DATA = {
    "source": "arvind-saibaba",
    "target": "jessie-chen",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -28748,6 +28869,7 @@ window.GRAPH_DATA = {
    "source": "arvind-saibaba",
    "target": "julianne-chung",
    "factors": {
+    "genetic": 0,
     "coauthor": 11,
     "advising": 0
    },
@@ -28772,6 +28894,7 @@ window.GRAPH_DATA = {
    "source": "arvind-saibaba",
    "target": "katherine-pearce",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -28786,6 +28909,7 @@ window.GRAPH_DATA = {
    "source": "arvind-saibaba",
    "target": "laura-grigori",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -28800,6 +28924,7 @@ window.GRAPH_DATA = {
    "source": "arvind-saibaba",
    "target": "malena-espanol",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0
    },
@@ -28815,6 +28940,7 @@ window.GRAPH_DATA = {
    "source": "arvind-saibaba",
    "target": "malena-sabate-landman",
    "factors": {
+    "genetic": 0,
     "coauthor": 3,
     "advising": 0
    },
@@ -28831,6 +28957,7 @@ window.GRAPH_DATA = {
    "source": "arvind-saibaba",
    "target": "mariana-martinez-aguilar",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -28845,6 +28972,7 @@ window.GRAPH_DATA = {
    "source": "arvind-saibaba",
    "target": "mirjeta-pasha",
    "factors": {
+    "genetic": 0,
     "coauthor": 3,
     "advising": 0
    },
@@ -28861,6 +28989,7 @@ window.GRAPH_DATA = {
    "source": "arvind-saibaba",
    "target": "misha-kilmer",
    "factors": {
+    "genetic": 0,
     "coauthor": 9,
     "advising": 0
    },
@@ -28883,6 +29012,7 @@ window.GRAPH_DATA = {
    "source": "arvind-saibaba",
    "target": "paul-cazeaux",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -28897,6 +29027,7 @@ window.GRAPH_DATA = {
    "source": "arvind-saibaba",
    "target": "silvia-gazzola",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0
    },
@@ -28912,6 +29043,7 @@ window.GRAPH_DATA = {
    "source": "arvind-saibaba",
    "target": "vishwas-rao",
    "factors": {
+    "genetic": 0,
     "coauthor": 6,
     "advising": 0
    },
@@ -28931,6 +29063,7 @@ window.GRAPH_DATA = {
    "source": "benjamin-carrel",
    "target": "daniel-kressner",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -28945,6 +29078,7 @@ window.GRAPH_DATA = {
    "source": "benjamin-erichson",
    "target": "jack-dongarra",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -28959,6 +29093,7 @@ window.GRAPH_DATA = {
    "source": "benjamin-erichson",
    "target": "james-demmel",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -28973,6 +29108,7 @@ window.GRAPH_DATA = {
    "source": "benjamin-erichson",
    "target": "laura-grigori",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -28987,6 +29123,7 @@ window.GRAPH_DATA = {
    "source": "benjamin-erichson",
    "target": "michael-mahoney",
    "factors": {
+    "genetic": 0,
     "coauthor": 36,
     "advising": 0
    },
@@ -29036,6 +29173,7 @@ window.GRAPH_DATA = {
    "source": "benjamin-erichson",
    "target": "michal-derezinski",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -29050,6 +29188,7 @@ window.GRAPH_DATA = {
    "source": "benjamin-erichson",
    "target": "miles-lopes",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0
    },
@@ -29065,6 +29204,7 @@ window.GRAPH_DATA = {
    "source": "benjamin-erichson",
    "target": "osman-asif-malik",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -29079,6 +29219,7 @@ window.GRAPH_DATA = {
    "source": "benjamin-erichson",
    "target": "piotr-luszczek",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -29093,6 +29234,7 @@ window.GRAPH_DATA = {
    "source": "benjamin-erichson",
    "target": "raphael-meyer",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -29107,6 +29249,7 @@ window.GRAPH_DATA = {
    "source": "benjamin-erichson",
    "target": "riley-murray",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -29121,6 +29264,7 @@ window.GRAPH_DATA = {
    "source": "cameron-musco",
    "target": "christopher-musco",
    "factors": {
+    "genetic": 1,
     "coauthor": 48,
     "advising": 0
    },
@@ -29182,6 +29326,7 @@ window.GRAPH_DATA = {
    "source": "cameron-musco",
    "target": "david-persson",
    "factors": {
+    "genetic": 0,
     "coauthor": 3,
     "advising": 0
    },
@@ -29198,6 +29343,7 @@ window.GRAPH_DATA = {
    "source": "cameron-musco",
    "target": "david-woodruff",
    "factors": {
+    "genetic": 0,
     "coauthor": 14,
     "advising": 0
    },
@@ -29225,6 +29371,7 @@ window.GRAPH_DATA = {
    "source": "cameron-musco",
    "target": "diana-halikias",
    "factors": {
+    "genetic": 0,
     "coauthor": 3,
     "advising": 0
    },
@@ -29241,6 +29388,7 @@ window.GRAPH_DATA = {
    "source": "cameron-musco",
    "target": "haim-avron",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0
    },
@@ -29256,6 +29404,7 @@ window.GRAPH_DATA = {
    "source": "cameron-musco",
    "target": "john-urschel",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -29270,6 +29419,7 @@ window.GRAPH_DATA = {
    "source": "cameron-musco",
    "target": "michael-kapralov",
    "factors": {
+    "genetic": 0,
     "coauthor": 7,
     "advising": 0
    },
@@ -29290,6 +29440,7 @@ window.GRAPH_DATA = {
    "source": "cameron-musco",
    "target": "noah-amsel",
    "factors": {
+    "genetic": 0,
     "coauthor": 5,
     "advising": 0
    },
@@ -29308,6 +29459,7 @@ window.GRAPH_DATA = {
    "source": "cameron-musco",
    "target": "petros-drineas",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0
    },
@@ -29323,6 +29475,7 @@ window.GRAPH_DATA = {
    "source": "cameron-musco",
    "target": "raphael-meyer",
    "factors": {
+    "genetic": 0,
     "coauthor": 4,
     "advising": 0
    },
@@ -29340,6 +29493,7 @@ window.GRAPH_DATA = {
    "source": "cameron-musco",
    "target": "richard-peng",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -29354,6 +29508,7 @@ window.GRAPH_DATA = {
    "source": "cameron-musco",
    "target": "rikhav-shah",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -29368,6 +29523,7 @@ window.GRAPH_DATA = {
    "source": "cameron-musco",
    "target": "shashanka-ubaru",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -29382,6 +29538,7 @@ window.GRAPH_DATA = {
    "source": "cameron-musco",
    "target": "sushant-sachdeva",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -29396,6 +29553,7 @@ window.GRAPH_DATA = {
    "source": "cameron-musco",
    "target": "tyler-chen",
    "factors": {
+    "genetic": 0,
     "coauthor": 8,
     "advising": 0
    },
@@ -29417,6 +29575,7 @@ window.GRAPH_DATA = {
    "source": "chris-camano",
    "target": "ethan-epperly",
    "factors": {
+    "genetic": 0,
     "coauthor": 3,
     "advising": 0
    },
@@ -29433,6 +29592,7 @@ window.GRAPH_DATA = {
    "source": "chris-camano",
    "target": "joel-tropp",
    "factors": {
+    "genetic": 0,
     "coauthor": 3,
     "advising": 1.0
    },
@@ -29455,6 +29615,7 @@ window.GRAPH_DATA = {
    "source": "chris-camano",
    "target": "raphael-meyer",
    "factors": {
+    "genetic": 0,
     "coauthor": 3,
     "advising": 0
    },
@@ -29471,6 +29632,7 @@ window.GRAPH_DATA = {
    "source": "christopher-beattie",
    "target": "eric-de-sturler",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -29485,6 +29647,7 @@ window.GRAPH_DATA = {
    "source": "christopher-beattie",
    "target": "ilse-ipsen",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -29499,6 +29662,7 @@ window.GRAPH_DATA = {
    "source": "christopher-beattie",
    "target": "mark-embree",
    "factors": {
+    "genetic": 0,
     "coauthor": 3,
     "advising": 0
    },
@@ -29515,6 +29679,7 @@ window.GRAPH_DATA = {
    "source": "christopher-beattie",
    "target": "misha-kilmer",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -29529,6 +29694,7 @@ window.GRAPH_DATA = {
    "source": "christopher-musco",
    "target": "david-persson",
    "factors": {
+    "genetic": 0,
     "coauthor": 6,
     "advising": 0
    },
@@ -29548,6 +29714,7 @@ window.GRAPH_DATA = {
    "source": "christopher-musco",
    "target": "david-woodruff",
    "factors": {
+    "genetic": 0,
     "coauthor": 9,
     "advising": 0
    },
@@ -29570,6 +29737,7 @@ window.GRAPH_DATA = {
    "source": "christopher-musco",
    "target": "diana-halikias",
    "factors": {
+    "genetic": 0,
     "coauthor": 3,
     "advising": 0
    },
@@ -29586,6 +29754,7 @@ window.GRAPH_DATA = {
    "source": "christopher-musco",
    "target": "ethan-epperly",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -29600,6 +29769,7 @@ window.GRAPH_DATA = {
    "source": "christopher-musco",
    "target": "haim-avron",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0
    },
@@ -29615,6 +29785,7 @@ window.GRAPH_DATA = {
    "source": "christopher-musco",
    "target": "john-urschel",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -29629,6 +29800,7 @@ window.GRAPH_DATA = {
    "source": "christopher-musco",
    "target": "michael-kapralov",
    "factors": {
+    "genetic": 0,
     "coauthor": 5,
     "advising": 0
    },
@@ -29647,6 +29819,7 @@ window.GRAPH_DATA = {
    "source": "christopher-musco",
    "target": "michal-derezinski",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -29661,6 +29834,7 @@ window.GRAPH_DATA = {
    "source": "christopher-musco",
    "target": "noah-amsel",
    "factors": {
+    "genetic": 0,
     "coauthor": 6,
     "advising": 1.0
    },
@@ -29686,6 +29860,7 @@ window.GRAPH_DATA = {
    "source": "christopher-musco",
    "target": "petros-drineas",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -29700,6 +29875,7 @@ window.GRAPH_DATA = {
    "source": "christopher-musco",
    "target": "raphael-meyer",
    "factors": {
+    "genetic": 0,
     "coauthor": 8,
     "advising": 1.0
    },
@@ -29727,6 +29903,7 @@ window.GRAPH_DATA = {
    "source": "christopher-musco",
    "target": "richard-peng",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -29741,6 +29918,7 @@ window.GRAPH_DATA = {
    "source": "christopher-musco",
    "target": "rikhav-shah",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -29755,6 +29933,7 @@ window.GRAPH_DATA = {
    "source": "christopher-musco",
    "target": "robert-gower",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -29769,6 +29948,7 @@ window.GRAPH_DATA = {
    "source": "christopher-musco",
    "target": "tyler-chen",
    "factors": {
+    "genetic": 0,
     "coauthor": 10,
     "advising": 0.7
    },
@@ -29798,6 +29978,7 @@ window.GRAPH_DATA = {
    "source": "christopher-musco",
    "target": "xiaoou-cheng",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -29812,6 +29993,7 @@ window.GRAPH_DATA = {
    "source": "christos-boutsidis",
    "target": "david-woodruff",
    "factors": {
+    "genetic": 0,
     "coauthor": 3,
     "advising": 0
    },
@@ -29828,6 +30010,7 @@ window.GRAPH_DATA = {
    "source": "christos-boutsidis",
    "target": "deanna-needell",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -29842,6 +30025,7 @@ window.GRAPH_DATA = {
    "source": "christos-boutsidis",
    "target": "edo-liberty",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0
    },
@@ -29857,6 +30041,7 @@ window.GRAPH_DATA = {
    "source": "christos-boutsidis",
    "target": "haim-avron",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -29871,6 +30056,7 @@ window.GRAPH_DATA = {
    "source": "christos-boutsidis",
    "target": "malik-magdon-ismail",
    "factors": {
+    "genetic": 0,
     "coauthor": 11,
     "advising": 0
    },
@@ -29895,6 +30081,7 @@ window.GRAPH_DATA = {
    "source": "christos-boutsidis",
    "target": "michael-mahoney",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -29909,6 +30096,7 @@ window.GRAPH_DATA = {
    "source": "christos-boutsidis",
    "target": "petros-drineas",
    "factors": {
+    "genetic": 0,
     "coauthor": 10,
     "advising": 1.0
    },
@@ -29938,6 +30126,7 @@ window.GRAPH_DATA = {
    "source": "daniel-kressner",
    "target": "david-persson",
    "factors": {
+    "genetic": 0,
     "coauthor": 4,
     "advising": 1.0
    },
@@ -29961,6 +30150,7 @@ window.GRAPH_DATA = {
    "source": "daniel-kressner",
    "target": "davide-palitta",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -29975,6 +30165,7 @@ window.GRAPH_DATA = {
    "source": "daniel-kressner",
    "target": "heather-wilber",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -29989,6 +30180,7 @@ window.GRAPH_DATA = {
    "source": "daniel-kressner",
    "target": "igor-simunec",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0.7
    },
@@ -30009,6 +30201,7 @@ window.GRAPH_DATA = {
    "source": "daniel-kressner",
    "target": "julien-langou",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -30023,6 +30216,7 @@ window.GRAPH_DATA = {
    "source": "daniel-kressner",
    "target": "laura-grigori",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -30037,6 +30231,7 @@ window.GRAPH_DATA = {
    "source": "daniel-kressner",
    "target": "leonardo-robol",
    "factors": {
+    "genetic": 0,
     "coauthor": 3,
     "advising": 0
    },
@@ -30053,6 +30248,7 @@ window.GRAPH_DATA = {
    "source": "daniel-kressner",
    "target": "nicolas-boulle",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -30067,6 +30263,7 @@ window.GRAPH_DATA = {
    "source": "daniel-kressner",
    "target": "stefano-massei",
    "factors": {
+    "genetic": 0,
     "coauthor": 12,
     "advising": 0.7
    },
@@ -30098,6 +30295,7 @@ window.GRAPH_DATA = {
    "source": "daniel-kressner",
    "target": "taejun-park",
    "factors": {
+    "genetic": 0,
     "coauthor": 0,
     "advising": 0.7
    },
@@ -30116,6 +30314,7 @@ window.GRAPH_DATA = {
    "source": "daniel-kressner",
    "target": "valeria-simoncini",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0
    },
@@ -30131,6 +30330,7 @@ window.GRAPH_DATA = {
    "source": "daniel-kressner",
    "target": "yuji-nakatsukasa",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0
    },
@@ -30146,6 +30346,7 @@ window.GRAPH_DATA = {
    "source": "daniel-spielman",
    "target": "nikhil-srivastava",
    "factors": {
+    "genetic": 0,
     "coauthor": 5,
     "advising": 0
    },
@@ -30164,6 +30365,7 @@ window.GRAPH_DATA = {
    "source": "daniel-spielman",
    "target": "peng-zhang",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0
    },
@@ -30179,6 +30381,7 @@ window.GRAPH_DATA = {
    "source": "daniel-spielman",
    "target": "rasmus-kyng",
    "factors": {
+    "genetic": 0,
     "coauthor": 4,
     "advising": 1.0
    },
@@ -30202,6 +30405,7 @@ window.GRAPH_DATA = {
    "source": "daniel-spielman",
    "target": "richard-peng",
    "factors": {
+    "genetic": 0,
     "coauthor": 3,
     "advising": 0
    },
@@ -30218,6 +30422,7 @@ window.GRAPH_DATA = {
    "source": "daniel-spielman",
    "target": "sushant-sachdeva",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0
    },
@@ -30233,6 +30438,7 @@ window.GRAPH_DATA = {
    "source": "daniel-spielman",
    "target": "yin-tat-lee",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -30247,6 +30453,7 @@ window.GRAPH_DATA = {
    "source": "daniel-szyld",
    "target": "edmond-chow",
    "factors": {
+    "genetic": 0,
     "coauthor": 5,
     "advising": 0
    },
@@ -30265,6 +30472,7 @@ window.GRAPH_DATA = {
    "source": "daniel-szyld",
    "target": "jorg-liesen",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0
    },
@@ -30280,6 +30488,7 @@ window.GRAPH_DATA = {
    "source": "daniel-szyld",
    "target": "mark-embree",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0
    },
@@ -30295,6 +30504,7 @@ window.GRAPH_DATA = {
    "source": "daniel-szyld",
    "target": "michael-mahoney",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0
    },
@@ -30310,6 +30520,7 @@ window.GRAPH_DATA = {
    "source": "daniel-szyld",
    "target": "michele-benzi",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0
    },
@@ -30325,6 +30536,7 @@ window.GRAPH_DATA = {
    "source": "daniel-szyld",
    "target": "valeria-simoncini",
    "factors": {
+    "genetic": 0,
     "coauthor": 10,
     "advising": 0
    },
@@ -30348,6 +30560,7 @@ window.GRAPH_DATA = {
    "source": "daniel-szyld",
    "target": "zdenek-strakos",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -30362,6 +30575,7 @@ window.GRAPH_DATA = {
    "source": "daniela-calvetti",
    "target": "erkki-somersalo",
    "factors": {
+    "genetic": 0,
     "coauthor": 137,
     "advising": 0
    },
@@ -30512,6 +30726,7 @@ window.GRAPH_DATA = {
    "source": "daniela-calvetti",
    "target": "james-baglama",
    "factors": {
+    "genetic": 0,
     "coauthor": 6,
     "advising": 0
    },
@@ -30531,6 +30746,7 @@ window.GRAPH_DATA = {
    "source": "daniela-calvetti",
    "target": "lothar-reichel",
    "factors": {
+    "genetic": 0,
     "coauthor": 43,
     "advising": 0
    },
@@ -30587,6 +30803,7 @@ window.GRAPH_DATA = {
    "source": "david-bindel",
    "target": "james-demmel",
    "factors": {
+    "genetic": 0,
     "coauthor": 6,
     "advising": 1.0
    },
@@ -30612,6 +30829,7 @@ window.GRAPH_DATA = {
    "source": "david-bindel",
    "target": "julien-langou",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0
    },
@@ -30627,6 +30845,7 @@ window.GRAPH_DATA = {
    "source": "david-bindel",
    "target": "ming-gu",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0
    },
@@ -30642,6 +30861,7 @@ window.GRAPH_DATA = {
    "source": "david-bindel",
    "target": "xiaoye-sherry-li",
    "factors": {
+    "genetic": 0,
     "coauthor": 3,
     "advising": 0
    },
@@ -30658,6 +30878,7 @@ window.GRAPH_DATA = {
    "source": "david-bindel",
    "target": "zhaojun-bai",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -30672,6 +30893,7 @@ window.GRAPH_DATA = {
    "source": "david-gleich",
    "target": "james-demmel",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -30686,6 +30908,7 @@ window.GRAPH_DATA = {
    "source": "david-gleich",
    "target": "michael-mahoney",
    "factors": {
+    "genetic": 0,
     "coauthor": 8,
     "advising": 0
    },
@@ -30707,6 +30930,7 @@ window.GRAPH_DATA = {
    "source": "david-persson",
    "target": "diana-halikias",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0
    },
@@ -30722,6 +30946,7 @@ window.GRAPH_DATA = {
    "source": "david-persson",
    "target": "nicolas-boulle",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -30736,6 +30961,7 @@ window.GRAPH_DATA = {
    "source": "david-persson",
    "target": "noah-amsel",
    "factors": {
+    "genetic": 0,
     "coauthor": 3,
     "advising": 0
    },
@@ -30752,6 +30978,7 @@ window.GRAPH_DATA = {
    "source": "david-persson",
    "target": "raphael-meyer",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -30766,6 +30993,7 @@ window.GRAPH_DATA = {
    "source": "david-persson",
    "target": "robert-gower",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -30780,6 +31008,7 @@ window.GRAPH_DATA = {
    "source": "david-persson",
    "target": "tyler-chen",
    "factors": {
+    "genetic": 0,
     "coauthor": 4,
     "advising": 0
    },
@@ -30797,6 +31026,7 @@ window.GRAPH_DATA = {
    "source": "david-woodruff",
    "target": "deanna-needell",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -30811,6 +31041,7 @@ window.GRAPH_DATA = {
    "source": "david-woodruff",
    "target": "edo-liberty",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -30825,6 +31056,7 @@ window.GRAPH_DATA = {
    "source": "david-woodruff",
    "target": "fred-roosta",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -30839,6 +31071,7 @@ window.GRAPH_DATA = {
    "source": "david-woodruff",
    "target": "haim-avron",
    "factors": {
+    "genetic": 0,
     "coauthor": 5,
     "advising": 0
    },
@@ -30857,6 +31090,7 @@ window.GRAPH_DATA = {
    "source": "david-woodruff",
    "target": "jelani-nelson",
    "factors": {
+    "genetic": 0,
     "coauthor": 12,
     "advising": 0
    },
@@ -30882,6 +31116,7 @@ window.GRAPH_DATA = {
    "source": "david-woodruff",
    "target": "kenneth-clarkson",
    "factors": {
+    "genetic": 0,
     "coauthor": 15,
     "advising": 0
    },
@@ -30910,6 +31145,7 @@ window.GRAPH_DATA = {
    "source": "david-woodruff",
    "target": "lior-horesh",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -30924,6 +31160,7 @@ window.GRAPH_DATA = {
    "source": "david-woodruff",
    "target": "malik-magdon-ismail",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -30938,6 +31175,7 @@ window.GRAPH_DATA = {
    "source": "david-woodruff",
    "target": "michael-kapralov",
    "factors": {
+    "genetic": 0,
     "coauthor": 5,
     "advising": 0
    },
@@ -30956,6 +31194,7 @@ window.GRAPH_DATA = {
    "source": "david-woodruff",
    "target": "michael-mahoney",
    "factors": {
+    "genetic": 0,
     "coauthor": 4,
     "advising": 0
    },
@@ -30973,6 +31212,7 @@ window.GRAPH_DATA = {
    "source": "david-woodruff",
    "target": "petros-drineas",
    "factors": {
+    "genetic": 0,
     "coauthor": 7,
     "advising": 0
    },
@@ -30993,6 +31233,7 @@ window.GRAPH_DATA = {
    "source": "david-woodruff",
    "target": "praneeth-kacham",
    "factors": {
+    "genetic": 0,
     "coauthor": 13,
     "advising": 1.0
    },
@@ -31025,6 +31266,7 @@ window.GRAPH_DATA = {
    "source": "david-woodruff",
    "target": "raphael-meyer",
    "factors": {
+    "genetic": 0,
     "coauthor": 4,
     "advising": 0
    },
@@ -31042,6 +31284,7 @@ window.GRAPH_DATA = {
    "source": "david-woodruff",
    "target": "ravindran-kannan",
    "factors": {
+    "genetic": 0,
     "coauthor": 5,
     "advising": 0
    },
@@ -31060,6 +31303,7 @@ window.GRAPH_DATA = {
    "source": "david-woodruff",
    "target": "samson-zhou",
    "factors": {
+    "genetic": 0,
     "coauthor": 36,
     "advising": 0.7
    },
@@ -31115,6 +31359,7 @@ window.GRAPH_DATA = {
    "source": "david-woodruff",
    "target": "santosh-vempala",
    "factors": {
+    "genetic": 0,
     "coauthor": 3,
     "advising": 0
    },
@@ -31131,6 +31376,7 @@ window.GRAPH_DATA = {
    "source": "david-woodruff",
    "target": "shashanka-ubaru",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -31145,6 +31391,7 @@ window.GRAPH_DATA = {
    "source": "david-woodruff",
    "target": "sushant-sachdeva",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -31159,6 +31406,7 @@ window.GRAPH_DATA = {
    "source": "david-woodruff",
    "target": "swati-padmanabhan",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0
    },
@@ -31174,6 +31422,7 @@ window.GRAPH_DATA = {
    "source": "david-woodruff",
    "target": "tamas-sarlos",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0
    },
@@ -31189,6 +31438,7 @@ window.GRAPH_DATA = {
    "source": "david-woodruff",
    "target": "yin-tat-lee",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0
    },
@@ -31204,6 +31454,7 @@ window.GRAPH_DATA = {
    "source": "davide-palitta",
    "target": "mirjeta-pasha",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -31218,6 +31469,7 @@ window.GRAPH_DATA = {
    "source": "davide-palitta",
    "target": "sascha-portaro",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0
    },
@@ -31233,6 +31485,7 @@ window.GRAPH_DATA = {
    "source": "davide-palitta",
    "target": "stefano-massei",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0
    },
@@ -31248,6 +31501,7 @@ window.GRAPH_DATA = {
    "source": "davide-palitta",
    "target": "stefano-pozza",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -31262,6 +31516,7 @@ window.GRAPH_DATA = {
    "source": "davide-palitta",
    "target": "valeria-simoncini",
    "factors": {
+    "genetic": 0,
     "coauthor": 18,
     "advising": 1.0
    },
@@ -31299,6 +31554,7 @@ window.GRAPH_DATA = {
    "source": "deanna-needell",
    "target": "diana-halikias",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -31313,6 +31569,7 @@ window.GRAPH_DATA = {
    "source": "deanna-needell",
    "target": "elizaveta-rebrova",
    "factors": {
+    "genetic": 0,
     "coauthor": 20,
     "advising": 0.7
    },
@@ -31352,6 +31609,7 @@ window.GRAPH_DATA = {
    "source": "deanna-needell",
    "target": "ethan-epperly",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -31366,6 +31624,7 @@ window.GRAPH_DATA = {
    "source": "deanna-needell",
    "target": "jamie-haddock",
    "factors": {
+    "genetic": 0,
     "coauthor": 29,
     "advising": 0.7
    },
@@ -31414,6 +31673,7 @@ window.GRAPH_DATA = {
    "source": "deanna-needell",
    "target": "joel-tropp",
    "factors": {
+    "genetic": 0,
     "coauthor": 4,
     "advising": 0
    },
@@ -31431,6 +31691,7 @@ window.GRAPH_DATA = {
    "source": "deanna-needell",
    "target": "katherine-pearce",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -31445,6 +31706,7 @@ window.GRAPH_DATA = {
    "source": "deanna-needell",
    "target": "laura-grigori",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -31459,6 +31721,7 @@ window.GRAPH_DATA = {
    "source": "deanna-needell",
    "target": "michal-derezinski",
    "factors": {
+    "genetic": 0,
     "coauthor": 3,
     "advising": 0
    },
@@ -31475,6 +31738,7 @@ window.GRAPH_DATA = {
    "source": "deanna-needell",
    "target": "rachel-ward",
    "factors": {
+    "genetic": 0,
     "coauthor": 11,
     "advising": 0
    },
@@ -31499,6 +31763,7 @@ window.GRAPH_DATA = {
    "source": "deanna-needell",
    "target": "robert-gower",
    "factors": {
+    "genetic": 0,
     "coauthor": 3,
     "advising": 0
    },
@@ -31515,6 +31780,7 @@ window.GRAPH_DATA = {
    "source": "deanna-needell",
    "target": "rudi-smith",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -31529,6 +31795,7 @@ window.GRAPH_DATA = {
    "source": "deanna-needell",
    "target": "yijun-dong",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -31543,6 +31810,7 @@ window.GRAPH_DATA = {
    "source": "diana-halikias",
    "target": "elizaveta-rebrova",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -31557,6 +31825,7 @@ window.GRAPH_DATA = {
    "source": "diana-halikias",
    "target": "katherine-pearce",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -31571,6 +31840,7 @@ window.GRAPH_DATA = {
    "source": "diana-halikias",
    "target": "laura-grigori",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -31585,6 +31855,7 @@ window.GRAPH_DATA = {
    "source": "diana-halikias",
    "target": "nicolas-boulle",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0
    },
@@ -31600,6 +31871,7 @@ window.GRAPH_DATA = {
    "source": "diana-halikias",
    "target": "noah-amsel",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0
    },
@@ -31615,6 +31887,7 @@ window.GRAPH_DATA = {
    "source": "diana-halikias",
    "target": "rudi-smith",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -31629,6 +31902,7 @@ window.GRAPH_DATA = {
    "source": "diana-halikias",
    "target": "tyler-chen",
    "factors": {
+    "genetic": 0,
     "coauthor": 3,
     "advising": 0
    },
@@ -31645,6 +31919,7 @@ window.GRAPH_DATA = {
    "source": "diana-halikias",
    "target": "yijun-dong",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -31659,6 +31934,7 @@ window.GRAPH_DATA = {
    "source": "edmond-chow",
    "target": "george-turkiyyah",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0
    },
@@ -31674,6 +31950,7 @@ window.GRAPH_DATA = {
    "source": "edmond-chow",
    "target": "jack-dongarra",
    "factors": {
+    "genetic": 0,
     "coauthor": 10,
     "advising": 0
    },
@@ -31697,6 +31974,7 @@ window.GRAPH_DATA = {
    "source": "edmond-chow",
    "target": "valeria-simoncini",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -31711,6 +31989,7 @@ window.GRAPH_DATA = {
    "source": "edmond-chow",
    "target": "yousef-saad",
    "factors": {
+    "genetic": 0,
     "coauthor": 7,
     "advising": 1.0
    },
@@ -31737,6 +32016,7 @@ window.GRAPH_DATA = {
    "source": "edo-liberty",
    "target": "mark-tygert",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0
    },
@@ -31752,6 +32032,7 @@ window.GRAPH_DATA = {
    "source": "edo-liberty",
    "target": "nathan-halko",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -31766,6 +32047,7 @@ window.GRAPH_DATA = {
    "source": "edo-liberty",
    "target": "per-gunnar-martinsson",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -31780,6 +32062,7 @@ window.GRAPH_DATA = {
    "source": "edo-liberty",
    "target": "vladimir-rokhlin",
    "factors": {
+    "genetic": 0,
     "coauthor": 3,
     "advising": 0
    },
@@ -31796,6 +32079,7 @@ window.GRAPH_DATA = {
    "source": "elizabeth-newman",
    "target": "haim-avron",
    "factors": {
+    "genetic": 0,
     "coauthor": 4,
     "advising": 0
    },
@@ -31813,6 +32097,7 @@ window.GRAPH_DATA = {
    "source": "elizabeth-newman",
    "target": "julianne-chung",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0
    },
@@ -31828,6 +32113,7 @@ window.GRAPH_DATA = {
    "source": "elizabeth-newman",
    "target": "lior-horesh",
    "factors": {
+    "genetic": 0,
     "coauthor": 5,
     "advising": 0
    },
@@ -31846,6 +32132,7 @@ window.GRAPH_DATA = {
    "source": "elizabeth-newman",
    "target": "matthias-chung",
    "factors": {
+    "genetic": 0,
     "coauthor": 4,
     "advising": 0
    },
@@ -31863,6 +32150,7 @@ window.GRAPH_DATA = {
    "source": "elizabeth-newman",
    "target": "misha-kilmer",
    "factors": {
+    "genetic": 0,
     "coauthor": 6,
     "advising": 1.0
    },
@@ -31888,6 +32176,7 @@ window.GRAPH_DATA = {
    "source": "elizaveta-rebrova",
    "target": "jackie-lok",
    "factors": {
+    "genetic": 0,
     "coauthor": 6,
     "advising": 1.0
    },
@@ -31913,6 +32202,7 @@ window.GRAPH_DATA = {
    "source": "elizaveta-rebrova",
    "target": "jamie-haddock",
    "factors": {
+    "genetic": 0,
     "coauthor": 5,
     "advising": 0
    },
@@ -31931,6 +32221,7 @@ window.GRAPH_DATA = {
    "source": "elizaveta-rebrova",
    "target": "katherine-pearce",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -31945,6 +32236,7 @@ window.GRAPH_DATA = {
    "source": "elizaveta-rebrova",
    "target": "laura-grigori",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -31959,6 +32251,7 @@ window.GRAPH_DATA = {
    "source": "elizaveta-rebrova",
    "target": "michal-derezinski",
    "factors": {
+    "genetic": 0,
     "coauthor": 4,
     "advising": 0
    },
@@ -31976,6 +32269,7 @@ window.GRAPH_DATA = {
    "source": "elizaveta-rebrova",
    "target": "rudi-smith",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -31990,6 +32284,7 @@ window.GRAPH_DATA = {
    "source": "elizaveta-rebrova",
    "target": "vishwas-rao",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -32004,6 +32299,7 @@ window.GRAPH_DATA = {
    "source": "elizaveta-rebrova",
    "target": "vivak-patel",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -32018,6 +32314,7 @@ window.GRAPH_DATA = {
    "source": "elizaveta-rebrova",
    "target": "xiaoye-sherry-li",
    "factors": {
+    "genetic": 0,
     "coauthor": 4,
     "advising": 0
    },
@@ -32035,6 +32332,7 @@ window.GRAPH_DATA = {
    "source": "elizaveta-rebrova",
    "target": "yijun-dong",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -32049,6 +32347,7 @@ window.GRAPH_DATA = {
    "source": "elizaveta-rebrova",
    "target": "yuji-nakatsukasa",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -32063,6 +32362,7 @@ window.GRAPH_DATA = {
    "source": "eric-de-sturler",
    "target": "james-nagy",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -32077,6 +32377,7 @@ window.GRAPH_DATA = {
    "source": "eric-de-sturler",
    "target": "jorg-liesen",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0
    },
@@ -32092,6 +32393,7 @@ window.GRAPH_DATA = {
    "source": "eric-de-sturler",
    "target": "julianne-chung",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -32106,6 +32408,7 @@ window.GRAPH_DATA = {
    "source": "eric-de-sturler",
    "target": "kapil-ahuja",
    "factors": {
+    "genetic": 0,
     "coauthor": 6,
     "advising": 0
    },
@@ -32125,6 +32428,7 @@ window.GRAPH_DATA = {
    "source": "eric-de-sturler",
    "target": "malena-espanol",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0
    },
@@ -32140,6 +32444,7 @@ window.GRAPH_DATA = {
    "source": "eric-de-sturler",
    "target": "mark-embree",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -32154,6 +32459,7 @@ window.GRAPH_DATA = {
    "source": "eric-de-sturler",
    "target": "mirjeta-pasha",
    "factors": {
+    "genetic": 0,
     "coauthor": 4,
     "advising": 0
    },
@@ -32171,6 +32477,7 @@ window.GRAPH_DATA = {
    "source": "eric-de-sturler",
    "target": "misha-kilmer",
    "factors": {
+    "genetic": 0,
     "coauthor": 11,
     "advising": 0
    },
@@ -32195,6 +32502,7 @@ window.GRAPH_DATA = {
    "source": "eric-de-sturler",
    "target": "silvia-gazzola",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0
    },
@@ -32210,6 +32518,7 @@ window.GRAPH_DATA = {
    "source": "erin-carson",
    "target": "ieva-dauzickaite",
    "factors": {
+    "genetic": 0,
     "coauthor": 4,
     "advising": 0.7
    },
@@ -32233,6 +32542,7 @@ window.GRAPH_DATA = {
    "source": "erin-carson",
    "target": "jack-dongarra",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0
    },
@@ -32248,6 +32558,7 @@ window.GRAPH_DATA = {
    "source": "erin-carson",
    "target": "james-demmel",
    "factors": {
+    "genetic": 0,
     "coauthor": 8,
     "advising": 1.0
    },
@@ -32275,6 +32586,7 @@ window.GRAPH_DATA = {
    "source": "erin-carson",
    "target": "jorg-liesen",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0
    },
@@ -32290,6 +32602,7 @@ window.GRAPH_DATA = {
    "source": "erin-carson",
    "target": "laura-grigori",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -32304,6 +32617,7 @@ window.GRAPH_DATA = {
    "source": "erin-carson",
    "target": "nicholas-higham",
    "factors": {
+    "genetic": 0,
     "coauthor": 5,
     "advising": 0
    },
@@ -32322,6 +32636,7 @@ window.GRAPH_DATA = {
    "source": "erin-carson",
    "target": "piotr-luszczek",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0
    },
@@ -32337,6 +32652,7 @@ window.GRAPH_DATA = {
    "source": "erin-carson",
    "target": "tyler-chen",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -32351,6 +32667,7 @@ window.GRAPH_DATA = {
    "source": "erin-carson",
    "target": "xiaoye-sherry-li",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0
    },
@@ -32366,6 +32683,7 @@ window.GRAPH_DATA = {
    "source": "erin-carson",
    "target": "zdenek-strakos",
    "factors": {
+    "genetic": 0,
     "coauthor": 5,
     "advising": 0
    },
@@ -32384,6 +32702,7 @@ window.GRAPH_DATA = {
    "source": "ethan-epperly",
    "target": "heather-wilber",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0
    },
@@ -32399,6 +32718,7 @@ window.GRAPH_DATA = {
    "source": "ethan-epperly",
    "target": "joel-tropp",
    "factors": {
+    "genetic": 0,
     "coauthor": 9,
     "advising": 1.0
    },
@@ -32427,6 +32747,7 @@ window.GRAPH_DATA = {
    "source": "ethan-epperly",
    "target": "lin-lin",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0.7
    },
@@ -32448,6 +32769,7 @@ window.GRAPH_DATA = {
    "source": "ethan-epperly",
    "target": "michal-derezinski",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0
    },
@@ -32463,6 +32785,7 @@ window.GRAPH_DATA = {
    "source": "ethan-epperly",
    "target": "raphael-meyer",
    "factors": {
+    "genetic": 0,
     "coauthor": 4,
     "advising": 0
    },
@@ -32480,6 +32803,7 @@ window.GRAPH_DATA = {
    "source": "ethan-epperly",
    "target": "robert-webber",
    "factors": {
+    "genetic": 0,
     "coauthor": 6,
     "advising": 0
    },
@@ -32499,6 +32823,7 @@ window.GRAPH_DATA = {
    "source": "ethan-epperly",
    "target": "taejun-park",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -32513,6 +32838,7 @@ window.GRAPH_DATA = {
    "source": "ethan-epperly",
    "target": "tyler-chen",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -32527,6 +32853,7 @@ window.GRAPH_DATA = {
    "source": "ethan-epperly",
    "target": "yuji-nakatsukasa",
    "factors": {
+    "genetic": 0,
     "coauthor": 4,
     "advising": 0
    },
@@ -32544,6 +32871,7 @@ window.GRAPH_DATA = {
    "source": "fan-tian",
    "target": "mirjeta-pasha",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -32558,6 +32886,7 @@ window.GRAPH_DATA = {
    "source": "fan-tian",
    "target": "misha-kilmer",
    "factors": {
+    "genetic": 0,
     "coauthor": 4,
     "advising": 0
    },
@@ -32575,6 +32904,7 @@ window.GRAPH_DATA = {
    "source": "fred-roosta",
    "target": "michael-mahoney",
    "factors": {
+    "genetic": 0,
     "coauthor": 33,
     "advising": 0.7
    },
@@ -32627,6 +32957,7 @@ window.GRAPH_DATA = {
    "source": "fred-roosta",
    "target": "shashanka-ubaru",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -32641,6 +32972,7 @@ window.GRAPH_DATA = {
    "source": "george-turkiyyah",
    "target": "xiaoye-sherry-li",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -32655,6 +32987,7 @@ window.GRAPH_DATA = {
    "source": "grey-ballard",
    "target": "ioana-dumitriu",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0
    },
@@ -32670,6 +33003,7 @@ window.GRAPH_DATA = {
    "source": "grey-ballard",
    "target": "james-demmel",
    "factors": {
+    "genetic": 0,
     "coauthor": 8,
     "advising": 0
    },
@@ -32691,6 +33025,7 @@ window.GRAPH_DATA = {
    "source": "grey-ballard",
    "target": "laura-grigori",
    "factors": {
+    "genetic": 0,
     "coauthor": 9,
     "advising": 0
    },
@@ -32713,6 +33048,7 @@ window.GRAPH_DATA = {
    "source": "grey-ballard",
    "target": "mariana-martinez-aguilar",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -32727,6 +33063,7 @@ window.GRAPH_DATA = {
    "source": "grey-ballard",
    "target": "vishwas-rao",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -32741,6 +33078,7 @@ window.GRAPH_DATA = {
    "source": "haim-avron",
    "target": "kenneth-clarkson",
    "factors": {
+    "genetic": 0,
     "coauthor": 4,
     "advising": 0
    },
@@ -32758,6 +33096,7 @@ window.GRAPH_DATA = {
    "source": "haim-avron",
    "target": "lior-horesh",
    "factors": {
+    "genetic": 0,
     "coauthor": 13,
     "advising": 0
    },
@@ -32784,6 +33123,7 @@ window.GRAPH_DATA = {
    "source": "haim-avron",
    "target": "michael-kapralov",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0
    },
@@ -32799,6 +33139,7 @@ window.GRAPH_DATA = {
    "source": "haim-avron",
    "target": "michael-mahoney",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0
    },
@@ -32814,6 +33155,7 @@ window.GRAPH_DATA = {
    "source": "haim-avron",
    "target": "misha-kilmer",
    "factors": {
+    "genetic": 0,
     "coauthor": 7,
     "advising": 0
    },
@@ -32834,6 +33176,7 @@ window.GRAPH_DATA = {
    "source": "haim-avron",
    "target": "osman-asif-malik",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0
    },
@@ -32849,6 +33192,7 @@ window.GRAPH_DATA = {
    "source": "haim-avron",
    "target": "petros-drineas",
    "factors": {
+    "genetic": 0,
     "coauthor": 7,
     "advising": 0
    },
@@ -32869,6 +33213,7 @@ window.GRAPH_DATA = {
    "source": "haim-avron",
    "target": "raphael-meyer",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -32883,6 +33228,7 @@ window.GRAPH_DATA = {
    "source": "haim-avron",
    "target": "shashanka-ubaru",
    "factors": {
+    "genetic": 0,
     "coauthor": 6,
     "advising": 0
    },
@@ -32902,6 +33248,7 @@ window.GRAPH_DATA = {
    "source": "haim-avron",
    "target": "sivan-toledo",
    "factors": {
+    "genetic": 0,
     "coauthor": 11,
     "advising": 1.0
    },
@@ -32932,6 +33279,7 @@ window.GRAPH_DATA = {
    "source": "haim-avron",
    "target": "vasileios-kalantzis",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0
    },
@@ -32947,6 +33295,7 @@ window.GRAPH_DATA = {
    "source": "heather-wilber",
    "target": "lloyd-trefethen",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -32961,6 +33310,7 @@ window.GRAPH_DATA = {
    "source": "heather-wilber",
    "target": "per-gunnar-martinsson",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0.7
    },
@@ -32981,6 +33331,7 @@ window.GRAPH_DATA = {
    "source": "heather-wilber",
    "target": "thomas-trogdon",
    "factors": {
+    "genetic": 0,
     "coauthor": 3,
     "advising": 0
    },
@@ -32997,6 +33348,7 @@ window.GRAPH_DATA = {
    "source": "igor-simunec",
    "target": "laura-grigori",
    "factors": {
+    "genetic": 0,
     "coauthor": 3,
     "advising": 0
    },
@@ -33013,6 +33365,7 @@ window.GRAPH_DATA = {
    "source": "igor-simunec",
    "target": "lorenzo-piccinini",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -33027,6 +33380,7 @@ window.GRAPH_DATA = {
    "source": "igor-simunec",
    "target": "michele-benzi",
    "factors": {
+    "genetic": 0,
     "coauthor": 4,
     "advising": 1.0
    },
@@ -33050,6 +33404,7 @@ window.GRAPH_DATA = {
    "source": "ilse-ipsen",
    "target": "katherine-pearce",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -33064,6 +33419,7 @@ window.GRAPH_DATA = {
    "source": "ilse-ipsen",
    "target": "linkai-ma",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -33078,6 +33434,7 @@ window.GRAPH_DATA = {
    "source": "ilse-ipsen",
    "target": "malik-magdon-ismail",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0
    },
@@ -33093,6 +33450,7 @@ window.GRAPH_DATA = {
    "source": "ilse-ipsen",
    "target": "petros-drineas",
    "factors": {
+    "genetic": 0,
     "coauthor": 6,
     "advising": 0
    },
@@ -33112,6 +33470,7 @@ window.GRAPH_DATA = {
    "source": "ilse-ipsen",
    "target": "yousef-saad",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0
    },
@@ -33127,6 +33486,7 @@ window.GRAPH_DATA = {
    "source": "ioana-dumitriu",
    "target": "james-demmel",
    "factors": {
+    "genetic": 0,
     "coauthor": 14,
     "advising": 0
    },
@@ -33154,6 +33514,7 @@ window.GRAPH_DATA = {
    "source": "ioana-dumitriu",
    "target": "olga-holtz",
    "factors": {
+    "genetic": 0,
     "coauthor": 6,
     "advising": 0
    },
@@ -33173,6 +33534,7 @@ window.GRAPH_DATA = {
    "source": "ioana-dumitriu",
    "target": "ryan-schneider",
    "factors": {
+    "genetic": 0,
     "coauthor": 4,
     "advising": 1.0
    },
@@ -33196,6 +33558,7 @@ window.GRAPH_DATA = {
    "source": "israa-fakih",
    "target": "laura-grigori",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -33210,6 +33573,7 @@ window.GRAPH_DATA = {
    "source": "jack-dongarra",
    "target": "james-demmel",
    "factors": {
+    "genetic": 0,
     "coauthor": 10,
     "advising": 0
    },
@@ -33233,6 +33597,7 @@ window.GRAPH_DATA = {
    "source": "jack-dongarra",
    "target": "julien-langou",
    "factors": {
+    "genetic": 0,
     "coauthor": 34,
     "advising": 0
    },
@@ -33280,6 +33645,7 @@ window.GRAPH_DATA = {
    "source": "jack-dongarra",
    "target": "laura-grigori",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0
    },
@@ -33295,6 +33661,7 @@ window.GRAPH_DATA = {
    "source": "jack-dongarra",
    "target": "michael-mahoney",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -33309,6 +33676,7 @@ window.GRAPH_DATA = {
    "source": "jack-dongarra",
    "target": "michal-derezinski",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -33323,6 +33691,7 @@ window.GRAPH_DATA = {
    "source": "jack-dongarra",
    "target": "miles-lopes",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -33337,6 +33706,7 @@ window.GRAPH_DATA = {
    "source": "jack-dongarra",
    "target": "nicholas-higham",
    "factors": {
+    "genetic": 0,
     "coauthor": 7,
     "advising": 0
    },
@@ -33357,6 +33727,7 @@ window.GRAPH_DATA = {
    "source": "jack-dongarra",
    "target": "osman-asif-malik",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -33371,6 +33742,7 @@ window.GRAPH_DATA = {
    "source": "jack-dongarra",
    "target": "piotr-luszczek",
    "factors": {
+    "genetic": 0,
     "coauthor": 129,
     "advising": 0
    },
@@ -33513,6 +33885,7 @@ window.GRAPH_DATA = {
    "source": "jack-dongarra",
    "target": "riley-murray",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -33527,6 +33900,7 @@ window.GRAPH_DATA = {
    "source": "jack-dongarra",
    "target": "sivan-toledo",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -33541,6 +33915,7 @@ window.GRAPH_DATA = {
    "source": "jack-dongarra",
    "target": "theo-mary",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0
    },
@@ -33556,6 +33931,7 @@ window.GRAPH_DATA = {
    "source": "jack-dongarra",
    "target": "xiaoye-sherry-li",
    "factors": {
+    "genetic": 0,
     "coauthor": 4,
     "advising": 0
    },
@@ -33573,6 +33949,7 @@ window.GRAPH_DATA = {
    "source": "jack-dongarra",
    "target": "zhaojun-bai",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0
    },
@@ -33588,6 +33965,7 @@ window.GRAPH_DATA = {
    "source": "jackie-lok",
    "target": "jamie-haddock",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -33602,6 +33980,7 @@ window.GRAPH_DATA = {
    "source": "james-baglama",
    "target": "lothar-reichel",
    "factors": {
+    "genetic": 0,
     "coauthor": 13,
     "advising": 0
    },
@@ -33628,6 +34007,7 @@ window.GRAPH_DATA = {
    "source": "james-baglama",
    "target": "vasilije-perovic",
    "factors": {
+    "genetic": 0,
     "coauthor": 3,
     "advising": 0
    },
@@ -33644,6 +34024,7 @@ window.GRAPH_DATA = {
    "source": "james-demmel",
    "target": "julien-langou",
    "factors": {
+    "genetic": 0,
     "coauthor": 5,
     "advising": 0
    },
@@ -33662,6 +34043,7 @@ window.GRAPH_DATA = {
    "source": "james-demmel",
    "target": "laura-grigori",
    "factors": {
+    "genetic": 0,
     "coauthor": 20,
     "advising": 0
    },
@@ -33695,6 +34077,7 @@ window.GRAPH_DATA = {
    "source": "james-demmel",
    "target": "michael-mahoney",
    "factors": {
+    "genetic": 0,
     "coauthor": 9,
     "advising": 0
    },
@@ -33717,6 +34100,7 @@ window.GRAPH_DATA = {
    "source": "james-demmel",
    "target": "michal-derezinski",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0
    },
@@ -33732,6 +34116,7 @@ window.GRAPH_DATA = {
    "source": "james-demmel",
    "target": "miles-lopes",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -33746,6 +34131,7 @@ window.GRAPH_DATA = {
    "source": "james-demmel",
    "target": "ming-gu",
    "factors": {
+    "genetic": 0,
     "coauthor": 7,
     "advising": 0
    },
@@ -33766,6 +34152,7 @@ window.GRAPH_DATA = {
    "source": "james-demmel",
    "target": "nicholas-higham",
    "factors": {
+    "genetic": 0,
     "coauthor": 3,
     "advising": 0
    },
@@ -33782,6 +34169,7 @@ window.GRAPH_DATA = {
    "source": "james-demmel",
    "target": "olga-holtz",
    "factors": {
+    "genetic": 0,
     "coauthor": 18,
     "advising": 0
    },
@@ -33813,6 +34201,7 @@ window.GRAPH_DATA = {
    "source": "james-demmel",
    "target": "osman-asif-malik",
    "factors": {
+    "genetic": 0,
     "coauthor": 3,
     "advising": 0
    },
@@ -33829,6 +34218,7 @@ window.GRAPH_DATA = {
    "source": "james-demmel",
    "target": "piotr-luszczek",
    "factors": {
+    "genetic": 0,
     "coauthor": 5,
     "advising": 0
    },
@@ -33847,6 +34237,7 @@ window.GRAPH_DATA = {
    "source": "james-demmel",
    "target": "riley-murray",
    "factors": {
+    "genetic": 0,
     "coauthor": 9,
     "advising": 0.7
    },
@@ -33875,6 +34266,7 @@ window.GRAPH_DATA = {
    "source": "james-demmel",
    "target": "ryan-schneider",
    "factors": {
+    "genetic": 0,
     "coauthor": 5,
     "advising": 0.7
    },
@@ -33899,6 +34291,7 @@ window.GRAPH_DATA = {
    "source": "james-demmel",
    "target": "sivan-toledo",
    "factors": {
+    "genetic": 0,
     "coauthor": 6,
     "advising": 0
    },
@@ -33918,6 +34311,7 @@ window.GRAPH_DATA = {
    "source": "james-demmel",
    "target": "xiaoye-sherry-li",
    "factors": {
+    "genetic": 0,
     "coauthor": 26,
     "advising": 1.0
    },
@@ -33963,6 +34357,7 @@ window.GRAPH_DATA = {
    "source": "james-demmel",
    "target": "yousef-saad",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -33977,6 +34372,7 @@ window.GRAPH_DATA = {
    "source": "james-demmel",
    "target": "zhaojun-bai",
    "factors": {
+    "genetic": 0,
     "coauthor": 12,
     "advising": 0
    },
@@ -34002,6 +34398,7 @@ window.GRAPH_DATA = {
    "source": "james-nagy",
    "target": "julianne-chung",
    "factors": {
+    "genetic": 0,
     "coauthor": 7,
     "advising": 0
    },
@@ -34022,6 +34419,7 @@ window.GRAPH_DATA = {
    "source": "james-nagy",
    "target": "lucas-onisk",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0
    },
@@ -34037,6 +34435,7 @@ window.GRAPH_DATA = {
    "source": "james-nagy",
    "target": "malena-sabate-landman",
    "factors": {
+    "genetic": 0,
     "coauthor": 5,
     "advising": 0
    },
@@ -34055,6 +34454,7 @@ window.GRAPH_DATA = {
    "source": "james-nagy",
    "target": "mirjeta-pasha",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -34069,6 +34469,7 @@ window.GRAPH_DATA = {
    "source": "james-nagy",
    "target": "misha-kilmer",
    "factors": {
+    "genetic": 0,
     "coauthor": 4,
     "advising": 0
    },
@@ -34086,6 +34487,7 @@ window.GRAPH_DATA = {
    "source": "james-nagy",
    "target": "silvia-gazzola",
    "factors": {
+    "genetic": 0,
     "coauthor": 5,
     "advising": 0
    },
@@ -34104,6 +34506,7 @@ window.GRAPH_DATA = {
    "source": "jelani-nelson",
    "target": "michael-kapralov",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -34118,6 +34521,7 @@ window.GRAPH_DATA = {
    "source": "jelani-nelson",
    "target": "miles-lopes",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -34132,6 +34536,7 @@ window.GRAPH_DATA = {
    "source": "jelani-nelson",
    "target": "per-gunnar-martinsson",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -34146,6 +34551,7 @@ window.GRAPH_DATA = {
    "source": "jelani-nelson",
    "target": "rasmus-kyng",
    "factors": {
+    "genetic": 0,
     "coauthor": 0,
     "advising": 0.7
    },
@@ -34164,6 +34570,7 @@ window.GRAPH_DATA = {
    "source": "jelani-nelson",
    "target": "samson-zhou",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0
    },
@@ -34179,6 +34586,7 @@ window.GRAPH_DATA = {
    "source": "jelani-nelson",
    "target": "tamas-sarlos",
    "factors": {
+    "genetic": 0,
     "coauthor": 8,
     "advising": 0
    },
@@ -34200,6 +34608,7 @@ window.GRAPH_DATA = {
    "source": "jessie-chen",
    "target": "miles-lopes",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -34214,6 +34623,7 @@ window.GRAPH_DATA = {
    "source": "joel-tropp",
    "target": "jorge-garza-vargas",
    "factors": {
+    "genetic": 0,
     "coauthor": 0,
     "advising": 0.7
    },
@@ -34232,6 +34642,7 @@ window.GRAPH_DATA = {
    "source": "joel-tropp",
    "target": "madeleine-udell",
    "factors": {
+    "genetic": 0,
     "coauthor": 10,
     "advising": 0
    },
@@ -34255,6 +34666,7 @@ window.GRAPH_DATA = {
    "source": "joel-tropp",
    "target": "nathan-halko",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -34269,6 +34681,7 @@ window.GRAPH_DATA = {
    "source": "joel-tropp",
    "target": "per-gunnar-martinsson",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0
    },
@@ -34284,6 +34697,7 @@ window.GRAPH_DATA = {
    "source": "joel-tropp",
    "target": "rachel-ward",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0
    },
@@ -34299,6 +34713,7 @@ window.GRAPH_DATA = {
    "source": "joel-tropp",
    "target": "raphael-meyer",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0.7
    },
@@ -34320,6 +34735,7 @@ window.GRAPH_DATA = {
    "source": "joel-tropp",
    "target": "robert-webber",
    "factors": {
+    "genetic": 0,
     "coauthor": 5,
     "advising": 0.7
    },
@@ -34344,6 +34760,7 @@ window.GRAPH_DATA = {
    "source": "joel-tropp",
    "target": "yuji-nakatsukasa",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -34358,6 +34775,7 @@ window.GRAPH_DATA = {
    "source": "john-urschel",
    "target": "rikhav-shah",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0
    },
@@ -34373,6 +34791,7 @@ window.GRAPH_DATA = {
    "source": "jorg-liesen",
    "target": "zdenek-strakos",
    "factors": {
+    "genetic": 0,
     "coauthor": 11,
     "advising": 0
    },
@@ -34397,6 +34816,7 @@ window.GRAPH_DATA = {
    "source": "jorge-garza-vargas",
    "target": "nikhil-srivastava",
    "factors": {
+    "genetic": 0,
     "coauthor": 7,
     "advising": 1.0
    },
@@ -34423,6 +34843,7 @@ window.GRAPH_DATA = {
    "source": "julianne-chung",
    "target": "lucas-onisk",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -34437,6 +34858,7 @@ window.GRAPH_DATA = {
    "source": "julianne-chung",
    "target": "malena-espanol",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0
    },
@@ -34452,6 +34874,7 @@ window.GRAPH_DATA = {
    "source": "julianne-chung",
    "target": "malena-sabate-landman",
    "factors": {
+    "genetic": 0,
     "coauthor": 6,
     "advising": 0
    },
@@ -34471,6 +34894,7 @@ window.GRAPH_DATA = {
    "source": "julianne-chung",
    "target": "matthias-chung",
    "factors": {
+    "genetic": 0,
     "coauthor": 23,
     "advising": 0
    },
@@ -34507,6 +34931,7 @@ window.GRAPH_DATA = {
    "source": "julianne-chung",
    "target": "mirjeta-pasha",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -34521,6 +34946,7 @@ window.GRAPH_DATA = {
    "source": "julianne-chung",
    "target": "misha-kilmer",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -34535,6 +34961,7 @@ window.GRAPH_DATA = {
    "source": "julianne-chung",
    "target": "silvia-gazzola",
    "factors": {
+    "genetic": 0,
     "coauthor": 5,
     "advising": 0
    },
@@ -34553,6 +34980,7 @@ window.GRAPH_DATA = {
    "source": "julien-langou",
    "target": "laura-grigori",
    "factors": {
+    "genetic": 0,
     "coauthor": 3,
     "advising": 0
    },
@@ -34569,6 +34997,7 @@ window.GRAPH_DATA = {
    "source": "julien-langou",
    "target": "ming-gu",
    "factors": {
+    "genetic": 0,
     "coauthor": 3,
     "advising": 0
    },
@@ -34585,6 +35014,7 @@ window.GRAPH_DATA = {
    "source": "julien-langou",
    "target": "piotr-luszczek",
    "factors": {
+    "genetic": 0,
     "coauthor": 8,
     "advising": 0
    },
@@ -34606,6 +35036,7 @@ window.GRAPH_DATA = {
    "source": "julien-langou",
    "target": "vivak-patel",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -34620,6 +35051,7 @@ window.GRAPH_DATA = {
    "source": "julien-langou",
    "target": "xiaoye-sherry-li",
    "factors": {
+    "genetic": 0,
     "coauthor": 3,
     "advising": 0
    },
@@ -34636,6 +35068,7 @@ window.GRAPH_DATA = {
    "source": "jung-eun-huh",
    "target": "yuji-nakatsukasa",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -34650,6 +35083,7 @@ window.GRAPH_DATA = {
    "source": "katherine-pearce",
    "target": "laura-grigori",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -34664,6 +35098,7 @@ window.GRAPH_DATA = {
    "source": "katherine-pearce",
    "target": "per-gunnar-martinsson",
    "factors": {
+    "genetic": 0,
     "coauthor": 4,
     "advising": 0.7
    },
@@ -34687,6 +35122,7 @@ window.GRAPH_DATA = {
    "source": "katherine-pearce",
    "target": "rudi-smith",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -34701,6 +35137,7 @@ window.GRAPH_DATA = {
    "source": "katherine-pearce",
    "target": "yijun-dong",
    "factors": {
+    "genetic": 0,
     "coauthor": 3,
     "advising": 0
    },
@@ -34717,6 +35154,7 @@ window.GRAPH_DATA = {
    "source": "kenneth-clarkson",
    "target": "lior-horesh",
    "factors": {
+    "genetic": 0,
     "coauthor": 11,
     "advising": 0
    },
@@ -34741,6 +35179,7 @@ window.GRAPH_DATA = {
    "source": "kenneth-clarkson",
    "target": "malik-magdon-ismail",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -34755,6 +35194,7 @@ window.GRAPH_DATA = {
    "source": "kenneth-clarkson",
    "target": "michael-mahoney",
    "factors": {
+    "genetic": 0,
     "coauthor": 3,
     "advising": 0
    },
@@ -34771,6 +35211,7 @@ window.GRAPH_DATA = {
    "source": "kenneth-clarkson",
    "target": "michal-derezinski",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -34785,6 +35226,7 @@ window.GRAPH_DATA = {
    "source": "kenneth-clarkson",
    "target": "misha-kilmer",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -34799,6 +35241,7 @@ window.GRAPH_DATA = {
    "source": "kenneth-clarkson",
    "target": "petros-drineas",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0
    },
@@ -34814,6 +35257,7 @@ window.GRAPH_DATA = {
    "source": "kenneth-clarkson",
    "target": "shashanka-ubaru",
    "factors": {
+    "genetic": 0,
     "coauthor": 9,
     "advising": 0
    },
@@ -34836,6 +35280,7 @@ window.GRAPH_DATA = {
    "source": "kenneth-clarkson",
    "target": "vasileios-kalantzis",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -34850,6 +35295,7 @@ window.GRAPH_DATA = {
    "source": "laura-grigori",
    "target": "lorenzo-piccinini",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -34864,6 +35310,7 @@ window.GRAPH_DATA = {
    "source": "laura-grigori",
    "target": "mariana-martinez-aguilar",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -34878,6 +35325,7 @@ window.GRAPH_DATA = {
    "source": "laura-grigori",
    "target": "michael-mahoney",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0
    },
@@ -34893,6 +35341,7 @@ window.GRAPH_DATA = {
    "source": "laura-grigori",
    "target": "michal-derezinski",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -34907,6 +35356,7 @@ window.GRAPH_DATA = {
    "source": "laura-grigori",
    "target": "miles-lopes",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -34921,6 +35371,7 @@ window.GRAPH_DATA = {
    "source": "laura-grigori",
    "target": "ming-gu",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0
    },
@@ -34936,6 +35387,7 @@ window.GRAPH_DATA = {
    "source": "laura-grigori",
    "target": "osman-asif-malik",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0
    },
@@ -34951,6 +35403,7 @@ window.GRAPH_DATA = {
    "source": "laura-grigori",
    "target": "piotr-luszczek",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -34965,6 +35418,7 @@ window.GRAPH_DATA = {
    "source": "laura-grigori",
    "target": "riley-murray",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0
    },
@@ -34980,6 +35434,7 @@ window.GRAPH_DATA = {
    "source": "laura-grigori",
    "target": "rudi-smith",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -34994,6 +35449,7 @@ window.GRAPH_DATA = {
    "source": "laura-grigori",
    "target": "sivan-toledo",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0
    },
@@ -35009,6 +35465,7 @@ window.GRAPH_DATA = {
    "source": "laura-grigori",
    "target": "xiaoye-sherry-li",
    "factors": {
+    "genetic": 0,
     "coauthor": 5,
     "advising": 0
    },
@@ -35027,6 +35484,7 @@ window.GRAPH_DATA = {
    "source": "laura-grigori",
    "target": "yijun-dong",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -35041,6 +35499,7 @@ window.GRAPH_DATA = {
    "source": "laura-grigori",
    "target": "zhipeng-xue",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -35055,6 +35514,7 @@ window.GRAPH_DATA = {
    "source": "leonardo-robol",
    "target": "silvia-gazzola",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -35069,6 +35529,7 @@ window.GRAPH_DATA = {
    "source": "leonardo-robol",
    "target": "stefano-massei",
    "factors": {
+    "genetic": 0,
     "coauthor": 10,
     "advising": 0
    },
@@ -35092,6 +35553,7 @@ window.GRAPH_DATA = {
    "source": "lexing-ying",
    "target": "lin-lin",
    "factors": {
+    "genetic": 0,
     "coauthor": 17,
     "advising": 0
    },
@@ -35122,6 +35584,7 @@ window.GRAPH_DATA = {
    "source": "lin-lin",
    "target": "yousef-saad",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -35136,6 +35599,7 @@ window.GRAPH_DATA = {
    "source": "lin-lin",
    "target": "yuji-nakatsukasa",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -35150,6 +35614,7 @@ window.GRAPH_DATA = {
    "source": "linkai-ma",
    "target": "petros-drineas",
    "factors": {
+    "genetic": 0,
     "coauthor": 3,
     "advising": 0
    },
@@ -35166,6 +35631,7 @@ window.GRAPH_DATA = {
    "source": "lior-horesh",
    "target": "malik-magdon-ismail",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -35180,6 +35646,7 @@ window.GRAPH_DATA = {
    "source": "lior-horesh",
    "target": "misha-kilmer",
    "factors": {
+    "genetic": 0,
     "coauthor": 9,
     "advising": 0
    },
@@ -35202,6 +35669,7 @@ window.GRAPH_DATA = {
    "source": "lior-horesh",
    "target": "osman-asif-malik",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0
    },
@@ -35217,6 +35685,7 @@ window.GRAPH_DATA = {
    "source": "lior-horesh",
    "target": "shashanka-ubaru",
    "factors": {
+    "genetic": 0,
     "coauthor": 27,
     "advising": 0
    },
@@ -35257,6 +35726,7 @@ window.GRAPH_DATA = {
    "source": "lior-horesh",
    "target": "vasileios-kalantzis",
    "factors": {
+    "genetic": 0,
     "coauthor": 11,
     "advising": 0
    },
@@ -35281,6 +35751,7 @@ window.GRAPH_DATA = {
    "source": "lior-horesh",
    "target": "yousef-saad",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -35295,6 +35766,7 @@ window.GRAPH_DATA = {
    "source": "lloyd-trefethen",
    "target": "lothar-reichel",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -35309,6 +35781,7 @@ window.GRAPH_DATA = {
    "source": "lloyd-trefethen",
    "target": "mark-embree",
    "factors": {
+    "genetic": 0,
     "coauthor": 6,
     "advising": 1.0
    },
@@ -35334,6 +35807,7 @@ window.GRAPH_DATA = {
    "source": "lloyd-trefethen",
    "target": "nicholas-higham",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -35348,6 +35822,7 @@ window.GRAPH_DATA = {
    "source": "lloyd-trefethen",
    "target": "yuji-nakatsukasa",
    "factors": {
+    "genetic": 0,
     "coauthor": 10,
     "advising": 0
    },
@@ -35371,6 +35846,7 @@ window.GRAPH_DATA = {
    "source": "lorenzo-piccinini",
    "target": "valeria-simoncini",
    "factors": {
+    "genetic": 0,
     "coauthor": 3,
     "advising": 0
    },
@@ -35387,6 +35863,7 @@ window.GRAPH_DATA = {
    "source": "lothar-reichel",
    "target": "lucas-onisk",
    "factors": {
+    "genetic": 0,
     "coauthor": 6,
     "advising": 1.0
    },
@@ -35412,6 +35889,7 @@ window.GRAPH_DATA = {
    "source": "lothar-reichel",
    "target": "mirjeta-pasha",
    "factors": {
+    "genetic": 0,
     "coauthor": 4,
     "advising": 1.0
    },
@@ -35435,6 +35913,7 @@ window.GRAPH_DATA = {
    "source": "lothar-reichel",
    "target": "omar-de-la-cruz-cabrera",
    "factors": {
+    "genetic": 0,
     "coauthor": 12,
     "advising": 0
    },
@@ -35460,6 +35939,7 @@ window.GRAPH_DATA = {
    "source": "lothar-reichel",
    "target": "silvia-gazzola",
    "factors": {
+    "genetic": 0,
     "coauthor": 5,
     "advising": 0
    },
@@ -35478,6 +35958,7 @@ window.GRAPH_DATA = {
    "source": "lothar-reichel",
    "target": "yousef-saad",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -35492,6 +35973,7 @@ window.GRAPH_DATA = {
    "source": "lothar-reichel",
    "target": "zhaojun-bai",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -35506,6 +35988,7 @@ window.GRAPH_DATA = {
    "source": "lucas-onisk",
    "target": "malena-sabate-landman",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -35520,6 +36003,7 @@ window.GRAPH_DATA = {
    "source": "lucas-onisk",
    "target": "mirjeta-pasha",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -35534,6 +36018,7 @@ window.GRAPH_DATA = {
    "source": "lucas-onisk",
    "target": "silvia-gazzola",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -35548,6 +36033,7 @@ window.GRAPH_DATA = {
    "source": "madeleine-udell",
    "target": "michal-derezinski",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -35562,6 +36048,7 @@ window.GRAPH_DATA = {
    "source": "malena-espanol",
    "target": "mirjeta-pasha",
    "factors": {
+    "genetic": 0,
     "coauthor": 6,
     "advising": 0
    },
@@ -35581,6 +36068,7 @@ window.GRAPH_DATA = {
    "source": "malena-espanol",
    "target": "misha-kilmer",
    "factors": {
+    "genetic": 0,
     "coauthor": 4,
     "advising": 1.0
    },
@@ -35604,6 +36092,7 @@ window.GRAPH_DATA = {
    "source": "malena-espanol",
    "target": "silvia-gazzola",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0
    },
@@ -35619,6 +36108,7 @@ window.GRAPH_DATA = {
    "source": "malena-sabate-landman",
    "target": "mirjeta-pasha",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -35633,6 +36123,7 @@ window.GRAPH_DATA = {
    "source": "malena-sabate-landman",
    "target": "silvia-gazzola",
    "factors": {
+    "genetic": 0,
     "coauthor": 6,
     "advising": 0
    },
@@ -35652,6 +36143,7 @@ window.GRAPH_DATA = {
    "source": "malena-sabate-landman",
    "target": "yuji-nakatsukasa",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0
    },
@@ -35667,6 +36159,7 @@ window.GRAPH_DATA = {
    "source": "malik-magdon-ismail",
    "target": "michael-mahoney",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -35681,6 +36174,7 @@ window.GRAPH_DATA = {
    "source": "malik-magdon-ismail",
    "target": "petros-drineas",
    "factors": {
+    "genetic": 0,
     "coauthor": 15,
     "advising": 0
    },
@@ -35709,6 +36203,7 @@ window.GRAPH_DATA = {
    "source": "mark-tygert",
    "target": "nathan-halko",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -35723,6 +36218,7 @@ window.GRAPH_DATA = {
    "source": "mark-tygert",
    "target": "per-gunnar-martinsson",
    "factors": {
+    "genetic": 0,
     "coauthor": 4,
     "advising": 0
    },
@@ -35740,6 +36236,7 @@ window.GRAPH_DATA = {
    "source": "mark-tygert",
    "target": "rachel-ward",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0
    },
@@ -35755,6 +36252,7 @@ window.GRAPH_DATA = {
    "source": "mark-tygert",
    "target": "vladimir-rokhlin",
    "factors": {
+    "genetic": 0,
     "coauthor": 9,
     "advising": 1.0
    },
@@ -35783,6 +36281,7 @@ window.GRAPH_DATA = {
    "source": "matthias-chung",
    "target": "mirjeta-pasha",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -35797,6 +36296,7 @@ window.GRAPH_DATA = {
    "source": "matthias-chung",
    "target": "silvia-gazzola",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -35811,6 +36311,7 @@ window.GRAPH_DATA = {
    "source": "matthias-chung",
    "target": "vishwas-rao",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -35825,6 +36326,7 @@ window.GRAPH_DATA = {
    "source": "mert-pilanci",
    "target": "michael-mahoney",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0
    },
@@ -35840,6 +36342,7 @@ window.GRAPH_DATA = {
    "source": "mert-pilanci",
    "target": "michal-derezinski",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0
    },
@@ -35855,6 +36358,7 @@ window.GRAPH_DATA = {
    "source": "michael-kapralov",
    "target": "yin-tat-lee",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -35869,6 +36373,7 @@ window.GRAPH_DATA = {
    "source": "michael-mahoney",
    "target": "michael-saunders",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0
    },
@@ -35884,6 +36389,7 @@ window.GRAPH_DATA = {
    "source": "michael-mahoney",
    "target": "michal-derezinski",
    "factors": {
+    "genetic": 0,
     "coauthor": 18,
     "advising": 0.7
    },
@@ -35921,6 +36427,7 @@ window.GRAPH_DATA = {
    "source": "michael-mahoney",
    "target": "miles-lopes",
    "factors": {
+    "genetic": 0,
     "coauthor": 5,
     "advising": 0
    },
@@ -35939,6 +36446,7 @@ window.GRAPH_DATA = {
    "source": "michael-mahoney",
    "target": "ming-gu",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -35953,6 +36461,7 @@ window.GRAPH_DATA = {
    "source": "michael-mahoney",
    "target": "osman-asif-malik",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0
    },
@@ -35968,6 +36477,7 @@ window.GRAPH_DATA = {
    "source": "michael-mahoney",
    "target": "peng-zhang",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -35982,6 +36492,7 @@ window.GRAPH_DATA = {
    "source": "michael-mahoney",
    "target": "peter-richtarik",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -35996,6 +36507,7 @@ window.GRAPH_DATA = {
    "source": "michael-mahoney",
    "target": "petros-drineas",
    "factors": {
+    "genetic": 0,
     "coauthor": 30,
     "advising": 0
    },
@@ -36039,6 +36551,7 @@ window.GRAPH_DATA = {
    "source": "michael-mahoney",
    "target": "piotr-luszczek",
    "factors": {
+    "genetic": 0,
     "coauthor": 3,
     "advising": 0
    },
@@ -36055,6 +36568,7 @@ window.GRAPH_DATA = {
    "source": "michael-mahoney",
    "target": "raphael-meyer",
    "factors": {
+    "genetic": 0,
     "coauthor": 0,
     "advising": 0.7
    },
@@ -36073,6 +36587,7 @@ window.GRAPH_DATA = {
    "source": "michael-mahoney",
    "target": "ravindran-kannan",
    "factors": {
+    "genetic": 0,
     "coauthor": 6,
     "advising": 0
    },
@@ -36092,6 +36607,7 @@ window.GRAPH_DATA = {
    "source": "michael-mahoney",
    "target": "riley-murray",
    "factors": {
+    "genetic": 0,
     "coauthor": 4,
     "advising": 0.7
    },
@@ -36115,6 +36631,7 @@ window.GRAPH_DATA = {
    "source": "michael-mahoney",
    "target": "shashanka-ubaru",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -36129,6 +36646,7 @@ window.GRAPH_DATA = {
    "source": "michael-mahoney",
    "target": "tamas-sarlos",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -36143,6 +36661,7 @@ window.GRAPH_DATA = {
    "source": "michael-mahoney",
    "target": "xiaoye-sherry-li",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0
    },
@@ -36158,6 +36677,7 @@ window.GRAPH_DATA = {
    "source": "michal-derezinski",
    "target": "miles-lopes",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -36172,6 +36692,7 @@ window.GRAPH_DATA = {
    "source": "michal-derezinski",
    "target": "osman-asif-malik",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -36186,6 +36707,7 @@ window.GRAPH_DATA = {
    "source": "michal-derezinski",
    "target": "piotr-luszczek",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -36200,6 +36722,7 @@ window.GRAPH_DATA = {
    "source": "michal-derezinski",
    "target": "raphael-meyer",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -36214,6 +36737,7 @@ window.GRAPH_DATA = {
    "source": "michal-derezinski",
    "target": "riley-murray",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0
    },
@@ -36229,6 +36753,7 @@ window.GRAPH_DATA = {
    "source": "michal-derezinski",
    "target": "yuji-nakatsukasa",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -36243,6 +36768,7 @@ window.GRAPH_DATA = {
    "source": "michele-benzi",
    "target": "misha-kilmer",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -36257,6 +36783,7 @@ window.GRAPH_DATA = {
    "source": "michele-benzi",
    "target": "valeria-simoncini",
    "factors": {
+    "genetic": 0,
     "coauthor": 5,
     "advising": 0
    },
@@ -36275,6 +36802,7 @@ window.GRAPH_DATA = {
    "source": "miles-lopes",
    "target": "osman-asif-malik",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -36289,6 +36817,7 @@ window.GRAPH_DATA = {
    "source": "miles-lopes",
    "target": "per-gunnar-martinsson",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -36303,6 +36832,7 @@ window.GRAPH_DATA = {
    "source": "miles-lopes",
    "target": "piotr-luszczek",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -36317,6 +36847,7 @@ window.GRAPH_DATA = {
    "source": "miles-lopes",
    "target": "riley-murray",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -36331,6 +36862,7 @@ window.GRAPH_DATA = {
    "source": "ming-gu",
    "target": "vladimir-rokhlin",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -36345,6 +36877,7 @@ window.GRAPH_DATA = {
    "source": "ming-gu",
    "target": "xiaoye-sherry-li",
    "factors": {
+    "genetic": 0,
     "coauthor": 5,
     "advising": 0
    },
@@ -36363,6 +36896,7 @@ window.GRAPH_DATA = {
    "source": "ming-gu",
    "target": "yousef-saad",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -36377,6 +36911,7 @@ window.GRAPH_DATA = {
    "source": "ming-gu",
    "target": "zhaojun-bai",
    "factors": {
+    "genetic": 0,
     "coauthor": 4,
     "advising": 0
    },
@@ -36394,6 +36929,7 @@ window.GRAPH_DATA = {
    "source": "mirjeta-pasha",
    "target": "misha-kilmer",
    "factors": {
+    "genetic": 0,
     "coauthor": 5,
     "advising": 0.7
    },
@@ -36418,6 +36954,7 @@ window.GRAPH_DATA = {
    "source": "mirjeta-pasha",
    "target": "paul-cazeaux",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -36432,6 +36969,7 @@ window.GRAPH_DATA = {
    "source": "mirjeta-pasha",
    "target": "rudi-smith",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0
    },
@@ -36447,6 +36985,7 @@ window.GRAPH_DATA = {
    "source": "mirjeta-pasha",
    "target": "silvia-gazzola",
    "factors": {
+    "genetic": 0,
     "coauthor": 5,
     "advising": 0
    },
@@ -36465,6 +37004,7 @@ window.GRAPH_DATA = {
    "source": "misha-kilmer",
    "target": "osman-asif-malik",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0
    },
@@ -36480,6 +37020,7 @@ window.GRAPH_DATA = {
    "source": "misha-kilmer",
    "target": "shashanka-ubaru",
    "factors": {
+    "genetic": 0,
     "coauthor": 3,
     "advising": 0
    },
@@ -36496,6 +37037,7 @@ window.GRAPH_DATA = {
    "source": "misha-kilmer",
    "target": "silvia-gazzola",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0
    },
@@ -36511,6 +37053,7 @@ window.GRAPH_DATA = {
    "source": "misha-kilmer",
    "target": "vasileios-kalantzis",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -36525,6 +37068,7 @@ window.GRAPH_DATA = {
    "source": "mitchell-scott",
    "target": "yousef-saad",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0
    },
@@ -36540,6 +37084,7 @@ window.GRAPH_DATA = {
    "source": "nathan-halko",
    "target": "per-gunnar-martinsson",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 1.0
    },
@@ -36561,6 +37106,7 @@ window.GRAPH_DATA = {
    "source": "nathan-halko",
    "target": "vladimir-rokhlin",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -36575,6 +37121,7 @@ window.GRAPH_DATA = {
    "source": "nicholas-higham",
    "target": "piotr-luszczek",
    "factors": {
+    "genetic": 0,
     "coauthor": 3,
     "advising": 0
    },
@@ -36591,6 +37138,7 @@ window.GRAPH_DATA = {
    "source": "nicholas-higham",
    "target": "theo-mary",
    "factors": {
+    "genetic": 0,
     "coauthor": 10,
     "advising": 0.7
    },
@@ -36620,6 +37168,7 @@ window.GRAPH_DATA = {
    "source": "nicholas-higham",
    "target": "xiaoye-sherry-li",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0
    },
@@ -36635,6 +37184,7 @@ window.GRAPH_DATA = {
    "source": "nicholas-higham",
    "target": "yuji-nakatsukasa",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0
    },
@@ -36650,6 +37200,7 @@ window.GRAPH_DATA = {
    "source": "nicolas-boulle",
    "target": "yuji-nakatsukasa",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0
    },
@@ -36665,6 +37216,7 @@ window.GRAPH_DATA = {
    "source": "nikhil-srivastava",
    "target": "rachel-ward",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0
    },
@@ -36680,6 +37232,7 @@ window.GRAPH_DATA = {
    "source": "nikhil-srivastava",
    "target": "ravindran-kannan",
    "factors": {
+    "genetic": 0,
     "coauthor": 3,
     "advising": 0
    },
@@ -36696,6 +37249,7 @@ window.GRAPH_DATA = {
    "source": "nikhil-srivastava",
    "target": "rikhav-shah",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 1.0
    },
@@ -36717,6 +37271,7 @@ window.GRAPH_DATA = {
    "source": "nikhil-srivastava",
    "target": "yin-tat-lee",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0
    },
@@ -36732,6 +37287,7 @@ window.GRAPH_DATA = {
    "source": "noah-amsel",
    "target": "robert-gower",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -36746,6 +37302,7 @@ window.GRAPH_DATA = {
    "source": "noah-amsel",
    "target": "tyler-chen",
    "factors": {
+    "genetic": 0,
     "coauthor": 5,
     "advising": 0
    },
@@ -36764,6 +37321,7 @@ window.GRAPH_DATA = {
    "source": "osman-asif-malik",
    "target": "piotr-luszczek",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -36778,6 +37336,7 @@ window.GRAPH_DATA = {
    "source": "osman-asif-malik",
    "target": "riley-murray",
    "factors": {
+    "genetic": 0,
     "coauthor": 4,
     "advising": 0
    },
@@ -36795,6 +37354,7 @@ window.GRAPH_DATA = {
    "source": "osman-asif-malik",
    "target": "shashanka-ubaru",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0
    },
@@ -36810,6 +37370,7 @@ window.GRAPH_DATA = {
    "source": "osman-asif-malik",
    "target": "xiaoye-sherry-li",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -36824,6 +37385,7 @@ window.GRAPH_DATA = {
    "source": "peng-zhang",
    "target": "rasmus-kyng",
    "factors": {
+    "genetic": 0,
     "coauthor": 5,
     "advising": 0
    },
@@ -36842,6 +37404,7 @@ window.GRAPH_DATA = {
    "source": "peng-zhang",
    "target": "richard-peng",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 1.0
    },
@@ -36862,6 +37425,7 @@ window.GRAPH_DATA = {
    "source": "per-gunnar-martinsson",
    "target": "taejun-park",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -36876,6 +37440,7 @@ window.GRAPH_DATA = {
    "source": "per-gunnar-martinsson",
    "target": "vladimir-rokhlin",
    "factors": {
+    "genetic": 0,
     "coauthor": 8,
     "advising": 0.7
    },
@@ -36903,6 +37468,7 @@ window.GRAPH_DATA = {
    "source": "per-gunnar-martinsson",
    "target": "yijun-dong",
    "factors": {
+    "genetic": 0,
     "coauthor": 5,
     "advising": 1.0
    },
@@ -36927,6 +37493,7 @@ window.GRAPH_DATA = {
    "source": "per-gunnar-martinsson",
    "target": "yuji-nakatsukasa",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0
    },
@@ -36942,6 +37509,7 @@ window.GRAPH_DATA = {
    "source": "peter-richtarik",
    "target": "robert-gower",
    "factors": {
+    "genetic": 0,
     "coauthor": 12,
     "advising": 1.0
    },
@@ -36973,6 +37541,7 @@ window.GRAPH_DATA = {
    "source": "petros-drineas",
    "target": "ravindran-kannan",
    "factors": {
+    "genetic": 0,
     "coauthor": 8,
     "advising": 1.0
    },
@@ -37000,6 +37569,7 @@ window.GRAPH_DATA = {
    "source": "petros-drineas",
    "target": "santosh-vempala",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0
    },
@@ -37015,6 +37585,7 @@ window.GRAPH_DATA = {
    "source": "petros-drineas",
    "target": "tamas-sarlos",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -37029,6 +37600,7 @@ window.GRAPH_DATA = {
    "source": "piotr-luszczek",
    "target": "riley-murray",
    "factors": {
+    "genetic": 0,
     "coauthor": 4,
     "advising": 0
    },
@@ -37046,6 +37618,7 @@ window.GRAPH_DATA = {
    "source": "piotr-luszczek",
    "target": "theo-mary",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -37060,6 +37633,7 @@ window.GRAPH_DATA = {
    "source": "piotr-luszczek",
    "target": "xiaoye-sherry-li",
    "factors": {
+    "genetic": 0,
     "coauthor": 4,
     "advising": 0
    },
@@ -37077,6 +37651,7 @@ window.GRAPH_DATA = {
    "source": "praneeth-kacham",
    "target": "ravindran-kannan",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -37091,6 +37666,7 @@ window.GRAPH_DATA = {
    "source": "praneeth-kacham",
    "target": "samson-zhou",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -37105,6 +37681,7 @@ window.GRAPH_DATA = {
    "source": "rachel-ward",
    "target": "ruhui-jin",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 1.0
    },
@@ -37126,6 +37703,7 @@ window.GRAPH_DATA = {
    "source": "rachel-ward",
    "target": "tyler-chen",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -37140,6 +37718,7 @@ window.GRAPH_DATA = {
    "source": "rachel-ward",
    "target": "yijun-dong",
    "factors": {
+    "genetic": 0,
     "coauthor": 4,
     "advising": 1.0
    },
@@ -37163,6 +37742,7 @@ window.GRAPH_DATA = {
    "source": "rachel-ward",
    "target": "yin-tat-lee",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -37177,6 +37757,7 @@ window.GRAPH_DATA = {
    "source": "raphael-meyer",
    "target": "tyler-chen",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -37191,6 +37772,7 @@ window.GRAPH_DATA = {
    "source": "rasmus-kyng",
    "target": "richard-peng",
    "factors": {
+    "genetic": 0,
     "coauthor": 13,
     "advising": 0
    },
@@ -37217,6 +37799,7 @@ window.GRAPH_DATA = {
    "source": "rasmus-kyng",
    "target": "sushant-sachdeva",
    "factors": {
+    "genetic": 0,
     "coauthor": 18,
     "advising": 0
    },
@@ -37248,6 +37831,7 @@ window.GRAPH_DATA = {
    "source": "ravindran-kannan",
    "target": "santosh-vempala",
    "factors": {
+    "genetic": 0,
     "coauthor": 18,
     "advising": 0
    },
@@ -37279,6 +37863,7 @@ window.GRAPH_DATA = {
    "source": "richard-peng",
    "target": "santosh-vempala",
    "factors": {
+    "genetic": 0,
     "coauthor": 3,
     "advising": 0
    },
@@ -37295,6 +37880,7 @@ window.GRAPH_DATA = {
    "source": "richard-peng",
    "target": "sushant-sachdeva",
    "factors": {
+    "genetic": 0,
     "coauthor": 13,
     "advising": 0
    },
@@ -37321,6 +37907,7 @@ window.GRAPH_DATA = {
    "source": "richard-peng",
    "target": "yin-tat-lee",
    "factors": {
+    "genetic": 0,
     "coauthor": 4,
     "advising": 0
    },
@@ -37338,6 +37925,7 @@ window.GRAPH_DATA = {
    "source": "riley-murray",
    "target": "xiaoye-sherry-li",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -37352,6 +37940,7 @@ window.GRAPH_DATA = {
    "source": "rudi-smith",
    "target": "yijun-dong",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -37366,6 +37955,7 @@ window.GRAPH_DATA = {
    "source": "santosh-vempala",
    "target": "yin-tat-lee",
    "factors": {
+    "genetic": 0,
     "coauthor": 15,
     "advising": 0
    },
@@ -37394,6 +37984,7 @@ window.GRAPH_DATA = {
    "source": "shashanka-ubaru",
    "target": "thomas-trogdon",
    "factors": {
+    "genetic": 0,
     "coauthor": 3,
     "advising": 0
    },
@@ -37410,6 +38001,7 @@ window.GRAPH_DATA = {
    "source": "shashanka-ubaru",
    "target": "tyler-chen",
    "factors": {
+    "genetic": 0,
     "coauthor": 3,
     "advising": 0
    },
@@ -37426,6 +38018,7 @@ window.GRAPH_DATA = {
    "source": "shashanka-ubaru",
    "target": "vasileios-kalantzis",
    "factors": {
+    "genetic": 0,
     "coauthor": 7,
     "advising": 0
    },
@@ -37446,6 +38039,7 @@ window.GRAPH_DATA = {
    "source": "shashanka-ubaru",
    "target": "yousef-saad",
    "factors": {
+    "genetic": 0,
     "coauthor": 12,
     "advising": 1.0
    },
@@ -37477,6 +38071,7 @@ window.GRAPH_DATA = {
    "source": "stefano-pozza",
    "target": "valeria-simoncini",
    "factors": {
+    "genetic": 0,
     "coauthor": 5,
     "advising": 0
    },
@@ -37495,6 +38090,7 @@ window.GRAPH_DATA = {
    "source": "stefano-pozza",
    "target": "zdenek-strakos",
    "factors": {
+    "genetic": 0,
     "coauthor": 3,
     "advising": 0.7
    },
@@ -37517,6 +38113,7 @@ window.GRAPH_DATA = {
    "source": "sushant-sachdeva",
    "target": "yin-tat-lee",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -37531,6 +38128,7 @@ window.GRAPH_DATA = {
    "source": "swati-padmanabhan",
    "target": "yin-tat-lee",
    "factors": {
+    "genetic": 0,
     "coauthor": 8,
     "advising": 0
    },
@@ -37552,6 +38150,7 @@ window.GRAPH_DATA = {
    "source": "taejun-park",
    "target": "yuji-nakatsukasa",
    "factors": {
+    "genetic": 0,
     "coauthor": 8,
     "advising": 1.0
    },
@@ -37579,6 +38178,7 @@ window.GRAPH_DATA = {
    "source": "theo-mary",
    "target": "xiaoye-sherry-li",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 0
    },
@@ -37594,6 +38194,7 @@ window.GRAPH_DATA = {
    "source": "thomas-trogdon",
    "target": "tyler-chen",
    "factors": {
+    "genetic": 0,
     "coauthor": 5,
     "advising": 1.0
    },
@@ -37618,6 +38219,7 @@ window.GRAPH_DATA = {
    "source": "vasileios-kalantzis",
    "target": "yousef-saad",
    "factors": {
+    "genetic": 0,
     "coauthor": 2,
     "advising": 1.0
    },
@@ -37639,6 +38241,7 @@ window.GRAPH_DATA = {
    "source": "vishwas-rao",
    "target": "vivak-patel",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -37653,6 +38256,7 @@ window.GRAPH_DATA = {
    "source": "xiaoye-sherry-li",
    "target": "zhaojun-bai",
    "factors": {
+    "genetic": 0,
     "coauthor": 3,
     "advising": 0
    },
@@ -37669,6 +38273,7 @@ window.GRAPH_DATA = {
    "source": "yijun-dong",
    "target": "yuji-nakatsukasa",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -37683,6 +38288,7 @@ window.GRAPH_DATA = {
    "source": "yousef-saad",
    "target": "zhaojun-bai",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },
@@ -37697,6 +38303,7 @@ window.GRAPH_DATA = {
    "source": "yuji-nakatsukasa",
    "target": "zhaojun-bai",
    "factors": {
+    "genetic": 0,
     "coauthor": 1,
     "advising": 0
    },

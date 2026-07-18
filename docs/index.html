@@ -13,7 +13,11 @@
 </script>
 </head>
 <body>
-<div id="layout">
+<div id="loader" aria-live="polite">
+  <div class="spinner" aria-hidden="true"></div>
+  <div>Loading the community graph…</div>
+</div>
+<div id="layout" class="booting">
   <header id="topbar">
     <div>
       <h1 id="title">Community Graph</h1>
@@ -33,15 +37,6 @@
       <label class="panel-heading" for="search">Find a person</label>
       <input id="search" type="search" placeholder="Type a name…" autocomplete="off">
       <div id="search-results"></div>
-    </section>
-
-    <section class="panel">
-      <label class="panel-heading" for="topic-search">Filter by topic</label>
-      <input id="topic-search" type="search" autocomplete="off"
-             placeholder="Find a topic…">
-      <div id="topic-chips"></div>
-      <div id="topic-count" class="hint" style="margin:6px 0 0"></div>
-      <button id="topic-clear" class="ghost-btn" style="margin-top:8px" hidden>Clear topics</button>
     </section>
 
     <section class="panel">
@@ -82,6 +77,15 @@
     </section>
 
     <section class="panel">
+      <label class="panel-heading" for="topic-search">Filter by topic</label>
+      <input id="topic-search" type="search" autocomplete="off"
+             placeholder="Find a topic…">
+      <div id="topic-chips"></div>
+      <div id="topic-count" class="hint" style="margin:6px 0 0"></div>
+      <button id="topic-clear" class="ghost-btn" style="margin-top:8px" hidden>Clear topics</button>
+    </section>
+
+    <section class="panel">
       <details id="people-list-details">
         <summary class="panel-heading">All people</summary>
         <div id="people-list"></div>
@@ -97,6 +101,11 @@
       primary sources, and send corrections to the YAML files in
       <code>data/</code>.
     </p>
+
+    <section class="panel" id="bonus-panel" hidden>
+      <h2 class="panel-heading">Bonus closeness metric</h2>
+      <div id="bonus-sliders"></div>
+    </section>
   </aside>
 
   <main id="graph-wrap">
@@ -113,7 +122,6 @@
 </div>
 
 <script src="lib/d3.v7.min.js"></script>
-<script src="data.js"></script>
 <script src="app.js"></script>
 <script>
     window.goatcounter = {
