@@ -4,6 +4,10 @@ people:
     photo: "https://users.oden.utexas.edu/~pgm/Pics/mug6.png"
     advising:
       - {advisor: vladimir-rokhlin, student: per-gunnar-martinsson, kind: postdoc}
+      - {advisor: per-gunnar-martinsson, student: heather-wilber, kind: postdoc}
+      - {advisor: per-gunnar-martinsson, student: yijun-dong, kind: phd}
+      - {advisor: per-gunnar-martinsson, student: anna-yesypenko, kind: phd}
+      - {advisor: per-gunnar-martinsson, student: katherine-pearce, kind: postdoc}
     papers:
       - title: "A fast direct solver for scattering problems involving elongated structures"
         year: 2007
@@ -53,7 +57,10 @@ people:
   - id: joel-tropp
     website: "https://tropp.caltech.edu/"
     photo: "https://tropp.caltech.edu/images/jat-headshot-web-2017.jpg"
-    advising: []
+    advising:
+      - {advisor: joel-tropp, student: ethan-epperly, kind: phd}
+      - {advisor: joel-tropp, student: robert-webber, kind: postdoc}
+      - {advisor: joel-tropp, student: chris-camano, kind: phd}
     papers:
       - title: "CoSaMP: iterative signal recovery from incomplete and inaccurate samples"
         year: 2010
@@ -163,7 +170,10 @@ people:
   - id: alex-townsend
     website: "https://alextownsend.net/"
     photo: "https://alextownsend.net/images/headshots/AlexTownsend2.jpeg"
-    advising: []
+    advising:
+      - {advisor: alex-townsend, student: heather-wilber, kind: phd}
+      - {advisor: alex-townsend, student: diana-halikias, kind: phd}
+      - {advisor: alex-townsend, student: nicolas-boulle, kind: phd}
     papers:
       - title: "Data-Driven Algorithms for Signal Processing with Trigonometric Rational Functions"
         year: 2022
@@ -449,7 +459,8 @@ people:
   - id: theo-mary
     website: "https://perso.lip6.fr/Theo.Mary/"
     photo: "https://perso.lip6.fr/Theo.Mary/images/photo.jpg"
-    advising: []
+    advising:
+      - {advisor: nicholas-higham, student: theo-mary, kind: postdoc}
     papers:
       - title: "Robust and Accurate Stopping Criteria for Adaptive Randomized Sampling in Matrix-Free Hierarchically Semiseparable Construction"
         year: 2019
@@ -488,3 +499,83 @@ people:
     advising:
       - {advisor: alex-townsend, student: nicolas-boulle, kind: phd}
     papers: []
+
+  - id: taejun-park
+    website: "https://people.epfl.ch/taejun.park?lang=en"
+    advising:
+      - {advisor: yuji-nakatsukasa, student: taejun-park, kind: phd}
+      - {advisor: daniel-kressner, student: taejun-park, kind: postdoc}
+    papers:
+      - title: "Approximating Sparse Matrices and their Functions using Matrix-vector products"
+        year: 2023
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2310.05625"
+        authors: [taejun-park, yuji-nakatsukasa]
+
+  - id: chris-camano
+    website: "https://chriscamano.com/"
+    photo: "https://chriscamano.com/assets/img/biopic1.png"
+    advising:
+      - {advisor: joel-tropp, student: chris-camano, kind: phd}
+    papers: []
+
+  - id: yijun-dong
+    website: "https://dyjdongyijun.github.io/"
+    photo: "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=l3bmbCkAAAAJ&citpid=6"
+    advising:
+      - {advisor: per-gunnar-martinsson, student: yijun-dong, kind: phd}
+      - {advisor: rachel-ward, student: yijun-dong, kind: phd}
+    papers:
+      - title: "Simpler is better: a comparative study of randomized pivoting algorithms for CUR and interpolative decompositions"
+        year: 2023
+        venue: "Adv. Comput. Math."
+        url: "https://doi.org/10.1007/s10444-023-10061-z"
+        authors: [yijun-dong, per-gunnar-martinsson]
+
+  - id: anna-yesypenko
+    website: "https://annayesy.github.io/"
+    photo: "https://annayesy.github.io/profile.jpg"
+    advising:
+      - {advisor: per-gunnar-martinsson, student: anna-yesypenko, kind: phd}
+    papers:
+      - title: "Randomized Rank-Structured Matrix Compression by Tagging"
+        year: 2025
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2501.05528"
+        authors: [katherine-pearce, anna-yesypenko, per-gunnar-martinsson]
+
+  - id: katherine-pearce
+    website: "https://kjpearce.github.io/"
+    photo: "https://kjpearce.github.io/images/me.png"
+    advising:
+      - {advisor: per-gunnar-martinsson, student: katherine-pearce, kind: postdoc}
+    papers:
+      - title: "Robust Parameter Identifiability Analysis via Column Subset Selection"
+        year: 2022
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2205.04203"
+        authors: [katherine-pearce, ilse-ipsen, arvind-saibaba]
+
+  - id: ruhui-jin
+    website: "https://ruhuijin96.github.io/"
+    photo: "https://ruhuijin96.github.io/me.jpeg"
+    advising:
+      - {advisor: rachel-ward, student: ruhui-jin, kind: phd}
+    papers:
+      - title: "Faster Johnson-Lindenstrauss Transforms via Kronecker Products"
+        year: 2019
+        venue: "CoRR"
+        url: "http://arxiv.org/abs/1909.04801"
+        authors: [ruhui-jin, rachel-ward]
+
+  - id: igor-simunec
+    website: "https://people.epfl.ch/igor.simunec?lang=en"
+    photo: "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=YryzRxIAAAAJ&citpid=4"
+    advising:
+      - {advisor: daniel-kressner, student: igor-simunec, kind: postdoc}
+    papers:
+      - title: "Randomized biorthogonalization through a two-sided Gram-Schmidt process"
+        year: 2025
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2509.04386"
+        authors: [laura-grigori, lorenzo-piccinini, igor-simunec]

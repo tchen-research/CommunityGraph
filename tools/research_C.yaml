@@ -336,7 +336,8 @@ people:
   - id: james-demmel
     website: "https://people.eecs.berkeley.edu/~demmel/"
     photo: "https://people.eecs.berkeley.edu/~demmel/Jim_Demmel_Oct2022.jpg"
-    advising: []
+    advising:
+      - {advisor: james-demmel, student: erin-carson, kind: phd}
     papers:
       - title: "Generalized Pseudospectral Shattering and Inverse-Free Matrix Pencil Diagonalization"
         year: 2026
@@ -424,3 +425,107 @@ people:
         venue: "CoRR"
         url: "https://doi.org/10.48550/arXiv.2503.18496"
         authors: [laura-grigori, zhipeng-xue]
+
+  - id: erin-carson
+    website: "https://www.karlin.mff.cuni.cz/~carson/"
+    photo: "https://www.karlin.mff.cuni.cz/~carson/erin2022a.jpg"
+    advising:
+      - {advisor: james-demmel, student: erin-carson, kind: phd}
+    papers:
+      - title: "70 years of Krylov subspace methods: The journey continues"
+        year: 2022
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2211.00953"
+        authors: [erin-carson, jorg-liesen, zdenek-strakos]
+      - title: "Write-Avoiding Algorithms"
+        year: 2016
+        venue: "IPDPS"
+        url: "https://doi.org/10.1109/IPDPS.2016.114"
+        authors: [erin-carson, james-demmel, laura-grigori]
+      - title: "A survey of numerical linear algebra methods utilizing mixed-precision arithmetic"
+        year: 2021
+        venue: "Int. J. High Perform. Comput. Appl."
+        url: "https://doi.org/10.1177/10943420211003313"
+        authors: [erin-carson, nicholas-higham, xiaoye-sherry-li]
+      - title: "A Comparison of Mixed Precision Iterative Refinement Approaches for Least-Squares Problems"
+        year: 2025
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/24m1664927"
+        authors: [erin-carson, ieva-dauzickaite]
+
+  - id: xiaoye-sherry-li
+    website: "https://portal.nersc.gov/project/sparse/xiaoye-web/"
+    photo: "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=Bjpb27sAAAAJ&citpid=1"
+    advising: []
+    papers:
+      - title: "SuperLU_DIST: A scalable distributed-memory sparse direct solver for unsymmetric linear systems"
+        year: 2003
+        venue: "ACM Trans. Math. Softw."
+        url: "https://doi.org/10.1145/779359.779361"
+        authors: [xiaoye-sherry-li, james-demmel]
+      - title: "Prospectus for a Dense Linear Algebra Software Library"
+        year: 2007
+        venue: "Handbook of Parallel Computing"
+        url: "https://doi.org/10.1201/9781420011296.ch29"
+        authors: [james-demmel, julien-langou, ming-gu, xiaoye-sherry-li, david-bindel]
+      - title: "A parallel hierarchical blocked adaptive cross approximation algorithm"
+        year: 2020
+        venue: "Int. J. High Perform. Comput. Appl."
+        url: "https://doi.org/10.1177/1094342020918305"
+        authors: [elizaveta-rebrova, xiaoye-sherry-li]
+      - title: "Parallel Symbolic Factorization for Sparse LU with Static Pivoting"
+        year: 2007
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/050638102"
+        authors: [laura-grigori, james-demmel, xiaoye-sherry-li]
+      - title: "Elucidating the Design Choice of Probability Paths in Flow Matching for Forecasting"
+        year: 2025
+        venue: "Trans. Mach. Learn. Res."
+        url: "https://openreview.net/forum?id=JApMDLwbLR"
+        authors: [michael-mahoney, xiaoye-sherry-li]
+      - title: "Interface for Sparse Linear Algebra Operations"
+        year: 2024
+        venue: "CoRR"
+        url: "https://doi.org/10.48550/arXiv.2411.13259"
+        authors: [xiaoye-sherry-li, riley-murray]
+      - title: "Robust and Accurate Stopping Criteria for Adaptive Randomized Sampling in Matrix-Free Hierarchically Semiseparable Construction"
+        year: 2019
+        venue: "SIAM J. Sci. Comput."
+        url: "https://doi.org/10.1137/18M1194961"
+        authors: [theo-mary, xiaoye-sherry-li]
+      - title: "An Implementation and Evaluation of the AMLS Method for Sparse Eigenvalue Problems"
+        year: 2008
+        venue: "ACM Trans. Math. Softw."
+        url: "https://doi.org/10.1145/1377596.1377600"
+        authors: [xiaoye-sherry-li, zhaojun-bai]
+
+  - id: zhaojun-bai
+    website: "https://www.cs.ucdavis.edu/~bai/"
+    photo: "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=soiDQbQAAAAJ&citpid=2"
+    advising: []
+    papers:
+      - title: "Nonlinear Eigenvalue Problems"
+        year: 2000
+        venue: "Templates for the Solution of Algebraic Eigenvalue Problems"
+        url: "https://doi.org/10.1137/1.9780898719581.ch9"
+        authors: [zhaojun-bai, alan-edelman]
+      - title: "Model Reduction for RF MEMS Simulation"
+        year: 2004
+        venue: "PARA"
+        url: "https://doi.org/10.1007/11558958_34"
+        authors: [david-bindel, zhaojun-bai, james-demmel]
+      - title: "An Implementation of the GMRES Method Using QR Factorization"
+        year: 1991
+        venue: "PP"
+        url: ""
+        authors: [zhaojun-bai, lothar-reichel]
+      - title: "Hermitian Eigenvalue Problems"
+        year: 2000
+        venue: "Templates for the Solution of Algebraic Eigenvalue Problems"
+        url: "https://doi.org/10.1137/1.9780898719581.ch4"
+        authors: [ming-gu, zhaojun-bai]
+      - title: "Optimizing Halley's Iteration for Computing the Matrix Polar Decomposition"
+        year: 2010
+        venue: "SIAM J. Matrix Anal. Appl."
+        url: "https://doi.org/10.1137/090774999"
+        authors: [yuji-nakatsukasa, zhaojun-bai]

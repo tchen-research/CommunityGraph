@@ -122,6 +122,8 @@
   topics:
   - fast direct solvers
   notes: Randomized compression and fast direct solvers.
+  website: https://annayesy.github.io/
+  photo: https://annayesy.github.io/profile.jpg
 - id: anne-greenbaum
   name: Anne Greenbaum
   affiliation: University of Washington
@@ -176,6 +178,8 @@
   topics:
   - randomized tensor methods
   notes: Randomized algorithms for tensor networks and Krylov methods.
+  website: https://chriscamano.com/
+  photo: https://chriscamano.com/assets/img/biopic1.png
 - id: christopher-beattie
   name: Christopher Beattie
   affiliation: Virginia Tech
@@ -349,6 +353,8 @@
   - communication-avoiding Krylov
   notes: Mixed-precision iterative refinement; s-step Krylov stability. Co-organizer of the
     Banff 2023 workshop.
+  website: https://www.karlin.mff.cuni.cz/~carson/
+  photo: https://www.karlin.mff.cuni.cz/~carson/erin2022a.jpg
 - id: erkki-somersalo
   name: Erkki Somersalo
   affiliation: Case Western Reserve University
@@ -448,6 +454,8 @@
   - matrix functions
   - Krylov methods
   notes: Krylov methods for matrix functions and network analysis.
+  website: https://people.epfl.ch/igor.simunec?lang=en
+  photo: https://scholar.googleusercontent.com/citations?view_op=view_photo&user=YryzRxIAAAAJ&citpid=4
 - id: ilse-ipsen
   name: Ilse Ipsen
   affiliation: North Carolina State University
@@ -604,6 +612,8 @@
   topics:
   - randomized low-rank
   notes: Randomized interpolative and CUR-type decompositions.
+  website: https://kjpearce.github.io/
+  photo: https://kjpearce.github.io/images/me.png
 - id: kathrin-smetana
   name: Kathrin Smetana
   affiliation: Stevens Institute of Technology
@@ -1017,6 +1027,8 @@
   topics:
   - tensor sketching
   notes: Sketching for tensor problems.
+  website: https://ruhuijin96.github.io/
+  photo: https://ruhuijin96.github.io/me.jpeg
 - id: ruiyi-yang
   name: Ruiyi Yang
   affiliation: Princeton University
@@ -1116,6 +1128,7 @@
   topics:
   - randomized low-rank
   notes: Randomized low-rank approximation algorithms.
+  website: https://people.epfl.ch/taejun.park?lang=en
 - id: tamas-sarlos
   name: Tamás Sarlós
   affiliation: Google Research
@@ -1218,6 +1231,8 @@
   topics:
   - sparse direct solvers
   notes: SuperLU sparse direct solvers; scalable numerical libraries.
+  website: https://portal.nersc.gov/project/sparse/xiaoye-web/
+  photo: https://scholar.googleusercontent.com/citations?view_op=view_photo&user=Bjpb27sAAAAJ&citpid=1
 - id: yijun-dong
   name: Yijun Dong
   affiliation: New York University
@@ -1226,6 +1241,8 @@
   - randomized low-rank
   - dimension reduction
   notes: Randomized dimension reduction and low-rank approximation.
+  website: https://dyjdongyijun.github.io/
+  photo: https://scholar.googleusercontent.com/citations?view_op=view_photo&user=l3bmbCkAAAAJ&citpid=6
 - id: yingda-cheng
   name: Yingda Cheng
   affiliation: Virginia Tech
@@ -1277,6 +1294,8 @@
   - eigenvalue problems
   - LAPACK
   notes: Large-scale eigenvalue computations; LAPACK and Templates.
+  website: https://www.cs.ucdavis.edu/~bai/
+  photo: https://scholar.googleusercontent.com/citations?view_op=view_photo&user=soiDQbQAAAAJ&citpid=2
 - id: zhaonan-meng
   name: Zhaonan Meng
   affiliation: North Carolina State University

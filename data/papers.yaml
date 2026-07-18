@@ -11,11 +11,11 @@
   - yousef-saad
 - title: An Implementation of the GMRES Method Using QR Factorization
   year: 1991
-  venue: SIAM Conference on Parallel Processing for Scientific Computing
-  url: http://dblp.uni-trier.de/db/conf/ppsc/ppsc1991.html#BaiHR91
+  venue: PP
   authors:
   - zhaojun-bai
   - lothar-reichel
+  url: http://dblp.uni-trier.de/db/conf/ppsc/ppsc1991.html#BaiHR91
 - title: Stability of block algorithms with fast level-3 BLAS
   year: 1992
   venue: ACM Trans. Math. Softw.
@@ -73,6 +73,13 @@
   authors:
   - ravindran-kannan
   - santosh-vempala
+- title: Hermitian Eigenvalue Problems
+  year: 2000
+  venue: Templates for the Solution of Algebraic Eigenvalue Problems
+  url: https://doi.org/10.1137/1.9780898719581.ch4
+  authors:
+  - ming-gu
+  - zhaojun-bai
 - title: Non-Hermitian Eigenvalue Problems
   year: 2000
   venue: Templates for the Solution of Algebraic Eigenvalue Problems
@@ -117,6 +124,14 @@
   authors:
   - ravindran-kannan
   - michael-mahoney
+- title: 'SuperLU_DIST: A scalable distributed-memory sparse direct solver for unsymmetric
+    linear systems'
+  year: 2003
+  venue: ACM Trans. Math. Softw.
+  url: https://doi.org/10.1145/779359.779361
+  authors:
+  - xiaoye-sherry-li
+  - james-demmel
 - title: Tikhonov Regularization of Large Linear Problems
   year: 2003
   venue: BIT Numerical Mathematics
@@ -139,6 +154,14 @@
   authors:
   - ravindran-kannan
   - santosh-vempala
+- title: Model Reduction for RF MEMS Simulation
+  year: 2004
+  venue: PARA
+  url: https://doi.org/10.1007/11558958_34
+  authors:
+  - david-bindel
+  - zhaojun-bai
+  - james-demmel
 - title: 'On clusterings: Good, bad and spectral'
   year: 2004
   venue: J. ACM
@@ -290,6 +313,14 @@
   authors:
   - ioana-dumitriu
   - alan-edelman
+- title: Parallel Symbolic Factorization for Sparse LU with Static Pivoting
+  year: 2007
+  venue: SIAM J. Sci. Comput.
+  url: https://doi.org/10.1137/050638102
+  authors:
+  - laura-grigori
+  - james-demmel
+  - xiaoye-sherry-li
 - title: Prospectus for a Dense Linear Algebra Software Library
   year: 2007
   venue: Handbook of Parallel Computing
@@ -300,6 +331,13 @@
   - ming-gu
   - xiaoye-sherry-li
   - david-bindel
+- title: An Implementation and Evaluation of the AMLS Method for Sparse Eigenvalue Problems
+  year: 2008
+  venue: ACM Trans. Math. Softw.
+  url: https://doi.org/10.1145/1377596.1377600
+  authors:
+  - xiaoye-sherry-li
+  - zhaojun-bai
 - title: Continuation of Invariant Subspaces in Large Bifurcation Problems
   year: 2008
   venue: SIAM J. Sci. Comput.
@@ -807,6 +845,14 @@
   - petros-drineas
   - michael-mahoney
   - david-woodruff
+- title: Write-Avoiding Algorithms
+  year: 2016
+  venue: IPDPS
+  url: https://doi.org/10.1109/IPDPS.2016.114
+  authors:
+  - erin-carson
+  - james-demmel
+  - laura-grigori
 - title: A Framework for Analyzing Resparsification Algorithms
   year: 2017
   venue: SODA
@@ -1100,6 +1146,13 @@
   authors:
   - richard-peng
   - sushant-sachdeva
+- title: Faster Johnson-Lindenstrauss Transforms via Kronecker Products
+  year: 2019
+  venue: CoRR
+  url: http://arxiv.org/abs/1909.04801
+  authors:
+  - ruhui-jin
+  - rachel-ward
 - title: Flows in almost linear time via adaptive preconditioning
   year: 2019
   venue: STOC
@@ -1168,6 +1221,13 @@
   authors:
   - tamas-sarlos
   - david-woodruff
+- title: A parallel hierarchical blocked adaptive cross approximation algorithm
+  year: 2020
+  venue: Int. J. High Perform. Comput. Appl.
+  url: https://doi.org/10.1177/1094342020918305
+  authors:
+  - elizaveta-rebrova
+  - xiaoye-sherry-li
 - title: Computing with Functions in the Ball
   year: 2020
   venue: SIAM J. Sci. Comput.
@@ -1465,6 +1525,14 @@
   - lior-horesh
   - haim-avron
   - elizabeth-newman
+- title: '70 years of Krylov subspace methods: The journey continues'
+  year: 2022
+  venue: CoRR
+  url: https://doi.org/10.48550/arXiv.2211.00953
+  authors:
+  - erin-carson
+  - jorg-liesen
+  - zdenek-strakos
 - title: An Arnoldi-based preconditioner for iterated Tikhonov regularization
   year: 2022
   venue: Numerical Algorithms
@@ -1654,8 +1722,8 @@
   - david-woodruff
 - title: Robust Parameter Identifiability Analysis via Column Subset Selection
   year: 2022
-  venue: arXiv (Cornell University)
-  url: https://doi.org/10.48550/arxiv.2205.04203
+  venue: CoRR
+  url: https://doi.org/10.48550/arXiv.2205.04203
   authors:
   - katherine-pearce
   - ilse-ipsen
@@ -1745,6 +1813,13 @@
   - rasmus-kyng
   - richard-peng
   - sushant-sachdeva
+- title: Approximating Sparse Matrices and their Functions using Matrix-vector products
+  year: 2023
+  venue: CoRR
+  url: https://doi.org/10.48550/arXiv.2310.05625
+  authors:
+  - taejun-park
+  - yuji-nakatsukasa
 - title: Bayesian Scientific Computing
   year: 2023
   venue: Applied mathematical sciences (Springer)
@@ -1914,6 +1989,14 @@
   authors:
   - yijun-dong
   - rachel-ward
+- title: 'Simpler is better: a comparative study of randomized pivoting algorithms for CUR
+    and interpolative decompositions'
+  year: 2023
+  venue: Adv. Comput. Math.
+  url: https://doi.org/10.1007/s10444-023-10061-z
+  authors:
+  - yijun-dong
+  - per-gunnar-martinsson
 - title: The Bit Complexity of Efficient Continuous Optimization
   year: 2023
   venue: FOCS
@@ -2031,8 +2114,8 @@
   - aaron-sidford
 - title: Interface for Sparse Linear Algebra Operations
   year: 2024
-  venue: arXiv (Cornell University)
-  url: https://doi.org/10.48550/arxiv.2411.13259
+  venue: CoRR
+  url: https://doi.org/10.48550/arXiv.2411.13259
   authors:
   - xiaoye-sherry-li
   - riley-murray
@@ -2192,6 +2275,14 @@
   - ethan-epperly
   - joel-tropp
   - robert-webber
+- title: A Comparison of Mixed Precision Iterative Refinement Approaches for Least-Squares
+    Problems
+  year: 2025
+  venue: SIAM J. Matrix Anal. Appl.
+  url: https://doi.org/10.1137/24m1664927
+  authors:
+  - erin-carson
+  - ieva-dauzickaite
 - title: A time-frequency method for acoustic scattering with trapping
   year: 2025
   venue: CoRR
@@ -2459,6 +2550,14 @@
   - david-persson
   - nicolas-boulle
   - daniel-kressner
+- title: Randomized Rank-Structured Matrix Compression by Tagging
+  year: 2025
+  venue: CoRR
+  url: https://doi.org/10.48550/arXiv.2501.05528
+  authors:
+  - katherine-pearce
+  - anna-yesypenko
+  - per-gunnar-martinsson
 - title: Randomized Sketched TT-GMRES for Linear Systems with Tensor Structure
   year: 2025
   venue: SIAM Journal on Scientific Computing
