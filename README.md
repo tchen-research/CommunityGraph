@@ -5,6 +5,14 @@ community: people are nodes, edges are relationships backed by tracked papers
 and advising records, and the closeness metric is a tunable weighted
 combination of factors.
 
+> **Disclaimer.** This project — the roster, papers, advising records, topic
+> tags, photos, and the app itself — was generated with Claude (Anthropic).
+> The data was scraped and curated by AI from public sources (DBLP, Google
+> Scholar, personal homepages, workshop pages) and, despite verification
+> passes, may contain errors, omissions, and stale affiliations. Edge weights
+> reflect *tracked* papers only. Treat it as a map, not a record: verify
+> against primary sources before relying on anything here.
+
 ## Quick start
 
 ```bash

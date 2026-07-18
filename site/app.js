@@ -110,7 +110,9 @@
   svg.append("defs").append("marker")
     .attr("id", "arrow")
     .attr("viewBox", "0 0 10 10")
-    .attr("refX", 9).attr("refY", 5)
+    // anchored at the triangle BASE: the whole arrowhead sits beyond the
+    // line's endpoint, hiding the round line cap behind it
+    .attr("refX", 0).attr("refY", 5)
     .attr("markerUnits", "userSpaceOnUse")
     .attr("markerWidth", 11).attr("markerHeight", 11)
     .attr("orient", "auto-start-reverse")
@@ -170,7 +172,9 @@
       const advisor = nodeById.get(rec.advisor);
       const dx = student.x - advisor.x, dy = student.y - advisor.y;
       const dist = Math.hypot(dx, dy) || 1;
-      const trim = (student.r + 4) / dist;
+      // line ends 11px (one arrow length) before the node edge; the marker
+      // fills that gap so the tip lands just off the circle
+      const trim = (student.r + 14) / dist;
       x1 = advisor.x; y1 = advisor.y;
       x2 = student.x - dx * trim;
       y2 = student.y - dy * trim;

@@ -117,6 +117,8 @@ html, body {
 details > .panel-heading, summary.panel-heading { cursor: pointer; margin-bottom: 0; }
 details[open] > summary.panel-heading { margin-bottom: 8px; }
 .hint { margin: 0 0 10px; font-size: 12px; color: var(--muted); }
+#disclaimer { margin: 0; padding: 0 4px 8px; font-size: 11px; line-height: 1.5; }
+#disclaimer code { font-size: 10.5px; }
 
 /* search */
 #search, #topic-search {
